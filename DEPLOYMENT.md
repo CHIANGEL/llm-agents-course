@@ -21,7 +21,7 @@ python3 scripts/build-pages.py
 
 然后提交、推送或将 Pull Request 合入 `main`。部署使用已提交的生成数据；打包前核对页数和入口 JS/CSS 哈希。构建不需要访问其他课程目录或作者机器上的绝对路径。
 
-仓库 Settings → Pages 的 Source 使用 **GitHub Actions**。`CHIANGEL.github.io` 已绑定 `linjianghao.com`，项目站点继承这个域名并使用独立仓库路径。此仓库的 **Custom domain 留空**，发布包不添加 CNAME，无需修改现有个人站和 MBA 站点。域名继承规则见 [GitHub 官方说明](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages#using-a-custom-domain-across-multiple-repositories)。
+仓库 Settings → Pages 的 Source 使用 **GitHub Actions**。`CHIANGEL.github.io` 已绑定 `linjianghao.com`，项目站点继承这个域名并使用独立仓库路径。此仓库的 **Custom domain 留空**，发布包不添加 CNAME，无需修改现有个人站和其他课程站点。域名继承规则见 [GitHub 官方说明](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages#using-a-custom-domain-across-multiple-repositories)。
 
 完成发布以 Actions 的 build/deploy 成功和公网课件实测为准。若失败，先查看失败步骤日志，修正并重新推送；没有文件变化时也可手动重跑工作流。
 
@@ -31,6 +31,6 @@ python3 scripts/build-pages.py
 
 ## 独立播放包
 
-`scripts/build-pages.py` 生成 `_site/`，包含 `index.html`、`src/`、`assets/`、`sources/`、页面和材料数据、版本清单及 `preview.py`。规划和 QA 历史不进入网页发布包，`_site/` 不纳入 Git。
+`scripts/build-pages.py` 生成 `_site/`，包含 `index.html`、`src/`、`assets/`、`sources/`、页面和材料数据、版本清单及 `preview.py`。规划和 QA 历史不进入网页发布包，`_site/` 不纳入 Git。工作流自行打 tar 包后交给 `actions/upload-artifact`，保留教学案例中的 `.agents` 目录；默认的 Pages 打包动作会过滤这类隐藏目录。
 
 整个 `_site/` 可以单独复制给学员。双击其中的 `index.html`，或在其中运行 `python3 preview.py --port 8876`。完整制作项目需要保留根目录、`00-课程规划/` 和 `第01讲-LLM-Agents/` 下的两个版本目录，以便继续编辑和重建。

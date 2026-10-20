@@ -26,10 +26,20 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Package current slides
         run: python3 scripts/build-pages.py
+      # The standard Pages archiver excludes dot directories, including the
+      # .agents folders in the teaching examples. Keep those course materials.
+      - name: Archive site including skill examples
+        run: >-
+          tar --dereference --hard-dereference --directory _site
+          --exclude=.git --exclude=.github --exclude=.llm-course-build
+          -cf "$RUNNER_TEMP/artifact.tar" .
       - name: Upload site
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-artifact@v4
         with:
-          path: _site
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
 
   deploy:
     needs: build
