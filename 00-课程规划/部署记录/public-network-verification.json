@@ -1,708 +1,48 @@
 {
   "url": "https://linjianghao.com/llm-agents-course/",
-  "checked_at": "2026-10-21T03:54:50+0800",
+  "checked_at": "2026-10-21T03:57:44+0800",
   "revision": "2026-10-21-public-release-r28",
   "pages": 202,
   "matches_local_manifest": true,
   "title_ok": true,
   "files": [
     {
-      "path": "preview.py",
+      "path": "assets/agent-internet-r20/commerce-agent.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "index.html",
+      "path": "assets/agent-internet-r20/commerce.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "version_manifest.json",
+      "path": "assets/agent-internet-r20/local-service-agent.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "slides.json",
+      "path": "assets/agent-internet-r20/local-service.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "materials.json",
+      "path": "assets/agent-internet-r20/user-a.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "schedule.json",
+      "path": "assets/agent-internet-r20/user-b.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/资料索引.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/portable-links.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/原课程Prompting复用核读.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/material-files.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/Prompting补充PDF核读.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/tool.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/app.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/来源.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/python.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/prompting-reference.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/prompting-reference.jpg",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/doc.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/subagents-r21.svg",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/user.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/model.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/msyh.ttc",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/header.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/msyhbd.ttc",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/llm.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/navigation.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/llm-foundations.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/实现约定.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/tool-calling-r7-data.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/tool-calling-r7.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/frontmatter-r27.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/tools-protocols-r19.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/protocols-r10-data.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-demo-data.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agents-harness.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/memory-review-r14.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/basic-mechanisms-r24.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-verify-facts.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-task.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/frontmatter-r27.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/introduction.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/section-frames.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/memory-r8.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-r2.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/decoding.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/skills-r9.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/basic-concepts-r23.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/005-008.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/robot-tools-r19.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/memory-review-r14.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/integration-r21.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/frontmatter-r27.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/harness-r11.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/llm-foundations.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agents-frames.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/memory-review-r14.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agent-opening-r17.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agents-skills.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/basic-concepts-r23.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-r2-data.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/integration-r21.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/Prompting实现分工.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/009-013.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/basic-mechanisms-r24.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/memory-r8.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/skills-r9-data.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-compare.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/memory-r8.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agent-internet-r20.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/source-replica-r5.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-task.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/tools-protocols-r19.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-clarify.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agents-memory.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/protocols-r10.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/source-replica-r5.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agents-skills.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/protocols-r10.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-validation.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-feedback.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agents-base.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/005-008.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agent-overview-r4.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/009-013.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-feedback.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agents-tools.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/protocols-r10.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-verify-facts.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agent-opening-r17.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/navigation.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-demo-links.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-base.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/skills-r9.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/harness-r11.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-compare.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agent-overview-r4.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/llm-evidence.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/decoding-data.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-frame.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/data.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agent-internet-r20.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/html-figures-r6.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/harness-r11.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/navigation.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-frame.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/schedule.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/001-004.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/protocols-r19.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/llm-foundations.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/player.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/001-004.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/memory-review-r14-data.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/skills-r9.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agents-frames.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-r2.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/basic-concepts-r23.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/memory-r8-data.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/basic-mechanisms-r24.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agent-opening-r17.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-clarify.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/html-figures-r6.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agents-tools.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/integration-r21.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/base.css",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agents-harness.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/playback-policy.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/Agents制作约定.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-demo-links.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-validation.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/prompting-r2.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agents-memory.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "src/agent-overview-r4.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/skills-r9/evaluation.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/skills-r9/jupyter.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/skills-r9/creation-cycle.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/skills-r9/file-structure.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/agent-opening-r17/finance.mp4",
+      "path": "assets/agent-opening-r17/astra-arm.jpg",
       "status": 200,
       "passed": true
     },
     {
       "path": "assets/agent-opening-r17/astra-arm.mp4",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/agent-opening-r17/browser-booking.mp4",
       "status": 200,
       "passed": true
     },
@@ -717,7 +57,7 @@
       "passed": true
     },
     {
-      "path": "assets/agent-opening-r17/astra-arm.jpg",
+      "path": "assets/agent-opening-r17/browser-booking.mp4",
       "status": 200,
       "passed": true
     },
@@ -727,402 +67,17 @@
       "passed": true
     },
     {
-      "path": "assets/agent-internet-r20/commerce-agent.png",
+      "path": "assets/agent-opening-r17/finance.mp4",
       "status": 200,
       "passed": true
     },
     {
-      "path": "assets/agent-internet-r20/local-service.png",
+      "path": "assets/agents-integration/prompting-example.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "assets/agent-internet-r20/local-service-agent.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/agent-internet-r20/user-a.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/agent-internet-r20/commerce.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/agent-internet-r20/user-b.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/memory-r8/crud-flow.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/memory-r8/proactive.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/memory-r8/entries.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/memory-r8/platform-figure1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/memory-r8/music-mismatch.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/memory-r8/update-relations.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/memory-r8/cross-session.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/memory-r8/read-scope.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/memory-r8/graph.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/memory-r8/memory-decision.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/memory-r8/memory-to-skills.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/subagent-context.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/compaction.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/hooks.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/progress.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/dependency.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/confirmation.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/formatter.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/resume.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/subagents.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/context.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/sandbox.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/components.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/externalization.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/delegation.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/hook-timing.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/clearing.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/harness-r11/runloop.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/basic-concepts-r23/doubao-mobile.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/basic-concepts-r23/deepseek-web.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/blue-arrow.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/three-layers.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/tool.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/red-arrow-shaft.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/protocol.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/external-internal.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/model.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/skill.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/row-arrow.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/list-map.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/computer.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/brace.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/memory.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/red-arrow-head.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/html-figures-r6/next-arrow.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/intro-r26/codex-workbuddy.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/cover-bio-r27/cover-gate.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/cover-bio-r27/sjtu-white.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/cover-bio-r27/portrait.jpg",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/cover-bio-r27/cover-header.svg",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/cover-bio-r27/profile-footer.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/cover-bio-r27/profile-logos.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/card.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/a2a-messages.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/agent.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/host.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/two-interactions.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/result.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/weather.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/combination.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/a2a-flow.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/directory.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/mcp-flow.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/classification-axes.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/participants.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/protocols-r10/mcp-roles.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/agents-overview-r4/review-heading.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/agents-overview-r4/map.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/agents-overview-r4/list-recall.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/agents-overview-r4/list-check.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/memory-skills-r25/memory-decision.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/skills-r16/package-tree.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/skills-r16/review-output.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "assets/agents-memory/music.png",
+      "path": "assets/agents-integration/prompting-r2-example.png",
       "status": 200,
       "passed": true
     },
@@ -1142,22 +97,42 @@
       "passed": true
     },
     {
-      "path": "assets/agents-integration/prompting-example.png",
+      "path": "assets/agents-memory/music.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "assets/agents-integration/prompting-r2-example.png",
+      "path": "assets/agents-overview-r4/list-check.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "assets/basic-mechanisms-r24/brain-in-vat.png",
+      "path": "assets/agents-overview-r4/list-recall.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "assets/basic-mechanisms-r24/doubao-multiturn.png",
+      "path": "assets/agents-overview-r4/map.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/agents-overview-r4/review-heading.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/app.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/basic-concepts-r23/deepseek-web.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/basic-concepts-r23/doubao-mobile.png",
       "status": 200,
       "passed": true
     },
@@ -1167,7 +142,417 @@
       "passed": true
     },
     {
+      "path": "assets/basic-mechanisms-r24/brain-in-vat.png",
+      "status": 200,
+      "passed": true
+    },
+    {
       "path": "assets/basic-mechanisms-r24/deepseek-multiturn.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/basic-mechanisms-r24/doubao-multiturn.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/cover-bio-r27/cover-gate.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/cover-bio-r27/cover-header.svg",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/cover-bio-r27/portrait.jpg",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/cover-bio-r27/profile-footer.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/cover-bio-r27/profile-logos.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/cover-bio-r27/sjtu-white.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/doc.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/clearing.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/compaction.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/components.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/confirmation.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/context.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/delegation.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/dependency.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/externalization.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/formatter.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/hook-timing.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/hooks.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/progress.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/resume.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/runloop.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/sandbox.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/subagent-context.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/harness-r11/subagents.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/header.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/blue-arrow.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/brace.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/computer.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/external-internal.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/list-map.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/memory.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/model.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/next-arrow.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/protocol.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/red-arrow-head.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/red-arrow-shaft.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/row-arrow.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/skill.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/three-layers.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/html-figures-r6/tool.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/intro-r26/codex-workbuddy.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/llm.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/memory-r8/cross-session.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/memory-r8/crud-flow.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/memory-r8/entries.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/memory-r8/graph.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/memory-r8/memory-decision.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/memory-r8/memory-to-skills.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/memory-r8/music-mismatch.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/memory-r8/platform-figure1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/memory-r8/proactive.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/memory-r8/read-scope.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/memory-r8/update-relations.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/memory-skills-r25/memory-decision.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/model.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/msyh.ttc",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/msyhbd.ttc",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/prompting-reference.jpg",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/prompting-reference.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/a2a-flow.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/a2a-messages.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/agent.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/card.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/classification-axes.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/combination.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/directory.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/host.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/mcp-flow.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/mcp-roles.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/participants.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/result.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/two-interactions.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/protocols-r10/weather.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/python.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/skills-r16/package-tree.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/skills-r16/review-output.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/skills-r9/creation-cycle.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/skills-r9/evaluation.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/skills-r9/file-structure.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "assets/skills-r9/jupyter.png",
       "status": 200,
       "passed": true
     },
@@ -1197,92 +582,52 @@
       "passed": true
     },
     {
-      "path": "sources/skills-r9/README.md",
+      "path": "assets/subagents-r21.svg",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/verification.json",
+      "path": "assets/tool.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/逐页内容与讲者备注.md",
+      "path": "assets/user.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/source-map.json",
+      "path": "assets/来源.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/execution.json",
+      "path": "index.html",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/来源与适配记录.md",
+      "path": "materials.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agent-opening-r17/claude-computer.html",
+      "path": "preview.py",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agent-opening-r17/browser-booking-original.gif",
+      "path": "schedule.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agent-opening-r17/browser-use.txt",
+      "path": "slides.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agent-opening-r17/magentic-one.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-opening-r17/astra-arm.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-opening-r17/来源与适配.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-opening-r17/gemini-robotics.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-opening-r17/claude-quickstarts.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-opening-r17/source-map.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-opening-r17/claude-dispatch.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-opening-r17/claude-files.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-opening-r17/retrieval.json",
+      "path": "sources/Prompting补充PDF核读.md",
       "status": 200,
       "passed": true
     },
@@ -1297,1637 +642,62 @@
       "passed": true
     },
     {
-      "path": "sources/memory-r8/LICENSE",
+      "path": "sources/agent-opening-r17/astra-arm.html",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/memory-r8/original-p52-90.txt",
+      "path": "sources/agent-opening-r17/browser-booking-original.gif",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/memory-r8/read_path_v2.md",
+      "path": "sources/agent-opening-r17/browser-use.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/memory-r8/NOTICE",
+      "path": "sources/agent-opening-r17/claude-computer.html",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/memory-r8/来源与执行性质.md",
+      "path": "sources/agent-opening-r17/claude-dispatch.html",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/memory-r8/crop-map.json",
+      "path": "sources/agent-opening-r17/claude-files.html",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/memory-r8/2505.17861.pdf",
+      "path": "sources/agent-opening-r17/claude-quickstarts.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/memory-r8/codex-prompts.rs",
+      "path": "sources/agent-opening-r17/gemini-robotics.html",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agents-skills/source-manifest.json",
+      "path": "sources/agent-opening-r17/magentic-one.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agents-skills/official-case-review.json",
+      "path": "sources/agent-opening-r17/retrieval.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agents-skills/user-request.txt",
+      "path": "sources/agent-opening-r17/source-map.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agents-skills/complete-package-tree.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-skills/python-lists-and-mean.ipynb",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/来源与执行记录.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/harness-r11/原课文字核读.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/harness-r11/来源与适配说明.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/harness-r11/source-map.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/basic-concepts-r23/image-prompts.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/basic-concepts-r23/来源与核对.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/html-figures-r6/source-map.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/memory-review-r14/来源与适配.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/intro-r26/来源与制作记录.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/intro-r26/image-request.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/pdf-image-001.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/pdf-image-000.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/pdf-image-002.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/pdf-image-003.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/封面生成专用.pptx",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/pdf-image-004.jpg",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/extract-assets.py",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/讲者介绍-原页.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/讲者介绍原件.pdf",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/讲者介绍.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/thumbnail.jpeg",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/source-map.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/image1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/image2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/tools-protocols-r19/来源与适配记录.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/manifest.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/model-config.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/collect_trace.py",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/provenance.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/chat-reader.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/generation-trace.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/attempts.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/model-tokenizer_config.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/README.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/verify_trace.py",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/model-chat-template.jinja",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/model-generation_config.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/input-chat-template.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/generation-reader.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/generated-answer.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/verification.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/file-manifest.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/generation-display.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/memory-1.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-07.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/tool-6.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-11.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-10.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-06.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-01.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/tool-1.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/mcp-record.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/tool-2.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-03.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/tool-files.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/memory-files.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/tool-3.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-02.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-09.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/memory-3.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/tool-4.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-05.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-package.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/completed-notebook.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/tool-5.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-04.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-12.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/memory-2.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/file-readers/skill-08.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/integration-r21/来源与内容取舍.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-README.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/原课文字核读.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/source-map.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/来源与适配记录.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-deepseek-20261021/README.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-deepseek-20261021/manifest.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-overview-r4/source-map.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/memory-skills-r25/document-b.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/memory-skills-r25/procurement-review-skill.zip",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/memory-skills-r25/来源与执行记录.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/memory-skills-r25/message-sequence.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/memory-skills-r25/execution.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/memory-skills-r25/document-a.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/来源核读记录.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/MCP原课程执行记录.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/视觉复核.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/原课程Harness147-167页.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/package-manifest.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/procurement-review-skill.zip",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/来源与执行记录.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/package-tree.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/message-sequence.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/tool-calling-r7/weather-text.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/tool-calling-r7/source-map.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-memory/source-manifest.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-memory/official-case-review.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-memory/memory_summary.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/expert-consultation.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/reverse-deconstruction.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/fact-checking.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/first-principles.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/minimum-experiment.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/model-write-prompt.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/four-elements.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/two-layer.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/fact-check-primary-review.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/give-example.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/README.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/manifest.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/cross-domain.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/steelman.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/socratic.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-demos-r22/horizontal-vertical.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/official-readers/remarkable.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/official-readers/aws.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/official-readers/fin.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/official-readers/README.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/official-readers/mapping.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/official-readers/rpeval.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/official-readers/zep.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/official-readers/creation-record.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/official-readers/box.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-integration/复用记录.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/basic-mechanisms-r24/image-prompts.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/basic-mechanisms-r24/来源与制作记录.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/basic-mechanisms-r24/tokenization.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-r2/transcription-provenance.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-r2/page-map.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-r2/reader.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-r2/prompts.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/prompting-r2/pdf-visible-prompts.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/source-replica-r5/source-map.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-memory/rollout_summaries/scope.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-memory/rollout_summaries/style.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/execution/validation-tests.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/execution/operations.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/case/security-requirements.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/case/review-input.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/case/task-conditions.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/case/request.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/case/output/procurement-review.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r16/case/.agents/skills/procurement-review/SKILL.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/skills-r16/case/.agents/skills/procurement-review/references/quality-checklist.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/skills-r16/case/.agents/skills/procurement-review/references/cost-scope.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/skills-r16/case/.agents/skills/procurement-review/references/pilot-review.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/skills-r16/case/.agents/skills/procurement-review/references/rollout-review.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/skills-r16/case/.agents/skills/procurement-review/agents/openai.yaml",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/skills-r16/case/.agents/skills/procurement-review/scripts/check_review.py",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/skills-r16/case/.agents/skills/procurement-review/scripts/render_review.py",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/skills-r16/case/.agents/skills/procurement-review/assets/review-template.html",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-17.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/124-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-16.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/119-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/119-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-14.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/124-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/124-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-15.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/119-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-11.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/120-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/106-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/120-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/122-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-10.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-12.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/122-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/106-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/120-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/124-4.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/106-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-13.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/122-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/119-4.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/125-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/118-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/123-4.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/118-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/125-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/118-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/125-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/107-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/121-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-5.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/123-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/123-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/105-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-4.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/107-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/121-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/107-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-6.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/105-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/105-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/123-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-7.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/121-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/110-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/checks.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/112-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/109-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/109-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/110-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/112-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/109-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-9.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/contact-8.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/112-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/110-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/114-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/116-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/116-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/114-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/116-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/114-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/108-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/115-4.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/113-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/111-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/113-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/108-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/113-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/111-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/111-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/108-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/115-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/115-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/117-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/117-3.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/108-4.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/115-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-harness/qa/117-2.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/memory-skills-r25/case/review-input.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/memory-skills-r25/case/task-conditions.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/SKILL.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/references/quality-checklist.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/references/cost-scope.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/references/pilot-review.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/references/rollout-review.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/agents/openai.yaml",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/scripts/check_review.py",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/scripts/render_review.py",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/assets/review-template.html",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/10_messages_after_tool.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/11_messages_with_illustrative_answer.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/case_provenance.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/08_tools_call_response_fixture.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/10_model_input.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/07_id_mapping.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/04_model_input.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/03_model_tools.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/10_qwen_input_template.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/01_tools_list_request.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/11_answer_illustrative.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/06_tools_call_request.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/05_assistant_text_illustrative.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/weather_fixture.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/09_tool_message.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/04_messages_before.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/05_assistant_call_illustrative.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/04_qwen_input_template.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/protocols-r10/original-mcp-data/02_tools_list_response.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/decoding/distribution.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/decoding/provenance.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/decoding/collect_distribution.py",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/decoding/reader.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/decoding/reference-cases.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/chat-template/chat_02_template.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/chat-template/chat_03_template.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/chat-template/prepare_case.py",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/chat-template/cases.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/chat-template/verification.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/chat-template/chat_01_template.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/runs/01-notice-rewrite/collect_trace.py",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/runs/01-notice-rewrite/provenance.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/runs/01-notice-rewrite/generation-trace.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/runs/01-notice-rewrite/attempts.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/runs/01-notice-rewrite/verify_trace.py",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/runs/01-notice-rewrite/model-chat-template.jinja",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/runs/01-notice-rewrite/input-chat-template.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/runs/01-notice-rewrite/generated-answer.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/runs/01-notice-rewrite/verification.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/llm-foundations/runs/01-notice-rewrite/generation-display.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/SKILL/index.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/SKILL/slides.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/SKILL/original.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/PLAN/original.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/PLAN/index.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/L3/original.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/L3/index.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/NOTEBOOK_COMPLETED/index.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/NOTEBOOK_COMPLETED/original.ipynb",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/L2/original.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/L2/index.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/MCP/index.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/MCP/slides.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/MCP/original.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/PROMPT_PDF/index.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/PROMPT_PDF/original.pdf",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/PROMPT_PDF/extracted.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/L1/original.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/L1/index.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/TEACHER/original.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/TEACHER/index.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/MEM/index.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/MEM/slides.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/library/MEM/original.html",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/cover-bio-r27/原PPT渲染/slide-1.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/computer_use/observe_after.js",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/computer_use/click.js",
+      "path": "sources/agent-opening-r17/来源与适配.md",
       "status": 200,
       "passed": true
     },
@@ -2937,12 +707,27 @@
       "passed": true
     },
     {
+      "path": "sources/agent-tools/computer_use/click.js",
+      "status": 200,
+      "passed": true
+    },
+    {
       "path": "sources/agent-tools/computer_use/observe.js",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agent-tools/tool_call_text/prepare_demo.py",
+      "path": "sources/agent-tools/computer_use/observe_after.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/computer_use/source/origin.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/computer_use/source/本机接口说明摘录.md",
       "status": 200,
       "passed": true
     },
@@ -2952,32 +737,7 @@
       "passed": true
     },
     {
-      "path": "sources/agent-tools/tool_call_text/source/origin.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/source/LICENSE",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/source/tokenizer_config.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/07_messages_after_tool.py",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/weather_fixture.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/execution_events.json",
+      "path": "sources/agent-tools/tool_call_text/data/01_messages.py",
       "status": 200,
       "passed": true
     },
@@ -2987,52 +747,7 @@
       "passed": true
     },
     {
-      "path": "sources/agent-tools/tool_call_text/data/09_assistant_answer_illustrative.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/parse_snippet.py",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/07_messages_after_tool.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/08_round2_complete.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/05_parsed_call.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/04_assistant_call_illustrative.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/append_snippet.py",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/08_round2_part4_prefix.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/artifact_sha256.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/dispatch_snippet.py",
+      "path": "sources/agent-tools/tool_call_text/data/03_round1_complete.txt",
       "status": 200,
       "passed": true
     },
@@ -3052,22 +767,12 @@
       "passed": true
     },
     {
-      "path": "sources/agent-tools/tool_call_text/data/01_messages.py",
+      "path": "sources/agent-tools/tool_call_text/data/04_assistant_call_illustrative.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agent-tools/tool_call_text/data/verification.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/08_round2_new_tail.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/08_round2_part2_assistant.txt",
+      "path": "sources/agent-tools/tool_call_text/data/05_parsed_call.json",
       "status": 200,
       "passed": true
     },
@@ -3077,17 +782,17 @@
       "passed": true
     },
     {
-      "path": "sources/agent-tools/tool_call_text/data/08_round2_part3_tool.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agent-tools/tool_call_text/data/08_round2_part1_unchanged.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
       "path": "sources/agent-tools/tool_call_text/data/07_assistant_message.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/07_messages_after_tool.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/07_messages_after_tool.py",
       "status": 200,
       "passed": true
     },
@@ -3097,7 +802,37 @@
       "passed": true
     },
     {
-      "path": "sources/agent-tools/tool_call_text/data/03_round1_complete.txt",
+      "path": "sources/agent-tools/tool_call_text/data/08_round2_complete.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/08_round2_new_tail.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/08_round2_part1_unchanged.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/08_round2_part2_assistant.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/08_round2_part3_tool.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/08_round2_part4_prefix.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/09_assistant_answer_illustrative.txt",
       "status": 200,
       "passed": true
     },
@@ -3107,12 +842,557 @@
       "passed": true
     },
     {
-      "path": "sources/agent-tools/computer_use/source/origin.json",
+      "path": "sources/agent-tools/tool_call_text/data/append_snippet.py",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agent-tools/computer_use/source/本机接口说明摘录.md",
+      "path": "sources/agent-tools/tool_call_text/data/artifact_sha256.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/dispatch_snippet.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/execution_events.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/parse_snippet.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/verification.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/data/weather_fixture.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/prepare_demo.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/source/LICENSE",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/source/origin.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/tool_call_text/source/tokenizer_config.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agent-tools/来源与执行记录.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/MCP原课程执行记录.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/105-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/105-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/105-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/106-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/106-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/106-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/107-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/107-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/107-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/108-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/108-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/108-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/108-4.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/109-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/109-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/109-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/110-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/110-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/110-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/111-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/111-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/111-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/112-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/112-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/112-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/113-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/113-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/113-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/114-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/114-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/114-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/115-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/115-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/115-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/115-4.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/116-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/116-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/116-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/117-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/117-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/117-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/118-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/118-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/118-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/119-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/119-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/119-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/119-4.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/120-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/120-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/120-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/121-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/121-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/121-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/122-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/122-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/122-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/123-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/123-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/123-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/123-4.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/124-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/124-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/124-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/124-4.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/125-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/125-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/125-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/checks.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-10.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-11.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-12.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-13.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-14.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-15.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-16.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-17.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-3.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-4.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-5.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-6.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-7.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-8.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/qa/contact-9.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/原课程Harness147-167页.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/来源核读记录.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-harness/视觉复核.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-integration/复用记录.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-memory/memory_summary.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-memory/official-case-review.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-memory/rollout_summaries/scope.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-memory/rollout_summaries/style.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-memory/source-manifest.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-overview-r4/source-map.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-skills/complete-package-tree.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-skills/completed/execution.json",
       "status": 200,
       "passed": true
     },
@@ -3132,22 +1412,7 @@
       "passed": true
     },
     {
-      "path": "sources/agents-skills/completed/execution.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-skills/jupyter-notebook/SKILL.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-skills/jupyter-notebook/LICENSE.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-skills/execution/scaffold.stdout.txt",
+      "path": "sources/agents-skills/execution/notebook-check.stdout.txt",
       "status": 200,
       "passed": true
     },
@@ -3157,57 +1422,32 @@
       "passed": true
     },
     {
-      "path": "sources/agents-skills/execution/scaffold.execution.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-skills/execution/notebook-check.stdout.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
       "path": "sources/agents-skills/execution/notebook.raw.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agents-skills/jupyter-notebook/references/experiment-patterns.md",
+      "path": "sources/agents-skills/execution/scaffold.execution.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agents-skills/jupyter-notebook/references/quality-checklist.md",
+      "path": "sources/agents-skills/execution/scaffold.stdout.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agents-skills/jupyter-notebook/references/tutorial-patterns.md",
+      "path": "sources/agents-skills/jupyter-notebook/LICENSE.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/agents-skills/jupyter-notebook/references/notebook-structure.md",
+      "path": "sources/agents-skills/jupyter-notebook/SKILL.md",
       "status": 200,
       "passed": true
     },
     {
       "path": "sources/agents-skills/jupyter-notebook/agents/openai.yaml",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-skills/jupyter-notebook/scripts/new_notebook.py",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-skills/jupyter-notebook/assets/jupyter.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/agents-skills/jupyter-notebook/assets/tutorial-template.ipynb",
       "status": 200,
       "passed": true
     },
@@ -3222,22 +1462,672 @@
       "passed": true
     },
     {
-      "path": "sources/memory-r8/procurement-case/user-task.txt",
+      "path": "sources/agents-skills/jupyter-notebook/assets/jupyter.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/memory-r8/procurement-case/first-input.json",
+      "path": "sources/agents-skills/jupyter-notebook/assets/tutorial-template.ipynb",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/memory-r8/procurement-case/project-instructions.txt",
+      "path": "sources/agents-skills/jupyter-notebook/references/experiment-patterns.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/memory-r8/procurement-case/完整材料.html",
+      "path": "sources/agents-skills/jupyter-notebook/references/notebook-structure.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-skills/jupyter-notebook/references/quality-checklist.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-skills/jupyter-notebook/references/tutorial-patterns.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-skills/jupyter-notebook/scripts/new_notebook.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-skills/official-case-review.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-skills/python-lists-and-mean.ipynb",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-skills/source-manifest.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/agents-skills/user-request.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/basic-concepts-r23/image-prompts.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/basic-concepts-r23/来源与核对.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/basic-mechanisms-r24/image-prompts.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/basic-mechanisms-r24/tokenization.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/basic-mechanisms-r24/来源与制作记录.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/extract-assets.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/image1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/image2.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/pdf-image-000.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/pdf-image-001.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/pdf-image-002.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/pdf-image-003.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/pdf-image-004.jpg",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/source-map.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/thumbnail.jpeg",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/原PPT渲染/slide-1.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/封面生成专用.pptx",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/讲者介绍-原页.png",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/讲者介绍.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/cover-bio-r27/讲者介绍原件.pdf",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/completed-notebook.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/mcp-record.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/memory-1.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/memory-2.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/memory-3.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/memory-files.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-01.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-02.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-03.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-04.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-05.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-06.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-07.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-08.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-09.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-10.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-11.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-12.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/skill-package.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/tool-1.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/tool-2.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/tool-3.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/tool-4.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/tool-5.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/tool-6.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/file-readers/tool-files.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/harness-r11/source-map.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/harness-r11/原课文字核读.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/harness-r11/来源与适配说明.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/html-figures-r6/source-map.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/integration-r21/来源与内容取舍.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/intro-r26/image-request.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/intro-r26/来源与制作记录.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/L1/index.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/L1/original.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/L2/index.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/L2/original.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/L3/index.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/L3/original.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/MCP/index.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/MCP/original.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/MCP/slides.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/MEM/index.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/MEM/original.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/MEM/slides.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/NOTEBOOK_COMPLETED/index.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/NOTEBOOK_COMPLETED/original.ipynb",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/PLAN/index.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/PLAN/original.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/PROMPT_PDF/extracted.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/PROMPT_PDF/index.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/PROMPT_PDF/original.pdf",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/SKILL/index.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/SKILL/original.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/SKILL/slides.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/TEACHER/index.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/TEACHER/original.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/library/manifest.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/README.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/attempts.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/chat-reader.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/chat-template/cases.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/chat-template/chat_01_template.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/chat-template/chat_02_template.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/chat-template/chat_03_template.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/chat-template/prepare_case.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/chat-template/verification.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/collect_trace.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/decoding/collect_distribution.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/decoding/distribution.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/decoding/provenance.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/decoding/reader.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/decoding/reference-cases.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/file-manifest.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/generated-answer.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/generation-display.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/generation-reader.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/generation-trace.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/input-chat-template.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/model-chat-template.jinja",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/model-config.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/model-generation_config.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/model-tokenizer_config.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/provenance.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/runs/01-notice-rewrite/attempts.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/runs/01-notice-rewrite/collect_trace.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/runs/01-notice-rewrite/generated-answer.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/runs/01-notice-rewrite/generation-display.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/runs/01-notice-rewrite/generation-trace.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/runs/01-notice-rewrite/input-chat-template.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/runs/01-notice-rewrite/model-chat-template.jinja",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/runs/01-notice-rewrite/provenance.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/runs/01-notice-rewrite/verification.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/runs/01-notice-rewrite/verify_trace.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/verification.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/llm-foundations/verify_trace.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/material-files.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/2505.17861.pdf",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/LICENSE",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/NOTICE",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/codex-prompts.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/crop-map.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/original-p52-90.txt",
       "status": 200,
       "passed": true
     },
@@ -3247,17 +2137,22 @@
       "passed": true
     },
     {
+      "path": "sources/memory-r8/procurement-case/answer.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/procurement-case/base_instructions.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
       "path": "sources/memory-r8/procurement-case/case-data.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/memory-r8/procurement-case/memory_summary.updated.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/memory-r8/procurement-case/answer.txt",
+      "path": "sources/memory-r8/procurement-case/first-input.json",
       "status": 200,
       "passed": true
     },
@@ -3272,12 +2167,7 @@
       "passed": true
     },
     {
-      "path": "sources/memory-r8/procurement-case/base_instructions.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/memory-r8/procurement-case/memory-instructions.txt",
+      "path": "sources/memory-r8/procurement-case/memories_v2/extensions/ad_hoc/notes/deployment-budget.md",
       "status": 200,
       "passed": true
     },
@@ -3287,17 +2177,672 @@
       "passed": true
     },
     {
-      "path": "sources/memory-r8/procurement-case/memories_v2/rollout_summaries/security-requirements.md",
-      "status": 200,
-      "passed": true
-    },
-    {
       "path": "sources/memory-r8/procurement-case/memories_v2/rollout_summaries/pilot-budget.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/memory-r8/procurement-case/memories_v2/extensions/ad_hoc/notes/deployment-budget.md",
+      "path": "sources/memory-r8/procurement-case/memories_v2/rollout_summaries/security-requirements.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/procurement-case/memory-instructions.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/procurement-case/memory_summary.updated.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/procurement-case/project-instructions.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/procurement-case/user-task.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/procurement-case/完整材料.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/read_path_v2.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-r8/来源与执行性质.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-review-r14/来源与适配.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/SKILL.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/agents/openai.yaml",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/assets/review-template.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/references/cost-scope.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/references/pilot-review.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/references/quality-checklist.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/references/rollout-review.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/scripts/check_review.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/case/.agents/skills/procurement-review/scripts/render_review.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/case/review-input.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/case/task-conditions.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/document-a.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/document-b.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/execution.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/message-sequence.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/procurement-review-skill.zip",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/memory-skills-r25/来源与执行记录.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/official-readers/README.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/official-readers/aws.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/official-readers/box.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/official-readers/creation-record.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/official-readers/fin.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/official-readers/mapping.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/official-readers/remarkable.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/official-readers/rpeval.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/official-readers/zep.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/portable-links.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-deepseek-20261021/README.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-deepseek-20261021/manifest.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/README.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/cross-domain.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/expert-consultation.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/fact-check-primary-review.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/fact-checking.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/first-principles.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/four-elements.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/give-example.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/horizontal-vertical.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/manifest.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/minimum-experiment.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/model-write-prompt.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/reverse-deconstruction.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/socratic.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/steelman.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-demos-r22/two-layer.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-r2/page-map.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-r2/pdf-visible-prompts.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-r2/prompts.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-r2/reader.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/prompting-r2/transcription-provenance.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-README.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/01_tools_list_request.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/02_tools_list_response.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/03_model_tools.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/04_messages_before.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/04_model_input.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/04_qwen_input_template.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/05_assistant_call_illustrative.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/05_assistant_text_illustrative.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/06_tools_call_request.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/07_id_mapping.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/08_tools_call_response_fixture.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/09_tool_message.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/10_messages_after_tool.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/10_model_input.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/10_qwen_input_template.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/11_answer_illustrative.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/11_messages_with_illustrative_answer.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/case_provenance.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/original-mcp-data/weather_fixture.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/source-map.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/原课文字核读.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/protocols-r10/来源与适配记录.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/.agents/skills/procurement-review/SKILL.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/.agents/skills/procurement-review/agents/openai.yaml",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/.agents/skills/procurement-review/assets/review-template.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/.agents/skills/procurement-review/references/cost-scope.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/.agents/skills/procurement-review/references/pilot-review.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/.agents/skills/procurement-review/references/quality-checklist.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/.agents/skills/procurement-review/references/rollout-review.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/.agents/skills/procurement-review/scripts/check_review.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/.agents/skills/procurement-review/scripts/render_review.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/output/procurement-review.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/request.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/review-input.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/security-requirements.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/case/task-conditions.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/execution/operations.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/execution/validation-tests.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/message-sequence.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/package-manifest.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/package-tree.html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/procurement-review-skill.zip",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r16/来源与执行记录.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/README.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/execution.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/base_instructions.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/complete-package-tree.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/data.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/environment.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/checklist-read.execution.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/checklist-read.stdout.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/notebook-check.execution.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/notebook-check.stdout.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/notebook-read.execution.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/notebook-read.stdout.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/notebook-readable.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/notebook.raw.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/read-events.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/reference-read.execution.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/reference-read.stdout.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/scaffold.execution.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/scaffold.stderr.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/scaffold.stdout.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/skill-read.execution.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/execution/skill-read.stdout.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/final-answer.illustrative.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/messages/after-checklist.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/messages/after-create.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/messages/after-notebook.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/messages/after-reference.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/messages/after-skill.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/messages/complete.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/messages/initial.json",
       "status": 200,
       "passed": true
     },
@@ -3317,22 +2862,37 @@
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/材料说明.md",
+      "path": "sources/skills-r9/original-case/project.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/data.json",
+      "path": "sources/skills-r9/original-case/requests/after-checklist.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/user-request.txt",
+      "path": "sources/skills-r9/original-case/requests/after-create.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/tool-exec.json",
+      "path": "sources/skills-r9/original-case/requests/after-notebook.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/requests/after-reference.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/requests/after-skill.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/requests/initial.json",
       "status": 200,
       "passed": true
     },
@@ -3342,52 +2902,92 @@
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/complete-package-tree.txt",
+      "path": "sources/skills-r9/original-case/tool-exec.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/base_instructions.txt",
+      "path": "sources/skills-r9/original-case/user-request.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/environment.txt",
+      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/LICENSE.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/project.txt",
+      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/SKILL.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/final-answer.illustrative.txt",
+      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/agents/openai.yaml",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/output/python-lists-and-mean.ipynb",
+      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/assets/experiment-template.ipynb",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/tool-exec.proposed.json",
+      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/assets/jupyter-small.svg",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/source-manifest.json",
+      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/assets/jupyter.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/upstream-package-source-manifest.json",
+      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/assets/tutorial-template.ipynb",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/skills-instructions.unaliased-variant.txt",
+      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/references/experiment-patterns.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/references/notebook-structure.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/references/quality-checklist.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/references/tutorial-patterns.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/scripts/new_notebook.py",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/workspace/AGENTS.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/workspace/output/jupyter-notebook/python-lists-and-mean.ipynb",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-case/材料说明.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/audit.md",
       "status": 200,
       "passed": true
     },
@@ -3397,17 +2997,7 @@
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/project.filled.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/skills-instructions.filled.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/request-envelope.example.json",
+      "path": "sources/skills-r9/original-research/catalog-render-check.json",
       "status": 200,
       "passed": true
     },
@@ -3417,7 +3007,22 @@
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/audit.md",
+      "path": "sources/skills-r9/original-research/environment.filled.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/final-source-review.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/final-wording-review.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/initial-input.proposed.json",
       "status": 200,
       "passed": true
     },
@@ -3432,102 +3037,37 @@
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/skills-usage.source.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/catalog-render-check.json",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/environment.filled.txt",
-      "status": 200,
-      "passed": true
-    },
-    {
       "path": "sources/skills-r9/original-research/permissions.filled.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/final-wording-review.md",
+      "path": "sources/skills-r9/original-research/project.filled.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/final-source-review.md",
+      "path": "sources/skills-r9/original-research/request-envelope.example.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/initial-input.proposed.json",
+      "path": "sources/skills-r9/original-research/skills-instructions.filled.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/package/SKILL.md",
+      "path": "sources/skills-r9/original-research/skills-instructions.unaliased-variant.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/package/LICENSE.txt",
+      "path": "sources/skills-r9/original-research/skills-usage.source.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/package/references/experiment-patterns.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/package/references/quality-checklist.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/package/references/tutorial-patterns.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/package/references/notebook-structure.md",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/package/agents/openai.yaml",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/package/scripts/new_notebook.py",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/package/assets/jupyter.png",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/package/assets/tutorial-template.ipynb",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/package/assets/experiment-template.ipynb",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/package/assets/jupyter-small.svg",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/models-manager/models.json",
+      "path": "sources/skills-r9/original-research/source-manifest.json",
       "status": 200,
       "passed": true
     },
@@ -3537,27 +3077,182 @@
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/source/codex-rs/skills/src/mentions.rs",
+      "path": "sources/skills-r9/original-research/source/codex-rs/context-fragments/src/fragment.rs",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/source/codex-rs/skills/src/selection.rs",
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/client.rs",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/source/codex-rs/skills/src/invocation.rs",
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/client_common.rs",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/source/codex-rs/skills/src/parser.rs",
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/context/base_instructions.rs",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/source/codex-rs/skills/src/model.rs",
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/context/environment_context.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/context/user_instructions.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/context/world_state/agents_md.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/context/world_state/permissions.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/context_manager/updates.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/responses_metadata.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/session/mod.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/session/turn.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/session/world_state.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/skills.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/tools/handlers/shell_spec.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/tools/handlers/unified_exec/exec_command.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/aliases.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/catalog.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/catalog_prompt.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/extension.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/fragments.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/host_aliases.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/host_prompt.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/host_roots.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/invocation.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/loader/host.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/provider/host.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/render.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/render_dedup.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/selection.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/tools/list.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/tools/mod.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/tools/read.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/world_state.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/world_state_catalogs.rs",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "sources/skills-r9/original-research/source/codex-rs/models-manager/models.json",
       "status": 200,
       "passed": true
     },
@@ -3582,182 +3277,27 @@
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/source/codex-rs/utils/string/src/truncate.rs",
+      "path": "sources/skills-r9/original-research/source/codex-rs/skills/src/invocation.rs",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/host_roots.rs",
+      "path": "sources/skills-r9/original-research/source/codex-rs/skills/src/mentions.rs",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/render.rs",
+      "path": "sources/skills-r9/original-research/source/codex-rs/skills/src/model.rs",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/catalog.rs",
+      "path": "sources/skills-r9/original-research/source/codex-rs/skills/src/parser.rs",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/host_prompt.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/fragments.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/world_state_catalogs.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/selection.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/invocation.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/world_state.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/extension.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/render_dedup.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/host_aliases.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/catalog_prompt.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/aliases.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/tools/list.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/tools/mod.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/tools/read.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/provider/host.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/ext/skills/src/loader/host.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/context-fragments/src/fragment.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/responses_metadata.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/client.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/client_common.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/skills.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/context/user_instructions.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/context/environment_context.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/context/base_instructions.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/context_manager/updates.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/session/turn.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/session/mod.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/session/world_state.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/context/world_state/agents_md.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/context/world_state/permissions.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/tools/handlers/shell_spec.rs",
-      "status": 200,
-      "passed": true
-    },
-    {
-      "path": "sources/skills-r9/original-research/source/codex-rs/core/src/tools/handlers/unified_exec/exec_command.rs",
+      "path": "sources/skills-r9/original-research/source/codex-rs/skills/src/selection.rs",
       "status": 200,
       "passed": true
     },
@@ -3767,219 +3307,679 @@
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/messages/after-notebook.json",
+      "path": "sources/skills-r9/original-research/source/codex-rs/utils/string/src/truncate.rs",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/messages/after-create.json",
+      "path": "sources/skills-r9/original-research/tool-exec.proposed.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/messages/after-reference.json",
+      "path": "sources/skills-r9/original-research/upstream-package-source-manifest.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/messages/after-checklist.json",
+      "path": "sources/skills-r9/output/python-lists-and-mean.ipynb",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/messages/complete.json",
+      "path": "sources/skills-r9/package/LICENSE.txt",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/messages/initial.json",
+      "path": "sources/skills-r9/package/SKILL.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/messages/after-skill.json",
+      "path": "sources/skills-r9/package/agents/openai.yaml",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/AGENTS.md",
+      "path": "sources/skills-r9/package/assets/experiment-template.ipynb",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/requests/after-notebook.json",
+      "path": "sources/skills-r9/package/assets/jupyter-small.svg",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/requests/after-create.json",
+      "path": "sources/skills-r9/package/assets/jupyter.png",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/requests/after-reference.json",
+      "path": "sources/skills-r9/package/assets/tutorial-template.ipynb",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/requests/after-checklist.json",
+      "path": "sources/skills-r9/package/references/experiment-patterns.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/requests/initial.json",
+      "path": "sources/skills-r9/package/references/notebook-structure.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/requests/after-skill.json",
+      "path": "sources/skills-r9/package/references/quality-checklist.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/scaffold.stdout.txt",
+      "path": "sources/skills-r9/package/references/tutorial-patterns.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/notebook-readable.txt",
+      "path": "sources/skills-r9/package/scripts/new_notebook.py",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/scaffold.execution.json",
+      "path": "sources/skills-r9/source-map.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/checklist-read.execution.json",
+      "path": "sources/skills-r9/verification.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/notebook-check.execution.json",
+      "path": "sources/skills-r9/来源与适配记录.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/reference-read.execution.json",
+      "path": "sources/skills-r9/逐页内容与讲者备注.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/skill-read.execution.json",
+      "path": "sources/source-replica-r5/source-map.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/notebook-check.stdout.txt",
+      "path": "sources/tool-calling-r7/source-map.json",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/read-events.json",
+      "path": "sources/tool-calling-r7/weather-text.html",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/notebook-read.execution.json",
+      "path": "sources/tools-protocols-r19/来源与适配记录.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/skill-read.stdout.txt",
+      "path": "sources/原课程Prompting复用核读.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/scaffold.stderr.txt",
+      "path": "sources/资料索引.md",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/reference-read.stdout.txt",
+      "path": "src/001-004.css",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/notebook-read.stdout.txt",
+      "path": "src/001-004.js",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/notebook.raw.json",
+      "path": "src/005-008.css",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/execution/checklist-read.stdout.txt",
+      "path": "src/005-008.js",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/output/jupyter-notebook/python-lists-and-mean.ipynb",
+      "path": "src/009-013.css",
       "status": 200,
       "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/SKILL.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
+      "path": "src/009-013.js",
+      "status": 200,
+      "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/LICENSE.txt",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
+      "path": "src/Agents制作约定.md",
+      "status": 200,
+      "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/references/experiment-patterns.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
+      "path": "src/Prompting实现分工.md",
+      "status": 200,
+      "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/references/quality-checklist.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
+      "path": "src/agent-internet-r20.css",
+      "status": 200,
+      "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/references/tutorial-patterns.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
+      "path": "src/agent-internet-r20.js",
+      "status": 200,
+      "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/references/notebook-structure.md",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
+      "path": "src/agent-opening-r17.css",
+      "status": 200,
+      "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/agents/openai.yaml",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
+      "path": "src/agent-opening-r17.js",
+      "status": 200,
+      "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/scripts/new_notebook.py",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
+      "path": "src/agent-opening-r17.json",
+      "status": 200,
+      "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/assets/jupyter.png",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
+      "path": "src/agent-overview-r4.css",
+      "status": 200,
+      "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/assets/tutorial-template.ipynb",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
+      "path": "src/agent-overview-r4.js",
+      "status": 200,
+      "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/assets/experiment-template.ipynb",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
+      "path": "src/agent-overview-r4.json",
+      "status": 200,
+      "passed": true
     },
     {
-      "path": "sources/skills-r9/original-case/workspace/.agents/skills/jupyter-notebook/assets/jupyter-small.svg",
-      "passed": false,
-      "error": "HTTP Error 404: Not Found"
+      "path": "src/agents-base.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/agents-frames.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/agents-frames.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/agents-harness.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/agents-harness.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/agents-memory.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/agents-memory.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/agents-skills.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/agents-skills.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/agents-tools.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/agents-tools.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/base.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/basic-concepts-r23.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/basic-concepts-r23.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/basic-concepts-r23.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/basic-mechanisms-r24.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/basic-mechanisms-r24.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/basic-mechanisms-r24.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/data.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/decoding-data.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/decoding.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/frontmatter-r27.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/frontmatter-r27.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/frontmatter-r27.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/harness-r11.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/harness-r11.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/harness-r11.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/html-figures-r6.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/html-figures-r6.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/integration-r21.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/integration-r21.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/integration-r21.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/introduction.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/llm-evidence.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/llm-foundations.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/llm-foundations.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/llm-foundations.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/memory-r8-data.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/memory-r8.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/memory-r8.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/memory-r8.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/memory-review-r14-data.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/memory-review-r14.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/memory-review-r14.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/memory-review-r14.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/navigation.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/navigation.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/navigation.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/playback-policy.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/player.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-base.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-clarify.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-clarify.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-compare.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-compare.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-demo-data.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-demo-links.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-demo-links.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-feedback.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-feedback.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-frame.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-frame.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-r2-data.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-r2.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-r2.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-r2.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-task.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-task.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-validation.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-validation.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-verify-facts.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting-verify-facts.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/prompting.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/protocols-r10-data.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/protocols-r10.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/protocols-r10.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/protocols-r10.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/protocols-r19.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/robot-tools-r19.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/schedule.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/section-frames.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/skills-r9-data.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/skills-r9.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/skills-r9.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/skills-r9.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/source-replica-r5.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/source-replica-r5.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/tool-calling-r7-data.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/tool-calling-r7.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/tools-protocols-r19.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/tools-protocols-r19.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "src/实现约定.md",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "version_manifest.json",
+      "status": 200,
+      "passed": true
     }
   ],
   "asset_hashes": [
@@ -4373,5 +4373,38 @@
       "content_range": "bytes 0-1023/1371899"
     }
   ],
-  "passed": false
+  "passed": true,
+  "local_extras_outside_build_manifest": [
+    {
+      "path": "index 2.html",
+      "passed": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "materials 2.json",
+      "passed": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "preview 2.py",
+      "passed": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "schedule 2.json",
+      "passed": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "slides 2.json",
+      "passed": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "version_manifest 2.json",
+      "passed": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "file_inventory_basis": "Six explicit entry/data files and src/assets/sources copied by scripts/build-pages.py; excludes unrelated local output copies."
 }
