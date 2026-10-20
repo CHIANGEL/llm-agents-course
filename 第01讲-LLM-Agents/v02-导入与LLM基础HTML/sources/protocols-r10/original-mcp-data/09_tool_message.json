@@ -1,0 +1,5 @@
+{
+  "role": "tool",
+  "tool_call_id": "call_weather_01",
+  "content": "Current weather in New York:\n Temperature: 72°F\n Conditions: Partly cloudy"
+}

@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 4,
+  "text": "LLM基础：连续生成与多轮聊天\n先解释回答怎样生成，再解释聊天记录怎样进入这次生成。\n① 应用组织输入\n② 模型逐Token生成\n③ 本轮回复结束\n任务要求\n用户消息\n以前的助手回复\n预测候选 → 选出一个\nThe → lecture → scheduled\n新Token接到已有前文后\n继续预测下一个\n生成结束标记\n<|im_end|>\n停止本次生成\n下一轮：把新消息加入历史，再组织输入\n两个问题：每一个Token如何产生？多轮消息如何拼成一份输入？\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n1.1 连续生成\n1.2 多轮聊天\n1.3 LLM小结",
+  "title": "第4页 LLM基础：连续生成与多轮聊天"
+}

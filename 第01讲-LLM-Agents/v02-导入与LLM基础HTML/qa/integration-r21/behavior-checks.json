@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-20",
+  "method": "Actual CUA interaction and visual inspection; scope limited to this revision",
+  "visually_reviewed_pages": [
+    1,
+    3,
+    184,
+    185,
+    186,
+    187,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198
+  ],
+  "sequential_segments": [
+    [
+      184,
+      185,
+      186,
+      187
+    ],
+    [
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198
+    ]
+  ],
+  "checks": [
+    {
+      "action": "198: Right twice, Left",
+      "observed": "198, 198, 197",
+      "status": "passed"
+    },
+    {
+      "action": "Last agenda: click 1.1",
+      "observed": "page 3, correct current section, no legend",
+      "status": "passed"
+    },
+    {
+      "action": "Player contents: select 197",
+      "observed": "page 197",
+      "status": "passed"
+    },
+    {
+      "action": "Home / End",
+      "observed": "page 1 / page 198",
+      "status": "passed"
+    },
+    {
+      "action": "197 materials / Escape",
+      "observed": "text visible, modal closes",
+      "status": "passed"
+    },
+    {
+      "action": "197 notes / Close",
+      "observed": "current explanatory notes, modal closes",
+      "status": "passed"
+    },
+    {
+      "action": "197 zoom + / - / Close",
+      "observed": "100% -> 125% -> 100%, returns to page 197",
+      "status": "passed"
+    },
+    {
+      "action": "Full screen and normal view",
+      "observed": "changed pages fit, no clipped labels after corrections",
+      "status": "passed"
+    },
+    {
+      "action": "195 official source link",
+      "observed": "browser tab title and URL match official article; external AX reads timed out twice",
+      "status": "navigation passed; external AX limited"
+    },
+    {
+      "action": "Read localhost console for final test tab",
+      "observed": "No warning or error entries",
+      "status": "passed"
+    }
+  ],
+  "not_retested": [
+    "All unchanged pages and their internal controls",
+    "file://",
+    "Other browsers"
+  ],
+  "remaining_known_issues": []
+}

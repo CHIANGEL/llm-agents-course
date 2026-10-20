@@ -1,0 +1,370 @@
+[
+  {
+    "source": 3,
+    "i": 0,
+    "label": "导入",
+    "target": 0,
+    "actual": 1,
+    "ok": true
+  },
+  {
+    "source": 3,
+    "i": 1,
+    "label": "1. LLM基础",
+    "target": 2,
+    "actual": 3,
+    "ok": true
+  },
+  {
+    "source": 3,
+    "i": 2,
+    "label": "2. Prompting",
+    "target": 15,
+    "actual": 16,
+    "ok": true
+  },
+  {
+    "source": 3,
+    "i": 3,
+    "label": "3. Agents · Externalization & Internalization",
+    "target": 50,
+    "actual": 51,
+    "ok": true
+  },
+  {
+    "source": 3,
+    "i": 4,
+    "label": "1.1 连续生成",
+    "target": 2,
+    "actual": 3,
+    "ok": true
+  },
+  {
+    "source": 3,
+    "i": 5,
+    "label": "1.2 多轮聊天",
+    "target": 9,
+    "actual": 10,
+    "ok": true
+  },
+  {
+    "source": 3,
+    "i": 6,
+    "label": "1.3 LLM小结",
+    "target": 14,
+    "actual": 15,
+    "ok": true
+  },
+  {
+    "source": 16,
+    "i": 0,
+    "label": "导入",
+    "target": 0,
+    "actual": 1,
+    "ok": true
+  },
+  {
+    "source": 16,
+    "i": 1,
+    "label": "1. LLM基础",
+    "target": 2,
+    "actual": 3,
+    "ok": true
+  },
+  {
+    "source": 16,
+    "i": 2,
+    "label": "2. Prompting",
+    "target": 15,
+    "actual": 16,
+    "ok": true
+  },
+  {
+    "source": 16,
+    "i": 3,
+    "label": "3. Agents · Externalization & Internalization",
+    "target": 50,
+    "actual": 51,
+    "ok": true
+  },
+  {
+    "source": 16,
+    "i": 4,
+    "label": "2.1 三个核心",
+    "target": 15,
+    "actual": 16,
+    "ok": true
+  },
+  {
+    "source": 16,
+    "i": 5,
+    "label": "2.2 问清问题",
+    "target": 21,
+    "actual": 22,
+    "ok": true
+  },
+  {
+    "source": 16,
+    "i": 6,
+    "label": "2.3 学习",
+    "target": 24,
+    "actual": 25,
+    "ok": true
+  },
+  {
+    "source": 16,
+    "i": 7,
+    "label": "2.4 解决问题",
+    "target": 34,
+    "actual": 35,
+    "ok": true
+  },
+  {
+    "source": 16,
+    "i": 8,
+    "label": "2.5 决策",
+    "target": 41,
+    "actual": 42,
+    "ok": true
+  },
+  {
+    "source": 16,
+    "i": 9,
+    "label": "2.6 Prompting小结",
+    "target": 48,
+    "actual": 49,
+    "ok": true
+  },
+  {
+    "source": 51,
+    "i": 0,
+    "label": "导入",
+    "target": 0,
+    "actual": 1,
+    "ok": true
+  },
+  {
+    "source": 51,
+    "i": 1,
+    "label": "1. LLM基础",
+    "target": 2,
+    "actual": 3,
+    "ok": true
+  },
+  {
+    "source": 51,
+    "i": 2,
+    "label": "2. Prompting",
+    "target": 15,
+    "actual": 16,
+    "ok": true
+  },
+  {
+    "source": 51,
+    "i": 3,
+    "label": "3. Agents · Externalization & Internalization",
+    "target": 50,
+    "actual": 51,
+    "ok": true
+  },
+  {
+    "source": 51,
+    "i": 4,
+    "label": "3.0 外化与内化总览",
+    "target": 50,
+    "actual": 51,
+    "ok": true
+  },
+  {
+    "source": 51,
+    "i": 5,
+    "label": "3.1 工具调用",
+    "target": 61,
+    "actual": 62,
+    "ok": true
+  },
+  {
+    "source": 51,
+    "i": 6,
+    "label": "3.2 Memory",
+    "target": 72,
+    "actual": 73,
+    "ok": true
+  },
+  {
+    "source": 51,
+    "i": 7,
+    "label": "3.3 Skills",
+    "target": 103,
+    "actual": 104,
+    "ok": true
+  },
+  {
+    "source": 51,
+    "i": 8,
+    "label": "3.4 Protocols",
+    "target": 130,
+    "actual": 131,
+    "ok": true
+  },
+  {
+    "source": 51,
+    "i": 9,
+    "label": "3.5 Harness",
+    "target": 147,
+    "actual": 148,
+    "ok": true
+  },
+  {
+    "source": 51,
+    "i": 10,
+    "label": "3.6 外化与内化整合",
+    "target": 166,
+    "actual": 167,
+    "ok": true
+  },
+  {
+    "source": 51,
+    "i": 11,
+    "label": "3.7 全讲总结",
+    "target": 173,
+    "actual": 174,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 0,
+    "label": "→\n1.1 连续生成\n接下来",
+    "target": 2,
+    "actual": 3,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 1,
+    "label": "1.2 多轮聊天",
+    "target": 9,
+    "actual": 10,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 2,
+    "label": "1.3 LLM小结",
+    "target": 14,
+    "actual": 15,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 3,
+    "label": "2.1 三个核心",
+    "target": 15,
+    "actual": 16,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 4,
+    "label": "2.2 问清问题",
+    "target": 21,
+    "actual": 22,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 5,
+    "label": "2.3 学习",
+    "target": 24,
+    "actual": 25,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 6,
+    "label": "2.4 解决问题",
+    "target": 34,
+    "actual": 35,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 7,
+    "label": "2.5 决策",
+    "target": 41,
+    "actual": 42,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 8,
+    "label": "2.6 Prompting小结",
+    "target": 48,
+    "actual": 49,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 9,
+    "label": "3.0 外化与内化总览",
+    "target": 50,
+    "actual": 51,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 10,
+    "label": "3.1 工具调用",
+    "target": 61,
+    "actual": 62,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 11,
+    "label": "3.2 Memory",
+    "target": 72,
+    "actual": 73,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 12,
+    "label": "3.3 Skills",
+    "target": 103,
+    "actual": 104,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 13,
+    "label": "3.4 Protocols",
+    "target": 130,
+    "actual": 131,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 14,
+    "label": "3.5 Harness",
+    "target": 147,
+    "actual": 148,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 15,
+    "label": "3.6 外化与内化整合",
+    "target": 166,
+    "actual": 167,
+    "ok": true
+  },
+  {
+    "source": "agenda",
+    "i": 16,
+    "label": "3.7 全讲总结",
+    "target": 173,
+    "actual": 174,
+    "ok": true
+  }
+]

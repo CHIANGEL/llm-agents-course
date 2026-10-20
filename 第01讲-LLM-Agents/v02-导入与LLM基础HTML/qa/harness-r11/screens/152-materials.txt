@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=152&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=152&s=1
+	2 container 第152页 · 完整材料, ID: deck-dialog
+		3 container
+			4 heading 第152页 · 完整材料, Value: 2, ID: dialog-title
+				8 text 第152页 · 完整材料
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			9 heading 本页要点, Value: 3
+				10 text 本页要点
+			11 text 上下文：下一次调用要带上什么？
+
+上下文是本次模型调用能够看到的材料，包括任务、对话、工具说明与返回内容。任务推进时，网页、长日志和讨论会不断累积。Harness选择当前相关材料，摘要较早过程，清理已用过且后续不需要的长输出。保留任务所需信息比反复携带所有过程更重要。
+			12 heading 相关材料, Value: 3
+				13 text 相关材料
+			14 text 上下文是本次模型调用能够看到的材料，包括任务、对话、工具说明与返回内容。任务推进时，网页、长日志和讨论会不断累积。Harness选择当前相关材料，摘要较早过程，清理已用过且后续不需要的长输出。保留任务所需信息比反复携带所有过程更重要。
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

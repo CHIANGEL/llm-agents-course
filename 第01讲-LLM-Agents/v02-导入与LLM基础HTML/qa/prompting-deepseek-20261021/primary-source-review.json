@@ -1,0 +1,78 @@
+[
+  {
+    "topic": "复利",
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest",
+    "check": "逐期本金连乘；10000×1.1²=12100；10000×1.1×0.9=9900；无中途现金流时交换两期收益率不改终值。"
+  },
+  {
+    "topic": "ETF淘汰原因",
+    "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24",
+    "check": "ETF场内交易价格与NAV不同；不以普通基金金额申购示例替代场内交易。"
+  },
+  {
+    "topic": "过拟合",
+    "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+    "check": "交叉验证用于评估和调参；训练表现不能替代泛化评估。"
+  },
+  {
+    "topic": "贵州茅台2025年报",
+    "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-17/600519_20260417_9QS4.pdf",
+    "pages": [
+      6,
+      10,
+      17,
+      18
+    ],
+    "check": "核对营业收入/归母净利、分产品收入、直销/批发口径和i茅台收入。注意营业收入与营业总收入不能混用。"
+  },
+  {
+    "topic": "i茅台上线年份",
+    "url": "https://www.moutaichina.com/maotaigf/fileDir/resource/cms/article/408431/555229/2023033114053018410.pdf",
+    "check": "2022年报摘要记载当年上线运行，淘汰把上线写成2021年的回答。"
+  },
+  {
+    "topic": "五粮液品牌",
+    "url": "https://www.wuliangye.com.cn/zh/main/2024/1218/home/index.html",
+    "check": "浓香品牌定位。"
+  },
+  {
+    "topic": "泸州老窖品牌",
+    "url": "https://www.lzlj.com/brand/dingzhijiu/11474.html",
+    "check": "国窖1573与泸州老窖品牌、浓香定位。"
+  },
+  {
+    "topic": "现金流教学数据",
+    "url": "https://www.sec.gov/investor/pubs/begfinstmtguide.htm",
+    "check": "现金流与净利润不同；间接法调节营运资本。课堂算式100+90-80-50+20-30-10=40，数据为假设，不对应真实企业。"
+  },
+  {
+    "topic": "回购判断的依据",
+    "url": "https://berkshirehathaway.com/letters/1999htm.html",
+    "check": "企业公开说明回购需结合保守估计的内在价值，不能把减少股数自动等同创造股东价值；课堂不设真实股票买卖建议。"
+  },
+  {
+    "topic": "取餐类比候选核验",
+    "url": "https://www.starbucks.com.cn/about/news/starbucks-china-release-starbucks-now/",
+    "check": "官方支持手机点单到店取服务；回答中的具体双动线等描述不由该页直接支持。"
+  },
+  {
+    "topic": "银行分流候选核验",
+    "url": "https://ae2.ccb.com/chn/2007-08/17/article_2022110414390765842.shtml",
+    "check": "官方案例支持简单复杂业务分流，列15分钟至9分钟，不能据此核实模型写的减少约5分钟。"
+  },
+  {
+    "topic": "得来速队列类比候选",
+    "url": "https://patents.google.com/patent/WO2025122185A1/en",
+    "check": "专利说明分路、等待与状态屏机制。专利设计不能直接称已证实运营效果。"
+  },
+  {
+    "topic": "跨领域类比：MLFQ",
+    "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf",
+    "check": "教材说明动态优先级、新任务优先、用完配额降级和周期提升。回答中的就绪订单与短任务只是迁移类比，不是算法等价。"
+  },
+  {
+    "topic": "跨领域类比：提前准备订单",
+    "url": "https://corporate.mcdonalds.com/corpmcd/terms-and-conditions.html",
+    "check": "官方条款第3节支持通过移动应用或网站提前下单、在到店前开始准备，部分功能依赖定位。没有核实回答将车牌识别和电子围栏拼成同一实现的说法，不将该补充段落列为核实事实。"
+  }
+]

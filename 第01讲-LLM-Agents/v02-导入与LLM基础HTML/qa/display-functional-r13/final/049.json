@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 49,
+  "text": "Prompting小结：任务清楚，方法合适\n先把任务交代清楚，再根据当前需要选择处理方法。\n先把任务交代清楚\n四大要点\n角色、背景、目标、示例\n给Example\n给出参照，说明参考什么\n让模型写Prompt\n把初稿整理成完整指令\n再根据需要选择方法\n问清问题\n苏格拉底式提问\n学习\n双层解释 · 反向拆解\n横纵分析 · 事实核查\n解决问题\n专家会诊 · 第一性原理\n跨领域借解\n决策\n双向钢人 · 最小实验\n任务交代决定输入是否清楚；处理方法决定接下来怎样分析。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n2.1 三个核心\n2.2 问清问题\n2.3 学习\n2.4 解决问题\n2.5 决策\n2.6 Prompting小结",
+  "title": "第49页 Prompting小结：任务清楚，方法合适"
+}

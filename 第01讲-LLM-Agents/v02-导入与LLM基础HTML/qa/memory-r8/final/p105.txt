@@ -1,0 +1,46 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=105&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=105&s=1
+	2 container
+		55 container Description: 第105页 Skills：把可复用的做法组织起来, ID: mount
+			56 container 第105页 Skills：把可复用的做法组织起来
+				57 heading Skills：把可复用的做法组织起来, Value: 1
+					58 text Skills：把可复用的做法组织起来
+				59 container 课件内容
+					60 container
+						61 text Agents / Skills：方法封装 → 按需读取 → 执行 → 检查产物 方法封装 说明 · 参考
+						62 text 脚本 · 模板 按需读取 本次任务
+						63 text 需要的做法 执行 读取模板
+						64 text 生成文件 检查产物 对照要求
+						65 text 打开文件 Notebook 把说明、代码和结果放在同一文档。先看文件包，再看读取、执行与交付。
+				66 container 课程进度
+					67 button 导入
+					68 button 1. LLM基础
+					69 button 2. Prompting
+					70 button 3. Agents · Externalization & Internalization
+						71 text 3. Agents 
+						72 text · Externalization & Internalization
+					73 button 3.0 外化与内化总览
+					74 button 3.1 工具调用
+					75 button 3.2 Memory
+					76 button 3.3 Skills
+					77 button 3.4 Harness
+					78 button 3.5 外化与内化整合
+					79 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 105, ID: page-input
+				46 text / 151
+			80 text 整页显示
+			48 button 目录
+			49 button 备注 / 来源
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		81 text 第105页，Skills：把可复用的做法组织起来，整页显示
+
+The focused UI element is 55 container Description: 第105页 Skills：把可复用的做法组织起来, ID: mount

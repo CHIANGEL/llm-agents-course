@@ -1,0 +1,28 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><link rel="icon" href="data:,"><title>聊天模板与三轮消息</title><style>body{max-width:1050px;margin:40px auto;padding:0 24px;color:#002060;font:20px/1.6 system-ui,sans-serif}h1,h2,a{color:#003f98}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:18px/1.7 monospace;background:#f4f7fb;padding:24px}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #ccc;text-align:left;padding:12px}code{white-space:pre-wrap}</style><h1>聊天模板与三轮消息</h1><p>复用原课程第1讲第64—66页；SmolLM2-135M-Instruct，版本ec84f302454dcb013b57c8acd7ca9cb331981e7e。模板转换沿用原执行记录；回复文字沿用原课程费用案例。</p><h2>多轮聊天：第一次提问</h2><pre>&lt;|im_start|&gt;system
+只给结果。&lt;|im_end|&gt;
+&lt;|im_start|&gt;user
+3人，每人20元？&lt;|im_end|&gt;
+&lt;|im_start|&gt;assistant
+</pre><p>随后接入的回复：60元。</p><h2>多轮聊天：接着问人数</h2><pre>&lt;|im_start|&gt;system
+只给结果。&lt;|im_end|&gt;
+&lt;|im_start|&gt;user
+3人，每人20元？&lt;|im_end|&gt;
+&lt;|im_start|&gt;assistant
+60元。&lt;|im_end|&gt;
+&lt;|im_start|&gt;user
+5人呢？&lt;|im_end|&gt;
+&lt;|im_start|&gt;assistant
+</pre><p>随后接入的回复：100元。</p><h2>多轮聊天：再问预算</h2><pre>&lt;|im_start|&gt;system
+只给结果。&lt;|im_end|&gt;
+&lt;|im_start|&gt;user
+3人，每人20元？&lt;|im_end|&gt;
+&lt;|im_start|&gt;assistant
+60元。&lt;|im_end|&gt;
+&lt;|im_start|&gt;user
+5人呢？&lt;|im_end|&gt;
+&lt;|im_start|&gt;assistant
+100元。&lt;|im_end|&gt;
+&lt;|im_start|&gt;user
+预算80元，差多少？&lt;|im_end|&gt;
+&lt;|im_start|&gt;assistant
+</pre><p>随后接入的回复：还差20元。</p><h2>原始材料</h2><ul><li><a href="chat-template/cases.json">cases.json</a></li><li><a href="chat-template/chat_01_template.txt">chat_01_template.txt</a></li><li><a href="chat-template/chat_02_template.txt">chat_02_template.txt</a></li><li><a href="chat-template/chat_03_template.txt">chat_03_template.txt</a></li><li><a href="chat-template/verification.json">verification.json</a></li><li><a href="chat-template/prepare_case.py">prepare_case.py</a></li></ul><p><a href="https://huggingface.co/docs/transformers/en/chat_templating">官方Chat templates说明</a></p></html>

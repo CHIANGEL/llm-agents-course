@@ -1,0 +1,43 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/index.html#p=91&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/index.html#p=91&s=1
+	2 container
+		3 container 第91页 电子产品客服：延续两次会话的背景
+			4 heading 电子产品客服：延续两次会话的背景, Value: 1
+				5 text 电子产品客服：延续两次会话的背景
+			6 container 课件内容
+				7 container
+					8 text AWS 客服方案：两次会话之间，用记忆延续背景。 前次会话 表达偏好
+					9 text 说明设备问题 客户记忆 偏好与事实 本次会话 新的问题
+					10 text ＋有关背景 先看保存什么，再看怎样取回，最后把背景加入当前请求。
+			11 container 课程进度
+				12 button 导入
+				13 button 1. LLM基础
+				14 button 2. Prompting
+				15 button 3. Agents · Externalization & Internalization
+					16 text 3. Agents 
+					17 text · Externalization & Internalization
+				18 button 3.0 外化与内化总览
+				19 button 3.1 工具调用
+				20 button 3.2 Memory
+				21 button 3.3 Skills
+				22 button 3.4 Harness
+				23 button 3.5 外化与内化整合
+				24 button 3.6 全讲总结
+		25 container Description: 课件操作, ID: controls
+			26 button Description: 上一步, Help: 上一步（←）
+			27 button Description: 下一步, Help: 下一步（→或空格）
+			28 container jump-form
+				29 text 页码
+				30 stepper (settable, integer) Description: 页码, Value: 91, ID: page-input
+				31 text / 147
+			32 text 整页显示
+			33 button 目录
+			34 button 备注 / 来源
+			35 button 完整材料
+			36 button 放大图解
+			37 button 全屏
+			38 button 隐藏, Help: 按H恢复
+			39 button 操作说明
+		40 text 第91页，电子产品客服：延续两次会话的背景，整页显示
+
+The focused UI element is 1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/index.html#p=91&s=1

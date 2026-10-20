@@ -1,0 +1,13 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=31&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=31&s=1
+	2 container
+		3 container Description: 第31页 学习之后，开始寻找解法, ID: mount
+			4 container 第31页 学习之后，开始寻找解法
+				5 heading 学习之后，开始寻找解法, Value: 1
+					6 text 学习之后，开始寻找解法
+				7 container 课件内容
+					8 container
+						9 text 学习补足理解和依据；接下来从不同角度找到可行路径。 学习解决了什么 双层解释 → 概念与机制 反向拆解 → 可复用的做法 横纵分析 → 发展、差异与未来 事实核查 → 依据与推理 接下来：解决问题 专家会诊：补足互补视角 第一性原理：重新推导路径 跨领域借解：寻找相通机制 从理解问题推进到提出方案，接下来分别展开三种方法。
+		10 text 第31页，学习之后，开始寻找解法，整页显示
+
+The focused UI element is 3 container Description: 第31页 学习之后，开始寻找解法, ID: mount

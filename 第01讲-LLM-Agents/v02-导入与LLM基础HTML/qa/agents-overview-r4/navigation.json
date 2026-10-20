@@ -1,0 +1,67 @@
+{
+  "navigationLog": [
+    {
+      "action": "3.1 工具调用",
+      "page": "62",
+      "title": "本讲内容"
+    },
+    {
+      "action": "3.2 Memory",
+      "page": "85",
+      "title": "本讲内容"
+    },
+    {
+      "action": "3.3 Skills",
+      "page": "101",
+      "title": "本讲内容"
+    },
+    {
+      "action": "3.4 Harness",
+      "page": "118",
+      "title": "本讲内容"
+    },
+    {
+      "action": "3.5 外化与内化整合",
+      "page": "140",
+      "title": "本讲内容"
+    },
+    {
+      "action": "3.6 全讲总结",
+      "page": "147",
+      "title": "Agents小结：模型与外部系统"
+    },
+    {
+      "action": "3.0 外化与内化总览",
+      "page": "51",
+      "title": "本讲内容"
+    },
+    {
+      "action": "章前目录→工具",
+      "page": "51"
+    },
+    {
+      "action": "工具目录←回退",
+      "page": "50"
+    },
+    {
+      "action": "正文目录（限定当前页）→工具调用",
+      "page": "62"
+    },
+    {
+      "action": "62←61",
+      "page": "61"
+    },
+    {
+      "action": "61→62→63",
+      "page": "63"
+    }
+  ],
+  "fullscreen": {
+    "dialog": false,
+    "fullscreen": false,
+    "viewport": [
+      1600,
+      900
+    ]
+  }
+}

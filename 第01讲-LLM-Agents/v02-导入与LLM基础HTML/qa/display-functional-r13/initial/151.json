@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "151",
+  "text": "让任务持续运行，还要解决哪些问题？\n运行越长、可做的事越多，越需要安排材料、约束、分工与进度。\n输入越来越长\n① 上下文\n压缩与清理\n操作影响外部\n② 沙盒与权限\n范围与放行\n固定动作反复做\n③ Hooks\n按事件触发\n任务能否拆开\n④ 子智能体\n分工与汇总\n中断后接着做\n⑤ 进度与恢复\n记录与核对\n下面按“材料 → 操作 → 触发 → 分工 → 连续运行”逐项展开。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "让任务持续运行，还要解决哪些问题？"
+}

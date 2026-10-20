@@ -1,0 +1,48 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-qa3#p=170&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-qa3#p=170&s=1
+	2 container
+		53 container Description: 第170页 外化与内化整合：各部分怎样配合, ID: mount
+			54 container 第170页 外化与内化整合：各部分怎样配合
+				55 heading 外化与内化整合：各部分怎样配合, Value: 1
+					56 text 外化与内化整合：各部分怎样配合
+				57 container 课件内容
+					58 container
+						59 text 把工具、Memory、Skills、Protocols与Harness放回同一项任务。 任务要求与完成标准 Memory：信息记录 Skills：可复用做法 Harness：准备输入、安排执行、保存状态与检查 Protocols：交互约定 本次输入 任务与材料
+						60 text 相关结果
+						61 image 模型提出下一步
+						62 text 模型
+						63 image 工具执行并带回结果
+						64 text 工具与结果 返回结果，决定下一步 信息和方法供给输入，工具完成操作，运行程序把整个过程接起来。
+				65 container 课程进度
+					66 button 导入
+					67 button 1. LLM基础
+					68 button 2. Prompting
+					69 button 3. Agents · Externalization & Internalization
+						70 text 3. Agents 
+						71 text · Externalization & Internalization
+					72 button 3.0 外化与内化总览
+					73 button 3.1 工具调用
+					74 button 3.2 Memory
+					75 button 3.3 Skills
+					76 button 3.4 Protocols
+					77 button 3.5 Harness
+					78 button 3.6 外化与内化整合
+					79 button 3.7 全讲总结
+		38 container Description: 课件操作, ID: controls
+			39 button Description: 上一步, Help: 上一步（←）
+			40 button Description: 下一步, Help: 下一步（→或空格）
+			41 container jump-form
+				42 text 页码
+				43 stepper (settable, integer) Description: 页码, Value: 170, ID: page-input
+				44 text / 177
+			80 text 整页显示
+			46 button 目录
+			47 button 备注 / 来源
+			48 button 完整材料
+			49 button 放大图解
+			50 button 全屏
+			51 button 隐藏, Help: 按H恢复
+			52 button 操作说明
+		81 text 第170页，外化与内化整合：各部分怎样配合，整页显示
+
+The focused UI element is 53 container Description: 第170页 外化与内化整合：各部分怎样配合, ID: mount

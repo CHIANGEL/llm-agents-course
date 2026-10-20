@@ -1,0 +1,42 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8-qa1#p=80&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8-qa1#p=80&s=1
+	2 container
+		40 container Description: 第80页 事实变了，历史与当前怎样区分？, ID: mount
+			41 container 第80页 事实变了，历史与当前怎样区分？
+				42 heading 事实变了，历史与当前怎样区分？, Value: 1
+					43 text 事实变了，历史与当前怎样区分？
+				44 container 课件内容
+					45 container
+						46 text 过去喜欢Adidas，后来转而喜欢Puma：需要区分历史关系与当前关系。 给旧关系标记失效时间，同时加入新关系；以后查询“曾经”与“现在”，答案不同。
+				47 container 课程进度
+					48 button 导入
+					49 button 1. LLM基础
+					50 button 2. Prompting
+					51 button 3. Agents · Externalization & Internalization
+						52 text 3. Agents 
+						53 text · Externalization & Internalization
+					54 button 3.0 外化与内化总览
+					55 button 3.1 工具调用
+					56 button 3.2 Memory
+					57 button 3.3 Skills
+					58 button 3.4 Harness
+					59 button 3.5 外化与内化整合
+					60 button 3.6 全讲总结
+		25 container Description: 课件操作, ID: controls
+			26 button Description: 上一步, Help: 上一步（←）
+			27 button Description: 下一步, Help: 下一步（→或空格）
+			28 container jump-form
+				29 text 页码
+				30 stepper (settable, integer) Description: 页码, Value: 80, ID: page-input
+				31 text / 151
+			61 text 整页显示
+			33 button 目录
+			34 button 讲者备注
+			35 button 完整材料
+			36 button 放大图解
+			37 button 全屏
+			38 button 隐藏, Help: 按H恢复
+			39 button 操作说明
+		62 text 第80页，事实变了，历史与当前怎样区分？，整页显示
+
+The focused UI element is 40 container Description: 第80页 事实变了，历史与当前怎样区分？, ID: mount

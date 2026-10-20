@@ -1,0 +1,85 @@
+{
+  "checked_on": "2026-10-18",
+  "files": [
+    {
+      "path": "complete-package-tree.txt",
+      "sha256": "bf13dbfa5de6253cc2dd764dd3eb6a72b7ba800366dbccaa71bb1ab332edc047"
+    },
+    {
+      "path": "execution/notebook-check.stdout.txt",
+      "sha256": "f5119aa184761b2b4cf9fb75489e8f33f492b0f6cb3ad4110e5a7265d5d04b59"
+    },
+    {
+      "path": "execution/notebook-readable.txt",
+      "sha256": "4caf7589847a7a6df3bef96fb48a5b36d02d6e025db11d57a5e361356d717adc"
+    },
+    {
+      "path": "execution/notebook.raw.json",
+      "sha256": "09ca247b03d6649c326fafc384cfb2e2df6135c2ce18cc3bc67cee9f2ebd183f"
+    },
+    {
+      "path": "execution/scaffold.execution.json",
+      "sha256": "ba0b7133bebe081ed774cb480727f5b5d8fd3e9ada81c461e6bb2708bfcbe20e"
+    },
+    {
+      "path": "execution/scaffold.stdout.txt",
+      "sha256": "71e356a8f6071dd951bc1ae5ff958f33a33fe1987d66a975926a035f73b47d7a"
+    },
+    {
+      "path": "jupyter-notebook/LICENSE.txt",
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+    },
+    {
+      "path": "jupyter-notebook/SKILL.md",
+      "sha256": "62f102e8554b25716dccef0ffab4572d4e3eaf05ccc76562d33a065bc9c521fb"
+    },
+    {
+      "path": "jupyter-notebook/agents/openai.yaml",
+      "sha256": "3a2d6a8f9ed10e18f6caa66aeb26a02305bc61f36fc4b333c904e02f9988fb9c"
+    },
+    {
+      "path": "jupyter-notebook/assets/experiment-template.ipynb",
+      "sha256": "25f85914103cd84244e20ef378f59097479c72481cd18d3a931354d107c3f300"
+    },
+    {
+      "path": "jupyter-notebook/assets/jupyter-small.svg",
+      "sha256": "a36bd27bef3775f111309241754b386db81e7d356f07672190e2fcb24478a250"
+    },
+    {
+      "path": "jupyter-notebook/assets/jupyter.png",
+      "sha256": "852fd5468885bb176d266d547e61684792332e44a88cfbc8cd07323937040ccb"
+    },
+    {
+      "path": "jupyter-notebook/assets/tutorial-template.ipynb",
+      "sha256": "704a809c09c7c9e6e5c437860df95524412b50c58571a14204610d73e0744765"
+    },
+    {
+      "path": "jupyter-notebook/references/experiment-patterns.md",
+      "sha256": "1ff9c04281c01e8e2209bde9f1fd910b8e4b620dd1f1f040e2101f1d88513a91"
+    },
+    {
+      "path": "jupyter-notebook/references/notebook-structure.md",
+      "sha256": "a85051a2e88fd3424bbed2636e952ec5f858e7efa4e076c28d62a8cc2cc9dc06"
+    },
+    {
+      "path": "jupyter-notebook/references/quality-checklist.md",
+      "sha256": "ed01afe6ff47714d85935d11053b64c414772f02250fdc604e3fca65e5139136"
+    },
+    {
+      "path": "jupyter-notebook/references/tutorial-patterns.md",
+      "sha256": "8c194bb640de2fb7747e3db87006ecec5219252d301f53670975dbb5310ff659"
+    },
+    {
+      "path": "jupyter-notebook/scripts/new_notebook.py",
+      "sha256": "a004e2ea3115edb24313928be0be6d1dc07e571d7ca6c1b24375f0569c616d2f"
+    },
+    {
+      "path": "python-lists-and-mean.ipynb",
+      "sha256": "09ca247b03d6649c326fafc384cfb2e2df6135c2ce18cc3bc67cee9f2ebd183f"
+    },
+    {
+      "path": "user-request.txt",
+      "sha256": "140129063ba2cc816469edde392b15f7082b9f27df2cf35fee2c8eeace7fdeef"
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "page_count": 177,
+  "states": 179,
+  "protocol_pages": [
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147
+  ],
+  "protocol_states": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "old_mcp_author108_present": false,
+  "duration_seconds": 15545,
+  "messages": [
+    {
+      "file": "01_tools_list_request.json",
+      "exact_json_match": true
+    },
+    {
+      "file": "02_tools_list_response.json",
+      "exact_json_match": true
+    },
+    {
+      "file": "06_tools_call_request.json",
+      "exact_json_match": true
+    },
+    {
+      "file": "08_tools_call_response_fixture.json",
+      "exact_json_match": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/protocols-r10/classification-axes.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/two-interactions.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/mcp-roles.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/mcp-flow.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/a2a-flow.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/a2a-messages.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/participants.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/combination.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/agent.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/host.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/weather.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/directory.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/card.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "file": "assets/protocols-r10/result.png",
+      "exists": true,
+      "sha256_matches": true
+    }
+  ],
+  "entry_dependencies": [
+    {
+      "file": "src/base.css",
+      "exists": true
+    },
+    {
+      "file": "src/001-004.css",
+      "exists": true
+    },
+    {
+      "file": "src/005-008.css",
+      "exists": true
+    },
+    {
+      "file": "src/009-013.css",
+      "exists": true
+    },
+    {
+      "file": "src/prompting.css",
+      "exists": true
+    },
+    {
+      "file": "src/llm-foundations.css",
+      "exists": true
+    },
+    {
+      "file": "src/prompting-r2.css",
+      "exists": true
+    },
+    {
+      "file": "src/navigation.css",
+      "exists": true
+    },
+    {
+      "file": "src/agent-overview-r4.css",
+      "exists": true
+    },
+    {
+      "file": "src/source-replica-r5.css",
+      "exists": true
+    },
+    {
+      "file": "src/html-figures-r6.css",
+      "exists": true
+    },
+    {
+      "file": "src/tool-calling-r7.css",
+      "exists": true
+    },
+    {
+      "file": "src/memory-r8.css",
+      "exists": true
+    },
+    {
+      "file": "src/skills-r9.css",
+      "exists": true
+    },
+    {
+      "file": "src/protocols-r10.css",
+      "exists": true
+    },
+    {
+      "file": "src/data.js",
+      "exists": true
+    },
+    {
+      "file": "src/001-004.js",
+      "exists": true
+    },
+    {
+      "file": "src/005-008.js",
+      "exists": true
+    },
+    {
+      "file": "src/009-013.js",
+      "exists": true
+    },
+    {
+      "file": "src/section-frames.js",
+      "exists": true
+    },
+    {
+      "file": "src/prompting-base.js",
+      "exists": true
+    },
+    {
+      "file": "src/prompting-r2-data.js",
+      "exists": true
+    },
+    {
+      "file": "src/prompting-r2.js",
+      "exists": true
+    },
+    {
+      "file": "src/agents-base.js",
+      "exists": true
+    },
+    {
+      "file": "src/agents-frames.js",
+      "exists": true
+    },
+    {
+      "file": "src/agent-overview-r4.js",
+      "exists": true
+    },
+    {
+      "file": "src/tool-calling-r7-data.js",
+      "exists": true
+    },
+    {
+      "file": "src/agents-tools.js",
+      "exists": true
+    },
+    {
+      "file": "src/memory-r8-data.js",
+      "exists": true
+    },
+    {
+      "file": "src/memory-r8.js",
+      "exists": true
+    },
+    {
+      "file": "src/skills-r9-data.js",
+      "exists": true
+    },
+    {
+      "file": "src/skills-r9.js",
+      "exists": true
+    },
+    {
+      "file": "src/agents-harness.js",
+      "exists": true
+    },
+    {
+      "file": "src/llm-evidence.js",
+      "exists": true
+    },
+    {
+      "file": "src/decoding-data.js",
+      "exists": true
+    },
+    {
+      "file": "src/decoding.js",
+      "exists": true
+    },
+    {
+      "file": "src/llm-foundations.js",
+      "exists": true
+    },
+    {
+      "file": "src/source-replica-r5.js",
+      "exists": true
+    },
+    {
+      "file": "src/html-figures-r6.js",
+      "exists": true
+    },
+    {
+      "file": "src/navigation.js",
+      "exists": true
+    },
+    {
+      "file": "src/protocols-r10-data.js",
+      "exists": true
+    },
+    {
+      "file": "src/protocols-r10.js",
+      "exists": true
+    },
+    {
+      "file": "src/player.js",
+      "exists": true
+    }
+  ],
+  "font_dependencies": [
+    {
+      "css": "src/base.css",
+      "url": "../assets/msyh.ttc",
+      "exists": true
+    },
+    {
+      "css": "src/base.css",
+      "url": "../assets/msyhbd.ttc",
+      "exists": true
+    }
+  ],
+  "protocols_materials_complete": true,
+  "defensive_text_matches": [
+    "待补充",
+    "待补充",
+    "待补充",
+    "待补充",
+    "待补充"
+  ]
+}

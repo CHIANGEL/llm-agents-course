@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 103,
+  "text": "从Memory到Skills：从信息到方法\nMemory留下跨时间的信息；已经验证的一套做法，可以进一步整理成Skills。\n采购案例：预算适用范围是记忆；反复可用的采购评审步骤，可以整理成技能。\n两者都能放在外部文件中，并按需读取；下一节看怎样组织一套可复用的做法。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "第103页 从Memory到Skills：从信息到方法"
+}

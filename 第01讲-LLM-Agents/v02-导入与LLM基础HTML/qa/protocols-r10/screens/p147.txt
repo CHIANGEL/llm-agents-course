@@ -1,0 +1,45 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-qa1#p=147&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-qa1#p=147&s=1
+	2 container
+		42 container Description: 第147页 Protocols小结：交互约定如何落到运行, ID: mount
+			43 container 第147页 Protocols小结：交互约定如何落到运行
+				44 heading Protocols小结：交互约定如何落到运行, Value: 1
+					45 text Protocols小结：交互约定如何落到运行
+				46 container 课件内容
+					47 container
+						48 text Protocols把外部交互变成有约定的交换，接上前面的工具、记忆与方法。
+						49 image 回看MCP工具交互与A2A任务交互
+						50 text ① 对象与范围 先看连接谁，再看约定什么。 ② MCP 工具目录、调用与返回。 ③ A2A 能力、任务、状态与成果。 接下来：Harness把模型、工具、Memory、Skills和Protocols组织成运行过程。 交互有了共同约定，还要安排谁执行、何时等待，以及怎样检查交付。
+				51 container 课程进度
+					52 button 导入
+					53 button 1. LLM基础
+					54 button 2. Prompting
+					55 button 3. Agents · Externalization & Internalization
+						56 text 3. Agents 
+						57 text · Externalization & Internalization
+					58 button 3.0 外化与内化总览
+					59 button 3.1 工具调用
+					60 button 3.2 Memory
+					61 button 3.3 Skills
+					62 button 3.4 Protocols
+					63 button 3.5 Harness
+					64 button 3.6 外化与内化整合
+					65 button 3.7 全讲总结
+		27 container Description: 课件操作, ID: controls
+			28 button Description: 上一步, Help: 上一步（←）
+			29 button Description: 下一步, Help: 下一步（→或空格）
+			30 container jump-form
+				31 text 页码
+				32 stepper (settable, integer) Description: 页码, Value: 147, ID: page-input
+				33 text / 177
+			66 text 整页显示
+			35 button 目录
+			36 button 讲者备注
+			37 button 完整材料
+			38 button 放大图解
+			39 button 全屏
+			40 button 隐藏, Help: 按H恢复
+			41 button 操作说明
+		67 text 第147页，Protocols小结：交互约定如何落到运行，整页显示
+
+The focused UI element is 42 container Description: 第147页 Protocols小结：交互约定如何落到运行, ID: mount

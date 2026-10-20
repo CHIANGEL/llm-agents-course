@@ -1,0 +1,13 @@
+{
+  "mode": "built-in image_gen",
+  "prompts": [
+    {
+      "key": "deepseek",
+      "prompt": "Use case: ui-mockup. Create a crisp, high fidelity desktop web chat interface image for an MBA lecture. Landscape 3:2 screenshot composition, straight-on flat UI, no laptop hardware. DeepSeek recognizable blue whale logo and deepseek wordmark top left, white main surface, very pale grey sidebar occupying 16% width, slim browser top chrome with chat.deepseek.com. Minimal sidebar entries 新对话 and 历史对话. Main conversation has ONE large light-grey user bubble at upper right, spanning x 30%-95%, y 22%-39%, containing exactly: “请写一则简短、正式的通知：今天的讲座取消。” in large, easily legible black Chinese type. Below, blue assistant logo at x24% and short reply exactly: “通知：原定于今天举行的讲座取消，敬请知悉。” Main bottom empty input box with placeholder 给 DeepSeek 发送消息; bottom option chips 深度思考 and 联网搜索. Generous whitespace, readable large text, authentic understated interface. No lecture annotations, no red boxes, no Prompt labels, no invented model version. The lecturer will overlay a red rectangle around the user bubble. Clean UI only."
+    },
+    {
+      "key": "doubao",
+      "prompt": "Use case: ui-mockup. Create a crisp high fidelity mobile 豆包 chat interface in a straight-on smartphone screenshot, portrait approximately 9:16. Only the phone screen with narrow dark rounded device rim, white background outside. Familiar white Doubao interface. Top status 9:41, battery and wifi; app header 豆包 with menu/new chat icons and small round friendly female avatar. One user bubble in light grey at upper right, spanning x17%-94%, y22%-39%, containing exactly “请写一则简短、正式的通知：今天的讲座取消。” in large legible black Chinese, multiple lines. Beneath it a round Doubao assistant avatar at left and black answer text exactly “通知：原定于今天举行的讲座取消，敬请知悉。” with space below. Bottom input box placeholder 说点什么… plus voice button and plus icon. Large accessible readable Chinese typography, authentic minimal app styling. No annotations, no red boxes, no Prompt labels, no invented model version. The lecturer will overlay a red rectangle around the user bubble. UI and device only, no hands or background scenery."
+    }
+  ]
+}

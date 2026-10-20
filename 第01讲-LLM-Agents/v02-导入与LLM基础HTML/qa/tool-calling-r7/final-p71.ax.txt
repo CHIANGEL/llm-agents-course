@@ -1,0 +1,27 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/index.html#p=71&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/index.html#p=71&s=1
+	2 container
+		3 container Description: 第71页 复杂应用，拆开看仍是一次次工具调用, ID: mount
+			4 container 第71页 复杂应用，拆开看仍是一次次工具调用
+				5 heading 复杂应用，拆开看仍是一次次工具调用, Value: 1
+					6 text 复杂应用，拆开看仍是一次次工具调用
+				7 container 课件内容
+					8 container
+						9 text 复杂任务需要连续调用不同工具，每次结果都能成为下一步的依据。 资料研究 获取信息并形成文件 检索新闻 读取网页 写入报告 任务记忆 Memory 保存以后还要用的信息 写入记录 读取 / 检索 放回模型输入 软件操作 观察与动作不断往返 读取界面 点击 / 输入 读取新状态 Memory也要依靠文件读取、写入或检索，把信息送出模型、再带回来。
+				10 container 课程进度
+					11 button 导入
+					12 button 1. LLM基础
+					13 button 2. Prompting
+					14 button 3. Agents · Externalization & Internalization
+						15 text 3. Agents 
+						16 text · Externalization & Internalization
+					17 button 3.0 外化与内化总览
+					18 button 3.1 工具调用
+					19 button 3.2 Memory
+					20 button 3.3 Skills
+					21 button 3.4 Harness
+					22 button 3.5 外化与内化整合
+					23 button 3.6 全讲总结
+		24 text 第71页，复杂应用，拆开看仍是一次次工具调用，整页显示
+
+The focused UI element is 3 container Description: 第71页 复杂应用，拆开看仍是一次次工具调用, ID: mount

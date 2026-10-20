@@ -1,0 +1,150 @@
+{
+  "pages": [
+    {
+      "page": 126,
+      "renderer": 4013,
+      "navigation": "3.7",
+      "section": "外化与内化整合",
+      "type": "agenda",
+      "title": "课程内容",
+      "seconds": 15,
+      "show_sources": false,
+      "on_slide": [
+        "已结束：Harness",
+        "接下来：外化与内化整合"
+      ],
+      "talk": "从Harness的运行安排转到模型与Harness的共同迭代。",
+      "sources": [
+        {
+          "id": "INTEGRATION_R21",
+          "locator": "官方产品记录、训练研究与课堂假设"
+        }
+      ]
+    },
+    {
+      "page": 21001,
+      "renderer": 21001,
+      "navigation": "3.7",
+      "section": "外化与内化整合",
+      "type": "overview",
+      "title": "外化与内化：模型与Harness共同迭代",
+      "seconds": 60,
+      "show_sources": false,
+      "on_slide": [
+        "Harness补充模型当前的能力；任务运行产生经验；筛选经验用于训练；更新模型后重新调整Harness。",
+        "外化先把任务做成，内化再把可学习的做法变成模型能力。"
+      ],
+      "talk": "外化改变输入与执行安排，内化通过训练更新参数。经验既可用于改进外部系统，也可被筛选成训练材料。新模型仍需工具和信息，但原先的部分流程指导可以精简。",
+      "sources": [
+        {
+          "id": "INTEGRATION_R21",
+          "locator": "官方产品记录、训练研究与课堂假设"
+        }
+      ]
+    },
+    {
+      "page": 21002,
+      "renderer": 21002,
+      "navigation": "3.7",
+      "section": "外化与内化整合",
+      "type": "case",
+      "title": "模型升级后，旧的Skills和流程还需要吗？",
+      "seconds": 150,
+      "show_sources": false,
+      "on_slide": [
+        "GPT-6 Astra发布后，OpenAI建议重新检查Skills、工作指令和任务提示。",
+        "详细预设每一步，改为交代目标和必要条件；每次先读所有文档，改为按任务读取；重复提醒测试，改为保留与任务相称的检查。",
+        "对Sol或Luna有帮助的指导，可能过度约束Astra。",
+        "同一份Skill对不同模型，可能是帮助，也可能是束缚。"
+      ],
+      "talk": "OpenAI 2026年9月11日文章指出：更强模型可自行判断需要读取什么，过细的路径和重复提醒可能增加成本或限制发挥。10月14日工程记录也描述了从指定清理区域到模型自行寻找无用代码及证据的变化。应按模型和任务调整指导。",
+      "sources": [
+        {
+          "id": "INTEGRATION_R21",
+          "locator": "官方产品记录、训练研究与课堂假设"
+        }
+      ]
+    },
+    {
+      "page": 21003,
+      "renderer": 21003,
+      "navigation": "3.7",
+      "section": "外化与内化整合",
+      "type": "concept",
+      "title": "选择性内化：哪些做法进入模型参数？",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "运行记录 → 筛选与反馈 → 训练更新参数 → 撤去相应指导后再检查。",
+        "可反复学习的判断：怎样分解任务、何时补充证据、怎样检查结果。",
+        "持续留在外部：最新信息和业务数据、实际操作接口、权限与执行约束。",
+        "能否撤去某项指导，要看模型在同类新任务上能否独立完成相应判断。"
+      ],
+      "talk": "训练材料要包含任务条件、行动、结果以及作出判断的依据。Harness Annealing研究尝试把流程组织与核查判断训练进参数，并在撤去相应支持后评估，工具和执行约束继续保留。参数能力与外部支持的分工因任务而异。",
+      "sources": [
+        {
+          "id": "INTEGRATION_R21",
+          "locator": "官方产品记录、训练研究与课堂假设"
+        }
+      ]
+    },
+    {
+      "page": 21004,
+      "renderer": 21004,
+      "navigation": "3.7",
+      "section": "外化与内化整合",
+      "type": "summary",
+      "title": "模型变强，Harness继续补充新的不足",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "假设在同一组任务上按100分评价：第一轮LLM 70分，配合Harness形成Agent达到80分；选择性内化后，第二轮LLM 75分，配合迭代后的Harness达到85分。",
+        "外化补充 → 运行积累经验 → 选择性内化 → Harness重新适配，继续下一轮。",
+        "有效的改进可能减少旧指导，同时增加支持新任务的方法和工具。"
+      ],
+      "talk": "在同一组任务和评价标准下比较两个配置：LLM本身，以及配合Harness运行的Agent。选择性内化把部分有效判断训练进参数；新模型再配合调整后的Harness，继续处理任务。内化转移部分判断，工具、当前资料与执行约束仍由外部系统提供。新任务又会暴露新的不足，产生下一轮外化与内化。",
+      "sources": [
+        {
+          "id": "INTEGRATION_R21",
+          "locator": "官方产品记录、训练研究与课堂假设"
+        }
+      ]
+    },
+    {
+      "page": 21005,
+      "renderer": 21005,
+      "navigation": "3.7",
+      "section": "课程回顾",
+      "type": "closing-agenda",
+      "title": "课程内容",
+      "seconds": 30,
+      "show_sources": false,
+      "on_slide": [
+        "LLM基础：连续生成与多轮聊天。",
+        "Prompting：交代任务，再选择方法。",
+        "Agents：Externalization & Internalization；大模型与智能体、外化与内化总览、工具调用、Memory、Skills、Protocols、Harness、外化与内化整合。"
+      ],
+      "talk": "回到课程总目录，三个一级主题及Agents各子章节全部完成。",
+      "sources": [
+        {
+          "id": "INTEGRATION_R21",
+          "locator": "官方产品记录、训练研究与课堂假设"
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "126": "课程内容\n\n已结束：Harness\n\n接下来：外化与内化整合",
+    "21001": "外化与内化：模型与Harness共同迭代\n\nHarness补充模型当前的能力；任务运行产生经验；筛选经验用于训练；更新模型后重新调整Harness。\n\n外化先把任务做成，内化再把可学习的做法变成模型能力。",
+    "21002": "模型升级后，旧的Skills和流程还需要吗？\n\nGPT-6 Astra发布后，OpenAI建议重新检查Skills、工作指令和任务提示。\n\n详细预设每一步，改为交代目标和必要条件；每次先读所有文档，改为按任务读取；重复提醒测试，改为保留与任务相称的检查。\n\n对Sol或Luna有帮助的指导，可能过度约束Astra。\n\n同一份Skill对不同模型，可能是帮助，也可能是束缚。",
+    "21003": "选择性内化：哪些做法进入模型参数？\n\n运行记录 → 筛选与反馈 → 训练更新参数 → 撤去相应指导后再检查。\n\n可反复学习的判断：怎样分解任务、何时补充证据、怎样检查结果。\n\n持续留在外部：最新信息和业务数据、实际操作接口、权限与执行约束。\n\n能否撤去某项指导，要看模型在同类新任务上能否独立完成相应判断。",
+    "21004": "模型变强，Harness继续补充新的不足\n\n假设在同一组任务上按100分评价：第一轮LLM 70分，配合Harness形成Agent达到80分；选择性内化后，第二轮LLM 75分，配合迭代后的Harness达到85分。\n\n外化补充 → 运行积累经验 → 选择性内化 → Harness重新适配，继续下一轮。\n\n有效的改进可能减少旧指导，同时增加支持新任务的方法和工具。",
+    "21005": "课程内容\n\nLLM基础：连续生成与多轮聊天。\n\nPrompting：交代任务，再选择方法。\n\nAgents：Externalization & Internalization；大模型与智能体、外化与内化总览、工具调用、Memory、Skills、Protocols、Harness、外化与内化整合。"
+  },
+  "sources": {
+    "INTEGRATION_R21": {
+      "title": "模型与Harness迭代：来源与内容取舍",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/integration-r21/来源与内容取舍.md"
+    }
+  }
+}

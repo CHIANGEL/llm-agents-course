@@ -1,0 +1,55 @@
+第1单元（markdown）
+# Python列表与平均值
+
+把三个数放入列表，计算并解释平均值。本文档将说明、代码和运行结果放在一起。
+
+
+第2单元（markdown）
+## 处理顺序
+
+1. 写入三个数。
+2. 计算合计、个数与平均值。
+3. 核对数据和结果。
+
+
+第3单元（code）
+values = [10, 20, 30]
+print(f"数据：{values}")
+输出
+数据：[10, 20, 30]
+
+
+第4单元（markdown）
+## 平均值怎样得到
+
+合计除以个数得到平均值。这里的三个数合计为60，个数为3，平均值为20。
+
+
+第5单元（code）
+total = sum(values)
+count = len(values)
+average = total / count
+print(f"合计：{total}")
+print(f"个数：{count}")
+print(f"平均值：{average:g}")
+输出
+合计：60
+个数：3
+平均值：20
+
+
+第6单元（markdown）
+## 解释与检查
+
+平均值20表示这三个数的总量平均分成三份后，每份为20。核对输入仍是10、20、30，并检查计算结果。
+
+
+第7单元（code）
+assert values == [10, 20, 30]
+assert count == 3
+assert total == 60
+assert average == 20
+print("检查通过：20 = (10 + 20 + 30) / 3")
+输出
+检查通过：20 = (10 + 20 + 30) / 3
+

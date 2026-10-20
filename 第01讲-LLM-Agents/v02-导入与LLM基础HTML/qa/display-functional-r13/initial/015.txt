@@ -1,0 +1,43 @@
+- main:
+  - article "第15页 LLM基础小结：组织输入，再逐Token生成":
+    - heading "LLM基础小结：组织输入，再逐Token生成" [level=1]
+    - region "课件内容":
+      - generic: 每一轮聊天，都回到同一个生成过程。
+      - generic: ① 应用组织输入
+      - generic: ② 模型逐Token生成
+      - generic: ③ 本轮回复结束
+      - text: 任务要求
+      - text: 用户消息
+      - text: 以前的助手回复
+      - generic: 预测候选 → 选出一个
+      - generic: The → lecture → scheduled
+      - generic: 新Token接到已有前文后
+      - generic: 继续预测下一个
+      - generic: 生成结束标记
+      - generic: <|im_end|>
+      - generic: 停止本次生成
+      - generic: 下一轮：把新消息加入历史，再组织输入
+      - generic: Prompting要解决的，就是怎样把任务和材料写进这份输入。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "1.1 连续生成"
+      - button "1.2 多轮聊天"
+      - button "1.3 LLM小结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "15"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "备注 / 来源"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第15页，LLM基础小结：组织输入，再逐Token生成，整页显示

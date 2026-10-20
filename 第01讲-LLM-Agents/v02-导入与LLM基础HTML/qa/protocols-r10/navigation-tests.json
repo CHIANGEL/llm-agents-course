@@ -1,0 +1,42 @@
+[
+  {
+    "target": "3.0 外化与内化总览",
+    "expected": 51,
+    "actual": 51
+  },
+  {
+    "target": "3.1 工具调用",
+    "expected": 62,
+    "actual": 62
+  },
+  {
+    "target": "3.2 Memory",
+    "expected": 73,
+    "actual": 73
+  },
+  {
+    "target": "3.3 Skills",
+    "expected": 104,
+    "actual": 104
+  },
+  {
+    "target": "3.4 Protocols",
+    "expected": 131,
+    "actual": 131
+  },
+  {
+    "target": "3.5 Harness",
+    "expected": 148,
+    "actual": 148
+  },
+  {
+    "target": "3.6 外化与内化整合",
+    "expected": 169,
+    "actual": 169
+  },
+  {
+    "target": "3.7 全讲总结",
+    "expected": 176,
+    "actual": 176
+  }
+]

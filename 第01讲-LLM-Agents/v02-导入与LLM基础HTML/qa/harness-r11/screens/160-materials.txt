@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=160&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=160&s=1
+	2 container 第160页 · 完整材料, ID: deck-dialog
+		3 container
+			4 heading 第160页 · 完整材料, Value: 2, ID: dialog-title
+				8 text 第160页 · 完整材料
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			9 heading 本页要点, Value: 3
+				10 text 本页要点
+			11 text 子智能体：把具体工作分出去
+
+子智能体（Sub-agent）也称子代理。主代理委托范围明确的子任务，子代理在各自的上下文中处理并回传结果。主智能体安排先后、汇总并检查，必要时追问或进一步读取材料。下面分别看过程隔离、依赖关系和分工开销。子智能体描述分工安排，A2A描述不同Agent服务间的任务交换约定；组织子智能体不必都使用A2A。
+			12 heading 相关材料, Value: 3
+				13 text 相关材料
+			14 text 子智能体（Sub-agent）也称子代理。主代理委托范围明确的子任务，子代理在各自的上下文中处理并回传结果。主智能体安排先后、汇总并检查，必要时追问或进一步读取材料。下面分别看过程隔离、依赖关系和分工开销。子智能体描述分工安排，A2A描述不同Agent服务间的任务交换约定；组织子智能体不必都使用A2A。
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

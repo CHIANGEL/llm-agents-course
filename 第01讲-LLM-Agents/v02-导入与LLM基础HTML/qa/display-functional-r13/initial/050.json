@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "50",
+  "text": "从Prompting到Agent：把要求接到操作\n写清要求以后，下一步是组织查询、计算、文件操作及结果反馈。\n“查询纽约现在的天气，并根据返回的信息回答。”\nPrompting\n交代任务与判断要求\n工具执行\n查询天气，取得返回结果\n继续生成\n依据结果回答\nAgent组织工具执行，把返回结果加入模型输入\n下一部分：Agents怎样通过工具、记忆、技能和Harness组织执行。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n2.1 三个核心\n2.2 问清问题\n2.3 学习\n2.4 解决问题\n2.5 决策\n2.6 Prompting小结",
+  "title": "从Prompting到Agent：把要求接到操作"
+}

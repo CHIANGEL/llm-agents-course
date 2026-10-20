@@ -1,0 +1,135 @@
+{
+  "strategy_id": 5,
+  "strategy_name": "事实核查",
+  "group": "学习",
+  "prepared_date": "2026-10-20",
+  "status": "pending_browser",
+  "template_source": "sources/prompting-r2/prompts.json",
+  "original_template": "我要核查的说法是：【粘贴观点、结论、数据或方案】。\n\n请先把它拆成：\n1. 可以被外部验证的事实；\n2. 从事实推出的结论；\n3. 其中包含的价值判断。\n\n对于事实部分，请联网核查来源、样本、时间和完整上下文，并标记为：\n1. 已证实；\n2. 基本成立，但需要收窄；\n3. 存在争议；\n4. 证据不足；\n5. 明显错误。\n\n在假设相关事实成立的情况下，继续检查：\n1. 这些事实能否推出当前结论；\n2. 是否藏着未经验证的假设；\n3. 是否混淆相关性和因果关系；\n4. 是否遗漏了其他解释或关键信息；\n5. 结论在什么条件下成立或失效。\n\n最后请输出：\n1. 哪些事实可信，哪些需要修正；\n2. 推理链中最关键的漏洞；\n3. 补强后的最合理版本；\n4. 我目前可以相信到什么程度。",
+  "execution_policy": {
+    "separate_fresh_chats": true,
+    "same_platform_model_mode_per_pair": true,
+    "same_object_and_background_in_both_prompts": true,
+    "archive_full_prompts_and_full_replies": true,
+    "share_links_only_after_actual_UI_generation_and_verification": true,
+    "selection_rule": "实测后至少两个候选均独立比较；仅当策略产生可见的方法差异而非只有篇幅/标题差异，才选择一个链接对进入HTML。"
+  },
+  "browser_blocker": {
+    "attempts": [
+      {
+        "action": "cua.createBrowserTab('iab','https://chat.deepseek.com/',{visible:false})",
+        "result": "35.6秒后超时，kernel reset"
+      },
+      {
+        "action": "cua.getState()",
+        "result": "成功；本子代理独立侧边浏览器列出DeepSeek标签页"
+      },
+      {
+        "action": "cua.getTab('1',{browser:'iab'})",
+        "result": "30.0秒后超时，kernel reset"
+      }
+    ],
+    "submitted_prompts": 0,
+    "note": "没有提交任何聊天Prompt，没有模型回复，也没有创建共享链接。后续根代理负责连接恢复，准备工作不是演示实测。"
+  },
+  "candidates": [
+    {
+      "candidate_id": "bcg-ai-productivity",
+      "object": "BCG顾问实验与AI全面提效推论",
+      "placeholder_values": [
+        "一项2023年针对BCG顾问的实验发现，使用GPT-4的人完成任务更快、质量更高。因此，企业只要全面使用生成式AI，就能稳定提高所有知识工作的质量，不需要再区分任务类型"
+      ],
+      "simple_prompt": "请联网判断下面这段话是否可信：一项2023年针对BCG顾问的实验发现，使用GPT-4的人完成任务更快、质量更高。因此，企业只要全面使用生成式AI，就能稳定提高所有知识工作的质量，不需要再区分任务类型。",
+      "observation_points_to_test": [
+        "是否把实验结果、所有任务的外推以及管理建议分别列出，而不是整体标成真或假。",
+        "是否核对实验参与者、时间和任务范围，并发现AI能力边界这一关键条件。",
+        "是否给出可保留的事实、需要收窄的推论和修改后的管理判断。",
+        "是否提供能直接支持对应论断的一手来源，而不是堆链接。"
+      ],
+      "selection_rationale_before_execution": "与本课程AI业务应用直接相关；前半句可有条件成立，后半句扩大范围，适合观察事实正确与推理成立之间的区别。",
+      "rejection_conditions": [
+        "简单回答已完整区分事实、外推、价值判断并给出同等证据与修正版。",
+        "策略回答只因结论过度而把整项研究判为错误，或遗漏任务范围。"
+      ],
+      "status": "pending_browser",
+      "platform": null,
+      "model_and_mode": null,
+      "simple_response": null,
+      "strategy_response": null,
+      "simple_conversation_url": null,
+      "strategy_conversation_url": null,
+      "simple_share_url": null,
+      "strategy_share_url": null,
+      "actual_comparison": null,
+      "claim_provenance": "用于本次核查演示而编写的复合命题，不是研究者原话。",
+      "reviewer_reference_sources": [
+        {
+          "title": "HBS AI Institute: Navigating the Jagged Technological Frontier",
+          "url": "https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+          "source_date": "2023-09-21",
+          "checked_date": "2026-10-20",
+          "verification_note": "官方摘要说明758名顾问及AI能力范围内的效率质量改善，并明确任务之间存在能力边界。用于评审，不预先喂给聊天模型。"
+        }
+      ],
+      "intended_search_mode": "两边均开启同一种联网搜索模式；简单Prompt也明确要求联网，避免把工具可用性混成策略效果。",
+      "strategy_prompt": "我要核查的说法是：一项2023年针对BCG顾问的实验发现，使用GPT-4的人完成任务更快、质量更高。因此，企业只要全面使用生成式AI，就能稳定提高所有知识工作的质量，不需要再区分任务类型。\n\n请先把它拆成：\n1. 可以被外部验证的事实；\n2. 从事实推出的结论；\n3. 其中包含的价值判断。\n\n对于事实部分，请联网核查来源、样本、时间和完整上下文，并标记为：\n1. 已证实；\n2. 基本成立，但需要收窄；\n3. 存在争议；\n4. 证据不足；\n5. 明显错误。\n\n在假设相关事实成立的情况下，继续检查：\n1. 这些事实能否推出当前结论；\n2. 是否藏着未经验证的假设；\n3. 是否混淆相关性和因果关系；\n4. 是否遗漏了其他解释或关键信息；\n5. 结论在什么条件下成立或失效。\n\n最后请输出：\n1. 哪些事实可信，哪些需要修正；\n2. 推理链中最关键的漏洞；\n3. 补强后的最合理版本；\n4. 我目前可以相信到什么程度。",
+      "template_integrity": {
+        "only_placeholder_substitution": true,
+        "original_placeholders": [
+          "【粘贴观点、结论、数据或方案】"
+        ],
+        "strategy_prompt_sha256": "b449bcea8242bb1a0df6233bd96f893c2846e238f7f7a7c4f481e27c81a0cb5f"
+      }
+    },
+    {
+      "candidate_id": "google-psychological-safety",
+      "object": "Google团队研究与不提异议推论",
+      "placeholder_values": [
+        "Google的Project Aristotle研究发现，心理安全感是高效团队的重要因素。因此，管理者应当避免在会议中指出问题，团队成员最好不要公开反对同事，这样才能提高团队绩效"
+      ],
+      "simple_prompt": "请联网判断下面这段话是否可信：Google的Project Aristotle研究发现，心理安全感是高效团队的重要因素。因此，管理者应当避免在会议中指出问题，团队成员最好不要公开反对同事，这样才能提高团队绩效。",
+      "observation_points_to_test": [
+        "是否核对研究范围与心理安全感的具体定义，并区分不受羞辱与不能讨论问题。",
+        "是否指出事实与管理建议之间的概念偷换，而不仅泛泛表示需要平衡。",
+        "是否检验Google内部相关结果能否支持所有组织的因果断言。",
+        "补强版本是否同时保留提出问题的空间和对工作质量的要求。"
+      ],
+      "selection_rationale_before_execution": "适合MBA管理语境；看似善意的建议与概念定义存在冲突，课堂容易感受到查资料和查推理的区别。",
+      "rejection_conditions": [
+        "简单回答已抓住概念偷换、研究外推限制并提供同等可查依据。",
+        "策略回答把安全感等同于舒适或一致意见，或把观察性关联直接说成普遍因果。"
+      ],
+      "status": "pending_browser",
+      "platform": null,
+      "model_and_mode": null,
+      "simple_response": null,
+      "strategy_response": null,
+      "simple_conversation_url": null,
+      "strategy_conversation_url": null,
+      "simple_share_url": null,
+      "strategy_share_url": null,
+      "actual_comparison": null,
+      "claim_provenance": "用于本次核查演示而编写的复合命题，不是Google或研究者原话。",
+      "reviewer_reference_sources": [
+        {
+          "title": "Google re:Work: Understand team effectiveness",
+          "url": "https://rework.withgoogle.com/intl/en/guides/understand-team-effectiveness",
+          "source_date": "页面标注Originally published 2015；当前页面保留早期研究记录",
+          "checked_date": "2026-10-20",
+          "verification_note": "官方页面列出180个Google团队、五项团队因素，并将安全感解释为愿意提问、承认错误和表达不同意见；也提醒Google结果不必然适用于其他环境。用于评审，不预先喂给聊天模型。"
+        }
+      ],
+      "intended_search_mode": "两边均开启同一种联网搜索模式；简单Prompt也明确要求联网，避免把工具可用性混成策略效果。",
+      "strategy_prompt": "我要核查的说法是：Google的Project Aristotle研究发现，心理安全感是高效团队的重要因素。因此，管理者应当避免在会议中指出问题，团队成员最好不要公开反对同事，这样才能提高团队绩效。\n\n请先把它拆成：\n1. 可以被外部验证的事实；\n2. 从事实推出的结论；\n3. 其中包含的价值判断。\n\n对于事实部分，请联网核查来源、样本、时间和完整上下文，并标记为：\n1. 已证实；\n2. 基本成立，但需要收窄；\n3. 存在争议；\n4. 证据不足；\n5. 明显错误。\n\n在假设相关事实成立的情况下，继续检查：\n1. 这些事实能否推出当前结论；\n2. 是否藏着未经验证的假设；\n3. 是否混淆相关性和因果关系；\n4. 是否遗漏了其他解释或关键信息；\n5. 结论在什么条件下成立或失效。\n\n最后请输出：\n1. 哪些事实可信，哪些需要修正；\n2. 推理链中最关键的漏洞；\n3. 补强后的最合理版本；\n4. 我目前可以相信到什么程度。",
+      "template_integrity": {
+        "only_placeholder_substitution": true,
+        "original_placeholders": [
+          "【粘贴观点、结论、数据或方案】"
+        ],
+        "strategy_prompt_sha256": "f949afb1d295ef97b95518125e3797345355f6428a32d18ebdaa074095adc9fe"
+      }
+    }
+  ],
+  "selected_candidate_id": null,
+  "reviewer_decision": null
+}

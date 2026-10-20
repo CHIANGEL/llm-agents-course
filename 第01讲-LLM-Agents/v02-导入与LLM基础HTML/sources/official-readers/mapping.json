@@ -1,0 +1,8 @@
+{
+  "CASE_FIN": "sources/official-readers/fin.html",
+  "CASE_AWS": "sources/official-readers/aws.html",
+  "CASE_BOX": "sources/official-readers/box.html",
+  "CASE_REMARKABLE": "sources/official-readers/remarkable.html",
+  "CASE_ZEP": "sources/official-readers/zep.html",
+  "RP_PAPER": "sources/official-readers/rpeval.html"
+}

@@ -1,0 +1,17 @@
+const fs=require('fs'),path=require('path');const root=path.resolve(__dirname,'..'),dir=path.join(root,'sources/file-readers');fs.mkdirSync(dir,{recursive:true});
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const page=(title,body)=>`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:,"><title>${esc(title)}</title><style>body{max-width:1050px;margin:32px auto;padding:0 24px;color:#002060;font:20px/1.7 Arial,"Microsoft YaHei",sans-serif}h1{font-size:28px}pre{font:18px/1.6 monospace;white-space:pre-wrap;overflow-wrap:anywhere;color:#111}a{color:#003f98}li{margin:10px 0}</style><h1>${esc(title)}</h1>${body}</html>`;
+function walk(p){return fs.readdirSync(p,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(p,e.name)):[path.join(p,e.name)]);}
+function reader(file,label,key){const full=path.join(root,file);const back=path.relative(dir,full).split(path.sep).join('/');const visual=/\.(png|jpe?g|gif|webp|svg)$/i.test(file);const body=visual?`<img src="${esc(back)}" alt="${esc(label)}" style="max-width:100%;max-height:65vh;object-fit:contain">`:`<pre>${esc(fs.readFileSync(full,'utf8'))}</pre>`;fs.writeFileSync(path.join(dir,key+'.html'),page(label,`<p><a href="${esc(back)}" download>下载原始文件</a></p>${body}`));return {label,href:'sources/file-readers/'+key+'.html'};}
+function index(key,label,files){fs.writeFileSync(path.join(dir,key+'.html'),page(label,'<ul>'+files.map(f=>`<li><a href="${path.basename(f.href)}">${esc(f.label)}</a></li>`).join('')+'</ul>'));return {label,href:'sources/file-readers/'+key+'.html'};}
+const packroot=path.join(root,'sources/agents-skills/jupyter-notebook');const skill=walk(packroot).sort().map((p,i)=>reader(path.relative(root,p),'jupyter-notebook/'+path.relative(packroot,p),'skill-'+String(i+1).padStart(2,'0')));if(skill.length!==12)throw Error('Skill package must contain 12 files');
+const si=index('skill-package','jupyter-notebook完整文件包（12文件）',skill);
+const mem=['memory_summary.md','rollout_summaries/scope.md','rollout_summaries/style.md'].map((f,i)=>reader('sources/agents-memory/'+f,f,'memory-'+(i+1)));const mi=index('memory-files','记忆原文件',mem);
+const tools=['02_tools.py','05_parsed_call.json','06_tool_result.txt','07_messages_after_tool.json','10_final_messages.json','execution_events.json'].map((f,i)=>reader('sources/agent-tools/tool_call_text/data/'+f,f,'tool-'+(i+1)));const ti=index('tool-files','天气调用：工具、消息与执行记录',tools);
+const completed=walk(path.join(root,'sources/agents-skills/completed')).find(f=>f.endsWith('.ipynb'));const nb=reader(path.relative(root,completed),'列表与平均值：完整Notebook','completed-notebook');
+// These are stable authoring_page keys, not the renumbered classroom pages.
+// build-data.cjs maps them to displayed pages and merges the foundations.files
+// entries. Subtracting five here would apply the page shift a second time.
+const map={};for(let p=53;p<=58;p++)map[p]=[ti];for(let p=75;p<=79;p++)map[p]=[mi];for(let p=90;p<=98;p++)map[p]=[si];map[91]=skill;map[97]=[si,skill.find(x=>x.label.endsWith('/new_notebook.py'))];map[103]=[nb,si];
+map[108]=[reader('sources/agents-harness/MCP原课程执行记录.json','MCP原课程执行记录','mcp-record')];
+fs.writeFileSync(path.join(root,'sources/material-files.json'),JSON.stringify(map,null,2)+'\n');console.log(JSON.stringify({skillFiles:skill.length,authoringPages:Object.keys(map).length}));

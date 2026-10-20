@@ -1,0 +1,86 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=101&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=101&s=1
+	2 container
+		55 container Description: 第101页 采购案例小结：记忆怎样发挥作用？, ID: mount
+			56 container 第101页 采购案例小结：记忆怎样发挥作用？
+				57 heading 采购案例小结：记忆怎样发挥作用？, Value: 1
+					58 text 采购案例小结：记忆怎样发挥作用？
+				59 container 课件内容
+					60 container
+						61 text 回到采购案例：每一步都能定位到具体的信息与动作。
+						62 table
+							63 row
+								64 cell
+									65 text 位置或动作
+								66 cell
+									67 text 采购案例里发生了什么
+								68 cell
+									69 text 对应概念
+							70 row
+								71 cell
+									72 text 磁盘保存
+								73 cell
+									74 text 摘要、预算范围、安全要求分开存放
+								75 cell
+									76 text 外部记忆
+							77 row
+								78 cell
+									79 text 客户端加载
+								80 cell
+									81 text 首次输入含偏好和详细记忆入口
+								82 cell
+									83 text 摘要
+							84 row
+								85 cell
+									86 text 工具按需读取
+								87 cell
+									88 text 打开pilot-budget.md，返回正文
+								89 cell
+									90 text 渐进式披露
+							91 row
+								92 cell
+									93 text 当前输入参与判断
+								94 cell
+									95 text 区分10万元试点与300人部署
+								96 cell
+									97 text 适用范围
+							98 row
+								99 cell
+									100 text 新条件与后续保存
+								101 cell
+									102 text 采用30万元新条件，再保留供以后读取
+								103 cell
+									104 text 当前消息与长期更新
+						105 text Memory的作用体现在“输入增加了什么”，以及“这些信息怎样改变当前判断”。
+				106 container 课程进度
+					107 button 导入
+					108 button 1. LLM基础
+					109 button 2. Prompting
+					110 button 3. Agents · Externalization & Internalization
+						111 text 3. Agents 
+						112 text · Externalization & Internalization
+					113 button 3.0 外化与内化总览
+					114 button 3.1 工具调用
+					115 button 3.2 Memory
+					116 button 3.3 Skills
+					117 button 3.4 Harness
+					118 button 3.5 外化与内化整合
+					119 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 101, ID: page-input
+				46 text / 151
+			120 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		121 text 第101页，采购案例小结：记忆怎样发挥作用？，整页显示
+
+The focused UI element is 55 container Description: 第101页 采购案例小结：记忆怎样发挥作用？, ID: mount

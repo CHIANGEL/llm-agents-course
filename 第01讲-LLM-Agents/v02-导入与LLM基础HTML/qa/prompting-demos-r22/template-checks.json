@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-21",
+  "checks": [
+    {
+      "strategy": "四大要点",
+      "adaptation_recorded": true
+    },
+    {
+      "strategy": "给Example",
+      "adaptation_recorded": true
+    },
+    {
+      "strategy": "让模型写Prompt",
+      "original_template_preserved_except_placeholders": true
+    },
+    {
+      "strategy": "苏格拉底式提问",
+      "original_template_preserved_except_placeholders": true
+    },
+    {
+      "strategy": "双层解释法",
+      "original_template_preserved_except_placeholders": true
+    },
+    {
+      "strategy": "反向拆解",
+      "original_template_preserved_except_placeholders": true
+    },
+    {
+      "strategy": "横纵分析法",
+      "original_template_preserved_except_placeholders": true
+    },
+    {
+      "strategy": "事实核查",
+      "original_template_preserved_except_placeholders": true
+    },
+    {
+      "strategy": "专家会诊",
+      "original_template_preserved_except_placeholders": true
+    },
+    {
+      "strategy": "第一性原理",
+      "original_template_preserved_except_placeholders": true
+    },
+    {
+      "strategy": "跨领域借解",
+      "original_template_preserved_except_placeholders": true
+    },
+    {
+      "strategy": "双向钢人论证",
+      "original_template_preserved_except_placeholders": true
+    },
+    {
+      "strategy": "用最小实验替代空想",
+      "original_template_preserved_except_placeholders": true
+    }
+  ],
+  "candidate_pairs": 26,
+  "original_template_sha256": "07f6c21e7adfd6591e55bddda685615b763b01fca8ca522ab974f68633a969b9",
+  "selected_pairs_browser_verified": true,
+  "selected_template_checks": "selected-template-checks.json"
+}

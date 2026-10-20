@@ -1,0 +1,5 @@
+<|im_start|>system
+只给结果。<|im_end|>
+<|im_start|>user
+3人，每人20元？<|im_end|>
+<|im_start|>assistant

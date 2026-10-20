@@ -1,0 +1,114 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>天气查询：完整输入与消息文本</title><style>body{font:20px/1.7 sans-serif;max-width:1100px;margin:40px auto;padding:0 24px;color:#111}h1,h2,a{color:#003f98}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f5f6f8;padding:22px;border:1px solid #ccd4df;font:18px/1.7 monospace}summary{cursor:pointer;font-weight:bold;padding:12px}a{margin-right:24px}</style><h1>天气查询：完整输入与消息文本</h1><p><a href="../../index.html#p=85&s=1">返回课件第85页</a></p><details open><summary>第一次完整模型输入</summary><pre>&lt;|im_start|&gt;system
+请用中文回答。
+
+# Tools
+
+You may call one or more functions to assist with the user query.
+
+You are provided with function signatures within &lt;tools&gt;&lt;/tools&gt; XML tags:
+&lt;tools&gt;
+{&quot;type&quot;: &quot;function&quot;, &quot;function&quot;: {&quot;name&quot;: &quot;get_weather&quot;, &quot;description&quot;: &quot;Get current weather for a location.&quot;, &quot;parameters&quot;: {&quot;type&quot;: &quot;object&quot;, &quot;properties&quot;: {&quot;location&quot;: {&quot;type&quot;: &quot;string&quot;}}, &quot;required&quot;: [&quot;location&quot;]}}}
+&lt;/tools&gt;
+
+For each function call, return a json object with function name and arguments within &lt;tool_call&gt;&lt;/tool_call&gt; XML tags:
+&lt;tool_call&gt;
+{&quot;name&quot;: &lt;function-name&gt;, &quot;arguments&quot;: &lt;args-json-object&gt;}
+&lt;/tool_call&gt;&lt;|im_end|&gt;
+&lt;|im_start|&gt;user
+纽约现在天气怎么样？&lt;|im_end|&gt;
+&lt;|im_start|&gt;assistant
+</pre></details><details open><summary>模型生成的调用文本</summary><pre>&lt;tool_call&gt;
+{&quot;name&quot;: &quot;get_weather&quot;, &quot;arguments&quot;: {&quot;location&quot;: &quot;New York&quot;}}
+&lt;/tool_call&gt;&lt;|im_end|&gt;</pre></details><details open><summary>工具返回</summary><pre>Current weather in New York:
+Temperature: 72°F
+Conditions: Partly cloudy</pre></details><details open><summary>第二次完整模型输入</summary><pre>&lt;|im_start|&gt;system
+请用中文回答。
+
+# Tools
+
+You may call one or more functions to assist with the user query.
+
+You are provided with function signatures within &lt;tools&gt;&lt;/tools&gt; XML tags:
+&lt;tools&gt;
+{&quot;type&quot;: &quot;function&quot;, &quot;function&quot;: {&quot;name&quot;: &quot;get_weather&quot;, &quot;description&quot;: &quot;Get current weather for a location.&quot;, &quot;parameters&quot;: {&quot;type&quot;: &quot;object&quot;, &quot;properties&quot;: {&quot;location&quot;: {&quot;type&quot;: &quot;string&quot;}}, &quot;required&quot;: [&quot;location&quot;]}}}
+&lt;/tools&gt;
+
+For each function call, return a json object with function name and arguments within &lt;tool_call&gt;&lt;/tool_call&gt; XML tags:
+&lt;tool_call&gt;
+{&quot;name&quot;: &lt;function-name&gt;, &quot;arguments&quot;: &lt;args-json-object&gt;}
+&lt;/tool_call&gt;&lt;|im_end|&gt;
+&lt;|im_start|&gt;user
+纽约现在天气怎么样？&lt;|im_end|&gt;
+&lt;|im_start|&gt;assistant
+&lt;tool_call&gt;
+{&quot;name&quot;: &quot;get_weather&quot;, &quot;arguments&quot;: {&quot;location&quot;: &quot;New York&quot;}}
+&lt;/tool_call&gt;&lt;|im_end|&gt;
+&lt;|im_start|&gt;user
+&lt;tool_response&gt;
+Current weather in New York:
+Temperature: 72°F
+Conditions: Partly cloudy
+&lt;/tool_response&gt;&lt;|im_end|&gt;
+&lt;|im_start|&gt;assistant
+</pre></details><details open><summary>包含回答的完整对话文本</summary><pre>&lt;|im_start|&gt;system
+请用中文回答。
+
+# Tools
+
+You may call one or more functions to assist with the user query.
+
+You are provided with function signatures within &lt;tools&gt;&lt;/tools&gt; XML tags:
+&lt;tools&gt;
+{&quot;type&quot;: &quot;function&quot;, &quot;function&quot;: {&quot;name&quot;: &quot;get_weather&quot;, &quot;description&quot;: &quot;Get current weather for a location.&quot;, &quot;parameters&quot;: {&quot;type&quot;: &quot;object&quot;, &quot;properties&quot;: {&quot;location&quot;: {&quot;type&quot;: &quot;string&quot;}}, &quot;required&quot;: [&quot;location&quot;]}}}
+&lt;/tools&gt;
+
+For each function call, return a json object with function name and arguments within &lt;tool_call&gt;&lt;/tool_call&gt; XML tags:
+&lt;tool_call&gt;
+{&quot;name&quot;: &lt;function-name&gt;, &quot;arguments&quot;: &lt;args-json-object&gt;}
+&lt;/tool_call&gt;&lt;|im_end|&gt;
+&lt;|im_start|&gt;user
+纽约现在天气怎么样？&lt;|im_end|&gt;
+&lt;|im_start|&gt;assistant
+&lt;tool_call&gt;
+{&quot;name&quot;: &quot;get_weather&quot;, &quot;arguments&quot;: {&quot;location&quot;: &quot;New York&quot;}}
+&lt;/tool_call&gt;&lt;|im_end|&gt;
+&lt;|im_start|&gt;user
+&lt;tool_response&gt;
+Current weather in New York:
+Temperature: 72°F
+Conditions: Partly cloudy
+&lt;/tool_response&gt;&lt;|im_end|&gt;
+&lt;|im_start|&gt;assistant
+纽约气温72°F，局部多云。&lt;|im_end|&gt;</pre></details><details open><summary>完整消息列表</summary><pre>[
+  {
+    &quot;role&quot;: &quot;system&quot;,
+    &quot;content&quot;: &quot;请用中文回答。&quot;
+  },
+  {
+    &quot;role&quot;: &quot;user&quot;,
+    &quot;content&quot;: &quot;纽约现在天气怎么样？&quot;
+  },
+  {
+    &quot;role&quot;: &quot;assistant&quot;,
+    &quot;tool_calls&quot;: [
+      {
+        &quot;type&quot;: &quot;function&quot;,
+        &quot;function&quot;: {
+          &quot;name&quot;: &quot;get_weather&quot;,
+          &quot;arguments&quot;: {
+            &quot;location&quot;: &quot;New York&quot;
+          }
+        }
+      }
+    ]
+  },
+  {
+    &quot;role&quot;: &quot;tool&quot;,
+    &quot;content&quot;: &quot;Current weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy&quot;
+  },
+  {
+    &quot;role&quot;: &quot;assistant&quot;,
+    &quot;content&quot;: &quot;纽约气温72°F，局部多云。&quot;
+  }
+]
+</pre></details></html>

@@ -1,0 +1,83 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=html-figures-r6#p=62&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=html-figures-r6#p=62&s=1
+	2 container
+		3 container Description: 第62页 本讲内容, ID: mount
+			4 container 第62页 本讲内容
+				5 heading 本讲内容, Value: 1
+					6 text 本讲内容
+				7 container 课件内容
+					8 text 已结束：外化与内化总览 →
+					9 text 接下来：工具调用
+					10 container
+						11 heading 1. LLM基础, Value: 2
+							12 text 1. LLM基础
+						13 text 连续生成与多轮聊天
+						14 content list
+							15 button ✓ 1.1 连续生成
+								16 text ✓
+								17 text 1.1 连续生成
+							18 button ✓ 1.2 多轮聊天
+								19 text ✓
+								20 text 1.2 多轮聊天
+							21 button ✓ 1.3 LLM小结
+								22 text ✓
+								23 text 1.3 LLM小结
+					24 container
+						25 heading 2. Prompting, Value: 2
+							26 text 2. Prompting
+						27 text 交代任务，再选择方法
+						28 content list
+							29 button ✓ 2.1 三个核心
+								30 text ✓
+								31 text 2.1 三个核心
+							32 button ✓ 2.2 问清问题
+								33 text ✓
+								34 text 2.2 问清问题
+							35 button ✓ 2.3 学习
+								36 text ✓
+								37 text 2.3 学习
+							38 button ✓ 2.4 解决问题
+								39 text ✓
+								40 text 2.4 解决问题
+							41 button ✓ 2.5 决策
+								42 text ✓
+								43 text 2.5 决策
+							44 button ✓ 2.6 Prompting小结
+								45 text ✓
+								46 text 2.6 Prompting小结
+					47 container
+						48 heading 3. Agents, Value: 2
+							49 text 3. Agents
+						50 text Externalization & Internalization
+						51 content list
+							52 button ✓ 3.0 外化与内化总览
+								53 text ✓
+								54 text 3.0 外化与内化总览
+							55 button → 3.1 工具调用 接下来
+								56 text →
+								57 text 3.1 工具调用
+								58 text 接下来
+							59 button 3.2 Memory
+							60 button 3.3 Skills
+							61 button 3.4 Harness
+							62 button 3.5 外化与内化整合
+							63 button 3.6 全讲总结
+					64 container
+						65 text ✓ 已结束 → 接下来 其余内容随后展开
+				66 container 课程进度
+					67 button 导入
+					68 button 1. LLM基础
+					69 button 2. Prompting
+					70 button 3. Agents · Externalization & Internalization
+						71 text 3. Agents 
+						72 text · Externalization & Internalization
+					73 button 3.0 外化与内化总览
+					74 button 3.1 工具调用
+					75 button 3.2 Memory
+					76 button 3.3 Skills
+					77 button 3.4 Harness
+					78 button 3.5 外化与内化整合
+					79 button 3.6 全讲总结
+		80 text 第62页，本讲内容，整页显示
+
+The focused UI element is 3 container Description: 第62页 本讲内容, ID: mount

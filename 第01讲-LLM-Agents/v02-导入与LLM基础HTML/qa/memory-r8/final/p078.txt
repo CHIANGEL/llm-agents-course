@@ -1,0 +1,42 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=78&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=78&s=1
+	2 container
+		55 container Description: 第78页 记忆的增删改查, ID: mount
+			56 container 第78页 记忆的增删改查
+				57 heading 记忆的增删改查, Value: 1
+					58 text 记忆的增删改查
+				59 container 课件内容
+					60 container
+						61 text 新增、修改、删除改变保存的记录；查询把有关记录带入本次任务。 信息先被提取和核对，再决定怎样写；取回后还要检查是否适用。
+				62 container 课程进度
+					63 button 导入
+					64 button 1. LLM基础
+					65 button 2. Prompting
+					66 button 3. Agents · Externalization & Internalization
+						67 text 3. Agents 
+						68 text · Externalization & Internalization
+					69 button 3.0 外化与内化总览
+					70 button 3.1 工具调用
+					71 button 3.2 Memory
+					72 button 3.3 Skills
+					73 button 3.4 Harness
+					74 button 3.5 外化与内化整合
+					75 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 78, ID: page-input
+				46 text / 151
+			76 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		77 text 第78页，记忆的增删改查，整页显示
+
+The focused UI element is 55 container Description: 第78页 记忆的增删改查, ID: mount

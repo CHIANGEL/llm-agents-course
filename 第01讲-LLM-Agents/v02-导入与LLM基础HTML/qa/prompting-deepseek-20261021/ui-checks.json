@@ -1,0 +1,155 @@
+{
+  "key": "_ui_checks",
+  "checked_pages": [
+    {
+      "page": 20,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 复利：简单Prompt, Value: chat.deepseek.com/share/k088f4dp4m6bl4lchq",
+        "52 link 策略Prompt ↗, Help: 复利：策略Prompt, Value: chat.deepseek.com/share/sk9mik3gf1n0k37bzn"
+      ],
+      "at": "2026-10-20T19:24:32.716Z"
+    },
+    {
+      "page": 21,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 上市公司财报快讯：简单Prompt, Value: chat.deepseek.com/share/2aduk1dixloh3tibvt",
+        "52 link 策略Prompt ↗, Help: 上市公司财报快讯：策略Prompt, Value: chat.deepseek.com/share/v8wtrosv833thy3snt"
+      ],
+      "at": "2026-10-20T19:24:33.408Z"
+    },
+    {
+      "page": 22,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 两家上市公司的财报比较：简单Prompt, Value: chat.deepseek.com/share/obntrim0b3tb1beibz",
+        "52 link 策略Prompt ↗, Help: 两家上市公司的财报比较：策略Prompt, Value: chat.deepseek.com/share/rt7yz3zsy4xlws48pl",
+        "53 link 改写过程 ↗, Help: 两家上市公司的财报比较：模型审查与改写Prompt的过程, Value: chat.deepseek.com/share/ixwy4pocpwd3wsfjpr"
+      ],
+      "at": "2026-10-20T19:24:34.060Z"
+    },
+    {
+      "page": 26,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 奶茶店营收下降：简单Prompt, Value: chat.deepseek.com/share/vzspjzzovi9hgnc8zf",
+        "52 link 策略Prompt ↗, Help: 奶茶店营收下降：策略Prompt, Value: chat.deepseek.com/share/lpwq4pu8zuyo1r405u"
+      ],
+      "at": "2026-10-20T19:24:34.794Z"
+    },
+    {
+      "page": 29,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 机器学习中的过拟合：简单Prompt, Value: chat.deepseek.com/share/6pwts1x8p285jo7f1s",
+        "52 link 策略Prompt ↗, Help: 机器学习中的过拟合：策略Prompt, Value: chat.deepseek.com/share/v7m8ploalnkzz497iv"
+      ],
+      "at": "2026-10-20T19:24:35.478Z"
+    },
+    {
+      "page": 31,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 咖啡店促销文案：简单Prompt, Value: chat.deepseek.com/share/jgosysemgmnjhstqgf",
+        "52 link 策略Prompt ↗, Help: 咖啡店促销文案：策略Prompt, Value: chat.deepseek.com/share/4nd06tnba46t0dddfd"
+      ],
+      "at": "2026-10-20T19:24:36.162Z"
+    },
+    {
+      "page": 33,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 贵州茅台：白酒业务与渠道变化：简单Prompt, Value: chat.deepseek.com/share/99ay89veta13e3j0ua",
+        "52 link 策略Prompt ↗, Help: 贵州茅台：白酒业务与渠道变化：策略Prompt, Value: chat.deepseek.com/share/y4agjaend0r72rq61k"
+      ],
+      "at": "2026-10-20T19:24:36.830Z"
+    },
+    {
+      "page": 34,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 贵州茅台：白酒业务与渠道变化：简单Prompt, Value: chat.deepseek.com/share/99ay89veta13e3j0ua",
+        "52 link 策略Prompt ↗, Help: 贵州茅台：白酒业务与渠道变化：策略Prompt, Value: chat.deepseek.com/share/y4agjaend0r72rq61k"
+      ],
+      "at": "2026-10-20T19:24:42.948Z"
+    },
+    {
+      "page": 36,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 微软日本四天工作制：简单Prompt, Value: chat.deepseek.com/share/jm8d7vf2envk5dtzi2",
+        "52 link 策略Prompt ↗, Help: 微软日本四天工作制：策略Prompt, Value: chat.deepseek.com/share/hve0axv30x116sgnv3"
+      ],
+      "at": "2026-10-20T19:24:43.654Z"
+    },
+    {
+      "page": 40,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 服装店换季库存与现金回笼：简单Prompt, Value: chat.deepseek.com/share/fn8y8bb6bm6elojgfa",
+        "52 link 策略Prompt ↗, Help: 服装店换季库存与现金回笼：策略Prompt, Value: chat.deepseek.com/share/ki036n23wjpg3e1kwd"
+      ],
+      "at": "2026-10-20T19:24:44.325Z"
+    },
+    {
+      "page": 41,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 长周报与风险信息传递：简单Prompt, Value: chat.deepseek.com/share/xno5z15kffdx6q5x7n",
+        "52 link 策略Prompt ↗, Help: 长周报与风险信息传递：策略Prompt, Value: chat.deepseek.com/share/r6rcbs9a79oia96zo4"
+      ],
+      "at": "2026-10-20T19:24:45.014Z"
+    },
+    {
+      "page": 43,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 餐厅午间取餐拥堵：简单Prompt, Value: chat.deepseek.com/share/8fw7zm4qv6o69bpgam",
+        "52 link 策略Prompt ↗, Help: 餐厅午间取餐拥堵：策略Prompt, Value: chat.deepseek.com/share/4co6futyrslmxo0tex"
+      ],
+      "at": "2026-10-20T19:24:45.697Z"
+    },
+    {
+      "page": 47,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 上市公司分红还是回购：简单Prompt, Value: chat.deepseek.com/share/znpxawujbhd3v5dldd",
+        "52 link 策略Prompt ↗, Help: 上市公司分红还是回购：策略Prompt, Value: chat.deepseek.com/share/gdrkqucvwxv6tjap10"
+      ],
+      "at": "2026-10-20T19:24:46.451Z"
+    },
+    {
+      "page": 49,
+      "links": [
+        "51 link 简单Prompt ↗, Help: 咖啡店主付费社群：简单Prompt, Value: chat.deepseek.com/share/dnszgqghaqfi4x0nku",
+        "52 link 策略Prompt ↗, Help: 咖啡店主付费社群：策略Prompt, Value: chat.deepseek.com/share/z1doxoppv6j4ag1r99"
+      ],
+      "at": "2026-10-20T19:24:47.197Z"
+    }
+  ],
+  "open_new_tab_and_return": true,
+  "jump_checks": [
+    {
+      "p": 49,
+      "label": "简单Prompt",
+      "url": "chat.deepseek.com/share/dnszgqghaqfi4x0nku",
+      "opened_new_tab": true,
+      "returned_to_same_page": true,
+      "at": "2026-10-20T19:24:57.979Z"
+    },
+    {
+      "p": 47,
+      "label": "策略Prompt",
+      "url": "chat.deepseek.com/share/gdrkqucvwxv6tjap10",
+      "opened_new_tab": true,
+      "returned_to_same_page": true,
+      "at": "2026-10-20T19:25:00.962Z"
+    },
+    {
+      "p": 22,
+      "label": "改写过程",
+      "url": "chat.deepseek.com/share/ixwy4pocpwd3wsfjpr",
+      "opened_new_tab": true,
+      "returned_to_same_page": true,
+      "at": "2026-10-20T19:25:03.914Z"
+    }
+  ],
+  "visually_inspected_pages": [
+    20,
+    22,
+    33,
+    34,
+    43,
+    47,
+    49
+  ],
+  "at": "2026-10-20T19:25:13.116Z"
+}

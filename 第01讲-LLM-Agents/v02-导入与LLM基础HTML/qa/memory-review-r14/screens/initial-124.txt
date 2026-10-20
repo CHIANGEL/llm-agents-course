@@ -1,0 +1,49 @@
+- main:
+  - article "第124页 先看目录：这个任务适合哪个Skill？":
+    - heading "先看目录：这个任务适合哪个Skill？" [level=1]
+    - region "课件内容":
+      - generic: 用户要求创建教学用Notebook骨架；目录中的用途与这个任务匹配。
+      - heading "当前环节" [level=2]
+      - button "客户端：可用Skill目录 名称、用途与文件入口" [pressed]:
+        - text: 客户端：可用Skill目录
+        - generic: 名称、用途与文件入口
+      - button "用户：创建Notebook骨架 用户输入":
+        - text: 用户：创建Notebook骨架
+        - generic: 用户输入
+      - generic: 目录给出用途与入口。
+      - button "关键内容" [pressed]
+      - button "完整内容"
+      - button "消息结构"
+      - button "截至此处的内容"
+      - heading "客户端：可用Skill目录" [level=2]
+      - generic: 名称：jupyter-notebook 用途：创建、搭建或编辑Notebook；支持实验与教程。 入口文件： /workspace/course/.agents/skills/jupyter-notebook/SKILL.md
+      - paragraph: 目录先提供用途和路径；完整内容中保留英文用途说明。
+      - generic: 目录由客户端提供；模型接着生成读取SKILL.md的工具调用。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "3.0 外化与内化总览"
+      - button "3.1 工具调用"
+      - button "3.2 Memory"
+      - button "3.3 Skills"
+      - button "3.4 Protocols"
+      - button "3.5 Harness"
+      - button "3.6 外化与内化整合"
+      - button "3.7 全讲总结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步": →
+  - generic: 页码
+  - spinbutton "页码": "124"
+  - generic: / 193
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第124页，先看目录：这个任务适合哪个Skill？，整页显示

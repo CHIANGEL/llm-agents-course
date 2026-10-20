@@ -1,0 +1,226 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=source-replica-r5#p=83&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=source-replica-r5#p=83&s=1
+	2 container
+		87 container Description: 第83页 把以后要用的信息留给下一次任务, ID: mount
+			88 container 第83页 把以后要用的信息留给下一次任务
+				89 heading 把以后要用的信息留给下一次任务, Value: 1
+					90 text 把以后要用的信息留给下一次任务
+				91 container 课件内容
+					92 container
+						93 text 本次工具执行结束后，后续任务还可能需要已确认的信息。 本次工作 任务要求
+						94 text 工具返回
+						95 text 已完成的动作
+						96 image
+						97 image
+						98 text 以后需要的
+						99 text 信息
+						100 image
+						101 image
+						102 text 下次任务
+						103 text ＋
+						104 text 取回的信息 保存 取回
+						105 image
+						106 text Memory：保存以后会用到的信息，在合适的任务中重新取回。
+				107 container 课程进度
+					108 button 导入
+					109 button 1. LLM基础
+					110 button 2. Prompting
+					111 button 3. Agents · Externalization & Internalization
+						112 text 3. Agents 
+						113 text · Externalization & Internalization
+					114 button 3.0 外化与内化总览
+					115 button 3.1 工具调用
+					116 button 3.2 Memory
+					117 button 3.3 Skills
+					118 button 3.4 Harness
+					119 button 3.5 外化与内化整合
+					120 button 3.6 全讲总结
+		121 text 第83页，把以后要用的信息留给下一次任务，整页显示
+
+The focused UI element is 87 container Description: 第83页 把以后要用的信息留给下一次任务, ID: mount
+
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=source-replica-r5#p=100&s=1".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 145-148, 150-166
+~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=source-replica-r5#p=100&s=1
+~		87 container Description: 第100页 本讲内容, ID: mount
+~			88 container 第100页 本讲内容
+~					92 text 已结束：Memory →
+~					93 text 接下来：Skills
+~							142 button ✓ 3.2 Memory
+~								143 text ✓
++							145 button → 3.3 Skills 接下来
++								146 text →
++								147 text 3.3 Skills
++								148 text 接下来
+~							149 button 3.4 Harness
++							150 button 3.5 外化与内化整合
++							151 button 3.6 全讲总结
++					152 container
++						153 text ✓ 已结束 → 接下来 其余内容随后展开
++				154 container 课程进度
++					155 button 导入
++					156 button 1. LLM基础
++					157 button 2. Prompting
++					158 button 3. Agents · Externalization & Internalization
++						159 text 3. Agents 
++						160 text · Externalization & Internalization
++					161 button 3.0 外化与内化总览
++					162 button 3.1 工具调用
++					163 button 3.2 Memory
++					164 button 3.3 Skills
++					165 button 3.4 Harness
++					166 button 3.5 外化与内化整合
++					167 button 3.6 全讲总结
++		168 text 第100页，本讲内容，整页显示
+The focused UI element is 87 container Description: 第100页 本讲内容, ID: mount
+
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=source-replica-r5#p=117&s=1".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 148-168
+~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=source-replica-r5#p=117&s=1
+~		87 container Description: 第117页 本讲内容, ID: mount
+~			88 container 第117页 本讲内容
+~					92 text 已结束：Skills →
+~					93 text 接下来：Harness
+~							145 button ✓ 3.3 Skills
+~								146 text ✓
++							148 button → 3.4 Harness 接下来
++								149 text →
++								150 text 3.4 Harness
++								151 text 接下来
++							152 button 3.5 外化与内化整合
++							153 button 3.6 全讲总结
++					154 container
++						155 text ✓ 已结束 → 接下来 其余内容随后展开
++				156 container 课程进度
++					157 button 导入
++					158 button 1. LLM基础
++					159 button 2. Prompting
++					160 button 3. Agents · Externalization & Internalization
++						161 text 3. Agents 
++						162 text · Externalization & Internalization
++					163 button 3.0 外化与内化总览
++					164 button 3.1 工具调用
++					165 button 3.2 Memory
++					166 button 3.3 Skills
++					167 button 3.4 Harness
++					168 button 3.5 外化与内化整合
++					169 button 3.6 全讲总结
++		170 text 第117页，本讲内容，整页显示
+The focused UI element is 87 container Description: 第117页 本讲内容, ID: mount
+
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=source-replica-r5#p=139&s=1".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 151-170
+~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=source-replica-r5#p=139&s=1
+~		87 container Description: 第139页 本讲内容, ID: mount
+~			88 container 第139页 本讲内容
+~					92 text 已结束：Harness →
+~					93 text 接下来：外化与内化整合
+~							148 button ✓ 3.4 Harness
+~								149 text ✓
++							151 button → 3.5 外化与内化整合 接下来
++								152 text →
++								153 text 3.5 外化与内化整合
++								154 text 接下来
++							155 button 3.6 全讲总结
++					156 container
++						157 text ✓ 已结束 → 接下来 其余内容随后展开
++				158 container 课程进度
++					159 button 导入
++					160 button 1. LLM基础
++					161 button 2. Prompting
++					162 button 3. Agents · Externalization & Internalization
++						163 text 3. Agents 
++						164 text · Externalization & Internalization
++					165 button 3.0 外化与内化总览
++					166 button 3.1 工具调用
++					167 button 3.2 Memory
++					168 button 3.3 Skills
++					169 button 3.4 Harness
++					170 button 3.5 外化与内化整合
++					171 button 3.6 全讲总结
++		172 text 第139页，本讲内容，整页显示
+The focused UI element is 87 container Description: 第139页 本讲内容, ID: mount
+
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=source-replica-r5#p=146&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=source-replica-r5#p=146&s=1
+	2 container
+		87 container Description: 第146页 Agents小结：模型与外部系统, ID: mount
+			88 container 第146页 Agents小结：模型与外部系统
+				89 heading Agents小结：模型与外部系统, Value: 1
+					90 text Agents小结：模型与外部系统
+				91 container 课件内容
+					92 container
+						93 text 外部系统组织信息与执行，训练改变模型本身的能力。 Externalization：外化 Internalization Harness组织整个运行过程 Memory：信息 Skills：方法 本次
+						94 text 输入
+						95 image 模型根据输入提出内容或动作
+						96 text 模型
+						97 image 外部工具执行操作
+						98 text 工具执行 结果进入下一次输入 内化：训练模型
+						99 image
+						100 text 训练材料与反馈
+						101 image 训练更新模型参数
+						102 text 模型参数经过更新 工具、信息、方法和运行安排，与模型能力共同影响任务结果。
+				103 container 课程进度
+					104 button 导入
+					105 button 1. LLM基础
+					106 button 2. Prompting
+					107 button 3. Agents · Externalization & Internalization
+						108 text 3. Agents 
+						109 text · Externalization & Internalization
+					110 button 3.0 外化与内化总览
+					111 button 3.1 工具调用
+					112 button 3.2 Memory
+					113 button 3.3 Skills
+					114 button 3.4 Harness
+					115 button 3.5 外化与内化整合
+					116 button 3.6 全讲总结
+		117 text 第146页，Agents小结：模型与外部系统，整页显示
+
+The focused UI element is 87 container Description: 第146页 Agents小结：模型与外部系统, ID: mount
+
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=source-replica-r5#p=147&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=source-replica-r5#p=147&s=1
+	2 container
+		87 container Description: 第147页 第一讲小结：生成、任务与执行, ID: mount
+			88 container 第147页 第一讲小结：生成、任务与执行
+				89 heading 第一讲小结：生成、任务与执行, Value: 1
+					90 text 第一讲小结：生成、任务与执行
+				91 container 课件内容
+					92 container
+						93 text 理解一次Agent工作，把任务要求、生成过程与实际交付连起来看。 1. LLM基础 2. Prompting 3. Agents
+						94 image 逐步生成内容
+						95 image
+						96 text 目标与受众
+						97 text 材料与约束
+						98 text 反馈与检查
+						99 image 执行操作并返回结果
+						100 image 可检查的交付物
+						101 image
+						102 text 依据本次输入，
+						103 text 逐步生成内容。 交代任务与材料，
+						104 text 把反馈写回输入。 组织执行与返回，
+						105 text 核对文件和操作结果。
+						106 image
+						107 text Prompting组织输入 LLM提出动作 工具执行并返回结果
+						108 image
+						109 text 结果带回下一次输入，继续判断。
+				110 container 课程进度
+					111 button 导入
+					112 button 1. LLM基础
+					113 button 2. Prompting
+					114 button 3. Agents · Externalization & Internalization
+						115 text 3. Agents 
+						116 text · Externalization & Internalization
+					117 button 3.0 外化与内化总览
+					118 button 3.1 工具调用
+					119 button 3.2 Memory
+					120 button 3.3 Skills
+					121 button 3.4 Harness
+					122 button 3.5 外化与内化整合
+					123 button 3.6 全讲总结
+		124 text 第147页，第一讲小结：生成、任务与执行，整页显示
+
+The focused UI element is 87 container Description: 第147页 第一讲小结：生成、任务与执行, ID: mount

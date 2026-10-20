@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "pages": 134,
+  "states": 387,
+  "duration_seconds": 10800,
+  "break_seconds": 600,
+  "missing_doc_links": [],
+  "recorded_hashes_match": true,
+  "source_errors": [],
+  "final_offline_sequence_status": "passed",
+  "final_live_sequence_status": "completed",
+  "final_live_states": 387,
+  "final_live_last": "#p=134&s=3",
+  "control_checks": 212,
+  "failed_controls": [],
+  "new_official_reader_operations": 40,
+  "preview": "http://127.0.0.1:8765/#p=1&s=1"
+}

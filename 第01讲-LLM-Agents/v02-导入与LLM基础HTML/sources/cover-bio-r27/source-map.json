@@ -1,0 +1,51 @@
+{
+  "cover_source": "封面生成专用.pptx, slide 1",
+  "speaker_source": "讲者介绍原件.pdf, page 1",
+  "cover_reference_dimensions_emu": [
+    12192000,
+    6858000
+  ],
+  "output_canvas": [
+    1600,
+    900
+  ],
+  "artwork": "PPT media extracted verbatim; header paths transcribed from original OOXML group; PDF logos/footer are direct rendered crops; portrait is the original embedded JPEG.",
+  "cover_text_change": "课程标题改为零基础入门大模型智能体，讲者信息采用所提供PDF。",
+  "profile_text": "Complete supplied speaker page text, set as selectable HTML.",
+  "assets": [
+    {
+      "file": "cover-gate.png",
+      "sha256": "1d67fd0978366c923f34bd7ed1999c87db014896a7eda1a7501ae0bac4770595"
+    },
+    {
+      "file": "cover-header.svg",
+      "sha256": "f74ba7a63131d06d8103cec045fe987322732cac61fceb37582fc5da80061ee6"
+    },
+    {
+      "file": "portrait.jpg",
+      "sha256": "36a855a77ff313400fa43f905a5f8c4491d7079445b1e8fd8c97a2456cae9fe7"
+    },
+    {
+      "file": "profile-footer.png",
+      "sha256": "c77670bb2cc4e3d99e76d25a11dca65c44862f0e98aceac06d080f7acf0ae5d3"
+    },
+    {
+      "file": "profile-logos.png",
+      "sha256": "da39388068c5595ed67740e2e4273cf7d179545ea6a3025360523af9dbaad248"
+    },
+    {
+      "file": "sjtu-white.png",
+      "sha256": "2f61be96548d679cd464670f27429d90b957b10e578ff99fdd9e7cd7fb76b786"
+    }
+  ],
+  "original_files": [
+    {
+      "file": "封面生成专用.pptx",
+      "sha256": "2c84eed2560f5cee50efab0ae924f224bf24a3a9231d611faef9711b1ab8d2c6"
+    },
+    {
+      "file": "讲者介绍原件.pdf",
+      "sha256": "333a17e44d67e4e9bb5a024c9d704a617e802ce54b92200f9c2c084af6c7d5fa"
+    }
+  ]
+}

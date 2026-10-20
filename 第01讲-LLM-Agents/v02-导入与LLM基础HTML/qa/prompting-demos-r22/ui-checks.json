@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-21",
+  "browser": "Google Chrome native UI",
+  "deck_pages": 200,
+  "visual_pages": [
+    19,
+    20,
+    21,
+    25,
+    28,
+    30,
+    32,
+    33,
+    35,
+    39,
+    40,
+    42,
+    46,
+    48
+  ],
+  "visual_result": "All 14 inspected; links visible without covering source prompts. Page 21 has three links.",
+  "link_checks": [
+    {
+      "source_page": 19,
+      "platform": "ChatGPT",
+      "new_tab": true,
+      "returned_to_same_slide": true,
+      "tested_at": "2026-10-20T16:11:43.700Z"
+    },
+    {
+      "source_page": 35,
+      "platform": "DeepSeek",
+      "new_tab": true,
+      "returned_to_same_slide": true,
+      "tested_at": "2026-10-20T16:28:49.636Z"
+    }
+  ],
+  "screenshot": "proof.png",
+  "scope": "Affected template pages and external-link behavior only; not a new full-course review."
+}

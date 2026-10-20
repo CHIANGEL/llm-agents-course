@@ -1,0 +1,261 @@
+[
+  {
+    "brokenImages": [],
+    "page": "75",
+    "selected": [],
+    "title": "本讲内容"
+  },
+  {
+    "brokenImages": [],
+    "page": "76",
+    "selected": [],
+    "title": "Memory：保存和使用跨会话信息"
+  },
+  {
+    "brokenImages": [],
+    "page": "77",
+    "selected": [],
+    "title": "新会话怎样用到过去的信息？"
+  },
+  {
+    "brokenImages": [],
+    "page": "78",
+    "selected": [],
+    "title": "记忆要存什么？"
+  },
+  {
+    "brokenImages": [],
+    "page": "79",
+    "selected": [],
+    "title": "记忆怎样组织：条目与关系图"
+  },
+  {
+    "brokenImages": [],
+    "page": "80",
+    "selected": [],
+    "title": "记忆库：条目与图谱"
+  },
+  {
+    "brokenImages": [],
+    "page": "81",
+    "selected": [],
+    "title": "记忆的增删改查"
+  },
+  {
+    "brokenImages": [],
+    "page": "82",
+    "selected": [],
+    "title": "写入：新增、修改、删除，还是不变？"
+  },
+  {
+    "brokenImages": [],
+    "page": "83",
+    "selected": [],
+    "title": "事实变了，历史与当前怎样区分？"
+  },
+  {
+    "brokenImages": [],
+    "page": "84",
+    "selected": [],
+    "title": "删除一条记忆，信息就消失了吗？"
+  },
+  {
+    "brokenImages": [],
+    "page": "85",
+    "selected": [],
+    "title": "查询：先确定范围，再找候选"
+  },
+  {
+    "brokenImages": [],
+    "page": "86",
+    "selected": [],
+    "title": "Memory：本节内容"
+  },
+  {
+    "brokenImages": [],
+    "page": "87",
+    "selected": [],
+    "title": "记忆也可能干扰当前任务"
+  },
+  {
+    "brokenImages": [],
+    "page": "88",
+    "selected": [],
+    "title": "工作场景：需要哪些历史信息？"
+  },
+  {
+    "brokenImages": [],
+    "page": "89",
+    "selected": [],
+    "title": "先判断这次需不需要记忆"
+  },
+  {
+    "brokenImages": [],
+    "page": "90",
+    "selected": [],
+    "title": "Memory：本节内容"
+  },
+  {
+    "brokenImages": [],
+    "page": "91",
+    "selected": [],
+    "title": "从Memory到个性化与主动式智能体"
+  },
+  {
+    "brokenImages": [],
+    "page": "92",
+    "selected": [],
+    "title": "Meta Muse与OpenAI dot"
+  },
+  {
+    "brokenImages": [],
+    "page": "93",
+    "selected": [],
+    "title": "个性化智能体：信息、权限与风险"
+  },
+  {
+    "brokenImages": [],
+    "page": "94",
+    "selected": [],
+    "title": "智能体会改变平台的入口吗？"
+  },
+  {
+    "brokenImages": [],
+    "page": "95",
+    "selected": [],
+    "title": "平台对智能体的限制，已经在发生"
+  },
+  {
+    "brokenImages": [],
+    "page": "96",
+    "selected": [],
+    "title": "个性化与主动式智能体小结"
+  },
+  {
+    "brokenImages": [],
+    "page": "97",
+    "selected": [],
+    "title": "Memory：本节内容"
+  },
+  {
+    "brokenImages": [],
+    "page": "98",
+    "selected": [],
+    "title": "Codex CLI的记忆系统"
+  },
+  {
+    "brokenImages": [],
+    "page": "99",
+    "selected": [],
+    "title": "Codex采购案例：旧预算还能沿用吗？"
+  },
+  {
+    "brokenImages": [],
+    "page": "100",
+    "selected": [],
+    "title": "Codex CLI的记忆文件目录"
+  },
+  {
+    "brokenImages": [],
+    "page": "101",
+    "selected": [
+      "memory_summary.md摘要＋详细记录入口"
+    ],
+    "title": "磁盘里保存了什么？"
+  },
+  {
+    "brokenImages": [],
+    "page": "102",
+    "selected": [],
+    "title": "渐进式披露：先摘要，再细节"
+  },
+  {
+    "brokenImages": [],
+    "page": "103",
+    "selected": [
+      "基础指令客户端准备",
+      "关键内容"
+    ],
+    "title": "首次输入：摘要怎样进入模型？"
+  },
+  {
+    "brokenImages": [],
+    "page": "104",
+    "selected": [],
+    "title": "摘要足够吗？哪些内容还要查？"
+  },
+  {
+    "brokenImages": [],
+    "page": "105",
+    "selected": [
+      "模型：读取预算记录生成工具调用",
+      "关键内容"
+    ],
+    "title": "模型生成读取调用"
+  },
+  {
+    "brokenImages": [],
+    "page": "106",
+    "selected": [
+      "工具：返回预算范围读取文件得到正文",
+      "关键内容"
+    ],
+    "title": "工具返回后，输入增加了什么？"
+  },
+  {
+    "brokenImages": [],
+    "page": "107",
+    "selected": [],
+    "title": "读取记忆后的采购判断"
+  },
+  {
+    "brokenImages": [],
+    "page": "108",
+    "selected": [
+      "模型：给出评审要点结合当前任务与记忆",
+      "关键内容"
+    ],
+    "title": "模型生成采购评审要点"
+  },
+  {
+    "brokenImages": [],
+    "page": "109",
+    "selected": [
+      "用户：正式部署30万元新的条件",
+      "关键内容"
+    ],
+    "title": "用户补充正式部署条件"
+  },
+  {
+    "brokenImages": [],
+    "page": "110",
+    "selected": [
+      "1. 最初加载"
+    ],
+    "title": "文件更新了，当前输入会自动变吗？"
+  },
+  {
+    "brokenImages": [],
+    "page": "111",
+    "selected": [],
+    "title": "采购案例小结：记忆读取与更新"
+  },
+  {
+    "brokenImages": [],
+    "page": "112",
+    "selected": [],
+    "title": "Memory小结：保存、读取与采用"
+  },
+  {
+    "brokenImages": [],
+    "page": "113",
+    "selected": [],
+    "title": "从Memory到Skills：从信息到方法"
+  },
+  {
+    "brokenImages": [],
+    "page": "114",
+    "selected": [],
+    "title": "本讲内容"
+  }
+]

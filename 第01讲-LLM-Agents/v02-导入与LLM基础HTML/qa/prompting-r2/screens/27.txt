@@ -1,0 +1,28 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=27&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=27&s=1
+	2 container
+		3 container Description: 第27页 横纵分析：原始Prompt的分析任务, ID: mount
+			4 container 第27页 横纵分析：原始Prompt的分析任务
+				5 heading 横纵分析：原始Prompt的分析任务, Value: 1
+					6 text 横纵分析：原始Prompt的分析任务
+				7 container 课件内容
+					8 container
+						9 text 先把发展过程与当前差异放在一起，再判断可能的未来路径。 原始Prompt 接续左栏
+						10 text 研究对象是：【填写产品、公司、人物、技术、行业或事件】。
+						11 text 请使用横纵分析法，对它完成一份可追溯的深度研究。研究截止时间为执行当天。
+						12 text 纵向分析：
+						13 text 1. 它在什么背景和需求下诞生，关键推动者是谁；
+						14 text 2. 它经历了哪些重要转折、成功和失败；
+						15 text 3. 哪些早期选择变成了今天的能力、路径依赖或包袱。
+						16 text 横向分析：
+						17 text 1. 选择最值得比较的对象，并说明为什么选它们；
+						18 text 2. 用统一维度比较各自的强项、短板和独特性；
+						19 text 3. 解释用户、客户或市场为什么选择它，又为什么放弃它。
+						20 text 把两条轴合起来，继续判断：
+						21 text 1. 过去形成的能力、路径依赖和约束会怎样影响未来；
+						22 text 2. 未来最可能出现哪3条路径；
+						23 text 3. 每条路径出现的前提和预警信号是什么。
+						24 text 《Prompting技巧》· 学习 · 第5–6页
+		25 text 第27页，横纵分析：原始Prompt的分析任务，整页显示
+
+The focused UI element is 3 container Description: 第27页 横纵分析：原始Prompt的分析任务, ID: mount

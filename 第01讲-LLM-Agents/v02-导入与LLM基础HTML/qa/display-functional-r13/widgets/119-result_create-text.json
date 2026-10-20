@@ -1,0 +1,15 @@
+{
+  "broken": [],
+  "page": "119",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "工具：返回文件路径\n工具返回",
+    "关键内容"
+  ],
+  "text": "对照用户最初要求，交代交付位置、文件内容与接下来的工作。\n当前环节\n工具：返回文件路径\n工具返回\n工具：返回Notebook内容\n工具返回\n模型：说明结果与待补内容\n模型生成\n回答依据前面的任务和工具返回。\n重置\n关键内容\n完整内容\n消息结构\n截至此处的内容\n工具：返回文件路径\nWrote /workspace/course/output/jupyter-notebook/python-lists-and-mean.ipynb using kind=tutorial.\n\n\n当前条目与前面的任务、工具返回一起保留。\n\n文件生成、内容检查与代码运行是不同动作；本次交付停在创建骨架与查看内容。"
+}

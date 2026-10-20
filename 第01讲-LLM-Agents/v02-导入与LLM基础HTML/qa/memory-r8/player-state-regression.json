@@ -1,0 +1,122 @@
+[
+  {
+    "page": 112,
+    "state": 1,
+    "label": "演示 1/2",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=112&s=1\".\nThere has been no change in the accessibility tree.\nThe focused UI element is 55 container Description: 第112页 渐进式披露：需要什么，再读取什么, ID: mount"
+  },
+  {
+    "page": 112,
+    "state": 2,
+    "label": "演示 2/2",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=112&s=2\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=112&s=2\n~\t\t\t\t\t\t64 text ＋ SKILL.md 正文 ＋ 教学参考的具体要求 模板由生成脚本读取；读取路径要看清执行者和用途。\n~\t\t\t79 text 演示 2/2\n~\t\t80 text 第112页，渐进式披露：需要什么，再读取什么，演示2，共2步\nThe focused UI element is 55 container Description: 第112页 渐进式披露：需要什么，再读取什么, ID: mount"
+  },
+  {
+    "page": 112,
+    "back": "演示 1/2"
+  },
+  {
+    "page": 113,
+    "state": 1,
+    "label": "演示 1/2",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=113&s=1\".\nThere has been no change in the accessibility tree.\nThe focused UI element is 55 container Description: 第113页 脚本读取模板，写出Notebook骨架, ID: mount"
+  },
+  {
+    "page": 113,
+    "state": 2,
+    "label": "演示 2/2",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=113&s=2\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=113&s=2\n~\t\t\t\t\t\t71 text 写入新标题 7 个单元的骨架文件 工具返回文件路径；下一步打开产物，核对内容与任务要求。\n~\t\t\t86 text 演示 2/2\n~\t\t87 text 第113页，脚本读取模板，写出Notebook骨架，演示2，共2步\nThe focused UI element is 55 container Description: 第113页 脚本读取模板，写出Notebook骨架, ID: mount"
+  },
+  {
+    "page": 113,
+    "back": "演示 1/2"
+  },
+  {
+    "page": 117,
+    "state": 1,
+    "label": "演示 1/2",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=117&s=1\".\nThere has been no change in the accessibility tree.\nThe focused UI element is 55 container Description: 第117页 Box：生成草稿，继续补充分析, ID: mount"
+  },
+  {
+    "page": 117,
+    "state": 2,
+    "label": "演示 2/2",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=117&s=2\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=117&s=2\n~\t\t\t\t\t\t61 text 已找到的资料 文档制作方法 财务摘要 幻灯片草稿 团队接着补充分析与判断，继续完善这份草稿。\n~\t\t\t76 text 演示 2/2\n~\t\t77 text 第117页，Box：生成草稿，继续补充分析，演示2，共2步\nThe focused UI element is 55 container Description: 第117页 Box：生成草稿，继续补充分析, ID: mount"
+  },
+  {
+    "page": 117,
+    "back": "演示 1/2"
+  },
+  {
+    "page": 119,
+    "state": 1,
+    "label": "演示 1/3",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=119&s=1\".\nThere has been no change in the accessibility tree.\nThe focused UI element is 55 container Description: 第119页 回到Notebook：补齐内容、运行与验收, ID: mount"
+  },
+  {
+    "page": 119,
+    "state": 2,
+    "label": "演示 2/3",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=119&s=2\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=119&s=2\n\t2 container\n\t\t55 container Description: 第119页 回到Notebook：补齐内容、运行与验收, ID: mount\n\t\t\t56 container 第119页 回到Notebook：补齐内容、运行与验收\n\t\t\t\t57 heading 回到Notebook：补齐内容、运行与验收, Value: 1\n\t\t\t\t\t58 text 回到Notebook：补齐内容、运行与验收\n\t\t\t\t59 container 课件内容\n\t\t\t\t\t60 container\n\t\t\t\t\t\t61 text 骨架提供结构；补齐任务内容后，运行代码，再核对结果。 补齐内容 → 运行 → 验收 补入列表与平均值的说明、\n\t\t\t\t\t\t62 text 对应代码和结果解释。 3 段代码顺序运行：\n\t\t\t\t\t\t63 text 60 ÷ 3 = 20。 Python列表与平均值 目录：数据 → 计算 → 检查 数据：[10, 20, 30] 平均值 = 合计 ÷ 个数 合计：60　个数：3　平均值：20 总量平均分成3份，每份为20\n\t\t\t\t64 container 课程进度\n\t\t\t\t\t65 button 导入\n\t\t\t\t\t66 button 1. LLM基础\n\t\t\t\t\t67 button 2. Prompting\n\t\t\t\t\t68 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t69 text 3. Agents \n\t\t\t\t\t\t70 text · Externalization & Internalization\n\t\t\t\t\t71 button 3.0 外化与内化总览\n\t\t\t\t\t72 button 3.1 工具调用\n\t\t\t\t\t73 button 3.2 Memory\n\t\t\t\t\t74 button 3.3 Skills\n\t\t\t\t\t75 button 3.4 Harness\n\t\t\t\t\t76 button 3.5 外化与内化整合\n\t\t\t\t\t77 button 3.6 全讲总结\n\t\t40 container Description: 课件操作, ID: controls\n\t\t\t41 button Description: 上一步, Help: 上一步（←）\n\t\t\t42 button Description: 下一步, Help: 下一步（→或空格）\n\t\t\t43 container jump-form\n\t\t\t\t44 text 页码\n\t\t\t\t45 stepper (settable, integer) Description: 页码, Value: 119, ID: page-input\n\t\t\t\t46 text / 151\n\t\t\t78 text 演示 2/3\n\t\t\t48 button 目录\n\t\t\t49 button 备注 / 来源\n\t\t\t50 button 完整材料\n\t\t\t51 button 放大图解\n\t\t\t52 button 全屏\n\t\t\t53 button 隐藏, Help: 按H恢复\n\t\t\t54 button 操作说明\n\t\t79 text 第119页，回到Notebook：补齐内容、运行与验收，演示2，共3步\n\nThe focused UI element is 55 container Description: 第119页 回到Notebook：补齐内容、运行与验收, ID: mount"
+  },
+  {
+    "page": 119,
+    "state": 3,
+    "label": "演示 3/3",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=119&s=3\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=119&s=3\n~\t\t\t\t\t\t62 text 对应代码和结果解释。 输入、计算与解释相互对应，\n~\t\t\t\t\t\t63 text 3 段代码检查通过。 Python列表与平均值 目录：数据 → 计算 → 检查 数据：[10, 20, 30] 平均值 = 合计 ÷ 个数 合计：60　个数：3　平均值：20 总量平均分成3份，每份为20 检查通过：20 = (10 + 20 + 30) / 3 验收同时看文件结构、内容、运行结果，以及它们是否满足任务目标。\n~\t\t\t78 text 演示 3/3\n~\t\t79 text 第119页，回到Notebook：补齐内容、运行与验收，演示3，共3步\nThe focused UI element is 55 container Description: 第119页 回到Notebook：补齐内容、运行与验收, ID: mount"
+  },
+  {
+    "page": 119,
+    "back": "演示 2/3"
+  },
+  {
+    "page": 125,
+    "state": 1,
+    "label": "演示 1/4",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=125&s=1\".\nThere has been no change in the accessibility tree.\nThe focused UI element is 55 container Description: 第125页 MCP：应用怎样连接工具服务, ID: mount"
+  },
+  {
+    "page": 125,
+    "state": 2,
+    "label": "演示 2/4",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=125&s=2\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=125&s=2\n~\t\t\t\t\t\t61 text MCP（模型上下文协议）：约定应用与工具服务怎样交换信息。 本地电脑 应用 MCP 客户端 文件服务（Server） 磁盘文件 云端模型 模型请求 模型输出 MCP 通信 模型提出调用 读取文件 模型生成工具名称和参数；应用将调用转交文件服务。\n~\t\t\t76 text 演示 2/4\n~\t\t77 text 第125页，MCP：应用怎样连接工具服务，演示2，共4步\nThe focused UI element is 55 container Description: 第125页 MCP：应用怎样连接工具服务, ID: mount"
+  },
+  {
+    "page": 125,
+    "state": 3,
+    "label": "演示 3/4",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=125&s=3\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=125&s=3\n~\t\t\t\t\t\t61 text MCP（模型上下文协议）：约定应用与工具服务怎样交换信息。 本地电脑 应用 MCP 客户端 文件服务（Server） 磁盘文件 云端模型 模型请求 模型输出 MCP 通信 服务执行 返回内容 服务读取文件，内容经客户端回到应用。\n~\t\t\t76 text 演示 3/4\n~\t\t77 text 第125页，MCP：应用怎样连接工具服务，演示3，共4步\nThe focused UI element is 55 container Description: 第125页 MCP：应用怎样连接工具服务, ID: mount"
+  },
+  {
+    "page": 125,
+    "state": 4,
+    "label": "演示 4/4",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=125&s=4\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=125&s=4\n~\t\t\t\t\t\t61 text MCP（模型上下文协议）：约定应用与工具服务怎样交换信息。 本地电脑 应用 MCP 客户端 文件服务（Server） 磁盘文件 云端模型 模型请求 模型输出 MCP 通信 模型继续 根据内容回答 应用把工具结果加入输入；模型据此继续生成。 模型生成调用；客户端负责通信；服务负责实际操作。\n~\t\t\t76 text 演示 4/4\n~\t\t77 text 第125页，MCP：应用怎样连接工具服务，演示4，共4步\nThe focused UI element is 55 container Description: 第125页 MCP：应用怎样连接工具服务, ID: mount"
+  },
+  {
+    "page": 125,
+    "back": "演示 3/4"
+  },
+  {
+    "page": 140,
+    "state": 1,
+    "label": "演示 1/3",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=140&s=1\".\nThere has been no change in the accessibility tree.\nThe focused UI element is 55 container Description: 第140页 把结果连回材料、调用和返回, ID: mount"
+  },
+  {
+    "page": 140,
+    "state": 2,
+    "label": "演示 2/3",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=140&s=2\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=140&s=2\n~\t\t\t\t\t\t61 text 把一次结果连回当时的材料、操作与返回内容。 输入材料 纽约天气 地点与时间 工具调用 查询纽约 请求对象 工具返回 温度与天气 返回内容 最终回答 根据结果说明 解释与依据 工具失败：查看返回的错误，处理执行条件。 发现问题的位置，决定下一步改哪里。\n~\t\t\t76 text 演示 2/3\n~\t\t77 text 第140页，把结果连回材料、调用和返回，演示2，共3步\nThe focused UI element is 55 container Description: 第140页 把结果连回材料、调用和返回, ID: mount"
+  },
+  {
+    "page": 140,
+    "state": 3,
+    "label": "演示 3/3",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=140&s=3\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=140&s=3\n~\t\t\t\t\t\t61 text 把一次结果连回当时的材料、操作与返回内容。 输入材料 纽约天气 地点与时间 工具调用 查询纽约 请求对象 工具返回 温度与天气 返回内容 最终回答 根据结果说明 解释与依据 解释错误：把结论与工具返回逐项对应。 发现问题的位置，决定下一步改哪里。\n~\t\t\t76 text 演示 3/3\n~\t\t77 text 第140页，把结果连回材料、调用和返回，演示3，共3步\nThe focused UI element is 55 container Description: 第140页 把结果连回材料、调用和返回, ID: mount"
+  },
+  {
+    "page": 140,
+    "back": "演示 2/3"
+  }
+]

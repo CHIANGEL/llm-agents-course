@@ -1,0 +1,27 @@
+[
+  {
+    "operation": "read",
+    "command": "cat .agents/skills/procurement-review/SKILL.md",
+    "exit_code": 0,
+    "stdout": "---\nname: procurement-review\ndescription: 起草或更新软件采购评审要点；适用于试点采购与正式部署，需要核对采购条件、费用范围、交付和待确认事项时使用。\n---\n# 采购评审\n\n## 确认本次任务\n确认采购阶段、人数、使用期限和预算上限。\n当前条件与历史记录不一致时，采用用户对本次任务的最新说明。\n缺失条件列入待确认事项，不自行补出报价、审批结果或验收结论。\n\n## 选择评审方法\n- 正式部署：读取 references/rollout-review.md，按其中的链接核对费用范围。\n- 小范围试点：读取 references/pilot-review.md。\n只读取本次任务需要的分支。\n\n## 起草并保存\n按参考文件的结构起草评审要点，写入 review-input.json。\n写入成功后，向用户说明文件位置、主要内容和待确认事项。\n\n## 需要HTML版式时\n用 scripts/render_review.py 将 review-input.json 填入 assets/review-template.html：\npython3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.json --output output/procurement-review.html\n再读取 references/quality-checklist.md，检查并交付HTML文件。\n"
+  },
+  {
+    "operation": "read",
+    "command": "cat .agents/skills/procurement-review/references/rollout-review.md",
+    "exit_code": 0,
+    "stdout": "# 正式部署：采购评审要点\n\n## 先固定本次范围\n列明正式部署的人数、使用期限和预算上限。\n历史试点的金额、期限和人数单列为背景，不作为本次采购条件。\n\n## 按四部分起草\n1. 采购条件：人员范围、期限、预算上限。\n2. 费用范围：先读 [费用口径](cost-scope.md)，再列出需要供应商报清的项目。\n3. 交付与管理：依据当前项目要求，核对企业账号、权限、日志和数据处理。\n4. 待确认事项：尚未获得的报价、上线日期、验收标准。\n\n## 写入文件\n将以上内容写入 review-input.json。\n采购阶段、人数、期限与预算分别写入 conditions 下的 phase、people、term_months、budget_cap_cny。\n其余三部分分别使用 cost_scope、requirements、pending 数组。\n每个要点包含 text（内容）和 source（依据或待确认原因）。\n写入成功后告知用户文件位置、主要内容及待确认事项。\n"
+  },
+  {
+    "operation": "read",
+    "command": "cat .agents/skills/procurement-review/references/cost-scope.md",
+    "exit_code": 0,
+    "stdout": "# 费用口径\n\n预算上限是可接受的支出上限，不是供应商报价，也不是已发生成本。\n\n## 报价中需要拆开的项目\n- 软件订阅：使用人数、计费周期、版本、税费是否与本次范围一致。\n- 配置与迁移：是否一次性收费，具体包含哪些实施工作。\n- 培训与支持：服务内容、次数、期限和额外费用。\n\n## 比较规则\n先统一人数和期限，再比较同一范围内的合计费用。\n续费、扩容、退出与数据导出费用分别列明。\n没有报价时，写明应核对的费用项目，不计算报价差额或节省比例。\n\n## 写入初稿\n将费用范围与需要报价确认的内容写入 cost_scope。\n在 source 中保留“费用口径”及对应条目的说明。\n"
+  },
+  {
+    "operation": "write",
+    "command": "python3 - <<'PY'\nfrom pathlib import Path\nPath('review-input.json').write_text('{\\n  \"conditions\": {\\n    \"phase\": \"正式部署\",\\n    \"people\": 300,\\n    \"term_months\": 12,\\n    \"budget_cap_cny\": 300000\\n  },\\n  \"cost_scope\": [\\n    {\\n      \"text\": \"软件订阅按300人、一年核价，明确版本、税费及计费口径。\",\\n      \"source\": \"当前采购条件；cost-scope.md：软件订阅\"\\n    },\\n    {\\n      \"text\": \"配置与迁移、培训与支持分别列明，核对是否包含在预算范围内。\",\\n      \"source\": \"cost-scope.md：配置与迁移、培训与支持\"\\n    },\\n    {\\n      \"text\": \"续费、扩容、退出及数据导出费用单列，按相同范围比较报价。\",\\n      \"source\": \"cost-scope.md：比较规则\"\\n    }\\n  ],\\n  \"requirements\": [\\n    {\\n      \"text\": \"按团队分配权限；支持企业账号开通、停用和操作日志。\",\\n      \"source\": \"当前输入中的项目账户与数据要求：账号与权限\"\\n    },\\n    {\\n      \"text\": \"确认数据托管位置、导出方式及服务终止后的处理安排。\",\\n      \"source\": \"当前输入中的项目账户与数据要求：数据处理\"\\n    }\\n  ],\\n  \"pending\": [\\n    {\\n      \"text\": \"供应商完整报价及费用包含范围。\",\\n      \"source\": \"当前材料未提供供应商报价\"\\n    },\\n    {\\n      \"text\": \"正式上线日期与验收标准。\",\\n      \"source\": \"当前条件只确定人数、期限和预算\"\\n    }\\n  ]\\n}\\n', encoding='utf-8')\nprint('已写入：review-input.json')\nPY",
+    "exit_code": 0,
+    "stdout": "已写入：review-input.json\n",
+    "sha256": "cbf0f0bcca7615e3c6808b7f34afb3afa1de049bc2d4b33a6eb46d28b0b1c2fc"
+  }
+]

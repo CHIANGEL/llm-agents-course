@@ -1,0 +1,11 @@
+--- before/src/player.js
++++ src/player.js
+@@ -17,7 +17,7 @@
+ function prev(){if(step>0)go(index,step-1);else if(index>0)go(index-1,count(index-1)-1);}
+ function fit(){const zone=document.querySelector('.controls-zone');const reserved=!zone.classList.contains('locked');const availableHeight=Math.max(160,innerHeight-(reserved?zone.getBoundingClientRect().height:0));document.documentElement.style.setProperty('--scale',Math.min(innerWidth/1600,availableHeight/900));mount.style.top=`${availableHeight/2}px`;if(dialog.open&&dialog.classList.contains('zoom-dialog'))fitZoom();}
+ function openModal(name,html,zoom=false){lastFocus=document.activeElement;title.textContent=name;content.innerHTML=html;dialog.classList.toggle('zoom-dialog',zoom);if(!dialog.open)dialog.showModal();if(zoom)fitZoom();document.querySelector('#dialog-close').focus();dialog.scrollTop=0;content.scrollTop=0;}
+-function closeModal(){dialog.close();dialog.classList.remove('zoom-dialog');if(lastFocus&&document.contains(lastFocus))lastFocus.focus();}
++function closeModal(){if(dialog.classList.contains('zoom-dialog')){const enlarged=content.querySelector('.zoom-content'),body=mount.querySelector('.body');if(enlarged&&body)body.replaceChildren(...enlarged.childNodes);}dialog.close();dialog.classList.remove('zoom-dialog');if(lastFocus&&document.contains(lastFocus))lastFocus.focus();}
+ function notes(){const p=plan[index];const references=p.show_sources===false?'':`<h3>内容来源</h3><ul>${p.sources.map(s=>{const src=window.MBA_SOURCES[s.id];const link=src.href||(/^https?:/.test(src.path)?src.path:'file://'+encodeURI(src.path));return `<li><a href="${esc(link)}" target="_blank" rel="noopener">${esc(src.title)}</a>：${esc(s.locator)}</li>`;}).join('')}</ul>`;openModal(`第${p.page}页 · ${p.show_sources===false?'讲者备注':'讲者备注与来源'}`,`<h3>${esc(p.title)}</h3><p>${esc(p.talk)}</p>${references}`);}
+ 
+ function materials(){const p=plan[index],files=window.MBA_FILES?.[p.page]||[];openModal(`第${p.page}页 · 完整材料`,`<h3>本页要点</h3><pre>${esc(p.on_slide.join('\n\n'))}</pre><h3>相关材料</h3><pre>${esc(window.MBA_MATERIALS[p.page]||'本页是课程导引或对已经展示的材料进行整理，具体原材料见本页来源。')}</pre>${files.length?'<h3>资料文件</h3><ul>'+files.map(f=>`<li><a href="${esc(f.href)}" target="${f.target==='_self'?'_self':'_blank'}" rel="noopener">${esc(f.label)}</a></li>`).join('')+'</ul>':''}`);}

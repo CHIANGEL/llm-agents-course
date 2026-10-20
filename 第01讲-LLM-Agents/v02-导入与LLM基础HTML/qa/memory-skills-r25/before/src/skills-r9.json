@@ -1,0 +1,862 @@
+{
+  "replaces_authoring_pages": [
+    89,
+    104
+  ],
+  "pages": [
+    {
+      "page": 89,
+      "renderer": 7001,
+      "navigation": "3.4",
+      "section": "Skills·技能包",
+      "type": "overview",
+      "title": "Skills：把“怎样做”保存成可复用的方法",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "Skills：把“怎样做”保存成可复用的方法",
+        "Skills可以看作程序性记忆的一种独立、可调用的组织方式。先看技能包怎样组织方法，再看一次调用怎样按需读取，最后看如何生成、评估与维护自己的Skill。"
+      ],
+      "talk": "Skills可以看作程序性记忆的一种独立、可调用的组织方式。先看技能包怎样组织方法，再看一次调用怎样按需读取，最后看如何生成、评估与维护自己的Skill。",
+      "sources": [
+        {
+          "id": "SKILLS_R9",
+          "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        }
+      ]
+    },
+    {
+      "page": 8901,
+      "renderer": 7002,
+      "navigation": "3.4",
+      "section": "Skills·技能包",
+      "type": "concept",
+      "title": "从程序性记忆到Skills",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "从程序性记忆到Skills",
+        "事实记忆回答“是什么”，程序性记忆回答“怎样做”。当做法被整理成适用条件、步骤、资源入口和检查标准，就能作为Skill复用。Skills仍然位于模型外部；读取后影响本次输入。"
+      ],
+      "talk": "事实记忆回答“是什么”，程序性记忆回答“怎样做”。当做法被整理成适用条件、步骤、资源入口和检查标准，就能作为Skill复用。Skills仍然位于模型外部；读取后影响本次输入。",
+      "sources": [
+        {
+          "id": "SKILLS_R9",
+          "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        }
+      ]
+    },
+    {
+      "page": 8902,
+      "renderer": 7003,
+      "navigation": "3.4",
+      "section": "Skills·技能包",
+      "type": "overview",
+      "title": "采购评审Skill：把条件整理成一页评审要点",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "采购评审Skill：把条件整理成一页评审要点",
+        "沿用Memory案例：300人、一年、预算上限30万元。先认识完整采购评审包，再观察模型怎样按任务读取和使用。"
+      ],
+      "talk": "沿用Memory案例：300人、一年、预算上限30万元。先认识完整采购评审包，再观察模型怎样按任务读取和使用。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8960,
+      "renderer": 7030,
+      "navigation": "3.4",
+      "section": "Skills·技能包",
+      "type": "explanation",
+      "title": "先看文件夹：采购评审包怎样组织？",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "先看文件夹：采购评审包怎样组织？",
+        "先展示采购评审包的文件夹层级：SKILL.md、references、scripts、assets与agents；再打开单个文件。"
+      ],
+      "talk": "先展示采购评审包的文件夹层级：SKILL.md、references、scripts、assets与agents；再打开单个文件。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8903,
+      "renderer": 7004,
+      "navigation": "3.4",
+      "section": "Skills·技能包",
+      "type": "files",
+      "title": "打开采购评审包：9个文件各有什么用？",
+      "seconds": 150,
+      "show_sources": false,
+      "on_slide": [
+        "打开采购评审包：9个文件各有什么用？",
+        "从文件夹层级进入具体文件。查看入口、四份参考、两个脚本、HTML模板与客户端配置。"
+      ],
+      "talk": "从文件夹层级进入具体文件。查看入口、四份参考、两个脚本、HTML模板与客户端配置。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8904,
+      "renderer": 7005,
+      "navigation": "3.4",
+      "section": "Skills·技能包",
+      "type": "concept",
+      "title": "SKILL.md：何时使用，怎样完成",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "SKILL.md：何时使用，怎样完成",
+        "名称与用途帮助模型选中Skill；正文提供正式部署和试点分支，以及生成和检查的入口。"
+      ],
+      "talk": "名称与用途帮助模型选中Skill；正文提供正式部署和试点分支，以及生成和检查的入口。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8905,
+      "renderer": 7006,
+      "navigation": "3.4",
+      "section": "Skills·技能包",
+      "type": "concept",
+      "title": "参考、脚本与模板怎样配合？",
+      "seconds": 105,
+      "show_sources": false,
+      "on_slide": [
+        "参考、脚本与模板怎样配合？",
+        "模型读参考文件组织内容；工具运行脚本，脚本读取模板并写文件。方法、程序与版式各有作用。"
+      ],
+      "talk": "模型读参考文件组织内容；工具运行脚本，脚本读取模板并写文件。方法、程序与版式各有作用。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8906,
+      "renderer": 7007,
+      "navigation": "3.4",
+      "section": "Skills·技能包",
+      "type": "summary",
+      "title": "完整技能包：入口、方法与资源",
+      "seconds": 60,
+      "show_sources": false,
+      "on_slide": [
+        "完整技能包：入口、方法与资源",
+        "回顾采购评审包，说明文件包的存在与模型已读取其内容是两回事。"
+      ],
+      "talk": "回顾采购评审包，说明文件包的存在与模型已读取其内容是两回事。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8907,
+      "renderer": 7008,
+      "navigation": "3.4",
+      "section": "Skills·调用全过程",
+      "type": "overview",
+      "title": "一次Skill调用：从采购条件到评审文件",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "一次Skill调用：从采购条件到评审文件",
+        "完整过程：确认当前任务，读技能正文，读正式部署方法，再读费用口径，组织初稿，生成文件，读取清单并核对产物。"
+      ],
+      "talk": "完整过程：确认当前任务，读技能正文，读正式部署方法，再读费用口径，组织初稿，生成文件，读取清单并核对产物。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8908,
+      "renderer": 7009,
+      "navigation": "3.4",
+      "section": "Skills·调用全过程",
+      "type": "trace",
+      "title": "当前输入：采购条件、用户任务与Skill目录",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "当前输入：采购条件、用户任务与Skill目录",
+        "Memory提供当前采购条件；Skill目录提供方法的名称、用途和路径。模型还没有读取包内正文。"
+      ],
+      "talk": "Memory提供当前采购条件；Skill目录提供方法的名称、用途和路径。模型还没有读取包内正文。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8909,
+      "renderer": 7010,
+      "navigation": "3.4",
+      "section": "Skills·调用全过程",
+      "type": "trace",
+      "title": "第一次读取：从目录进入SKILL.md",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "第一次读取：从目录进入SKILL.md",
+        "先选用Skill，再读取正文。当前任务选择正式部署分支，得到rollout-review.md的入口。"
+      ],
+      "talk": "先选用Skill，再读取正文。当前任务选择正式部署分支，得到rollout-review.md的入口。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8910,
+      "renderer": 7011,
+      "navigation": "3.4",
+      "section": "Skills·调用全过程",
+      "type": "trace",
+      "title": "第二次读取：找到正式部署的评审方法",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "第二次读取：找到正式部署的评审方法",
+        "读取rollout-review.md，取得四部分结构；费用范围一节继续链接cost-scope.md。"
+      ],
+      "talk": "读取rollout-review.md，取得四部分结构；费用范围一节继续链接cost-scope.md。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8961,
+      "renderer": 7031,
+      "navigation": "3.4",
+      "section": "Skills·一次调用",
+      "type": "explanation",
+      "title": "第三次读取：评审方法继续指向费用口径",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "第三次读取：评审方法继续指向费用口径",
+        "正式部署方法中的费用范围一节指向cost-scope.md。这里补充订阅、配置迁移、培训支持及比较规则。"
+      ],
+      "talk": "正式部署方法中的费用范围一节指向cost-scope.md。这里补充订阅、配置迁移、培训支持及比较规则。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8962,
+      "renderer": 7032,
+      "navigation": "3.4",
+      "section": "Skills·一次调用",
+      "type": "explanation",
+      "title": "组织初稿：把项目事实放进评审结构",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "组织初稿：把项目事实放进评审结构",
+        "读取前面项目的账户与数据要求；将300人、一年、30万元及对应评审要点写入review-input.json。"
+      ],
+      "talk": "读取前面项目的账户与数据要求；将300人、一年、30万元及对应评审要点写入review-input.json。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8911,
+      "renderer": 7012,
+      "navigation": "3.4",
+      "section": "Skills·调用全过程",
+      "type": "execution",
+      "title": "生成文件：脚本读取初稿与模板",
+      "seconds": 105,
+      "show_sources": false,
+      "on_slide": [
+        "生成文件：脚本读取初稿与模板",
+        "模型生成工具调用；生成脚本读取本次初稿与固定HTML模板，写出采购评审要点。"
+      ],
+      "talk": "模型生成工具调用；生成脚本读取本次初稿与固定HTML模板，写出采购评审要点。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8912,
+      "renderer": 7013,
+      "navigation": "3.4",
+      "section": "Skills·调用全过程",
+      "type": "trace",
+      "title": "生成之后：另读检查清单，再读回产物",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "生成之后：另读检查清单，再读回产物",
+        "从SKILL.md进入quality-checklist.md，取得检查标准；接着读回实际生成的HTML文件。"
+      ],
+      "talk": "从SKILL.md进入quality-checklist.md，取得检查标准；接着读回实际生成的HTML文件。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8963,
+      "renderer": 7033,
+      "navigation": "3.4",
+      "section": "Skills·一次调用",
+      "type": "explanation",
+      "title": "运行检查：条件、初稿与产物是否一致？",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "运行检查：条件、初稿与产物是否一致？",
+        "脚本逐项比对人数、期限、预算上限，并核对评审字段和生成文件；材料依据和内容完整性仍按清单检查。"
+      ],
+      "talk": "脚本逐项比对人数、期限、预算上限，并核对评审字段和生成文件；材料依据和内容完整性仍按清单检查。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8913,
+      "renderer": 7014,
+      "navigation": "3.4",
+      "section": "Skills·调用全过程",
+      "type": "notebook",
+      "title": "一页采购评审要点：内容与当前任务一致",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "一页采购评审要点：内容与当前任务一致",
+        "展示实际脚本生成的文件：300人、一年、预算上限30万元，以及费用范围、交付管理和待确认事项。"
+      ],
+      "talk": "展示实际脚本生成的文件：300人、一年、预算上限30万元，以及费用范围、交付管理和待确认事项。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8914,
+      "renderer": 7015,
+      "navigation": "3.4",
+      "section": "Skills·调用全过程",
+      "type": "trace",
+      "title": "交付：说明文件内容与待确认事项",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "交付：说明文件内容与待确认事项",
+        "最终回复依据已生成的文件与检查结果，交代产物位置，保留供应商报价、上线日期和验收标准等待确认事项。"
+      ],
+      "talk": "最终回复依据已生成的文件与检查结果，交代产物位置，保留供应商报价、上线日期和验收标准等待确认事项。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8915,
+      "renderer": 7016,
+      "navigation": "3.4",
+      "section": "Skills·调用全过程",
+      "type": "summary",
+      "title": "渐进式披露：沿任务逐层读取，用到时再展开",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "渐进式披露：沿任务逐层读取，用到时再展开",
+        "目录→SKILL.md→正式部署方法→费用口径；生成后另读检查清单。模板由程序读取，试点分支本次没有读取。"
+      ],
+      "talk": "目录→SKILL.md→正式部署方法→费用口径；生成后另读检查清单。模板由程序读取，试点分支本次没有读取。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8916,
+      "renderer": 7017,
+      "navigation": "3.4",
+      "section": "Skills·合成、评估与维护",
+      "type": "overview",
+      "title": "三、自己的Skills：从已有工作到持续维护",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "三、自己的Skills：从已有工作到持续维护",
+        "调用过程已讲完，接下来讨论自己的Skills。已有工作中提炼做法、用creator生成初稿、新任务评估、根据问题修订并保留版本。生成文件之后，还要检查是否适合自己、是否可迁移、是否安全。"
+      ],
+      "talk": "调用过程已讲完，接下来讨论自己的Skills。已有工作中提炼做法、用creator生成初稿、新任务评估、根据问题修订并保留版本。生成文件之后，还要检查是否适合自己、是否可迁移、是否安全。",
+      "sources": [
+        {
+          "id": "SKILLS_R9",
+          "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        }
+      ]
+    },
+    {
+      "page": 8917,
+      "renderer": 7018,
+      "navigation": "3.4",
+      "section": "Skills·合成、评估与维护",
+      "type": "prompt",
+      "title": "让Codex或Claude Code整理Skill初稿",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "让Codex或Claude Code整理Skill初稿",
+        "Codex可用$skill-creator；Claude Code安装官方skill-creator插件后，可用自然语言请求创建和改进。提供已有成果、确认要求、适用条件与目标位置。creator本身也是Skill。"
+      ],
+      "talk": "Codex可用$skill-creator；Claude Code安装官方skill-creator插件后，可用自然语言请求创建和改进。提供已有成果、确认要求、适用条件与目标位置。creator本身也是Skill。",
+      "sources": [
+        {
+          "id": "SKILLS_R9",
+          "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        }
+      ]
+    },
+    {
+      "page": 8918,
+      "renderer": 7019,
+      "navigation": "3.4",
+      "section": "Skills·合成、评估与维护",
+      "type": "concept",
+      "title": "让文件结构服务于自己的任务",
+      "seconds": 75,
+      "show_sources": false,
+      "on_slide": [
+        "让文件结构服务于自己的任务",
+        "简单方法可只用SKILL.md。主文件保留适用条件、输入输出和必要步骤；较长参考按需读取；稳定重复操作放脚本；固定输出结构放模板。避免把所有会话内容都抄进Skill。"
+      ],
+      "talk": "简单方法可只用SKILL.md。主文件保留适用条件、输入输出和必要步骤；较长参考按需读取；稳定重复操作放脚本；固定输出结构放模板。避免把所有会话内容都抄进Skill。",
+      "sources": [
+        {
+          "id": "SKILLS_R9",
+          "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        }
+      ]
+    },
+    {
+      "page": 8919,
+      "renderer": 7020,
+      "navigation": "3.4",
+      "section": "Skills·合成、评估与维护",
+      "type": "prompt",
+      "title": "高Star的Skill，适合你的任务吗？",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "高Star的Skill，适合你的任务吗？",
+        "受欢迎与适合自己的任务是两个判断。通用PPT或写作Skill可能采用别人的结构与文风；自己的定稿和修改意见则给出个人标准。用新材料比较，保留真正改善输出的规则。"
+      ],
+      "talk": "受欢迎与适合自己的任务是两个判断。通用PPT或写作Skill可能采用别人的结构与文风；自己的定稿和修改意见则给出个人标准。用新材料比较，保留真正改善输出的规则。",
+      "sources": [
+        {
+          "id": "SKILLS_R9",
+          "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        }
+      ]
+    },
+    {
+      "page": 8920,
+      "renderer": 7021,
+      "navigation": "3.4",
+      "section": "Skills·合成、评估与维护",
+      "type": "concept",
+      "title": "评估：选对了吗，读对了吗，结果对了吗？",
+      "seconds": 135,
+      "show_sources": false,
+      "on_slide": [
+        "评估：选对了吗，读对了吗，结果对了吗？",
+        "使用新会话、新输入检查适用与不适用任务；同时比较相同材料与要求下带Skill与不带Skill的结果。观察选择是否正确、材料与方法是否正确、产物是否达到标准，以及返工和耗时。"
+      ],
+      "talk": "使用新会话、新输入检查适用与不适用任务；同时比较相同材料与要求下带Skill与不带Skill的结果。观察选择是否正确、材料与方法是否正确、产物是否达到标准，以及返工和耗时。",
+      "sources": [
+        {
+          "id": "SKILLS_R9",
+          "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        }
+      ]
+    },
+    {
+      "page": 8921,
+      "renderer": 7022,
+      "navigation": "3.4",
+      "section": "Skills·合成、评估与维护",
+      "type": "concept",
+      "title": "Skill迁移：方法相同，运行条件可能不同",
+      "seconds": 105,
+      "show_sources": false,
+      "on_slide": [
+        "Skill迁移：方法相同，运行条件可能不同",
+        "场景、模型和Harness变化后重新验证。能在本机生成采购评审HTML，不代表别的应用具备相同路径、工具和Python环境。"
+      ],
+      "talk": "场景、模型和Harness变化后重新验证。能在本机生成采购评审HTML，不代表别的应用具备相同路径、工具和Python环境。",
+      "sources": [
+        {
+          "id": "SKILLS_R16",
+          "locator": "采购评审技能包与执行记录"
+        }
+      ]
+    },
+    {
+      "page": 8922,
+      "renderer": 7023,
+      "navigation": "3.4",
+      "section": "Skills·合成、评估与维护",
+      "type": "concept",
+      "title": "公共Skill：也会把外部指令与程序带进来",
+      "seconds": 105,
+      "show_sources": false,
+      "on_slide": [
+        "公共Skill：也会把外部指令与程序带进来",
+        "查看正文、附带脚本与外部依赖。指令可能诱导读取无关文件、调用外部地址；脚本可能上传内容或改写文件。实际影响取决于工具权限、网络访问与确认机制，先检查再在受限环境试用。"
+      ],
+      "talk": "查看正文、附带脚本与外部依赖。指令可能诱导读取无关文件、调用外部地址；脚本可能上传内容或改写文件。实际影响取决于工具权限、网络访问与确认机制，先检查再在受限环境试用。",
+      "sources": [
+        {
+          "id": "SKILLS_R9",
+          "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        }
+      ]
+    },
+    {
+      "page": 8923,
+      "renderer": 7024,
+      "navigation": "3.4",
+      "section": "Skills·合成、评估与维护",
+      "type": "concept",
+      "title": "维护：场景、模型、Harness变了，就要复查",
+      "seconds": 105,
+      "show_sources": false,
+      "on_slide": [
+        "维护：场景、模型、Harness变了，就要复查",
+        "场景或交付标准改变，需要更新适用条件；模型升级后，旧指令可能过时或多余；Harness更换后，路径、工具、依赖与权限可能不同。保留已验证版本，用代表任务复查；必要时修改或停用。"
+      ],
+      "talk": "场景或交付标准改变，需要更新适用条件；模型升级后，旧指令可能过时或多余；Harness更换后，路径、工具、依赖与权限可能不同。保留已验证版本，用代表任务复查；必要时修改或停用。",
+      "sources": [
+        {
+          "id": "SKILLS_R9",
+          "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        }
+      ]
+    },
+    {
+      "page": 8924,
+      "renderer": 7025,
+      "navigation": "3.4",
+      "section": "Skills·合成、评估与维护",
+      "type": "summary",
+      "title": "自己的Skills小结：用结果决定保留什么",
+      "seconds": 75,
+      "show_sources": false,
+      "on_slide": [
+        "自己的Skills小结：用结果决定保留什么",
+        "初稿来自自己的有效做法；评估比较实际任务的结果；安全检查覆盖指令与程序；维护随场景、模型和运行环境变化。只保留有帮助的规则，不把每次偶然情况变成通用规定。"
+      ],
+      "talk": "初稿来自自己的有效做法；评估比较实际任务的结果；安全检查覆盖指令与程序；维护随场景、模型和运行环境变化。只保留有帮助的规则，不把每次偶然情况变成通用规定。",
+      "sources": [
+        {
+          "id": "SKILLS_R9",
+          "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        }
+      ]
+    },
+    {
+      "page": 8925,
+      "renderer": 7026,
+      "navigation": "3.4",
+      "section": "Skills·合成、评估与维护",
+      "type": "summary",
+      "title": "Skills小结：组织方法、调用方法、检验方法",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "Skills小结：组织方法、调用方法、检验方法",
+        "回到章首三部分：完整包组织方法，一次调用按需取得方法，自己的Skills依靠评估与维护。接下来进入Protocols，讨论应用怎样与外部工具和其他Agent交换信息。"
+      ],
+      "talk": "回到章首三部分：完整包组织方法，一次调用按需取得方法，自己的Skills依靠评估与维护。接下来进入Protocols，讨论应用怎样与外部工具和其他Agent交换信息。",
+      "sources": [
+        {
+          "id": "SKILLS_R9",
+          "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "89": "Skills：把“怎样做”保存成可复用的方法\n\nSkills可以看作程序性记忆的一种独立、可调用的组织方式。先看技能包怎样组织方法，再看一次调用怎样按需读取，最后看如何生成、评估与维护自己的Skill。",
+    "8901": "从程序性记忆到Skills\n\n事实记忆回答“是什么”，程序性记忆回答“怎样做”。当做法被整理成适用条件、步骤、资源入口和检查标准，就能作为Skill复用。Skills仍然位于模型外部；读取后影响本次输入。",
+    "8902": "沿用Memory案例：300人、一年、预算上限30万元。先认识完整采购评审包，再观察模型怎样按任务读取和使用。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【SKILL.md】\n---\nname: procurement-review\ndescription: 起草或更新软件采购评审要点；适用于试点采购与正式部署，需要核对采购条件、费用范围、交付和待确认事项时使用。\n---\n# 采购评审\n\n## 先确定本次任务\n从当前请求及已读取的记忆中确认人数、使用期限、预算上限和采购阶段。\n当前条件与历史记录不一致时，按用户对本次任务的最新说明处理。\n缺失条件列入待确认事项，不自行补出报价、审批结果或验收结论。\n\n## 选择评审方法\n- 正式部署：读取 references/rollout-review.md，继续按其中的链接核对费用范围。\n- 小范围试点：读取 references/pilot-review.md。\n只读取本次任务需要的分支。\n\n## 生成一页评审要点\n按照参考文件组织 review-input.json。\n运行下列命令，脚本会读取 assets/review-template.html：\npython3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.json --output output/procurement-review.html\n\n## 检查后交付\n生成文件后，读取 references/quality-checklist.md。\n读回 output/procurement-review.html，逐项检查内容，再运行：\npython3 .agents/skills/procurement-review/scripts/check_review.py --task task-conditions.json --input review-input.json --output output/procurement-review.html\n检查通过后给出文件位置、主要内容和待确认事项。\n脚本核对字段与生成结果；还需核对材料依据和待确认事项是否完整。\n\n\n【references/rollout-review.md】\n# 正式部署：采购评审要点\n\n## 先固定本次范围\n列明正式部署的人数、使用期限和预算上限。\n历史试点的金额、期限和人数单列为背景，不作为本次采购条件。\n\n## 按四部分起草\n1. 采购条件：人员范围、期限、预算上限。\n2. 费用范围：先读 [费用口径](cost-scope.md)，再列出需要供应商报清的项目。\n3. 交付与管理：依据已知要求，核对企业账号、权限、日志和数据处理。\n4. 待确认事项：尚未获得的报价、上线日期、验收标准。\n\n## 写入文件\n将以上内容写入 review-input.json。\n采购阶段写入 phase；人数、期限与预算使用 people、term_months、budget_cap_cny。\n其余三部分分别使用 cost_scope、requirements、pending 数组。\n每个要点包含 text（内容）和 source（依据或待确认原因）。\n使用 SKILL.md 中的生成命令。文件生成后再读质量检查清单。\n\n\n【references/pilot-review.md】\n# 试点采购：采购评审要点\n\n明确试点人数、期限、预算、验证目标与退出条件。\n费用只覆盖试点范围；区分可复用的初始配置和后续扩容费用。\n交付要求包括账号、数据范围和试点结束后的导出与清理。\n待确认事项包括试点验收标准、正式部署是否另行报价。\n生成文件前使用 cost-scope.md 核对费用项目，再按 SKILL.md 检查交付。\n\n\n【references/cost-scope.md】\n# 费用口径\n\n预算上限是可接受的支出上限，不是供应商报价，也不是已发生成本。\n\n## 报价中需要拆开的项目\n- 软件订阅：使用人数、计费周期、版本、税费是否与本次范围一致。\n- 配置与迁移：是否一次性收费，具体包含哪些实施工作。\n- 培训与支持：服务内容、次数、期限和额外费用。\n\n## 比较规则\n先统一人数和期限，再比较同一范围内的合计费用。\n续费、扩容、退出与数据导出费用分别列明。\n没有报价时，写明应核对的费用项目，不计算报价差额或节省比例。\n\n## 写入初稿\n将费用范围与需要报价确认的内容写入 cost_scope。\n在 source 中保留“费用口径”及对应条目的说明。\n\n\n【references/quality-checklist.md】\n# 交付前检查\n\n## 与当前任务对照\n- 人数、期限、预算上限逐项等于 task-conditions.json。\n- 预算上限没有被写成实际报价或已支出金额。\n- 历史试点条件没有替代正式部署条件。\n\n## 与材料对照\n- 账号、权限、日志和数据要求有已读取材料的依据。\n- 费用项目来自 cost-scope.md；没有报价时，不写供应商价格或节省比例。\n- 尚未确认的报价、上线日期、验收标准列入待确认事项。\n\n## 与产物对照\n- 打开 output/procurement-review.html，检查四部分是否完整、能否按一页阅读。\n- 运行 scripts/check_review.py，比对当前条件、初稿字段和生成文件。\n- 修改初稿后，重新生成并复查。\n\n\n【scripts/render_review.py】\n\"\"\"Render a procurement review from task-specific data and the package template.\"\"\"\nimport argparse, html, json\nfrom pathlib import Path\ndef render(data):\n    c = data[\"conditions\"]\n    values = {\n        \"PHASE\": html.escape(c[\"phase\"]),\n        \"PEOPLE\": str(c[\"people\"]),\n        \"TERM\": f'{c[\"term_months\"] // 12}年' if c[\"term_months\"] % 12 == 0 else f'{c[\"term_months\"]}个月',\n        \"BUDGET\": f'{c[\"budget_cap_cny\"] / 10000:g}万元',\n    }\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        values[key.upper()] = \"\".join(\"<li>\" + html.escape(i[\"text\"]) + \"</li>\" for i in data[key])\n    template = (Path(__file__).resolve().parents[1] / \"assets/review-template.html\").read_text()\n    for key, value in values.items():\n        template = template.replace(\"{{\" + key + \"}}\", value)\n    return template\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    data = json.loads(Path(args.input).read_text())\n    output = Path(args.output)\n    output.parent.mkdir(parents=True, exist_ok=True)\n    output.write_text(render(data))\n    print(f\"已生成：{output.as_posix()}\")\n    print(\"内容：采购条件、费用范围、交付与管理、待确认事项\")\n\n\n【scripts/check_review.py】\n\"\"\"Check task conditions, required sections, and consistency with the rendered file.\"\"\"\nimport argparse, json, sys\nfrom pathlib import Path\nfrom render_review import render\ndef check(task, data, output):\n    failures = []\n    for key in [\"phase\", \"people\", \"term_months\", \"budget_cap_cny\"]:\n        if data.get(\"conditions\", {}).get(key) != task.get(key):\n            failures.append(f\"{key} 与当前任务不一致\")\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        items = data.get(key, [])\n        if not items or any(not i.get(\"text\") or not i.get(\"source\") for i in items):\n            failures.append(f\"{key} 缺少内容或依据\")\n    if not failures and output != render(data):\n        failures.append(\"产物与当前初稿不一致，请重新生成\")\n    return failures\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--task\", required=True)\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    task = json.loads(Path(args.task).read_text())\n    data = json.loads(Path(args.input).read_text())\n    failures = check(task, data, Path(args.output).read_text())\n    if failures:\n        print(\"检查未通过：\" + \"；\".join(failures))\n        sys.exit(1)\n    print(\"检查通过：人数、期限、预算上限与当前任务一致。\")\n    print(\"检查通过：三组要点的内容与依据字段已填写。\")\n    print(\"检查通过：产物与当前初稿一致。\")\n\n\n【assets/review-template.html】\n<!doctype html>\n<html lang=\"zh-CN\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>采购评审要点</title>\n<style>\n*{box-sizing:border-box}body{margin:0;background:#e9edf1;color:#202631;font:19px/1.6 Arial,\"PingFang SC\",sans-serif}\narticle{width:1120px;min-height:660px;margin:20px auto;background:white;padding:28px 38px;box-shadow:0 3px 20px #bac3cd}\nh1{font-size:29px;margin:0 0 4px;color:#073f91}h2{font-size:20px;margin:16px 0 8px;color:#073f91;border-bottom:1px solid #c8d3df;padding-bottom:5px}\n.subtitle{color:#66707d;font-size:16px;margin-bottom:10px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}\n.facts div{background:#edf3f9;padding:12px}.facts b{display:block;font-size:24px;color:#8e2332}.facts span{font-size:15px}\n.columns{display:grid;grid-template-columns:1fr 1fr;gap:32px}ul{margin:8px 0;padding-left:23px}li{margin:6px 0}footer{margin-top:18px;border-top:1px solid #c8d3df;padding-top:10px;color:#596472;font-size:14px}\n@media(max-width:820px){article{width:calc(100% - 24px);margin:12px;padding:28px}}\n@page{size:A4 landscape;margin:12mm}@media print{body{background:white}article{width:auto;min-height:0;margin:0;padding:0;box-shadow:none;font-size:11pt}h1{font-size:20pt}h2{font-size:13pt;margin-top:15px}.facts b{font-size:16pt}li{margin:5px 0}footer{font-size:9pt}}\n</style>\n<article>\n<h1>采购评审要点</h1><div class=\"subtitle\">{{PHASE}} · 软件采购</div>\n<section><h2>一、采购条件</h2><div class=\"facts\">\n<div><span>使用人数</span><b>{{PEOPLE}}人</b></div><div><span>使用期限</span><b>{{TERM}}</b></div><div><span>预算上限</span><b>{{BUDGET}}</b></div>\n</div></section>\n<div class=\"columns\"><section><h2>二、费用范围</h2><ul>{{COST_SCOPE}}</ul></section>\n<div><section><h2>三、交付与管理</h2><ul>{{REQUIREMENTS}}</ul></section>\n<section><h2>四、待确认事项</h2><ul>{{PENDING}}</ul></section></div></div>\n<footer>评审范围：按上述采购条件核对费用、交付及管理要求。</footer>\n</article></html>\n\n\n【agents/openai.yaml】\ninterface:\n  display_name: \"采购评审\"\n  short_description: \"按当前采购条件整理一页评审要点，核对费用范围、交付要求与待确认事项\"\n  default_prompt: \"请使用 $procurement-review，按当前采购条件起草一页采购评审要点。\"\n",
+    "8903": "从文件夹层级进入具体文件。查看入口、四份参考、两个脚本、HTML模板与客户端配置。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【SKILL.md】\n---\nname: procurement-review\ndescription: 起草或更新软件采购评审要点；适用于试点采购与正式部署，需要核对采购条件、费用范围、交付和待确认事项时使用。\n---\n# 采购评审\n\n## 先确定本次任务\n从当前请求及已读取的记忆中确认人数、使用期限、预算上限和采购阶段。\n当前条件与历史记录不一致时，按用户对本次任务的最新说明处理。\n缺失条件列入待确认事项，不自行补出报价、审批结果或验收结论。\n\n## 选择评审方法\n- 正式部署：读取 references/rollout-review.md，继续按其中的链接核对费用范围。\n- 小范围试点：读取 references/pilot-review.md。\n只读取本次任务需要的分支。\n\n## 生成一页评审要点\n按照参考文件组织 review-input.json。\n运行下列命令，脚本会读取 assets/review-template.html：\npython3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.json --output output/procurement-review.html\n\n## 检查后交付\n生成文件后，读取 references/quality-checklist.md。\n读回 output/procurement-review.html，逐项检查内容，再运行：\npython3 .agents/skills/procurement-review/scripts/check_review.py --task task-conditions.json --input review-input.json --output output/procurement-review.html\n检查通过后给出文件位置、主要内容和待确认事项。\n脚本核对字段与生成结果；还需核对材料依据和待确认事项是否完整。\n\n\n【references/rollout-review.md】\n# 正式部署：采购评审要点\n\n## 先固定本次范围\n列明正式部署的人数、使用期限和预算上限。\n历史试点的金额、期限和人数单列为背景，不作为本次采购条件。\n\n## 按四部分起草\n1. 采购条件：人员范围、期限、预算上限。\n2. 费用范围：先读 [费用口径](cost-scope.md)，再列出需要供应商报清的项目。\n3. 交付与管理：依据已知要求，核对企业账号、权限、日志和数据处理。\n4. 待确认事项：尚未获得的报价、上线日期、验收标准。\n\n## 写入文件\n将以上内容写入 review-input.json。\n采购阶段写入 phase；人数、期限与预算使用 people、term_months、budget_cap_cny。\n其余三部分分别使用 cost_scope、requirements、pending 数组。\n每个要点包含 text（内容）和 source（依据或待确认原因）。\n使用 SKILL.md 中的生成命令。文件生成后再读质量检查清单。\n\n\n【references/pilot-review.md】\n# 试点采购：采购评审要点\n\n明确试点人数、期限、预算、验证目标与退出条件。\n费用只覆盖试点范围；区分可复用的初始配置和后续扩容费用。\n交付要求包括账号、数据范围和试点结束后的导出与清理。\n待确认事项包括试点验收标准、正式部署是否另行报价。\n生成文件前使用 cost-scope.md 核对费用项目，再按 SKILL.md 检查交付。\n\n\n【references/cost-scope.md】\n# 费用口径\n\n预算上限是可接受的支出上限，不是供应商报价，也不是已发生成本。\n\n## 报价中需要拆开的项目\n- 软件订阅：使用人数、计费周期、版本、税费是否与本次范围一致。\n- 配置与迁移：是否一次性收费，具体包含哪些实施工作。\n- 培训与支持：服务内容、次数、期限和额外费用。\n\n## 比较规则\n先统一人数和期限，再比较同一范围内的合计费用。\n续费、扩容、退出与数据导出费用分别列明。\n没有报价时，写明应核对的费用项目，不计算报价差额或节省比例。\n\n## 写入初稿\n将费用范围与需要报价确认的内容写入 cost_scope。\n在 source 中保留“费用口径”及对应条目的说明。\n\n\n【references/quality-checklist.md】\n# 交付前检查\n\n## 与当前任务对照\n- 人数、期限、预算上限逐项等于 task-conditions.json。\n- 预算上限没有被写成实际报价或已支出金额。\n- 历史试点条件没有替代正式部署条件。\n\n## 与材料对照\n- 账号、权限、日志和数据要求有已读取材料的依据。\n- 费用项目来自 cost-scope.md；没有报价时，不写供应商价格或节省比例。\n- 尚未确认的报价、上线日期、验收标准列入待确认事项。\n\n## 与产物对照\n- 打开 output/procurement-review.html，检查四部分是否完整、能否按一页阅读。\n- 运行 scripts/check_review.py，比对当前条件、初稿字段和生成文件。\n- 修改初稿后，重新生成并复查。\n\n\n【scripts/render_review.py】\n\"\"\"Render a procurement review from task-specific data and the package template.\"\"\"\nimport argparse, html, json\nfrom pathlib import Path\ndef render(data):\n    c = data[\"conditions\"]\n    values = {\n        \"PHASE\": html.escape(c[\"phase\"]),\n        \"PEOPLE\": str(c[\"people\"]),\n        \"TERM\": f'{c[\"term_months\"] // 12}年' if c[\"term_months\"] % 12 == 0 else f'{c[\"term_months\"]}个月',\n        \"BUDGET\": f'{c[\"budget_cap_cny\"] / 10000:g}万元',\n    }\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        values[key.upper()] = \"\".join(\"<li>\" + html.escape(i[\"text\"]) + \"</li>\" for i in data[key])\n    template = (Path(__file__).resolve().parents[1] / \"assets/review-template.html\").read_text()\n    for key, value in values.items():\n        template = template.replace(\"{{\" + key + \"}}\", value)\n    return template\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    data = json.loads(Path(args.input).read_text())\n    output = Path(args.output)\n    output.parent.mkdir(parents=True, exist_ok=True)\n    output.write_text(render(data))\n    print(f\"已生成：{output.as_posix()}\")\n    print(\"内容：采购条件、费用范围、交付与管理、待确认事项\")\n\n\n【scripts/check_review.py】\n\"\"\"Check task conditions, required sections, and consistency with the rendered file.\"\"\"\nimport argparse, json, sys\nfrom pathlib import Path\nfrom render_review import render\ndef check(task, data, output):\n    failures = []\n    for key in [\"phase\", \"people\", \"term_months\", \"budget_cap_cny\"]:\n        if data.get(\"conditions\", {}).get(key) != task.get(key):\n            failures.append(f\"{key} 与当前任务不一致\")\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        items = data.get(key, [])\n        if not items or any(not i.get(\"text\") or not i.get(\"source\") for i in items):\n            failures.append(f\"{key} 缺少内容或依据\")\n    if not failures and output != render(data):\n        failures.append(\"产物与当前初稿不一致，请重新生成\")\n    return failures\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--task\", required=True)\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    task = json.loads(Path(args.task).read_text())\n    data = json.loads(Path(args.input).read_text())\n    failures = check(task, data, Path(args.output).read_text())\n    if failures:\n        print(\"检查未通过：\" + \"；\".join(failures))\n        sys.exit(1)\n    print(\"检查通过：人数、期限、预算上限与当前任务一致。\")\n    print(\"检查通过：三组要点的内容与依据字段已填写。\")\n    print(\"检查通过：产物与当前初稿一致。\")\n\n\n【assets/review-template.html】\n<!doctype html>\n<html lang=\"zh-CN\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>采购评审要点</title>\n<style>\n*{box-sizing:border-box}body{margin:0;background:#e9edf1;color:#202631;font:19px/1.6 Arial,\"PingFang SC\",sans-serif}\narticle{width:1120px;min-height:660px;margin:20px auto;background:white;padding:28px 38px;box-shadow:0 3px 20px #bac3cd}\nh1{font-size:29px;margin:0 0 4px;color:#073f91}h2{font-size:20px;margin:16px 0 8px;color:#073f91;border-bottom:1px solid #c8d3df;padding-bottom:5px}\n.subtitle{color:#66707d;font-size:16px;margin-bottom:10px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}\n.facts div{background:#edf3f9;padding:12px}.facts b{display:block;font-size:24px;color:#8e2332}.facts span{font-size:15px}\n.columns{display:grid;grid-template-columns:1fr 1fr;gap:32px}ul{margin:8px 0;padding-left:23px}li{margin:6px 0}footer{margin-top:18px;border-top:1px solid #c8d3df;padding-top:10px;color:#596472;font-size:14px}\n@media(max-width:820px){article{width:calc(100% - 24px);margin:12px;padding:28px}}\n@page{size:A4 landscape;margin:12mm}@media print{body{background:white}article{width:auto;min-height:0;margin:0;padding:0;box-shadow:none;font-size:11pt}h1{font-size:20pt}h2{font-size:13pt;margin-top:15px}.facts b{font-size:16pt}li{margin:5px 0}footer{font-size:9pt}}\n</style>\n<article>\n<h1>采购评审要点</h1><div class=\"subtitle\">{{PHASE}} · 软件采购</div>\n<section><h2>一、采购条件</h2><div class=\"facts\">\n<div><span>使用人数</span><b>{{PEOPLE}}人</b></div><div><span>使用期限</span><b>{{TERM}}</b></div><div><span>预算上限</span><b>{{BUDGET}}</b></div>\n</div></section>\n<div class=\"columns\"><section><h2>二、费用范围</h2><ul>{{COST_SCOPE}}</ul></section>\n<div><section><h2>三、交付与管理</h2><ul>{{REQUIREMENTS}}</ul></section>\n<section><h2>四、待确认事项</h2><ul>{{PENDING}}</ul></section></div></div>\n<footer>评审范围：按上述采购条件核对费用、交付及管理要求。</footer>\n</article></html>\n\n\n【agents/openai.yaml】\ninterface:\n  display_name: \"采购评审\"\n  short_description: \"按当前采购条件整理一页评审要点，核对费用范围、交付要求与待确认事项\"\n  default_prompt: \"请使用 $procurement-review，按当前采购条件起草一页采购评审要点。\"\n",
+    "8904": "名称与用途帮助模型选中Skill；正文提供正式部署和试点分支，以及生成和检查的入口。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【SKILL.md】\n---\nname: procurement-review\ndescription: 起草或更新软件采购评审要点；适用于试点采购与正式部署，需要核对采购条件、费用范围、交付和待确认事项时使用。\n---\n# 采购评审\n\n## 先确定本次任务\n从当前请求及已读取的记忆中确认人数、使用期限、预算上限和采购阶段。\n当前条件与历史记录不一致时，按用户对本次任务的最新说明处理。\n缺失条件列入待确认事项，不自行补出报价、审批结果或验收结论。\n\n## 选择评审方法\n- 正式部署：读取 references/rollout-review.md，继续按其中的链接核对费用范围。\n- 小范围试点：读取 references/pilot-review.md。\n只读取本次任务需要的分支。\n\n## 生成一页评审要点\n按照参考文件组织 review-input.json。\n运行下列命令，脚本会读取 assets/review-template.html：\npython3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.json --output output/procurement-review.html\n\n## 检查后交付\n生成文件后，读取 references/quality-checklist.md。\n读回 output/procurement-review.html，逐项检查内容，再运行：\npython3 .agents/skills/procurement-review/scripts/check_review.py --task task-conditions.json --input review-input.json --output output/procurement-review.html\n检查通过后给出文件位置、主要内容和待确认事项。\n脚本核对字段与生成结果；还需核对材料依据和待确认事项是否完整。\n\n\n【references/rollout-review.md】\n# 正式部署：采购评审要点\n\n## 先固定本次范围\n列明正式部署的人数、使用期限和预算上限。\n历史试点的金额、期限和人数单列为背景，不作为本次采购条件。\n\n## 按四部分起草\n1. 采购条件：人员范围、期限、预算上限。\n2. 费用范围：先读 [费用口径](cost-scope.md)，再列出需要供应商报清的项目。\n3. 交付与管理：依据已知要求，核对企业账号、权限、日志和数据处理。\n4. 待确认事项：尚未获得的报价、上线日期、验收标准。\n\n## 写入文件\n将以上内容写入 review-input.json。\n采购阶段写入 phase；人数、期限与预算使用 people、term_months、budget_cap_cny。\n其余三部分分别使用 cost_scope、requirements、pending 数组。\n每个要点包含 text（内容）和 source（依据或待确认原因）。\n使用 SKILL.md 中的生成命令。文件生成后再读质量检查清单。\n\n\n【references/pilot-review.md】\n# 试点采购：采购评审要点\n\n明确试点人数、期限、预算、验证目标与退出条件。\n费用只覆盖试点范围；区分可复用的初始配置和后续扩容费用。\n交付要求包括账号、数据范围和试点结束后的导出与清理。\n待确认事项包括试点验收标准、正式部署是否另行报价。\n生成文件前使用 cost-scope.md 核对费用项目，再按 SKILL.md 检查交付。\n\n\n【references/cost-scope.md】\n# 费用口径\n\n预算上限是可接受的支出上限，不是供应商报价，也不是已发生成本。\n\n## 报价中需要拆开的项目\n- 软件订阅：使用人数、计费周期、版本、税费是否与本次范围一致。\n- 配置与迁移：是否一次性收费，具体包含哪些实施工作。\n- 培训与支持：服务内容、次数、期限和额外费用。\n\n## 比较规则\n先统一人数和期限，再比较同一范围内的合计费用。\n续费、扩容、退出与数据导出费用分别列明。\n没有报价时，写明应核对的费用项目，不计算报价差额或节省比例。\n\n## 写入初稿\n将费用范围与需要报价确认的内容写入 cost_scope。\n在 source 中保留“费用口径”及对应条目的说明。\n\n\n【references/quality-checklist.md】\n# 交付前检查\n\n## 与当前任务对照\n- 人数、期限、预算上限逐项等于 task-conditions.json。\n- 预算上限没有被写成实际报价或已支出金额。\n- 历史试点条件没有替代正式部署条件。\n\n## 与材料对照\n- 账号、权限、日志和数据要求有已读取材料的依据。\n- 费用项目来自 cost-scope.md；没有报价时，不写供应商价格或节省比例。\n- 尚未确认的报价、上线日期、验收标准列入待确认事项。\n\n## 与产物对照\n- 打开 output/procurement-review.html，检查四部分是否完整、能否按一页阅读。\n- 运行 scripts/check_review.py，比对当前条件、初稿字段和生成文件。\n- 修改初稿后，重新生成并复查。\n\n\n【scripts/render_review.py】\n\"\"\"Render a procurement review from task-specific data and the package template.\"\"\"\nimport argparse, html, json\nfrom pathlib import Path\ndef render(data):\n    c = data[\"conditions\"]\n    values = {\n        \"PHASE\": html.escape(c[\"phase\"]),\n        \"PEOPLE\": str(c[\"people\"]),\n        \"TERM\": f'{c[\"term_months\"] // 12}年' if c[\"term_months\"] % 12 == 0 else f'{c[\"term_months\"]}个月',\n        \"BUDGET\": f'{c[\"budget_cap_cny\"] / 10000:g}万元',\n    }\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        values[key.upper()] = \"\".join(\"<li>\" + html.escape(i[\"text\"]) + \"</li>\" for i in data[key])\n    template = (Path(__file__).resolve().parents[1] / \"assets/review-template.html\").read_text()\n    for key, value in values.items():\n        template = template.replace(\"{{\" + key + \"}}\", value)\n    return template\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    data = json.loads(Path(args.input).read_text())\n    output = Path(args.output)\n    output.parent.mkdir(parents=True, exist_ok=True)\n    output.write_text(render(data))\n    print(f\"已生成：{output.as_posix()}\")\n    print(\"内容：采购条件、费用范围、交付与管理、待确认事项\")\n\n\n【scripts/check_review.py】\n\"\"\"Check task conditions, required sections, and consistency with the rendered file.\"\"\"\nimport argparse, json, sys\nfrom pathlib import Path\nfrom render_review import render\ndef check(task, data, output):\n    failures = []\n    for key in [\"phase\", \"people\", \"term_months\", \"budget_cap_cny\"]:\n        if data.get(\"conditions\", {}).get(key) != task.get(key):\n            failures.append(f\"{key} 与当前任务不一致\")\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        items = data.get(key, [])\n        if not items or any(not i.get(\"text\") or not i.get(\"source\") for i in items):\n            failures.append(f\"{key} 缺少内容或依据\")\n    if not failures and output != render(data):\n        failures.append(\"产物与当前初稿不一致，请重新生成\")\n    return failures\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--task\", required=True)\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    task = json.loads(Path(args.task).read_text())\n    data = json.loads(Path(args.input).read_text())\n    failures = check(task, data, Path(args.output).read_text())\n    if failures:\n        print(\"检查未通过：\" + \"；\".join(failures))\n        sys.exit(1)\n    print(\"检查通过：人数、期限、预算上限与当前任务一致。\")\n    print(\"检查通过：三组要点的内容与依据字段已填写。\")\n    print(\"检查通过：产物与当前初稿一致。\")\n\n\n【assets/review-template.html】\n<!doctype html>\n<html lang=\"zh-CN\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>采购评审要点</title>\n<style>\n*{box-sizing:border-box}body{margin:0;background:#e9edf1;color:#202631;font:19px/1.6 Arial,\"PingFang SC\",sans-serif}\narticle{width:1120px;min-height:660px;margin:20px auto;background:white;padding:28px 38px;box-shadow:0 3px 20px #bac3cd}\nh1{font-size:29px;margin:0 0 4px;color:#073f91}h2{font-size:20px;margin:16px 0 8px;color:#073f91;border-bottom:1px solid #c8d3df;padding-bottom:5px}\n.subtitle{color:#66707d;font-size:16px;margin-bottom:10px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}\n.facts div{background:#edf3f9;padding:12px}.facts b{display:block;font-size:24px;color:#8e2332}.facts span{font-size:15px}\n.columns{display:grid;grid-template-columns:1fr 1fr;gap:32px}ul{margin:8px 0;padding-left:23px}li{margin:6px 0}footer{margin-top:18px;border-top:1px solid #c8d3df;padding-top:10px;color:#596472;font-size:14px}\n@media(max-width:820px){article{width:calc(100% - 24px);margin:12px;padding:28px}}\n@page{size:A4 landscape;margin:12mm}@media print{body{background:white}article{width:auto;min-height:0;margin:0;padding:0;box-shadow:none;font-size:11pt}h1{font-size:20pt}h2{font-size:13pt;margin-top:15px}.facts b{font-size:16pt}li{margin:5px 0}footer{font-size:9pt}}\n</style>\n<article>\n<h1>采购评审要点</h1><div class=\"subtitle\">{{PHASE}} · 软件采购</div>\n<section><h2>一、采购条件</h2><div class=\"facts\">\n<div><span>使用人数</span><b>{{PEOPLE}}人</b></div><div><span>使用期限</span><b>{{TERM}}</b></div><div><span>预算上限</span><b>{{BUDGET}}</b></div>\n</div></section>\n<div class=\"columns\"><section><h2>二、费用范围</h2><ul>{{COST_SCOPE}}</ul></section>\n<div><section><h2>三、交付与管理</h2><ul>{{REQUIREMENTS}}</ul></section>\n<section><h2>四、待确认事项</h2><ul>{{PENDING}}</ul></section></div></div>\n<footer>评审范围：按上述采购条件核对费用、交付及管理要求。</footer>\n</article></html>\n\n\n【agents/openai.yaml】\ninterface:\n  display_name: \"采购评审\"\n  short_description: \"按当前采购条件整理一页评审要点，核对费用范围、交付要求与待确认事项\"\n  default_prompt: \"请使用 $procurement-review，按当前采购条件起草一页采购评审要点。\"\n",
+    "8905": "模型读参考文件组织内容；工具运行脚本，脚本读取模板并写文件。方法、程序与版式各有作用。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【SKILL.md】\n---\nname: procurement-review\ndescription: 起草或更新软件采购评审要点；适用于试点采购与正式部署，需要核对采购条件、费用范围、交付和待确认事项时使用。\n---\n# 采购评审\n\n## 先确定本次任务\n从当前请求及已读取的记忆中确认人数、使用期限、预算上限和采购阶段。\n当前条件与历史记录不一致时，按用户对本次任务的最新说明处理。\n缺失条件列入待确认事项，不自行补出报价、审批结果或验收结论。\n\n## 选择评审方法\n- 正式部署：读取 references/rollout-review.md，继续按其中的链接核对费用范围。\n- 小范围试点：读取 references/pilot-review.md。\n只读取本次任务需要的分支。\n\n## 生成一页评审要点\n按照参考文件组织 review-input.json。\n运行下列命令，脚本会读取 assets/review-template.html：\npython3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.json --output output/procurement-review.html\n\n## 检查后交付\n生成文件后，读取 references/quality-checklist.md。\n读回 output/procurement-review.html，逐项检查内容，再运行：\npython3 .agents/skills/procurement-review/scripts/check_review.py --task task-conditions.json --input review-input.json --output output/procurement-review.html\n检查通过后给出文件位置、主要内容和待确认事项。\n脚本核对字段与生成结果；还需核对材料依据和待确认事项是否完整。\n\n\n【references/rollout-review.md】\n# 正式部署：采购评审要点\n\n## 先固定本次范围\n列明正式部署的人数、使用期限和预算上限。\n历史试点的金额、期限和人数单列为背景，不作为本次采购条件。\n\n## 按四部分起草\n1. 采购条件：人员范围、期限、预算上限。\n2. 费用范围：先读 [费用口径](cost-scope.md)，再列出需要供应商报清的项目。\n3. 交付与管理：依据已知要求，核对企业账号、权限、日志和数据处理。\n4. 待确认事项：尚未获得的报价、上线日期、验收标准。\n\n## 写入文件\n将以上内容写入 review-input.json。\n采购阶段写入 phase；人数、期限与预算使用 people、term_months、budget_cap_cny。\n其余三部分分别使用 cost_scope、requirements、pending 数组。\n每个要点包含 text（内容）和 source（依据或待确认原因）。\n使用 SKILL.md 中的生成命令。文件生成后再读质量检查清单。\n\n\n【references/pilot-review.md】\n# 试点采购：采购评审要点\n\n明确试点人数、期限、预算、验证目标与退出条件。\n费用只覆盖试点范围；区分可复用的初始配置和后续扩容费用。\n交付要求包括账号、数据范围和试点结束后的导出与清理。\n待确认事项包括试点验收标准、正式部署是否另行报价。\n生成文件前使用 cost-scope.md 核对费用项目，再按 SKILL.md 检查交付。\n\n\n【references/cost-scope.md】\n# 费用口径\n\n预算上限是可接受的支出上限，不是供应商报价，也不是已发生成本。\n\n## 报价中需要拆开的项目\n- 软件订阅：使用人数、计费周期、版本、税费是否与本次范围一致。\n- 配置与迁移：是否一次性收费，具体包含哪些实施工作。\n- 培训与支持：服务内容、次数、期限和额外费用。\n\n## 比较规则\n先统一人数和期限，再比较同一范围内的合计费用。\n续费、扩容、退出与数据导出费用分别列明。\n没有报价时，写明应核对的费用项目，不计算报价差额或节省比例。\n\n## 写入初稿\n将费用范围与需要报价确认的内容写入 cost_scope。\n在 source 中保留“费用口径”及对应条目的说明。\n\n\n【references/quality-checklist.md】\n# 交付前检查\n\n## 与当前任务对照\n- 人数、期限、预算上限逐项等于 task-conditions.json。\n- 预算上限没有被写成实际报价或已支出金额。\n- 历史试点条件没有替代正式部署条件。\n\n## 与材料对照\n- 账号、权限、日志和数据要求有已读取材料的依据。\n- 费用项目来自 cost-scope.md；没有报价时，不写供应商价格或节省比例。\n- 尚未确认的报价、上线日期、验收标准列入待确认事项。\n\n## 与产物对照\n- 打开 output/procurement-review.html，检查四部分是否完整、能否按一页阅读。\n- 运行 scripts/check_review.py，比对当前条件、初稿字段和生成文件。\n- 修改初稿后，重新生成并复查。\n\n\n【scripts/render_review.py】\n\"\"\"Render a procurement review from task-specific data and the package template.\"\"\"\nimport argparse, html, json\nfrom pathlib import Path\ndef render(data):\n    c = data[\"conditions\"]\n    values = {\n        \"PHASE\": html.escape(c[\"phase\"]),\n        \"PEOPLE\": str(c[\"people\"]),\n        \"TERM\": f'{c[\"term_months\"] // 12}年' if c[\"term_months\"] % 12 == 0 else f'{c[\"term_months\"]}个月',\n        \"BUDGET\": f'{c[\"budget_cap_cny\"] / 10000:g}万元',\n    }\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        values[key.upper()] = \"\".join(\"<li>\" + html.escape(i[\"text\"]) + \"</li>\" for i in data[key])\n    template = (Path(__file__).resolve().parents[1] / \"assets/review-template.html\").read_text()\n    for key, value in values.items():\n        template = template.replace(\"{{\" + key + \"}}\", value)\n    return template\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    data = json.loads(Path(args.input).read_text())\n    output = Path(args.output)\n    output.parent.mkdir(parents=True, exist_ok=True)\n    output.write_text(render(data))\n    print(f\"已生成：{output.as_posix()}\")\n    print(\"内容：采购条件、费用范围、交付与管理、待确认事项\")\n\n\n【scripts/check_review.py】\n\"\"\"Check task conditions, required sections, and consistency with the rendered file.\"\"\"\nimport argparse, json, sys\nfrom pathlib import Path\nfrom render_review import render\ndef check(task, data, output):\n    failures = []\n    for key in [\"phase\", \"people\", \"term_months\", \"budget_cap_cny\"]:\n        if data.get(\"conditions\", {}).get(key) != task.get(key):\n            failures.append(f\"{key} 与当前任务不一致\")\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        items = data.get(key, [])\n        if not items or any(not i.get(\"text\") or not i.get(\"source\") for i in items):\n            failures.append(f\"{key} 缺少内容或依据\")\n    if not failures and output != render(data):\n        failures.append(\"产物与当前初稿不一致，请重新生成\")\n    return failures\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--task\", required=True)\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    task = json.loads(Path(args.task).read_text())\n    data = json.loads(Path(args.input).read_text())\n    failures = check(task, data, Path(args.output).read_text())\n    if failures:\n        print(\"检查未通过：\" + \"；\".join(failures))\n        sys.exit(1)\n    print(\"检查通过：人数、期限、预算上限与当前任务一致。\")\n    print(\"检查通过：三组要点的内容与依据字段已填写。\")\n    print(\"检查通过：产物与当前初稿一致。\")\n\n\n【assets/review-template.html】\n<!doctype html>\n<html lang=\"zh-CN\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>采购评审要点</title>\n<style>\n*{box-sizing:border-box}body{margin:0;background:#e9edf1;color:#202631;font:19px/1.6 Arial,\"PingFang SC\",sans-serif}\narticle{width:1120px;min-height:660px;margin:20px auto;background:white;padding:28px 38px;box-shadow:0 3px 20px #bac3cd}\nh1{font-size:29px;margin:0 0 4px;color:#073f91}h2{font-size:20px;margin:16px 0 8px;color:#073f91;border-bottom:1px solid #c8d3df;padding-bottom:5px}\n.subtitle{color:#66707d;font-size:16px;margin-bottom:10px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}\n.facts div{background:#edf3f9;padding:12px}.facts b{display:block;font-size:24px;color:#8e2332}.facts span{font-size:15px}\n.columns{display:grid;grid-template-columns:1fr 1fr;gap:32px}ul{margin:8px 0;padding-left:23px}li{margin:6px 0}footer{margin-top:18px;border-top:1px solid #c8d3df;padding-top:10px;color:#596472;font-size:14px}\n@media(max-width:820px){article{width:calc(100% - 24px);margin:12px;padding:28px}}\n@page{size:A4 landscape;margin:12mm}@media print{body{background:white}article{width:auto;min-height:0;margin:0;padding:0;box-shadow:none;font-size:11pt}h1{font-size:20pt}h2{font-size:13pt;margin-top:15px}.facts b{font-size:16pt}li{margin:5px 0}footer{font-size:9pt}}\n</style>\n<article>\n<h1>采购评审要点</h1><div class=\"subtitle\">{{PHASE}} · 软件采购</div>\n<section><h2>一、采购条件</h2><div class=\"facts\">\n<div><span>使用人数</span><b>{{PEOPLE}}人</b></div><div><span>使用期限</span><b>{{TERM}}</b></div><div><span>预算上限</span><b>{{BUDGET}}</b></div>\n</div></section>\n<div class=\"columns\"><section><h2>二、费用范围</h2><ul>{{COST_SCOPE}}</ul></section>\n<div><section><h2>三、交付与管理</h2><ul>{{REQUIREMENTS}}</ul></section>\n<section><h2>四、待确认事项</h2><ul>{{PENDING}}</ul></section></div></div>\n<footer>评审范围：按上述采购条件核对费用、交付及管理要求。</footer>\n</article></html>\n\n\n【agents/openai.yaml】\ninterface:\n  display_name: \"采购评审\"\n  short_description: \"按当前采购条件整理一页评审要点，核对费用范围、交付要求与待确认事项\"\n  default_prompt: \"请使用 $procurement-review，按当前采购条件起草一页采购评审要点。\"\n",
+    "8906": "回顾采购评审包，说明文件包的存在与模型已读取其内容是两回事。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【SKILL.md】\n---\nname: procurement-review\ndescription: 起草或更新软件采购评审要点；适用于试点采购与正式部署，需要核对采购条件、费用范围、交付和待确认事项时使用。\n---\n# 采购评审\n\n## 先确定本次任务\n从当前请求及已读取的记忆中确认人数、使用期限、预算上限和采购阶段。\n当前条件与历史记录不一致时，按用户对本次任务的最新说明处理。\n缺失条件列入待确认事项，不自行补出报价、审批结果或验收结论。\n\n## 选择评审方法\n- 正式部署：读取 references/rollout-review.md，继续按其中的链接核对费用范围。\n- 小范围试点：读取 references/pilot-review.md。\n只读取本次任务需要的分支。\n\n## 生成一页评审要点\n按照参考文件组织 review-input.json。\n运行下列命令，脚本会读取 assets/review-template.html：\npython3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.json --output output/procurement-review.html\n\n## 检查后交付\n生成文件后，读取 references/quality-checklist.md。\n读回 output/procurement-review.html，逐项检查内容，再运行：\npython3 .agents/skills/procurement-review/scripts/check_review.py --task task-conditions.json --input review-input.json --output output/procurement-review.html\n检查通过后给出文件位置、主要内容和待确认事项。\n脚本核对字段与生成结果；还需核对材料依据和待确认事项是否完整。\n\n\n【references/rollout-review.md】\n# 正式部署：采购评审要点\n\n## 先固定本次范围\n列明正式部署的人数、使用期限和预算上限。\n历史试点的金额、期限和人数单列为背景，不作为本次采购条件。\n\n## 按四部分起草\n1. 采购条件：人员范围、期限、预算上限。\n2. 费用范围：先读 [费用口径](cost-scope.md)，再列出需要供应商报清的项目。\n3. 交付与管理：依据已知要求，核对企业账号、权限、日志和数据处理。\n4. 待确认事项：尚未获得的报价、上线日期、验收标准。\n\n## 写入文件\n将以上内容写入 review-input.json。\n采购阶段写入 phase；人数、期限与预算使用 people、term_months、budget_cap_cny。\n其余三部分分别使用 cost_scope、requirements、pending 数组。\n每个要点包含 text（内容）和 source（依据或待确认原因）。\n使用 SKILL.md 中的生成命令。文件生成后再读质量检查清单。\n\n\n【references/pilot-review.md】\n# 试点采购：采购评审要点\n\n明确试点人数、期限、预算、验证目标与退出条件。\n费用只覆盖试点范围；区分可复用的初始配置和后续扩容费用。\n交付要求包括账号、数据范围和试点结束后的导出与清理。\n待确认事项包括试点验收标准、正式部署是否另行报价。\n生成文件前使用 cost-scope.md 核对费用项目，再按 SKILL.md 检查交付。\n\n\n【references/cost-scope.md】\n# 费用口径\n\n预算上限是可接受的支出上限，不是供应商报价，也不是已发生成本。\n\n## 报价中需要拆开的项目\n- 软件订阅：使用人数、计费周期、版本、税费是否与本次范围一致。\n- 配置与迁移：是否一次性收费，具体包含哪些实施工作。\n- 培训与支持：服务内容、次数、期限和额外费用。\n\n## 比较规则\n先统一人数和期限，再比较同一范围内的合计费用。\n续费、扩容、退出与数据导出费用分别列明。\n没有报价时，写明应核对的费用项目，不计算报价差额或节省比例。\n\n## 写入初稿\n将费用范围与需要报价确认的内容写入 cost_scope。\n在 source 中保留“费用口径”及对应条目的说明。\n\n\n【references/quality-checklist.md】\n# 交付前检查\n\n## 与当前任务对照\n- 人数、期限、预算上限逐项等于 task-conditions.json。\n- 预算上限没有被写成实际报价或已支出金额。\n- 历史试点条件没有替代正式部署条件。\n\n## 与材料对照\n- 账号、权限、日志和数据要求有已读取材料的依据。\n- 费用项目来自 cost-scope.md；没有报价时，不写供应商价格或节省比例。\n- 尚未确认的报价、上线日期、验收标准列入待确认事项。\n\n## 与产物对照\n- 打开 output/procurement-review.html，检查四部分是否完整、能否按一页阅读。\n- 运行 scripts/check_review.py，比对当前条件、初稿字段和生成文件。\n- 修改初稿后，重新生成并复查。\n\n\n【scripts/render_review.py】\n\"\"\"Render a procurement review from task-specific data and the package template.\"\"\"\nimport argparse, html, json\nfrom pathlib import Path\ndef render(data):\n    c = data[\"conditions\"]\n    values = {\n        \"PHASE\": html.escape(c[\"phase\"]),\n        \"PEOPLE\": str(c[\"people\"]),\n        \"TERM\": f'{c[\"term_months\"] // 12}年' if c[\"term_months\"] % 12 == 0 else f'{c[\"term_months\"]}个月',\n        \"BUDGET\": f'{c[\"budget_cap_cny\"] / 10000:g}万元',\n    }\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        values[key.upper()] = \"\".join(\"<li>\" + html.escape(i[\"text\"]) + \"</li>\" for i in data[key])\n    template = (Path(__file__).resolve().parents[1] / \"assets/review-template.html\").read_text()\n    for key, value in values.items():\n        template = template.replace(\"{{\" + key + \"}}\", value)\n    return template\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    data = json.loads(Path(args.input).read_text())\n    output = Path(args.output)\n    output.parent.mkdir(parents=True, exist_ok=True)\n    output.write_text(render(data))\n    print(f\"已生成：{output.as_posix()}\")\n    print(\"内容：采购条件、费用范围、交付与管理、待确认事项\")\n\n\n【scripts/check_review.py】\n\"\"\"Check task conditions, required sections, and consistency with the rendered file.\"\"\"\nimport argparse, json, sys\nfrom pathlib import Path\nfrom render_review import render\ndef check(task, data, output):\n    failures = []\n    for key in [\"phase\", \"people\", \"term_months\", \"budget_cap_cny\"]:\n        if data.get(\"conditions\", {}).get(key) != task.get(key):\n            failures.append(f\"{key} 与当前任务不一致\")\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        items = data.get(key, [])\n        if not items or any(not i.get(\"text\") or not i.get(\"source\") for i in items):\n            failures.append(f\"{key} 缺少内容或依据\")\n    if not failures and output != render(data):\n        failures.append(\"产物与当前初稿不一致，请重新生成\")\n    return failures\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--task\", required=True)\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    task = json.loads(Path(args.task).read_text())\n    data = json.loads(Path(args.input).read_text())\n    failures = check(task, data, Path(args.output).read_text())\n    if failures:\n        print(\"检查未通过：\" + \"；\".join(failures))\n        sys.exit(1)\n    print(\"检查通过：人数、期限、预算上限与当前任务一致。\")\n    print(\"检查通过：三组要点的内容与依据字段已填写。\")\n    print(\"检查通过：产物与当前初稿一致。\")\n\n\n【assets/review-template.html】\n<!doctype html>\n<html lang=\"zh-CN\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>采购评审要点</title>\n<style>\n*{box-sizing:border-box}body{margin:0;background:#e9edf1;color:#202631;font:19px/1.6 Arial,\"PingFang SC\",sans-serif}\narticle{width:1120px;min-height:660px;margin:20px auto;background:white;padding:28px 38px;box-shadow:0 3px 20px #bac3cd}\nh1{font-size:29px;margin:0 0 4px;color:#073f91}h2{font-size:20px;margin:16px 0 8px;color:#073f91;border-bottom:1px solid #c8d3df;padding-bottom:5px}\n.subtitle{color:#66707d;font-size:16px;margin-bottom:10px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}\n.facts div{background:#edf3f9;padding:12px}.facts b{display:block;font-size:24px;color:#8e2332}.facts span{font-size:15px}\n.columns{display:grid;grid-template-columns:1fr 1fr;gap:32px}ul{margin:8px 0;padding-left:23px}li{margin:6px 0}footer{margin-top:18px;border-top:1px solid #c8d3df;padding-top:10px;color:#596472;font-size:14px}\n@media(max-width:820px){article{width:calc(100% - 24px);margin:12px;padding:28px}}\n@page{size:A4 landscape;margin:12mm}@media print{body{background:white}article{width:auto;min-height:0;margin:0;padding:0;box-shadow:none;font-size:11pt}h1{font-size:20pt}h2{font-size:13pt;margin-top:15px}.facts b{font-size:16pt}li{margin:5px 0}footer{font-size:9pt}}\n</style>\n<article>\n<h1>采购评审要点</h1><div class=\"subtitle\">{{PHASE}} · 软件采购</div>\n<section><h2>一、采购条件</h2><div class=\"facts\">\n<div><span>使用人数</span><b>{{PEOPLE}}人</b></div><div><span>使用期限</span><b>{{TERM}}</b></div><div><span>预算上限</span><b>{{BUDGET}}</b></div>\n</div></section>\n<div class=\"columns\"><section><h2>二、费用范围</h2><ul>{{COST_SCOPE}}</ul></section>\n<div><section><h2>三、交付与管理</h2><ul>{{REQUIREMENTS}}</ul></section>\n<section><h2>四、待确认事项</h2><ul>{{PENDING}}</ul></section></div></div>\n<footer>评审范围：按上述采购条件核对费用、交付及管理要求。</footer>\n</article></html>\n\n\n【agents/openai.yaml】\ninterface:\n  display_name: \"采购评审\"\n  short_description: \"按当前采购条件整理一页评审要点，核对费用范围、交付要求与待确认事项\"\n  default_prompt: \"请使用 $procurement-review，按当前采购条件起草一页采购评审要点。\"\n",
+    "8907": "完整过程：确认当前任务，读技能正文，读正式部署方法，再读费用口径，组织初稿，生成文件，读取清单并核对产物。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【SKILL.md】\n---\nname: procurement-review\ndescription: 起草或更新软件采购评审要点；适用于试点采购与正式部署，需要核对采购条件、费用范围、交付和待确认事项时使用。\n---\n# 采购评审\n\n## 先确定本次任务\n从当前请求及已读取的记忆中确认人数、使用期限、预算上限和采购阶段。\n当前条件与历史记录不一致时，按用户对本次任务的最新说明处理。\n缺失条件列入待确认事项，不自行补出报价、审批结果或验收结论。\n\n## 选择评审方法\n- 正式部署：读取 references/rollout-review.md，继续按其中的链接核对费用范围。\n- 小范围试点：读取 references/pilot-review.md。\n只读取本次任务需要的分支。\n\n## 生成一页评审要点\n按照参考文件组织 review-input.json。\n运行下列命令，脚本会读取 assets/review-template.html：\npython3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.json --output output/procurement-review.html\n\n## 检查后交付\n生成文件后，读取 references/quality-checklist.md。\n读回 output/procurement-review.html，逐项检查内容，再运行：\npython3 .agents/skills/procurement-review/scripts/check_review.py --task task-conditions.json --input review-input.json --output output/procurement-review.html\n检查通过后给出文件位置、主要内容和待确认事项。\n脚本核对字段与生成结果；还需核对材料依据和待确认事项是否完整。\n\n\n【references/rollout-review.md】\n# 正式部署：采购评审要点\n\n## 先固定本次范围\n列明正式部署的人数、使用期限和预算上限。\n历史试点的金额、期限和人数单列为背景，不作为本次采购条件。\n\n## 按四部分起草\n1. 采购条件：人员范围、期限、预算上限。\n2. 费用范围：先读 [费用口径](cost-scope.md)，再列出需要供应商报清的项目。\n3. 交付与管理：依据已知要求，核对企业账号、权限、日志和数据处理。\n4. 待确认事项：尚未获得的报价、上线日期、验收标准。\n\n## 写入文件\n将以上内容写入 review-input.json。\n采购阶段写入 phase；人数、期限与预算使用 people、term_months、budget_cap_cny。\n其余三部分分别使用 cost_scope、requirements、pending 数组。\n每个要点包含 text（内容）和 source（依据或待确认原因）。\n使用 SKILL.md 中的生成命令。文件生成后再读质量检查清单。\n\n\n【references/pilot-review.md】\n# 试点采购：采购评审要点\n\n明确试点人数、期限、预算、验证目标与退出条件。\n费用只覆盖试点范围；区分可复用的初始配置和后续扩容费用。\n交付要求包括账号、数据范围和试点结束后的导出与清理。\n待确认事项包括试点验收标准、正式部署是否另行报价。\n生成文件前使用 cost-scope.md 核对费用项目，再按 SKILL.md 检查交付。\n\n\n【references/cost-scope.md】\n# 费用口径\n\n预算上限是可接受的支出上限，不是供应商报价，也不是已发生成本。\n\n## 报价中需要拆开的项目\n- 软件订阅：使用人数、计费周期、版本、税费是否与本次范围一致。\n- 配置与迁移：是否一次性收费，具体包含哪些实施工作。\n- 培训与支持：服务内容、次数、期限和额外费用。\n\n## 比较规则\n先统一人数和期限，再比较同一范围内的合计费用。\n续费、扩容、退出与数据导出费用分别列明。\n没有报价时，写明应核对的费用项目，不计算报价差额或节省比例。\n\n## 写入初稿\n将费用范围与需要报价确认的内容写入 cost_scope。\n在 source 中保留“费用口径”及对应条目的说明。\n\n\n【references/quality-checklist.md】\n# 交付前检查\n\n## 与当前任务对照\n- 人数、期限、预算上限逐项等于 task-conditions.json。\n- 预算上限没有被写成实际报价或已支出金额。\n- 历史试点条件没有替代正式部署条件。\n\n## 与材料对照\n- 账号、权限、日志和数据要求有已读取材料的依据。\n- 费用项目来自 cost-scope.md；没有报价时，不写供应商价格或节省比例。\n- 尚未确认的报价、上线日期、验收标准列入待确认事项。\n\n## 与产物对照\n- 打开 output/procurement-review.html，检查四部分是否完整、能否按一页阅读。\n- 运行 scripts/check_review.py，比对当前条件、初稿字段和生成文件。\n- 修改初稿后，重新生成并复查。\n\n\n【scripts/render_review.py】\n\"\"\"Render a procurement review from task-specific data and the package template.\"\"\"\nimport argparse, html, json\nfrom pathlib import Path\ndef render(data):\n    c = data[\"conditions\"]\n    values = {\n        \"PHASE\": html.escape(c[\"phase\"]),\n        \"PEOPLE\": str(c[\"people\"]),\n        \"TERM\": f'{c[\"term_months\"] // 12}年' if c[\"term_months\"] % 12 == 0 else f'{c[\"term_months\"]}个月',\n        \"BUDGET\": f'{c[\"budget_cap_cny\"] / 10000:g}万元',\n    }\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        values[key.upper()] = \"\".join(\"<li>\" + html.escape(i[\"text\"]) + \"</li>\" for i in data[key])\n    template = (Path(__file__).resolve().parents[1] / \"assets/review-template.html\").read_text()\n    for key, value in values.items():\n        template = template.replace(\"{{\" + key + \"}}\", value)\n    return template\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    data = json.loads(Path(args.input).read_text())\n    output = Path(args.output)\n    output.parent.mkdir(parents=True, exist_ok=True)\n    output.write_text(render(data))\n    print(f\"已生成：{output.as_posix()}\")\n    print(\"内容：采购条件、费用范围、交付与管理、待确认事项\")\n\n\n【scripts/check_review.py】\n\"\"\"Check task conditions, required sections, and consistency with the rendered file.\"\"\"\nimport argparse, json, sys\nfrom pathlib import Path\nfrom render_review import render\ndef check(task, data, output):\n    failures = []\n    for key in [\"phase\", \"people\", \"term_months\", \"budget_cap_cny\"]:\n        if data.get(\"conditions\", {}).get(key) != task.get(key):\n            failures.append(f\"{key} 与当前任务不一致\")\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        items = data.get(key, [])\n        if not items or any(not i.get(\"text\") or not i.get(\"source\") for i in items):\n            failures.append(f\"{key} 缺少内容或依据\")\n    if not failures and output != render(data):\n        failures.append(\"产物与当前初稿不一致，请重新生成\")\n    return failures\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--task\", required=True)\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    task = json.loads(Path(args.task).read_text())\n    data = json.loads(Path(args.input).read_text())\n    failures = check(task, data, Path(args.output).read_text())\n    if failures:\n        print(\"检查未通过：\" + \"；\".join(failures))\n        sys.exit(1)\n    print(\"检查通过：人数、期限、预算上限与当前任务一致。\")\n    print(\"检查通过：三组要点的内容与依据字段已填写。\")\n    print(\"检查通过：产物与当前初稿一致。\")\n\n\n【assets/review-template.html】\n<!doctype html>\n<html lang=\"zh-CN\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>采购评审要点</title>\n<style>\n*{box-sizing:border-box}body{margin:0;background:#e9edf1;color:#202631;font:19px/1.6 Arial,\"PingFang SC\",sans-serif}\narticle{width:1120px;min-height:660px;margin:20px auto;background:white;padding:28px 38px;box-shadow:0 3px 20px #bac3cd}\nh1{font-size:29px;margin:0 0 4px;color:#073f91}h2{font-size:20px;margin:16px 0 8px;color:#073f91;border-bottom:1px solid #c8d3df;padding-bottom:5px}\n.subtitle{color:#66707d;font-size:16px;margin-bottom:10px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}\n.facts div{background:#edf3f9;padding:12px}.facts b{display:block;font-size:24px;color:#8e2332}.facts span{font-size:15px}\n.columns{display:grid;grid-template-columns:1fr 1fr;gap:32px}ul{margin:8px 0;padding-left:23px}li{margin:6px 0}footer{margin-top:18px;border-top:1px solid #c8d3df;padding-top:10px;color:#596472;font-size:14px}\n@media(max-width:820px){article{width:calc(100% - 24px);margin:12px;padding:28px}}\n@page{size:A4 landscape;margin:12mm}@media print{body{background:white}article{width:auto;min-height:0;margin:0;padding:0;box-shadow:none;font-size:11pt}h1{font-size:20pt}h2{font-size:13pt;margin-top:15px}.facts b{font-size:16pt}li{margin:5px 0}footer{font-size:9pt}}\n</style>\n<article>\n<h1>采购评审要点</h1><div class=\"subtitle\">{{PHASE}} · 软件采购</div>\n<section><h2>一、采购条件</h2><div class=\"facts\">\n<div><span>使用人数</span><b>{{PEOPLE}}人</b></div><div><span>使用期限</span><b>{{TERM}}</b></div><div><span>预算上限</span><b>{{BUDGET}}</b></div>\n</div></section>\n<div class=\"columns\"><section><h2>二、费用范围</h2><ul>{{COST_SCOPE}}</ul></section>\n<div><section><h2>三、交付与管理</h2><ul>{{REQUIREMENTS}}</ul></section>\n<section><h2>四、待确认事项</h2><ul>{{PENDING}}</ul></section></div></div>\n<footer>评审范围：按上述采购条件核对费用、交付及管理要求。</footer>\n</article></html>\n\n\n【agents/openai.yaml】\ninterface:\n  display_name: \"采购评审\"\n  short_description: \"按当前采购条件整理一页评审要点，核对费用范围、交付要求与待确认事项\"\n  default_prompt: \"请使用 $procurement-review，按当前采购条件起草一页采购评审要点。\"\n",
+    "8908": "Memory提供当前采购条件；Skill目录提供方法的名称、用途和路径。模型还没有读取包内正文。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【当前条件：沿用Memory案例】\n300人正式部署，预算上限30万元，使用期限一年。\n金额使用人民币，先给结论。\n账户与数据要求保存在 security-requirements.md。\n本次条件另存为 task-conditions.json，用于核对初稿。\n\n【Skill目录：名称、用途、路径】\n名称：procurement-review\n用途：起草或更新软件采购评审要点；核对采购条件、费用范围、交付与待确认事项。\n入口：.agents/skills/procurement-review/SKILL.md\n\n【用户：起草一页采购评审要点】\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n",
+    "8909": "先选用Skill，再读取正文。当前任务选择正式部署分支，得到rollout-review.md的入口。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【模型：选用采购评审Skill】\n我会使用采购评审Skill，按300人、一年、预算上限30万元起草评审要点，先读取方法和所需材料。\n\n【模型：读取SKILL.md】\ncat .agents/skills/procurement-review/SKILL.md\n\n【工具：返回技能正文】\n---\nname: procurement-review\ndescription: 起草或更新软件采购评审要点；适用于试点采购与正式部署，需要核对采购条件、费用范围、交付和待确认事项时使用。\n---\n# 采购评审\n\n## 先确定本次任务\n从当前请求及已读取的记忆中确认人数、使用期限、预算上限和采购阶段。\n当前条件与历史记录不一致时，按用户对本次任务的最新说明处理。\n缺失条件列入待确认事项，不自行补出报价、审批结果或验收结论。\n\n## 选择评审方法\n- 正式部署：读取 references/rollout-review.md，继续按其中的链接核对费用范围。\n- 小范围试点：读取 references/pilot-review.md。\n只读取本次任务需要的分支。\n\n## 生成一页评审要点\n按照参考文件组织 review-input.json。\n运行下列命令，脚本会读取 assets/review-template.html：\npython3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.json --output output/procurement-review.html\n\n## 检查后交付\n生成文件后，读取 references/quality-checklist.md。\n读回 output/procurement-review.html，逐项检查内容，再运行：\npython3 .agents/skills/procurement-review/scripts/check_review.py --task task-conditions.json --input review-input.json --output output/procurement-review.html\n检查通过后给出文件位置、主要内容和待确认事项。\n脚本核对字段与生成结果；还需核对材料依据和待确认事项是否完整。\n",
+    "8910": "读取rollout-review.md，取得四部分结构；费用范围一节继续链接cost-scope.md。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【模型：读取正式部署方法】\ncat .agents/skills/procurement-review/references/rollout-review.md\n\n【工具：返回评审方法】\n# 正式部署：采购评审要点\n\n## 先固定本次范围\n列明正式部署的人数、使用期限和预算上限。\n历史试点的金额、期限和人数单列为背景，不作为本次采购条件。\n\n## 按四部分起草\n1. 采购条件：人员范围、期限、预算上限。\n2. 费用范围：先读 [费用口径](cost-scope.md)，再列出需要供应商报清的项目。\n3. 交付与管理：依据已知要求，核对企业账号、权限、日志和数据处理。\n4. 待确认事项：尚未获得的报价、上线日期、验收标准。\n\n## 写入文件\n将以上内容写入 review-input.json。\n采购阶段写入 phase；人数、期限与预算使用 people、term_months、budget_cap_cny。\n其余三部分分别使用 cost_scope、requirements、pending 数组。\n每个要点包含 text（内容）和 source（依据或待确认原因）。\n使用 SKILL.md 中的生成命令。文件生成后再读质量检查清单。\n",
+    "8911": "模型生成工具调用；生成脚本读取本次初稿与固定HTML模板，写出采购评审要点。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【模型：运行生成脚本】\npython3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.json --output output/procurement-review.html\n\n【工具：返回生成结果】\n已生成：output/procurement-review.html\n内容：采购条件、费用范围、交付与管理、待确认事项\n",
+    "8912": "从SKILL.md进入quality-checklist.md，取得检查标准；接着读回实际生成的HTML文件。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【模型：读取交付检查清单】\ncat .agents/skills/procurement-review/references/quality-checklist.md\n\n【工具：返回检查清单】\n# 交付前检查\n\n## 与当前任务对照\n- 人数、期限、预算上限逐项等于 task-conditions.json。\n- 预算上限没有被写成实际报价或已支出金额。\n- 历史试点条件没有替代正式部署条件。\n\n## 与材料对照\n- 账号、权限、日志和数据要求有已读取材料的依据。\n- 费用项目来自 cost-scope.md；没有报价时，不写供应商价格或节省比例。\n- 尚未确认的报价、上线日期、验收标准列入待确认事项。\n\n## 与产物对照\n- 打开 output/procurement-review.html，检查四部分是否完整、能否按一页阅读。\n- 运行 scripts/check_review.py，比对当前条件、初稿字段和生成文件。\n- 修改初稿后，重新生成并复查。\n\n\n【模型：读回生成文件】\ncat output/procurement-review.html\n\n【工具：返回评审文件】\n<!doctype html>\n<html lang=\"zh-CN\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>采购评审要点</title>\n<style>\n*{box-sizing:border-box}body{margin:0;background:#e9edf1;color:#202631;font:19px/1.6 Arial,\"PingFang SC\",sans-serif}\narticle{width:1120px;min-height:660px;margin:20px auto;background:white;padding:28px 38px;box-shadow:0 3px 20px #bac3cd}\nh1{font-size:29px;margin:0 0 4px;color:#073f91}h2{font-size:20px;margin:16px 0 8px;color:#073f91;border-bottom:1px solid #c8d3df;padding-bottom:5px}\n.subtitle{color:#66707d;font-size:16px;margin-bottom:10px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}\n.facts div{background:#edf3f9;padding:12px}.facts b{display:block;font-size:24px;color:#8e2332}.facts span{font-size:15px}\n.columns{display:grid;grid-template-columns:1fr 1fr;gap:32px}ul{margin:8px 0;padding-left:23px}li{margin:6px 0}footer{margin-top:18px;border-top:1px solid #c8d3df;padding-top:10px;color:#596472;font-size:14px}\n@media(max-width:820px){article{width:calc(100% - 24px);margin:12px;padding:28px}}\n@page{size:A4 landscape;margin:12mm}@media print{body{background:white}article{width:auto;min-height:0;margin:0;padding:0;box-shadow:none;font-size:11pt}h1{font-size:20pt}h2{font-size:13pt;margin-top:15px}.facts b{font-size:16pt}li{margin:5px 0}footer{font-size:9pt}}\n</style>\n<article>\n<h1>采购评审要点</h1><div class=\"subtitle\">正式部署 · 软件采购</div>\n<section><h2>一、采购条件</h2><div class=\"facts\">\n<div><span>使用人数</span><b>300人</b></div><div><span>使用期限</span><b>1年</b></div><div><span>预算上限</span><b>30万元</b></div>\n</div></section>\n<div class=\"columns\"><section><h2>二、费用范围</h2><ul><li>软件订阅按300人、一年核价，明确版本、税费及计费口径。</li><li>配置与迁移、培训与支持分别列明，核对是否包含在预算范围内。</li><li>续费、扩容、退出及数据导出费用单列，按相同范围比较报价。</li></ul></section>\n<div><section><h2>三、交付与管理</h2><ul><li>按团队分配权限；支持企业账号开通、停用和操作日志。</li><li>确认数据托管位置、导出方式及服务终止后的处理安排。</li></ul></section>\n<section><h2>四、待确认事项</h2><ul><li>供应商完整报价及费用包含范围。</li><li>正式上线日期与验收标准。</li></ul></section></div></div>\n<footer>评审范围：按上述采购条件核对费用、交付及管理要求。</footer>\n</article></html>\n",
+    "8913": "展示实际脚本生成的文件：300人、一年、预算上限30万元，以及费用范围、交付管理和待确认事项。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【SKILL.md】\n---\nname: procurement-review\ndescription: 起草或更新软件采购评审要点；适用于试点采购与正式部署，需要核对采购条件、费用范围、交付和待确认事项时使用。\n---\n# 采购评审\n\n## 先确定本次任务\n从当前请求及已读取的记忆中确认人数、使用期限、预算上限和采购阶段。\n当前条件与历史记录不一致时，按用户对本次任务的最新说明处理。\n缺失条件列入待确认事项，不自行补出报价、审批结果或验收结论。\n\n## 选择评审方法\n- 正式部署：读取 references/rollout-review.md，继续按其中的链接核对费用范围。\n- 小范围试点：读取 references/pilot-review.md。\n只读取本次任务需要的分支。\n\n## 生成一页评审要点\n按照参考文件组织 review-input.json。\n运行下列命令，脚本会读取 assets/review-template.html：\npython3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.json --output output/procurement-review.html\n\n## 检查后交付\n生成文件后，读取 references/quality-checklist.md。\n读回 output/procurement-review.html，逐项检查内容，再运行：\npython3 .agents/skills/procurement-review/scripts/check_review.py --task task-conditions.json --input review-input.json --output output/procurement-review.html\n检查通过后给出文件位置、主要内容和待确认事项。\n脚本核对字段与生成结果；还需核对材料依据和待确认事项是否完整。\n\n\n【references/rollout-review.md】\n# 正式部署：采购评审要点\n\n## 先固定本次范围\n列明正式部署的人数、使用期限和预算上限。\n历史试点的金额、期限和人数单列为背景，不作为本次采购条件。\n\n## 按四部分起草\n1. 采购条件：人员范围、期限、预算上限。\n2. 费用范围：先读 [费用口径](cost-scope.md)，再列出需要供应商报清的项目。\n3. 交付与管理：依据已知要求，核对企业账号、权限、日志和数据处理。\n4. 待确认事项：尚未获得的报价、上线日期、验收标准。\n\n## 写入文件\n将以上内容写入 review-input.json。\n采购阶段写入 phase；人数、期限与预算使用 people、term_months、budget_cap_cny。\n其余三部分分别使用 cost_scope、requirements、pending 数组。\n每个要点包含 text（内容）和 source（依据或待确认原因）。\n使用 SKILL.md 中的生成命令。文件生成后再读质量检查清单。\n\n\n【references/pilot-review.md】\n# 试点采购：采购评审要点\n\n明确试点人数、期限、预算、验证目标与退出条件。\n费用只覆盖试点范围；区分可复用的初始配置和后续扩容费用。\n交付要求包括账号、数据范围和试点结束后的导出与清理。\n待确认事项包括试点验收标准、正式部署是否另行报价。\n生成文件前使用 cost-scope.md 核对费用项目，再按 SKILL.md 检查交付。\n\n\n【references/cost-scope.md】\n# 费用口径\n\n预算上限是可接受的支出上限，不是供应商报价，也不是已发生成本。\n\n## 报价中需要拆开的项目\n- 软件订阅：使用人数、计费周期、版本、税费是否与本次范围一致。\n- 配置与迁移：是否一次性收费，具体包含哪些实施工作。\n- 培训与支持：服务内容、次数、期限和额外费用。\n\n## 比较规则\n先统一人数和期限，再比较同一范围内的合计费用。\n续费、扩容、退出与数据导出费用分别列明。\n没有报价时，写明应核对的费用项目，不计算报价差额或节省比例。\n\n## 写入初稿\n将费用范围与需要报价确认的内容写入 cost_scope。\n在 source 中保留“费用口径”及对应条目的说明。\n\n\n【references/quality-checklist.md】\n# 交付前检查\n\n## 与当前任务对照\n- 人数、期限、预算上限逐项等于 task-conditions.json。\n- 预算上限没有被写成实际报价或已支出金额。\n- 历史试点条件没有替代正式部署条件。\n\n## 与材料对照\n- 账号、权限、日志和数据要求有已读取材料的依据。\n- 费用项目来自 cost-scope.md；没有报价时，不写供应商价格或节省比例。\n- 尚未确认的报价、上线日期、验收标准列入待确认事项。\n\n## 与产物对照\n- 打开 output/procurement-review.html，检查四部分是否完整、能否按一页阅读。\n- 运行 scripts/check_review.py，比对当前条件、初稿字段和生成文件。\n- 修改初稿后，重新生成并复查。\n\n\n【scripts/render_review.py】\n\"\"\"Render a procurement review from task-specific data and the package template.\"\"\"\nimport argparse, html, json\nfrom pathlib import Path\ndef render(data):\n    c = data[\"conditions\"]\n    values = {\n        \"PHASE\": html.escape(c[\"phase\"]),\n        \"PEOPLE\": str(c[\"people\"]),\n        \"TERM\": f'{c[\"term_months\"] // 12}年' if c[\"term_months\"] % 12 == 0 else f'{c[\"term_months\"]}个月',\n        \"BUDGET\": f'{c[\"budget_cap_cny\"] / 10000:g}万元',\n    }\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        values[key.upper()] = \"\".join(\"<li>\" + html.escape(i[\"text\"]) + \"</li>\" for i in data[key])\n    template = (Path(__file__).resolve().parents[1] / \"assets/review-template.html\").read_text()\n    for key, value in values.items():\n        template = template.replace(\"{{\" + key + \"}}\", value)\n    return template\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    data = json.loads(Path(args.input).read_text())\n    output = Path(args.output)\n    output.parent.mkdir(parents=True, exist_ok=True)\n    output.write_text(render(data))\n    print(f\"已生成：{output.as_posix()}\")\n    print(\"内容：采购条件、费用范围、交付与管理、待确认事项\")\n\n\n【scripts/check_review.py】\n\"\"\"Check task conditions, required sections, and consistency with the rendered file.\"\"\"\nimport argparse, json, sys\nfrom pathlib import Path\nfrom render_review import render\ndef check(task, data, output):\n    failures = []\n    for key in [\"phase\", \"people\", \"term_months\", \"budget_cap_cny\"]:\n        if data.get(\"conditions\", {}).get(key) != task.get(key):\n            failures.append(f\"{key} 与当前任务不一致\")\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        items = data.get(key, [])\n        if not items or any(not i.get(\"text\") or not i.get(\"source\") for i in items):\n            failures.append(f\"{key} 缺少内容或依据\")\n    if not failures and output != render(data):\n        failures.append(\"产物与当前初稿不一致，请重新生成\")\n    return failures\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--task\", required=True)\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    task = json.loads(Path(args.task).read_text())\n    data = json.loads(Path(args.input).read_text())\n    failures = check(task, data, Path(args.output).read_text())\n    if failures:\n        print(\"检查未通过：\" + \"；\".join(failures))\n        sys.exit(1)\n    print(\"检查通过：人数、期限、预算上限与当前任务一致。\")\n    print(\"检查通过：三组要点的内容与依据字段已填写。\")\n    print(\"检查通过：产物与当前初稿一致。\")\n\n\n【assets/review-template.html】\n<!doctype html>\n<html lang=\"zh-CN\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>采购评审要点</title>\n<style>\n*{box-sizing:border-box}body{margin:0;background:#e9edf1;color:#202631;font:19px/1.6 Arial,\"PingFang SC\",sans-serif}\narticle{width:1120px;min-height:660px;margin:20px auto;background:white;padding:28px 38px;box-shadow:0 3px 20px #bac3cd}\nh1{font-size:29px;margin:0 0 4px;color:#073f91}h2{font-size:20px;margin:16px 0 8px;color:#073f91;border-bottom:1px solid #c8d3df;padding-bottom:5px}\n.subtitle{color:#66707d;font-size:16px;margin-bottom:10px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}\n.facts div{background:#edf3f9;padding:12px}.facts b{display:block;font-size:24px;color:#8e2332}.facts span{font-size:15px}\n.columns{display:grid;grid-template-columns:1fr 1fr;gap:32px}ul{margin:8px 0;padding-left:23px}li{margin:6px 0}footer{margin-top:18px;border-top:1px solid #c8d3df;padding-top:10px;color:#596472;font-size:14px}\n@media(max-width:820px){article{width:calc(100% - 24px);margin:12px;padding:28px}}\n@page{size:A4 landscape;margin:12mm}@media print{body{background:white}article{width:auto;min-height:0;margin:0;padding:0;box-shadow:none;font-size:11pt}h1{font-size:20pt}h2{font-size:13pt;margin-top:15px}.facts b{font-size:16pt}li{margin:5px 0}footer{font-size:9pt}}\n</style>\n<article>\n<h1>采购评审要点</h1><div class=\"subtitle\">{{PHASE}} · 软件采购</div>\n<section><h2>一、采购条件</h2><div class=\"facts\">\n<div><span>使用人数</span><b>{{PEOPLE}}人</b></div><div><span>使用期限</span><b>{{TERM}}</b></div><div><span>预算上限</span><b>{{BUDGET}}</b></div>\n</div></section>\n<div class=\"columns\"><section><h2>二、费用范围</h2><ul>{{COST_SCOPE}}</ul></section>\n<div><section><h2>三、交付与管理</h2><ul>{{REQUIREMENTS}}</ul></section>\n<section><h2>四、待确认事项</h2><ul>{{PENDING}}</ul></section></div></div>\n<footer>评审范围：按上述采购条件核对费用、交付及管理要求。</footer>\n</article></html>\n\n\n【agents/openai.yaml】\ninterface:\n  display_name: \"采购评审\"\n  short_description: \"按当前采购条件整理一页评审要点，核对费用范围、交付要求与待确认事项\"\n  default_prompt: \"请使用 $procurement-review，按当前采购条件起草一页采购评审要点。\"\n",
+    "8914": "最终回复依据已生成的文件与检查结果，交代产物位置，保留供应商报价、上线日期和验收标准等待确认事项。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【模型：交付评审要点】\n已起草 output/procurement-review.html。\n\n按300人正式部署、使用期限一年、预算上限30万元组织了四部分：采购条件、费用范围、交付与管理、待确认事项。\n\n还需确认供应商完整报价、正式上线日期和验收标准。",
+    "8915": "目录→SKILL.md→正式部署方法→费用口径；生成后另读检查清单。模板由程序读取，试点分支本次没有读取。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【SKILL.md】\n---\nname: procurement-review\ndescription: 起草或更新软件采购评审要点；适用于试点采购与正式部署，需要核对采购条件、费用范围、交付和待确认事项时使用。\n---\n# 采购评审\n\n## 先确定本次任务\n从当前请求及已读取的记忆中确认人数、使用期限、预算上限和采购阶段。\n当前条件与历史记录不一致时，按用户对本次任务的最新说明处理。\n缺失条件列入待确认事项，不自行补出报价、审批结果或验收结论。\n\n## 选择评审方法\n- 正式部署：读取 references/rollout-review.md，继续按其中的链接核对费用范围。\n- 小范围试点：读取 references/pilot-review.md。\n只读取本次任务需要的分支。\n\n## 生成一页评审要点\n按照参考文件组织 review-input.json。\n运行下列命令，脚本会读取 assets/review-template.html：\npython3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.json --output output/procurement-review.html\n\n## 检查后交付\n生成文件后，读取 references/quality-checklist.md。\n读回 output/procurement-review.html，逐项检查内容，再运行：\npython3 .agents/skills/procurement-review/scripts/check_review.py --task task-conditions.json --input review-input.json --output output/procurement-review.html\n检查通过后给出文件位置、主要内容和待确认事项。\n脚本核对字段与生成结果；还需核对材料依据和待确认事项是否完整。\n\n\n【references/rollout-review.md】\n# 正式部署：采购评审要点\n\n## 先固定本次范围\n列明正式部署的人数、使用期限和预算上限。\n历史试点的金额、期限和人数单列为背景，不作为本次采购条件。\n\n## 按四部分起草\n1. 采购条件：人员范围、期限、预算上限。\n2. 费用范围：先读 [费用口径](cost-scope.md)，再列出需要供应商报清的项目。\n3. 交付与管理：依据已知要求，核对企业账号、权限、日志和数据处理。\n4. 待确认事项：尚未获得的报价、上线日期、验收标准。\n\n## 写入文件\n将以上内容写入 review-input.json。\n采购阶段写入 phase；人数、期限与预算使用 people、term_months、budget_cap_cny。\n其余三部分分别使用 cost_scope、requirements、pending 数组。\n每个要点包含 text（内容）和 source（依据或待确认原因）。\n使用 SKILL.md 中的生成命令。文件生成后再读质量检查清单。\n\n\n【references/pilot-review.md】\n# 试点采购：采购评审要点\n\n明确试点人数、期限、预算、验证目标与退出条件。\n费用只覆盖试点范围；区分可复用的初始配置和后续扩容费用。\n交付要求包括账号、数据范围和试点结束后的导出与清理。\n待确认事项包括试点验收标准、正式部署是否另行报价。\n生成文件前使用 cost-scope.md 核对费用项目，再按 SKILL.md 检查交付。\n\n\n【references/cost-scope.md】\n# 费用口径\n\n预算上限是可接受的支出上限，不是供应商报价，也不是已发生成本。\n\n## 报价中需要拆开的项目\n- 软件订阅：使用人数、计费周期、版本、税费是否与本次范围一致。\n- 配置与迁移：是否一次性收费，具体包含哪些实施工作。\n- 培训与支持：服务内容、次数、期限和额外费用。\n\n## 比较规则\n先统一人数和期限，再比较同一范围内的合计费用。\n续费、扩容、退出与数据导出费用分别列明。\n没有报价时，写明应核对的费用项目，不计算报价差额或节省比例。\n\n## 写入初稿\n将费用范围与需要报价确认的内容写入 cost_scope。\n在 source 中保留“费用口径”及对应条目的说明。\n\n\n【references/quality-checklist.md】\n# 交付前检查\n\n## 与当前任务对照\n- 人数、期限、预算上限逐项等于 task-conditions.json。\n- 预算上限没有被写成实际报价或已支出金额。\n- 历史试点条件没有替代正式部署条件。\n\n## 与材料对照\n- 账号、权限、日志和数据要求有已读取材料的依据。\n- 费用项目来自 cost-scope.md；没有报价时，不写供应商价格或节省比例。\n- 尚未确认的报价、上线日期、验收标准列入待确认事项。\n\n## 与产物对照\n- 打开 output/procurement-review.html，检查四部分是否完整、能否按一页阅读。\n- 运行 scripts/check_review.py，比对当前条件、初稿字段和生成文件。\n- 修改初稿后，重新生成并复查。\n\n\n【scripts/render_review.py】\n\"\"\"Render a procurement review from task-specific data and the package template.\"\"\"\nimport argparse, html, json\nfrom pathlib import Path\ndef render(data):\n    c = data[\"conditions\"]\n    values = {\n        \"PHASE\": html.escape(c[\"phase\"]),\n        \"PEOPLE\": str(c[\"people\"]),\n        \"TERM\": f'{c[\"term_months\"] // 12}年' if c[\"term_months\"] % 12 == 0 else f'{c[\"term_months\"]}个月',\n        \"BUDGET\": f'{c[\"budget_cap_cny\"] / 10000:g}万元',\n    }\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        values[key.upper()] = \"\".join(\"<li>\" + html.escape(i[\"text\"]) + \"</li>\" for i in data[key])\n    template = (Path(__file__).resolve().parents[1] / \"assets/review-template.html\").read_text()\n    for key, value in values.items():\n        template = template.replace(\"{{\" + key + \"}}\", value)\n    return template\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    data = json.loads(Path(args.input).read_text())\n    output = Path(args.output)\n    output.parent.mkdir(parents=True, exist_ok=True)\n    output.write_text(render(data))\n    print(f\"已生成：{output.as_posix()}\")\n    print(\"内容：采购条件、费用范围、交付与管理、待确认事项\")\n\n\n【scripts/check_review.py】\n\"\"\"Check task conditions, required sections, and consistency with the rendered file.\"\"\"\nimport argparse, json, sys\nfrom pathlib import Path\nfrom render_review import render\ndef check(task, data, output):\n    failures = []\n    for key in [\"phase\", \"people\", \"term_months\", \"budget_cap_cny\"]:\n        if data.get(\"conditions\", {}).get(key) != task.get(key):\n            failures.append(f\"{key} 与当前任务不一致\")\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        items = data.get(key, [])\n        if not items or any(not i.get(\"text\") or not i.get(\"source\") for i in items):\n            failures.append(f\"{key} 缺少内容或依据\")\n    if not failures and output != render(data):\n        failures.append(\"产物与当前初稿不一致，请重新生成\")\n    return failures\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--task\", required=True)\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    task = json.loads(Path(args.task).read_text())\n    data = json.loads(Path(args.input).read_text())\n    failures = check(task, data, Path(args.output).read_text())\n    if failures:\n        print(\"检查未通过：\" + \"；\".join(failures))\n        sys.exit(1)\n    print(\"检查通过：人数、期限、预算上限与当前任务一致。\")\n    print(\"检查通过：三组要点的内容与依据字段已填写。\")\n    print(\"检查通过：产物与当前初稿一致。\")\n\n\n【assets/review-template.html】\n<!doctype html>\n<html lang=\"zh-CN\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>采购评审要点</title>\n<style>\n*{box-sizing:border-box}body{margin:0;background:#e9edf1;color:#202631;font:19px/1.6 Arial,\"PingFang SC\",sans-serif}\narticle{width:1120px;min-height:660px;margin:20px auto;background:white;padding:28px 38px;box-shadow:0 3px 20px #bac3cd}\nh1{font-size:29px;margin:0 0 4px;color:#073f91}h2{font-size:20px;margin:16px 0 8px;color:#073f91;border-bottom:1px solid #c8d3df;padding-bottom:5px}\n.subtitle{color:#66707d;font-size:16px;margin-bottom:10px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}\n.facts div{background:#edf3f9;padding:12px}.facts b{display:block;font-size:24px;color:#8e2332}.facts span{font-size:15px}\n.columns{display:grid;grid-template-columns:1fr 1fr;gap:32px}ul{margin:8px 0;padding-left:23px}li{margin:6px 0}footer{margin-top:18px;border-top:1px solid #c8d3df;padding-top:10px;color:#596472;font-size:14px}\n@media(max-width:820px){article{width:calc(100% - 24px);margin:12px;padding:28px}}\n@page{size:A4 landscape;margin:12mm}@media print{body{background:white}article{width:auto;min-height:0;margin:0;padding:0;box-shadow:none;font-size:11pt}h1{font-size:20pt}h2{font-size:13pt;margin-top:15px}.facts b{font-size:16pt}li{margin:5px 0}footer{font-size:9pt}}\n</style>\n<article>\n<h1>采购评审要点</h1><div class=\"subtitle\">{{PHASE}} · 软件采购</div>\n<section><h2>一、采购条件</h2><div class=\"facts\">\n<div><span>使用人数</span><b>{{PEOPLE}}人</b></div><div><span>使用期限</span><b>{{TERM}}</b></div><div><span>预算上限</span><b>{{BUDGET}}</b></div>\n</div></section>\n<div class=\"columns\"><section><h2>二、费用范围</h2><ul>{{COST_SCOPE}}</ul></section>\n<div><section><h2>三、交付与管理</h2><ul>{{REQUIREMENTS}}</ul></section>\n<section><h2>四、待确认事项</h2><ul>{{PENDING}}</ul></section></div></div>\n<footer>评审范围：按上述采购条件核对费用、交付及管理要求。</footer>\n</article></html>\n\n\n【agents/openai.yaml】\ninterface:\n  display_name: \"采购评审\"\n  short_description: \"按当前采购条件整理一页评审要点，核对费用范围、交付要求与待确认事项\"\n  default_prompt: \"请使用 $procurement-review，按当前采购条件起草一页采购评审要点。\"\n",
+    "8916": "三、自己的Skills：从已有工作到持续维护\n\n调用过程已讲完，接下来讨论自己的Skills。已有工作中提炼做法、用creator生成初稿、新任务评估、根据问题修订并保留版本。生成文件之后，还要检查是否适合自己、是否可迁移、是否安全。",
+    "8917": "让Codex或Claude Code整理Skill初稿\n\nCodex可用$skill-creator；Claude Code安装官方skill-creator插件后，可用自然语言请求创建和改进。提供已有成果、确认要求、适用条件与目标位置。creator本身也是Skill。\n\n请用 $skill-creator，把我们刚才完成这项任务的做法整理成一个可复用的Skill，保存在当前项目的 .agents/skills/ 下。\n\n保留已经确认的要求，写清适用任务、所需输入和预期结果。区分以后还会复用的做法与本次临时条件；需要时再拆出参考文件、脚本和模板。\n\n同时列出：怎样判断这项Skill该用、不该用，以及用什么新任务检查它。",
+    "8918": "让文件结构服务于自己的任务\n\n简单方法可只用SKILL.md。主文件保留适用条件、输入输出和必要步骤；较长参考按需读取；稳定重复操作放脚本；固定输出结构放模板。避免把所有会话内容都抄进Skill。",
+    "8919": "高Star的Skill，适合你的任务吗？\n\n受欢迎与适合自己的任务是两个判断。通用PPT或写作Skill可能采用别人的结构与文风；自己的定稿和修改意见则给出个人标准。用新材料比较，保留真正改善输出的规则。\n\n请根据我提供的几份定稿和修改意见，总结适合我的写作方法，整理成一个Skill。\n\n先归纳：面向谁、先讲什么、论据怎样安排、句子与段落习惯、哪些表达应避免。每条规则附上定稿中的依据。\n\n把适用文体和例外写清楚，不把单篇文章的话题、数字或临时要求写成通用规则。再用一份新的材料生成初稿，供我核对。",
+    "8920": "评估：选对了吗，读对了吗，结果对了吗？\n\n使用新会话、新输入检查适用与不适用任务；同时比较相同材料与要求下带Skill与不带Skill的结果。观察选择是否正确、材料与方法是否正确、产物是否达到标准，以及返工和耗时。",
+    "8921": "场景、模型和Harness变化后重新验证。能在本机生成采购评审HTML，不代表别的应用具备相同路径、工具和Python环境。",
+    "8922": "公共Skill：也会把外部指令与程序带进来\n\n查看正文、附带脚本与外部依赖。指令可能诱导读取无关文件、调用外部地址；脚本可能上传内容或改写文件。实际影响取决于工具权限、网络访问与确认机制，先检查再在受限环境试用。",
+    "8923": "维护：场景、模型、Harness变了，就要复查\n\n场景或交付标准改变，需要更新适用条件；模型升级后，旧指令可能过时或多余；Harness更换后，路径、工具、依赖与权限可能不同。保留已验证版本，用代表任务复查；必要时修改或停用。",
+    "8924": "自己的Skills小结：用结果决定保留什么\n\n初稿来自自己的有效做法；评估比较实际任务的结果；安全检查覆盖指令与程序；维护随场景、模型和运行环境变化。只保留有帮助的规则，不把每次偶然情况变成通用规定。",
+    "8925": "Skills小结：组织方法、调用方法、检验方法\n\n回到章首三部分：完整包组织方法，一次调用按需取得方法，自己的Skills依靠评估与维护。接下来进入Protocols，讨论应用怎样与外部工具和其他Agent交换信息。",
+    "8960": "先展示采购评审包的文件夹层级：SKILL.md、references、scripts、assets与agents；再打开单个文件。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【SKILL.md】\n---\nname: procurement-review\ndescription: 起草或更新软件采购评审要点；适用于试点采购与正式部署，需要核对采购条件、费用范围、交付和待确认事项时使用。\n---\n# 采购评审\n\n## 先确定本次任务\n从当前请求及已读取的记忆中确认人数、使用期限、预算上限和采购阶段。\n当前条件与历史记录不一致时，按用户对本次任务的最新说明处理。\n缺失条件列入待确认事项，不自行补出报价、审批结果或验收结论。\n\n## 选择评审方法\n- 正式部署：读取 references/rollout-review.md，继续按其中的链接核对费用范围。\n- 小范围试点：读取 references/pilot-review.md。\n只读取本次任务需要的分支。\n\n## 生成一页评审要点\n按照参考文件组织 review-input.json。\n运行下列命令，脚本会读取 assets/review-template.html：\npython3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.json --output output/procurement-review.html\n\n## 检查后交付\n生成文件后，读取 references/quality-checklist.md。\n读回 output/procurement-review.html，逐项检查内容，再运行：\npython3 .agents/skills/procurement-review/scripts/check_review.py --task task-conditions.json --input review-input.json --output output/procurement-review.html\n检查通过后给出文件位置、主要内容和待确认事项。\n脚本核对字段与生成结果；还需核对材料依据和待确认事项是否完整。\n\n\n【references/rollout-review.md】\n# 正式部署：采购评审要点\n\n## 先固定本次范围\n列明正式部署的人数、使用期限和预算上限。\n历史试点的金额、期限和人数单列为背景，不作为本次采购条件。\n\n## 按四部分起草\n1. 采购条件：人员范围、期限、预算上限。\n2. 费用范围：先读 [费用口径](cost-scope.md)，再列出需要供应商报清的项目。\n3. 交付与管理：依据已知要求，核对企业账号、权限、日志和数据处理。\n4. 待确认事项：尚未获得的报价、上线日期、验收标准。\n\n## 写入文件\n将以上内容写入 review-input.json。\n采购阶段写入 phase；人数、期限与预算使用 people、term_months、budget_cap_cny。\n其余三部分分别使用 cost_scope、requirements、pending 数组。\n每个要点包含 text（内容）和 source（依据或待确认原因）。\n使用 SKILL.md 中的生成命令。文件生成后再读质量检查清单。\n\n\n【references/pilot-review.md】\n# 试点采购：采购评审要点\n\n明确试点人数、期限、预算、验证目标与退出条件。\n费用只覆盖试点范围；区分可复用的初始配置和后续扩容费用。\n交付要求包括账号、数据范围和试点结束后的导出与清理。\n待确认事项包括试点验收标准、正式部署是否另行报价。\n生成文件前使用 cost-scope.md 核对费用项目，再按 SKILL.md 检查交付。\n\n\n【references/cost-scope.md】\n# 费用口径\n\n预算上限是可接受的支出上限，不是供应商报价，也不是已发生成本。\n\n## 报价中需要拆开的项目\n- 软件订阅：使用人数、计费周期、版本、税费是否与本次范围一致。\n- 配置与迁移：是否一次性收费，具体包含哪些实施工作。\n- 培训与支持：服务内容、次数、期限和额外费用。\n\n## 比较规则\n先统一人数和期限，再比较同一范围内的合计费用。\n续费、扩容、退出与数据导出费用分别列明。\n没有报价时，写明应核对的费用项目，不计算报价差额或节省比例。\n\n## 写入初稿\n将费用范围与需要报价确认的内容写入 cost_scope。\n在 source 中保留“费用口径”及对应条目的说明。\n\n\n【references/quality-checklist.md】\n# 交付前检查\n\n## 与当前任务对照\n- 人数、期限、预算上限逐项等于 task-conditions.json。\n- 预算上限没有被写成实际报价或已支出金额。\n- 历史试点条件没有替代正式部署条件。\n\n## 与材料对照\n- 账号、权限、日志和数据要求有已读取材料的依据。\n- 费用项目来自 cost-scope.md；没有报价时，不写供应商价格或节省比例。\n- 尚未确认的报价、上线日期、验收标准列入待确认事项。\n\n## 与产物对照\n- 打开 output/procurement-review.html，检查四部分是否完整、能否按一页阅读。\n- 运行 scripts/check_review.py，比对当前条件、初稿字段和生成文件。\n- 修改初稿后，重新生成并复查。\n\n\n【scripts/render_review.py】\n\"\"\"Render a procurement review from task-specific data and the package template.\"\"\"\nimport argparse, html, json\nfrom pathlib import Path\ndef render(data):\n    c = data[\"conditions\"]\n    values = {\n        \"PHASE\": html.escape(c[\"phase\"]),\n        \"PEOPLE\": str(c[\"people\"]),\n        \"TERM\": f'{c[\"term_months\"] // 12}年' if c[\"term_months\"] % 12 == 0 else f'{c[\"term_months\"]}个月',\n        \"BUDGET\": f'{c[\"budget_cap_cny\"] / 10000:g}万元',\n    }\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        values[key.upper()] = \"\".join(\"<li>\" + html.escape(i[\"text\"]) + \"</li>\" for i in data[key])\n    template = (Path(__file__).resolve().parents[1] / \"assets/review-template.html\").read_text()\n    for key, value in values.items():\n        template = template.replace(\"{{\" + key + \"}}\", value)\n    return template\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    data = json.loads(Path(args.input).read_text())\n    output = Path(args.output)\n    output.parent.mkdir(parents=True, exist_ok=True)\n    output.write_text(render(data))\n    print(f\"已生成：{output.as_posix()}\")\n    print(\"内容：采购条件、费用范围、交付与管理、待确认事项\")\n\n\n【scripts/check_review.py】\n\"\"\"Check task conditions, required sections, and consistency with the rendered file.\"\"\"\nimport argparse, json, sys\nfrom pathlib import Path\nfrom render_review import render\ndef check(task, data, output):\n    failures = []\n    for key in [\"phase\", \"people\", \"term_months\", \"budget_cap_cny\"]:\n        if data.get(\"conditions\", {}).get(key) != task.get(key):\n            failures.append(f\"{key} 与当前任务不一致\")\n    for key in [\"cost_scope\", \"requirements\", \"pending\"]:\n        items = data.get(key, [])\n        if not items or any(not i.get(\"text\") or not i.get(\"source\") for i in items):\n            failures.append(f\"{key} 缺少内容或依据\")\n    if not failures and output != render(data):\n        failures.append(\"产物与当前初稿不一致，请重新生成\")\n    return failures\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--task\", required=True)\n    parser.add_argument(\"--input\", required=True)\n    parser.add_argument(\"--output\", required=True)\n    args = parser.parse_args()\n    task = json.loads(Path(args.task).read_text())\n    data = json.loads(Path(args.input).read_text())\n    failures = check(task, data, Path(args.output).read_text())\n    if failures:\n        print(\"检查未通过：\" + \"；\".join(failures))\n        sys.exit(1)\n    print(\"检查通过：人数、期限、预算上限与当前任务一致。\")\n    print(\"检查通过：三组要点的内容与依据字段已填写。\")\n    print(\"检查通过：产物与当前初稿一致。\")\n\n\n【assets/review-template.html】\n<!doctype html>\n<html lang=\"zh-CN\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>采购评审要点</title>\n<style>\n*{box-sizing:border-box}body{margin:0;background:#e9edf1;color:#202631;font:19px/1.6 Arial,\"PingFang SC\",sans-serif}\narticle{width:1120px;min-height:660px;margin:20px auto;background:white;padding:28px 38px;box-shadow:0 3px 20px #bac3cd}\nh1{font-size:29px;margin:0 0 4px;color:#073f91}h2{font-size:20px;margin:16px 0 8px;color:#073f91;border-bottom:1px solid #c8d3df;padding-bottom:5px}\n.subtitle{color:#66707d;font-size:16px;margin-bottom:10px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}\n.facts div{background:#edf3f9;padding:12px}.facts b{display:block;font-size:24px;color:#8e2332}.facts span{font-size:15px}\n.columns{display:grid;grid-template-columns:1fr 1fr;gap:32px}ul{margin:8px 0;padding-left:23px}li{margin:6px 0}footer{margin-top:18px;border-top:1px solid #c8d3df;padding-top:10px;color:#596472;font-size:14px}\n@media(max-width:820px){article{width:calc(100% - 24px);margin:12px;padding:28px}}\n@page{size:A4 landscape;margin:12mm}@media print{body{background:white}article{width:auto;min-height:0;margin:0;padding:0;box-shadow:none;font-size:11pt}h1{font-size:20pt}h2{font-size:13pt;margin-top:15px}.facts b{font-size:16pt}li{margin:5px 0}footer{font-size:9pt}}\n</style>\n<article>\n<h1>采购评审要点</h1><div class=\"subtitle\">{{PHASE}} · 软件采购</div>\n<section><h2>一、采购条件</h2><div class=\"facts\">\n<div><span>使用人数</span><b>{{PEOPLE}}人</b></div><div><span>使用期限</span><b>{{TERM}}</b></div><div><span>预算上限</span><b>{{BUDGET}}</b></div>\n</div></section>\n<div class=\"columns\"><section><h2>二、费用范围</h2><ul>{{COST_SCOPE}}</ul></section>\n<div><section><h2>三、交付与管理</h2><ul>{{REQUIREMENTS}}</ul></section>\n<section><h2>四、待确认事项</h2><ul>{{PENDING}}</ul></section></div></div>\n<footer>评审范围：按上述采购条件核对费用、交付及管理要求。</footer>\n</article></html>\n\n\n【agents/openai.yaml】\ninterface:\n  display_name: \"采购评审\"\n  short_description: \"按当前采购条件整理一页评审要点，核对费用范围、交付要求与待确认事项\"\n  default_prompt: \"请使用 $procurement-review，按当前采购条件起草一页采购评审要点。\"\n",
+    "8961": "正式部署方法中的费用范围一节指向cost-scope.md。这里补充订阅、配置迁移、培训支持及比较规则。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【模型：继续读取费用口径】\ncat .agents/skills/procurement-review/references/cost-scope.md\n\n【工具：返回费用口径】\n# 费用口径\n\n预算上限是可接受的支出上限，不是供应商报价，也不是已发生成本。\n\n## 报价中需要拆开的项目\n- 软件订阅：使用人数、计费周期、版本、税费是否与本次范围一致。\n- 配置与迁移：是否一次性收费，具体包含哪些实施工作。\n- 培训与支持：服务内容、次数、期限和额外费用。\n\n## 比较规则\n先统一人数和期限，再比较同一范围内的合计费用。\n续费、扩容、退出与数据导出费用分别列明。\n没有报价时，写明应核对的费用项目，不计算报价差额或节省比例。\n\n## 写入初稿\n将费用范围与需要报价确认的内容写入 cost_scope。\n在 source 中保留“费用口径”及对应条目的说明。\n",
+    "8962": "读取前面项目的账户与数据要求；将300人、一年、30万元及对应评审要点写入review-input.json。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【模型：读取项目已有要求】\ncat security-requirements.md\n\n【工具：返回账户与数据要求】\n# 企业知识库：安全与账户要求\n\n资料按团队设置访问权限。\n企业账户应能统一开通、停用，并保留操作记录。\n供应商须说明数据存放位置、数据导出及终止服务后的处理办法。\n\n\n【模型：写入本次评审初稿】\npython3 -c 'from pathlib import Path; Path('\"'\"'review-input.json'\"'\"').write_text('\"'\"'{\\n  \"conditions\": {\\n    \"phase\": \"正式部署\",\\n    \"people\": 300,\\n    \"term_months\": 12,\\n    \"budget_cap_cny\": 300000\\n  },\\n  \"cost_scope\": [\\n    {\\n      \"text\": \"软件订阅按300人、一年核价，明确版本、税费及计费口径。\",\\n      \"source\": \"当前采购条件；cost-scope.md：软件订阅\"\\n    },\\n    {\\n      \"text\": \"配置与迁移、培训与支持分别列明，核对是否包含在预算范围内。\",\\n      \"source\": \"cost-scope.md：配置与迁移、培训与支持\"\\n    },\\n    {\\n      \"text\": \"续费、扩容、退出及数据导出费用单列，按相同范围比较报价。\",\\n      \"source\": \"cost-scope.md：比较规则\"\\n    }\\n  ],\\n  \"requirements\": [\\n    {\\n      \"text\": \"按团队分配权限；支持企业账号开通、停用和操作日志。\",\\n      \"source\": \"security-requirements.md：账号与权限\"\\n    },\\n    {\\n      \"text\": \"确认数据托管位置、导出方式及服务终止后的处理安排。\",\\n      \"source\": \"security-requirements.md：数据处理\"\\n    }\\n  ],\\n  \"pending\": [\\n    {\\n      \"text\": \"供应商完整报价及费用包含范围。\",\\n      \"source\": \"当前材料未提供供应商报价\"\\n    },\\n    {\\n      \"text\": \"正式上线日期与验收标准。\",\\n      \"source\": \"当前条件只确定人数、期限和预算\"\\n    }\\n  ]\\n}\\n'\"'\"'); print('\"'\"'已写入：review-input.json'\"'\"')'\n\n【工具：返回保存结果】\n已写入：review-input.json\n",
+    "8963": "脚本逐项比对人数、期限、预算上限，并核对评审字段和生成文件；材料依据和内容完整性仍按清单检查。\n\n当前任务\n请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n\n\n【模型：运行一致性检查】\npython3 .agents/skills/procurement-review/scripts/check_review.py --task task-conditions.json --input review-input.json --output output/procurement-review.html\n\n【工具：返回检查结果】\n检查通过：人数、期限、预算上限与当前任务一致。\n检查通过：三组要点的内容与依据字段已填写。\n检查通过：产物与当前初稿一致。\n"
+  },
+  "sources": {
+    "SKILLS_R9": {
+      "title": "Skills重构：技能包、渐进式调用、创建与维护",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/skills-r9/来源与适配记录.md"
+    },
+    "SKILLS_R16": {
+      "title": "采购评审Skill：多级渐进式披露、完整文件包与本地执行记录",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/skills-r16/来源与执行记录.md"
+    }
+  },
+  "files": {
+    "8902": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8960": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8903": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8904": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8905": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8906": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8907": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8908": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8909": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8910": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8961": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8962": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8911": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8912": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8963": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8913": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8914": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ],
+    "8915": [
+      {
+        "label": "采购评审文件",
+        "href": "sources/skills-r16/case/output/procurement-review.html"
+      },
+      {
+        "label": "采购评审Skill完整文件包",
+        "href": "sources/skills-r16/procurement-review-skill.zip"
+      }
+    ]
+  }
+}

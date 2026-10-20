@@ -1,0 +1,42 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=83&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=83&s=1
+	2 container
+		55 container Description: 第83页 记忆也可能干扰当前任务, ID: mount
+			56 container 第83页 记忆也可能干扰当前任务
+				57 heading 记忆也可能干扰当前任务, Value: 1
+					58 text 记忆也可能干扰当前任务
+				59 container 课件内容
+					60 container
+						61 text 记忆即使没有错，用在不合适的任务上，也可能把答案带偏。 这次要放松，就围绕放松选择；暂不采用“保持清醒”的偏好，无需把它永久删除。
+				62 container 课程进度
+					63 button 导入
+					64 button 1. LLM基础
+					65 button 2. Prompting
+					66 button 3. Agents · Externalization & Internalization
+						67 text 3. Agents 
+						68 text · Externalization & Internalization
+					69 button 3.0 外化与内化总览
+					70 button 3.1 工具调用
+					71 button 3.2 Memory
+					72 button 3.3 Skills
+					73 button 3.4 Harness
+					74 button 3.5 外化与内化整合
+					75 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 83, ID: page-input
+				46 text / 151
+			76 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		77 text 第83页，记忆也可能干扰当前任务，整页显示
+
+The focused UI element is 55 container Description: 第83页 记忆也可能干扰当前任务, ID: mount

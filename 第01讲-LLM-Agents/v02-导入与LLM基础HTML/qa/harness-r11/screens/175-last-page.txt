@@ -1,0 +1,59 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=175&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=175&s=1
+	2 container
+		42 container Description: 第175页 第一讲小结：生成、任务与执行, ID: mount
+			43 container 第175页 第一讲小结：生成、任务与执行
+				44 heading 第一讲小结：生成、任务与执行, Value: 1
+					45 text 第一讲小结：生成、任务与执行
+				46 container 课件内容
+					47 container
+						48 text 理解一次Agent工作，把任务要求、生成过程与实际交付连起来看。 1. LLM基础 2. Prompting 3. Agents
+						49 image 逐步生成内容
+						50 image
+						51 text 目标与受众
+						52 text 材料与约束
+						53 text 反馈与检查
+						54 image 执行操作并返回结果
+						55 image 可检查的交付物
+						56 image
+						57 text 依据本次输入，
+						58 text 逐步生成内容。 交代任务与材料，
+						59 text 把反馈写回输入。 组织执行与返回，
+						60 text 核对文件和操作结果。
+						61 image
+						62 text Prompting组织输入 LLM提出动作 工具执行并返回结果
+						63 image
+						64 text 结果带回下一次输入，继续判断。
+				65 container 课程进度
+					66 button 导入
+					67 button 1. LLM基础
+					68 button 2. Prompting
+					69 button 3. Agents · Externalization & Internalization
+						70 text 3. Agents 
+						71 text · Externalization & Internalization
+					72 button 3.0 外化与内化总览
+					73 button 3.1 工具调用
+					74 button 3.2 Memory
+					75 button 3.3 Skills
+					76 button 3.4 Protocols
+					77 button 3.5 Harness
+					78 button 3.6 外化与内化整合
+					79 button 3.7 全讲总结
+		27 container Description: 课件操作, ID: controls
+			28 button Description: 上一步, Help: 上一步（←）
+			29 button (disabled) Description: 下一步, Help: 下一步（→或空格）
+			30 container jump-form
+				31 text 页码
+				32 stepper (settable, integer) Description: 页码, Value: 175, ID: page-input
+				33 text / 175
+			80 text 整页显示
+			35 button 目录
+			36 button 备注 / 来源
+			37 button 完整材料
+			38 button 放大图解
+			39 button 全屏
+			40 button 隐藏, Help: 按H恢复
+			41 button 操作说明
+		81 text 第175页，第一讲小结：生成、任务与执行，整页显示
+
+The focused UI element is 42 container Description: 第175页 第一讲小结：生成、任务与执行, ID: mount

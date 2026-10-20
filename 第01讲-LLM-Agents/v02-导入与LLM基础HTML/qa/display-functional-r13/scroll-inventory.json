@@ -1,0 +1,347 @@
+[
+  {
+    "page": 20,
+    "regions": [
+      {
+        "label": "Prompt正文，可滚动阅读",
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 24,
+    "regions": [
+      {
+        "label": "Prompt正文，可滚动阅读",
+        "max": 477
+      }
+    ]
+  },
+  {
+    "page": 27,
+    "regions": [
+      {
+        "label": "Prompt正文，可滚动阅读",
+        "max": 177
+      }
+    ]
+  },
+  {
+    "page": 29,
+    "regions": [
+      {
+        "label": "Prompt正文，可滚动阅读",
+        "max": 285
+      }
+    ]
+  },
+  {
+    "page": 31,
+    "regions": [
+      {
+        "label": "Prompt正文，可滚动阅读",
+        "max": 381
+      }
+    ]
+  },
+  {
+    "page": 32,
+    "regions": [
+      {
+        "label": "Prompt正文，可滚动阅读",
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 34,
+    "regions": [
+      {
+        "label": "Prompt正文，可滚动阅读",
+        "max": 765
+      }
+    ]
+  },
+  {
+    "page": 38,
+    "regions": [
+      {
+        "label": "Prompt正文，可滚动阅读",
+        "max": 669
+      }
+    ]
+  },
+  {
+    "page": 39,
+    "regions": [
+      {
+        "label": "Prompt正文，可滚动阅读",
+        "max": 210
+      }
+    ]
+  },
+  {
+    "page": 41,
+    "regions": [
+      {
+        "label": "Prompt正文，可滚动阅读",
+        "max": 381
+      }
+    ]
+  },
+  {
+    "page": 45,
+    "regions": [
+      {
+        "label": "Prompt正文，可滚动阅读",
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 47,
+    "regions": [
+      {
+        "label": "Prompt正文，可滚动阅读",
+        "max": 237
+      }
+    ]
+  },
+  {
+    "page": 66,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 67,
+    "regions": [
+      {
+        "label": null,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "page": 68,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 91,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 92,
+    "regions": [
+      {
+        "label": null,
+        "max": 58
+      }
+    ]
+  },
+  {
+    "page": 93,
+    "regions": [
+      {
+        "label": null,
+        "max": 13
+      },
+      {
+        "label": null,
+        "max": 13
+      }
+    ]
+  },
+  {
+    "page": 94,
+    "regions": [
+      {
+        "label": null,
+        "max": 117
+      }
+    ]
+  },
+  {
+    "page": 96,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 97,
+    "regions": [
+      {
+        "label": null,
+        "max": 31
+      }
+    ]
+  },
+  {
+    "page": 98,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 99,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 100,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      },
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 108,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      },
+      {
+        "label": null,
+        "max": 5571
+      }
+    ]
+  },
+  {
+    "page": 109,
+    "regions": [
+      {
+        "label": null,
+        "max": 132
+      }
+    ]
+  },
+  {
+    "page": 112,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 113,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 114,
+    "regions": [
+      {
+        "label": null,
+        "max": 346
+      }
+    ]
+  },
+  {
+    "page": 115,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 116,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 117,
+    "regions": [
+      {
+        "label": null,
+        "max": 2128
+      }
+    ]
+  },
+  {
+    "page": 118,
+    "regions": [
+      {
+        "label": null,
+        "max": 116
+      }
+    ]
+  },
+  {
+    "page": 119,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 122,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 124,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "page": 139,
+    "regions": [
+      {
+        "label": null,
+        "max": 0
+      }
+    ]
+  }
+]

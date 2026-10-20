@@ -1,0 +1,64 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=128&s=1".
+0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=128&s=1
+	1 container
+		47 container Description: 第128页 维护：场景、模型、Harness变了，就要复查, ID: mount
+			48 container 第128页 维护：场景、模型、Harness变了，就要复查
+				49 heading 维护：场景、模型、Harness变了，就要复查, Value: 1
+					50 text 维护：场景、模型、Harness变了，就要复查
+				51 container 课件内容
+					52 container
+						53 text 把Skill当作需要维护的工作方法：场景、模型或Harness变化后，重新检验。
+						54 table
+							55 row
+								56 cell
+									57 text 变化
+								58 cell
+									59 text 需要复查什么
+							60 row
+								61 cell
+									62 text 场景变化
+								63 cell
+									64 text 新材料、新受众、新交付标准，是否仍在适用范围内？
+							65 row
+								66 cell
+									67 text 模型变化
+								68 cell
+									69 text 旧做法是否仍能改善结果，还是已经多余、产生干扰？
+							70 row
+								71 cell
+									72 text Harness变化
+								73 cell
+									74 text 工具名、文件路径、依赖和权限，是否仍然可用？
+						75 text 已验证版本 → 新条件下复查 → 修改对应问题 → 重跑代表任务 保留版本，必要时回退或停用 修订时只加入可复用的规则，不把每一次偶然情况都扩展成通用要求。
+				76 container 课程进度
+					77 button 导入
+					78 button 1. LLM基础
+					79 button 2. Prompting
+					80 button 3. Agents · Externalization & Internalization
+						81 text 3. Agents 
+						82 text · Externalization & Internalization
+					83 button 3.0 外化与内化总览
+					84 button 3.1 工具调用
+					85 button 3.2 Memory
+					86 button 3.3 Skills
+					87 button 3.4 Harness
+					88 button 3.5 外化与内化整合
+					89 button 3.6 全讲总结
+		32 container Description: 课件操作, ID: controls
+			33 button Description: 上一步, Help: 上一步（←）
+			34 button Description: 下一步, Help: 下一步（→或空格）
+			35 container jump-form
+				36 text 页码
+				37 stepper (settable, integer) Description: 页码, Value: 128, ID: page-input
+				38 text / 161
+			90 text 整页显示
+			40 button 目录
+			41 button 讲者备注
+			42 button 完整材料
+			43 button 放大图解
+			44 button 全屏
+			45 button 隐藏, Help: 按H恢复
+			46 button 操作说明
+		91 text 第128页，维护：场景、模型、Harness变了，就要复查，整页显示
+
+The focused UI element is 47 container Description: 第128页 维护：场景、模型、Harness变了，就要复查, ID: mount

@@ -1,0 +1,34 @@
+{
+  "page_count": 200,
+  "state_count": 200,
+  "new_content_ids": [
+    19001,
+    8001,
+    8002,
+    8004,
+    8008,
+    8009,
+    8010,
+    8012,
+    8015,
+    8016
+  ],
+  "local_assets": [
+    "assets/agent-opening-r17/astra-arm.jpg",
+    "assets/agent-opening-r17/astra-arm.mp4",
+    "assets/protocols-r10/two-interactions.png",
+    "assets/protocols-r10/weather.png",
+    "assets/protocols-r10/agent.png",
+    "assets/protocols-r10/host.png",
+    "assets/protocols-r10/directory.png",
+    "assets/protocols-r10/result.png",
+    "assets/protocols-r10/participants.png"
+  ],
+  "subnav_changes": [
+    "6205",
+    "6206"
+  ],
+  "materials_present": true,
+  "duration": 16900,
+  "method": "Node VM render and filesystem validation; visual/interactive evidence is separate"
+}

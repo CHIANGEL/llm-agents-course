@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-20",
+  "revision": "agent-internet-r20",
+  "method": "在Codex内置浏览器实际操作并阅读截图；Node逻辑检查另记",
+  "url": "http://127.0.0.1:8765/?revision=agent-internet-r20#p=168&s=1",
+  "actual_visual_pages": [
+    167,
+    168,
+    169,
+    170
+  ],
+  "checks": [
+    {
+      "item": "新增页初态与完整显示",
+      "result": "passed",
+      "observed": "第168页进入即显示全部内容；页码168/201；底部3.5 Protocols深红。"
+    },
+    {
+      "item": "连接箭头",
+      "result": "passed_after_fix",
+      "observed": "初次截图发现同一SVG path中的多个子路径只在整体首尾显示标记；拆成独立路径后，两条MCP连接均为双向，两个用户到助手均有箭头。"
+    },
+    {
+      "item": "前后顺序播放",
+      "result": "passed",
+      "observed": "实际从168退回167，再顺序点击至168、169、170；图文与页码分别为连接关系、生态趋势、Protocols小结、Harness目录。"
+    },
+    {
+      "item": "离页返回与页码输入",
+      "result": "passed",
+      "observed": "从170输入168并回车，完整恢复新增页。"
+    },
+    {
+      "item": "完整材料",
+      "result": "passed",
+      "observed": "打开、滚动到末尾、读取补充关系说明，Escape关闭并恢复完整材料按钮焦点。"
+    },
+    {
+      "item": "讲者备注",
+      "result": "passed",
+      "observed": "实际打开并阅读；与新增页和Persona Agent衔接一致；关闭后焦点返回备注按钮。"
+    },
+    {
+      "item": "图解放大",
+      "result": "passed",
+      "observed": "打开100%，点击到125%，再缩回100%；实际横向及纵向滚动，能查看右侧平台与底部第三方服务；关闭恢复原页。"
+    },
+    {
+      "item": "全屏",
+      "result": "passed",
+      "observed": "点击全屏，1280×800截图确认文字、图案、进度条和控件正常；再次点击退出。普通截图1280×720。"
+    },
+    {
+      "item": "底部导航及目录",
+      "result": "passed",
+      "observed": "点击3.6 Harness到170；打开目录，找到168趋势页并点击返回168。"
+    },
+    {
+      "item": "浏览器控制台",
+      "result": "passed",
+      "observed": "此QA标签warn/error日志为空；console.json保存实际返回值。"
+    },
+    {
+      "item": "构建与播放逻辑",
+      "result": "passed",
+      "observed": "201页、201状态、17020秒；既有12项Node VM逻辑检查通过，仅作为逻辑证据。"
+    }
+  ],
+  "not_checked": [
+    "整讲201页重新完整实播",
+    "file://环境",
+    "其他浏览器",
+    "新增内容以外的原有页内演示控件"
+  ],
+  "icon_followup": {
+    "date": "2026-10-20",
+    "url": "http://127.0.0.1:8765/?revision=agent-internet-r20-icons#p=168&s=1",
+    "scope": "168页服务智能体图标及图解放大，168→169→168离页返回",
+    "result": "passed",
+    "console_warnings_errors": [],
+    "assets_have_alpha": true
+  }
+}

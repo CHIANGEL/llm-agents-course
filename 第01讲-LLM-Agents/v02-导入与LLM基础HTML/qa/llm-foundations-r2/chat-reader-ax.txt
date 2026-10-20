@@ -1,0 +1,68 @@
+Browser tab: 15, Title: "聊天模板与三轮消息", URL: "http://127.0.0.1:8765/sources/llm-foundations/chat-reader.html".
+0 AXWebArea 聊天模板与三轮消息, URL: 127.0.0.1:8765/sources/llm-foundations/chat-reader.html
+	1 heading 聊天模板与三轮消息, Value: 1
+		2 text 聊天模板与三轮消息
+	3 text 复用原课程第1讲第64—66页；SmolLM2-135M-Instruct，版本ec84f302454dcb013b57c8acd7ca9cb331981e7e。模板转换沿用原执行记录；回复文字沿用原课程费用案例。
+	4 heading 多轮聊天：第一次提问, Value: 2
+		5 text 多轮聊天：第一次提问
+	6 text <|im_start|>system
+只给结果。<|im_end|>
+<|im_start|>user
+3人，每人20元？<|im_end|>
+<|im_start|>assistant
+
+	7 text 随后接入的回复：60元。
+	8 heading 多轮聊天：接着问人数, Value: 2
+		9 text 多轮聊天：接着问人数
+	10 text <|im_start|>system
+只给结果。<|im_end|>
+<|im_start|>user
+3人，每人20元？<|im_end|>
+<|im_start|>assistant
+60元。<|im_end|>
+<|im_start|>user
+5人呢？<|im_end|>
+<|im_start|>assistant
+
+	11 text 随后接入的回复：100元。
+	12 heading 多轮聊天：再问预算, Value: 2
+		13 text 多轮聊天：再问预算
+	14 text <|im_start|>system
+只给结果。<|im_end|>
+<|im_start|>user
+3人，每人20元？<|im_end|>
+<|im_start|>assistant
+60元。<|im_end|>
+<|im_start|>user
+5人呢？<|im_end|>
+<|im_start|>assistant
+100元。<|im_end|>
+<|im_start|>user
+预算80元，差多少？<|im_end|>
+<|im_start|>assistant
+
+	15 text 随后接入的回复：还差20元。
+	16 heading 原始材料, Value: 2
+		17 text 原始材料
+	18 content list
+		19 container
+			20 AXListMarker • 
+			21 link Description: cases.json, Value: 127.0.0.1:8765/sources/llm-foundations/chat-template/cases.json
+		22 container
+			23 AXListMarker • 
+			24 link Description: chat_01_template.txt, Value: 127.0.0.1:8765/sources/llm-foundations/chat-template/chat_01_template.txt
+		25 container
+			26 AXListMarker • 
+			27 link Description: chat_02_template.txt, Value: 127.0.0.1:8765/sources/llm-foundations/chat-template/chat_02_template.txt
+		28 container
+			29 AXListMarker • 
+			30 link Description: chat_03_template.txt, Value: 127.0.0.1:8765/sources/llm-foundations/chat-template/chat_03_template.txt
+		31 container
+			32 AXListMarker • 
+			33 link Description: verification.json, Value: 127.0.0.1:8765/sources/llm-foundations/chat-template/verification.json
+		34 container
+			35 AXListMarker • 
+			36 link Description: prepare_case.py, Value: 127.0.0.1:8765/sources/llm-foundations/chat-template/prepare_case.py
+	37 link Description: 官方Chat templates说明, Value: huggingface.co/docs/transformers/en/chat_templating
+
+The focused UI element is 0 AXWebArea 聊天模板与三轮消息, URL: 127.0.0.1:8765/sources/llm-foundations/chat-reader.html

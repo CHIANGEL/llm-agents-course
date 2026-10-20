@@ -1,0 +1,250 @@
+[
+  {
+    "kind": "Skills",
+    "index": 0,
+    "body": "300人正式部署，预算上限30万元，使用期限一年。\n金额使用人民币，先给结论。\n账户与数据要求保存在 security-requirements.md。\n本次条件另存为 task-",
+    "count": 23,
+    "heading": "当前条件：沿用Memory案例",
+    "selected": "memory"
+  },
+  {
+    "kind": "Skills",
+    "index": 1,
+    "body": "名称：procurement-review\n用途：起草或更新软件采购评审要点；核对采购条件、费用范围、交付与待确认事项。\n入口：.agents/skills/procurement",
+    "count": 23,
+    "heading": "Skill目录：名称、用途、路径",
+    "selected": "catalog"
+  },
+  {
+    "kind": "Skills",
+    "index": 2,
+    "body": "请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n",
+    "count": 23,
+    "heading": "用户：起草一页采购评审要点",
+    "selected": "user"
+  },
+  {
+    "kind": "Skills",
+    "index": 3,
+    "body": "我会使用采购评审Skill，按300人、一年、预算上限30万元起草评审要点，先读取方法和所需材料。",
+    "count": 23,
+    "heading": "模型：选用采购评审Skill",
+    "selected": "intro"
+  },
+  {
+    "kind": "Skills",
+    "index": 4,
+    "body": "cat .agents/skills/procurement-review/SKILL.md",
+    "count": 23,
+    "heading": "模型：读取SKILL.md",
+    "selected": "call_skill"
+  },
+  {
+    "kind": "Skills",
+    "index": 5,
+    "body": "## 选择评审方法\n- 正式部署：读取 references/rollout-review.md，继续按其中的链接核对费用范围。\n- 小范围试点：读取 references/pil",
+    "count": 23,
+    "heading": "工具：返回技能正文",
+    "selected": "result_skill"
+  },
+  {
+    "kind": "Skills",
+    "index": 6,
+    "body": "cat .agents/skills/procurement-review/references/rollout-review.md",
+    "count": 23,
+    "heading": "模型：读取正式部署方法",
+    "selected": "call_reference"
+  },
+  {
+    "kind": "Skills",
+    "index": 7,
+    "body": "## 按四部分起草\n1. 采购条件：人员范围、期限、预算上限。\n2. 费用范围：先读 [费用口径](cost-scope.md)。\n3. 交付与管理：企业账号、权限、日志和数据处理",
+    "count": 23,
+    "heading": "工具：返回评审方法",
+    "selected": "result_reference"
+  },
+  {
+    "kind": "Skills",
+    "index": 8,
+    "body": "cat .agents/skills/procurement-review/references/cost-scope.md",
+    "count": 23,
+    "heading": "模型：继续读取费用口径",
+    "selected": "call_cost"
+  },
+  {
+    "kind": "Skills",
+    "index": 9,
+    "body": "预算上限是支出上限，不是报价或已发生成本。\n\n报价中需要拆开的项目：\n• 软件订阅：人数、周期、版本和税费。\n• 配置与迁移：一次性费用与包含工作。\n• 培训与支持：服务内容、次数",
+    "count": 23,
+    "heading": "工具：返回费用口径",
+    "selected": "result_cost"
+  },
+  {
+    "kind": "Skills",
+    "index": 10,
+    "body": "cat security-requirements.md",
+    "count": 23,
+    "heading": "模型：读取项目已有要求",
+    "selected": "call_security"
+  },
+  {
+    "kind": "Skills",
+    "index": 11,
+    "body": "# 企业知识库：安全与账户要求\n\n资料按团队设置访问权限。\n企业账户应能统一开通、停用，并保留操作记录。\n供应商须说明数据存放位置、数据导出及终止服务后的处理办法。\n",
+    "count": 23,
+    "heading": "工具：返回账户与数据要求",
+    "selected": "result_security"
+  },
+  {
+    "kind": "Skills",
+    "index": 12,
+    "body": "写入 review-input.json\n\n采购阶段：正式部署\n人数：300；期限：12个月；预算上限：300000元\n费用范围：订阅、配置与迁移、培训与支持\n交付与管理：团队权限",
+    "count": 23,
+    "heading": "模型：写入本次评审初稿",
+    "selected": "call_prepare"
+  },
+  {
+    "kind": "Skills",
+    "index": 13,
+    "body": "已写入：review-input.json\n",
+    "count": 23,
+    "heading": "工具：返回保存结果",
+    "selected": "result_prepare"
+  },
+  {
+    "kind": "Skills",
+    "index": 14,
+    "body": "python3 .agents/skills/procurement-review/scripts/render_review.py --input review-input.js",
+    "count": 23,
+    "heading": "模型：运行生成脚本",
+    "selected": "call_create"
+  },
+  {
+    "kind": "Skills",
+    "index": 15,
+    "body": "已生成：output/procurement-review.html\n内容：采购条件、费用范围、交付与管理、待确认事项\n",
+    "count": 23,
+    "heading": "工具：返回生成结果",
+    "selected": "result_create"
+  },
+  {
+    "kind": "Skills",
+    "index": 16,
+    "body": "cat .agents/skills/procurement-review/references/quality-checklist.md",
+    "count": 23,
+    "heading": "模型：读取交付检查清单",
+    "selected": "call_checklist"
+  },
+  {
+    "kind": "Skills",
+    "index": 17,
+    "body": "## 交付前检查\n• 人数、期限、预算上限与当前任务一致。\n• 历史试点条件没有替代正式部署条件。\n• 账号、权限和数据要求有材料依据。\n• 未确认的报价、上线日期与验收标准单列。",
+    "count": 23,
+    "heading": "工具：返回检查清单",
+    "selected": "result_checklist"
+  },
+  {
+    "kind": "Skills",
+    "index": 18,
+    "body": "cat output/procurement-review.html",
+    "count": 23,
+    "heading": "模型：读回生成文件",
+    "selected": "call_output"
+  },
+  {
+    "kind": "Skills",
+    "index": 19,
+    "body": "采购评审要点\n\n一、采购条件\n300人正式部署；使用期限一年；预算上限30万元。\n\n二、费用范围\n• 软件订阅按300人、一年核价，明确版本、税费及计费口径。\n• 配置与迁移、培训",
+    "count": 23,
+    "heading": "工具：返回评审文件",
+    "selected": "result_output"
+  },
+  {
+    "kind": "Skills",
+    "index": 20,
+    "body": "python3 .agents/skills/procurement-review/scripts/check_review.py --task task-conditions.j",
+    "count": 23,
+    "heading": "模型：运行一致性检查",
+    "selected": "call_validate"
+  },
+  {
+    "kind": "Skills",
+    "index": 21,
+    "body": "检查通过：人数、期限、预算上限与当前任务一致。\n检查通过：三组要点的内容与依据字段已填写。\n检查通过：产物与当前初稿一致。\n",
+    "count": 23,
+    "heading": "工具：返回检查结果",
+    "selected": "result_validate"
+  },
+  {
+    "kind": "Skills",
+    "index": 22,
+    "body": "已起草 output/procurement-review.html。\n\n按300人正式部署、使用期限一年、预算上限30万元组织了四部分：采购条件、费用范围、交付与管理、待确认事项",
+    "count": 23,
+    "heading": "模型：交付评审要点",
+    "selected": "answer"
+  },
+  {
+    "kind": "Memory",
+    "index": 0,
+    "body": "You are Codex, a coding agent based on GPT-5. You and the user share one wo",
+    "count": 8,
+    "heading": "基础指令",
+    "selected": "base"
+  },
+  {
+    "kind": "Memory",
+    "index": 1,
+    "body": "# 用户偏好\n采购评审使用简体中文，先结论、后依据；金额统一用人民币。\n\n# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n# 详细",
+    "count": 8,
+    "heading": "已加载的记忆摘要",
+    "selected": "memory"
+  },
+  {
+    "kind": "Memory",
+    "index": 2,
+    "body": "# 采购评审项目\n\n本目录用于企业知识库选型与采购评估。\n输出面向管理团队，明确采购范围、比较依据和待确认事项。\n本阶段只整理评审材料；联系供应商、签",
+    "count": 8,
+    "heading": "项目说明与操作范围",
+    "selected": "project"
+  },
+  {
+    "kind": "Memory",
+    "index": 3,
+    "body": "企业知识库准备从20人试点扩大到300人部署。\n请起草一页采购评审要点。上次10万元的预算能直接沿用吗？\n先整理评估要点，暂不联系供应商。",
+    "count": 8,
+    "heading": "用户：300人部署",
+    "selected": "user"
+  },
+  {
+    "kind": "Memory",
+    "index": 4,
+    "body": "exec_command\n{\n  \"cmd\": \"cat memories_v2/rollout_summaries/pilot-budget.md\"",
+    "count": 8,
+    "heading": "模型：读取预算记录",
+    "selected": "call"
+  },
+  {
+    "kind": "Memory",
+    "index": 5,
+    "body": "# 企业知识库：试点预算的适用范围\n\n上次讨论的范围是20名员工、为期3个月的试点。\n10万元是本次试点的预算上限，包含试点软件费与初始配置。\n\n这一",
+    "count": 8,
+    "heading": "工具：返回预算范围",
+    "selected": "result"
+  },
+  {
+    "kind": "Memory",
+    "index": 6,
+    "body": "结论\n上次10万元对应20人、3个月的试点，不能直接作为300人正式部署的预算。正式部署需要按人数、期限及服务范围重新估算。\n\n依据\n历史记录明确：1",
+    "count": 8,
+    "heading": "模型：给出评审要点",
+    "selected": "answer"
+  },
+  {
+    "kind": "Memory",
+    "index": 7,
+    "body": "这次300人正式部署的预算上限是30万元，使用期限为一年。\n请按这个条件更新评审要点，并记住这是正式部署的条件。",
+    "count": 8,
+    "heading": "用户：正式部署30万元",
+    "selected": "followup"
+  }
+]

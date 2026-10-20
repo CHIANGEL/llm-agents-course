@@ -1,0 +1,4 @@
+<|im_start|>assistant
+<tool_call>
+{"name": "get_weather", "arguments": {"location": "New York"}}
+</tool_call><|im_end|>

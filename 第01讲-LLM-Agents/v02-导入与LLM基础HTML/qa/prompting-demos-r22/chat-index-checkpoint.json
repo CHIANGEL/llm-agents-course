@@ -1,0 +1,37 @@
+{
+  "note": "真实 Chrome 操作地址索引。2026-10-20，27次初始Prompt已发送；Notion策略仍是未发送草稿。generating表示尚未重新核验完成，不能当成已评审。知识库验收baseline的local地址仍需在界面定位正式地址。",
+  "urls_in_run_queue_order": [
+    "https://chatgpt.com/c/6ad78308-7cd8-83ec-a351-dffaa38709d8",
+    "https://chatgpt.com/c/6ad78371-5734-83ee-b3ce-8a0c14c58394",
+    "https://chatgpt.com/c/6ad78382-c57c-83ee-b6de-2f1598eff8fa",
+    "https://chatgpt.com/c/6ad7838c-e298-83e8-8182-9ea4b58c51e9",
+    "https://chatgpt.com/c/6ad78458-1368-83e8-8a9d-826e5d3dc546",
+    "https://chatgpt.com/c/6ad78463-6bb4-83e8-8b7e-0ddebe537197",
+    "https://chatgpt.com/c/6ad784a9-cdcc-83ee-af39-834295f3fb43",
+    "https://chatgpt.com/c/6ad78514-6700-83ec-8bfc-ee15c765c00a",
+    "https://chatgpt.com/c/local-chatgpt%3A7f3bba49-9d4f-4422-afe1-ae1950c90026",
+    "https://chatgpt.com/c/6ad78525-fc98-83ee-94ff-994a2383c236",
+    "https://chatgpt.com/c/6ad7852c-f5ec-83e8-bd3d-993b8bbbbcde",
+    "https://chatgpt.com/c/6ad78536-5580-83ee-ba0c-c68f2e9eac2d",
+    "https://chatgpt.com/c/6ad78544-d898-83ec-887c-240c741980b0",
+    "https://chatgpt.com/c/6ad7854d-0b44-83e8-b36c-9bbdde295ad6",
+    "https://chatgpt.com/c/6ad78566-a6c0-83ee-b56b-266013f5ff46",
+    "https://chatgpt.com/c/6ad7856f-dfcc-83e8-9a95-434c833832a7",
+    "https://chatgpt.com/c/6ad7857e-49b0-83ee-a58d-d67dd82284e2",
+    "https://chatgpt.com/c/6ad78588-1370-83ee-bda0-2697fcf51bf8",
+    "https://chatgpt.com/c/6ad7859d-e058-83ee-80d7-948bd1d81db7",
+    "https://chatgpt.com/c/6ad785a7-72f4-83ee-ac8a-130499846413",
+    "https://chatgpt.com/c/6ad785af-5630-83e8-926f-ec97c50b340e",
+    "https://chatgpt.com/c/6ad785bb-028c-83ee-a1e1-96678dd76439",
+    "https://chatgpt.com/c/6ad785c1-ed40-83e8-8f89-2128030a83d5",
+    "https://chatgpt.com/c/6ad785ca-feb0-83e8-b2ba-4e99d32a3222",
+    "https://chatgpt.com/c/6ad785db-21ec-83ee-9d82-ea7e77e6335f",
+    "https://chatgpt.com/c/6ad785e4-44b8-83ee-8953-ceda71a1d867",
+    "https://chatgpt.com/c/6ad785ed-4470-83e8-b4a4-af6dbe39b5cb",
+    null
+  ],
+  "created_share_links": {
+    "four-elements/rag-management/simple": "https://chatgpt.com/share/6ad783d3-e14c-83ee-bf10-e7453c4e5c8a"
+  },
+  "shared_pages_reopened_verified": false
+}

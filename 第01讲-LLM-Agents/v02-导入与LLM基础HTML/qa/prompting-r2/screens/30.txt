@@ -1,0 +1,36 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=30&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=30&s=1
+	2 container
+		3 container Description: 第30页 事实核查：原始Prompt, ID: mount
+			4 container 第30页 事实核查：原始Prompt
+				5 heading 事实核查：原始Prompt, Value: 1
+					6 text 事实核查：原始Prompt
+				7 container 课件内容
+					8 container
+						9 text 先拆分说法、核查事实，再检查事实能否支持当前结论。 原始Prompt 接续左栏
+						10 text 我要核查的说法是：【粘贴观点、结论、数据或方案】。
+						11 text 请先把它拆成：
+						12 text 1. 可以被外部验证的事实；
+						13 text 2. 从事实推出的结论；
+						14 text 3. 其中包含的价值判断。
+						15 text 对于事实部分，请联网核查来源、样本、时间和完整上下文，并标记为：
+						16 text 1. 已证实；
+						17 text 2. 基本成立，但需要收窄；
+						18 text 3. 存在争议；
+						19 text 4. 证据不足；
+						20 text 5. 明显错误。
+						21 text 在假设相关事实成立的情况下，继续检查：
+						22 text 1. 这些事实能否推出当前结论；
+						23 text 2. 是否藏着未经验证的假设；
+						24 text 3. 是否混淆相关性和因果关系；
+						25 text 4. 是否遗漏了其他解释或关键信息；
+						26 text 5. 结论在什么条件下成立或失效。
+						27 text 最后请输出：
+						28 text 1. 哪些事实可信，哪些需要修正；
+						29 text 2. 推理链中最关键的漏洞；
+						30 text 3. 补强后的最合理版本；
+						31 text 4. 我目前可以相信到什么程度。
+						32 text 《Prompting技巧》· 学习 · 第6–7页
+		33 text 第30页，事实核查：原始Prompt，整页显示
+
+The focused UI element is 3 container Description: 第30页 事实核查：原始Prompt, ID: mount

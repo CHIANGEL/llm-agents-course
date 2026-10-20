@@ -1,0 +1,9 @@
+{
+  "broken": [],
+  "page": "8",
+  "scroll": [],
+  "selected": [
+    "1\nThe"
+  ],
+  "text": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 1 / 10 步\n当前任务与已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：尚未生成回复文字\n本步选中：The\n下一个Token\n概率\nThe\n26.92%\n\"\n13.66%\nWe\n9.34%\nToday\n5.08%\nI\n4.91%\n其他候选合计\n40.09%\n0\n100%\n累计输出：The\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。"
+}

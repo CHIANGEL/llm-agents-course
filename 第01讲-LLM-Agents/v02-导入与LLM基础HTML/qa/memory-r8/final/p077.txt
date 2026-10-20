@@ -1,0 +1,45 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=77&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=77&s=1
+	2 container
+		55 container Description: 第77页 记忆怎样组织：条目与关系图, ID: mount
+			56 container 第77页 记忆怎样组织：条目与关系图
+				57 heading 记忆怎样组织：条目与关系图, Value: 1
+					58 text 记忆怎样组织：条目与关系图
+				59 container 课件内容
+					60 container
+						61 text 条目式便于逐条维护；图谱式把人、事、物之间的关系连起来。 条目式：一条记录保存一件事 Kendra喜欢Adidas鞋。
+						62 text 对象：Kendra
+						63 text 关系：喜欢
+						64 text 对象：Adidas鞋 图谱式：节点与关系 原始对话、摘要和条目可以同时保留；关系图帮助沿着关联查找信息。 “怎样组织”与“怎样检索”可以组合：关键词、语义相似度、图关系都能帮助找候选。
+				65 container 课程进度
+					66 button 导入
+					67 button 1. LLM基础
+					68 button 2. Prompting
+					69 button 3. Agents · Externalization & Internalization
+						70 text 3. Agents 
+						71 text · Externalization & Internalization
+					72 button 3.0 外化与内化总览
+					73 button 3.1 工具调用
+					74 button 3.2 Memory
+					75 button 3.3 Skills
+					76 button 3.4 Harness
+					77 button 3.5 外化与内化整合
+					78 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 77, ID: page-input
+				46 text / 151
+			79 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		80 text 第77页，记忆怎样组织：条目与关系图，整页显示
+
+The focused UI element is 55 container Description: 第77页 记忆怎样组织：条目与关系图, ID: mount

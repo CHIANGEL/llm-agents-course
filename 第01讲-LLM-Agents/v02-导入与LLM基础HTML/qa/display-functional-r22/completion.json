@@ -1,0 +1,24 @@
+{
+  "page_count": 198,
+  "visited_pages": 198,
+  "missing_pages": [],
+  "repeat_pages": [
+    146
+  ],
+  "image_failures": [],
+  "console": [],
+  "normal_page_screenshots": 198,
+  "content_changed": false,
+  "fixed_issues": [
+    "R22-01",
+    "R22-02",
+    "R22-03",
+    "R22-04",
+    "R22-05"
+  ],
+  "limits": [
+    "file:// blocked by browser policy; not tested",
+    "Microsoft Research URL returned 504 in IAB",
+    "Other browsers and offline network mode not tested"
+  ]
+}

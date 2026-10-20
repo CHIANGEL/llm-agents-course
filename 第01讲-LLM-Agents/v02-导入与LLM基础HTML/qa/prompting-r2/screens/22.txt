@@ -1,0 +1,13 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=22&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=22&s=1
+	2 container
+		3 container Description: 第22页 学习：四种需要，四种方法, ID: mount
+			4 container 第22页 学习：四种需要，四种方法
+				5 heading 学习：四种需要，四种方法, Value: 1
+					6 text 学习：四种需要，四种方法
+				7 container 课件内容
+					8 container
+						9 text 问题问清楚后，先辨认自己缺的是概念、做法、全貌，还是可靠依据。 概念听不懂 双层解释法 看到好成品，想学会 反向拆解 需要系统了解一个领域 横纵分析法 需要判断说法是否可靠 事实核查 澄清得到具体问题；学习方法帮助你获得相应的理解、做法、全貌和依据。
+		10 text 第22页，学习：四种需要，四种方法，整页显示
+
+The focused UI element is 3 container Description: 第22页 学习：四种需要，四种方法, ID: mount

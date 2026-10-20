@@ -1,0 +1,72 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=125&s=1".
+0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=125&s=1
+	1 container
+		47 container Description: 第125页 评估：选对了吗，读对了吗，结果对了吗？, ID: mount
+			48 container 第125页 评估：选对了吗，读对了吗，结果对了吗？
+				49 heading 评估：选对了吗，读对了吗，结果对了吗？, Value: 1
+					50 text 评估：选对了吗，读对了吗，结果对了吗？
+				51 container 课件内容
+					52 container
+						53 text 换一个新输入，观察是否触发、怎样执行、产物是否达到你的标准。
+						54 table
+							55 row
+								56 cell
+									57 text 检查
+								58 cell
+									59 text 怎样看
+								60 cell
+									61 text 发现问题后改哪里
+							62 row
+								63 cell
+									64 text 选对了吗？
+								65 cell
+									66 text 适用任务能选中；不适用任务不误用
+								67 cell
+									68 text 名称、用途与触发条件
+							69 row
+								70 cell
+									71 text 读对了吗？
+								72 cell
+									73 text 找到正确参考，步骤和工具符合任务
+								74 cell
+									75 text 分支、路径与操作说明
+							76 row
+								77 cell
+									78 text 结果对了吗？
+								79 cell
+									80 text 事实、文风、格式与交付要求一致
+								81 cell
+									82 text 方法、模板与检查标准
+						83 text 相同材料与要求　→　带Skill / 不带Skill　→　比较结果、返工与耗时 换新会话检验，避免沿用创建Skill时已经交代过的背景。 判断依据是代表性任务的结果；“成功生成了SKILL.md”只是起点。
+				84 container 课程进度
+					85 button 导入
+					86 button 1. LLM基础
+					87 button 2. Prompting
+					88 button 3. Agents · Externalization & Internalization
+						89 text 3. Agents 
+						90 text · Externalization & Internalization
+					91 button 3.0 外化与内化总览
+					92 button 3.1 工具调用
+					93 button 3.2 Memory
+					94 button 3.3 Skills
+					95 button 3.4 Harness
+					96 button 3.5 外化与内化整合
+					97 button 3.6 全讲总结
+		32 container Description: 课件操作, ID: controls
+			33 button Description: 上一步, Help: 上一步（←）
+			34 button Description: 下一步, Help: 下一步（→或空格）
+			35 container jump-form
+				36 text 页码
+				37 stepper (settable, integer) Description: 页码, Value: 125, ID: page-input
+				38 text / 161
+			98 text 整页显示
+			40 button 目录
+			41 button 讲者备注
+			42 button 完整材料
+			43 button 放大图解
+			44 button 全屏
+			45 button 隐藏, Help: 按H恢复
+			46 button 操作说明
+		99 text 第125页，评估：选对了吗，读对了吗，结果对了吗？，整页显示
+
+The focused UI element is 47 container Description: 第125页 评估：选对了吗，读对了吗，结果对了吗？, ID: mount

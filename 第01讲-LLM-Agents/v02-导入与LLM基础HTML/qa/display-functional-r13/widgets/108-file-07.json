@@ -1,0 +1,18 @@
+{
+  "broken": [],
+  "page": "108",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    },
+    {
+      "max": 4235,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "assets/experiment-template.ipynb"
+  ],
+  "text": "从左侧选择文件；右侧查看原文、模板或图标。\njupyter-notebook / 12个文件\nSKILL.md\nreferences/tutorial-patterns.md\nreferences/experiment-patterns.md\nreferences/notebook-structure.md\nreferences/quality-checklist.md\nscripts/new_notebook.py\nassets/tutorial-template.ipynb\nassets/experiment-template.ipynb\nagents/openai.yaml\nassets/jupyter-small.svg\nassets/jupyter.png\nLICENSE.txt\n重置\nassets/experiment-template.ipynb\n{\n  \"cells\": [\n    {\n      \"cell_type\": \"markdown\",\n      \"metadata\": {},\n      \"source\": [\n        \"# Experiment: TITLE\\n\",\n        \"\\n\",\n        \"Objective:\\n\",\n        \"- State the question you want to answer.\\n\",\n        \"- Define the success criteria.\\n\"\n      ]\n    },\n    {\n      \"cell_type\": \"code\",\n      \"execution_count\": null,\n      \"metadata\": {},\n      \"outputs\": [],\n      \"source\": [\n        \"# Setup: imports and reproducibility\\n\",\n        \"from __future__ import annotations\\n\",\n        \"\\n\",\n        \"import random\\n\",\n        \"import statistics\\n\",\n        \"\\n\",\n        \"SEED = 7\\n\",\n        \"random.seed(SEED)\\n\",\n        \"SEED\\n\"\n      ]\n    },\n    {\n      \"cell_type\": \"markdown\",\n      \"metadata\": {},\n      \"source\": [\n        \"## Plan\\n\",\n        \"\\n\",\n        \"- Hypothesis:\\n\",\n        \"- Variables to sweep:\\n\",\n        \"- Metrics to record:\\n\"\n      ]\n    },\n    {\n      \"cell_type\": \"code\",\n      \"execution_count\": null,\n      \"metadata\": {},\n      \"outputs\": [],\n      \"source\": [\n        \"# Define parameters and lightweight helpers\\n\",\n        \"sample_size = 20\\n\",\n        \"values = [random.random() for _ in range(sample_size)]\\n\",\n        \"summary = {\\n\",\n        \"    \\\"count\\\": len(values),\\n\",\n        \"    \\\"mean\\\": statistics.fmean(values),\\n\",\n        \"    \\\"min\\\": min(values),\\n\",\n        \"    \\\"max\\\": max(values),\\n\",\n        \"}\\n\",\n        \"summary\\n\"\n      ]\n    },\n    {\n      \"cell_type\": \"markdown\",\n      \"metadata\": {},\n      \"source\": [\n        \"## Results\\n\",\n        \"\\n\",\n        \"- Key observations:\\n\",\n        \"- Surprises or failure modes:\\n\",\n        \"- Decision: continue, pivot, or stop:\\n\"\n      ]\n    },\n    {\n      \"cell_type\": \"code\",\n      \"execution_count\": null,\n      \"metadata\": {},\n      \"outputs\": [],\n      \"source\": [\n        \"# Record findings in a minimal, copy-pasteable structure\\n\",\n        \"result = {\\n\",\n        \"    \\\"seed\\\": SEED,\\n\",\n        \"    \\\"mean\\\": summary[\\\"mean\\\"],\\n\",\n        \"    \\\"range\\\": summary[\\\"max\\\"] - summary[\\\"min\\\"],\\n\",\n        \"}\\n\",\n        \"result\\n\"\n      ]\n    },\n    {\n      \"cell_type\": \"markdown\",\n      \"metadata\": {},\n      \"source\": [\n        \"## Next steps\\n\",\n        \"\\n\",\n        \"- What to try next:\\n\",\n        \"- What to document elsewhere (PRD, notes, issue):\\n\"\n      ]\n    }\n  ],\n  \"metadata\": {\n    \"kernelspec\": {\n      \"display_name\": \"Python 3\",\n      \"language\": \"python\",\n      \"name\": \"python3\"\n    },\n    \"language_info\": {\n      \"name\": \"python\",\n      \"version\": \"3.12\"\n    }\n  },\n  \"nbformat\": 4,\n  \"nbformat_minor\": 5\n}\n\n\n实验型Notebook的起始结构。\n\n入口文件组织方法；参考、脚本与模板为具体任务提供可取用的资源。"
+}

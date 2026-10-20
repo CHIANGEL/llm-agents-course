@@ -1,0 +1,12 @@
+{
+  "command_argv": [
+    "python3",
+    "-c",
+    "import json; n=json.load(open('output/jupyter-notebook/python-lists-and-mean.ipynb')); print('单元数：', len(n['cells'])); print('首标题：', ''.join(n['cells'][0]['source']).splitlines()[0]); print('第4单元：', ''.join(n['cells'][3]['source']).strip())"
+  ],
+  "shell_command": "python3 -c 'import json; n=json.load(open('\"'\"'output/jupyter-notebook/python-lists-and-mean.ipynb'\"'\"')); print('\"'\"'单元数：'\"'\"', len(n['\"'\"'cells'\"'\"'])); print('\"'\"'首标题：'\"'\"', '\"'\"''\"'\"'.join(n['\"'\"'cells'\"'\"'][0]['\"'\"'source'\"'\"']).splitlines()[0]); print('\"'\"'第4单元：'\"'\"', '\"'\"''\"'\"'.join(n['\"'\"'cells'\"'\"'][3]['\"'\"'source'\"'\"']).strip())'",
+  "cwd": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-Agent-Skills/v01-渐进式披露演示/case/workspace",
+  "exit_code": 0,
+  "stdout_file": "case/execution/notebook-check.stdout.txt",
+  "artifact_sha256": "09ca247b03d6649c326fafc384cfb2e2df6135c2ce18cc3bc67cee9f2ebd183f"
+}

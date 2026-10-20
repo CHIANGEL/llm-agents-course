@@ -1,0 +1,51 @@
+- main:
+  - article "第17页 Prompting：先交代任务，再选择方法":
+    - heading "Prompting：先交代任务，再选择方法" [level=1]
+    - region "课件内容":
+      - generic: LLM根据输入继续生成。Prompting要把任务、材料和处理方式交代清楚。
+      - generic: 先把任务交代清楚
+      - list:
+        - strong: 四大要点
+        - generic: 角色、背景、目标、示例
+        - strong: 给Example
+        - generic: 给出参照，说明参考什么
+        - strong: 让模型写Prompt
+        - generic: 把初稿整理成完整指令
+      - generic: 再根据需要选择方法
+      - generic: 问清问题
+      - generic: 苏格拉底式提问
+      - generic: 学习
+      - text: 双层解释 · 反向拆解
+      - text: 横纵分析 · 事实核查
+      - generic: 解决问题
+      - text: 专家会诊 · 第一性原理
+      - text: 跨领域借解
+      - generic: 决策
+      - generic: 双向钢人 · 最小实验
+      - generic: 问题模糊先澄清，缺理解先学习；需要方案再求解，有了方案再决策。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "2.1 三个核心"
+      - button "2.2 问清问题"
+      - button "2.3 学习"
+      - button "2.4 解决问题"
+      - button "2.5 决策"
+      - button "2.6 Prompting小结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "17"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第17页，Prompting：先交代任务，再选择方法，整页显示

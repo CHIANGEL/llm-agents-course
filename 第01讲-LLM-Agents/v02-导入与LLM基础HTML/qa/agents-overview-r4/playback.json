@@ -1,0 +1,138 @@
+{
+  "initial": [
+    {
+      "page": 52,
+      "ax": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=agents-overview-r4#p=52&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=agents-overview-r4#p=52&s=1\n\t2 container\n\t\t93 container Description: 第52页 智能体的外化与内化, ID: mount\n\t\t\t94 container 第52页 智能体的外化与内化\n\t\t\t\t95 heading 智能体的外化与内化, Value: 1\n\t\t\t\t\t96 text 智能体的外化与内化\n\t\t\t\t97 container 课件内容\n\t\t\t\t\t98 container\n\t\t\t\t\t\t99 text 把一部分工作交给外部系统，再看哪些做法能被模型学会。\n\t\t\t\t\t\t100 image 模型\n\t\t\t\t\t\t101 text 模型\n\t\t\t\t\t\t102 image 外部系统\n\t\t\t\t\t\t103 text 外部系统 Externalization · 外化 在模型之外保存信息、提供方法、执行操作 Internalization · 内化 筛选外部经验，通过训练更新模型参数 ① 外部表示改变了什么？ 从清单与地图开始 ② 三个层次怎样分工？ 再看Agent的分工 ③ 经验怎样进入训练？ 最后区分外化与内化\n\t\t\t\t104 container 课程进度\n\t\t\t\t\t105 button 导入\n\t\t\t\t\t106 button 1. LLM基础\n\t\t\t\t\t107 button 2. Prompting\n\t\t\t\t\t108 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t109 text 3. Agents \n\t\t\t\t\t\t110 text · Externalization & Internalization\n\t\t\t\t\t111 button 3.0 外化与内化总览\n\t\t\t\t\t112 button 3.1 工具调用\n\t\t\t\t\t113 button 3.2 Memory\n\t\t\t\t\t114 button 3.3 Skills\n\t\t\t\t\t115 button 3.4 Harness\n\t\t\t\t\t116 button 3.5 外化与内化整合\n\t\t\t\t\t117 button 3.6 全讲总结\n\t\t118 text 第52页，智能体的外化与内化，整页显示\n\nThe focused UI element is 93 container Description: 第52页 智能体的外化与内化, ID: mount"
+    },
+    {
+      "page": 53,
+      "ax": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=agents-overview-r4#p=53&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=agents-overview-r4#p=53&s=1\n\t2 container\n\t\t93 container Description: 第53页 用“外化”理解Agent的各部分, ID: mount\n\t\t\t94 container 第53页 用“外化”理解Agent的各部分\n\t\t\t\t95 heading 用“外化”理解Agent的各部分, Value: 1\n\t\t\t\t\t96 text 用“外化”理解Agent的各部分\n\t\t\t\t97 container 课件内容\n\t\t\t\t\t98 container\n\t\t\t\t\t\t99 text 工具、信息、方法与运行安排，都可以从“哪些工作交给外部系统”来理解。\n\t\t\t\t\t\t100 image 综述题目：Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering\n\t\t\t\t\t\t101 text 模型之外的工作条件 Memory 保存信息 Skills 提供做法 Protocols 规定交互方式 Harness 组织整个运行过程 先用熟悉的清单和地图，理解外部表示怎样帮助完成任务。\n\t\t\t\t102 container 课程进度\n\t\t\t\t\t103 button 导入\n\t\t\t\t\t104 button 1. LLM基础\n\t\t\t\t\t105 button 2. Prompting\n\t\t\t\t\t106 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t107 text 3. Agents \n\t\t\t\t\t\t108 text · Externalization & Internalization\n\t\t\t\t\t109 button 3.0 外化与内化总览\n\t\t\t\t\t110 button 3.1 工具调用\n\t\t\t\t\t111 button 3.2 Memory\n\t\t\t\t\t112 button 3.3 Skills\n\t\t\t\t\t113 button 3.4 Harness\n\t\t\t\t\t114 button 3.5 外化与内化整合\n\t\t\t\t\t115 button 3.6 全讲总结\n\t\t116 text 第53页，用“外化”理解Agent的各部分，整页显示\n\nThe focused UI element is 93 container Description: 第53页 用“外化”理解Agent的各部分, ID: mount"
+    },
+    {
+      "page": 54,
+      "ax": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=agents-overview-r4#p=54&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=agents-overview-r4#p=54&s=1\n\t2 container\n\t\t93 container Description: 第54页 外部表示，会改变任务的做法, ID: mount\n\t\t\t94 container 第54页 外部表示，会改变任务的做法\n\t\t\t\t95 heading 外部表示，会改变任务的做法, Value: 1\n\t\t\t\t\t96 text 外部表示，会改变任务的做法\n\t\t\t\t97 container 课件内容\n\t\t\t\t\t98 container\n\t\t\t\t\t\t99 text 认知工件：用来保存、展示或处理信息，帮助完成认知任务的外部物件。 清单：保存事项与状态 地图：显示位置与关系 日历：按时间组织安排 一　　二　　三 会议 读取事项 → 检查完成情况 查看连线 → 判断路线 查看时间 → 检查安排 信息变成可查看、可修改的对象，完成任务的动作也随之改变。\n\t\t\t\t100 container 课程进度\n\t\t\t\t\t101 button 导入\n\t\t\t\t\t102 button 1. LLM基础\n\t\t\t\t\t103 button 2. Prompting\n\t\t\t\t\t104 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t105 text 3. Agents \n\t\t\t\t\t\t106 text · Externalization & Internalization\n\t\t\t\t\t107 button 3.0 外化与内化总览\n\t\t\t\t\t108 button 3.1 工具调用\n\t\t\t\t\t109 button 3.2 Memory\n\t\t\t\t\t110 button 3.3 Skills\n\t\t\t\t\t111 button 3.4 Harness\n\t\t\t\t\t112 button 3.5 外化与内化整合\n\t\t\t\t\t113 button 3.6 全讲总结\n\t\t114 text 第54页，外部表示，会改变任务的做法，整页显示\n\nThe focused UI element is 93 container Description: 第54页 外部表示，会改变任务的做法, ID: mount"
+    },
+    {
+      "page": 55,
+      "ax": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=agents-overview-r4#p=55&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=agents-overview-r4#p=55&s=1\n\t2 container\n\t\t93 container Description: 第55页 写一张清单，改变了什么？, ID: mount\n\t\t\t94 container 第55页 写一张清单，改变了什么？\n\t\t\t\t95 heading 写一张清单，改变了什么？, Value: 1\n\t\t\t\t\t96 text 写一张清单，改变了什么？\n\t\t\t\t97 container 课件内容\n\t\t\t\t\t98 container\n\t\t\t\t\t\t99 text 事情相同；有了清单，完成任务时需要做的动作发生了变化。 没有清单：回忆要做的事 有了清单：读取记录、检查状态\n\t\t\t\t\t\t100 image 没有清单的人需要在脑中想起要做的事项\n\t\t\t\t\t\t101 text 需要自己想起有哪些事项。 查看哪些已完成，再处理未完成事项。 清单保存事项，勾选保存状态；下次可以从已有记录继续。\n\t\t\t\t102 container 课程进度\n\t\t\t\t\t103 button 导入\n\t\t\t\t\t104 button 1. LLM基础\n\t\t\t\t\t105 button 2. Prompting\n\t\t\t\t\t106 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t107 text 3. Agents \n\t\t\t\t\t\t108 text · Externalization & Internalization\n\t\t\t\t\t109 button 3.0 外化与内化总览\n\t\t\t\t\t110 button 3.1 工具调用\n\t\t\t\t\t111 button 3.2 Memory\n\t\t\t\t\t112 button 3.3 Skills\n\t\t\t\t\t113 button 3.4 Harness\n\t\t\t\t\t114 button 3.5 外化与内化整合\n\t\t\t\t\t115 button 3.6 全讲总结\n\t\t116 text 第55页，写一张清单，改变了什么？，整页显示\n\nThe focused UI element is 93 container Description: 第55页 写一张清单，改变了什么？, ID: mount"
+    },
+    {
+      "page": 56,
+      "ax": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=agents-overview-r4#p=56&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=agents-overview-r4#p=56&s=1\n\t2 container\n\t\t93 container Description: 第56页 地图把关系放到了眼前, ID: mount\n\t\t\t94 container 第56页 地图把关系放到了眼前\n\t\t\t\t95 heading 地图把关系放到了眼前, Value: 1\n\t\t\t\t\t96 text 地图把关系放到了眼前\n\t\t\t\t97 container 课件内容\n\t\t\t\t\t98 container\n\t\t\t\t\t\t99 text 地图把位置与路线表示成可查看的关系，使用者据此判断怎样到达目的地。\n\t\t\t\t\t\t100 image 四个位置通过路线连接；位置和路线分别用圆点和连线表示\n\t\t\t\t\t\t101 text 看位置 确认自己在哪里，\n\t\t\t\t\t\t102 text 目的地在哪里。 看路线 沿连接关系判断\n\t\t\t\t\t\t103 text 可以怎样到达。 清单让事项与状态可见；地图让空间关系可见。\n\t\t\t\t104 container 课程进度\n\t\t\t\t\t105 button 导入\n\t\t\t\t\t106 button 1. LLM基础\n\t\t\t\t\t107 button 2. Prompting\n\t\t\t\t\t108 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t109 text 3. Agents \n\t\t\t\t\t\t110 text · Externalization & Internalization\n\t\t\t\t\t111 button 3.0 外化与内化总览\n\t\t\t\t\t112 button 3.1 工具调用\n\t\t\t\t\t113 button 3.2 Memory\n\t\t\t\t\t114 button 3.3 Skills\n\t\t\t\t\t115 button 3.4 Harness\n\t\t\t\t\t116 button 3.5 外化与内化整合\n\t\t\t\t\t117 button 3.6 全讲总结\n\t\t118 text 第56页，地图把关系放到了眼前，整页显示\n\nThe focused UI element is 93 container Description: 第56页 地图把关系放到了眼前, ID: mount"
+    },
+    {
+      "page": 57,
+      "ax": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=agents-overview-r4#p=57&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=agents-overview-r4#p=57&s=1\n\t2 container\n\t\t93 container Description: 第57页 模型参数、上下文与运行程序, ID: mount\n\t\t\t94 container 第57页 模型参数、上下文与运行程序\n\t\t\t\t95 heading 模型参数、上下文与运行程序, Value: 1\n\t\t\t\t\t96 text 模型参数、上下文与运行程序\n\t\t\t\t97 container 课件内容\n\t\t\t\t\t98 container\n\t\t\t\t\t\t99 text Agent把模型能力、这一次的输入，以及外部运行过程结合起来。 模型参数 Weights 训练形成的能力，影响怎样生成。 上下文 Context 本次送入模型的任务、材料和历史。 运行程序 Harness 准备输入、调用模型与工具，\n\t\t\t\t\t\t100 text 把结果带回后续输入。 Harness：组织每一次生成与执行 本次上下文 任务与材料\n\t\t\t\t\t\t101 text 历史消息\n\t\t\t\t\t\t102 image 使用已训练参数进行生成的模型\n\t\t\t\t\t\t103 text 模型参数\n\t\t\t\t\t\t104 image 工具执行\n\t\t\t\t\t\t105 text 工具执行 结果进入下一次上下文 Prompting组织本次输入；Harness把生成、执行与反馈接成连续过程。\n\t\t\t\t106 container 课程进度\n\t\t\t\t\t107 button 导入\n\t\t\t\t\t108 button 1. LLM基础\n\t\t\t\t\t109 button 2. Prompting\n\t\t\t\t\t110 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t111 text 3. Agents \n\t\t\t\t\t\t112 text · Externalization & Internalization\n\t\t\t\t\t113 button 3.0 外化与内化总览\n\t\t\t\t\t114 button 3.1 工具调用\n\t\t\t\t\t115 button 3.2 Memory\n\t\t\t\t\t116 button 3.3 Skills\n\t\t\t\t\t117 button 3.4 Harness\n\t\t\t\t\t118 button 3.5 外化与内化整合\n\t\t\t\t\t119 button 3.6 全讲总结\n\t\t120 text 第57页，模型参数、上下文与运行程序，整页显示\n\nThe focused UI element is 93 container Description: 第57页 模型参数、上下文与运行程序, ID: mount"
+    },
+    {
+      "page": 58,
+      "ax": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=agents-overview-r4#p=58&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=agents-overview-r4#p=58&s=1\n\t2 container\n\t\t93 container Description: 第58页 外化的是什么？, ID: mount\n\t\t\t94 container 第58页 外化的是什么？\n\t\t\t\t95 heading 外化的是什么？, Value: 1\n\t\t\t\t\t96 text 外化的是什么？\n\t\t\t\t97 container 课件内容\n\t\t\t\t\t98 container\n\t\t\t\t\t\t99 text 外化把临时要完成的工作，变成可以读取、复用或共同遵循的对象。 外化什么 原本的工作 外部对象 使用方式 Memory 记住历史、偏好与进度 已保存的信息记录 读取相关记录 Skills 每次重新组织做法 流程、规则与检查方法 按任务复用做法 Protocols 临时猜测怎样交换信息 共同约定的请求与返回格式 按约定交换信息 Harness把这些对象组织到任务中：提供什么、何时读取、怎样调用与检查。\n\t\t\t\t100 container 课程进度\n\t\t\t\t\t101 button 导入\n\t\t\t\t\t102 button 1. LLM基础\n\t\t\t\t\t103 button 2. Prompting\n\t\t\t\t\t104 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t105 text 3. Agents \n\t\t\t\t\t\t106 text · Externalization & Internalization\n\t\t\t\t\t107 button 3.0 外化与内化总览\n\t\t\t\t\t108 button 3.1 工具调用\n\t\t\t\t\t109 button 3.2 Memory\n\t\t\t\t\t110 button 3.3 Skills\n\t\t\t\t\t111 button 3.4 Harness\n\t\t\t\t\t112 button 3.5 外化与内化整合\n\t\t\t\t\t113 button 3.6 全讲总结\n\t\t114 text 第58页，外化的是什么？，整页显示\n\nThe focused UI element is 93 container Description: 第58页 外化的是什么？, ID: mount"
+    },
+    {
+      "page": 59,
+      "ax": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=agents-overview-r4#p=59&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=agents-overview-r4#p=59&s=1\n\t2 container\n\t\t93 container Description: 第59页 工具、记忆、技能与协议怎样配合, ID: mount\n\t\t\t94 container 第59页 工具、记忆、技能与协议怎样配合\n\t\t\t\t95 heading 工具、记忆、技能与协议怎样配合, Value: 1\n\t\t\t\t\t96 text 工具、记忆、技能与协议怎样配合\n\t\t\t\t97 container 课件内容\n\t\t\t\t\t98 container\n\t\t\t\t\t\t99 text 工具负责执行；信息、方法和交互规则，支持模型提出请求并使用结果。 Harness：组织输入、模型调用、工具执行与结果检查 Memory：已保存的信息 Skills：可复用做法 本次输入 任务与材料\n\t\t\t\t\t\t100 image 模型生成工具请求\n\t\t\t\t\t\t101 text 模型 调用请求 执行结果\n\t\t\t\t\t\t102 image 工具完成查询计算与操作\n\t\t\t\t\t\t103 text 工具执行 Protocols：约定请求与返回怎样表达 工具调用把“提出操作”接到“实际执行”，执行结果再进入下一次输入。\n\t\t\t\t104 container 课程进度\n\t\t\t\t\t105 button 导入\n\t\t\t\t\t106 button 1. LLM基础\n\t\t\t\t\t107 button 2. Prompting\n\t\t\t\t\t108 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t109 text 3. Agents \n\t\t\t\t\t\t110 text · Externalization & Internalization\n\t\t\t\t\t111 button 3.0 外化与内化总览\n\t\t\t\t\t112 button 3.1 工具调用\n\t\t\t\t\t113 button 3.2 Memory\n\t\t\t\t\t114 button 3.3 Skills\n\t\t\t\t\t115 button 3.4 Harness\n\t\t\t\t\t116 button 3.5 外化与内化整合\n\t\t\t\t\t117 button 3.6 全讲总结\n\t\t118 text 第59页，工具、记忆、技能与协议怎样配合，整页显示\n\nThe focused UI element is 93 container Description: 第59页 工具、记忆、技能与协议怎样配合, ID: mount"
+    },
+    {
+      "page": 60,
+      "ax": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=agents-overview-r4#p=60&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=agents-overview-r4#p=60&s=1\n\t2 container\n\t\t93 container Description: 第60页 外部经验，也可能成为训练材料, ID: mount\n\t\t\t94 container 第60页 外部经验，也可能成为训练材料\n\t\t\t\t95 heading 外部经验，也可能成为训练材料, Value: 1\n\t\t\t\t\t96 text 外部经验，也可能成为训练材料\n\t\t\t\t97 container 课件内容\n\t\t\t\t\t98 container\n\t\t\t\t\t\t99 text 外部系统留下交互过程；经过筛选与训练，其中的做法可能进入模型参数。\n\t\t\t\t\t\t100 image 运行任务时的模型\n\t\t\t\t\t\t101 text 模型 借助外部系统完成任务\n\t\t\t\t\t\t102 image 外部系统执行任务\n\t\t\t\t\t\t103 text 外部系统 留下记录 请求\n\t\t\t\t\t\t104 text 返回结果\n\t\t\t\t\t\t105 text 后续处理 外部经验 筛选材料 → 训练 更新模型参数\n\t\t\t\t\t\t106 image 训练后的模型\n\t\t\t\t\t\t107 text 训练后的模型 再用任务检查\n\t\t\t\t\t\t108 text 学会了什么 留下记录不会自动更新模型参数；参数更新发生在训练过程中。\n\t\t\t\t109 container 课程进度\n\t\t\t\t\t110 button 导入\n\t\t\t\t\t111 button 1. LLM基础\n\t\t\t\t\t112 button 2. Prompting\n\t\t\t\t\t113 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t114 text 3. Agents \n\t\t\t\t\t\t115 text · Externalization & Internalization\n\t\t\t\t\t116 button 3.0 外化与内化总览\n\t\t\t\t\t117 button 3.1 工具调用\n\t\t\t\t\t118 button 3.2 Memory\n\t\t\t\t\t119 button 3.3 Skills\n\t\t\t\t\t120 button 3.4 Harness\n\t\t\t\t\t121 button 3.5 外化与内化整合\n\t\t\t\t\t122 button 3.6 全讲总结\n\t\t123 text 第60页，外部经验，也可能成为训练材料，整页显示\n\nThe focused UI element is 93 container Description: 第60页 外部经验，也可能成为训练材料, ID: mount"
+    },
+    {
+      "page": 61,
+      "ax": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=agents-overview-r4#p=61&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=agents-overview-r4#p=61&s=1\n\t2 container\n\t\t93 container Description: 第61页 总览小结：先看外化，再追问内化, ID: mount\n\t\t\t94 container 第61页 总览小结：先看外化，再追问内化\n\t\t\t\t95 heading 总览小结：先看外化，再追问内化, Value: 1\n\t\t\t\t\t96 text 总览小结：先看外化，再追问内化\n\t\t\t\t97 container 课件内容\n\t\t\t\t\t98 container\n\t\t\t\t\t\t99 text 回到三个问题：外部表示的作用、Agent的分工，以及经验进入训练的路径。 ① 外部表示改变了什么？ 把事项、关系与状态放到眼前，转成读取与检查。 ② 三个层次怎样分工？ 模型生成，上下文提供本次材料，运行程序组织执行。\n\t\t\t\t\t\t100 image 模型\n\t\t\t\t\t\t101 image 外部系统\n\t\t\t\t\t\t102 text ③ 经验怎样进入训练？ 筛选交互过程，组织训练，再检查模型学会了什么。 接下来：工具调用 → Memory → Skills → Harness → 回看外化与内化。\n\t\t\t\t103 container 课程进度\n\t\t\t\t\t104 button 导入\n\t\t\t\t\t105 button 1. LLM基础\n\t\t\t\t\t106 button 2. Prompting\n\t\t\t\t\t107 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t108 text 3. Agents \n\t\t\t\t\t\t109 text · Externalization & Internalization\n\t\t\t\t\t110 button 3.0 外化与内化总览\n\t\t\t\t\t111 button 3.1 工具调用\n\t\t\t\t\t112 button 3.2 Memory\n\t\t\t\t\t113 button 3.3 Skills\n\t\t\t\t\t114 button 3.4 Harness\n\t\t\t\t\t115 button 3.5 外化与内化整合\n\t\t\t\t\t116 button 3.6 全讲总结\n\t\t117 text 第61页，总览小结：先看外化，再追问内化，整页显示\n\nThe focused UI element is 93 container Description: 第61页 总览小结：先看外化，再追问内化, ID: mount"
+    },
+    {
+      "page": 62,
+      "ax": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=agents-overview-r4#p=62&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=agents-overview-r4#p=62&s=1\n\t2 container\n\t\t93 container Description: 第62页 本讲内容, ID: mount\n\t\t\t94 container 第62页 本讲内容\n\t\t\t\t95 heading 本讲内容, Value: 1\n\t\t\t\t\t96 text 本讲内容\n\t\t\t\t97 container 课件内容\n\t\t\t\t\t98 text 已结束：外化与内化总览 →\n\t\t\t\t\t99 text 接下来：工具调用\n\t\t\t\t\t100 container\n\t\t\t\t\t\t101 heading 1. LLM基础, Value: 2\n\t\t\t\t\t\t\t102 text 1. LLM基础\n\t\t\t\t\t\t103 text 连续生成与多轮聊天\n\t\t\t\t\t\t104 content list\n\t\t\t\t\t\t\t105 button ✓ 1.1 连续生成\n\t\t\t\t\t\t\t\t106 text ✓\n\t\t\t\t\t\t\t\t107 text 1.1 连续生成\n\t\t\t\t\t\t\t108 button ✓ 1.2 多轮聊天\n\t\t\t\t\t\t\t\t109 text ✓\n\t\t\t\t\t\t\t\t110 text 1.2 多轮聊天\n\t\t\t\t\t\t\t111 button ✓ 1.3 LLM小结\n\t\t\t\t\t\t\t\t112 text ✓\n\t\t\t\t\t\t\t\t113 text 1.3 LLM小结\n\t\t\t\t\t114 container\n\t\t\t\t\t\t115 heading 2. Prompting, Value: 2\n\t\t\t\t\t\t\t116 text 2. Prompting\n\t\t\t\t\t\t117 text 交代任务，再选择方法\n\t\t\t\t\t\t118 content list\n\t\t\t\t\t\t\t119 button ✓ 2.1 三个核心\n\t\t\t\t\t\t\t\t120 text ✓\n\t\t\t\t\t\t\t\t121 text 2.1 三个核心\n\t\t\t\t\t\t\t122 button ✓ 2.2 问清问题\n\t\t\t\t\t\t\t\t123 text ✓\n\t\t\t\t\t\t\t\t124 text 2.2 问清问题\n\t\t\t\t\t\t\t125 button ✓ 2.3 学习\n\t\t\t\t\t\t\t\t126 text ✓\n\t\t\t\t\t\t\t\t127 text 2.3 学习\n\t\t\t\t\t\t\t128 button ✓ 2.4 解决问题\n\t\t\t\t\t\t\t\t129 text ✓\n\t\t\t\t\t\t\t\t130 text 2.4 解决问题\n\t\t\t\t\t\t\t131 button ✓ 2.5 决策\n\t\t\t\t\t\t\t\t132 text ✓\n\t\t\t\t\t\t\t\t133 text 2.5 决策\n\t\t\t\t\t\t\t134 button ✓ 2.6 Prompting小结\n\t\t\t\t\t\t\t\t135 text ✓\n\t\t\t\t\t\t\t\t136 text 2.6 Prompting小结\n\t\t\t\t\t137 container\n\t\t\t\t\t\t138 heading 3. Agents, Value: 2\n\t\t\t\t\t\t\t139 text 3. Agents\n\t\t\t\t\t\t140 text Externalization & Internalization\n\t\t\t\t\t\t141 content list\n\t\t\t\t\t\t\t142 button ✓ 3.0 外化与内化总览\n\t\t\t\t\t\t\t\t143 text ✓\n\t\t\t\t\t\t\t\t144 text 3.0 外化与内化总览\n\t\t\t\t\t\t\t145 button → 3.1 工具调用 接下来\n\t\t\t\t\t\t\t\t146 text →\n\t\t\t\t\t\t\t\t147 text 3.1 工具调用\n\t\t\t\t\t\t\t\t148 text 接下来\n\t\t\t\t\t\t\t149 button 3.2 Memory\n\t\t\t\t\t\t\t150 button 3.3 Skills\n\t\t\t\t\t\t\t151 button 3.4 Harness\n\t\t\t\t\t\t\t152 button 3.5 外化与内化整合\n\t\t\t\t\t\t\t153 button 3.6 全讲总结\n\t\t\t\t\t154 container\n\t\t\t\t\t\t155 text ✓ 已结束 → 接下来 其余内容随后展开\n\t\t\t\t156 container 课程进度\n\t\t\t\t\t157 button 导入\n\t\t\t\t\t158 button 1. LLM基础\n\t\t\t\t\t159 button 2. Prompting\n\t\t\t\t\t160 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t161 text 3. Agents \n\t\t\t\t\t\t162 text · Externalization & Internalization\n\t\t\t\t\t163 button 3.0 外化与内化总览\n\t\t\t\t\t164 button 3.1 工具调用\n\t\t\t\t\t165 button 3.2 Memory\n\t\t\t\t\t166 button 3.3 Skills\n\t\t\t\t\t167 button 3.4 Harness\n\t\t\t\t\t168 button 3.5 外化与内化整合\n\t\t\t\t\t169 button 3.6 全讲总结\n\t\t170 text 第62页，本讲内容，整页显示\n\nThe focused UI element is 93 container Description: 第62页 本讲内容, ID: mount"
+    },
+    {
+      "page": 63,
+      "ax": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=agents-overview-r4#p=63&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=agents-overview-r4#p=63&s=1\n\t2 container\n\t\t93 container Description: 第63页 工具调用：把请求、执行与反馈接起来, ID: mount\n\t\t\t94 container 第63页 工具调用：把请求、执行与反馈接起来\n\t\t\t\t95 heading 工具调用：把请求、执行与反馈接起来, Value: 1\n\t\t\t\t\t96 text 工具调用：把请求、执行与反馈接起来\n\t\t\t\t97 container 课件内容\n\t\t\t\t\t98 container\n\t\t\t\t\t\t99 text 工具调用把“生成请求”和“执行操作”接成一个闭环。 模型 应用 工具\n\t\t\t\t\t\t100 image\n\t\t\t\t\t\t101 image\n\t\t\t\t\t\t102 image\n\t\t\t\t\t\t103 text 提出调用\n\t\t\t\t\t\t104 image\n\t\t\t\t\t\t105 text 分发与执行 任务＋当前材料 找到对应的执行程序 读取、计算或操作\n\t\t\t\t\t\t106 image\n\t\t\t\t\t\t107 text 返回结果 → 加入下一次输入\n\t\t\t\t\t\t108 image\n\t\t\t\t\t\t109 text 本节沿同一闭环看：天气查询 → 客户工单 → 多步反馈 → 界面操作。\n\t\t\t\t110 container 课程进度\n\t\t\t\t\t111 button 导入\n\t\t\t\t\t112 button 1. LLM基础\n\t\t\t\t\t113 button 2. Prompting\n\t\t\t\t\t114 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t115 text 3. Agents \n\t\t\t\t\t\t116 text · Externalization & Internalization\n\t\t\t\t\t117 button 3.0 外化与内化总览\n\t\t\t\t\t118 button 3.1 工具调用\n\t\t\t\t\t119 button 3.2 Memory\n\t\t\t\t\t120 button 3.3 Skills\n\t\t\t\t\t121 button 3.4 Harness\n\t\t\t\t\t122 button 3.5 外化与内化整合\n\t\t\t\t\t123 button 3.6 全讲总结\n\t\t124 text 第63页，工具调用：把请求、执行与反馈接起来，整页显示\n\nThe focused UI element is 93 container Description: 第63页 工具调用：把请求、执行与反馈接起来, ID: mount"
+    }
+  ],
+  "final": [
+    {
+      "page": 50,
+      "broken": [],
+      "text": "从Prompting到Agent：把要求接到操作\n写清要求以后，下一步是组织查询、计算、文件操作及结果反馈。\n“查询纽约现在的天气，并根据返回的信息回答。”\nPrompting\n交代任务与判断要求\n工具执行\n查询天气，取得返回结果\n继续生成\n依据结果回答\nAgent组织工具执行，把返回结果加入模型输入\n下一部分：Agents怎样通过工具、记忆、技能和Harness组织执行。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n2.1 三个核心\n2.2 问清问题\n2.3 学习\n2.4 解决问题\n2.5 决策\n2.6 Prompting小结",
+      "title": "从Prompting到Agent：把要求接到操作"
+    },
+    {
+      "page": 51,
+      "broken": [],
+      "text": "本讲内容\n已结束：Prompting\n→\n接下来：Agents · 外化与内化\n1. LLM基础\n\n连续生成与多轮聊天\n\n✓\n1.1 连续生成\n✓\n1.2 多轮聊天\n✓\n1.3 LLM小结\n2. Prompting\n\n交代任务，再选择方法\n\n✓\n2.1 三个核心\n✓\n2.2 问清问题\n✓\n2.3 学习\n✓\n2.4 解决问题\n✓\n2.5 决策\n✓\n2.6 Prompting小结\n3. Agents\n\nExternalization & Internalization\n\n→\n3.0 外化与内化总览\n接下来\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结\n✓ 已结束\n→ 接下来\n其余内容随后展开\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "本讲内容"
+    },
+    {
+      "page": 52,
+      "broken": [],
+      "text": "智能体的外化与内化\n把一部分工作交给外部系统，再看哪些做法能被模型学会。\n模型\n外部系统\nExternalization · 外化\n在模型之外保存信息、提供方法、执行操作\nInternalization · 内化\n筛选外部经验，通过训练更新模型参数\n① 外部表示改变了什么？\n从清单与地图开始\n② 三个层次怎样分工？\n再看Agent的分工\n③ 经验怎样进入训练？\n最后区分外化与内化\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "智能体的外化与内化"
+    },
+    {
+      "page": 53,
+      "broken": [],
+      "text": "用“外化”理解Agent的各部分\n工具、信息、方法与运行安排，都可以从“哪些工作交给外部系统”来理解。\n模型之外的工作条件\nMemory\n保存信息\nSkills\n提供做法\nProtocols\n规定交互方式\nHarness\n组织整个运行过程\n先用熟悉的清单和地图，理解外部表示怎样帮助完成任务。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "用“外化”理解Agent的各部分"
+    },
+    {
+      "page": 54,
+      "broken": [],
+      "text": "外部表示，会改变任务的做法\n认知工件：用来保存、展示或处理信息，帮助完成认知任务的外部物件。\n清单：保存事项与状态\n地图：显示位置与关系\n日历：按时间组织安排\n一　　二　　三\n会议\n读取事项 → 检查完成情况\n查看连线 → 判断路线\n查看时间 → 检查安排\n信息变成可查看、可修改的对象，完成任务的动作也随之改变。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "外部表示，会改变任务的做法"
+    },
+    {
+      "page": 55,
+      "broken": [],
+      "text": "写一张清单，改变了什么？\n事情相同；有了清单，完成任务时需要做的动作发生了变化。\n没有清单：回忆要做的事\n有了清单：读取记录、检查状态\n需要自己想起有哪些事项。\n查看哪些已完成，再处理未完成事项。\n清单保存事项，勾选保存状态；下次可以从已有记录继续。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "写一张清单，改变了什么？"
+    },
+    {
+      "page": 56,
+      "broken": [],
+      "text": "地图把关系放到了眼前\n地图把位置与路线表示成可查看的关系，使用者据此判断怎样到达目的地。\n看位置\n确认自己在哪里，\n目的地在哪里。\n看路线\n沿连接关系判断\n可以怎样到达。\n清单让事项与状态可见；地图让空间关系可见。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "地图把关系放到了眼前"
+    },
+    {
+      "page": 57,
+      "broken": [],
+      "text": "模型参数、上下文与运行程序\nAgent把模型能力、这一次的输入，以及外部运行过程结合起来。\n模型参数 Weights\n训练形成的能力，影响怎样生成。\n上下文 Context\n本次送入模型的任务、材料和历史。\n运行程序 Harness\n准备输入、调用模型与工具，\n把结果带回后续输入。\nHarness：组织每一次生成与执行\n本次上下文\n任务与材料\n历史消息\n模型参数\n工具执行\n结果进入下一次上下文\nPrompting组织本次输入；Harness把生成、执行与反馈接成连续过程。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "模型参数、上下文与运行程序"
+    },
+    {
+      "page": 58,
+      "broken": [],
+      "text": "外化的是什么？\n外化把临时要完成的工作，变成可以读取、复用或共同遵循的对象。\n外化什么\n原本的工作\n外部对象\n使用方式\nMemory\n记住历史、偏好与进度\n已保存的信息记录\n读取相关记录\nSkills\n每次重新组织做法\n流程、规则与检查方法\n按任务复用做法\nProtocols\n临时猜测怎样交换信息\n共同约定的请求与返回格式\n按约定交换信息\nHarness把这些对象组织到任务中：提供什么、何时读取、怎样调用与检查。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "外化的是什么？"
+    },
+    {
+      "page": 59,
+      "broken": [],
+      "text": "工具、记忆、技能与协议怎样配合\n工具负责执行；信息、方法和交互规则，支持模型提出请求并使用结果。\nHarness：组织输入、模型调用、工具执行与结果检查\nMemory：已保存的信息\nSkills：可复用做法\n本次输入\n任务与材料\n模型\n调用请求\n工具执行\nProtocols：约定请求与返回怎样表达\n执行结果 → 下一次输入\n工具调用把“提出操作”接到“实际执行”，执行结果再进入下一次输入。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "工具、记忆、技能与协议怎样配合"
+    },
+    {
+      "page": 60,
+      "broken": [],
+      "text": "外部经验，也可能成为训练材料\n外部系统留下交互过程；经过筛选与训练，其中的做法可能进入模型参数。\n模型\n借助外部系统完成任务\n外部系统\n留下记录\n请求\n返回结果\n后续处理\n外部经验\n筛选材料 → 训练\n更新模型参数\n训练后的模型\n再用任务检查\n学会了什么\n留下记录不会自动更新模型参数；参数更新发生在训练过程中。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "外部经验，也可能成为训练材料"
+    },
+    {
+      "page": 61,
+      "broken": [],
+      "text": "总览小结：先看外化，再追问内化\n回到三个问题：外部表示的作用、Agent的分工，以及经验进入训练的路径。\n① 外部表示改变了什么？\n把事项、关系与状态放到眼前，转成读取与检查。\n② 三个层次怎样分工？\n模型生成，上下文提供本次材料，运行程序组织执行。\n③ 经验怎样进入训练？\n筛选交互过程，组织训练，再检查模型学会了什么。\n接下来：工具调用 → Memory → Skills → Harness → 回看外化与内化。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "总览小结：先看外化，再追问内化"
+    },
+    {
+      "page": 62,
+      "broken": [],
+      "text": "本讲内容\n已结束：外化与内化总览\n→\n接下来：工具调用\n1. LLM基础\n\n连续生成与多轮聊天\n\n✓\n1.1 连续生成\n✓\n1.2 多轮聊天\n✓\n1.3 LLM小结\n2. Prompting\n\n交代任务，再选择方法\n\n✓\n2.1 三个核心\n✓\n2.2 问清问题\n✓\n2.3 学习\n✓\n2.4 解决问题\n✓\n2.5 决策\n✓\n2.6 Prompting小结\n3. Agents\n\nExternalization & Internalization\n\n✓\n3.0 外化与内化总览\n→\n3.1 工具调用\n接下来\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结\n✓ 已结束\n→ 接下来\n其余内容随后展开\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "本讲内容"
+    },
+    {
+      "page": 63,
+      "broken": [],
+      "text": "工具调用：把请求、执行与反馈接起来\n工具调用把“生成请求”和“执行操作”接成一个闭环。\n模型\n应用\n工具\n提出调用\n分发与执行\n任务＋当前材料\n找到对应的执行程序\n读取、计算或操作\n返回结果 → 加入下一次输入\n本节沿同一闭环看：天气查询 → 客户工单 → 多步反馈 → 界面操作。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Harness\n3.5 外化与内化整合\n3.6 全讲总结",
+      "title": "工具调用：把请求、执行与反馈接起来"
+    }
+  ]
+}

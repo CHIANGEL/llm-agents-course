@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "141",
+  "text": "A2A：把任务交给另一个Agent\n已结束：MCP：工具与数据　→　接下来：A2A：任务协作\nA2A · Agent2Agent：不同Agent服务之间的任务交互。\n沿汇率任务看：\n谁接手？\n信息不够怎么办？\n完成后交回什么？\n先了解能力，再委托任务；过程可以包含补充信息和状态变化。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "A2A：把任务交给另一个Agent"
+}

@@ -1,0 +1,130 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:,"><title>列表与平均值：完整Notebook</title><style>body{max-width:1050px;margin:32px auto;padding:0 24px;color:#002060;font:20px/1.7 Arial,"Microsoft YaHei",sans-serif}h1{font-size:28px}pre{font:18px/1.6 monospace;white-space:pre-wrap;overflow-wrap:anywhere;color:#111}a{color:#003f98}li{margin:10px 0}</style><h1>列表与平均值：完整Notebook</h1><p><a href="../agents-skills/completed/python-lists-and-mean-completed.ipynb" download>下载原始文件</a></p><pre>{
+  &quot;cells&quot;: [
+    {
+      &quot;cell_type&quot;: &quot;markdown&quot;,
+      &quot;metadata&quot;: {},
+      &quot;source&quot;: [
+        &quot;# Python列表与平均值\n&quot;,
+        &quot;\n&quot;,
+        &quot;把三个数放入列表，计算并解释平均值。本文档将说明、代码和运行结果放在一起。\n&quot;
+      ],
+      &quot;id&quot;: &quot;mba-average-01&quot;
+    },
+    {
+      &quot;cell_type&quot;: &quot;markdown&quot;,
+      &quot;metadata&quot;: {},
+      &quot;source&quot;: [
+        &quot;## 处理顺序\n&quot;,
+        &quot;\n&quot;,
+        &quot;1. 写入三个数。\n&quot;,
+        &quot;2. 计算合计、个数与平均值。\n&quot;,
+        &quot;3. 核对数据和结果。\n&quot;
+      ],
+      &quot;id&quot;: &quot;mba-average-02&quot;
+    },
+    {
+      &quot;cell_type&quot;: &quot;code&quot;,
+      &quot;execution_count&quot;: 1,
+      &quot;metadata&quot;: {},
+      &quot;outputs&quot;: [
+        {
+          &quot;name&quot;: &quot;stdout&quot;,
+          &quot;output_type&quot;: &quot;stream&quot;,
+          &quot;text&quot;: [
+            &quot;数据：[10, 20, 30]\n&quot;
+          ]
+        }
+      ],
+      &quot;source&quot;: [
+        &quot;values = [10, 20, 30]\n&quot;,
+        &quot;print(f\&quot;数据：{values}\&quot;)\n&quot;
+      ],
+      &quot;id&quot;: &quot;mba-average-03&quot;
+    },
+    {
+      &quot;cell_type&quot;: &quot;markdown&quot;,
+      &quot;metadata&quot;: {},
+      &quot;source&quot;: [
+        &quot;## 平均值怎样得到\n&quot;,
+        &quot;\n&quot;,
+        &quot;合计除以个数得到平均值。这里的三个数合计为60，个数为3，平均值为20。\n&quot;
+      ],
+      &quot;id&quot;: &quot;mba-average-04&quot;
+    },
+    {
+      &quot;cell_type&quot;: &quot;code&quot;,
+      &quot;execution_count&quot;: 2,
+      &quot;metadata&quot;: {},
+      &quot;outputs&quot;: [
+        {
+          &quot;name&quot;: &quot;stdout&quot;,
+          &quot;output_type&quot;: &quot;stream&quot;,
+          &quot;text&quot;: [
+            &quot;合计：60\n&quot;,
+            &quot;个数：3\n&quot;,
+            &quot;平均值：20\n&quot;
+          ]
+        }
+      ],
+      &quot;source&quot;: [
+        &quot;total = sum(values)\n&quot;,
+        &quot;count = len(values)\n&quot;,
+        &quot;average = total / count\n&quot;,
+        &quot;print(f\&quot;合计：{total}\&quot;)\n&quot;,
+        &quot;print(f\&quot;个数：{count}\&quot;)\n&quot;,
+        &quot;print(f\&quot;平均值：{average:g}\&quot;)\n&quot;
+      ],
+      &quot;id&quot;: &quot;mba-average-05&quot;
+    },
+    {
+      &quot;cell_type&quot;: &quot;markdown&quot;,
+      &quot;metadata&quot;: {},
+      &quot;source&quot;: [
+        &quot;## 解释与检查\n&quot;,
+        &quot;\n&quot;,
+        &quot;平均值20表示这三个数的总量平均分成三份后，每份为20。核对输入仍是10、20、30，并检查计算结果。\n&quot;
+      ],
+      &quot;id&quot;: &quot;mba-average-06&quot;
+    },
+    {
+      &quot;cell_type&quot;: &quot;code&quot;,
+      &quot;execution_count&quot;: 3,
+      &quot;metadata&quot;: {},
+      &quot;outputs&quot;: [
+        {
+          &quot;name&quot;: &quot;stdout&quot;,
+          &quot;output_type&quot;: &quot;stream&quot;,
+          &quot;text&quot;: [
+            &quot;检查通过：20 = (10 + 20 + 30) / 3\n&quot;
+          ]
+        }
+      ],
+      &quot;source&quot;: [
+        &quot;assert values == [10, 20, 30]\n&quot;,
+        &quot;assert count == 3\n&quot;,
+        &quot;assert total == 60\n&quot;,
+        &quot;assert average == 20\n&quot;,
+        &quot;print(\&quot;检查通过：20 = (10 + 20 + 30) / 3\&quot;)\n&quot;
+      ],
+      &quot;id&quot;: &quot;mba-average-07&quot;
+    }
+  ],
+  &quot;metadata&quot;: {
+    &quot;kernelspec&quot;: {
+      &quot;display_name&quot;: &quot;Python 3&quot;,
+      &quot;language&quot;: &quot;python&quot;,
+      &quot;name&quot;: &quot;python3&quot;
+    },
+    &quot;language_info&quot;: {
+      &quot;name&quot;: &quot;python&quot;,
+      &quot;version&quot;: &quot;3.14.0&quot;
+    },
+    &quot;mba_execution&quot;: {
+      &quot;method&quot;: &quot;Python代码单元按文档顺序在同一命名空间执行&quot;,
+      &quot;executed_at&quot;: &quot;2026-10-19T00:15:12.023475+08:00&quot;
+    }
+  },
+  &quot;nbformat&quot;: 4,
+  &quot;nbformat_minor&quot;: 5
+}
+</pre></html>

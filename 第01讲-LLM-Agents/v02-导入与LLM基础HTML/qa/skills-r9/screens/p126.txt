@@ -1,0 +1,24 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=126&s=1".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=126&s=1
+~		47 container Description: 第126页 换一个环境，Skill还适用吗？, ID: mount
+~			48 container 第126页 换一个环境，Skill还适用吗？
+~				49 heading 换一个环境，Skill还适用吗？, Value: 1
+~					50 text 换一个环境，Skill还适用吗？
+~						53 text 一个地方做出来的Skill，迁到另一个场景或应用后，要重新验证。
+~									57 text 依赖什么
+~									59 text 换环境时可能发生什么
+~									61 text 迁移前核对
+~									64 text 任务场景
+~									66 text 受众、材料与交付标准变了
+~									68 text 适用任务、输入和产物
+~									71 text 模型
+~									73 text 遵循方式与原有能力不同
+~									75 text 指令是否仍有帮助
+~									78 text Harness：运行环境
+~									80 text 工具、路径、依赖与权限不同
+~									82 text 能否读取、执行并检查
+~						83 text 例如：能在本机写Notebook，不代表另一个应用也有相同文件路径和Python环境。 迁移顺序：检查依赖 → 调整入口与工具 → 用代表任务验证。 方法可以复用；运行条件需要适配。换了环境以后，重新看实际结果。
+~				37 stepper (settable, integer) Description: 页码, Value: 126, ID: page-input
+~		99 text 第126页，换一个环境，Skill还适用吗？，整页显示
+The focused UI element is 47 container Description: 第126页 换一个环境，Skill还适用吗？, ID: mount

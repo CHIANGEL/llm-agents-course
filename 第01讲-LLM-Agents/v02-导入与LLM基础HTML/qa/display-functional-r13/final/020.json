@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 20,
+  "text": "让大模型帮你写Prompt\n先给任务初稿、背景和示例，让模型检查，再产出完整Prompt。\n交给模型的请求\n我准备用【目标模型】完成下面的任务。\n任务初稿：【粘贴初稿】\n背景、目标和参考示例：【补充信息】\n\n请先 critique, review and improve：\n1. 找出缺失信息、歧义和冲突；\n2. 信息不足时先向我提问；\n3. 再给出一份可直接使用的完整Prompt。\n\n保留我的目标和必要约束，不要自行改变任务。\n任务初稿\n背景、目标、样例\n检查与补充\n遗漏、歧义、冲突\n完整Prompt\n可以直接用于目标任务\n先把想法说出来，再让模型帮助你把指令写完整。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n2.1 三个核心\n2.2 问清问题\n2.3 学习\n2.4 解决问题\n2.5 决策\n2.6 Prompting小结",
+  "title": "第20页 让大模型帮你写Prompt"
+}

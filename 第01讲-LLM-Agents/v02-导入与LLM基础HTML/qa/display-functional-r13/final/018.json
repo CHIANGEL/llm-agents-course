@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 18,
+  "text": "四大要点：让模型知道你要什么\nWho you are / Who I am / Objective / Example，分别回答四个问题。\nWho you are\n你希望模型承担什么角色\nWho I am\n你的背景与使用场景\nObjective\n最终要完成什么\nExample\n参照什么样的结果\n你是一位讲授生成式AI的教师，擅长向非技术学员解释机制。\n我要为MBA学员讲LLM Agents。学员没有编程和深度学习基础。\n请用3小时讲清LLM怎样生成、Prompting怎样交代任务、Agents怎样组织执行，含10分钟休息。\n参考提供的原课程课件：沿用版式和措辞，配图解释关系，先总览、再展开、最后总结。\n目标、背景和必要约束交代清楚，再给模型选择具体做法的空间。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n2.1 三个核心\n2.2 问清问题\n2.3 学习\n2.4 解决问题\n2.5 决策\n2.6 Prompting小结",
+  "title": "第18页 四大要点：让模型知道你要什么"
+}

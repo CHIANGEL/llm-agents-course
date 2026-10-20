@@ -1,0 +1,38 @@
+{
+  "log": [
+    {
+      "test": "Space on focused directory button",
+      "hash": "http://127.0.0.1:8765/#p=25&s=2",
+      "dialog": false,
+      "expected": "Directory opens; page/state unchanged"
+    },
+    {
+      "test": "Control+g modifier",
+      "dialog": true,
+      "expected": "Do not open course directory with browser modifier"
+    },
+    {
+      "test": "Local source link from HTTP preview",
+      "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%8F%8A%E5%85%B6%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5/2026%E5%B9%B4-%E7%A7%8B%E5%AD%A6%E6%9C%9F/%E7%AC%AC02%E8%AE%B2-Prompting%E4%B8%8E%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B/v09-%E8%AE%BA%E6%96%87%E5%8E%9F%E5%9B%BE%E4%B8%8E%E5%AE%9E%E9%AA%8C%E8%A1%A8/slide_manifest.json",
+      "errors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)",
+        "Not allowed to load local resource: file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%8F%8A%E5%85%B6%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5/2026%E5%B9%B4-%E7%A7%8B%E5%AD%A6%E6%9C%9F/%E7%AC%AC02%E8%AE%B2-Prompting%E4%B8%8E%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B/v09-%E8%AE%BA%E6%96%87%E5%8E%9F%E5%9B%BE%E4%B8%8E%E5%AE%9E%E9%AA%8C%E8%A1%A8/slide_manifest.json"
+      ]
+    },
+    {
+      "test": "Fractional page 2.5",
+      "url": "http://127.0.0.1:8765/#p=25&s=1",
+      "input": "2.5",
+      "errors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)",
+        "Not allowed to load local resource: file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%8F%8A%E5%85%B6%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5/2026%E5%B9%B4-%E7%A7%8B%E5%AD%A6%E6%9C%9F/%E7%AC%AC02%E8%AE%B2-Prompting%E4%B8%8E%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B/v09-%E8%AE%BA%E6%96%87%E5%8E%9F%E5%9B%BE%E4%B8%8E%E5%AE%9E%E9%AA%8C%E8%A1%A8/slide_manifest.json",
+        "Cannot read properties of undefined (reading 'renderer')"
+      ]
+    }
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "Not allowed to load local resource: file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%8F%8A%E5%85%B6%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5/2026%E5%B9%B4-%E7%A7%8B%E5%AD%A6%E6%9C%9F/%E7%AC%AC02%E8%AE%B2-Prompting%E4%B8%8E%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B/v09-%E8%AE%BA%E6%96%87%E5%8E%9F%E5%9B%BE%E4%B8%8E%E5%AE%9E%E9%AA%8C%E8%A1%A8/slide_manifest.json",
+    "Cannot read properties of undefined (reading 'renderer')"
+  ]
+}

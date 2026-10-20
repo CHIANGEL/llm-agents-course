@@ -1,0 +1,185 @@
+{
+  "local_references": [
+    {
+      "source": "index.html",
+      "reference": "src/base.css?v=378a222aec12",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/001-004.css?v=572d16296032",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/005-008.css?v=816a22ee9cda",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/009-013.css?v=5f7721b1226c",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/prompting.css?v=754a5fe00593",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/llm-foundations.css?v=357d0c328c3a",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/data.js?v=b2b6fd51dde1",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/001-004.js?v=13c05e9ab389",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/005-008.js?v=685bbd94591f",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/009-013.js?v=54996e6e5047",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/section-frames.js?v=0b853b2f4834",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/prompting-base.js?v=af765f54844d",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/prompting-frame.js?v=d1db5f85d608",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/prompting-task.js?v=2e7e94b3584c",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/prompting-clarify.js?v=6920cd8531a0",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/prompting-verify-facts.js?v=cd7de2880d7c",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/prompting-compare.js?v=d097365db7be",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/prompting-validation.js?v=88adfb84e438",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/prompting-feedback.js?v=3347bb267269",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/agents-base.js?v=e4ba513dbdec",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/agents-frames.js?v=357ee3e6ae20",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/agents-tools.js?v=1542e19b9ede",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/agents-memory.js?v=2e209f8e2c83",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/agents-skills.js?v=b35cf7592e01",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/agents-harness.js?v=e2d58a8acb5b",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/llm-evidence.js?v=6fec7ab6f989",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/decoding-data.js?v=07eb6411a87f",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/decoding.js?v=7b4688475898",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/llm-foundations.js?v=9b9fa744e6bf",
+      "exists": true
+    },
+    {
+      "source": "index.html",
+      "reference": "src/player.js?v=0d0a47693b19",
+      "exists": true
+    },
+    {
+      "source": "sources/llm-foundations/decoding/reader.html",
+      "reference": "../../../assets/msyh.ttc",
+      "exists": true
+    },
+    {
+      "source": "sources/llm-foundations/decoding/reader.html",
+      "reference": "../../../index.html#p=6&s=1",
+      "exists": true
+    },
+    {
+      "source": "sources/llm-foundations/decoding/reader.html",
+      "reference": "distribution.json",
+      "exists": true
+    },
+    {
+      "source": "sources/llm-foundations/decoding/reader.html",
+      "reference": "collect_distribution.py",
+      "exists": true
+    },
+    {
+      "source": "sources/llm-foundations/decoding/reader.html",
+      "reference": "reference-cases.json",
+      "exists": true
+    },
+    {
+      "source": "sources/llm-foundations/decoding/reader.html",
+      "reference": "provenance.json",
+      "exists": true
+    }
+  ],
+  "top5_token_ids_match_original": true
+}

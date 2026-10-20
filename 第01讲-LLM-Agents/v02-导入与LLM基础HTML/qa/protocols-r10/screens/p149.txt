@@ -1,0 +1,43 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-qa3#p=149&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-qa3#p=149&s=1
+	2 container
+		53 container Description: 第149页 Harness：把各部分组织为持续的工作, ID: mount
+			54 container 第149页 Harness：把各部分组织为持续的工作
+				55 heading Harness：把各部分组织为持续的工作, Value: 1
+					56 text Harness：把各部分组织为持续的工作
+				57 container 课件内容
+					58 container
+						59 text Harness（运行系统）把材料、操作、进度和检查组织起来。 Harness 准备本次输入 模型提出下一步 工具执行操作 检查返回结果 Memory · Skills · 当前材料 Protocols连接 · 权限与进度 继续／等待／结束 新结果进入下一次输入，任务继续推进。 先看材料与连接，再看操作范围、交接、恢复和验收。
+				60 container 课程进度
+					61 button 导入
+					62 button 1. LLM基础
+					63 button 2. Prompting
+					64 button 3. Agents · Externalization & Internalization
+						65 text 3. Agents 
+						66 text · Externalization & Internalization
+					67 button 3.0 外化与内化总览
+					68 button 3.1 工具调用
+					69 button 3.2 Memory
+					70 button 3.3 Skills
+					71 button 3.4 Protocols
+					72 button 3.5 Harness
+					73 button 3.6 外化与内化整合
+					74 button 3.7 全讲总结
+		38 container Description: 课件操作, ID: controls
+			39 button Description: 上一步, Help: 上一步（←）
+			40 button Description: 下一步, Help: 下一步（→或空格）
+			41 container jump-form
+				42 text 页码
+				43 stepper (settable, integer) Description: 页码, Value: 149, ID: page-input
+				44 text / 177
+			75 text 整页显示
+			46 button 目录
+			47 button 备注 / 来源
+			48 button 完整材料
+			49 button 放大图解
+			50 button 全屏
+			51 button 隐藏, Help: 按H恢复
+			52 button 操作说明
+		76 text 第149页，Harness：把各部分组织为持续的工作，整页显示
+
+The focused UI element is 53 container Description: 第149页 Harness：把各部分组织为持续的工作, ID: mount

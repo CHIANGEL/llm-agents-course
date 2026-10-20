@@ -1,0 +1,926 @@
+[
+  {
+    "id": "task",
+    "title": "用MCP读取一份课程文件",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<blockquote class=\"quote\">请读取 /workspace/course/course-info.md，告诉我大作业、平时作业和平时成绩各占多少。</blockquote><p class=\"\">文件保存在电脑上。我们跟着这次请求，看谁去读文件、结果怎样回到模型。</p><p class=\"lead\">先看程序运行的位置，再看两边交换的消息。</p>",
+    "notes": "本例来源与教学材料性质见完整材料；程序与模型的职责按所核查路径区分。",
+    "materials": [
+      "file",
+      "complete",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "官方filesystem工具实现",
+        "url": "https://github.com/modelcontextprotocol/servers/blob/c003d0d807409b22fa640d1f8e11f38f15755721/src/filesystem/server.ts"
+      }
+    ]
+  },
+  {
+    "id": "terminal",
+    "title": "你在自己的电脑上运行Codex",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<div class=\"terminal\"><h2>你的电脑 · 终端窗口</h2><pre class=\"code\">cd /workspace/course\ncodex\n\n&gt; 请读取 course-info.md，告诉我三项成绩占比。</pre></div><ul><li>终端提供输入和显示的窗口。</li><li>输入codex后，操作系统在这台电脑上启动Codex程序。</li><li>本例中，Codex把准备好的请求通过网络发给云端模型。</li></ul>",
+    "notes": "本例选本地Codex CLI、云端模型服务。终端展示是操作示意，不是应用截图；不概括远程执行器、云端任务或本地模型部署。",
+    "materials": [
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "Codex连接MCP",
+        "url": "https://learn.chatgpt.com/docs/extend/mcp?surface=cli"
+      }
+    ]
+  },
+  {
+    "id": "locations",
+    "title": "两个本机程序，加一个云端模型",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<div class=\"host-map\"><div class=\"machine\"><h2>你的电脑</h2><div class=\"map-node\"><h3>Codex程序</h3><p>终端接收输入；程序保存对话、准备请求。</p></div><div class=\"map-pipe\">⇅ MCP消息 · stdio</div><div class=\"map-node\"><h3>filesystem Server</h3><p>另一个进程，提供文件读取工具。</p></div><div class=\"map-disk\">磁盘：course-info.md</div></div><div class=\"network\">模型API<strong>⇄</strong>网络请求</div><div class=\"machine cloud\"><h2>云端计算机</h2><div class=\"map-node\"><h3>模型服务</h3><p>收到请求后，生成工具调用或回答。</p></div></div></div><p class=\"map-caption\">filesystem Server也是一个程序，可以和Codex运行在同一台电脑上。</p>",
+    "notes": "图中电脑边界表示运行位置。Host和MCP Client在Codex进程中，filesystem为子进程；模型服务在远端。server不等于一台单独的远程机器。",
+    "materials": [
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "MCP 2025-06-18架构",
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/architecture"
+      },
+      {
+        "label": "官方filesystem工具实现",
+        "url": "https://github.com/modelcontextprotocol/servers/blob/c003d0d807409b22fa640d1f8e11f38f15755721/src/filesystem/server.ts"
+      }
+    ]
+  },
+  {
+    "id": "names",
+    "title": "Host、Client、Server分别指什么",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<table class=\"roles-table\"><thead><tr><th>名称</th><th>本例对应什么</th><th>负责什么</th></tr></thead><tbody><tr><td>Host</td><td>Codex程序</td><td>接收用户输入，组织模型请求，协调工具。</td></tr><tr><td>MCP Client</td><td>Codex内部的连接组件</td><td>与一个MCP Server收发协议消息。</td></tr><tr><td>MCP Server</td><td>filesystem程序</td><td>提供文件工具，并执行读文件等操作。</td></tr></tbody></table><p class=\"callout\">说“Codex客户端”时，通常指整个应用；这里的“MCP Client”特指它内部负责MCP通信的部分。</p>",
+    "notes": "本例来源与教学材料性质见完整材料；程序与模型的职责按所核查路径区分。",
+    "materials": [
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "MCP 2025-06-18架构",
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/architecture"
+      }
+    ]
+  },
+  {
+    "id": "file",
+    "title": "这次要读取的文件就在磁盘上",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<p class=\"path-line\">/workspace/course/course-info.md</p><p class=\"caption\">/workspace/course表示本例电脑上的课程文件夹。</p><pre class=\"code\"># 生成式人工智能及编程实践：考核比例\n\n大作业    50%\n平时作业  40%\n平时成绩  10%\n\n目前只确定以上比例。\n作业次数、分组和bonus等细节以后讨论。</pre><p class=\"\">此时，模型还没有收到文件正文。知道路径与读到内容是两步。</p><button class=\"text-button\" data-material=\"file\">查看文件全文</button>",
+    "notes": "本例来源与教学材料性质见完整材料；程序与模型的职责按所核查路径区分。",
+    "materials": [
+      "file",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "教师已确认课程共识",
+        "url": "../../00-课程规划/课程共识.md"
+      }
+    ]
+  },
+  {
+    "id": "config",
+    "title": "客户端从配置中找到启动方法",
+    "chapter": 2,
+    "kind": "content",
+    "body": "<pre class=\"code\">[mcp_servers.course_files]\ncommand = &quot;node&quot;\nargs = [&quot;/workspace/mcp-server/…/index.js&quot;,\n        &quot;/workspace/course&quot;]\nenabled_tools = [&quot;read_text_file&quot;]</pre><p class=\"\">command与args指定怎样启动Server，以及Server可以访问哪个目录。</p><p class=\"callout\">enabled_tools让本例只提供这个Server的read_text_file。</p><button class=\"text-button\" data-material=\"config\">展开本例配置</button>",
+    "notes": "这是课堂配置，未安装到用户的Codex设置。enabled_tools只筛选此MCP Server的工具，不关闭Codex其他内置工具。直接暴露namespace等分支条件见完整材料。",
+    "materials": [
+      "config",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "Codex MCP配置字段",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/config/src/mcp_types.rs"
+      }
+    ]
+  },
+  {
+    "id": "start",
+    "title": "客户端启动Server，接通输入和输出",
+    "chapter": 2,
+    "kind": "content",
+    "body": "<div class=\"cols\"><section><h2>Codex在本机执行</h2><pre class=\"code\">node\n  /workspace/mcp-server/…/index.js\n  /workspace/course</pre></section><section><h2>两个程序之间传递文本</h2><ul><li>客户端写入Server的标准输入。</li><li>Server把响应写回标准输出。</li><li>这些文本按MCP约定组织。</li></ul></section></div><p class=\"callout\">这就是stdio连接。Server在本机时，通信不必经过互联网。</p>",
+    "notes": "命令省略中间包路径，完整命令可展开。stdio是两个本地进程的标准输入/输出管道，stderr用于日志。没有为了演示而在用户全局配置安装服务器。",
+    "materials": [
+      "config",
+      "execution",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "MCP stdio与HTTP传输",
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/transports"
+      },
+      {
+        "label": "Codex MCP连接管理",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/codex-mcp/src/rmcp_client.rs"
+      }
+    ]
+  },
+  {
+    "id": "initialize",
+    "title": "先确认协议版本与双方能力",
+    "chapter": 2,
+    "kind": "demo",
+    "body": "",
+    "notes": "本例固定到所核查客户端的2025-06-18 legacy stdio路径，不把该初始化顺序推广到其他MCP版本。实录与Codex源码填充材料的范围见来源。",
+    "materials": [
+      "wire-initialize",
+      "wire-complete",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "本例固定版本的初始化",
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/lifecycle"
+      },
+      {
+        "label": "Codex MCP连接管理",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/codex-mcp/src/rmcp_client.rs"
+      }
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "inputHeading": "MCP往返：客户端 ⇄ Server",
+      "listLabel": "完整MCP往返",
+      "hideRequestButton": true,
+      "steps": [
+        {
+          "label": "客户端发送initialize",
+          "items": [
+            "init-request"
+          ],
+          "selected": "init-request",
+          "added": [
+            "init-request"
+          ],
+          "caption": "客户端程序准备版本、能力和自己的名称。此时还没有模型生成。"
+        },
+        {
+          "label": "Server返回初始化结果",
+          "items": [
+            "init-request",
+            "init-response"
+          ],
+          "selected": "init-response",
+          "added": [
+            "init-response"
+          ],
+          "caption": "Server确认协议版本，并告诉客户端自己支持tools。"
+        },
+        {
+          "label": "客户端通知初始化完成",
+          "items": [
+            "init-request",
+            "init-response",
+            "initialized"
+          ],
+          "selected": "initialized",
+          "added": [
+            "initialized"
+          ],
+          "caption": "连接准备完成。下一步可以请求工具目录。"
+        }
+      ],
+      "printHTML": "<pre class=\"code\">jsonrpc: 2.0\nmethod: notifications/initialized\n\n这是一条通知，不带请求id，\n也不等待一条对应响应。</pre>"
+    }
+  },
+  {
+    "id": "list-tools",
+    "title": "客户端向Server索取工具目录",
+    "chapter": 2,
+    "kind": "demo",
+    "body": "",
+    "notes": "本例来源与教学材料性质见完整材料；程序与模型的职责按所核查路径区分。",
+    "materials": [
+      "wire-list",
+      "server-tool",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "MCP工具目录与调用",
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools"
+      },
+      {
+        "label": "Codex工具发现",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/codex-mcp/src/rmcp_client.rs"
+      }
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "inputHeading": "MCP往返：客户端 ⇄ Server",
+      "listLabel": "完整MCP往返",
+      "hideRequestButton": true,
+      "steps": [
+        {
+          "label": "客户端发送tools/list",
+          "items": [
+            "init-request",
+            "init-response",
+            "initialized",
+            "list-request"
+          ],
+          "selected": "list-request",
+          "added": [
+            "list-request"
+          ],
+          "caption": "这条请求由客户端程序发出，用来发现Server提供的工具。"
+        },
+        {
+          "label": "Server返回工具定义",
+          "items": [
+            "init-request",
+            "init-response",
+            "initialized",
+            "list-request",
+            "list-response"
+          ],
+          "selected": "list-response",
+          "added": [
+            "list-response"
+          ],
+          "caption": "本次返回14个工具；配置中只启用read_text_file。"
+        }
+      ],
+      "printHTML": "<pre class=\"code\">result.tools（14个工具，节选1个）:\n\nname: read_text_file\ndescription: 读取一个文件的文字内容\ninputSchema:\n  path: string，必填\n  head、tail: number，可选\n\n完整英文定义可展开。</pre>"
+    }
+  },
+  {
+    "id": "tool-definition",
+    "title": "目录里写了工具怎样使用",
+    "chapter": 2,
+    "kind": "content",
+    "body": "<div class=\"cols\"><section><h2>工具名称与用途</h2><pre class=\"code\">name: read_text_file</pre><p class=\"\">读取指定文件的文字内容。</p></section><section><h2>inputSchema：参数格式</h2><pre class=\"code\">path: string，必填\nhead: number，可选\ntail: number，可选</pre></section></div><p class=\"callout\">目录提供接口说明。文件正文要等实际调用后才能得到。</p><button class=\"text-button\" data-material=\"server-tool\">Server返回的完整定义</button>",
+    "notes": "正文为真实工具定义的中文解释。完整目录含14个工具，保留全部；本页展开选中工具的完整描述、输入输出schema与annotations。",
+    "materials": [
+      "server-tool",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "官方filesystem工具实现",
+        "url": "https://github.com/modelcontextprotocol/servers/blob/c003d0d807409b22fa640d1f8e11f38f15755721/src/filesystem/server.ts"
+      },
+      {
+        "label": "MCP工具目录与调用",
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools"
+      }
+    ]
+  },
+  {
+    "id": "adapt-tools",
+    "title": "客户端把工具定义整理给模型",
+    "chapter": 2,
+    "kind": "content",
+    "body": "<div class=\"dispatch\"><section><h2>MCP工具条目</h2><pre class=\"code\">name: read_text_file\ndescription: …\ninputSchema: …</pre></section><div class=\"arrow\">→</div><section><h2>模型请求中的tools</h2><pre class=\"code\">namespace: mcp__course_files\n  function: read_text_file\n  description: …\n  parameters: …</pre></section></div><p class=\"callout\">namespace标明工具来自course_files服务；parameters来自工具的inputSchema。</p><button class=\"text-button\" data-material=\"server-tool\">MCP工具定义</button> <button class=\"text-button\" data-material=\"model-tools\">模型侧工具定义</button>",
+    "notes": "课堂图为字段对应关系，完整JSON使用此源码版本的namespace工具结构；并非扁平的mcp__course_files__read_text_file函数。保留名称、description和输入schema可支持字段；outputSchema不等于模型工具定义的parameters。",
+    "materials": [
+      "server-tool",
+      "model-tools",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "MCP工具转模型定义",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/tools/handlers/mcp.rs"
+      }
+    ]
+  },
+  {
+    "id": "request-structure",
+    "title": "第一次模型请求由客户端组装",
+    "chapter": 3,
+    "kind": "content",
+    "body": "<pre class=\"code\">input[0]  developer  基础指令\ninput[1]  developer  运行权限\ninput[2]  user       项目说明＋环境\ninput[3]  user       当前用户请求\n\ntools      namespace  mcp__course_files\n                      └ read_text_file</pre><p class=\"\">模型收到的是input和tools等请求字段；初始化、tools/list的往返仍由客户端管理。</p><button class=\"text-button\" data-material=\"request-initial\">完整教学请求</button>",
+    "notes": "本例工具定义直接放在tools，来源区保留分支条件。完整教学请求集中省略未使用的内置工具、可选元数据和服务端处理，不是模型内部Chat Template。基础指令developer顺序沿固定源码。",
+    "materials": [
+      "request-initial",
+      "model-tools",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "模型请求组装",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/client.rs"
+      },
+      {
+        "label": "初始上下文组装",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs"
+      }
+    ]
+  },
+  {
+    "id": "model-input",
+    "title": "模型先看到用户问题和工具说明",
+    "chapter": 3,
+    "kind": "demo",
+    "body": "",
+    "notes": "本例来源与教学材料性质见完整材料；程序与模型的职责按所核查路径区分。",
+    "materials": [
+      "request-initial",
+      "model-tools",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "模型输入输出条目",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs"
+      }
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "prefixItems": [
+        "base",
+        "policy",
+        "project"
+      ],
+      "prefixLabel": "基础指令、权限、项目与环境",
+      "toolsKey": "initial",
+      "steps": [
+        {
+          "label": "当前用户请求",
+          "items": [
+            "user"
+          ],
+          "selected": "user",
+          "added": [],
+          "caption": "用户指定要读的文件和要回答的问题。",
+          "requestKey": "initial"
+        },
+        {
+          "label": "基础上下文仍然存在",
+          "items": [
+            "user"
+          ],
+          "selected": "project",
+          "added": [],
+          "caption": "项目说明和环境由客户端组装；磁盘文件正文尚未进入input。",
+          "requestKey": "initial"
+        }
+      ],
+      "printHTML": "<pre class=\"code\">role: user\ncontent[0]: 项目说明\ncontent[1]: 环境信息\n\n课程已确认的安排以文件为准。\n工作目录：/workspace/course\n\n这里没有放入评分文件正文。</pre>"
+    }
+  },
+  {
+    "id": "model-call",
+    "title": "模型生成工具名称和参数",
+    "chapter": 3,
+    "kind": "demo",
+    "body": "",
+    "notes": "本例来源与教学材料性质见完整材料；程序与模型的职责按所核查路径区分。",
+    "materials": [
+      "model-call",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "模型输入输出条目",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs"
+      },
+      {
+        "label": "MCP工具调用处理",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/tools/handlers/mcp.rs"
+      }
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "prefixItems": [
+        "base",
+        "policy",
+        "project"
+      ],
+      "prefixLabel": "基础指令、权限、项目与环境",
+      "toolsKey": "initial",
+      "steps": [
+        {
+          "label": "返回一次function_call",
+          "items": [
+            "user",
+            "call"
+          ],
+          "selected": "call",
+          "added": [
+            "call"
+          ],
+          "caption": "模型选择read_text_file并填写path。文件此时还没有被读取。",
+          "requestKey": null
+        }
+      ],
+      "printHTML": "<pre class=\"code\">type: function_call\nnamespace: mcp__course_files\nname: read_text_file\narguments（JSON字符串）:\n  {&quot;path&quot;:&quot;/workspace/course/course-info.md&quot;}\ncall_id: call_read_course_info</pre>"
+    }
+  },
+  {
+    "id": "dispatch",
+    "title": "客户端把模型调用转成MCP请求",
+    "chapter": 3,
+    "kind": "content",
+    "body": "<div class=\"dispatch\"><section><h2>模型返回</h2><pre class=\"code\">namespace: mcp__course_files\nname: read_text_file\narguments: &quot;{…}&quot;\ncall_id: call_read_course_info</pre></section><div class=\"arrow\">→</div><section><h2>客户端发送给Server</h2><pre class=\"code\">method: tools/call\nparams.name: read_text_file\nparams.arguments: {…}\nid: 3</pre></section></div><p class=\"callout\">客户端找到course_files连接，解析参数，再发送tools/call。</p><p class=\"caption\">call_id对应模型侧调用；id对应这次MCP往返。两者由客户端关联。</p>",
+    "notes": "两个编号的值为教学安排；模型API返回call_id，不等于声称它是模型逐Token生成。该路径由namespace和tool name解析到原server与tool，实际线协议工具名不含namespace。",
+    "materials": [
+      "model-call",
+      "wire-call",
+      "id-mapping",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "MCP工具调用处理",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/tools/handlers/mcp.rs"
+      },
+      {
+        "label": "模型输入输出条目",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs"
+      }
+    ]
+  },
+  {
+    "id": "mcp-call",
+    "title": "Server收到的是具体工具调用",
+    "chapter": 3,
+    "kind": "demo",
+    "body": "",
+    "notes": "这是本例发送的数据；不能推导为协议禁止应用在其他任务中把文本作为参数发送。",
+    "materials": [
+      "wire-call",
+      "wire-complete",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "MCP工具目录与调用",
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools"
+      },
+      {
+        "label": "MCP工具调用处理",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/tools/handlers/mcp.rs"
+      }
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "inputHeading": "MCP往返：客户端 ⇄ Server",
+      "listLabel": "完整MCP往返",
+      "hideRequestButton": true,
+      "steps": [
+        {
+          "label": "客户端发送tools/call",
+          "items": [
+            "init-request",
+            "init-response",
+            "initialized",
+            "list-request",
+            "list-response",
+            "call-request"
+          ],
+          "selected": "call-request",
+          "added": [
+            "call-request"
+          ],
+          "caption": "本次只传工具名称和文件路径，没有把整段对话发给filesystem Server。"
+        }
+      ],
+      "printHTML": "<pre class=\"code\">{\n  &quot;jsonrpc&quot;: &quot;2.0&quot;,\n  &quot;id&quot;: 3,\n  &quot;method&quot;: &quot;tools/call&quot;,\n  &quot;params&quot;: {\n    &quot;name&quot;: &quot;read_text_file&quot;,\n    &quot;arguments&quot;: {\n      &quot;path&quot;: &quot;/workspace/course/course-info.md&quot;\n    }\n  }\n}</pre>"
+    }
+  },
+  {
+    "id": "server-read",
+    "title": "Server检查路径，然后读取文件",
+    "chapter": 3,
+    "kind": "content",
+    "body": "<div class=\"cols\"><section><h2>请求中的路径</h2><pre class=\"code\">/workspace/course/course-info.md</pre><ul><li>确认路径位于允许目录中。</li><li>调用操作系统的文件读取功能。</li></ul></section><section><h2>读取结果</h2><pre class=\"code\">大作业：50%\n平时作业：40%\n平时成绩：10%</pre></section></div><p class=\"callout\">读文件的是本机filesystem程序。云端模型没有直接打开你的磁盘。</p>",
+    "notes": "服务器实际读取了本版案例文件。路径范围校验和read_text_file实现见包内dist文件；文件本身摘录真实课程共识。",
+    "materials": [
+      "server-source",
+      "file",
+      "execution",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "官方filesystem工具实现",
+        "url": "https://github.com/modelcontextprotocol/servers/blob/c003d0d807409b22fa640d1f8e11f38f15755721/src/filesystem/server.ts"
+      },
+      {
+        "label": "filesystem路径检查与文件读取",
+        "url": "https://github.com/modelcontextprotocol/servers/blob/c003d0d807409b22fa640d1f8e11f38f15755721/src/filesystem/lib.ts"
+      }
+    ]
+  },
+  {
+    "id": "server-result",
+    "title": "Server把文件内容返回客户端",
+    "chapter": 3,
+    "kind": "demo",
+    "body": "",
+    "notes": "本例来源与教学材料性质见完整材料；程序与模型的职责按所核查路径区分。",
+    "materials": [
+      "wire-result",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "MCP工具目录与调用",
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools"
+      },
+      {
+        "label": "官方filesystem工具实现",
+        "url": "https://github.com/modelcontextprotocol/servers/blob/c003d0d807409b22fa640d1f8e11f38f15755721/src/filesystem/server.ts"
+      }
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "inputHeading": "MCP往返：客户端 ⇄ Server",
+      "listLabel": "完整MCP往返",
+      "hideRequestButton": true,
+      "steps": [
+        {
+          "label": "MCP响应回到客户端",
+          "items": [
+            "init-request",
+            "init-response",
+            "initialized",
+            "list-request",
+            "list-response",
+            "call-request",
+            "call-response"
+          ],
+          "selected": "call-response",
+          "added": [
+            "call-response"
+          ],
+          "caption": "响应id与请求相同；result中包含文件内容。下一步由客户端整理成模型输入。"
+        }
+      ],
+      "printHTML": "<pre class=\"code\">jsonrpc: 2.0\nid: 3\nresult（内容节选）:\n\ncontent: [文件文字内容块]\nstructuredContent: {content: 文件全文}\n\n大作业50%，平时作业40%，平时成绩10%。</pre>"
+    }
+  },
+  {
+    "id": "result-adapter",
+    "title": "客户端把结果写成模型工具返回",
+    "chapter": 3,
+    "kind": "content",
+    "body": "<div class=\"cols\"><section><h2>MCP响应中的result</h2><pre class=\"code\">content: [文本内容块]\nstructuredContent:\n  content: &quot;文件全文&quot;</pre></section><section><h2>写回模型input</h2><pre class=\"code\">type: function_call_output\ncall_id: call_read_course_info\noutput: &quot;…结构化内容的JSON…&quot;</pre></section></div><p class=\"callout\">本例两个字段都返回了文件内容。所核查的Codex路径优先使用structuredContent。</p><button class=\"text-button\" data-material=\"wire-result\">MCP完整响应</button> <button class=\"text-button\" data-material=\"model-result\">写回input的完整条目</button>",
+    "notes": "Codex将structuredContent序列化为JSON字符串，并加Wall time/Output前缀。计时用本地采集值填入课堂表示，不冒充Codex进程耗时。完整MCP JSON-RPC外壳没有原样作为role=tool加入模型输入。",
+    "materials": [
+      "wire-result",
+      "model-result",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "工具结果转模型输入",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs"
+      }
+    ]
+  },
+  {
+    "id": "next-request",
+    "title": "第二次请求保留旧消息，加入工具结果",
+    "chapter": 3,
+    "kind": "demo",
+    "body": "",
+    "notes": "本例来源与教学材料性质见完整材料；程序与模型的职责按所核查路径区分。",
+    "materials": [
+      "request-after-result",
+      "complete",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "模型输入输出条目",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs"
+      },
+      {
+        "label": "工具结果转模型输入",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs"
+      },
+      {
+        "label": "模型请求组装",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/client.rs"
+      }
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "prefixItems": [
+        "base",
+        "policy",
+        "project"
+      ],
+      "prefixLabel": "基础指令、权限、项目与环境",
+      "toolsKey": "initial",
+      "steps": [
+        {
+          "label": "先保留模型的工具调用",
+          "items": [
+            "user",
+            "call"
+          ],
+          "selected": "call",
+          "added": [],
+          "caption": "基础上下文、用户问题和function_call仍在列表中。",
+          "requestKey": null
+        },
+        {
+          "label": "再加入对应工具返回",
+          "items": [
+            "user",
+            "call",
+            "result"
+          ],
+          "selected": "result",
+          "added": [
+            "result"
+          ],
+          "caption": "客户端把新的完整input发给模型。此时模型才收到文件正文。",
+          "requestKey": "after-result"
+        }
+      ],
+      "printHTML": "<pre class=\"code\">type: function_call_output\ncall_id: call_read_course_info\noutput（内容节选）:\n\n大作业：50%\n平时作业：40%\n平时成绩：10%\n\n作业次数、分组和bonus等细节以后讨论。</pre>"
+    }
+  },
+  {
+    "id": "answer",
+    "title": "模型根据读到的内容生成回答",
+    "chapter": 3,
+    "kind": "demo",
+    "body": "",
+    "notes": "本例来源与教学材料性质见完整材料；程序与模型的职责按所核查路径区分。",
+    "materials": [
+      "complete",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "模型输入输出条目",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs"
+      }
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "prefixItems": [
+        "base",
+        "policy",
+        "project"
+      ],
+      "prefixLabel": "基础指令、权限、项目与环境",
+      "toolsKey": "initial",
+      "steps": [
+        {
+          "label": "返回给用户的文字",
+          "items": [
+            "user",
+            "call",
+            "result",
+            "answer"
+          ],
+          "selected": "answer",
+          "added": [
+            "answer"
+          ],
+          "caption": "模型根据用户问题和工具返回组织答案，Codex把回答显示在终端中。",
+          "requestKey": null
+        }
+      ],
+      "printHTML": "<pre class=\"code\">role: assistant\ncontent: output_text\n\n这门课的考核比例是：\n\n- 大作业：50%\n- 平时作业：40%\n- 平时成绩：10%\n\n作业次数、分组和 bonus 等细则尚未确定，之后再讨论。</pre>"
+    }
+  },
+  {
+    "id": "whole-flow",
+    "title": "回看：每一步是谁在做",
+    "chapter": 3,
+    "kind": "demo",
+    "body": "",
+    "notes": "本例来源与教学材料性质见完整材料；程序与模型的职责按所核查路径区分。",
+    "materials": [
+      "wire-complete",
+      "request-initial",
+      "request-after-result",
+      "complete",
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "MCP 2025-06-18架构",
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/architecture"
+      },
+      {
+        "label": "MCP工具调用处理",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/tools/handlers/mcp.rs"
+      }
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "mcp-tour",
+      "steps": [
+        {
+          "title": "连接与发现工具",
+          "active": [
+            "client",
+            "server"
+          ],
+          "description": "Codex启动Server，完成初始化并获取工具目录。模型没有参与这些通信。",
+          "materials": [
+            {
+              "id": "wire-complete",
+              "label": "MCP完整往返"
+            }
+          ]
+        },
+        {
+          "title": "把用户问题与工具定义发给模型",
+          "active": [
+            "client",
+            "model"
+          ],
+          "description": "客户端组装基础上下文、用户消息和tools，通过模型API发出请求。",
+          "materials": [
+            {
+              "id": "request-initial",
+              "label": "首次模型请求"
+            }
+          ]
+        },
+        {
+          "title": "模型选择工具，客户端发送调用",
+          "active": [
+            "model",
+            "client"
+          ],
+          "description": "模型返回read_text_file和路径。客户端把它转换成MCP tools/call。",
+          "materials": [
+            {
+              "id": "model-call",
+              "label": "模型调用"
+            },
+            {
+              "id": "wire-call",
+              "label": "MCP请求"
+            }
+          ]
+        },
+        {
+          "title": "Server读文件并返回结果",
+          "active": [
+            "server",
+            "disk"
+          ],
+          "description": "filesystem程序检查允许目录、读取文件，将结果返回客户端。",
+          "materials": [
+            {
+              "id": "wire-result",
+              "label": "Server完整响应"
+            }
+          ]
+        },
+        {
+          "title": "客户端补上结果，模型继续生成",
+          "active": [
+            "client",
+            "model"
+          ],
+          "description": "客户端保留旧消息，加入function_call_output。模型据此回答，终端显示给用户。",
+          "materials": [
+            {
+              "id": "request-after-result",
+              "label": "第二次模型请求"
+            },
+            {
+              "id": "complete",
+              "label": "完整示例消息"
+            }
+          ]
+        }
+      ],
+      "printHTML": "<p class=\"\">客户端准备连接与输入；模型提出调用；Server执行操作；客户端回写结果；模型回答。</p>"
+    }
+  },
+  {
+    "id": "remote",
+    "title": "MCP Server也可以运行在另一台电脑上",
+    "chapter": 3,
+    "kind": "content",
+    "body": "<div class=\"cols\"><section><h2>本例：Server在本机</h2><ul><li>Codex按command启动程序。</li><li>通过stdio管道通信。</li><li>Server读取本机允许目录。</li></ul></section><section><h2>另一种部署：远程Server</h2><ul><li>客户端连接配置中的服务URL。</li><li>可通过Streamable HTTP通信。</li><li>Server访问它能访问的数据或服务。</li></ul></section></div><p class=\"callout\">判断“在哪里运行”，要看客户端的部署位置和Server配置，不能只看聊天窗口在哪台电脑上。</p>",
+    "notes": "此页只比较部署位置，主案例仍是固定legacy stdio。远程授权、HTTP握手与协议版本不在本例展开；不把网页、桌面、CLI的各种部署方式概括为同一种拓扑。",
+    "materials": [
+      "notice"
+    ],
+    "sources": [
+      {
+        "label": "Codex连接MCP",
+        "url": "https://learn.chatgpt.com/docs/extend/mcp?surface=cli"
+      },
+      {
+        "label": "MCP 2025-06-18架构",
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/architecture"
+      },
+      {
+        "label": "MCP stdio与HTTP传输",
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/transports"
+      }
+    ]
+  }
+]

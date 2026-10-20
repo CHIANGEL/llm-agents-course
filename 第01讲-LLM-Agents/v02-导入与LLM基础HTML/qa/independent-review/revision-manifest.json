@@ -1,0 +1,224 @@
+{
+  "date": "2026-10-19",
+  "purpose": "依据教师授权独立审阅后修正，保留原制作基线为历史",
+  "files": {
+    "index.html": {
+      "before": "0fb931c4615666ff7a04413a4b138f11510ae762c54d3f6fe4eb1ab7eb0bbace",
+      "after": "b3c8d2aa25837dd56e089aef428e3b526543246ea7e6230b60474f1c9a351dda"
+    },
+    "version_manifest.json": {
+      "before": "5ecd08e30e03aaa8efcaf36e578ba8ec142d393e6a5744d3b53fb0331639e732",
+      "after": "0f1c3ff6fe74058cb1be9cfd08426a301141cd858cac3133543080704657d998"
+    },
+    "slides.json": {
+      "before": "66f24ec47cd9384da1b11555f128990ef441f8c5f152b9f327d59dfe9bfb863a",
+      "after": "0bbcb8639db1a5ae526d3131b2b1fb45e3a1264070bde4ca674b63935ce00403"
+    },
+    "README.md": {
+      "before": "2eab73ab8a8c894a49b6c052b1d5385aaa247e3cc435221d9c24c0c62533b379",
+      "after": "11cd8c8b987b0765b31f3abe4bc2a376dcf96a7335d01d07f5984874463fe50b"
+    },
+    "materials.json": {
+      "before": "e9916f3cd1d991e8624156a7bcc531fde5e97210f9a7e5e2a6920b3f589ab8a5",
+      "after": "42719423093ed237f91cf80a1a37ade38061a59e07a727094158a0a8828d1eea"
+    },
+    "src/实现约定.md": {
+      "before": "3bd9c08fdb575fe57edf9cacfd2e20e5ec82f7b18c34bbac6f117bba66be65c2",
+      "after": "1060b7ec4c0ec388dda909d5810a6274aa1574a3653633ee30a75d979037db51"
+    },
+    "src/agents-harness.json": {
+      "before": "5f88bc06d602bf66f50e21c1918cdb57a24c64a998087e714c8509bedf95e9b6",
+      "after": "1167cce6d5761c5809cb3d13b22a7c6a30cd7c499b9533d8f6723753093b8f19"
+    },
+    "src/prompting-verify-facts.json": {
+      "before": "b3801ac1ec70b4e1520d891afc47b1a690a43f1bb473883b29a1b370fa265180",
+      "after": "eeba701aecbd6b956841ecff25a2daf0846d3df6ce7009ce8c91f59c51db1e51"
+    },
+    "src/section-frames.js": {
+      "before": "e24ef8aa4fd6bea0cac07d908677de8a97c80a4a166c84022edcf0ebee32533c",
+      "after": "0b853b2f48348a2a1214988ef44f381239fc7fe2e99abeec756b7cf7e07426a3"
+    },
+    "src/agents-frames.json": {
+      "before": "a9bb8dce1b4c4390df2cd1a1f38b329cb4a1ee6c415845e823c8e50196c855cc",
+      "after": "63d3cc8bf23752f0b0f0b6cc1b81daef6e2a267848fb9c483fd828f8125ccd23"
+    },
+    "src/agents-skills.json": {
+      "before": "834a86544d8f67b26803e1744385d3fa6ced04292af154efc14daf4386aeb134",
+      "after": "da800b863f7023497550fdd6b80fde640a0c87c24dfd307c64bfe4353935eff1"
+    },
+    "src/prompting-compare.json": {
+      "before": "0c9d8f13a1ff822c3e349220dd057a349276d6f7e5d9657eaa358cfd027ff47e",
+      "after": "1eced8e70e6754dda89deb59287cde315e5f624f102822032922055390c2a12d"
+    },
+    "src/prompting-task.js": {
+      "before": "fdbc58055aac1c9561e254c24fdb095502de1ac3346ad66d87a9cc1d846ecadf",
+      "after": "2e7e94b3584c635a933b9e8b1a41a79c1052845f41edf7e076a5453cdf37395c"
+    },
+    "src/agents-memory.js": {
+      "before": "027db948b05e497284d916758a911d389517d3059583190bfb74e4e834d13da8",
+      "after": "2e209f8e2c83dbf3709c657c7e7c13f34c2b2c546fbf159f201ad399625d9911"
+    },
+    "src/agents-skills.js": {
+      "before": "283924311322fabef41bee273f253dca3cab85521f6d2ee19d03b0cf5b11234e",
+      "after": "b35cf7592e0187ce72da2a836156021bb59c4a1b7e7bd5b51961aca19a75e2f7"
+    },
+    "src/prompting-validation.json": {
+      "before": "597f79ed29a0b5c09d3cb5ea2cb99974b0bdcfcc575415009da05067bffa01e7",
+      "after": "b8a24d66764d7d0b57f1afc5b37f1b8197ce2f223ed6081770426aa3c37f21b5"
+    },
+    "src/prompting-feedback.js": {
+      "before": "32c0da6aed08fdbdcadcac06f07946c3ea3310069a3ee170e1e095545ac5c5c3",
+      "after": "3347bb267269d92957b704a3c828f101f3de11c3e076ff1451530fc61a4ccce6"
+    },
+    "src/prompting-feedback.json": {
+      "before": "fddefd37d3e527de780fedd0229b5458fe5ffcb8abad673f62ca1559f8421ea8",
+      "after": "6d64564f22ede78612d7aef3374fccf6418e480f9a399975ce9e8782d4f98b45"
+    },
+    "src/agents-tools.js": {
+      "before": "9de805b441712993ef07d5308df8365a499f53f5c351d405ad86d03e87deff23",
+      "after": "1542e19b9ede61b1895bda02be6c0ed7c5b49b9f788d86d8c9c42a5a2177c904"
+    },
+    "src/prompting-frame.json": {
+      "before": "11497ef98bb8bea4b39ac9ad95d14573bcfc02de3b01f29e6c3d91b0ede7a4db",
+      "after": "025e0e5f9527a99623b3607610b26c70c916d53682d2dd4b95903d8f723fe69c"
+    },
+    "src/data.js": {
+      "before": "a6b98a1e2b5a02ed285391e07a166b0a48c6476137c8efc3f269311ec17219ab",
+      "after": "4f492f4a12e6dde50a14792d9605b64c430ce118481f54aa29a3965e58f17afb"
+    },
+    "src/prompting-frame.js": {
+      "before": "45fd95f5ffaf4796ca7a9e1ffba2a4be5ed57fd03517bfa61a9ac67a7b7d4235",
+      "after": "d1db5f85d60810780d5ef747134bc933549747c5a0889b78667ef6a9d1803faa"
+    },
+    "src/player.js": {
+      "before": "1bce59864e7f711f4da03adb3589bdab9f1542d0abbdd157402d1df04f720cd2",
+      "after": "cd639481864a655c81d9301506ce354de98f33c2f9c02b751291e539263a8cc8"
+    },
+    "src/001-004.js": {
+      "before": "701ba8b351a36946b4d369f02a0f5962c3b4f1d48d12f2e3949bd7c6a6569276",
+      "after": "2627fbe6bb0fe6e04bad20d7feaa80722122bd94161c423c5de96fa89ba3fdfd"
+    },
+    "src/agents-frames.js": {
+      "before": "e5f3c21cafbc478594b35778f95b2a366cd86aa9902beddabd0180bcb0095d55",
+      "after": "357ee3e6ae2007303b78f47170abf3cf0039e41f82643d7e1b25954d8f9afbbd"
+    },
+    "src/prompting-clarify.json": {
+      "before": "1b79a8f53d35c03b52e0665ce534ac212df1591d0e79c128b51cfc796bc84ab5",
+      "after": "838e05ad3c4c9855c292f183b75dccbdbaec34ee465a3b86d243da10f247e562"
+    },
+    "src/agents-tools.json": {
+      "before": "b051c7b15552a5ee3816619bd23ef2d19fb894e073d61763b7d0291f9f2cc6c6",
+      "after": "164f654d807b258c91680a0fb5e04e45e9b6a51cbba6a9dbe8b4aa6c93a036b8"
+    },
+    "src/base.css": {
+      "before": "0d7a66f99cf9523ae65a53f880360c5332bcab3492e1fd3a52ae2cc55bab424a",
+      "after": "378a222aec120d701ecddc6d63e805b93ee359411ce38033b4b92f7aa1a30c22"
+    },
+    "src/agents-harness.js": {
+      "before": "1fe6b3ff2e0829df50f8af3eef5f7d81dd8745e9865f2c7f714a6a70550cb679",
+      "after": "e2d58a8acb5b7916bcda1fb275b811a38e022b6bcd2a8380fe61aed54af0fd67"
+    },
+    "src/agents-memory.json": {
+      "before": "8e4e1f007fc697c3be37fccc1e612234db976444c9c51d896164ea281a4f9e15",
+      "after": "2ed771828c96d77c92d7f7cfe4269b41cbc6138860ec0dbf4c9157106eaa39fc"
+    }
+  },
+  "documentation_updates": [
+    "../../AGENTS.md",
+    "../../00-课程规划/课程共识与制作规范.md",
+    "../../00-课程规划/第一讲课程规划.md",
+    "../../README.md",
+    "sources/资料索引.md"
+  ],
+  "first49_metadata_pages": [
+    1,
+    14,
+    46,
+    49
+  ],
+  "first49_content_change_pages": [
+    1,
+    14,
+    25,
+    28,
+    30,
+    32,
+    37,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    46,
+    47,
+    49
+  ],
+  "note": "metadata页码仅表示slides记录差异；JS画面和材料修订另列，具体以问题记录为准。",
+  "added_review_sources": {
+    "sources/official-readers/remarkable.html": "06832852150997d99d74e25f1216a12833ee5f42888443b62a8bb86b91d8d7b5",
+    "sources/official-readers/aws.html": "a741495b85e3951e4c3af487927ae424ab3802f5acd9b36ab4d9885b33e12463",
+    "sources/official-readers/fin.html": "ae3b39ebcd4fe7123dc355b982371c3c3494b4aac552c5abc82f441993a076d9",
+    "sources/official-readers/README.md": "73bbd6b28785643462ecd44596063cd61bfdf9d5c81bc2805e08c1d62fabc248",
+    "sources/official-readers/mapping.json": "079832690f62b1d9b8b30878a29e733f953e7ded7cbff65bba63b5b0b1a9f524",
+    "sources/official-readers/rpeval.html": "4da5a7f6e4e9a159b04e746f86211517a84d25d420c3ef18f5015215424b8c5f",
+    "sources/official-readers/zep.html": "ddd64eef9fcebb1679575fd20e202c83fe9f629a3c4b08fe00caf7a8c318e5a6",
+    "sources/official-readers/creation-record.json": "6c9ce20ed15a1aadd63e384a4459e2726cb6255aaddeae1939d41d8a4af2e1bd",
+    "sources/official-readers/box.html": "16a625b4a4755483e715eb44305055e74908a7098e9fbd15fba67119aeb70027",
+    "sources/library/manifest.json": "daa8faae149a9e9d5839672dbcc264e510f02f40ff7a9afaaff5431adf74e030",
+    "sources/library/SKILL/index.html": "5cb684388e2c467a6caa9d808531069294a033709be8b9ba75024c925778723c",
+    "sources/library/SKILL/slides.json": "f69bf64cd57a6308063d1edf721f89fa49b274a3ea7f10f00927e9840cf2c8f3",
+    "sources/library/SKILL/original.html": "dd6e0c1c839d4873f2585c77d9ce8b7606595e961db63630addc4d2ddf009a3e",
+    "sources/library/PLAN/original.md": "4f9f84b92202d5b89cadb559935841ef0cd49e6e904b2004d585bac5c4a68692",
+    "sources/library/PLAN/index.html": "6e9a39e809e1d30319204eaad37d03fb3ee6810be83ed186eae17e5fccc0a235",
+    "sources/library/L3/original.json": "83dccce8f3f9a0137eaea900269622928dbaf1f763cdb92c75c35cdaf115a01a",
+    "sources/library/L3/index.html": "fbc5eef549d4c7e06ba99476653514f74b50401bcdd577494fbc6536e9c93ab8",
+    "sources/library/NOTEBOOK_COMPLETED/index.html": "5e62c862e38fb1113a10d674ec0e2bb2efcd5b281ed75f44c3ce5ab5112233b9",
+    "sources/library/NOTEBOOK_COMPLETED/original.ipynb": "50f3f8bf4f378aac1a8238834edb41a6ae4d2b9dde0171155b9df46945a082c6",
+    "sources/library/L2/original.json": "43181edcafe724528147e760060908c1f8acadaeee7887ff0c5f06d403fe4cd1",
+    "sources/library/L2/index.html": "b54b2ab3708f74c85348d77634fcd59cef6c218d23d741475cd593b2b712d1f4",
+    "sources/library/MCP/index.html": "8edc1265b24a37ba4e1c87f91c6e0042ad5d4dc80647da5fcf3183b8404b5637",
+    "sources/library/MCP/slides.json": "95de06886b94204ceb29ed7891cd8827d3b8f27475e563ff55130c42d180961a",
+    "sources/library/MCP/original.html": "e6a5284b1352157237e766660a1f7c9d1db854d750ea02927fcdfb6abb09b2d1",
+    "sources/library/PROMPT_PDF/index.html": "eaebcaec64ffa57c6ae15e0df1b14b6b03bd35501646ec8021cc766cf8954722",
+    "sources/library/PROMPT_PDF/original.pdf": "7709a7f604ea71312e294d12c56f499551118db7f8953fc6dce7ae305d0c5e5e",
+    "sources/library/PROMPT_PDF/extracted.txt": "8781f9a43b09474d3a15164dbd84eb1bdded08b2329291321d6b0e7dfe19584b",
+    "sources/library/L1/original.json": "74dec912c3e7c0ef92fcf85e285370a33713986b171e93dc6859df539d7d7681",
+    "sources/library/L1/index.html": "188f93d413637f70a18c1e1f03d5b914c2f710498f2363cdc97a2d9aa1d7be02",
+    "sources/library/TEACHER/original.md": "45f1f11359b25bbbb4109466a2451b085fc46f55508ad90864d163b62a8fcc96",
+    "sources/library/TEACHER/index.html": "27f5393472e7467e4d200fc9c358d9abf9b0b69d7b40d0f65cb360fe39d6dadb",
+    "sources/library/MEM/index.html": "ddfb6c343499a931acfcc975e4f1c041d6429e99bd4f43566ae32788334ad8ed",
+    "sources/library/MEM/slides.json": "64340a49bdbe48dad6e9484c27495476d1d05493f9990e49230e9bbc84befacb",
+    "sources/library/MEM/original.html": "b0a8e08832af00dad0ddac49e146285ac984d08cdeaa5974fe62f621f11a8ea8",
+    "sources/file-readers/memory-1.html": "4092792cfb00a7ea07f247cde936debcd931ab199f567f9367da8694fdc89f72",
+    "sources/file-readers/skill-07.html": "e04cff8a4d987657c94ac6d5b89cd68fb9fa63c2092a103f19e8b0515089e326",
+    "sources/file-readers/tool-6.html": "fd361c36b67df1b0d2ead2d503e6508c7cff5b3f09d52255124e6ff5e0c00679",
+    "sources/file-readers/skill-11.html": "ae57de7ce801976a213377392bda7333a1d95ec25b85cb73851581f5af6834d4",
+    "sources/file-readers/skill-10.html": "5d8c52aa44b40aaf2157de6baa0acfd5ba9ee3fa461f89daf16b72cff03a8ec5",
+    "sources/file-readers/skill-06.html": "028bee152bce582410859a06624a083203f0c265f539695b650bfa2deefdbeb9",
+    "sources/file-readers/skill-01.html": "7fe821a79d9a1cb9a45b30bfe79d2c52e149aeb92af2943b5c7a7da17ac800dd",
+    "sources/file-readers/tool-1.html": "e28b36f03f29666e359a32c33ca8bc92d0755a0ddb9c45f97e97fe7bdfb14299",
+    "sources/file-readers/mcp-record.html": "1dcdbc5f1276d1ddd9340718e0927cb3e041e60b2bbaddecde476e09270c538d",
+    "sources/file-readers/tool-2.html": "e8c3ac7d1b204aad6d52bce9dd3f38b46fc021b13941c09cab9103d8aa61d613",
+    "sources/file-readers/skill-03.html": "c53133174a7c04d892f4de6804db50200ca5b0fafe6e646466c6da1696870ef0",
+    "sources/file-readers/tool-files.html": "39c2ff1a69b2fe829bc073cc7cf09d720837edfb631092cc8a28fe9999e62f0f",
+    "sources/file-readers/memory-files.html": "d20c5ac49d37def046e0387349fc928017be68bc945e16bb8fd2c04e9963da2b",
+    "sources/file-readers/tool-3.html": "ddc03482b17d6901dcc3eca436328d80849bddb9ff1bc2c806bffbd588cefbdc",
+    "sources/file-readers/skill-02.html": "219a8cd1686c5e0f13d1f8fb07559f7b949061ab96353994ceff206a31ef3d1d",
+    "sources/file-readers/skill-09.html": "18c184ee77d3e228ff76fcefc9523d0d405811974ff38a2fd6ad0a3b915d364a",
+    "sources/file-readers/memory-3.html": "151984680ea738b89af273c40c107d7f41cb7811b02594d10ff78d0d2640310a",
+    "sources/file-readers/tool-4.html": "e118109c9d5e01c23edc11ff6b3d6a34b38c7946755dcc3591b7f2c6a7104019",
+    "sources/file-readers/skill-05.html": "89cbdd9c96fc4a6697e0b70428db5429f779c771e7aeee43e9b56be35b37f6d4",
+    "sources/file-readers/skill-package.html": "039f1d3c21fc18c35335950a2ab22d0cb37672caed0130881bc3b46a677c14d7",
+    "sources/file-readers/completed-notebook.html": "6b2c179749cbcfb96a83eefbf47c62ccd20df310bab1472686660355d20ae4f3",
+    "sources/file-readers/tool-5.html": "2dfba8a369519595bd9825bb30ff30eda5daa8a1256f1f46cf03d0bc8599aa3b",
+    "sources/file-readers/skill-04.html": "98b5338de8d1f1a701c9f0dec4e4c96072b271f7b7f5a5c248d02a93a817b7f8",
+    "sources/file-readers/skill-12.html": "27a29a34d9909b53f1d6b74fb8545d3b787276876b26d3bde23f154439ebdc9d",
+    "sources/file-readers/memory-2.html": "d24b4a6bcc5f97a30165357a78d205be425f45ff108d307aa7e552a3194d104e",
+    "sources/file-readers/skill-08.html": "7ebc4cf3a82ec9fdbe17d7449804798298fc1291d2effc9a619719e78a92509e",
+    "sources/agents-skills/completed/notebook-readable.txt": "bee8a2fde289c759cfb866c114654e30c606805d430739ce7ad8f1874ee25ceb",
+    "sources/agents-skills/completed/provenance.json": "202264eaacbcf4b33eb435323d96ed4384770c2937dce75e814d79dce87c0798",
+    "sources/agents-skills/completed/python-lists-and-mean-completed.ipynb": "50f3f8bf4f378aac1a8238834edb41a6ae4d2b9dde0171155b9df46945a082c6",
+    "sources/agents-skills/completed/execution.json": "9f90bcfbcdb16025d09ac6a561c52edacf5ccf99396f6623354c7c8a991c5e60"
+  }
+}

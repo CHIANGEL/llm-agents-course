@@ -1,0 +1,232 @@
+{
+  "pages": [
+    {
+      "page": 52,
+      "renderer": 2052,
+      "section": "Agents·工具调用",
+      "type": "overview",
+      "title": "工具调用：大模型与外界交互的主要途径",
+      "seconds": 105,
+      "on_slide": [
+        "模型生成调用请求，应用程序执行对应工具，把结果带回模型。",
+        "先看两类交互，再用天气查询看完整往返，最后看复杂应用。"
+      ],
+      "talk": "沿双向箭头讲清请求出去、结果回来。工具连接模型与外部数据、文件和软件。说明本节三个层次。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "TOOLS_R7",
+          "locator": "天气原始材料与模板；工具交互的过程图"
+        }
+      ]
+    },
+    {
+      "page": 53,
+      "renderer": 2053,
+      "section": "Agents·工具调用",
+      "type": "content",
+      "title": "与外界交互：获取信息，也能产生影响",
+      "seconds": 120,
+      "on_slide": [
+        "获取信息：查询天气、检索新闻、读取文件。",
+        "产生影响：订票、编辑文件、操作电脑。",
+        "两类交互都需要把执行结果带回模型。"
+      ],
+      "talk": "天气与新闻会随时间变化，模型训练截止之后的信息要从外界取得。操作类工具则改变外部系统，并返回状态或新的观察。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "TOOLS_R7",
+          "locator": "天气原始材料与模板；工具交互的过程图"
+        }
+      ]
+    },
+    {
+      "page": 54,
+      "renderer": 2054,
+      "section": "Agents·工具调用",
+      "type": "content",
+      "title": "天气查询：一次调用，有来有回",
+      "seconds": 150,
+      "on_slide": [
+        "用户问：纽约现在天气怎么样？",
+        "模型生成get_weather调用；应用执行工具；工具返回72°F、Partly cloudy。",
+        "应用把结果放回输入，模型生成中文回答。"
+      ],
+      "talk": "先沿完整往返认识三个参与者：模型、运行它的应用程序、天气工具。接下来只拆两个关键点：调用格式与连续文本。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "TOOLS_R7",
+          "locator": "天气原始材料与模板；工具交互的过程图"
+        }
+      ]
+    },
+    {
+      "page": 55,
+      "renderer": 2055,
+      "section": "Agents·工具调用",
+      "type": "content",
+      "title": "调用请求：工具名、参数与约定格式",
+      "seconds": 180,
+      "on_slide": [
+        "工具说明：get_weather查询地点天气，location是必填地点。",
+        "调用文本用<tool_call>包裹JSON对象，name指定工具，arguments给出参数。",
+        "应用从约定格式中解析工具名和参数，调用相应程序。"
+      ],
+      "talk": "先把左侧名称与地点要求对应到右侧原始调用。这里只读三个位置：调用边界、工具名称、地点值。Qwen2.5使用本页显示的模板格式。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "TOOLS_R7",
+          "locator": "天气原始材料与模板；工具交互的过程图"
+        }
+      ]
+    },
+    {
+      "page": 56,
+      "renderer": 2056,
+      "section": "Agents·工具调用",
+      "type": "content",
+      "title": "程序执行工具，取得模型之外的结果",
+      "seconds": 120,
+      "on_slide": [
+        "应用执行get_weather(location=\"New York\")。",
+        "本例工具读取weather_fixture.json中的纽约记录，返回72°F与Partly cloudy。",
+        "应用追加本次调用和工具返回，作为下一次模型输入。"
+      ],
+      "talk": "指明模型生成调用文本与程序实际执行之间的边界。天气数据来自外部文件；接入天气服务时，工具从服务查询所需记录。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "TOOLS_R7",
+          "locator": "天气原始材料与模板；工具交互的过程图"
+        }
+      ]
+    },
+    {
+      "page": 57,
+      "renderer": 2057,
+      "section": "Agents·工具调用",
+      "type": "content",
+      "title": "工具调用，也是一段文本的继续生成",
+      "seconds": 360,
+      "on_slide": [
+        "左侧：要求与工具、用户问题、模型调用、工具返回、模型回答。",
+        "右侧：每个条目的原始chat template片段，以及两次完整输入。",
+        "已有文本保留；应用追加调用和返回结果，再让模型继续预测下一个Token。"
+      ],
+      "talk": "先依次点击五个条目，再比较第一次与第二次完整输入。第一次止于assistant前缀；第二次保留原始要求与问题，新增调用和工具返回，也止于assistant前缀。最后看完整对话文本。指出Qwen2.5把工具返回包装在user段的tool_response中，其内容仍来自工具。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "TOOLS_R7",
+          "locator": "天气原始材料与模板；工具交互的过程图"
+        }
+      ]
+    },
+    {
+      "page": 58,
+      "renderer": 2058,
+      "section": "Agents·工具调用",
+      "type": "summary",
+      "title": "天气查询小结：两次生成，一次工具执行",
+      "seconds": 90,
+      "on_slide": [
+        "第一次生成：根据问题与工具说明写出调用请求。",
+        "工具执行：应用解析并分发，工具读取外部数据。",
+        "第二次生成：调用与结果追加到输入，模型据此生成回答。"
+      ],
+      "talk": "回到原问题：模型依然在续写文本，实际读取由工具程序完成。两轮next token prediction之间，应用接入了一次外部执行。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "TOOLS_R7",
+          "locator": "天气原始材料与模板；工具交互的过程图"
+        }
+      ]
+    },
+    {
+      "page": 66,
+      "renderer": 2066,
+      "section": "Agents·工具调用",
+      "type": "content",
+      "title": "Computer Use：把读取与操作封装成工具",
+      "seconds": 120,
+      "on_slide": [
+        "读取：截图或界面信息告诉模型电脑当前显示什么。",
+        "操作：工具把点击、输入、滚动交给软件或操作系统。",
+        "再次读取：新界面返回模型，作为下一步动作的依据。"
+      ],
+      "talk": "将电脑操作压缩为一个往返。模型提出动作，程序调用系统接口执行；新截图或界面信息回来以后继续判断。工具返回也可以是图像。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "TOOLS_R7",
+          "locator": "天气原始材料与模板；工具交互的过程图"
+        }
+      ]
+    },
+    {
+      "page": 71,
+      "renderer": 2071,
+      "section": "Agents·工具调用",
+      "type": "content",
+      "title": "复杂应用，拆开看仍是一次次工具调用",
+      "seconds": 120,
+      "on_slide": [
+        "资料研究：检索、读取网页、写入报告。",
+        "任务记忆：写入记录，之后通过文件读取或检索取回。",
+        "软件操作：读取界面、点击输入、读取新状态。"
+      ],
+      "talk": "三条横向流程说明任务不同、工具不同，共同点是每次结果都会成为后续输入。Memory在这里先说明工具基础，下一节再展开保存什么、何时取回。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "TOOLS_R7",
+          "locator": "天气原始材料与模板；工具交互的过程图"
+        }
+      ]
+    },
+    {
+      "page": 72,
+      "renderer": 2072,
+      "section": "Agents·工具调用",
+      "type": "summary",
+      "title": "从对话机器人，走向能做事的智能体",
+      "seconds": 105,
+      "on_slide": [
+        "LLM根据输入生成内容，也能生成工具调用。",
+        "应用执行工具：取得外部信息，或对外部系统产生影响。",
+        "工具结果回到输入，模型据此继续行动。",
+        "下一节Memory：通过写入、读取和检索，让信息跨任务保留与复用。"
+      ],
+      "talk": "回到章首双向关系，也回应首页从生成回答到执行操作之间的断点。工具把生成接到实际执行；结果再回来，才能继续工作。随后休息10分钟，再进入Memory。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "TOOLS_R7",
+          "locator": "天气原始材料与模板；工具交互的过程图"
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "52": "模型生成调用请求，应用程序执行对应工具，把结果带回模型。\n\n先看两类交互，再用天气查询看完整往返，最后看复杂应用。",
+    "53": "获取信息：查询天气、检索新闻、读取文件。\n\n产生影响：订票、编辑文件、操作电脑。\n\n两类交互都需要把执行结果带回模型。",
+    "54": "用户问：纽约现在天气怎么样？\n\n模型生成get_weather调用；应用执行工具；工具返回72°F、Partly cloudy。\n\n应用把结果放回输入，模型生成中文回答。\n\n第一次完整输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n\n\n模型调用文本\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n\n工具返回\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n\n第二次完整输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n<|im_start|>user\n<tool_response>\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n</tool_response><|im_end|>\n<|im_start|>assistant\n\n\n模型回答\n纽约气温72°F，局部多云。<|im_end|>\n\n完整消息列表\n[\n  {\n    \"role\": \"system\",\n    \"content\": \"请用中文回答。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"纽约现在天气怎么样？\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"tool_calls\": [\n      {\n        \"type\": \"function\",\n        \"function\": {\n          \"name\": \"get_weather\",\n          \"arguments\": {\n            \"location\": \"New York\"\n          }\n        }\n      }\n    ]\n  },\n  {\n    \"role\": \"tool\",\n    \"content\": \"Current weather in New York:\\nTemperature: 72°F\\nConditions: Partly cloudy\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"纽约气温72°F，局部多云。\"\n  }\n]\n",
+    "55": "工具说明：get_weather查询地点天气，location是必填地点。\n\n调用文本用<tool_call>包裹JSON对象，name指定工具，arguments给出参数。\n\n应用从约定格式中解析工具名和参数，调用相应程序。\n\n第一次完整输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n\n\n模型调用文本\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n\n工具返回\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n\n第二次完整输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n<|im_start|>user\n<tool_response>\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n</tool_response><|im_end|>\n<|im_start|>assistant\n\n\n模型回答\n纽约气温72°F，局部多云。<|im_end|>\n\n完整消息列表\n[\n  {\n    \"role\": \"system\",\n    \"content\": \"请用中文回答。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"纽约现在天气怎么样？\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"tool_calls\": [\n      {\n        \"type\": \"function\",\n        \"function\": {\n          \"name\": \"get_weather\",\n          \"arguments\": {\n            \"location\": \"New York\"\n          }\n        }\n      }\n    ]\n  },\n  {\n    \"role\": \"tool\",\n    \"content\": \"Current weather in New York:\\nTemperature: 72°F\\nConditions: Partly cloudy\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"纽约气温72°F，局部多云。\"\n  }\n]\n",
+    "56": "应用执行get_weather(location=\"New York\")。\n\n本例工具读取weather_fixture.json中的纽约记录，返回72°F与Partly cloudy。\n\n应用追加本次调用和工具返回，作为下一次模型输入。\n\n第一次完整输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n\n\n模型调用文本\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n\n工具返回\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n\n第二次完整输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n<|im_start|>user\n<tool_response>\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n</tool_response><|im_end|>\n<|im_start|>assistant\n\n\n模型回答\n纽约气温72°F，局部多云。<|im_end|>\n\n完整消息列表\n[\n  {\n    \"role\": \"system\",\n    \"content\": \"请用中文回答。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"纽约现在天气怎么样？\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"tool_calls\": [\n      {\n        \"type\": \"function\",\n        \"function\": {\n          \"name\": \"get_weather\",\n          \"arguments\": {\n            \"location\": \"New York\"\n          }\n        }\n      }\n    ]\n  },\n  {\n    \"role\": \"tool\",\n    \"content\": \"Current weather in New York:\\nTemperature: 72°F\\nConditions: Partly cloudy\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"纽约气温72°F，局部多云。\"\n  }\n]\n",
+    "57": "左侧：要求与工具、用户问题、模型调用、工具返回、模型回答。\n\n右侧：每个条目的原始chat template片段，以及两次完整输入。\n\n已有文本保留；应用追加调用和返回结果，再让模型继续预测下一个Token。\n\n第一次完整输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n\n\n模型调用文本\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n\n工具返回\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n\n第二次完整输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n<|im_start|>user\n<tool_response>\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n</tool_response><|im_end|>\n<|im_start|>assistant\n\n\n模型回答\n纽约气温72°F，局部多云。<|im_end|>\n\n完整消息列表\n[\n  {\n    \"role\": \"system\",\n    \"content\": \"请用中文回答。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"纽约现在天气怎么样？\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"tool_calls\": [\n      {\n        \"type\": \"function\",\n        \"function\": {\n          \"name\": \"get_weather\",\n          \"arguments\": {\n            \"location\": \"New York\"\n          }\n        }\n      }\n    ]\n  },\n  {\n    \"role\": \"tool\",\n    \"content\": \"Current weather in New York:\\nTemperature: 72°F\\nConditions: Partly cloudy\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"纽约气温72°F，局部多云。\"\n  }\n]\n",
+    "58": "第一次生成：根据问题与工具说明写出调用请求。\n\n工具执行：应用解析并分发，工具读取外部数据。\n\n第二次生成：调用与结果追加到输入，模型据此生成回答。\n\n第一次完整输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n\n\n模型调用文本\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n\n工具返回\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n\n第二次完整输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n<|im_start|>user\n<tool_response>\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n</tool_response><|im_end|>\n<|im_start|>assistant\n\n\n模型回答\n纽约气温72°F，局部多云。<|im_end|>\n\n完整消息列表\n[\n  {\n    \"role\": \"system\",\n    \"content\": \"请用中文回答。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"纽约现在天气怎么样？\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"tool_calls\": [\n      {\n        \"type\": \"function\",\n        \"function\": {\n          \"name\": \"get_weather\",\n          \"arguments\": {\n            \"location\": \"New York\"\n          }\n        }\n      }\n    ]\n  },\n  {\n    \"role\": \"tool\",\n    \"content\": \"Current weather in New York:\\nTemperature: 72°F\\nConditions: Partly cloudy\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"纽约气温72°F，局部多云。\"\n  }\n]\n",
+    "66": "读取：截图或界面信息告诉模型电脑当前显示什么。\n\n操作：工具把点击、输入、滚动交给软件或操作系统。\n\n再次读取：新界面返回模型，作为下一步动作的依据。",
+    "71": "资料研究：检索、读取网页、写入报告。\n\n任务记忆：写入记录，之后通过文件读取或检索取回。\n\n软件操作：读取界面、点击输入、读取新状态。",
+    "72": "LLM根据输入生成内容，也能生成工具调用。\n\n应用执行工具：取得外部信息，或对外部系统产生影响。\n\n工具结果回到输入，模型据此继续行动。\n\n下一节Memory：通过写入、读取和检索，让信息跨任务保留与复用。"
+  },
+  "sources": {
+    "TOOLS_R7": {
+      "title": "工具调用r7来源与文本对应档案",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/tool-calling-r7/source-map.json"
+    }
+  }
+}

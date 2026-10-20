@@ -1,0 +1,42 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8-qa1#p=86&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8-qa1#p=86&s=1
+	2 container
+		40 container Description: 第86页 从Memory到个性化与主动式智能体, ID: mount
+			41 container 第86页 从Memory到个性化与主动式智能体
+				42 heading 从Memory到个性化与主动式智能体, Value: 1
+					43 text 从Memory到个性化与主动式智能体
+				44 container 课件内容
+					45 container
+						46 text 长期记忆使智能体更了解用户；持续任务还需要触发、判断和执行。 个性化智能体 · Personal Agent 围绕同一用户，保留偏好、背景与任务进度。 主动式智能体 · Proactive Agent 在时间或事件触发后，判断是否应继续工作。 记忆回答“之前发生了什么”；触发机制回答“什么时候开始下一步”。
+				47 container 课程进度
+					48 button 导入
+					49 button 1. LLM基础
+					50 button 2. Prompting
+					51 button 3. Agents · Externalization & Internalization
+						52 text 3. Agents 
+						53 text · Externalization & Internalization
+					54 button 3.0 外化与内化总览
+					55 button 3.1 工具调用
+					56 button 3.2 Memory
+					57 button 3.3 Skills
+					58 button 3.4 Harness
+					59 button 3.5 外化与内化整合
+					60 button 3.6 全讲总结
+		25 container Description: 课件操作, ID: controls
+			26 button Description: 上一步, Help: 上一步（←）
+			27 button Description: 下一步, Help: 下一步（→或空格）
+			28 container jump-form
+				29 text 页码
+				30 stepper (settable, integer) Description: 页码, Value: 86, ID: page-input
+				31 text / 151
+			61 text 整页显示
+			33 button 目录
+			34 button 讲者备注
+			35 button 完整材料
+			36 button 放大图解
+			37 button 全屏
+			38 button 隐藏, Help: 按H恢复
+			39 button 操作说明
+		62 text 第86页，从Memory到个性化与主动式智能体，整页显示
+
+The focused UI element is 40 container Description: 第86页 从Memory到个性化与主动式智能体, ID: mount

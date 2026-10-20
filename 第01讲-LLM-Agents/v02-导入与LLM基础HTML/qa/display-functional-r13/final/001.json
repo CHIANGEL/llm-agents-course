@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 1,
+  "text": "第一讲：LLM Agents\n从模型生成回答，走到Agent执行任务。\nPrompting组织输入，LLM生成内容，Agents执行并反馈。\n生成回答\n执行操作\n检查交付\n今天的讲座取消了。\n原定于今天举行的\n讲座已取消。\n读取文件 → 返回材料\n✓ 内容依据\n✓ 文件可用\n✓ 操作回执\n模型提出的内容，要与程序执行和最终结果联系起来看。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n生成回答 → 交代任务 → 组织执行",
+  "title": "第1页 第一讲：LLM Agents"
+}

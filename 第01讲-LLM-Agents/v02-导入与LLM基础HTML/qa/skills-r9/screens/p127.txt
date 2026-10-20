@@ -1,0 +1,69 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=127&s=1".
+0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=127&s=1
+	1 container
+		47 container Description: 第127页 公共Skill：也会把外部指令与程序带进来, ID: mount
+			48 container 第127页 公共Skill：也会把外部指令与程序带进来
+				49 heading 公共Skill：也会把外部指令与程序带进来, Value: 1
+					50 text 公共Skill：也会把外部指令与程序带进来
+				51 container 课件内容
+					52 container
+						53 text 公共Skill包含文字指令，也可能附带脚本；导入时要看它会引导什么操作。
+						54 heading 外部Skill包, Value: 3
+							55 text 外部Skill包
+						56 container
+							57 text SKILL.md中的指令
+							58 text 附带脚本
+							59 text 继续下载的外部内容
+						60 heading 模型与工具, Value: 3
+							61 text 模型与工具
+						62 container
+							63 text 可能读取无关文件
+							64 text 访问外部地址
+							65 text 运行文件操作
+						66 heading 潜在影响, Value: 3
+							67 text 潜在影响
+						68 container
+							69 text 数据外传
+							70 text 文件被改写
+							71 text 操作超出任务范围
+						72 text 实际影响取决于：文件权限、联网能力，以及执行前的确认机制。
+						73 content list
+							74 container
+								75 AXListMarker • 
+								76 text 检查来源和版本；读正文与脚本，核对外部依赖。
+							77 container
+								78 AXListMarker • 
+								79 text 先用不含敏感信息的材料，在受限环境验证行为。
+						80 text 高Star与流行度不能替代内容审查；授权范围要与当前任务相称。
+				81 container 课程进度
+					82 button 导入
+					83 button 1. LLM基础
+					84 button 2. Prompting
+					85 button 3. Agents · Externalization & Internalization
+						86 text 3. Agents 
+						87 text · Externalization & Internalization
+					88 button 3.0 外化与内化总览
+					89 button 3.1 工具调用
+					90 button 3.2 Memory
+					91 button 3.3 Skills
+					92 button 3.4 Harness
+					93 button 3.5 外化与内化整合
+					94 button 3.6 全讲总结
+		32 container Description: 课件操作, ID: controls
+			33 button Description: 上一步, Help: 上一步（←）
+			34 button Description: 下一步, Help: 下一步（→或空格）
+			35 container jump-form
+				36 text 页码
+				37 stepper (settable, integer) Description: 页码, Value: 127, ID: page-input
+				38 text / 161
+			95 text 整页显示
+			40 button 目录
+			41 button 讲者备注
+			42 button 完整材料
+			43 button 放大图解
+			44 button 全屏
+			45 button 隐藏, Help: 按H恢复
+			46 button 操作说明
+		96 text 第127页，公共Skill：也会把外部指令与程序带进来，整页显示
+
+The focused UI element is 47 container Description: 第127页 公共Skill：也会把外部指令与程序带进来, ID: mount

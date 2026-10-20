@@ -1,0 +1,47 @@
+{
+  "log": [
+    {
+      "file": "svg",
+      "image": {
+        "natural": [
+          20,
+          21
+        ],
+        "shown": [
+          20,
+          21
+        ],
+        "src": "../agents-skills/jupyter-notebook/assets/jupyter-small.svg"
+      },
+      "ratioEqual": true,
+      "replacementCharacters": false,
+      "preCount": 0
+    },
+    {
+      "file": "png",
+      "image": {
+        "natural": [
+          100,
+          100
+        ],
+        "shown": [
+          100,
+          100
+        ],
+        "src": "../agents-skills/jupyter-notebook/assets/jupyter.png"
+      },
+      "ratioEqual": true,
+      "replacementCharacters": false,
+      "preCount": 0
+    },
+    {
+      "returnedSlide": {
+        "index": 90,
+        "step": 0,
+        "page": 91,
+        "steps": 3
+      }
+    }
+  ],
+  "errors": []
+}

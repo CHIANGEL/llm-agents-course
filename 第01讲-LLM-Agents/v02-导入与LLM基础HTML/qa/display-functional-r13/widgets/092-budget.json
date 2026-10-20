@@ -1,0 +1,14 @@
+{
+  "broken": [],
+  "page": "92",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "pilot-budget.md\nrollout_summaries / 预算范围"
+  ],
+  "text": "文件先保存在磁盘中；摘要与详细记录承担不同作用。\n记忆文件\nmemory_summary.md\n摘要＋详细记录入口\npilot-budget.md\nrollout_summaries / 预算范围\nsecurity-requirements.md\nrollout_summaries / 安全要求\n摘要给出要点与入口\n↓\n按任务读取相关详细记录\n重置\nmemories_v2/rollout_summaries/pilot-budget.md\n# 企业知识库：试点预算的适用范围\n\n上次讨论的范围是20名员工、为期3个月的试点。\n10万元是本次试点的预算上限，包含试点软件费与初始配置。\n\n这一额度没有覆盖300人正式部署，也没有核定正式部署的年度费用。\n扩大部署时，应重新确认人数、使用期限、实施服务和费用范围。\n\n试点结束后，下一步是整理扩大部署的采购评估要求。\n\n\n本次问题涉及预算范围，读取这份记录会改变采购判断。\n\n查看文件能帮助我们理解存储结构；模型本次使用哪些内容，取决于客户端加载与工具读取。"
+}

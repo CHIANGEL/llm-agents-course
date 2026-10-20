@@ -1,0 +1,58 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=124&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=124&s=1
+	2 container
+		59 container Description: 第124页 高Star的Skill，适合你的任务吗？, ID: mount
+			60 container 第124页 高Star的Skill，适合你的任务吗？
+				61 heading 高Star的Skill，适合你的任务吗？, Value: 1
+					62 text 高Star的Skill，适合你的任务吗？
+				63 container 课件内容
+					64 container
+						65 text Star数量反映收藏关注； 是否适合自己的任务 ，要看实际输出。 通用PPT或写作Skill
+						66 content list
+							67 container
+								68 AXListMarker • 
+								69 text 可能按作者偏好的结构和文风组织。
+							70 container
+								71 AXListMarker • 
+								72 text 版式漂亮，仍可能不适合你的听众。
+							73 container
+								74 AXListMarker • 
+								75 text 统一规则也可能与你已经确认的要求冲突。
+						76 text 从自己的定稿与修改意见提炼 请根据我提供的几份定稿和修改意见，总结适合我的写作方法，整理成一个Skill。
+
+先归纳：面向谁、先讲什么、论据怎样安排、句子与段落习惯、哪些表达应避免。每条规则附上定稿中的依据。
+
+把适用文体和例外写清楚，不把单篇文章的话题、数字或临时要求写成通用规则。再用一份新的材料生成初稿，供我核对。 把“我喜欢怎样写”变成有例子、
+						77 text 有适用范围的具体规则。 同一份新材料，对比通用Skill、个人Skill与直接提示的结果，再决定采用哪一种。
+				78 container 课程进度
+					79 button 导入
+					80 button 1. LLM基础
+					81 button 2. Prompting
+					82 button 3. Agents · Externalization & Internalization
+						83 text 3. Agents 
+						84 text · Externalization & Internalization
+					85 button 3.0 外化与内化总览
+					86 button 3.1 工具调用
+					87 button 3.2 Memory
+					88 button 3.3 Skills
+					89 button 3.4 Harness
+					90 button 3.5 外化与内化整合
+					91 button 3.6 全讲总结
+		44 container Description: 课件操作, ID: controls
+			45 button Description: 上一步, Help: 上一步（←）
+			46 button Description: 下一步, Help: 下一步（→或空格）
+			47 container jump-form
+				48 text 页码
+				49 stepper (settable, integer) Description: 页码, Value: 124, ID: page-input
+				50 text / 161
+			92 text 整页显示
+			52 button 目录
+			53 button 讲者备注
+			54 button 完整材料
+			55 button 放大图解
+			56 button 全屏
+			57 button 隐藏, Help: 按H恢复
+			58 button 操作说明
+		93 text 第124页，高Star的Skill，适合你的任务吗？，整页显示
+
+The focused UI element is 59 container Description: 第124页 高Star的Skill，适合你的任务吗？, ID: mount

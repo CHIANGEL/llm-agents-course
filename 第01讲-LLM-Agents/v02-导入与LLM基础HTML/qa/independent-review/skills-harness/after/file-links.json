@@ -1,0 +1,208 @@
+{
+  "log": [
+    {
+      "page": 91,
+      "defaultHasOriginalExerciseText": false,
+      "links": 12
+    },
+    {
+      "page": 91,
+      "label": "jupyter-notebook/LICENSE.txt",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-01.html",
+      "title": "jupyter-notebook/LICENSE.txt",
+      "textChars": 10814,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 91,
+      "label": "jupyter-notebook/SKILL.md",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-02.html",
+      "title": "jupyter-notebook/SKILL.md",
+      "textChars": 4189,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 91,
+      "label": "jupyter-notebook/agents/openai.yaml",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-03.html",
+      "title": "jupyter-notebook/agents/openai.yaml",
+      "textChars": 370,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 91,
+      "label": "jupyter-notebook/assets/experiment-template.ipynb",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-04.html",
+      "title": "jupyter-notebook/assets/experiment-template.ipynb",
+      "textChars": 2629,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 91,
+      "label": "jupyter-notebook/assets/jupyter-small.svg",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-05.html",
+      "title": "jupyter-notebook/assets/jupyter-small.svg",
+      "textChars": 1094,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 91,
+      "label": "jupyter-notebook/assets/jupyter.png",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-06.html",
+      "title": "jupyter-notebook/assets/jupyter.png",
+      "textChars": 2571,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 91,
+      "label": "jupyter-notebook/assets/tutorial-template.ipynb",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-07.html",
+      "title": "jupyter-notebook/assets/tutorial-template.ipynb",
+      "textChars": 2547,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 91,
+      "label": "jupyter-notebook/references/experiment-patterns.md",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-08.html",
+      "title": "jupyter-notebook/references/experiment-patterns.md",
+      "textChars": 759,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 91,
+      "label": "jupyter-notebook/references/notebook-structure.md",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-09.html",
+      "title": "jupyter-notebook/references/notebook-structure.md",
+      "textChars": 810,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 91,
+      "label": "jupyter-notebook/references/quality-checklist.md",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-10.html",
+      "title": "jupyter-notebook/references/quality-checklist.md",
+      "textChars": 630,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 91,
+      "label": "jupyter-notebook/references/tutorial-patterns.md",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-11.html",
+      "title": "jupyter-notebook/references/tutorial-patterns.md",
+      "textChars": 743,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 91,
+      "label": "jupyter-notebook/scripts/new_notebook.py",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-12.html",
+      "title": "jupyter-notebook/scripts/new_notebook.py",
+      "textChars": 4136,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 97,
+      "defaultHasOriginalExerciseText": false,
+      "links": 2
+    },
+    {
+      "page": 97,
+      "label": "jupyter-notebook完整文件包（12文件）",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-package.html",
+      "title": "jupyter-notebook完整文件包（12文件）",
+      "textChars": 534,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 97,
+      "packageIndexCount": 12,
+      "pass": true
+    },
+    {
+      "page": 97,
+      "packageLastLinkOpensScript": true
+    },
+    {
+      "page": 97,
+      "packageBackRestored": true
+    },
+    {
+      "page": 97,
+      "label": "jupyter-notebook/scripts/new_notebook.py",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-12.html",
+      "title": "jupyter-notebook/scripts/new_notebook.py",
+      "textChars": 4136,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 103,
+      "defaultHasOriginalExerciseText": false,
+      "links": 2
+    },
+    {
+      "page": 103,
+      "label": "列表与平均值：完整Notebook",
+      "url": "http://127.0.0.1:8765/sources/file-readers/completed-notebook.html",
+      "title": "列表与平均值：完整Notebook",
+      "textChars": 2798,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 103,
+      "label": "jupyter-notebook完整文件包（12文件）",
+      "url": "http://127.0.0.1:8765/sources/file-readers/skill-package.html",
+      "title": "jupyter-notebook完整文件包（12文件）",
+      "textChars": 534,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "page": 103,
+      "packageIndexCount": 12,
+      "pass": true
+    },
+    {
+      "page": 103,
+      "packageLastLinkOpensScript": true
+    },
+    {
+      "page": 103,
+      "packageBackRestored": true
+    },
+    {
+      "page": 108,
+      "defaultHasOriginalExerciseText": false,
+      "links": 1
+    },
+    {
+      "page": 108,
+      "label": "MCP原课程执行记录",
+      "url": "http://127.0.0.1:8765/sources/file-readers/mcp-record.html",
+      "title": "MCP原课程执行记录",
+      "textChars": 2274,
+      "imagesLoaded": true,
+      "pass": true
+    },
+    {
+      "pageInputWidth": 68,
+      "displayedValue": "103"
+    }
+  ],
+  "errors": []
+}

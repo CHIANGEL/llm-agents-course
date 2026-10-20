@@ -1,0 +1,44 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=74&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=74&s=1
+	2 container
+		55 container Description: 第74页 Memory：把过去的信息带入当前任务, ID: mount
+			56 container 第74页 Memory：把过去的信息带入当前任务
+				57 heading Memory：把过去的信息带入当前任务, Value: 1
+					58 text Memory：把过去的信息带入当前任务
+				59 container 课件内容
+					60 container
+						61 text 工具把外部信息带回来；Memory让 过去的信息 也能参与当前任务。
+						62 image 会话A保存记录，后续按任务读取到会话B
+						63 text ① 保存与使用 存什么、怎么存、增删改查 ② 作用与代价 任务干扰、个人与主动智能体 ③ 实际怎样运行 用Codex采购案例观察读取
+				64 container 课程进度
+					65 button 导入
+					66 button 1. LLM基础
+					67 button 2. Prompting
+					68 button 3. Agents · Externalization & Internalization
+						69 text 3. Agents 
+						70 text · Externalization & Internalization
+					71 button 3.0 外化与内化总览
+					72 button 3.1 工具调用
+					73 button 3.2 Memory
+					74 button 3.3 Skills
+					75 button 3.4 Harness
+					76 button 3.5 外化与内化整合
+					77 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 74, ID: page-input
+				46 text / 151
+			78 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		79 text 第74页，Memory：把过去的信息带入当前任务，整页显示
+
+The focused UI element is 55 container Description: 第74页 Memory：把过去的信息带入当前任务, ID: mount

@@ -1,0 +1,14 @@
+{
+  "broken": [],
+  "page": "92",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "security-requirements.md\nrollout_summaries / 安全要求"
+  ],
+  "text": "文件先保存在磁盘中；摘要与详细记录承担不同作用。\n记忆文件\nmemory_summary.md\n摘要＋详细记录入口\npilot-budget.md\nrollout_summaries / 预算范围\nsecurity-requirements.md\nrollout_summaries / 安全要求\n摘要给出要点与入口\n↓\n按任务读取相关详细记录\n重置\nmemories_v2/rollout_summaries/security-requirements.md\n# 企业知识库：安全与账户要求\n\n资料按团队设置访问权限。\n企业账户应能统一开通、停用，并保留操作记录。\n供应商须说明数据存放位置、数据导出及终止服务后的处理办法。\n\n\n这份记录仍在磁盘上；是否读取，取决于当前任务是否需要。\n\n查看文件能帮助我们理解存储结构；模型本次使用哪些内容，取决于客户端加载与工具读取。"
+}

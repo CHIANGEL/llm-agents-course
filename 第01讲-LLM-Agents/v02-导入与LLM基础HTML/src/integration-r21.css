@@ -1,0 +1,54 @@
+.r21{position:relative;width:1504px;height:718px;color:#06265f;font-weight:400}
+.r21-at{position:absolute;box-sizing:border-box;white-space:pre-line}
+.r21-text{font-size:30px;line-height:1.65}
+.r21-lead{font-size:32px;line-height:1.5;font-weight:700}
+.r21-foot{font-size:28px;line-height:1.5;font-weight:700}
+.r21-h2{font-size:34px;line-height:1.4;font-weight:700}
+.r21-small{font-size:26px;line-height:1.6}
+.r21-center{text-align:center}.r21-red{color:#91251f}
+.r21-pic{object-fit:contain}.r21-lines{position:absolute;inset:0;width:1504px;height:718px;overflow:visible;pointer-events:none}
+.r21-tag{font-size:31px;font-weight:700;line-height:1.6}
+.r21-tag>span{color:#91251f}
+.r21-harness-boundary{position:absolute;left:0;top:157px;width:1504px;height:429px;border:2px dashed #9cacc0;border-radius:22px}
+.r21-harness-boundary>span,.r21-context-boundary>span{position:absolute;top:-23px;left:30px;padding:0 13px;background:#fff;font-size:30px;font-weight:700}
+.r21-child-area{position:absolute;left:505px;width:474px;height:166px;border-radius:22px;background:#eef5fa}
+.r21-child-a{top:176px}.r21-child-b{top:382px}
+.r21-label{font-size:24px;color:#52647c;background:#fff;text-align:center}
+.r21-context-boundary{position:absolute;left:0;top:162px;width:690px;height:346px;border:2px dashed #9cacc0;border-radius:20px}
+.r21-report{position:absolute;left:803px;top:191px;width:300px;height:282px;padding:20px 24px;border:2px solid #517aa3;border-radius:4px;background:#f7fafc;box-shadow:7px 7px 0 #e2eaf1}
+.r21-report h3{font-size:30px;margin:0 0 19px;color:#004397}.r21-report ul{margin:0;padding-left:32px;font-size:28px;line-height:1.9}
+.r21-return{font-size:26px;color:#91251f;background:#fff;text-align:center}
+.r21-cycle-label{position:absolute;left:520px;top:337px;width:480px;text-align:center;font-size:29px;line-height:1.6;color:#91251f;font-weight:700}
+.r21-case-heading{font-size:33px;line-height:1.55;font-weight:700}
+.r21-comparison{position:absolute;left:184px;top:216px;width:1290px}
+.r21-comparison-head,.r21-comparison-row{display:grid;grid-template-columns:510px 95px 1fr;gap:10px;align-items:center}
+.r21-comparison-head{font-size:25px;color:#52647c;border-bottom:2px solid #a9bed0;padding:0 0 18px}
+.r21-comparison-row{font-size:31px;min-height:84px;border-bottom:1px solid #dbe2e9}
+.r21-comparison-row strong{font-weight:700}
+.r21-arrow{color:#0872b9;font-size:40px;font-weight:400}
+.r21-quote{font-size:30px;line-height:1.45;color:#91251f}
+.r21-source{font-size:23px;line-height:1.5;color:#52647c}.r21-source a{color:#004397;text-decoration:underline;text-underline-offset:4px}
+.r21-training-flow{position:absolute;left:10px;top:109px;width:1484px;display:flex;align-items:center;justify-content:space-between;text-align:center}
+.r21-training-flow>div{width:307px}.r21-training-flow img{width:112px;height:112px;object-fit:contain}
+.r21-training-flow h3{font-size:31px;line-height:1.4;margin:13px 0 7px}.r21-training-flow p{font-size:25px;line-height:1.5;margin:0}
+.r21-training-flow>.r21-arrow{margin-top:-70px}
+.r21-retain{position:absolute;top:386px;width:680px;border-top:3px solid #aac1d3;padding-top:16px}
+.r21-learn{left:30px}.r21-external{left:790px}
+.r21-retain h3{font-size:32px;line-height:1.4;margin:0 0 12px;color:#004397}
+.r21-retain ul{margin:0;padding-left:35px;font-size:29px;line-height:1.7}
+.r21-score-round{position:absolute;top:99px;width:690px;height:326px;border-top:2px solid #a6bbcf}
+.r21-round-one{left:0}.r21-round-two{left:814px}
+.r21-score-round h3{font-size:30px;margin:14px 0 0 20px;color:#52647c}
+.r21-score-pair{display:flex;align-items:center;justify-content:space-around;padding-top:12px}
+.r21-score-pair>div:not(.r21-score-add){width:175px;display:flex;flex-direction:column;align-items:center}
+.r21-score-pair img{width:106px;height:106px;object-fit:contain}
+.r21-score-pair span{font-size:27px;line-height:1.45;margin-top:7px}
+.r21-score-pair b{font-size:62px;line-height:1.25;color:#004397}.r21-score-pair small{font-size:24px;margin-left:5px}
+.r21-score-add{font-size:27px;color:#004397;text-align:center;white-space:nowrap}
+.r21-score-add span{display:block;font-size:25px;color:#52647c;margin-top:13px}
+.r21-round-two .r21-score-pair b{color:#91251f}
+.r21-cycle-bridge{font-size:31px;font-weight:700;color:#91251f;text-align:center;background:#fff}
+.r21-continue{font-size:32px;font-weight:700;text-align:center;padding:10px 0;background:#eef5fa}
+.chapter-agenda.closing .chapter-transition{color:#06265f;font-weight:700}
+.chapter-agenda.closing .chapter-column li.done button{color:#344359}
+.chapter-agenda.closing .chapter-status{color:#537585}

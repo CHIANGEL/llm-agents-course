@@ -1,0 +1,50 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-qa1#p=141&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-qa1#p=141&s=1
+	2 container
+		42 container Description: 第141页 A2A：把任务交给另一个Agent, ID: mount
+			43 container 第141页 A2A：把任务交给另一个Agent
+				44 heading A2A：把任务交给另一个Agent, Value: 1
+					45 text A2A：把任务交给另一个Agent
+				46 container 课件内容
+					47 container
+						48 text 已结束：MCP：工具与数据 　→　
+						49 text 接下来：A2A：任务协作
+						50 text A2A · Agent2Agent：不同Agent服务之间的任务交互。
+						51 image 了解能力、发送任务、追问补充、返回成果四个环节
+						52 image 用户、本方助理A与汇率Agent B
+						53 text 沿汇率任务看： 谁接手？
+信息不够怎么办？
+完成后交回什么？ 先了解能力，再委托任务；过程可以包含补充信息和状态变化。
+				54 container 课程进度
+					55 button 导入
+					56 button 1. LLM基础
+					57 button 2. Prompting
+					58 button 3. Agents · Externalization & Internalization
+						59 text 3. Agents 
+						60 text · Externalization & Internalization
+					61 button 3.0 外化与内化总览
+					62 button 3.1 工具调用
+					63 button 3.2 Memory
+					64 button 3.3 Skills
+					65 button 3.4 Protocols
+					66 button 3.5 Harness
+					67 button 3.6 外化与内化整合
+					68 button 3.7 全讲总结
+		27 container Description: 课件操作, ID: controls
+			28 button Description: 上一步, Help: 上一步（←）
+			29 button Description: 下一步, Help: 下一步（→或空格）
+			30 container jump-form
+				31 text 页码
+				32 stepper (settable, integer) Description: 页码, Value: 141, ID: page-input
+				33 text / 177
+			69 text 整页显示
+			35 button 目录
+			36 button 讲者备注
+			37 button 完整材料
+			38 button 放大图解
+			39 button 全屏
+			40 button 隐藏, Help: 按H恢复
+			41 button 操作说明
+		70 text 第141页，A2A：把任务交给另一个Agent，整页显示
+
+The focused UI element is 42 container Description: 第141页 A2A：把任务交给另一个Agent, ID: mount

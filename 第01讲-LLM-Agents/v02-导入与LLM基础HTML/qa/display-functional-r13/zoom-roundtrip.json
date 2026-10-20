@@ -1,0 +1,165 @@
+[
+  {
+    "p": 68,
+    "same": true,
+    "name": "068-zoom-roundtrip",
+    "page": "68",
+    "selected": [
+      "5. 模型生成中文回答\n纽约气温72°F，局部多云。",
+      "对应片段"
+    ],
+    "text": "左侧看消息与分工，右侧看它们怎样接成连续文本。\n一次天气查询\n1. 回答要求与工具说明\n中文回答；get_weather需要地点\n2. 用户提出问题\n纽约现在天气怎么样？\n3. 模型生成工具调用\nget_weather · New York\n\n↓ 应用执行get_weather，结果返回 ↓\n\n4. 工具返回天气\n72",
+    "broken": []
+  },
+  {
+    "p": 92,
+    "same": true,
+    "name": "092-zoom-roundtrip",
+    "page": "92",
+    "selected": [
+      "security-requirements.md\nrollout_summaries / 安全要求"
+    ],
+    "text": "文件先保存在磁盘中；摘要与详细记录承担不同作用。\n记忆文件\nmemory_summary.md\n摘要＋详细记录入口\npilot-budget.md\nrollout_summaries / 预算范围\nsecurity-requirements.md\nrollout_summaries / 安全要求\n摘要给出要点与入口\n↓",
+    "broken": []
+  },
+  {
+    "p": 94,
+    "same": true,
+    "name": "094-zoom-roundtrip",
+    "page": "94",
+    "selected": [
+      "记忆摘要与使用要求\n客户端读取摘要",
+      "原始条目"
+    ],
+    "text": "用户提交任务后，客户端先读取摘要，连同其他必要材料组织成输入。\n首次模型输入\n基础指令\n客户端准备\n记忆摘要与使用要求\n客户端读取摘要\n项目说明与操作范围\n客户端准备\n用户：300人部署\n当前任务\n重置\n关键内容\n原始条目\n本次完整输入\n记忆摘要与使用要求\n## Memory\n\nUse the injected MEM",
+    "broken": []
+  },
+  {
+    "p": 96,
+    "same": true,
+    "name": "096-zoom-roundtrip",
+    "page": "96",
+    "selected": [
+      "当前条目列表"
+    ],
+    "text": "模型依据摘要中的路径，生成一次读取预算文件的工具调用。\n已经生成读取调用\n基础指令\n客户端准备\n记忆摘要与使用要求\n客户端读取摘要\n项目说明与操作范围\n客户端准备\n用户：300人部署\n当前任务\n模型：读取预算记录\n生成工具调用\n重置\n关键内容\n原始条目\n当前条目列表\n当前已记录的条目\n1. 基础指令\nYou are C",
+    "broken": []
+  },
+  {
+    "p": 97,
+    "same": true,
+    "name": "097-zoom-roundtrip",
+    "page": "97",
+    "selected": [
+      "工具：返回预算范围\n读取文件得到正文",
+      "原始条目"
+    ],
+    "text": "工具返回预算记录；客户端把调用与结果追加进下一次输入。\n读取后的下一次输入\n基础指令\n客户端准备\n记忆摘要与使用要求\n客户端读取摘要\n项目说明与操作范围\n客户端准备\n用户：300人部署\n当前任务\n模型：读取预算记录\n生成工具调用\n工具：返回预算范围\n读取文件得到正文\n重置\n关键内容\n原始条目\n本次完整输入\n工具：返回预",
+    "broken": []
+  },
+  {
+    "p": 99,
+    "same": true,
+    "name": "099-zoom-roundtrip",
+    "page": "99",
+    "selected": [
+      "本次完整输入"
+    ],
+    "text": "用户明确补充新条件后，新消息直接进入当前输入，并优先用于这次任务。\n用户继续补充条件\n基础指令\n记忆摘要与使用要求\n项目说明与操作范围\n用户：300人部署\n模型：读取预算记录\n工具：返回预算范围\n模型：给出评审要点\n用户：正式部署30万元\n重置\n关键内容\n原始条目\n本次完整输入\n本次输入的完整文本\n1. 基础指令\nYo",
+    "broken": []
+  },
+  {
+    "p": 108,
+    "same": true,
+    "name": "108-zoom-roundtrip",
+    "page": "108",
+    "selected": [
+      "assets/jupyter.png"
+    ],
+    "text": "从左侧选择文件；右侧查看原文、模板或图标。\njupyter-notebook / 12个文件\nSKILL.md\nreferences/tutorial-patterns.md\nreferences/experiment-patterns.md\nreferences/notebook-structure.md\nrefer",
+    "broken": []
+  },
+  {
+    "p": 113,
+    "same": true,
+    "name": "113-zoom-roundtrip",
+    "page": "113",
+    "selected": [
+      "客户端：可用Skill目录\n名称、用途与文件入口",
+      "消息结构"
+    ],
+    "text": "用户要求创建教学用Notebook骨架；目录中的用途与这个任务匹配。\n当前环节\n客户端：可用Skill目录\n名称、用途与文件入口\n用户：创建Notebook骨架\n用户输入\n目录给出用途与入口。\n重置\n关键内容\n完整内容\n消息结构\n截至此处的内容\n客户端：可用Skill目录\n{\n  \"type\": \"input_text",
+    "broken": []
+  },
+  {
+    "p": 114,
+    "same": true,
+    "name": "114-zoom-roundtrip",
+    "page": "114",
+    "selected": [
+      "工具：返回Skill正文\n工具返回",
+      "完整内容"
+    ],
+    "text": "目录指向入口文件；工具读取后，工作步骤和资源位置进入后续输入。\n当前环节\n模型：说明使用的Skill\n模型生成\n模型：读取SKILL.md\n模型生成\n工具：返回Skill正文\n工具返回\n第一次展开：目录 → 正文\n重置\n关键内容\n完整内容\n消息结构\n截至此处的内容\n工具：返回Skill正文\n---\nname: \"jup",
+    "broken": []
+  },
+  {
+    "p": 115,
+    "same": true,
+    "name": "115-zoom-roundtrip",
+    "page": "115",
+    "selected": [
+      "工具：返回教学参考\n工具返回",
+      "消息结构"
+    ],
+    "text": "按照SKILL.md给出的路径，继续读取本次需要的教程参考。\n当前环节\n模型：读取教学参考\n模型生成\n工具：返回教学参考\n工具返回\n第二次展开：正文 → 参考\n重置\n关键内容\n完整内容\n消息结构\n截至此处的内容\n工具：返回教学参考\n{\n  \"type\": \"function_call_output\",\n  \"call_",
+    "broken": []
+  },
+  {
+    "p": 117,
+    "same": true,
+    "name": "117-zoom-roundtrip",
+    "page": "117",
+    "selected": [
+      "工具：返回Notebook内容\n工具返回",
+      "完整内容"
+    ],
+    "text": "知道文件位置之后，再取得检查要求和Notebook的实际内容。\n当前环节\n模型：读取检查清单\n模型生成\n工具：返回检查清单\n工具返回\n模型：读取生成文件\n模型生成\n工具：返回Notebook内容\n工具返回\n先取得检查要求，再读取产物。\n重置\n关键内容\n完整内容\n消息结构\n截至此处的内容\n工具：返回Notebook内容\n",
+    "broken": []
+  },
+  {
+    "p": 118,
+    "same": true,
+    "name": "118-zoom-roundtrip",
+    "page": "118",
+    "selected": [
+      "7. 模板中的答案代码"
+    ],
+    "text": "用户要求先保留模板：7个单元中，首个标题已改为“Python列表与平均值”。\n7个单元\n1. 标题与对象\n2. 内容大纲\n3. 准备代码\n4. 步骤说明\n5. 正弦示例代码\n6. 模板中的练习栏目\n7. 模板中的答案代码\n重置\npython-lists-and-mean.ipynb\n文件中的单元内容\n代码\n# Exer",
+    "broken": []
+  },
+  {
+    "p": 119,
+    "same": true,
+    "name": "119-zoom-roundtrip",
+    "page": "119",
+    "selected": [
+      "模型：说明结果与待补内容\n模型生成",
+      "消息结构"
+    ],
+    "text": "对照用户最初要求，交代交付位置、文件内容与接下来的工作。\n当前环节\n工具：返回文件路径\n工具返回\n工具：返回Notebook内容\n工具返回\n模型：说明结果与待补内容\n模型生成\n回答依据前面的任务和工具返回。\n重置\n关键内容\n完整内容\n消息结构\n截至此处的内容\n模型：说明结果与待补内容\n{\n  \"type\": \"mess",
+    "broken": []
+  },
+  {
+    "p": 139,
+    "same": true,
+    "name": "139-zoom-roundtrip",
+    "page": "139",
+    "selected": [
+      "④ 返回天气内容",
+      "主要内容"
+    ],
+    "text": "同一次纽约天气查询，对照目录、调用和返回；原始消息可按需展开。\n① 索取工具目录\n② 返回工具说明\n③ 发起天气查询\n④ 返回天气内容\n重置\n主要内容\n完整协议消息\n天气服务 → 应用\n天气内容：\nNew York\nTemperature: 72°F\nConditions: Partly cloudy\n\n返回编号：10",
+    "broken": []
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-20",
+  "logs": [],
+  "tocTarget": 59,
+  "directoryTarget": 51,
+  "controlsHideRestore": true,
+  "skillsZoom": {
+    "page": 128,
+    "before": "references/quality-checklist.md",
+    "inside": "references/cost-scope.md",
+    "after": "references/cost-scope.md"
+  },
+  "fullscreenObservation": {
+    "documentFullscreen": false,
+    "width": 1280,
+    "height": 799
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "overlap": [
+    "结果带回下一次输入，继续判断。"
+  ],
+  "focus": {
+    "tag": "BODY",
+    "id": "",
+    "inside": false
+  },
+  "scroll": {
+    "left": 500,
+    "top": 500
+  }
+}

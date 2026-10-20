@@ -1,0 +1,45 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-qa1#p=138&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-qa1#p=138&s=1
+	2 container
+		42 container Description: 第138页 从工具目录，到下一次模型输入, ID: mount
+			43 container 第138页 从工具目录，到下一次模型输入
+				44 heading 从工具目录，到下一次模型输入, Value: 1
+					45 text 从工具目录，到下一次模型输入
+				46 container 课件内容
+					47 container
+						48 text 天气查询仍然是生成与执行的交替；MCP补上应用和服务之间的通信。
+						49 image 工具目录到模型说明、模型调用到MCP调用、服务返回到工具消息的六个环节
+						50 text 模型输出调用 → 应用转交 → 服务执行 → 返回内容加入下一次模型输入。
+				51 container 课程进度
+					52 button 导入
+					53 button 1. LLM基础
+					54 button 2. Prompting
+					55 button 3. Agents · Externalization & Internalization
+						56 text 3. Agents 
+						57 text · Externalization & Internalization
+					58 button 3.0 外化与内化总览
+					59 button 3.1 工具调用
+					60 button 3.2 Memory
+					61 button 3.3 Skills
+					62 button 3.4 Protocols
+					63 button 3.5 Harness
+					64 button 3.6 外化与内化整合
+					65 button 3.7 全讲总结
+		27 container Description: 课件操作, ID: controls
+			28 button Description: 上一步, Help: 上一步（←）
+			29 button Description: 下一步, Help: 下一步（→或空格）
+			30 container jump-form
+				31 text 页码
+				32 stepper (settable, integer) Description: 页码, Value: 138, ID: page-input
+				33 text / 177
+			66 text 整页显示
+			35 button 目录
+			36 button 讲者备注
+			37 button 完整材料
+			38 button 放大图解
+			39 button 全屏
+			40 button 隐藏, Help: 按H恢复
+			41 button 操作说明
+		67 text 第138页，从工具目录，到下一次模型输入，整页显示
+
+The focused UI element is 42 container Description: 第138页 从工具目录，到下一次模型输入, ID: mount

@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=150&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=150&s=1
+	2 container 第150页 · 完整材料, ID: deck-dialog
+		3 container
+			4 heading 第150页 · 完整材料, Value: 2, ID: dialog-title
+				8 text 第150页 · 完整材料
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			9 heading 本页要点, Value: 3
+				10 text 本页要点
+			11 text 一次任务，在Harness中怎样推进？
+
+用户任务进入运行系统，Memory和Skills提供所需信息与方法，程序组织本次输入，模型据此生成回答或调用请求。工具实际执行，结果进入检查与下一轮输入。应用可以按模型输出或预设规则决定继续、等待或结束。通过协议连接外部服务是一种接入方式；本地工具也可由程序直接调用。
+			12 heading 相关材料, Value: 3
+				13 text 相关材料
+			14 text 用户任务进入运行系统，Memory和Skills提供所需信息与方法，程序组织本次输入，模型据此生成回答或调用请求。工具实际执行，结果进入检查与下一轮输入。应用可以按模型输出或预设规则决定继续、等待或结束。通过协议连接外部服务是一种接入方式；本地工具也可由程序直接调用。
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

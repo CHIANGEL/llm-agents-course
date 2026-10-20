@@ -1,0 +1,1945 @@
+{
+  "date": "2026-10-19",
+  "method": "Read-only filesystem and Node VM renderer inspection. Query strings are removed by file URL resolution; no browser and no remote requests.",
+  "scope": "Index JS/CSS, CSS fonts/images, all selected slide-state asset references, new foundations sources/files/readers, six official readers and their current page jumps, every MBA_SOURCES href and MBA_FILES href.",
+  "page_count": 129,
+  "rendered_state_count": 144,
+  "source_count": 18,
+  "MBA_FILES_page_count": 33,
+  "counts": {
+    "index_references": {
+      "references": 28,
+      "unique_local_targets": 28,
+      "reachable": 28,
+      "jumps": 0
+    },
+    "css_fonts_and_images": {
+      "references": 2,
+      "unique_local_targets": 2,
+      "reachable": 2,
+      "jumps": 0
+    },
+    "rendered_slide_assets": {
+      "references": 7,
+      "unique_local_targets": 7,
+      "reachable": 7,
+      "jumps": 0
+    },
+    "player_template_assets": {
+      "references": 1,
+      "unique_local_targets": 1,
+      "reachable": 1,
+      "jumps": 0
+    },
+    "foundations_sources": {
+      "references": 2,
+      "unique_local_targets": 2,
+      "reachable": 2,
+      "jumps": 0
+    },
+    "foundations_material_files": {
+      "references": 11,
+      "unique_local_targets": 2,
+      "reachable": 11,
+      "jumps": 0
+    },
+    "foundations_reader_links": {
+      "references": 13,
+      "unique_local_targets": 13,
+      "reachable": 13,
+      "jumps": 0
+    },
+    "official_reader_entries": {
+      "references": 6,
+      "unique_local_targets": 6,
+      "reachable": 6,
+      "jumps": 0
+    },
+    "official_reader_links": {
+      "references": 34,
+      "unique_local_targets": 7,
+      "reachable": 34,
+      "jumps": 22
+    },
+    "MBA_SOURCES_hrefs": {
+      "references": 18,
+      "unique_local_targets": 18,
+      "reachable": 18,
+      "jumps": 0
+    },
+    "MBA_FILES_hrefs": {
+      "references": 46,
+      "unique_local_targets": 19,
+      "reachable": 46,
+      "jumps": 0
+    }
+  },
+  "unique_local_targets": 93,
+  "asset_version_hashes": [
+    {
+      "file": "src/base.css",
+      "index_hash": "378a222aec12",
+      "actual_hash": "378a222aec12",
+      "match": true
+    },
+    {
+      "file": "src/001-004.css",
+      "index_hash": "572d16296032",
+      "actual_hash": "572d16296032",
+      "match": true
+    },
+    {
+      "file": "src/005-008.css",
+      "index_hash": "816a22ee9cda",
+      "actual_hash": "816a22ee9cda",
+      "match": true
+    },
+    {
+      "file": "src/009-013.css",
+      "index_hash": "5f7721b1226c",
+      "actual_hash": "5f7721b1226c",
+      "match": true
+    },
+    {
+      "file": "src/prompting.css",
+      "index_hash": "754a5fe00593",
+      "actual_hash": "754a5fe00593",
+      "match": true
+    },
+    {
+      "file": "src/llm-foundations.css",
+      "index_hash": "cf4a24b9c496",
+      "actual_hash": "cf4a24b9c496",
+      "match": true
+    },
+    {
+      "file": "src/data.js",
+      "index_hash": "7f51a235ae02",
+      "actual_hash": "7f51a235ae02",
+      "match": true
+    },
+    {
+      "file": "src/001-004.js",
+      "index_hash": "13c05e9ab389",
+      "actual_hash": "13c05e9ab389",
+      "match": true
+    },
+    {
+      "file": "src/005-008.js",
+      "index_hash": "685bbd94591f",
+      "actual_hash": "685bbd94591f",
+      "match": true
+    },
+    {
+      "file": "src/009-013.js",
+      "index_hash": "54996e6e5047",
+      "actual_hash": "54996e6e5047",
+      "match": true
+    },
+    {
+      "file": "src/section-frames.js",
+      "index_hash": "0b853b2f4834",
+      "actual_hash": "0b853b2f4834",
+      "match": true
+    },
+    {
+      "file": "src/prompting-base.js",
+      "index_hash": "af765f54844d",
+      "actual_hash": "af765f54844d",
+      "match": true
+    },
+    {
+      "file": "src/prompting-frame.js",
+      "index_hash": "d1db5f85d608",
+      "actual_hash": "d1db5f85d608",
+      "match": true
+    },
+    {
+      "file": "src/prompting-task.js",
+      "index_hash": "2e7e94b3584c",
+      "actual_hash": "2e7e94b3584c",
+      "match": true
+    },
+    {
+      "file": "src/prompting-clarify.js",
+      "index_hash": "6920cd8531a0",
+      "actual_hash": "6920cd8531a0",
+      "match": true
+    },
+    {
+      "file": "src/prompting-verify-facts.js",
+      "index_hash": "cd7de2880d7c",
+      "actual_hash": "cd7de2880d7c",
+      "match": true
+    },
+    {
+      "file": "src/prompting-compare.js",
+      "index_hash": "d097365db7be",
+      "actual_hash": "d097365db7be",
+      "match": true
+    },
+    {
+      "file": "src/prompting-validation.js",
+      "index_hash": "88adfb84e438",
+      "actual_hash": "88adfb84e438",
+      "match": true
+    },
+    {
+      "file": "src/prompting-feedback.js",
+      "index_hash": "3347bb267269",
+      "actual_hash": "3347bb267269",
+      "match": true
+    },
+    {
+      "file": "src/agents-base.js",
+      "index_hash": "e4ba513dbdec",
+      "actual_hash": "e4ba513dbdec",
+      "match": true
+    },
+    {
+      "file": "src/agents-frames.js",
+      "index_hash": "357ee3e6ae20",
+      "actual_hash": "357ee3e6ae20",
+      "match": true
+    },
+    {
+      "file": "src/agents-tools.js",
+      "index_hash": "1542e19b9ede",
+      "actual_hash": "1542e19b9ede",
+      "match": true
+    },
+    {
+      "file": "src/agents-memory.js",
+      "index_hash": "2e209f8e2c83",
+      "actual_hash": "2e209f8e2c83",
+      "match": true
+    },
+    {
+      "file": "src/agents-skills.js",
+      "index_hash": "b35cf7592e01",
+      "actual_hash": "b35cf7592e01",
+      "match": true
+    },
+    {
+      "file": "src/agents-harness.js",
+      "index_hash": "e2d58a8acb5b",
+      "actual_hash": "e2d58a8acb5b",
+      "match": true
+    },
+    {
+      "file": "src/llm-evidence.js",
+      "index_hash": "6fec7ab6f989",
+      "actual_hash": "6fec7ab6f989",
+      "match": true
+    },
+    {
+      "file": "src/llm-foundations.js",
+      "index_hash": "c01219ea56d7",
+      "actual_hash": "c01219ea56d7",
+      "match": true
+    },
+    {
+      "file": "src/player.js",
+      "index_hash": "0d0a47693b19",
+      "actual_hash": "0d0a47693b19",
+      "match": true
+    }
+  ],
+  "local_references": {
+    "index_references": [
+      {
+        "from": "index.html",
+        "href": "src/base.css?v=378a222aec12",
+        "target": "src/base.css",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/001-004.css?v=572d16296032",
+        "target": "src/001-004.css",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/005-008.css?v=816a22ee9cda",
+        "target": "src/005-008.css",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/009-013.css?v=5f7721b1226c",
+        "target": "src/009-013.css",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/prompting.css?v=754a5fe00593",
+        "target": "src/prompting.css",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/llm-foundations.css?v=cf4a24b9c496",
+        "target": "src/llm-foundations.css",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/data.js?v=7f51a235ae02",
+        "target": "src/data.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/001-004.js?v=13c05e9ab389",
+        "target": "src/001-004.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/005-008.js?v=685bbd94591f",
+        "target": "src/005-008.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/009-013.js?v=54996e6e5047",
+        "target": "src/009-013.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/section-frames.js?v=0b853b2f4834",
+        "target": "src/section-frames.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/prompting-base.js?v=af765f54844d",
+        "target": "src/prompting-base.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/prompting-frame.js?v=d1db5f85d608",
+        "target": "src/prompting-frame.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/prompting-task.js?v=2e7e94b3584c",
+        "target": "src/prompting-task.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/prompting-clarify.js?v=6920cd8531a0",
+        "target": "src/prompting-clarify.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/prompting-verify-facts.js?v=cd7de2880d7c",
+        "target": "src/prompting-verify-facts.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/prompting-compare.js?v=d097365db7be",
+        "target": "src/prompting-compare.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/prompting-validation.js?v=88adfb84e438",
+        "target": "src/prompting-validation.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/prompting-feedback.js?v=3347bb267269",
+        "target": "src/prompting-feedback.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/agents-base.js?v=e4ba513dbdec",
+        "target": "src/agents-base.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/agents-frames.js?v=357ee3e6ae20",
+        "target": "src/agents-frames.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/agents-tools.js?v=1542e19b9ede",
+        "target": "src/agents-tools.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/agents-memory.js?v=2e209f8e2c83",
+        "target": "src/agents-memory.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/agents-skills.js?v=b35cf7592e01",
+        "target": "src/agents-skills.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/agents-harness.js?v=e2d58a8acb5b",
+        "target": "src/agents-harness.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/llm-evidence.js?v=6fec7ab6f989",
+        "target": "src/llm-evidence.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/llm-foundations.js?v=c01219ea56d7",
+        "target": "src/llm-foundations.js",
+        "exists": true
+      },
+      {
+        "from": "index.html",
+        "href": "src/player.js?v=0d0a47693b19",
+        "target": "src/player.js",
+        "exists": true
+      }
+    ],
+    "css_fonts_and_images": [
+      {
+        "from": "src/base.css",
+        "href": "../assets/msyh.ttc",
+        "target": "assets/msyh.ttc",
+        "exists": true
+      },
+      {
+        "from": "src/base.css",
+        "href": "../assets/msyhbd.ttc",
+        "target": "assets/msyhbd.ttc",
+        "exists": true
+      }
+    ],
+    "rendered_slide_assets": [
+      {
+        "from": "index.html",
+        "href": "assets/app.png",
+        "target": "assets/app.png",
+        "exists": true,
+        "occurrences": 16,
+        "locations": [
+          {
+            "page": 1,
+            "state": 1
+          },
+          {
+            "page": 44,
+            "state": 1
+          },
+          {
+            "page": 46,
+            "state": 1
+          },
+          {
+            "page": 47,
+            "state": 1
+          },
+          {
+            "page": 50,
+            "state": 1
+          },
+          {
+            "page": 53,
+            "state": 1
+          },
+          {
+            "page": 53,
+            "state": 1
+          },
+          {
+            "page": 66,
+            "state": 1
+          },
+          {
+            "page": 104,
+            "state": 1
+          },
+          {
+            "page": 109,
+            "state": 1
+          },
+          {
+            "page": 111,
+            "state": 1
+          },
+          {
+            "page": 122,
+            "state": 1
+          },
+          {
+            "page": 125,
+            "state": 1
+          },
+          {
+            "page": 127,
+            "state": 1
+          },
+          {
+            "page": 128,
+            "state": 1
+          },
+          {
+            "page": 129,
+            "state": 1
+          }
+        ]
+      },
+      {
+        "from": "index.html",
+        "href": "assets/doc.png",
+        "target": "assets/doc.png",
+        "exists": true,
+        "occurrences": 2,
+        "locations": [
+          {
+            "page": 1,
+            "state": 1
+          },
+          {
+            "page": 129,
+            "state": 1
+          }
+        ]
+      },
+      {
+        "from": "index.html",
+        "href": "assets/llm.png",
+        "target": "assets/llm.png",
+        "exists": true,
+        "occurrences": 29,
+        "locations": [
+          {
+            "page": 44,
+            "state": 1
+          },
+          {
+            "page": 46,
+            "state": 1
+          },
+          {
+            "page": 46,
+            "state": 1
+          },
+          {
+            "page": 47,
+            "state": 1
+          },
+          {
+            "page": 49,
+            "state": 1
+          },
+          {
+            "page": 50,
+            "state": 1
+          },
+          {
+            "page": 52,
+            "state": 1
+          },
+          {
+            "page": 53,
+            "state": 1
+          },
+          {
+            "page": 53,
+            "state": 1
+          },
+          {
+            "page": 57,
+            "state": 1
+          },
+          {
+            "page": 61,
+            "state": 1
+          },
+          {
+            "page": 65,
+            "state": 1
+          },
+          {
+            "page": 66,
+            "state": 1
+          },
+          {
+            "page": 100,
+            "state": 1
+          },
+          {
+            "page": 101,
+            "state": 1
+          },
+          {
+            "page": 103,
+            "state": 1
+          },
+          {
+            "page": 103,
+            "state": 2
+          },
+          {
+            "page": 103,
+            "state": 3
+          },
+          {
+            "page": 103,
+            "state": 4
+          },
+          {
+            "page": 104,
+            "state": 1
+          },
+          {
+            "page": 120,
+            "state": 1
+          },
+          {
+            "page": 122,
+            "state": 1
+          },
+          {
+            "page": 124,
+            "state": 1
+          },
+          {
+            "page": 124,
+            "state": 1
+          },
+          {
+            "page": 125,
+            "state": 1
+          },
+          {
+            "page": 127,
+            "state": 1
+          },
+          {
+            "page": 128,
+            "state": 1
+          },
+          {
+            "page": 128,
+            "state": 1
+          },
+          {
+            "page": 129,
+            "state": 1
+          }
+        ]
+      },
+      {
+        "from": "index.html",
+        "href": "assets/tool.png",
+        "target": "assets/tool.png",
+        "exists": true,
+        "occurrences": 12,
+        "locations": [
+          {
+            "page": 47,
+            "state": 1
+          },
+          {
+            "page": 51,
+            "state": 1
+          },
+          {
+            "page": 53,
+            "state": 1
+          },
+          {
+            "page": 61,
+            "state": 1
+          },
+          {
+            "page": 65,
+            "state": 1
+          },
+          {
+            "page": 66,
+            "state": 1
+          },
+          {
+            "page": 100,
+            "state": 1
+          },
+          {
+            "page": 101,
+            "state": 1
+          },
+          {
+            "page": 104,
+            "state": 1
+          },
+          {
+            "page": 105,
+            "state": 1
+          },
+          {
+            "page": 108,
+            "state": 1
+          },
+          {
+            "page": 120,
+            "state": 1
+          }
+        ]
+      },
+      {
+        "from": "index.html",
+        "href": "assets/agents-memory/music.png",
+        "target": "assets/agents-memory/music.png",
+        "exists": true,
+        "occurrences": 2,
+        "locations": [
+          {
+            "page": 81,
+            "state": 1
+          },
+          {
+            "page": 81,
+            "state": 1
+          }
+        ]
+      },
+      {
+        "from": "index.html",
+        "href": "assets/user.png",
+        "target": "assets/user.png",
+        "exists": true,
+        "occurrences": 4,
+        "locations": [
+          {
+            "page": 109,
+            "state": 1
+          },
+          {
+            "page": 109,
+            "state": 1
+          },
+          {
+            "page": 111,
+            "state": 1
+          },
+          {
+            "page": 111,
+            "state": 1
+          }
+        ]
+      },
+      {
+        "from": "index.html",
+        "href": "assets/agents-integration/prompting-example.png",
+        "target": "assets/agents-integration/prompting-example.png",
+        "exists": true,
+        "occurrences": 1,
+        "locations": [
+          {
+            "page": 123,
+            "state": 1
+          }
+        ]
+      }
+    ],
+    "player_template_assets": [
+      {
+        "from": "index.html",
+        "href": "assets/header.png",
+        "target": "assets/header.png",
+        "exists": true
+      }
+    ],
+    "foundations_sources": [
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "source_id": "GEN_TRACE"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/chat-reader.html",
+        "target": "sources/llm-foundations/chat-reader.html",
+        "exists": true,
+        "source_id": "CHAT_TEMPLATE"
+      }
+    ],
+    "foundations_material_files": [
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "page": 4,
+        "label": "完整生成记录、候选概率与复算文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "page": 5,
+        "label": "完整生成记录、候选概率与复算文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "page": 6,
+        "label": "完整生成记录、候选概率与复算文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "page": 7,
+        "label": "完整生成记录、候选概率与复算文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "page": 8,
+        "label": "完整生成记录、候选概率与复算文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "page": 9,
+        "label": "完整生成记录、候选概率与复算文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/chat-reader.html",
+        "target": "sources/llm-foundations/chat-reader.html",
+        "exists": true,
+        "page": 10,
+        "label": "三轮消息、完整聊天模板与原始文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/chat-reader.html",
+        "target": "sources/llm-foundations/chat-reader.html",
+        "exists": true,
+        "page": 11,
+        "label": "三轮消息、完整聊天模板与原始文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/chat-reader.html",
+        "target": "sources/llm-foundations/chat-reader.html",
+        "exists": true,
+        "page": 12,
+        "label": "三轮消息、完整聊天模板与原始文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/chat-reader.html",
+        "target": "sources/llm-foundations/chat-reader.html",
+        "exists": true,
+        "page": 13,
+        "label": "三轮消息、完整聊天模板与原始文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/chat-reader.html",
+        "target": "sources/llm-foundations/chat-reader.html",
+        "exists": true,
+        "page": 14,
+        "label": "三轮消息、完整聊天模板与原始文件"
+      }
+    ],
+    "foundations_reader_links": [
+      {
+        "from": "sources/llm-foundations/chat-reader.html",
+        "href": "chat-template/cases.json",
+        "target": "sources/llm-foundations/chat-template/cases.json",
+        "exists": true
+      },
+      {
+        "from": "sources/llm-foundations/chat-reader.html",
+        "href": "chat-template/chat_01_template.txt",
+        "target": "sources/llm-foundations/chat-template/chat_01_template.txt",
+        "exists": true
+      },
+      {
+        "from": "sources/llm-foundations/chat-reader.html",
+        "href": "chat-template/chat_02_template.txt",
+        "target": "sources/llm-foundations/chat-template/chat_02_template.txt",
+        "exists": true
+      },
+      {
+        "from": "sources/llm-foundations/chat-reader.html",
+        "href": "chat-template/chat_03_template.txt",
+        "target": "sources/llm-foundations/chat-template/chat_03_template.txt",
+        "exists": true
+      },
+      {
+        "from": "sources/llm-foundations/chat-reader.html",
+        "href": "chat-template/verification.json",
+        "target": "sources/llm-foundations/chat-template/verification.json",
+        "exists": true
+      },
+      {
+        "from": "sources/llm-foundations/chat-reader.html",
+        "href": "chat-template/prepare_case.py",
+        "target": "sources/llm-foundations/chat-template/prepare_case.py",
+        "exists": true
+      },
+      {
+        "from": "sources/llm-foundations/generation-reader.html",
+        "href": "generation-trace.json",
+        "target": "sources/llm-foundations/generation-trace.json",
+        "exists": true
+      },
+      {
+        "from": "sources/llm-foundations/generation-reader.html",
+        "href": "generation-display.json",
+        "target": "sources/llm-foundations/generation-display.json",
+        "exists": true
+      },
+      {
+        "from": "sources/llm-foundations/generation-reader.html",
+        "href": "input-chat-template.txt",
+        "target": "sources/llm-foundations/input-chat-template.txt",
+        "exists": true
+      },
+      {
+        "from": "sources/llm-foundations/generation-reader.html",
+        "href": "collect_trace.py",
+        "target": "sources/llm-foundations/collect_trace.py",
+        "exists": true
+      },
+      {
+        "from": "sources/llm-foundations/generation-reader.html",
+        "href": "verify_trace.py",
+        "target": "sources/llm-foundations/verify_trace.py",
+        "exists": true
+      },
+      {
+        "from": "sources/llm-foundations/generation-reader.html",
+        "href": "verification.json",
+        "target": "sources/llm-foundations/verification.json",
+        "exists": true
+      },
+      {
+        "from": "sources/llm-foundations/generation-reader.html",
+        "href": "provenance.json",
+        "target": "sources/llm-foundations/provenance.json",
+        "exists": true
+      }
+    ],
+    "official_reader_entries": [
+      {
+        "from": "index.html",
+        "href": "sources/official-readers/fin.html",
+        "target": "sources/official-readers/fin.html",
+        "exists": true,
+        "source_id": "CASE_FIN"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/official-readers/aws.html",
+        "target": "sources/official-readers/aws.html",
+        "exists": true,
+        "source_id": "CASE_AWS"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/official-readers/box.html",
+        "target": "sources/official-readers/box.html",
+        "exists": true,
+        "source_id": "CASE_BOX"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/official-readers/remarkable.html",
+        "target": "sources/official-readers/remarkable.html",
+        "exists": true,
+        "source_id": "CASE_REMARKABLE"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/official-readers/zep.html",
+        "target": "sources/official-readers/zep.html",
+        "exists": true,
+        "source_id": "CASE_ZEP"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/official-readers/rpeval.html",
+        "target": "sources/official-readers/rpeval.html",
+        "exists": true,
+        "source_id": "RP_PAPER"
+      }
+    ],
+    "official_reader_links": [
+      {
+        "from": "sources/official-readers/fin.html",
+        "href": "../../index.html#p=54&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_FIN",
+        "jump": {
+          "page": 54,
+          "step": 1,
+          "title": "Fin：把客户反馈送入问题跟踪",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/fin.html",
+        "href": "../../index.html#p=54&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_FIN",
+        "jump": {
+          "page": 54,
+          "step": 1,
+          "title": "Fin：把客户反馈送入问题跟踪",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/fin.html",
+        "href": "../../index.html#p=55&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_FIN",
+        "jump": {
+          "page": 55,
+          "step": 1,
+          "title": "客户材料、创建请求与系统记录",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/fin.html",
+        "href": "../../index.html#p=56&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_FIN",
+        "jump": {
+          "page": 56,
+          "step": 1,
+          "title": "记录建立与问题解决，各有完成条件",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/fin.html",
+        "href": "../../qa/independent-review/tools-memory/source-check.json",
+        "target": "qa/independent-review/tools-memory/source-check.json",
+        "exists": true,
+        "source_id": "CASE_FIN"
+      },
+      {
+        "from": "sources/official-readers/fin.html",
+        "href": "../../qa/independent-review/tools-memory-review.md",
+        "target": "qa/independent-review/tools-memory-review.md",
+        "exists": true,
+        "source_id": "CASE_FIN"
+      },
+      {
+        "from": "sources/official-readers/aws.html",
+        "href": "../../index.html#p=75&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_AWS",
+        "jump": {
+          "page": 75,
+          "step": 1,
+          "title": "电子产品客服：延续两次会话的背景",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/aws.html",
+        "href": "../../index.html#p=75&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_AWS",
+        "jump": {
+          "page": 75,
+          "step": 1,
+          "title": "电子产品客服：延续两次会话的背景",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/aws.html",
+        "href": "../../index.html#p=76&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_AWS",
+        "jump": {
+          "page": 76,
+          "step": 1,
+          "title": "电子产品客服：保存偏好与有关事实",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/aws.html",
+        "href": "../../index.html#p=77&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_AWS",
+        "jump": {
+          "page": 77,
+          "step": 1,
+          "title": "电子产品客服：把背景加入新的问题",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/aws.html",
+        "href": "../../index.html#p=78&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_AWS",
+        "jump": {
+          "page": 78,
+          "step": 1,
+          "title": "电子产品客服：让后续服务取得有关背景",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/aws.html",
+        "href": "../agents-memory/official-case-review.json",
+        "target": "sources/agents-memory/official-case-review.json",
+        "exists": true,
+        "source_id": "CASE_AWS"
+      },
+      {
+        "from": "sources/official-readers/aws.html",
+        "href": "../../qa/independent-review/tools-memory/source-check.json",
+        "target": "qa/independent-review/tools-memory/source-check.json",
+        "exists": true,
+        "source_id": "CASE_AWS"
+      },
+      {
+        "from": "sources/official-readers/box.html",
+        "href": "../../index.html#p=94&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_BOX",
+        "jump": {
+          "page": 94,
+          "step": 1,
+          "title": "Box：从已有资料到交付文件",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/box.html",
+        "href": "../../index.html#p=94&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_BOX",
+        "jump": {
+          "page": 94,
+          "step": 1,
+          "title": "Box：从已有资料到交付文件",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/box.html",
+        "href": "../../index.html#p=95&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_BOX",
+        "jump": {
+          "page": 95,
+          "step": 1,
+          "title": "Box：先找到季度报告与月度更新",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/box.html",
+        "href": "../../index.html#p=96&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_BOX",
+        "jump": {
+          "page": 96,
+          "step": 1,
+          "title": "Box：生成草稿，继续补充分析",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/box.html",
+        "href": "../../index.html#p=97&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_BOX",
+        "jump": {
+          "page": 97,
+          "step": 1,
+          "title": "Box：同一批资料，响应新的文件要求",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/box.html",
+        "href": "../agents-skills/official-case-review.json",
+        "target": "sources/agents-skills/official-case-review.json",
+        "exists": true,
+        "source_id": "CASE_BOX"
+      },
+      {
+        "from": "sources/official-readers/box.html",
+        "href": "../../qa/independent-review/issues-skills-harness.md",
+        "target": "qa/independent-review/issues-skills-harness.md",
+        "exists": true,
+        "source_id": "CASE_BOX"
+      },
+      {
+        "from": "sources/official-readers/remarkable.html",
+        "href": "../../index.html#p=109&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_REMARKABLE",
+        "jump": {
+          "page": 109,
+          "step": 1,
+          "title": "reMarkable：客服处理与人工出口",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/remarkable.html",
+        "href": "../../index.html#p=109&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_REMARKABLE",
+        "jump": {
+          "page": 109,
+          "step": 1,
+          "title": "reMarkable：客服处理与人工出口",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/remarkable.html",
+        "href": "../../index.html#p=110&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_REMARKABLE",
+        "jump": {
+          "page": 110,
+          "step": 1,
+          "title": "接手的人，需要哪些处理材料",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/remarkable.html",
+        "href": "../../index.html#p=111&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_REMARKABLE",
+        "jump": {
+          "page": 111,
+          "step": 1,
+          "title": "把服务的前后两段接起来",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/remarkable.html",
+        "href": "../agents-harness/来源核读记录.md",
+        "target": "sources/agents-harness/来源核读记录.md",
+        "exists": true,
+        "source_id": "CASE_REMARKABLE"
+      },
+      {
+        "from": "sources/official-readers/remarkable.html",
+        "href": "../../qa/independent-review/issues-skills-harness.md",
+        "target": "qa/independent-review/issues-skills-harness.md",
+        "exists": true,
+        "source_id": "CASE_REMARKABLE"
+      },
+      {
+        "from": "sources/official-readers/zep.html",
+        "href": "../../index.html#p=80&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_ZEP",
+        "jump": {
+          "page": 80,
+          "step": 1,
+          "title": "偏好改变，保留历史并更新当前关系",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/zep.html",
+        "href": "../../index.html#p=80&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "CASE_ZEP",
+        "jump": {
+          "page": 80,
+          "step": 1,
+          "title": "偏好改变，保留历史并更新当前关系",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/zep.html",
+        "href": "../../qa/independent-review/tools-memory/source-check.json",
+        "target": "qa/independent-review/tools-memory/source-check.json",
+        "exists": true,
+        "source_id": "CASE_ZEP"
+      },
+      {
+        "from": "sources/official-readers/zep.html",
+        "href": "../../qa/independent-review/tools-memory-review.md",
+        "target": "qa/independent-review/tools-memory-review.md",
+        "exists": true,
+        "source_id": "CASE_ZEP"
+      },
+      {
+        "from": "sources/official-readers/rpeval.html",
+        "href": "../../index.html#p=81&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "RP_PAPER",
+        "jump": {
+          "page": 81,
+          "step": 1,
+          "title": "喜欢的音乐，这次一定适合听吗？",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/rpeval.html",
+        "href": "../../index.html#p=81&s=1",
+        "target": "index.html",
+        "exists": true,
+        "source_id": "RP_PAPER",
+        "jump": {
+          "page": 81,
+          "step": 1,
+          "title": "喜欢的音乐，这次一定适合听吗？",
+          "valid": true,
+          "source_matches": true
+        }
+      },
+      {
+        "from": "sources/official-readers/rpeval.html",
+        "href": "../../qa/independent-review/tools-memory/source-check.json",
+        "target": "qa/independent-review/tools-memory/source-check.json",
+        "exists": true,
+        "source_id": "RP_PAPER"
+      },
+      {
+        "from": "sources/official-readers/rpeval.html",
+        "href": "../../qa/independent-review/tools-memory-review.md",
+        "target": "qa/independent-review/tools-memory-review.md",
+        "exists": true,
+        "source_id": "RP_PAPER"
+      }
+    ],
+    "MBA_SOURCES_hrefs": [
+      {
+        "from": "index.html",
+        "href": "sources/library/L1/index.html",
+        "target": "sources/library/L1/index.html",
+        "exists": true,
+        "source_id": "L1"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/library/L2/index.html",
+        "target": "sources/library/L2/index.html",
+        "exists": true,
+        "source_id": "L2"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/library/L3/index.html",
+        "target": "sources/library/L3/index.html",
+        "exists": true,
+        "source_id": "L3"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/library/TEACHER/index.html",
+        "target": "sources/library/TEACHER/index.html",
+        "exists": true,
+        "source_id": "TEACHER"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/library/PROMPT_PDF/index.html",
+        "target": "sources/library/PROMPT_PDF/index.html",
+        "exists": true,
+        "source_id": "PROMPT_PDF"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/library/PLAN/index.html",
+        "target": "sources/library/PLAN/index.html",
+        "exists": true,
+        "source_id": "PLAN"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/library/MEM/index.html",
+        "target": "sources/library/MEM/index.html",
+        "exists": true,
+        "source_id": "MEM"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/library/SKILL/index.html",
+        "target": "sources/library/SKILL/index.html",
+        "exists": true,
+        "source_id": "SKILL"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/library/MCP/index.html",
+        "target": "sources/library/MCP/index.html",
+        "exists": true,
+        "source_id": "MCP"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/official-readers/fin.html",
+        "target": "sources/official-readers/fin.html",
+        "exists": true,
+        "source_id": "CASE_FIN"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/official-readers/aws.html",
+        "target": "sources/official-readers/aws.html",
+        "exists": true,
+        "source_id": "CASE_AWS"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/official-readers/box.html",
+        "target": "sources/official-readers/box.html",
+        "exists": true,
+        "source_id": "CASE_BOX"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/official-readers/remarkable.html",
+        "target": "sources/official-readers/remarkable.html",
+        "exists": true,
+        "source_id": "CASE_REMARKABLE"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "source_id": "GEN_TRACE"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/chat-reader.html",
+        "target": "sources/llm-foundations/chat-reader.html",
+        "exists": true,
+        "source_id": "CHAT_TEMPLATE"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/official-readers/zep.html",
+        "target": "sources/official-readers/zep.html",
+        "exists": true,
+        "source_id": "CASE_ZEP"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/official-readers/rpeval.html",
+        "target": "sources/official-readers/rpeval.html",
+        "exists": true,
+        "source_id": "RP_PAPER"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/library/NOTEBOOK_COMPLETED/index.html",
+        "target": "sources/library/NOTEBOOK_COMPLETED/index.html",
+        "exists": true,
+        "source_id": "NOTEBOOK_COMPLETED"
+      }
+    ],
+    "MBA_FILES_hrefs": [
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "page": 4,
+        "label": "完整生成记录、候选概率与复算文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "page": 5,
+        "label": "完整生成记录、候选概率与复算文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "page": 6,
+        "label": "完整生成记录、候选概率与复算文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "page": 7,
+        "label": "完整生成记录、候选概率与复算文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "page": 8,
+        "label": "完整生成记录、候选概率与复算文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/generation-reader.html",
+        "target": "sources/llm-foundations/generation-reader.html",
+        "exists": true,
+        "page": 9,
+        "label": "完整生成记录、候选概率与复算文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/chat-reader.html",
+        "target": "sources/llm-foundations/chat-reader.html",
+        "exists": true,
+        "page": 10,
+        "label": "三轮消息、完整聊天模板与原始文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/chat-reader.html",
+        "target": "sources/llm-foundations/chat-reader.html",
+        "exists": true,
+        "page": 11,
+        "label": "三轮消息、完整聊天模板与原始文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/chat-reader.html",
+        "target": "sources/llm-foundations/chat-reader.html",
+        "exists": true,
+        "page": 12,
+        "label": "三轮消息、完整聊天模板与原始文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/chat-reader.html",
+        "target": "sources/llm-foundations/chat-reader.html",
+        "exists": true,
+        "page": 13,
+        "label": "三轮消息、完整聊天模板与原始文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/llm-foundations/chat-reader.html",
+        "target": "sources/llm-foundations/chat-reader.html",
+        "exists": true,
+        "page": 14,
+        "label": "三轮消息、完整聊天模板与原始文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/tool-files.html",
+        "target": "sources/file-readers/tool-files.html",
+        "exists": true,
+        "page": 48,
+        "label": "天气调用：工具、消息与执行记录"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/tool-files.html",
+        "target": "sources/file-readers/tool-files.html",
+        "exists": true,
+        "page": 49,
+        "label": "天气调用：工具、消息与执行记录"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/tool-files.html",
+        "target": "sources/file-readers/tool-files.html",
+        "exists": true,
+        "page": 50,
+        "label": "天气调用：工具、消息与执行记录"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/tool-files.html",
+        "target": "sources/file-readers/tool-files.html",
+        "exists": true,
+        "page": 51,
+        "label": "天气调用：工具、消息与执行记录"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/tool-files.html",
+        "target": "sources/file-readers/tool-files.html",
+        "exists": true,
+        "page": 52,
+        "label": "天气调用：工具、消息与执行记录"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/tool-files.html",
+        "target": "sources/file-readers/tool-files.html",
+        "exists": true,
+        "page": 53,
+        "label": "天气调用：工具、消息与执行记录"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/memory-files.html",
+        "target": "sources/file-readers/memory-files.html",
+        "exists": true,
+        "page": 70,
+        "label": "记忆原文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/memory-files.html",
+        "target": "sources/file-readers/memory-files.html",
+        "exists": true,
+        "page": 71,
+        "label": "记忆原文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/memory-files.html",
+        "target": "sources/file-readers/memory-files.html",
+        "exists": true,
+        "page": 72,
+        "label": "记忆原文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/memory-files.html",
+        "target": "sources/file-readers/memory-files.html",
+        "exists": true,
+        "page": 73,
+        "label": "记忆原文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/memory-files.html",
+        "target": "sources/file-readers/memory-files.html",
+        "exists": true,
+        "page": 74,
+        "label": "记忆原文件"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-package.html",
+        "target": "sources/file-readers/skill-package.html",
+        "exists": true,
+        "page": 85,
+        "label": "jupyter-notebook完整文件包（12文件）"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-01.html",
+        "target": "sources/file-readers/skill-01.html",
+        "exists": true,
+        "page": 86,
+        "label": "jupyter-notebook/LICENSE.txt"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-02.html",
+        "target": "sources/file-readers/skill-02.html",
+        "exists": true,
+        "page": 86,
+        "label": "jupyter-notebook/SKILL.md"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-03.html",
+        "target": "sources/file-readers/skill-03.html",
+        "exists": true,
+        "page": 86,
+        "label": "jupyter-notebook/agents/openai.yaml"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-04.html",
+        "target": "sources/file-readers/skill-04.html",
+        "exists": true,
+        "page": 86,
+        "label": "jupyter-notebook/assets/experiment-template.ipynb"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-05.html",
+        "target": "sources/file-readers/skill-05.html",
+        "exists": true,
+        "page": 86,
+        "label": "jupyter-notebook/assets/jupyter-small.svg"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-06.html",
+        "target": "sources/file-readers/skill-06.html",
+        "exists": true,
+        "page": 86,
+        "label": "jupyter-notebook/assets/jupyter.png"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-07.html",
+        "target": "sources/file-readers/skill-07.html",
+        "exists": true,
+        "page": 86,
+        "label": "jupyter-notebook/assets/tutorial-template.ipynb"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-08.html",
+        "target": "sources/file-readers/skill-08.html",
+        "exists": true,
+        "page": 86,
+        "label": "jupyter-notebook/references/experiment-patterns.md"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-09.html",
+        "target": "sources/file-readers/skill-09.html",
+        "exists": true,
+        "page": 86,
+        "label": "jupyter-notebook/references/notebook-structure.md"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-10.html",
+        "target": "sources/file-readers/skill-10.html",
+        "exists": true,
+        "page": 86,
+        "label": "jupyter-notebook/references/quality-checklist.md"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-11.html",
+        "target": "sources/file-readers/skill-11.html",
+        "exists": true,
+        "page": 86,
+        "label": "jupyter-notebook/references/tutorial-patterns.md"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-12.html",
+        "target": "sources/file-readers/skill-12.html",
+        "exists": true,
+        "page": 86,
+        "label": "jupyter-notebook/scripts/new_notebook.py"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-package.html",
+        "target": "sources/file-readers/skill-package.html",
+        "exists": true,
+        "page": 87,
+        "label": "jupyter-notebook完整文件包（12文件）"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-package.html",
+        "target": "sources/file-readers/skill-package.html",
+        "exists": true,
+        "page": 88,
+        "label": "jupyter-notebook完整文件包（12文件）"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-package.html",
+        "target": "sources/file-readers/skill-package.html",
+        "exists": true,
+        "page": 89,
+        "label": "jupyter-notebook完整文件包（12文件）"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-package.html",
+        "target": "sources/file-readers/skill-package.html",
+        "exists": true,
+        "page": 90,
+        "label": "jupyter-notebook完整文件包（12文件）"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-package.html",
+        "target": "sources/file-readers/skill-package.html",
+        "exists": true,
+        "page": 91,
+        "label": "jupyter-notebook完整文件包（12文件）"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-package.html",
+        "target": "sources/file-readers/skill-package.html",
+        "exists": true,
+        "page": 92,
+        "label": "jupyter-notebook完整文件包（12文件）"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-12.html",
+        "target": "sources/file-readers/skill-12.html",
+        "exists": true,
+        "page": 92,
+        "label": "jupyter-notebook/scripts/new_notebook.py"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-package.html",
+        "target": "sources/file-readers/skill-package.html",
+        "exists": true,
+        "page": 93,
+        "label": "jupyter-notebook完整文件包（12文件）"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/completed-notebook.html",
+        "target": "sources/file-readers/completed-notebook.html",
+        "exists": true,
+        "page": 98,
+        "label": "列表与平均值：完整Notebook"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/skill-package.html",
+        "target": "sources/file-readers/skill-package.html",
+        "exists": true,
+        "page": 98,
+        "label": "jupyter-notebook完整文件包（12文件）"
+      },
+      {
+        "from": "index.html",
+        "href": "sources/file-readers/mcp-record.html",
+        "target": "sources/file-readers/mcp-record.html",
+        "exists": true,
+        "page": 103,
+        "label": "MCP原课程执行记录"
+      }
+    ]
+  },
+  "external_links_not_checked": [
+    {
+      "group": "foundations_reader_links",
+      "from": "sources/llm-foundations/chat-reader.html",
+      "href": "https://huggingface.co/docs/transformers/en/chat_templating",
+      "note": "External destination recorded, not requested or fetched"
+    },
+    {
+      "group": "foundations_reader_links",
+      "from": "sources/llm-foundations/generation-reader.html",
+      "href": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct",
+      "note": "External destination recorded, not requested or fetched"
+    },
+    {
+      "group": "official_reader_links",
+      "from": "sources/official-readers/fin.html",
+      "href": "https://claude.com/resources/articles/integrations",
+      "note": "External destination recorded, not requested or fetched"
+    },
+    {
+      "group": "official_reader_links",
+      "from": "sources/official-readers/aws.html",
+      "href": "https://aws.amazon.com/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/",
+      "note": "External destination recorded, not requested or fetched"
+    },
+    {
+      "group": "official_reader_links",
+      "from": "sources/official-readers/box.html",
+      "href": "https://claude.com/customers/box",
+      "note": "External destination recorded, not requested or fetched"
+    },
+    {
+      "group": "official_reader_links",
+      "from": "sources/official-readers/remarkable.html",
+      "href": "https://www.salesforce.com/customer-stories/remarkable/",
+      "note": "External destination recorded, not requested or fetched"
+    },
+    {
+      "group": "official_reader_links",
+      "from": "sources/official-readers/zep.html",
+      "href": "https://help.getzep.com/v3/facts",
+      "note": "External destination recorded, not requested or fetched"
+    },
+    {
+      "group": "official_reader_links",
+      "from": "sources/official-readers/rpeval.html",
+      "href": "https://arxiv.org/pdf/2601.16621v1",
+      "note": "External destination recorded, not requested or fetched"
+    }
+  ],
+  "issues": [],
+  "status": "passed"
+}

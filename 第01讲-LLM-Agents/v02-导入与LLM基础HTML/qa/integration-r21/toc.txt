@@ -1,0 +1,670 @@
+Browser tab: 48, Title: "LLM Agents · 入门与实践", URL: "http://127.0.0.1:8765/?revision=integration-r21#p=1&s=1".
+1 AXWebArea LLM Agents · 入门与实践, URL: 127.0.0.1:8765/?revision=integration-r21#p=1&s=1
+	2 container 课程目录 · LLM Agents, ID: deck-dialog
+		3 container
+			4 heading 课程目录 · LLM Agents, Value: 2, ID: dialog-title
+				5 text 课程目录 · LLM Agents
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			8 container
+				9 heading 导入, Value: 3
+					10 text 导入
+				11 heading 回答、操作与交付, Value: 4
+					12 text 回答、操作与交付
+				13 content list
+					14 button 001 LLM Agents：入门与实践
+						15 text 001
+						16 text LLM Agents：入门与实践
+					17 button 002 回答、操作与交付
+						18 text 002
+						19 text 回答、操作与交付
+			20 container
+				21 heading 1. LLM基础, Value: 3
+					22 text 1. LLM基础
+				23 heading 1.1 连续生成, Value: 4
+					24 text 1.1 连续生成
+				25 content list
+					26 button 003 课程内容 · 章节切换
+						27 text 003
+						28 text 课程内容 · 章节切换
+					29 button 004 LLM基础：连续生成与多轮聊天
+						30 text 004
+						31 text LLM基础：连续生成与多轮聊天
+					32 button 005 先看一次完整的生成
+						33 text 005
+						34 text 先看一次完整的生成
+					35 button 006 下一Token预测（Next token prediction）
+						36 text 006
+						37 text 下一Token预测（Next token prediction）
+					38 button 007 第二步：把刚生成的内容加入前文
+						39 text 007
+						40 text 第二步：把刚生成的内容加入前文
+					41 button 008 连续生成：从第一个Token到结束
+						42 text 008
+						43 text 连续生成：从第一个Token到结束
+					44 button 009 句号之后，模型还会再预测一次
+						45 text 009
+						46 text 句号之后，模型还会再预测一次
+				47 heading 1.2 多轮聊天, Value: 4
+					48 text 1.2 多轮聊天
+				49 content list
+					50 button 010 课程内容 · 章节切换
+						51 text 010
+						52 text 课程内容 · 章节切换
+					53 button 011 聊天界面背后，仍然是在继续生成文本
+						54 text 011
+						55 text 聊天界面背后，仍然是在继续生成文本
+					56 button 012 第一轮：把角色和消息拼成输入
+						57 text 012
+						58 text 第一轮：把角色和消息拼成输入
+					59 button 013 第二轮：旧问题、旧回答和追问一起传入
+						60 text 013
+						61 text 第二轮：旧问题、旧回答和追问一起传入
+					62 button 014 第三轮：完整历史接在同一份输入中
+						63 text 014
+						64 text 第三轮：完整历史接在同一份输入中
+				65 heading 1.3 LLM小结, Value: 4
+					66 text 1.3 LLM小结
+				67 content list
+					68 button 015 LLM基础小结：组织输入，再逐Token生成
+						69 text 015
+						70 text LLM基础小结：组织输入，再逐Token生成
+			71 container
+				72 heading 2. Prompting, Value: 3
+					73 text 2. Prompting
+				74 heading 2.1 三个核心, Value: 4
+					75 text 2.1 三个核心
+				76 content list
+					77 button 016 课程内容 · 章节切换
+						78 text 016
+						79 text 课程内容 · 章节切换
+					80 button 017 Prompting：先交代任务，再选择方法
+						81 text 017
+						82 text Prompting：先交代任务，再选择方法
+					83 button 018 四大要点：让模型知道你要什么
+						84 text 018
+						85 text 四大要点：让模型知道你要什么
+					86 button 019 给Example：把想要的样子给模型看
+						87 text 019
+						88 text 给Example：把想要的样子给模型看
+					89 button 020 让大模型帮你写Prompt
+						90 text 020
+						91 text 让大模型帮你写Prompt
+					92 button 021 三个核心，接上四类策略
+						93 text 021
+						94 text 三个核心，接上四类策略
+				95 heading 2.2 问清问题, Value: 4
+					96 text 2.2 问清问题
+				97 content list
+					98 button 022 课程内容 · 章节切换
+						99 text 022
+						100 text 课程内容 · 章节切换
+					101 button 023 苏格拉底式提问：先追问，再给建议
+						102 text 023
+						103 text 苏格拉底式提问：先追问，再给建议
+					104 button 024 苏格拉底式提问：原始Prompt
+						105 text 024
+						106 text 苏格拉底式提问：原始Prompt
+				107 heading 2.3 学习, Value: 4
+					108 text 2.3 学习
+				109 content list
+					110 button 025 课程内容 · 章节切换
+						111 text 025
+						112 text 课程内容 · 章节切换
+					113 button 026 学习：四种需要，四种方法
+						114 text 026
+						115 text 学习：四种需要，四种方法
+					116 button 027 双层解释：从直觉到准确理解
+						117 text 027
+						118 text 双层解释：从直觉到准确理解
+					119 button 028 反向拆解：从成品找到可复用的做法
+						120 text 028
+						121 text 反向拆解：从成品找到可复用的做法
+					122 button 029 反向拆解：原始Prompt
+						123 text 029
+						124 text 反向拆解：原始Prompt
+					125 button 030 横纵分析：来路、差异与未来
+						126 text 030
+						127 text 横纵分析：来路、差异与未来
+					128 button 031 横纵分析：原始Prompt的分析任务
+						129 text 031
+						130 text 横纵分析：原始Prompt的分析任务
+					131 button 032 横纵分析：证据要求与报告结构
+						132 text 032
+						133 text 横纵分析：证据要求与报告结构
+					134 button 033 事实核查：事实成立，推论就成立吗？
+						135 text 033
+						136 text 事实核查：事实成立，推论就成立吗？
+					137 button 034 事实核查：原始Prompt
+						138 text 034
+						139 text 事实核查：原始Prompt
+				140 heading 2.4 解决问题, Value: 4
+					141 text 2.4 解决问题
+				142 content list
+					143 button 035 课程内容 · 章节切换
+						144 text 035
+						145 text 课程内容 · 章节切换
+					146 button 036 学习之后，开始寻找解法
+						147 text 036
+						148 text 学习之后，开始寻找解法
+					149 button 037 专家会诊：让互补视角相互质疑
+						150 text 037
+						151 text 专家会诊：让互补视角相互质疑
+					152 button 038 专家会诊：原始Prompt
+						153 text 038
+						154 text 专家会诊：原始Prompt
+					155 button 039 第一性原理：从事实、目标和约束重推
+						156 text 039
+						157 text 第一性原理：从事实、目标和约束重推
+					158 button 040 跨领域借解：迁移机制，而非照搬做法
+						159 text 040
+						160 text 跨领域借解：迁移机制，而非照搬做法
+					161 button 041 跨领域借解：原始Prompt
+						162 text 041
+						163 text 跨领域借解：原始Prompt
+				164 heading 2.5 决策, Value: 4
+					165 text 2.5 决策
+				166 content list
+					167 button 042 课程内容 · 章节切换
+						168 text 042
+						169 text 课程内容 · 章节切换
+					170 button 043 有了解法，再判断选哪一个
+						171 text 043
+						172 text 有了解法，再判断选哪一个
+					173 button 044 双向钢人：把两边的理由都说充分
+						174 text 044
+						175 text 双向钢人：把两边的理由都说充分
+					176 button 045 双向钢人论证：原始Prompt
+						177 text 045
+						178 text 双向钢人论证：原始Prompt
+					179 button 046 最小实验：用行动取得新的判断依据
+						180 text 046
+						181 text 最小实验：用行动取得新的判断依据
+					182 button 047 用最小实验替代空想：原始Prompt
+						183 text 047
+						184 text 用最小实验替代空想：原始Prompt
+					185 button 048 决策小结：条件比较与现实反馈
+						186 text 048
+						187 text 决策小结：条件比较与现实反馈
+				188 heading 2.6 Prompting小结, Value: 4
+					189 text 2.6 Prompting小结
+				190 content list
+					191 button 049 Prompting小结：任务清楚，方法合适
+						192 text 049
+						193 text Prompting小结：任务清楚，方法合适
+					194 button 050 从Prompting到Agent：把要求接到操作
+						195 text 050
+						196 text 从Prompting到Agent：把要求接到操作
+			197 container
+				198 heading 3. Agents · Externalization & Internalization, Value: 3
+					199 text 3. Agents · Externalization & Internalization
+				200 heading 3.0 大模型与智能体, Value: 4
+					201 text 3.0 大模型与智能体
+				202 content list
+					203 button 051 课程内容 · 章节切换
+						204 text 051
+						205 text 课程内容 · 章节切换
+					206 button 052 从大模型到智能体
+						207 text 052
+						208 text 从大模型到智能体
+					209 button 053 大模型能生成什么？还缺什么？
+						210 text 053
+						211 text 大模型能生成什么？还缺什么？
+					212 button 054 查询数据：模型得到新的信息
+						213 text 054
+						214 text 查询数据：模型得到新的信息
+					215 button 055 操作网页：从建议到实际操作
+						216 text 055
+						217 text 操作网页：从建议到实际操作
+					218 button 056 软件智能体的操作范围
+						219 text 056
+						220 text 软件智能体的操作范围
+					221 button 057 机械臂抓笔：GPT-6 Astra的一个案例
+						222 text 057
+						223 text 机械臂抓笔：GPT-6 Astra的一个案例
+					224 button 058 具身智能：把执行循环接到物理设备
+						225 text 058
+						226 text 具身智能：把执行循环接到物理设备
+					227 button 059 智能体比大模型多了什么？
+						228 text 059
+						229 text 智能体比大模型多了什么？
+				230 heading 3.1 外化与内化总览, Value: 4
+					231 text 3.1 外化与内化总览
+				232 content list
+					233 button 060 课程内容 · 章节切换
+						234 text 060
+						235 text 课程内容 · 章节切换
+					236 button 061 智能体的外化与内化
+						237 text 061
+						238 text 智能体的外化与内化
+					239 button 062 用“外化”理解Agent的各部分
+						240 text 062
+						241 text 用“外化”理解Agent的各部分
+					242 button 063 外部表示，会改变任务的做法
+						243 text 063
+						244 text 外部表示，会改变任务的做法
+					245 button 064 写一张清单，改变了什么？
+						246 text 064
+						247 text 写一张清单，改变了什么？
+					248 button 065 地图把关系放到了眼前
+						249 text 065
+						250 text 地图把关系放到了眼前
+					251 button 066 大模型智能体的发展史
+						252 text 066
+						253 text 大模型智能体的发展史
+					254 button 067 什么被外部化了？
+						255 text 067
+						256 text 什么被外部化了？
+					257 button 068 工具、记忆、技能与协议
+						258 text 068
+						259 text 工具、记忆、技能与协议
+					260 button 069 外部经验，也可能成为训练材料
+						261 text 069
+						262 text 外部经验，也可能成为训练材料
+					263 button 070 先看外化，再提出内化的问题
+						264 text 070
+						265 text 先看外化，再提出内化的问题
+				266 heading 3.2 工具调用, Value: 4
+					267 text 3.2 工具调用
+				268 content list
+					269 button 071 课程内容 · 章节切换
+						270 text 071
+						271 text 课程内容 · 章节切换
+					272 button 072 工具调用：大模型与外界交互的主要途径
+						273 text 072
+						274 text 工具调用：大模型与外界交互的主要途径
+					275 button 073 与外界交互：获取信息，也能产生影响
+						276 text 073
+						277 text 与外界交互：获取信息，也能产生影响
+					278 button 074 工具调用：接下来讲什么？
+						279 text 074
+						280 text 工具调用：接下来讲什么？
+					281 button 075 天气查询：一次调用，有来有回
+						282 text 075
+						283 text 天气查询：一次调用，有来有回
+					284 button 076 调用请求：工具名、参数与约定格式
+						285 text 076
+						286 text 调用请求：工具名、参数与约定格式
+					287 button 077 程序执行工具，取得模型之外的结果
+						288 text 077
+						289 text 程序执行工具，取得模型之外的结果
+					290 button 078 工具调用，也是一段文本的继续生成
+						291 text 078
+						292 text 工具调用，也是一段文本的继续生成
+					293 button 079 天气查询小结：两次生成，一次工具执行
+						294 text 079
+						295 text 天气查询小结：两次生成，一次工具执行
+					296 button 080 工具调用：接下来讲什么？
+						297 text 080
+						298 text 工具调用：接下来讲什么？
+					299 button 081 Computer Use：把读取与操作封装成工具
+						300 text 081
+						301 text Computer Use：把读取与操作封装成工具
+					302 button 082 Astra操作机械臂：感知和控制也通过工具
+						303 text 082
+						304 text Astra操作机械臂：感知和控制也通过工具
+					305 button 083 复杂应用，拆开看仍是一次次工具调用
+						306 text 083
+						307 text 复杂应用，拆开看仍是一次次工具调用
+					308 button 084 从对话机器人，走向能做事的智能体
+						309 text 084
+						310 text 从对话机器人，走向能做事的智能体
+				311 heading 3.3 Memory, Value: 4
+					312 text 3.3 Memory
+				313 content list
+					314 button 085 课程内容 · 章节切换
+						315 text 085
+						316 text 课程内容 · 章节切换
+					317 button 086 Memory：保存和使用跨会话信息
+						318 text 086
+						319 text Memory：保存和使用跨会话信息
+					320 button 087 新会话怎样用到过去的信息？
+						321 text 087
+						322 text 新会话怎样用到过去的信息？
+					323 button 088 记忆要存什么？
+						324 text 088
+						325 text 记忆要存什么？
+					326 button 089 记忆怎样组织：条目与关系图
+						327 text 089
+						328 text 记忆怎样组织：条目与关系图
+					329 button 090 记忆库：条目与图谱
+						330 text 090
+						331 text 记忆库：条目与图谱
+					332 button 091 记忆的增删改查
+						333 text 091
+						334 text 记忆的增删改查
+					335 button 092 写入：新增、修改、删除，还是不变？
+						336 text 092
+						337 text 写入：新增、修改、删除，还是不变？
+					338 button 093 事实变了，历史与当前怎样区分？
+						339 text 093
+						340 text 事实变了，历史与当前怎样区分？
+					341 button 094 删除一条记忆，信息就消失了吗？
+						342 text 094
+						343 text 删除一条记忆，信息就消失了吗？
+					344 button 095 查询：先确定范围，再找候选
+						345 text 095
+						346 text 查询：先确定范围，再找候选
+					347 button 096 Memory：本节内容
+						348 text 096
+						349 text Memory：本节内容
+					350 button 097 记忆也可能干扰当前任务
+						351 text 097
+						352 text 记忆也可能干扰当前任务
+					353 button 098 工作场景：需要哪些历史信息？
+						354 text 098
+						355 text 工作场景：需要哪些历史信息？
+					356 button 099 先判断这次需不需要记忆
+						357 text 099
+						358 text 先判断这次需不需要记忆
+					359 button 100 Memory：本节内容
+						360 text 100
+						361 text Memory：本节内容
+					362 button 101 从Memory到个性化与主动式智能体
+						363 text 101
+						364 text 从Memory到个性化与主动式智能体
+					365 button 102 Meta Muse与OpenAI dot
+						366 text 102
+						367 text Meta Muse与OpenAI dot
+					368 button 103 个性化智能体：信息、权限与风险
+						369 text 103
+						370 text 个性化智能体：信息、权限与风险
+					371 button 104 智能体会改变平台的入口吗？
+						372 text 104
+						373 text 智能体会改变平台的入口吗？
+					374 button 105 平台对智能体的限制，已经在发生
+						375 text 105
+						376 text 平台对智能体的限制，已经在发生
+					377 button 106 个性化与主动式智能体小结
+						378 text 106
+						379 text 个性化与主动式智能体小结
+					380 button 107 Memory：本节内容
+						381 text 107
+						382 text Memory：本节内容
+					383 button 108 Codex CLI的记忆系统
+						384 text 108
+						385 text Codex CLI的记忆系统
+					386 button 109 Codex采购案例：旧预算还能沿用吗？
+						387 text 109
+						388 text Codex采购案例：旧预算还能沿用吗？
+					389 button 110 Codex CLI的记忆文件目录
+						390 text 110
+						391 text Codex CLI的记忆文件目录
+					392 button 111 磁盘里保存了什么？
+						393 text 111
+						394 text 磁盘里保存了什么？
+					395 button 112 渐进式披露：先摘要，再细节
+						396 text 112
+						397 text 渐进式披露：先摘要，再细节
+					398 button 113 首次输入：摘要怎样进入模型？
+						399 text 113
+						400 text 首次输入：摘要怎样进入模型？
+					401 button 114 摘要足够吗？哪些内容还要查？
+						402 text 114
+						403 text 摘要足够吗？哪些内容还要查？
+					404 button 115 模型生成读取调用
+						405 text 115
+						406 text 模型生成读取调用
+					407 button 116 工具返回后，输入增加了什么？
+						408 text 116
+						409 text 工具返回后，输入增加了什么？
+					410 button 117 读取记忆后的采购判断
+						411 text 117
+						412 text 读取记忆后的采购判断
+					413 button 118 模型生成采购评审要点
+						414 text 118
+						415 text 模型生成采购评审要点
+					416 button 119 用户补充正式部署条件
+						417 text 119
+						418 text 用户补充正式部署条件
+					419 button 120 文件更新了，当前输入会自动变吗？
+						420 text 120
+						421 text 文件更新了，当前输入会自动变吗？
+					422 button 121 采购案例小结：记忆读取与更新
+						423 text 121
+						424 text 采购案例小结：记忆读取与更新
+					425 button 122 Memory小结：保存、读取与采用
+						426 text 122
+						427 text Memory小结：保存、读取与采用
+					428 button 123 从Memory到Skills：从信息到方法
+						429 text 123
+						430 text 从Memory到Skills：从信息到方法
+				431 heading 3.4 Skills, Value: 4
+					432 text 3.4 Skills
+				433 content list
+					434 button 124 课程内容 · 章节切换
+						435 text 124
+						436 text 课程内容 · 章节切换
+					437 button 125 Skills：把“怎样做”保存成可复用的方法
+						438 text 125
+						439 text Skills：把“怎样做”保存成可复用的方法
+					440 button 126 从程序性记忆到Skills
+						441 text 126
+						442 text 从程序性记忆到Skills
+					443 button 127 采购评审Skill：把条件整理成一页评审要点
+						444 text 127
+						445 text 采购评审Skill：把条件整理成一页评审要点
+					446 button 128 先看文件夹：采购评审包怎样组织？
+						447 text 128
+						448 text 先看文件夹：采购评审包怎样组织？
+					449 button 129 打开采购评审包：9个文件各有什么用？
+						450 text 129
+						451 text 打开采购评审包：9个文件各有什么用？
+					452 button 130 SKILL.md：何时使用，怎样完成
+						453 text 130
+						454 text SKILL.md：何时使用，怎样完成
+					455 button 131 参考、脚本与模板怎样配合？
+						456 text 131
+						457 text 参考、脚本与模板怎样配合？
+					458 button 132 完整技能包：入口、方法与资源
+						459 text 132
+						460 text 完整技能包：入口、方法与资源
+					461 button 133 Skills：接下来讲什么？
+						462 text 133
+						463 text Skills：接下来讲什么？
+					464 button 134 一次Skill调用：从采购条件到评审文件
+						465 text 134
+						466 text 一次Skill调用：从采购条件到评审文件
+					467 button 135 当前输入：采购条件、用户任务与Skill目录
+						468 text 135
+						469 text 当前输入：采购条件、用户任务与Skill目录
+					470 button 136 第一次读取：从目录进入SKILL.md
+						471 text 136
+						472 text 第一次读取：从目录进入SKILL.md
+					473 button 137 第二次读取：找到正式部署的评审方法
+						474 text 137
+						475 text 第二次读取：找到正式部署的评审方法
+					476 button 138 第三次读取：评审方法继续指向费用口径
+						477 text 138
+						478 text 第三次读取：评审方法继续指向费用口径
+					479 button 139 组织初稿：把项目事实放进评审结构
+						480 text 139
+						481 text 组织初稿：把项目事实放进评审结构
+					482 button 140 生成文件：脚本读取初稿与模板
+						483 text 140
+						484 text 生成文件：脚本读取初稿与模板
+					485 button 141 生成之后：另读检查清单，再读回产物
+						486 text 141
+						487 text 生成之后：另读检查清单，再读回产物
+					488 button 142 运行检查：条件、初稿与产物是否一致？
+						489 text 142
+						490 text 运行检查：条件、初稿与产物是否一致？
+					491 button 143 一页采购评审要点：内容与当前任务一致
+						492 text 143
+						493 text 一页采购评审要点：内容与当前任务一致
+					494 button 144 交付：说明文件内容与待确认事项
+						495 text 144
+						496 text 交付：说明文件内容与待确认事项
+					497 button 145 渐进式披露：沿任务逐层读取，用到时再展开
+						498 text 145
+						499 text 渐进式披露：沿任务逐层读取，用到时再展开
+					500 button 146 Skills：接下来讲什么？
+						501 text 146
+						502 text Skills：接下来讲什么？
+					503 button 147 三、自己的Skills：从已有工作到持续维护
+						504 text 147
+						505 text 三、自己的Skills：从已有工作到持续维护
+					506 button 148 让Codex或Claude Code整理Skill初稿
+						507 text 148
+						508 text 让Codex或Claude Code整理Skill初稿
+					509 button 149 让文件结构服务于自己的任务
+						510 text 149
+						511 text 让文件结构服务于自己的任务
+					512 button 150 高Star的Skill，适合你的任务吗？
+						513 text 150
+						514 text 高Star的Skill，适合你的任务吗？
+					515 button 151 评估：选对了吗，读对了吗，结果对了吗？
+						516 text 151
+						517 text 评估：选对了吗，读对了吗，结果对了吗？
+					518 button 152 Skill迁移：方法相同，运行条件可能不同
+						519 text 152
+						520 text Skill迁移：方法相同，运行条件可能不同
+					521 button 153 公共Skill：也会把外部指令与程序带进来
+						522 text 153
+						523 text 公共Skill：也会把外部指令与程序带进来
+					524 button 154 维护：场景、模型、Harness变了，就要复查
+						525 text 154
+						526 text 维护：场景、模型、Harness变了，就要复查
+					527 button 155 自己的Skills小结：用结果决定保留什么
+						528 text 155
+						529 text 自己的Skills小结：用结果决定保留什么
+					530 button 156 Skills小结：组织方法、调用方法、检验方法
+						531 text 156
+						532 text Skills小结：组织方法、调用方法、检验方法
+				533 heading 3.5 Protocols, Value: 4
+					534 text 3.5 Protocols
+				535 content list
+					536 button 157 课程内容 · 章节切换
+						537 text 157
+						538 text 课程内容 · 章节切换
+					539 button 158 Protocols：不同系统怎样配合？
+						540 text 158
+						541 text Protocols：不同系统怎样配合？
+					542 button 159 为什么换个浏览器，仍能打开同一个网站？
+						543 text 159
+						544 text 为什么换个浏览器，仍能打开同一个网站？
+					545 button 160 Protocols：接下来讲什么？
+						546 text 160
+						547 text Protocols：接下来讲什么？
+					548 button 161 MCP：给工具调用一套统一的接入方式
+						549 text 161
+						550 text MCP：给工具调用一套统一的接入方式
+					551 button 162 一个MCP请求：查询纽约天气
+						552 text 162
+						553 text 一个MCP请求：查询纽约天气
+					554 button 163 MCP让一次工具接入，可以被多个应用复用
+						555 text 163
+						556 text MCP让一次工具接入，可以被多个应用复用
+					557 button 164 Protocols：接下来讲什么？
+						558 text 164
+						559 text Protocols：接下来讲什么？
+					560 button 165 A2A：把任务委托给另一个智能体
+						561 text 165
+						562 text A2A：把任务委托给另一个智能体
+					563 button 166 汇率任务：问清楚，再完成换算
+						564 text 166
+						565 text 汇率任务：问清楚，再完成换算
+					566 button 167 MCP与A2A：两种连接可以同时存在
+						567 text 167
+						568 text MCP与A2A：两种连接可以同时存在
+					569 button 168 趋势：从个人助手到智能体互联网
+						570 text 168
+						571 text 趋势：从个人助手到智能体互联网
+					572 button 169 Protocols小结：按共同规则连接外部系统
+						573 text 169
+						574 text Protocols小结：按共同规则连接外部系统
+				575 heading 3.6 Harness, Value: 4
+					576 text 3.6 Harness
+				577 content list
+					578 button 170 课程内容 · 章节切换
+						579 text 170
+						580 text 课程内容 · 章节切换
+					581 button 171 Harness：把各部分组织成运行系统
+						582 text 171
+						583 text Harness：把各部分组织成运行系统
+					584 button 172 一次任务，在Harness中怎样推进？
+						585 text 172
+						586 text 一次任务，在Harness中怎样推进？
+					587 button 173 让任务持续运行，还要解决哪些问题？
+						588 text 173
+						589 text 让任务持续运行，还要解决哪些问题？
+					590 button 174 上下文：下一次调用要带上什么？
+						591 text 174
+						592 text 上下文：下一次调用要带上什么？
+					593 button 175 上下文压缩：留下继续工作的要点
+						594 text 175
+						595 text 上下文压缩：留下继续工作的要点
+					596 button 176 清理长输出，保留重新查阅的路径
+						597 text 176
+						598 text 清理长输出，保留重新查阅的路径
+					599 button 177 Harness：接下来讲什么？
+						600 text 177
+						601 text Harness：接下来讲什么？
+					602 button 178 沙盒与权限：范围和放行分别管理
+						603 text 178
+						604 text 沙盒与权限：范围和放行分别管理
+					605 button 179 人工确认：先核对这次要做什么
+						606 text 179
+						607 text 人工确认：先核对这次要做什么
+					608 button 180 Harness：接下来讲什么？
+						609 text 180
+						610 text Harness：接下来讲什么？
+					611 button 181 Hooks：按事件触发预设动作
+						612 text 181
+						613 text Hooks：按事件触发预设动作
+					614 button 182 文件编辑后，自动整理格式
+						615 text 182
+						616 text 文件编辑后，自动整理格式
+					617 button 183 Hooks：执行前检查，执行后处理
+						618 text 183
+						619 text Hooks：执行前检查，执行后处理
+					620 button 184 Harness：接下来讲什么？
+						621 text 184
+						622 text Harness：接下来讲什么？
+					623 button 185 子智能体：把具体工作分出去
+						624 text 185
+						625 text 子智能体：把具体工作分出去
+					626 button 186 过程留在子任务，结果交回主智能体
+						627 text 186
+						628 text 过程留在子任务，结果交回主智能体
+					629 button 187 能否并行，先看任务之间的依赖
+						630 text 187
+						631 text 能否并行，先看任务之间的依赖
+					632 button 188 什么时候值得把任务分出去？
+						633 text 188
+						634 text 什么时候值得把任务分出去？
+					635 button 189 Harness：接下来讲什么？
+						636 text 189
+						637 text Harness：接下来讲什么？
+					638 button 190 保存进度，让下一次运行接得上
+						639 text 190
+						640 text 保存进度，让下一次运行接得上
+					641 button 191 恢复前，确认哪些动作已经发生
+						642 text 191
+						643 text 恢复前，确认哪些动作已经发生
+					644 button 192 Harness：把输入、执行与反馈接起来
+						645 text 192
+						646 text Harness：把输入、执行与反馈接起来
+				647 heading 3.7 外化与内化整合, Value: 4
+					648 text 3.7 外化与内化整合
+				649 content list
+					650 button 193 课程内容 · 章节切换
+						651 text 193
+						652 text 课程内容 · 章节切换
+					653 button 194 外化与内化：模型与Harness共同迭代
+						654 text 194
+						655 text 外化与内化：模型与Harness共同迭代
+					656 button 195 模型升级后，旧的Skills和流程还需要吗？
+						657 text 195
+						658 text 模型升级后，旧的Skills和流程还需要吗？
+					659 button 196 选择性内化：哪些做法进入模型参数？
+						660 text 196
+						661 text 选择性内化：哪些做法进入模型参数？
+					662 button 197 模型变强，Harness继续补充新的不足
+						663 text 197
+						664 text 模型变强，Harness继续补充新的不足
+					665 button 198 课程内容
+						666 text 198
+						667 text 课程内容
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

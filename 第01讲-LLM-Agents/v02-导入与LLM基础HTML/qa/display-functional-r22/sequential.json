@@ -1,0 +1,592 @@
+[
+  {
+    "page": 1,
+    "title": "LLM Agents：入门与实践",
+    "missingImages": []
+  },
+  {
+    "page": 2,
+    "title": "回答、操作与交付",
+    "missingImages": []
+  },
+  {
+    "page": 3,
+    "title": "课程内容",
+    "missingImages": []
+  },
+  {
+    "page": 4,
+    "title": "LLM基础：连续生成与多轮聊天",
+    "missingImages": []
+  },
+  {
+    "page": 5,
+    "title": "先看一次完整的生成",
+    "missingImages": []
+  },
+  {
+    "page": 6,
+    "title": "下一Token预测（Next token prediction）",
+    "missingImages": []
+  },
+  {
+    "page": 7,
+    "title": "第二步：把刚生成的内容加入前文",
+    "missingImages": []
+  },
+  {
+    "page": 8,
+    "title": "连续生成：从第一个Token到结束",
+    "missingImages": []
+  },
+  {
+    "page": 9,
+    "title": "句号之后，模型还会再预测一次",
+    "missingImages": []
+  },
+  {
+    "page": 10,
+    "title": "课程内容",
+    "missingImages": []
+  },
+  {
+    "page": 11,
+    "title": "聊天界面背后，仍然是在继续生成文本",
+    "missingImages": []
+  },
+  {
+    "page": 12,
+    "title": "第一轮：把角色和消息拼成输入",
+    "missingImages": []
+  },
+  {
+    "page": 13,
+    "title": "第二轮：旧问题、旧回答和追问一起传入",
+    "missingImages": []
+  },
+  {
+    "page": 14,
+    "title": "第三轮：完整历史接在同一份输入中",
+    "missingImages": []
+  },
+  {
+    "page": 15,
+    "title": "LLM基础小结：组织输入，再逐Token生成",
+    "missingImages": []
+  },
+  {
+    "page": 16,
+    "title": "课程内容",
+    "missingImages": []
+  },
+  {
+    "page": 17,
+    "title": "Prompting：先交代任务，再选择方法",
+    "missingImages": []
+  },
+  {
+    "page": 18,
+    "title": "四大要点：让模型知道你要什么",
+    "missingImages": []
+  },
+  {
+    "page": 19,
+    "title": "给Example：把想要的样子给模型看",
+    "missingImages": []
+  },
+  {
+    "page": 20,
+    "title": "让大模型帮你写Prompt",
+    "missingImages": []
+  },
+  {
+    "page": 21,
+    "title": "三个核心，接上四类策略",
+    "missingImages": []
+  },
+  {
+    "page": 22,
+    "title": "课程内容",
+    "missingImages": []
+  },
+  {
+    "page": 23,
+    "title": "苏格拉底式提问：先追问，再给建议",
+    "missingImages": []
+  },
+  {
+    "page": 24,
+    "title": "苏格拉底式提问：原始Prompt",
+    "missingImages": []
+  },
+  {
+    "page": 25,
+    "title": "课程内容",
+    "missingImages": []
+  },
+  {
+    "page": 26,
+    "title": "学习：四种需要，四种方法",
+    "missingImages": []
+  },
+  {
+    "page": 27,
+    "title": "双层解释：从直觉到准确理解",
+    "missingImages": []
+  },
+  {
+    "page": 28,
+    "title": "反向拆解：从成品找到可复用的做法",
+    "missingImages": []
+  },
+  {
+    "page": 29,
+    "title": "反向拆解：原始Prompt",
+    "missingImages": []
+  },
+  {
+    "page": 30,
+    "title": "横纵分析：来路、差异与未来",
+    "missingImages": []
+  },
+  {
+    "page": 31,
+    "title": "横纵分析：原始Prompt的分析任务",
+    "missingImages": []
+  },
+  {
+    "page": 32,
+    "title": "横纵分析：证据要求与报告结构",
+    "missingImages": []
+  },
+  {
+    "page": 33,
+    "title": "事实核查：事实成立，推论就成立吗？",
+    "missingImages": []
+  },
+  {
+    "page": 34,
+    "title": "事实核查：原始Prompt",
+    "missingImages": []
+  },
+  {
+    "page": 35,
+    "title": "课程内容",
+    "missingImages": []
+  },
+  {
+    "page": 36,
+    "title": "学习之后，开始寻找解法",
+    "missingImages": []
+  },
+  {
+    "page": 37,
+    "title": "专家会诊：让互补视角相互质疑",
+    "missingImages": []
+  },
+  {
+    "page": 38,
+    "title": "专家会诊：原始Prompt",
+    "missingImages": []
+  },
+  {
+    "page": 39,
+    "title": "第一性原理：从事实、目标和约束重推",
+    "missingImages": []
+  },
+  {
+    "page": 40,
+    "title": "跨领域借解：迁移机制，而非照搬做法",
+    "missingImages": []
+  },
+  {
+    "page": 41,
+    "title": "跨领域借解：原始Prompt",
+    "missingImages": []
+  },
+  {
+    "page": 42,
+    "title": "课程内容",
+    "missingImages": []
+  },
+  {
+    "page": 43,
+    "title": "有了解法，再判断选哪一个",
+    "missingImages": []
+  },
+  {
+    "page": 44,
+    "title": "双向钢人：把两边的理由都说充分",
+    "missingImages": []
+  },
+  {
+    "page": 45,
+    "title": "双向钢人论证：原始Prompt",
+    "missingImages": []
+  },
+  {
+    "page": 46,
+    "title": "最小实验：用行动取得新的判断依据",
+    "missingImages": []
+  },
+  {
+    "page": 47,
+    "title": "用最小实验替代空想：原始Prompt",
+    "missingImages": []
+  },
+  {
+    "page": 48,
+    "title": "决策小结：条件比较与现实反馈",
+    "missingImages": []
+  },
+  {
+    "page": 49,
+    "title": "Prompting小结：任务清楚，方法合适",
+    "missingImages": []
+  },
+  {
+    "page": 50,
+    "title": "从Prompting到Agent：把要求接到操作",
+    "missingImages": []
+  },
+  {
+    "page": 51,
+    "title": "课程内容",
+    "missingImages": []
+  },
+  {
+    "page": 52,
+    "title": "从大模型到智能体",
+    "missingImages": []
+  },
+  {
+    "page": 53,
+    "title": "大模型能生成什么？还缺什么？",
+    "missingImages": []
+  },
+  {
+    "page": 54,
+    "title": "查询数据：模型得到新的信息",
+    "missingImages": []
+  },
+  {
+    "page": 55,
+    "title": "操作网页：从建议到实际操作",
+    "missingImages": []
+  },
+  {
+    "page": 56,
+    "title": "软件智能体的操作范围",
+    "missingImages": []
+  },
+  {
+    "page": 57,
+    "title": "机械臂抓笔：GPT-6 Astra的一个案例",
+    "missingImages": []
+  },
+  {
+    "page": 58,
+    "title": "具身智能：把执行循环接到物理设备",
+    "missingImages": []
+  },
+  {
+    "page": 59,
+    "title": "智能体比大模型多了什么？",
+    "missingImages": []
+  },
+  {
+    "page": 60,
+    "title": "课程内容",
+    "missingImages": []
+  },
+  {
+    "page": 61,
+    "title": "智能体的外化与内化",
+    "missingImages": []
+  },
+  {
+    "page": 62,
+    "title": "用“外化”理解Agent的各部分",
+    "missingImages": []
+  },
+  {
+    "page": 63,
+    "title": "外部表示，会改变任务的做法",
+    "missingImages": []
+  },
+  {
+    "page": 64,
+    "title": "写一张清单，改变了什么？",
+    "missingImages": []
+  },
+  {
+    "page": 65,
+    "title": "地图把关系放到了眼前",
+    "missingImages": []
+  },
+  {
+    "page": 66,
+    "title": "",
+    "missingImages": []
+  },
+  {
+    "page": 67,
+    "title": "",
+    "missingImages": []
+  },
+  {
+    "page": 68,
+    "title": "工具、记忆、技能与协议",
+    "missingImages": []
+  },
+  {
+    "page": 69,
+    "title": "外部经验，也可能成为训练材料",
+    "missingImages": []
+  },
+  {
+    "page": 70,
+    "title": "先看外化，再提出内化的问题",
+    "missingImages": []
+  },
+  {
+    "page": 71,
+    "title": "课程内容",
+    "missingImages": []
+  },
+  {
+    "page": 72,
+    "title": "工具调用：大模型与外界交互的主要途径",
+    "missingImages": []
+  },
+  {
+    "page": 73,
+    "title": "与外界交互：获取信息，也能产生影响",
+    "missingImages": []
+  },
+  {
+    "page": 74,
+    "title": "工具调用：接下来讲什么？",
+    "missingImages": []
+  },
+  {
+    "page": 75,
+    "title": "天气查询：一次调用，有来有回",
+    "missingImages": []
+  },
+  {
+    "page": 76,
+    "title": "调用请求：工具名、参数与约定格式",
+    "missingImages": []
+  },
+  {
+    "page": 77,
+    "title": "程序执行工具，取得模型之外的结果",
+    "missingImages": []
+  },
+  {
+    "page": 78,
+    "title": "工具调用，也是一段文本的继续生成",
+    "missingImages": []
+  },
+  {
+    "page": 79,
+    "title": "天气查询小结：两次生成，一次工具执行",
+    "missingImages": []
+  },
+  {
+    "page": 80,
+    "title": "工具调用：接下来讲什么？",
+    "missingImages": []
+  },
+  {
+    "page": 81,
+    "title": "Computer Use：把读取与操作封装成工具",
+    "missingImages": []
+  },
+  {
+    "page": 82,
+    "title": "Astra操作机械臂：感知和控制也通过工具",
+    "missingImages": []
+  },
+  {
+    "page": 83,
+    "title": "复杂应用，拆开看仍是一次次工具调用",
+    "missingImages": []
+  },
+  {
+    "page": 84,
+    "title": "从对话机器人，走向能做事的智能体",
+    "missingImages": []
+  },
+  {
+    "page": 85,
+    "title": "课程内容",
+    "missingImages": []
+  },
+  {
+    "page": 86,
+    "title": "Memory：保存和使用跨会话信息",
+    "missingImages": []
+  },
+  {
+    "page": 87,
+    "title": "新会话怎样用到过去的信息？",
+    "missingImages": []
+  },
+  {
+    "page": 88,
+    "title": "记忆要存什么？",
+    "missingImages": []
+  },
+  {
+    "page": 89,
+    "title": "记忆怎样组织：条目与关系图",
+    "missingImages": []
+  },
+  {
+    "page": 90,
+    "title": "记忆库：条目与图谱",
+    "missingImages": []
+  },
+  {
+    "page": 91,
+    "title": "记忆的增删改查",
+    "missingImages": []
+  },
+  {
+    "page": 92,
+    "title": "写入：新增、修改、删除，还是不变？",
+    "missingImages": []
+  },
+  {
+    "page": 93,
+    "title": "事实变了，历史与当前怎样区分？",
+    "missingImages": []
+  },
+  {
+    "page": 94,
+    "title": "删除一条记忆，信息就消失了吗？",
+    "missingImages": []
+  },
+  {
+    "page": 95,
+    "title": "查询：先确定范围，再找候选",
+    "missingImages": []
+  },
+  {
+    "page": 96,
+    "title": "Memory：本节内容",
+    "missingImages": []
+  },
+  {
+    "page": 97,
+    "title": "记忆也可能干扰当前任务",
+    "missingImages": []
+  },
+  {
+    "page": 98,
+    "title": "工作场景：需要哪些历史信息？",
+    "missingImages": []
+  },
+  {
+    "page": 99,
+    "title": "先判断这次需不需要记忆",
+    "missingImages": []
+  },
+  {
+    "page": 100,
+    "title": "Memory：本节内容",
+    "missingImages": []
+  },
+  {
+    "page": 101,
+    "title": "从Memory到个性化与主动式智能体",
+    "missingImages": []
+  },
+  {
+    "page": 102,
+    "title": "Meta Muse与OpenAI dot",
+    "missingImages": []
+  },
+  {
+    "page": 103,
+    "title": "个性化智能体：信息、权限与风险",
+    "missingImages": []
+  },
+  {
+    "page": 104,
+    "title": "智能体会改变平台的入口吗？",
+    "missingImages": []
+  },
+  {
+    "page": 105,
+    "title": "平台对智能体的限制，已经在发生",
+    "missingImages": []
+  },
+  {
+    "page": 106,
+    "title": "个性化与主动式智能体小结",
+    "missingImages": []
+  },
+  {
+    "page": 107,
+    "title": "Memory：本节内容",
+    "missingImages": []
+  },
+  {
+    "page": 108,
+    "title": "Codex CLI的记忆系统",
+    "missingImages": []
+  },
+  {
+    "page": 109,
+    "title": "Codex采购案例：旧预算还能沿用吗？",
+    "missingImages": []
+  },
+  {
+    "page": 110,
+    "title": "Codex CLI的记忆文件目录",
+    "missingImages": []
+  },
+  {
+    "page": 111,
+    "title": "磁盘里保存了什么？",
+    "missingImages": []
+  },
+  {
+    "page": 112,
+    "title": "渐进式披露：先摘要，再细节",
+    "missingImages": []
+  },
+  {
+    "page": 113,
+    "title": "首次输入：摘要怎样进入模型？",
+    "missingImages": []
+  },
+  {
+    "page": 114,
+    "title": "摘要足够吗？哪些内容还要查？",
+    "missingImages": []
+  },
+  {
+    "page": 115,
+    "title": "模型生成读取调用",
+    "missingImages": []
+  },
+  {
+    "page": 116,
+    "title": "工具返回后，输入增加了什么？",
+    "missingImages": []
+  },
+  {
+    "page": 117,
+    "title": "读取记忆后的采购判断",
+    "missingImages": []
+  },
+  {
+    "page": 118,
+    "title": "模型生成采购评审要点",
+    "missingImages": []
+  }
+]

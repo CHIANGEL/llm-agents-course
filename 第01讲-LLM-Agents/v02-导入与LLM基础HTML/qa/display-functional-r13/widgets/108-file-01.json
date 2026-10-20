@@ -1,0 +1,18 @@
+{
+  "broken": [],
+  "page": "108",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    },
+    {
+      "max": 306,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "references/tutorial-patterns.md"
+  ],
+  "text": "从左侧选择文件；右侧查看原文、模板或图标。\njupyter-notebook / 12个文件\nSKILL.md\nreferences/tutorial-patterns.md\nreferences/experiment-patterns.md\nreferences/notebook-structure.md\nreferences/quality-checklist.md\nscripts/new_notebook.py\nassets/tutorial-template.ipynb\nassets/experiment-template.ipynb\nagents/openai.yaml\nassets/jupyter-small.svg\nassets/jupyter.png\nLICENSE.txt\n重置\nreferences/tutorial-patterns.md\n# Tutorial Patterns\n\nUse this structure for teaching and walkthroughs:\n\n- Audience, prerequisites, and learning goals: say who it is for, list what they should already know, and state what they will be able to do by the end.\n- Outline: provide a short numbered outline so readers can skim.\n- Step-by-step flow: pair a short markdown explanation with a small code cell that runs on its own and a brief interpretation of the result.\n- Exercises: include at least one exercise that reinforces the key concept and provide an answer scaffold in the next cell.\n- Pitfalls and extensions: call out one common mistake and how to fix it, and suggest one optional extension for curious readers.\n\n\n教程内容的组织方法：目标、分步说明、代码和常见问题。\n\n入口文件组织方法；参考、脚本与模板为具体任务提供可取用的资源。"
+}

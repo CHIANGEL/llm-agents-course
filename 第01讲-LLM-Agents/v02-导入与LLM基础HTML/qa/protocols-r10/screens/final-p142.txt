@@ -1,0 +1,65 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-final#p=142&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-final#p=142&s=1
+	2 container
+		53 container 第142页 Agent Card：先了解对方能做什么
+			54 heading Agent Card：先了解对方能做什么, Value: 1
+				55 text Agent Card：先了解对方能做什么
+			56 container 课件内容
+				57 container
+					58 text Agent Card是对方公开的 能力与接口说明 ，帮助应用判断怎样联系和使用。
+					59 image Agent Card能力说明
+					60 table
+						61 row
+							62 cell
+								63 text 要了解什么
+							64 cell
+								65 text 在汇率任务中
+						66 row
+							67 cell
+								68 text 名称与能力
+							69 cell
+								70 text 汇率Agent：处理货币换算问题
+						71 row
+							72 cell
+								73 text 输入与输出
+							74 cell
+								75 text 提供金额、原币种与目标币种；取得换算结果
+						76 row
+							77 cell
+								78 text 接口与访问要求
+							79 cell
+								80 text 请求发往哪里；采用什么协议；如何认证
+					81 text Card中的  skills  描述这个Agent提供的能力。 前一章的Skill包保存工作方法；Agent Card用于介绍一个服务。 能力说明帮助找到合适的服务；实际请求仍由应用按接口和权限发送。
+			82 container 课程进度
+				83 button 导入
+				84 button 1. LLM基础
+				85 button 2. Prompting
+				86 button 3. Agents · Externalization & Internalization
+					87 text 3. Agents 
+					88 text · Externalization & Internalization
+				89 button 3.0 外化与内化总览
+				90 button 3.1 工具调用
+				91 button 3.2 Memory
+				92 button 3.3 Skills
+				93 button 3.4 Protocols
+				94 button 3.5 Harness
+				95 button 3.6 外化与内化整合
+				96 button 3.7 全讲总结
+		38 container Description: 课件操作, ID: controls
+			39 button Description: 上一步, Help: 上一步（←）
+			40 button Description: 下一步, Help: 下一步（→或空格）
+			41 container jump-form
+				42 text 页码
+				43 stepper (settable, integer) Description: 页码, Value: 142, ID: page-input
+				44 text / 177
+			97 text 整页显示
+			46 button 目录
+			47 button 讲者备注
+			48 button 完整材料
+			49 button 放大图解
+			50 button 全屏
+			51 button 隐藏, Help: 按H恢复
+			52 button 操作说明
+		98 text 第142页，Agent Card：先了解对方能做什么，整页显示
+
+The focused UI element is 40 button Description: 下一步, Help: 下一步（→或空格）

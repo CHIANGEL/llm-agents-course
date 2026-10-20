@@ -1,0 +1,131 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:,"><title>jupyter-notebook/scripts/new_notebook.py</title><style>body{max-width:1050px;margin:32px auto;padding:0 24px;color:#002060;font:20px/1.7 Arial,"Microsoft YaHei",sans-serif}h1{font-size:28px}pre{font:18px/1.6 monospace;white-space:pre-wrap;overflow-wrap:anywhere;color:#111}a{color:#003f98}li{margin:10px 0}</style><h1>jupyter-notebook/scripts/new_notebook.py</h1><p><a href="../agents-skills/jupyter-notebook/scripts/new_notebook.py" download>下载原始文件</a></p><pre>from __future__ import annotations
+
+import argparse
+import json
+import re
+from pathlib import Path
+from typing import Any
+
+
+def slugify(text: str) -&gt; str:
+    lowered = text.strip().lower()
+    cleaned = re.sub(r&quot;[^a-z0-9]+&quot;, &quot;-&quot;, lowered)
+    collapsed = re.sub(r&quot;-+&quot;, &quot;-&quot;, cleaned).strip(&quot;-&quot;)
+    return collapsed or &quot;notebook&quot;
+
+
+def find_repo_root(start: Path) -&gt; Path:
+    for candidate in (start, *start.parents):
+        if (candidate / &quot;.git&quot;).exists():
+            return candidate
+    return start
+
+
+def load_template(skill_dir: Path, kind: str) -&gt; dict[str, Any]:
+    asset_name = &quot;experiment-template.ipynb&quot; if kind == &quot;experiment&quot; else &quot;tutorial-template.ipynb&quot;
+    template_path = skill_dir / &quot;assets&quot; / asset_name
+    if not template_path.exists():
+        raise SystemExit(f&quot;Missing template: {template_path}&quot;)
+    with template_path.open(&quot;r&quot;, encoding=&quot;utf-8&quot;) as f:
+        data = json.load(f)
+    if not isinstance(data, dict):
+        raise SystemExit(f&quot;Unexpected template shape: {template_path}&quot;)
+    return data
+
+
+def update_title(notebook: dict[str, Any], kind: str, title: str) -&gt; None:
+    prefix = &quot;Experiment&quot; if kind == &quot;experiment&quot; else &quot;Tutorial&quot;
+    expected = f&quot;# {prefix}: {title}\n&quot;
+
+    cells = notebook.get(&quot;cells&quot;)
+    if not isinstance(cells, list) or not cells:
+        raise SystemExit(&quot;Template notebook has no cells&quot;)
+
+    first_cell = cells[0]
+    if not isinstance(first_cell, dict) or first_cell.get(&quot;cell_type&quot;) != &quot;markdown&quot;:
+        raise SystemExit(&quot;Template notebook must start with a markdown title cell&quot;)
+
+    source = first_cell.get(&quot;source&quot;, [])
+    if isinstance(source, str):
+        source_lines = [source]
+    elif isinstance(source, list):
+        source_lines = [str(line) for line in source]
+    else:
+        source_lines = []
+
+    if source_lines:
+        source_lines[0] = expected
+    else:
+        source_lines = [expected]
+
+    first_cell[&quot;source&quot;] = source_lines
+
+    metadata = notebook.setdefault(&quot;metadata&quot;, {})
+    if not isinstance(metadata, dict):
+        raise SystemExit(&quot;Notebook metadata must be a mapping&quot;)
+
+    language_info = metadata.setdefault(&quot;language_info&quot;, {})
+    if isinstance(language_info, dict):
+        language_info.setdefault(&quot;name&quot;, &quot;python&quot;)
+        language_info.setdefault(&quot;version&quot;, &quot;3.12&quot;)
+
+
+def default_output(repo_root: Path, title: str) -&gt; Path:
+    filename = f&quot;{slugify(title)}.ipynb&quot;
+    return repo_root / &quot;output&quot; / &quot;jupyter-notebook&quot; / filename
+
+
+def parse_args() -&gt; argparse.Namespace:
+    parser = argparse.ArgumentParser(description=&quot;Scaffold a Jupyter notebook for experiments or tutorials.&quot;)
+    parser.add_argument(
+        &quot;--kind&quot;,
+        choices=[&quot;experiment&quot;, &quot;tutorial&quot;],
+        default=&quot;experiment&quot;,
+        help=&quot;Notebook style to scaffold (default: experiment).&quot;,
+    )
+    parser.add_argument(
+        &quot;--title&quot;,
+        required=True,
+        help=&quot;Human-readable notebook title used in the first markdown cell.&quot;,
+    )
+    parser.add_argument(
+        &quot;--out&quot;,
+        type=Path,
+        default=None,
+        help=&quot;Output path for the notebook. Defaults to output/jupyter-notebook/&lt;slug&gt;.ipynb.&quot;,
+    )
+    parser.add_argument(
+        &quot;--force&quot;,
+        action=&quot;store_true&quot;,
+        help=&quot;Overwrite the output file if it already exists.&quot;,
+    )
+    return parser.parse_args()
+
+
+def main() -&gt; None:
+    args = parse_args()
+
+    script_path = Path(__file__).resolve()
+    skill_dir = script_path.parents[1]
+    repo_root = find_repo_root(skill_dir)
+
+    notebook = load_template(skill_dir, args.kind)
+    update_title(notebook, args.kind, args.title)
+
+    out_path = args.out or default_output(repo_root, args.title)
+    out_path = out_path.resolve()
+
+    if out_path.exists() and not args.force:
+        raise SystemExit(f&quot;Refusing to overwrite existing file without --force: {out_path}&quot;)
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_path.open(&quot;w&quot;, encoding=&quot;utf-8&quot;) as f:
+        json.dump(notebook, f, indent=2)
+        f.write(&quot;\n&quot;)
+
+    print(f&quot;Wrote {out_path} using kind={args.kind}.&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</pre></html>

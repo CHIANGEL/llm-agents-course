@@ -1,0 +1,1035 @@
+{
+  "date": "2026-10-18T16:23:29.329Z",
+  "checks": [
+    {
+      "test": "Focused directory: Space opens without advancing",
+      "pass": true,
+      "detail": {
+        "hash": "#p=25&s=1",
+        "page": 25,
+        "step": "步骤 1/3",
+        "title": "给例子：参考结构，依据材料写事实",
+        "dialog": true,
+        "focused": "dialog-close"
+      }
+    },
+    {
+      "test": "Control+g stays outside course shortcuts",
+      "pass": true,
+      "detail": {
+        "hash": "#p=25&s=1",
+        "page": 25,
+        "step": "步骤 1/3",
+        "title": "给例子：参考结构，依据材料写事实",
+        "dialog": false,
+        "focused": "toc"
+      }
+    },
+    {
+      "test": "Meta+g stays outside course shortcuts",
+      "pass": true,
+      "detail": {
+        "hash": "#p=25&s=1",
+        "page": 25,
+        "step": "步骤 1/3",
+        "title": "给例子：参考结构，依据材料写事实",
+        "dialog": false,
+        "focused": "toc"
+      }
+    },
+    {
+      "test": "Alt+g stays outside course shortcuts",
+      "pass": true,
+      "detail": {
+        "hash": "#p=25&s=1",
+        "page": 25,
+        "step": "步骤 1/3",
+        "title": "给例子：参考结构，依据材料写事实",
+        "dialog": false,
+        "focused": "toc"
+      }
+    },
+    {
+      "test": "Page input \"2.5\"",
+      "pass": true,
+      "detail": {
+        "hash": "#p=2&s=1",
+        "page": 2,
+        "step": "步骤 1/4",
+        "title": "回答、操作与交付",
+        "dialog": false,
+        "focused": "toc"
+      }
+    },
+    {
+      "test": "Page input \"0\"",
+      "pass": true,
+      "detail": {
+        "hash": "#p=1&s=1",
+        "page": 1,
+        "step": "步骤 1/2",
+        "title": "第一讲：LLM Agents",
+        "dialog": false,
+        "focused": "toc"
+      }
+    },
+    {
+      "test": "Page input \"999\"",
+      "pass": true,
+      "detail": {
+        "hash": "#p=134&s=1",
+        "page": 134,
+        "step": "步骤 1/3",
+        "title": "第一讲小结：生成、任务与执行",
+        "dialog": false,
+        "focused": "toc"
+      }
+    },
+    {
+      "test": "Page input \"-5\"",
+      "pass": true,
+      "detail": {
+        "hash": "#p=1&s=1",
+        "page": 1,
+        "step": "步骤 1/2",
+        "title": "第一讲：LLM Agents",
+        "dialog": false,
+        "focused": "toc"
+      }
+    },
+    {
+      "test": "Page input \"\"",
+      "pass": true,
+      "detail": {
+        "hash": "#p=1&s=1",
+        "page": 1,
+        "step": "步骤 1/2",
+        "title": "第一讲：LLM Agents",
+        "dialog": false,
+        "focused": "toc"
+      }
+    },
+    {
+      "test": "Page input \"1e2\"",
+      "pass": true,
+      "detail": {
+        "hash": "#p=100&s=1",
+        "page": 100,
+        "step": "步骤 1/3",
+        "title": "Box：先找到季度报告与月度更新",
+        "dialog": false,
+        "focused": "toc"
+      }
+    },
+    {
+      "test": "Input navigation keys do not change slide",
+      "pass": true
+    },
+    {
+      "test": "Enter commits page input and leaves focus",
+      "pass": true,
+      "detail": {
+        "hash": "#p=51&s=1",
+        "page": 51,
+        "step": "步骤 1/3",
+        "title": "Agents：外化与内化",
+        "dialog": false,
+        "focused": "mount"
+      }
+    },
+    {
+      "test": "First-state lower boundary",
+      "pass": true
+    },
+    {
+      "test": "Final-state upper boundary",
+      "pass": true
+    },
+    {
+      "test": "Repeated next/previous returns same content",
+      "pass": true
+    },
+    {
+      "test": "PageDown starts next page",
+      "pass": true
+    },
+    {
+      "test": "PageUp starts previous page",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 1",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 2",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 3",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 4",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 5",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 6",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 7",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 8",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 9",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 10",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 11",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 12",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 13",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 14",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 15",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 16",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 17",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 18",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 19",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 20",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 21",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 22",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 23",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 24",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 25",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 26",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 27",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 28",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 29",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 30",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 31",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 32",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 33",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 34",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 35",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 36",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 37",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 38",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 39",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 40",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 41",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 42",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 43",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 44",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 45",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 46",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 47",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 48",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 49",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 50",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 51",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 52",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 53",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 54",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 55",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 56",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 57",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 58",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 59",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 60",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 61",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 62",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 63",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 64",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 65",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 66",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 67",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 68",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 69",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 70",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 71",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 72",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 73",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 74",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 75",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 76",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 77",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 78",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 79",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 80",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 81",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 82",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 83",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 84",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 85",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 86",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 87",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 88",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 89",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 90",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 91",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 92",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 93",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 94",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 95",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 96",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 97",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 98",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 99",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 100",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 101",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 102",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 103",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 104",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 105",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 106",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 107",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 108",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 109",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 110",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 111",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 112",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 113",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 114",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 115",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 116",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 117",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 118",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 119",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 120",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 121",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 122",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 123",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 124",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 125",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 126",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 127",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 128",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 129",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 130",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 131",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 132",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 133",
+      "pass": true
+    },
+    {
+      "test": "Directory destination 134",
+      "pass": true
+    },
+    {
+      "test": "Reordered/repeated directory 103",
+      "pass": true
+    },
+    {
+      "test": "Reordered/repeated directory 25",
+      "pass": true
+    },
+    {
+      "test": "Reordered/repeated directory 134",
+      "pass": true
+    },
+    {
+      "test": "Reordered/repeated directory 1",
+      "pass": true
+    },
+    {
+      "test": "Reordered/repeated directory 1",
+      "pass": true
+    },
+    {
+      "test": "Reordered/repeated directory 103",
+      "pass": true
+    },
+    {
+      "test": "materials modal opens",
+      "pass": true,
+      "detail": {
+        "hash": "#p=77&s=2",
+        "page": 77,
+        "step": "步骤 2/4",
+        "title": "读取内容，加入后续输入",
+        "dialog": true,
+        "focused": "dialog-close"
+      }
+    },
+    {
+      "test": "materials modal blocks slide shortcuts",
+      "pass": true
+    },
+    {
+      "test": "materials focus remains modal",
+      "pass": true
+    },
+    {
+      "test": "materials close restores focus",
+      "pass": true,
+      "detail": {
+        "hash": "#p=77&s=2",
+        "page": 77,
+        "step": "步骤 2/4",
+        "title": "读取内容，加入后续输入",
+        "dialog": false,
+        "focused": "materials"
+      }
+    },
+    {
+      "test": "notes modal opens",
+      "pass": true,
+      "detail": {
+        "hash": "#p=77&s=2",
+        "page": 77,
+        "step": "步骤 2/4",
+        "title": "读取内容，加入后续输入",
+        "dialog": true,
+        "focused": "dialog-close"
+      }
+    },
+    {
+      "test": "notes modal blocks slide shortcuts",
+      "pass": true
+    },
+    {
+      "test": "notes focus remains modal",
+      "pass": true
+    },
+    {
+      "test": "notes close restores focus",
+      "pass": true,
+      "detail": {
+        "hash": "#p=77&s=2",
+        "page": 77,
+        "step": "步骤 2/4",
+        "title": "读取内容，加入后续输入",
+        "dialog": false,
+        "focused": "notes"
+      }
+    },
+    {
+      "test": "help modal opens",
+      "pass": true,
+      "detail": {
+        "hash": "#p=77&s=2",
+        "page": 77,
+        "step": "步骤 2/4",
+        "title": "读取内容，加入后续输入",
+        "dialog": true,
+        "focused": "dialog-close"
+      }
+    },
+    {
+      "test": "help modal blocks slide shortcuts",
+      "pass": true
+    },
+    {
+      "test": "help focus remains modal",
+      "pass": true
+    },
+    {
+      "test": "help close restores focus",
+      "pass": true,
+      "detail": {
+        "hash": "#p=77&s=2",
+        "page": 77,
+        "step": "步骤 2/4",
+        "title": "读取内容，加入后续输入",
+        "dialog": false,
+        "focused": "help"
+      }
+    },
+    {
+      "test": "Material text can be selected",
+      "pass": true
+    },
+    {
+      "test": "Escape restores invoking focus",
+      "pass": true
+    },
+    {
+      "test": "Backdrop closes modal",
+      "pass": true
+    },
+    {
+      "test": "Diagram doubleclick opens zoom",
+      "pass": true
+    },
+    {
+      "test": "Zoom keeps current state",
+      "pass": true
+    },
+    {
+      "test": "Zoom maximum 300%",
+      "pass": true
+    },
+    {
+      "test": "Zoom scrolls both axes",
+      "pass": true
+    },
+    {
+      "test": "Zoom minimum 50%",
+      "pass": true
+    },
+    {
+      "test": "Zoom resets on reopen",
+      "pass": true
+    },
+    {
+      "test": "Zoom does not change slide",
+      "pass": true
+    },
+    {
+      "test": "Fullscreen button enters",
+      "pass": true,
+      "detail": {
+        "hash": "#p=67&s=2",
+        "page": 67,
+        "step": "步骤 2/3",
+        "title": "界面结构与截图提供两种观察",
+        "dialog": false,
+        "focused": "fullscreen"
+      }
+    },
+    {
+      "test": "F exits fullscreen",
+      "pass": true
+    },
+    {
+      "test": "Hide button hides controls",
+      "pass": true
+    },
+    {
+      "test": "Hidden controls cannot steal tab focus",
+      "pass": true,
+      "detail": {
+        "hash": "#p=67&s=2",
+        "page": 67,
+        "step": "步骤 2/3",
+        "title": "界面结构与截图提供两种观察",
+        "dialog": false,
+        "focused": "BODY"
+      }
+    },
+    {
+      "test": "H restores controls",
+      "pass": true
+    },
+    {
+      "test": "Control bar fits 1280x720",
+      "pass": true,
+      "detail": {
+        "x": 281.375,
+        "y": 660.25,
+        "width": 717.234375,
+        "height": 51.5
+      }
+    },
+    {
+      "test": "Help remains reachable 1280x720",
+      "pass": true
+    },
+    {
+      "test": "Control bar fits 900x900",
+      "pass": true,
+      "detail": {
+        "x": 91.375,
+        "y": 840.25,
+        "width": 717.234375,
+        "height": 51.5
+      }
+    },
+    {
+      "test": "Help remains reachable 900x900",
+      "pass": true
+    },
+    {
+      "test": "Control bar fits 588x647",
+      "pass": true,
+      "detail": {
+        "x": 6,
+        "y": 550,
+        "width": 576,
+        "height": 91
+      }
+    },
+    {
+      "test": "Help remains reachable 588x647",
+      "pass": true
+    },
+    {
+      "test": "Local source opens L1",
+      "pass": true,
+      "detail": "http://127.0.0.1:8765/sources/library/L1/index.html"
+    },
+    {
+      "test": "Source reader has text L1",
+      "pass": true
+    },
+    {
+      "test": "Local source opens L2",
+      "pass": true,
+      "detail": "http://127.0.0.1:8765/sources/library/L2/index.html"
+    },
+    {
+      "test": "Source reader has text L2",
+      "pass": true
+    },
+    {
+      "test": "Local source opens L3",
+      "pass": true,
+      "detail": "http://127.0.0.1:8765/sources/library/L3/index.html"
+    },
+    {
+      "test": "Source reader has text L3",
+      "pass": true
+    },
+    {
+      "test": "Local source opens TEACHER",
+      "pass": true,
+      "detail": "http://127.0.0.1:8765/sources/library/TEACHER/index.html"
+    },
+    {
+      "test": "Source reader has text TEACHER",
+      "pass": true
+    },
+    {
+      "test": "Local source opens PROMPT_PDF",
+      "pass": true,
+      "detail": "http://127.0.0.1:8765/sources/library/PROMPT_PDF/original.pdf"
+    },
+    {
+      "test": "Local source opens PLAN",
+      "pass": true,
+      "detail": "http://127.0.0.1:8765/sources/library/PLAN/index.html"
+    },
+    {
+      "test": "Source reader has text PLAN",
+      "pass": true
+    },
+    {
+      "test": "Local source opens MEM",
+      "pass": true,
+      "detail": "http://127.0.0.1:8765/sources/library/MEM/index.html"
+    },
+    {
+      "test": "Source reader has text MEM",
+      "pass": true
+    },
+    {
+      "test": "Local source opens SKILL",
+      "pass": true,
+      "detail": "http://127.0.0.1:8765/sources/library/SKILL/index.html"
+    },
+    {
+      "test": "Source reader has text SKILL",
+      "pass": true
+    },
+    {
+      "test": "Local source opens MCP",
+      "pass": true,
+      "detail": "http://127.0.0.1:8765/sources/library/MCP/index.html"
+    },
+    {
+      "test": "Source reader has text MCP",
+      "pass": true
+    },
+    {
+      "test": "Local source opens NOTEBOOK_COMPLETED",
+      "pass": true,
+      "detail": "http://127.0.0.1:8765/sources/library/NOTEBOOK_COMPLETED/index.html"
+    },
+    {
+      "test": "Source reader has text NOTEBOOK_COMPLETED",
+      "pass": true
+    },
+    {
+      "test": "Offline file mode playback",
+      "pass": true
+    },
+    {
+      "test": "Offline complete materials opens",
+      "pass": true
+    },
+    {
+      "test": "No browser or resource errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

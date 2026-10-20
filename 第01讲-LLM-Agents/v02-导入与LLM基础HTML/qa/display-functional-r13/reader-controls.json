@@ -1,0 +1,83 @@
+[
+  {
+    "length": 75,
+    "open": true,
+    "title": "资料位置与版本"
+  },
+  {
+    "open": false,
+    "title": "资料位置与版本"
+  },
+  {
+    "length": 124,
+    "open": true,
+    "title": "资料位置与版本"
+  },
+  {
+    "open": false,
+    "title": "资料位置与版本"
+  },
+  {
+    "length": 9,
+    "open": false,
+    "title": "第一次完整模型输入"
+  },
+  {
+    "open": true,
+    "title": "第一次完整模型输入"
+  },
+  {
+    "length": 9,
+    "open": false,
+    "title": "模型生成的调用文本"
+  },
+  {
+    "open": true,
+    "title": "模型生成的调用文本"
+  },
+  {
+    "length": 4,
+    "open": false,
+    "title": "工具返回"
+  },
+  {
+    "open": true,
+    "title": "工具返回"
+  },
+  {
+    "length": 9,
+    "open": false,
+    "title": "第二次完整模型输入"
+  },
+  {
+    "open": true,
+    "title": "第二次完整模型输入"
+  },
+  {
+    "length": 11,
+    "open": false,
+    "title": "包含回答的完整对话文本"
+  },
+  {
+    "open": true,
+    "title": "包含回答的完整对话文本"
+  },
+  {
+    "length": 6,
+    "open": false,
+    "title": "完整消息列表"
+  },
+  {
+    "open": true,
+    "title": "完整消息列表"
+  },
+  {
+    "length": 133,
+    "open": true,
+    "title": "资料位置与版本"
+  },
+  {
+    "open": false,
+    "title": "资料位置与版本"
+  }
+]

@@ -1,0 +1,27 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=25&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=25&s=1
+	2 container
+		3 container Description: 第25页 反向拆解：原始Prompt, ID: mount
+			4 container 第25页 反向拆解：原始Prompt
+				5 heading 反向拆解：原始Prompt, Value: 1
+					6 text 反向拆解：原始Prompt
+				7 container 课件内容
+					8 container
+						9 text 保留服务对象、结构、关键选择、完成标准与迁移范围。 原始Prompt 接续左栏
+						10 text 我想拆解的优秀范例是：【粘贴产品页面、网页、方案、流程说明、数据看板或其他成品】。
+						11 text 我想学会的是：【填写你希望从中学会什么】。
+						12 text 请先用一句话说明它解决了什么问题，再反向拆解它为什么有效。
+						13 text 重点分析：
+						14 text 1. 它服务谁，目标是什么；
+						15 text 2. 它采用了什么结构或流程；
+						16 text 3. 哪些关键选择拉开了质量差距；
+						17 text 4. 它的完成标准是什么；
+						18 text 5. 哪些规律可以迁移，哪些细节只适合这个案例。
+						19 text 最后请给我：
+						20 text 1. 提炼3到5条可复用规律；
+						21 text 2. 一份可以照着执行的操作清单；
+						22 text 3. 一个最值得先尝试的小练习。
+						23 text 《Prompting技巧》· 学习 · 第4页
+		24 text 第25页，反向拆解：原始Prompt，整页显示
+
+The focused UI element is 3 container Description: 第25页 反向拆解：原始Prompt, ID: mount

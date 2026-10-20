@@ -1,0 +1,13 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=29&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=29&s=1
+	2 container
+		3 container Description: 第29页 事实核查：事实成立，推论就成立吗？, ID: mount
+			4 container 第29页 事实核查：事实成立，推论就成立吗？
+				5 heading 事实核查：事实成立，推论就成立吗？, Value: 1
+					6 text 事实核查：事实成立，推论就成立吗？
+				7 container 课件内容
+					8 container
+						9 text 对事实找依据，对推论查逻辑，对价值判断辨认取舍。 把同一句说法拆开，分别处理 事实 能否被外部验证 推论 事实能否推出结论 价值判断 选择体现什么取舍 事实核查 来源 · 样本 · 时间 · 完整上下文 推理检查 假设 · 因果 · 其他解释 · 成立条件 事实得到支持之后，还要继续检查它支持的是哪一个结论。 对来源的核查与对推理的检查，缺一不可。
+		10 text 第29页，事实核查：事实成立，推论就成立吗？，整页显示
+
+The focused UI element is 3 container Description: 第29页 事实核查：事实成立，推论就成立吗？, ID: mount

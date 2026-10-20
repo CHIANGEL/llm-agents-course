@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 112,
+  "text": "二、一次调用：从任务到Notebook文件\n已结束：完整技能包　→　接下来：一次调用全过程\n请为“Python列表与平均值”创建一个教学用的Jupyter Notebook骨架，先保留模板内容，并说明后续要补哪些内容。\n同一个任务，沿着六个动作往下看\n看目录\n读SKILL.md\n读教程参考\n运行生成脚本\n打开产物并检查\n回答用户\n前两次读取逐层取得方法；脚本负责写文件；检查回到“先创建骨架”的要求。\n两级渐进式披露：目录 → SKILL.md → 本次所需参考。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "第112页 二、一次调用：从任务到Notebook文件"
+}

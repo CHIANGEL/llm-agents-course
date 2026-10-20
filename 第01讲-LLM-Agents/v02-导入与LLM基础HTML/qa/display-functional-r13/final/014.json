@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 14,
+  "text": "第三轮：完整历史接在同一份输入中\n再问预算时，前两轮问答仍在同一个序列中，新问题接在最后。\n聊天窗口\n完整输入文本 · SmolLM2模板\n用户\n3人，每人20元？\n助手\n60元。\n用户\n5人呢？\n助手\n100元。\n用户\n预算80元，差多少？\n<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n60元。<|im_end|>\n<|im_start|>user\n5人呢？<|im_end|>\n<|im_start|>assistant\n100元。<|im_end|>\n<|im_start|>user\n预算80元，差多少？<|im_end|>\n<|im_start|>assistant\n▌接下来生成：还差20元。\n三轮对话是逐次增长的输入序列；这次仍然是在末尾继续生成。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n1.1 连续生成\n1.2 多轮聊天\n1.3 LLM小结",
+  "title": "第14页 第三轮：完整历史接在同一份输入中"
+}

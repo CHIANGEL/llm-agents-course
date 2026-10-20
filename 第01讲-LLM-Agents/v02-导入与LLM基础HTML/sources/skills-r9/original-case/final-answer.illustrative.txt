@@ -1,0 +1,3 @@
+已创建 output/jupyter-notebook/python-lists-and-mean.ipynb，共7个模板单元，首标题为“Python列表与平均值”。
+
+后续需要补充：学习对象与目标、列表和平均值的小代码例子、练习与参考答案，以及常见错误。当前保留的是模板示例，列表教程正文还没有填入。

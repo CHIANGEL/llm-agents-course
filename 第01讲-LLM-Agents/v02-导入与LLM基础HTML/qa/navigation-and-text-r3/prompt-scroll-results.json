@@ -1,0 +1,122 @@
+[
+  {
+    "page": 20,
+    "end": 4,
+    "start": 0,
+    "plain": true,
+    "color": "rgb(17, 17, 17)",
+    "weight": "400",
+    "lastLine": "保留我的目标和必要约束，不要自行改变任务。",
+    "pageUnchanged": true
+  },
+  {
+    "page": 24,
+    "end": 477,
+    "start": 0,
+    "plain": true,
+    "color": "rgb(17, 17, 17)",
+    "weight": "400",
+    "lastLine": "等我确认这个新问题以后，再给出你的判断、理由和下一步行动。",
+    "pageUnchanged": true
+  },
+  {
+    "page": 27,
+    "end": 177,
+    "start": 0,
+    "plain": true,
+    "color": "rgb(17, 17, 17)",
+    "weight": "400",
+    "lastLine": "3. 3个用于检查我是否真正理解的问题。",
+    "pageUnchanged": true
+  },
+  {
+    "page": 29,
+    "end": 285,
+    "start": 0,
+    "plain": true,
+    "color": "rgb(17, 17, 17)",
+    "weight": "400",
+    "lastLine": "3. 一个最值得先尝试的小练习。",
+    "pageUnchanged": true
+  },
+  {
+    "page": 31,
+    "end": 381,
+    "start": 0,
+    "plain": true,
+    "color": "rgb(17, 17, 17)",
+    "weight": "400",
+    "lastLine": "3. 每条路径出现的前提和预警信号是什么。",
+    "pageUnchanged": true
+  },
+  {
+    "page": 32,
+    "end": 0,
+    "start": 0,
+    "plain": true,
+    "color": "rgb(17, 17, 17)",
+    "weight": "400",
+    "lastLine": "最后按以下顺序输出：核心结论、关键时间线、横向对比表、详细分析、未来判断、仍待确认的问题。",
+    "pageUnchanged": true
+  },
+  {
+    "page": 34,
+    "end": 765,
+    "start": 0,
+    "plain": true,
+    "color": "rgb(17, 17, 17)",
+    "weight": "400",
+    "lastLine": "4. 我目前可以相信到什么程度。",
+    "pageUnchanged": true
+  },
+  {
+    "page": 38,
+    "end": 669,
+    "start": 0,
+    "plain": true,
+    "color": "rgb(17, 17, 17)",
+    "weight": "400",
+    "lastLine": "不要选择三个高度相似的身份，也不要模仿或编造真实人物的观点。信息不足时，先只问我一个最关键的问题。",
+    "pageUnchanged": true
+  },
+  {
+    "page": 39,
+    "end": 210.5,
+    "start": 0,
+    "plain": true,
+    "color": "rgb(17, 17, 17)",
+    "weight": "400",
+    "lastLine": "4. 验证它的第一步。",
+    "pageUnchanged": true
+  },
+  {
+    "page": 41,
+    "end": 381,
+    "start": 0,
+    "plain": true,
+    "color": "rgb(17, 17, 17)",
+    "weight": "400",
+    "lastLine": "最后请选出最值得借用的3种机制，把它们翻译成适合我当前处境的解决方案，再推荐一个最值得先试的低成本、可逆实验。",
+    "pageUnchanged": true
+  },
+  {
+    "page": 45,
+    "end": 0,
+    "start": 0,
+    "plain": true,
+    "color": "rgb(17, 17, 17)",
+    "weight": "400",
+    "lastLine": "等我回答以后，再给出明确判断、理由、适用条件和下一步行动。",
+    "pageUnchanged": true
+  },
+  {
+    "page": 47,
+    "end": 237,
+    "start": 0,
+    "plain": true,
+    "color": "rgb(17, 17, 17)",
+    "weight": "400",
+    "lastLine": "最后告诉我，明天就能开始的第一个动作是什么。",
+    "pageUnchanged": true
+  }
+]

@@ -1,0 +1,145 @@
+Browser tab: 14, Title: "通知生成记录", URL: "http://127.0.0.1:8765/sources/llm-foundations/generation-reader.html".
+0 AXWebArea 通知生成记录, URL: 127.0.0.1:8765/sources/llm-foundations/generation-reader.html
+	1 heading 通知生成记录, Value: 1
+		2 text 通知生成记录
+	3 container
+		4 text 模型：HuggingFaceTB/SmolLM2-135M-Instruct
+		5 text 版本：ec84f302454dcb013b57c8acd7ca9cb331981e7e
+		6 text 2026-10-19；CPU float32；每一步选择概率最高的Token。
+	7 heading 完整输入, Value: 2
+		8 text 完整输入
+	9 text <|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Write one short formal sentence announcing that the lecture scheduled for today has been cancelled.<|im_end|>
+<|im_start|>assistant
+
+	10 heading 完整生成过程, Value: 2
+		11 text 完整生成过程
+	12 table
+		13 row
+			14 cell
+				15 text 步
+			16 cell
+				17 text 选中Token
+			18 cell
+				19 text 该步概率
+			20 cell
+				21 text 累计输出
+		22 row
+			23 cell
+				24 text 1
+			25 cell
+				26 text The
+			27 cell
+				28 text 26.9242%
+			29 cell
+				30 text The
+		31 row
+			32 cell
+				33 text 2
+			34 cell
+				35 text  lecture
+			36 cell
+				37 text 55.1158%
+			38 cell
+				39 text The lecture
+		40 row
+			41 cell
+				42 text 3
+			43 cell
+				44 text  scheduled
+			45 cell
+				46 text 61.1728%
+			47 cell
+				48 text The lecture scheduled
+		49 row
+			50 cell
+				51 text 4
+			52 cell
+				53 text  for
+			54 cell
+				55 text 97.6891%
+			56 cell
+				57 text The lecture scheduled for
+		58 row
+			59 cell
+				60 text 5
+			61 cell
+				62 text  today
+			63 cell
+				64 text 97.7337%
+			65 cell
+				66 text The lecture scheduled for today
+		67 row
+			68 cell
+				69 text 6
+			70 cell
+				71 text  has
+			72 cell
+				73 text 58.1712%
+			74 cell
+				75 text The lecture scheduled for today has
+		76 row
+			77 cell
+				78 text 7
+			79 cell
+				80 text  been
+			81 cell
+				82 text 99.4057%
+			83 cell
+				84 text The lecture scheduled for today has been
+		85 row
+			86 cell
+				87 text 8
+			88 cell
+				89 text  cancelled
+			90 cell
+				91 text 98.9740%
+			92 cell
+				93 text The lecture scheduled for today has been cancelled
+		94 row
+			95 cell
+				96 text 9
+			97 cell
+				98 text .
+			99 cell
+				100 text 52.4154%
+			101 cell
+				102 text The lecture scheduled for today has been cancelled.
+		103 row
+			104 cell
+				105 text 10
+			106 cell
+				107 text <|im_end|>
+			108 cell
+				109 text 77.6727%
+			110 cell
+				111 text The lecture scheduled for today has been cancelled.
+	112 heading 文件与复算, Value: 2
+		113 text 文件与复算
+	114 content list
+		115 container
+			116 AXListMarker • 
+			117 link Description: generation-trace.json, Value: 127.0.0.1:8765/sources/llm-foundations/generation-trace.json
+		118 container
+			119 AXListMarker • 
+			120 link Description: generation-display.json, Value: 127.0.0.1:8765/sources/llm-foundations/generation-display.json
+		121 container
+			122 AXListMarker • 
+			123 link Description: input-chat-template.txt, Value: 127.0.0.1:8765/sources/llm-foundations/input-chat-template.txt
+		124 container
+			125 AXListMarker • 
+			126 link Description: collect_trace.py, Value: 127.0.0.1:8765/sources/llm-foundations/collect_trace.py
+		127 container
+			128 AXListMarker • 
+			129 link Description: verify_trace.py, Value: 127.0.0.1:8765/sources/llm-foundations/verify_trace.py
+		130 container
+			131 AXListMarker • 
+			132 link Description: verification.json, Value: 127.0.0.1:8765/sources/llm-foundations/verification.json
+		133 container
+			134 AXListMarker • 
+			135 link Description: provenance.json, Value: 127.0.0.1:8765/sources/llm-foundations/provenance.json
+	136 link Description: 官方模型资料, Value: huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct
+
+The focused UI element is 0 AXWebArea 通知生成记录, URL: 127.0.0.1:8765/sources/llm-foundations/generation-reader.html

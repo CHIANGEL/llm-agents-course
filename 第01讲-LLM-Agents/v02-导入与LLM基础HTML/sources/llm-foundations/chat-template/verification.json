@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-16",
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "ec84f302454dcb013b57c8acd7ca9cb331981e7e",
+  "config_sha256": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df",
+  "method": "Jinja2 execution of archived tokenizer_config.json chat_template",
+  "no_model_generation": true,
+  "special_token_ids": {
+    "<|im_start|>": 1,
+    "<|im_end|>": 2
+  },
+  "line_counts": [
+    5,
+    9,
+    13
+  ],
+  "message_counts": [
+    2,
+    4,
+    6
+  ],
+  "arithmetic": {
+    "3 * 20": 60,
+    "5 * 20": 100,
+    "100 - 80": 20
+  },
+  "exact_python_list_roundtrip": true
+}

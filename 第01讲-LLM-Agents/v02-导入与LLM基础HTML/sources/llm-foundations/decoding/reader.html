@@ -1,0 +1,20 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>解码参数与完整分布</title><style>@font-face{font-family:mba;src:url('../../../assets/msyh.ttc')}body{font:20px/1.7 mba,sans-serif;max-width:1100px;margin:40px auto;padding:0 24px;color:#002060}pre{font:inherit;white-space:pre-wrap}a{color:#0055aa}h1{font-size:32px}</style><h1>解码参数与完整分布</h1><a href="../../../index.html#p=10&s=1">返回第10页</a><pre>解码参数：同一份输入，调整下一Token的抽样分布
+
+温度 temperature
+T=1保持概率分布；0&lt;T&lt;1使概率更集中；T&gt;1使概率更分散。这里使用T=0.2至2.0。给定原始分数z，调整后的概率为softmax(z/T)。
+
+Top-k
+按概率从高到低排序，保留前k项，其余置零，再归一化。“不限”表示不按数量截断。
+
+Top-p（核采样）
+按概率从高到低累加，保留累计概率首次达到或超过p的最小候选集合。跨过阈值的最后一项保留。p=1不截断；至少保留一个候选。本例T=1、top-k不限、p=0.50时，前三项合计约49.92%，因此还需保留Today，共四项。
+
+同时使用
+演示处理顺序：温度 → top-k → top-p → 最终归一化 → 按概率抽样。top-p根据温度调整与top-k筛选后的归一化分布累计，所以同时改变参数会相互影响。
+
+原案例与抽样
+原10步生成使用每步选择最高概率候选。按概率抽样则让保留下来的候选各自有被选中的机会。调整这些解码参数并不修改模型训练所得的权重。
+
+读图
+左列是原始概率，右列是当前参数对应的抽样概率；两列各合计100%。始终先计算完整49,152维分布，再显示前五项与其余合计。“其他候选合计”包含许多Token，不能将其作为一个Token调整温度或筛选。
+</pre><h2>完整文件</h2><ul><li><a href="distribution.json">第一步完整词表分数与Token顺序</a></li><li><a href="collect_distribution.py">分布提取与参考计算脚本</a></li><li><a href="reference-cases.json">11组参数的参考结果</a></li><li><a href="provenance.json">模型版本与数据来源</a></li></ul><h2>官方参数说明</h2><p><a href="https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TemperatureLogitsWarper">Temperature</a> · <a href="https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopKLogitsWarper">Top-k</a> · <a href="https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopPLogitsWarper">Top-p</a></p></html>

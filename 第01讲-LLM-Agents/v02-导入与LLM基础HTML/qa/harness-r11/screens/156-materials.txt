@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=156&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=156&s=1
+	2 container 第156页 · 完整材料, ID: deck-dialog
+		3 container
+			4 heading 第156页 · 完整材料, Value: 2, ID: dialog-title
+				8 text 第156页 · 完整材料
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			9 heading 本页要点, Value: 3
+				10 text 本页要点
+			11 text 人工确认：先核对这次要做什么
+
+当发送邮件被安排为需要人工确认的操作时，应用暂停发送，展示收件人、正文、附件及影响。用户可以发送、修改或取消。一次放行只针对当前动作；保存为允许规则时，需要明确目标范围和生效条件。用户确认和沙盒边界共同约束实际执行，不能把允许一次理解为开放所有操作。
+			12 heading 相关材料, Value: 3
+				13 text 相关材料
+			14 text 当发送邮件被安排为需要人工确认的操作时，应用暂停发送，展示收件人、正文、附件及影响。用户可以发送、修改或取消。一次放行只针对当前动作；保存为允许规则时，需要明确目标范围和生效条件。用户确认和沙盒边界共同约束实际执行，不能把允许一次理解为开放所有操作。
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

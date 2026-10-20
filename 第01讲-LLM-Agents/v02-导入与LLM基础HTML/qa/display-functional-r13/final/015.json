@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 15,
+  "text": "LLM基础小结：组织输入，再逐Token生成\n每一轮聊天，都回到同一个生成过程。\n① 应用组织输入\n② 模型逐Token生成\n③ 本轮回复结束\n任务要求\n用户消息\n以前的助手回复\n预测候选 → 选出一个\nThe → lecture → scheduled\n新Token接到已有前文后\n继续预测下一个\n生成结束标记\n<|im_end|>\n停止本次生成\n下一轮：把新消息加入历史，再组织输入\nPrompting要解决的，就是怎样把任务和材料写进这份输入。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n1.1 连续生成\n1.2 多轮聊天\n1.3 LLM小结",
+  "title": "第15页 LLM基础小结：组织输入，再逐Token生成"
+}

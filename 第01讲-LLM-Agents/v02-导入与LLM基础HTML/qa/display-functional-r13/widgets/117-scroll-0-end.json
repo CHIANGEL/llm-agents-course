@@ -1,0 +1,15 @@
+{
+  "broken": [],
+  "page": "117",
+  "scroll": [
+    {
+      "max": 2128,
+      "top": 2127.5
+    }
+  ],
+  "selected": [
+    "工具：返回Notebook内容\n工具返回",
+    "关键内容"
+  ],
+  "text": "知道文件位置之后，再取得检查要求和Notebook的实际内容。\n当前环节\n模型：读取检查清单\n模型生成\n工具：返回检查清单\n工具返回\n模型：读取生成文件\n模型生成\n工具：返回Notebook内容\n工具返回\n先取得检查要求，再读取产物。\n重置\n关键内容\n完整内容\n消息结构\n截至此处的内容\n工具：返回Notebook内容\n单元1 · 说明\n# Tutorial: Python列表与平均值\n\nAudience:\n- Describe who this is for.\n\nPrerequisites:\n- List required concepts or setup.\n\nLearning goals:\n- By the end, the reader can...\n\n\n单元2 · 说明\n## Outline\n\n1. Setup\n2. A minimal working example\n3. Variations and pitfalls\n4. Exercises\n\n\n单元3 · 代码\n# Setup cell: keep it short and deterministic\nfrom __future__ import annotations\n\nimport math\nimport random\n\nSEED = 21\nrandom.seed(SEED)\nSEED\n\n\n单元4 · 说明\n## Step 1 - Start with a tiny example\n\nExplain what the next cell does in plain language.\n\n\n单元5 · 代码\n# Minimal working example\nangles = [0, math.pi / 4, math.pi / 2]\nsines = [math.sin(a) for a in angles]\nlist(zip(angles, sines))\n\n\n单元6 · 说明\n## Exercises\n\n- Try a different input.\n- Predict the output before running the code.\n- Note one common mistake and how to fix it.\n\n\n单元7 · 代码\n# Exercise answer scaffold\ndef describe(values: list[float]) -> dict[str, float]:\n    return {\"min\": min(values), \"max\": max(values)}\n\ndescribe(sines)\n\n\n读回7个单元后，才能核对标题与实际保留的模板内容。\n\n检查清单给出标准；打开产物后，把实际内容与本次“骨架”要求对照。"
+}

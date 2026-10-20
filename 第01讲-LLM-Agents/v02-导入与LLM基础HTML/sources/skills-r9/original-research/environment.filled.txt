@@ -1,0 +1,7 @@
+<environment_context>
+  <cwd>/workspace/course</cwd>
+  <shell>zsh</shell>
+  <current_date>2026-10-14</current_date>
+  <timezone>Asia/Shanghai</timezone>
+  <filesystem><workspace_roots><root>/workspace/course</root></workspace_roots><permission_profile type="managed"><file_system type="restricted"><entry access="read"><special>:root</special></entry><entry access="write"><path>/workspace/course</path></entry></file_system></permission_profile></filesystem>
+</environment_context>

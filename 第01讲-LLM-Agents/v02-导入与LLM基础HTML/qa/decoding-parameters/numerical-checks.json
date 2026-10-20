@@ -1,0 +1,116 @@
+{
+  "method": "Browser computation function compared against independent Transformers warpers on full logits",
+  "cases": [
+    {
+      "settings": {
+        "temperature": 1,
+        "top_k": 0,
+        "top_p": 1
+      },
+      "retained": 49152,
+      "max_difference": 2.9976021664879227e-15,
+      "passed": true
+    },
+    {
+      "settings": {
+        "temperature": 0.5,
+        "top_k": 0,
+        "top_p": 1
+      },
+      "retained": 49152,
+      "max_difference": 6.106226635438361e-14,
+      "passed": true
+    },
+    {
+      "settings": {
+        "temperature": 1.5,
+        "top_k": 0,
+        "top_p": 1
+      },
+      "retained": 49152,
+      "max_difference": 7.549516567451064e-15,
+      "passed": true
+    },
+    {
+      "settings": {
+        "temperature": 1,
+        "top_k": 3,
+        "top_p": 1
+      },
+      "retained": 3,
+      "max_difference": 0,
+      "passed": true
+    },
+    {
+      "settings": {
+        "temperature": 1,
+        "top_k": 0,
+        "top_p": 0.5
+      },
+      "retained": 4,
+      "max_difference": 0,
+      "passed": true
+    },
+    {
+      "settings": {
+        "temperature": 1,
+        "top_k": 3,
+        "top_p": 0.5
+      },
+      "retained": 1,
+      "max_difference": 0,
+      "passed": true
+    },
+    {
+      "settings": {
+        "temperature": 0.2,
+        "top_k": 0,
+        "top_p": 0.05
+      },
+      "retained": 1,
+      "max_difference": 0,
+      "passed": true
+    },
+    {
+      "settings": {
+        "temperature": 2,
+        "top_k": 0,
+        "top_p": 1
+      },
+      "retained": 49152,
+      "max_difference": 2.2426505097428162e-14,
+      "passed": true
+    },
+    {
+      "settings": {
+        "temperature": 2,
+        "top_k": 100,
+        "top_p": 0.95
+      },
+      "retained": 88,
+      "max_difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "settings": {
+        "temperature": 1,
+        "top_k": 1,
+        "top_p": 1
+      },
+      "retained": 1,
+      "max_difference": 0,
+      "passed": true
+    },
+    {
+      "settings": {
+        "temperature": 0.7,
+        "top_k": 20,
+        "top_p": 0.8
+      },
+      "retained": 3,
+      "max_difference": 9.43689570931383e-16,
+      "passed": true
+    }
+  ],
+  "max_difference": 6.106226635438361e-14
+}

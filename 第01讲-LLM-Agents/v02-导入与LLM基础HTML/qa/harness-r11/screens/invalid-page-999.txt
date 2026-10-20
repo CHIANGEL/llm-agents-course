@@ -1,0 +1,5 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=167&s=1".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
++	132 container 值必须小于或等于 175。 
+~				32 stepper (settable, integer) Description: 页码, Value: 999, ID: page-input
+The focused UI element is 32 stepper (settable, integer) Description: 页码, Value: 999, ID: page-input

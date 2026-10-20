@@ -1,0 +1,13 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=19&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=19&s=1
+	2 container
+		3 container Description: 第19页 三个核心，接上四类策略, ID: mount
+			4 container 第19页 三个核心，接上四类策略
+				5 heading 三个核心，接上四类策略, Value: 1
+					6 text 三个核心，接上四类策略
+				7 container 课件内容
+					8 container
+						9 text 四大要点把任务说清；示例说明标准；模型可以继续改进这份指令。 四大要点 角色、背景、目标、示例 给Example 给出参考，说明参考什么 让模型写Prompt 初稿 → 检查 → 完整改稿 任务交代清楚以后，选择适合当前问题的处理方式。 问清问题 先找准要回答的问题 学习 建立理解与可靠依据 解决问题 找到可行路径 决策 比较条件，取得反馈 问题模糊先澄清；缺理解先学习；需要方案再求解；有了方案再决策。
+		10 text 第19页，三个核心，接上四类策略，整页显示
+
+The focused UI element is 3 container Description: 第19页 三个核心，接上四类策略, ID: mount

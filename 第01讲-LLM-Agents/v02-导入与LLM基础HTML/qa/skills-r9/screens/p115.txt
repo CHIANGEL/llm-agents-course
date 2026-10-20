@@ -1,0 +1,62 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=115&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=115&s=1
+	2 container
+		54 container Description: 第115页 第二次展开：按教程分支读取参考, ID: mount
+			55 container 第115页 第二次展开：按教程分支读取参考
+				56 heading 第二次展开：按教程分支读取参考, Value: 1
+					57 text 第二次展开：按教程分支读取参考
+				58 container 课件内容
+					59 container
+						60 text 按照SKILL.md给出的路径，继续读取本次需要的教程参考。
+						61 heading 当前环节, Value: 2
+							62 text 当前环节
+						63 checkbox 模型：读取教学参考 模型生成, Value: 0
+						64 checkbox 工具：返回教学参考 工具返回, Value: 1
+						65 text 第二次展开：正文 → 参考
+						66 button 重置
+						67 checkbox 关键内容, Value: 1
+						68 checkbox 完整内容, Value: 0
+						69 checkbox 消息结构, Value: 0
+						70 checkbox 截至此处的内容, Value: 0
+						71 heading 工具：返回教学参考, Value: 2
+							72 text 工具：返回教学参考
+						73 text 教程内容的组织要求
+
+• 写明对象、前置知识和学习目标。
+• 先给大纲，再按小步解释与代码展开。
+• 将代码与结果解释配对。
+• 在Notebook内安排练习、答案骨架和常见错误。
+						74 text 教程参考补充内容组织要求；按本次“先保留模板”的目标创建骨架。
+						75 text 教程任务读取tutorial-patterns.md；实验分支的参考文件仍留在磁盘上。
+				76 container 课程进度
+					77 button 导入
+					78 button 1. LLM基础
+					79 button 2. Prompting
+					80 button 3. Agents · Externalization & Internalization
+						81 text 3. Agents 
+						82 text · Externalization & Internalization
+					83 button 3.0 外化与内化总览
+					84 button 3.1 工具调用
+					85 button 3.2 Memory
+					86 button 3.3 Skills
+					87 button 3.4 Harness
+					88 button 3.5 外化与内化整合
+					89 button 3.6 全讲总结
+		39 container Description: 课件操作, ID: controls
+			40 button Description: 上一步, Help: 上一步（←）
+			41 button Description: 下一步, Help: 下一步（→或空格）
+			42 container jump-form
+				43 text 页码
+				44 stepper (settable, integer) Description: 页码, Value: 115, ID: page-input
+				45 text / 161
+			90 text 整页显示
+			47 button 目录
+			48 button 讲者备注
+			49 button 完整材料
+			50 button 放大图解
+			51 button 全屏
+			52 button 隐藏, Help: 按H恢复
+			53 button 操作说明
+		91 text 第115页，第二次展开：按教程分支读取参考，整页显示
+
+The focused UI element is 54 container Description: 第115页 第二次展开：按教程分支读取参考, ID: mount

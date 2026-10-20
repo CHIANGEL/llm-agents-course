@@ -1,0 +1,79 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=79&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=79&s=1
+	2 container
+		55 container Description: 第79页 写入：新增、修改、删除，还是不变？, ID: mount
+			56 container 第79页 写入：新增、修改、删除，还是不变？
+				57 heading 写入：新增、修改、删除，还是不变？, Value: 1
+					58 text 写入：新增、修改、删除，还是不变？
+				59 container 课件内容
+					60 container
+						61 text 从新消息提取信息，与已有记录比较，再选择一个动作。
+						62 table
+							63 row
+								64 cell
+									65 text 动作
+								66 cell
+									67 text 什么时候用
+								68 cell
+									69 text 对记录的影响
+							70 row
+								71 cell
+									72 text 新增
+								73 cell
+									74 text 有新的、值得保留的信息
+								75 cell
+									76 text 增加一条记录
+							77 row
+								78 cell
+									79 text 修改
+								80 cell
+									81 text 对象相同，事实或条件变了
+								82 cell
+									83 text 更新内容与适用时间
+							84 row
+								85 cell
+									86 text 删除
+								87 cell
+									88 text 记录错误、冲突，或被要求遗忘
+								89 cell
+									90 text 按范围移除记录
+							91 row
+								92 cell
+									93 text 不变
+								94 cell
+									95 text 信息重复或无需长期保留
+								96 cell
+									97 text 不增加新记录
+						98 text 模型可以提出维护建议；实际增删改仍由文件或数据库工具执行。
+				99 container 课程进度
+					100 button 导入
+					101 button 1. LLM基础
+					102 button 2. Prompting
+					103 button 3. Agents · Externalization & Internalization
+						104 text 3. Agents 
+						105 text · Externalization & Internalization
+					106 button 3.0 外化与内化总览
+					107 button 3.1 工具调用
+					108 button 3.2 Memory
+					109 button 3.3 Skills
+					110 button 3.4 Harness
+					111 button 3.5 外化与内化整合
+					112 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 79, ID: page-input
+				46 text / 151
+			113 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		114 text 第79页，写入：新增、修改、删除，还是不变？，整页显示
+
+The focused UI element is 55 container Description: 第79页 写入：新增、修改、删除，还是不变？, ID: mount

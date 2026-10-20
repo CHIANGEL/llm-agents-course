@@ -1,0 +1,13 @@
+<|im_start|>system
+只给结果。<|im_end|>
+<|im_start|>user
+3人，每人20元？<|im_end|>
+<|im_start|>assistant
+60元。<|im_end|>
+<|im_start|>user
+5人呢？<|im_end|>
+<|im_start|>assistant
+100元。<|im_end|>
+<|im_start|>user
+预算80元，差多少？<|im_end|>
+<|im_start|>assistant

@@ -1,0 +1,52 @@
+- main:
+  - article "第6页 下一Token预测（Next token prediction）":
+    - heading "下一Token预测（Next token prediction）" [level=1]
+    - region "课件内容":
+      - generic: 模型对词表中的49,152个候选分配概率，本次选概率最高的一项。
+      - generic: 本次任务
+      - generic: Write one short formal sentence announcing that the lecture scheduled for today has been cancelled.
+      - generic: 第一步选中：The
+      - text: 26.92%已是单个候选中的最高值。
+      - text: 其余概率分散在许多其他候选上。
+      - text: 下一个Token
+      - generic: 概率
+      - generic: The
+      - generic: 26.92%
+      - generic: "\""
+      - generic: 13.66%
+      - generic: We
+      - generic: 9.34%
+      - generic: Today
+      - generic: 5.08%
+      - generic: I
+      - generic: 4.91%
+      - generic: 其他候选合计
+      - generic: 40.09%
+      - generic: "0"
+      - generic: 100%
+      - generic: 按概率抽样时，较低概率的候选也有机会被选中。
+      - button "温度 · top-k · top-p →"
+      - generic: SmolLM2-135M-Instruct · 每一步选择概率最高的候选
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "1.1 连续生成"
+      - button "1.2 多轮聊天"
+      - button "1.3 LLM小结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "6"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "备注 / 来源"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第6页，下一Token预测（Next token prediction），整页显示

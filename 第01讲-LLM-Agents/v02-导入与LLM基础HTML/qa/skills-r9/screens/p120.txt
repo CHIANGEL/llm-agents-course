@@ -1,0 +1,54 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=120&s=1".
+0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=120&s=1
+	1 container
+		47 container Description: 第120页 调用小结：两次展开，几次工具操作, ID: mount
+			48 container 第120页 调用小结：两次展开，几次工具操作
+				49 heading 调用小结：两次展开，几次工具操作, Value: 1
+					50 text 调用小结：两次展开，几次工具操作
+				51 container 课件内容
+					52 container
+						53 text 渐进式披露把材料分层；工具调用把“读取方法”和“实际执行”连接起来。 第一层：目录
+						54 heading 判断是否适用, Value: 3
+							55 text 判断是否适用
+						56 text 名称、用途、入口路径
+						57 text 第二层：SKILL.md
+						58 heading 取得做法, Value: 3
+							59 text 取得做法
+						60 text 步骤、分支、资源入口
+						61 text 第三层：按需资源
+						62 heading 取得具体材料, Value: 3
+							63 text 取得具体材料
+						64 text 教程参考、检查清单
+						65 text 模型：读取说明与参考　→　生成工具调用 程序：读取模板　→　写出文件　→　工具返回 模型：读回产物　→　按本次要求检查　→　回答用户 Skills说明方法，工具完成操作；记忆中的做法由此能够在新任务里重新使用。
+				66 container 课程进度
+					67 button 导入
+					68 button 1. LLM基础
+					69 button 2. Prompting
+					70 button 3. Agents · Externalization & Internalization
+						71 text 3. Agents 
+						72 text · Externalization & Internalization
+					73 button 3.0 外化与内化总览
+					74 button 3.1 工具调用
+					75 button 3.2 Memory
+					76 button 3.3 Skills
+					77 button 3.4 Harness
+					78 button 3.5 外化与内化整合
+					79 button 3.6 全讲总结
+		32 container Description: 课件操作, ID: controls
+			33 button Description: 上一步, Help: 上一步（←）
+			34 button Description: 下一步, Help: 下一步（→或空格）
+			35 container jump-form
+				36 text 页码
+				37 stepper (settable, integer) Description: 页码, Value: 120, ID: page-input
+				38 text / 161
+			80 text 整页显示
+			40 button 目录
+			41 button 讲者备注
+			42 button 完整材料
+			43 button 放大图解
+			44 button 全屏
+			45 button 隐藏, Help: 按H恢复
+			46 button 操作说明
+		81 text 第120页，调用小结：两次展开，几次工具操作，整页显示
+
+The focused UI element is 47 container Description: 第120页 调用小结：两次展开，几次工具操作, ID: mount

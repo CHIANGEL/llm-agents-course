@@ -1,0 +1,68 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=97&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=97&s=1
+	2 container
+		55 container Description: 第97页 工具返回后，输入增加了什么？, ID: mount
+			56 container 第97页 工具返回后，输入增加了什么？
+				57 heading 工具返回后，输入增加了什么？, Value: 1
+					58 text 工具返回后，输入增加了什么？
+				59 container 课件内容
+					60 container
+						61 text 工具返回预算记录；客户端把调用与结果追加进下一次输入。
+						62 heading 读取后的下一次输入, Value: 2
+							63 text 读取后的下一次输入
+						64 checkbox 基础指令 客户端准备, Value: 0
+						65 checkbox 记忆摘要与使用要求 客户端读取摘要, Value: 0
+						66 checkbox 项目说明与操作范围 客户端准备, Value: 0
+						67 checkbox 用户：300人部署 当前任务, Value: 0
+						68 checkbox 模型：读取预算记录 生成工具调用, Value: 0
+						69 checkbox 工具：返回预算范围 读取文件得到正文, Value: 1
+						70 button 重置
+						71 checkbox 关键内容, Value: 1
+						72 checkbox 原始条目, Value: 0
+						73 checkbox 本次完整输入, Value: 0
+						74 heading 工具：返回预算范围, Value: 2
+							75 text 工具：返回预算范围
+						76 text # 企业知识库：试点预算的适用范围
+
+上次讨论的范围是20名员工、为期3个月的试点。
+10万元是本次试点的预算上限，包含试点软件费与初始配置。
+
+这一额度没有覆盖300人正式部署，也没有核定正式部署的年度费用。
+扩大部署时，应重新确认人数、使用期限、实施服务和费用范围。
+
+试点结束后，下一步是整理扩大部署的采购评估要求。
+
+						77 text 左侧按输入顺序排列；右侧可阅读对应文本。
+						78 text 摘要、当前问题、读取调用和文件正文一起保留。模型继续生成时，已经能看到预算的范围。
+				79 container 课程进度
+					80 button 导入
+					81 button 1. LLM基础
+					82 button 2. Prompting
+					83 button 3. Agents · Externalization & Internalization
+						84 text 3. Agents 
+						85 text · Externalization & Internalization
+					86 button 3.0 外化与内化总览
+					87 button 3.1 工具调用
+					88 button 3.2 Memory
+					89 button 3.3 Skills
+					90 button 3.4 Harness
+					91 button 3.5 外化与内化整合
+					92 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 97, ID: page-input
+				46 text / 151
+			93 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		94 text 第97页，工具返回后，输入增加了什么？，整页显示
+
+The focused UI element is 55 container Description: 第97页 工具返回后，输入增加了什么？, ID: mount

@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-10-19T09:06:40.873840+00:00",
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "ec84f302454dcb013b57c8acd7ca9cb331981e7e",
+  "transformers": "4.57.3",
+  "torch": "2.9.1",
+  "device": "CPU",
+  "dtype": "float32 model inference; float64 reference transformations",
+  "baseline_max_probability_delta_vs_original_trace": 1.147309498794602e-05,
+  "scores_sha256": "f5b43ae5e183d0d0cb92f403bf088636f97efe970dbe05f4fed9efaf40a93bb8",
+  "order": "temperature -> top-k -> top-p -> normalize -> categorical sampling",
+  "method": "Recomputed first input only. Full 49152-dimensional logits. Reference outputs use installed Transformers logits warpers. No continuation generated for altered parameters.",
+  "official_references": [
+    "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TemperatureLogitsWarper",
+    "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopKLogitsWarper",
+    "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopPLogitsWarper"
+  ]
+}

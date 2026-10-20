@@ -1,0 +1,9 @@
+.source-replica{position:absolute;left:-48px;top:-126px;width:1600px;height:850px;display:flex;align-items:flex-start;justify-content:center;background:#fff;z-index:2}
+.source-replica-svg{display:block;width:auto!important;height:850px!important;max-width:1600px;flex:none;user-select:text}
+.source-replica-svg text{user-select:text;cursor:text}
+/* Enlargement uses the whole source page, including its original header. */
+.zoom-content:has(.source-replica){width:1600px!important;height:850px!important}
+.zoom-content .source-replica{left:0;top:0}
+
+.source-replica-slide>.slide-header{visibility:hidden}
+.source-replica-svg{font-weight:400}

@@ -1,0 +1,212 @@
+{
+  "checked_on": "2026-10-19",
+  "primary_sources": [
+    {
+      "pages": [
+        59,
+        60,
+        61
+      ],
+      "url": "https://claude.com/resources/articles/integrations",
+      "section": "Integrations / Intercom",
+      "finding": "官方说明Fin可在客户报告问题时向Linear登记缺陷。课件以能力及请求/执行/结果关系说明，未加入实际工单编号、内部API或效果指标。"
+    },
+    {
+      "pages": [
+        80,
+        81,
+        82,
+        83
+      ],
+      "url": "https://aws.amazon.com/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/",
+      "section": "Create the memory resources / Integrate with Strands Agents hooks / Test the memory in action",
+      "finding": "低延迟竞技FPS耳机偏好、偏好与事实两类提取、按客户与查询检索再加入输入均有对应。标题修为电子产品客服，正文AWS客服方案，区分来源发布方与服务对象。"
+    },
+    {
+      "pages": [
+        85
+      ],
+      "url": "https://help.getzep.com/v3/facts",
+      "section": "How Zep updates facts / timestamps",
+      "finding": "Kendra由Adidas转Puma、鞋损坏及记录有效期与原案例一致；将失效动作写明为标记。"
+    },
+    {
+      "pages": [
+        86
+      ],
+      "url": "https://arxiv.org/pdf/2601.16621v1",
+      "section": "§1 / Figure 1, PDF p2",
+      "finding": "午休放松与过去强节奏保持清醒的用途区别一致；只借用情境，不迁入论文量化结果。HTML接口抓取失败，PDF访问并阅读成功。"
+    }
+  ],
+  "archive_hash_checks": [
+    {
+      "file": "sources/agents-memory/memory_summary.md",
+      "matches": true
+    },
+    {
+      "file": "sources/agents-memory/rollout_summaries/scope.md",
+      "matches": true
+    },
+    {
+      "file": "sources/agents-memory/rollout_summaries/style.md",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/computer_use/README.md",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/computer_use/click.js",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/computer_use/observe.js",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/computer_use/observe_after.js",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/computer_use/source/origin.json",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/computer_use/source/本机接口说明摘录.md",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/README.md",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/01_messages.py",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/02_tools.py",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/03_round1_complete.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/03_round1_part1.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/03_round1_part2.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/03_round1_part3.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/04_assistant_call_illustrative.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/05_parsed_call.json",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/06_tool_result.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/07_assistant_message.py",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/07_messages_after_tool.json",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/07_messages_after_tool.py",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/07_tool_message.py",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/08_round2_complete.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/08_round2_new_tail.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/08_round2_part1_unchanged.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/08_round2_part2_assistant.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/08_round2_part3_tool.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/08_round2_part4_prefix.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/09_assistant_answer_illustrative.txt",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/10_final_messages.json",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/append_snippet.py",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/artifact_sha256.json",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/dispatch_snippet.py",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/execution_events.json",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/parse_snippet.py",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/verification.json",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/data/weather_fixture.json",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/prepare_demo.py",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/source/LICENSE",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/source/origin.json",
+      "matches": true
+    },
+    {
+      "file": "sources/agent-tools/tool_call_text/source/tokenizer_config.json",
+      "matches": true
+    }
+  ]
+}

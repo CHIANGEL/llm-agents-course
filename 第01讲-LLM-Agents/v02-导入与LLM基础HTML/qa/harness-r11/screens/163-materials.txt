@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=163&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=163&s=1
+	2 container 第163页 · 完整材料, ID: deck-dialog
+		3 container
+			4 heading 第163页 · 完整材料, Value: 2, ID: dialog-title
+				8 text 第163页 · 完整材料
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			9 heading 本页要点, Value: 3
+				10 text 本页要点
+			11 text 什么时候值得把任务分出去？
+
+范围清楚、过程较长、结论能简述的工作适合委托。很小的改动、频繁来回交流或不断共享同一材料的任务，直接处理往往更简单。子智能体会自行消耗Token与时间，主智能体还需要汇总和检查。应一起比较上下文隔离、并行收益、结果质量与沟通开销，不能只看主上下文是否变短。
+			12 heading 相关材料, Value: 3
+				13 text 相关材料
+			14 text 范围清楚、过程较长、结论能简述的工作适合委托。很小的改动、频繁来回交流或不断共享同一材料的任务，直接处理往往更简单。子智能体会自行消耗Token与时间，主智能体还需要汇总和检查。应一起比较上下文隔离、并行收益、结果质量与沟通开销，不能只看主上下文是否变短。
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

@@ -1,0 +1,18 @@
+{
+  "broken": [],
+  "page": "108",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    },
+    {
+      "max": 671,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "references/notebook-structure.md"
+  ],
+  "text": "从左侧选择文件；右侧查看原文、模板或图标。\njupyter-notebook / 12个文件\nSKILL.md\nreferences/tutorial-patterns.md\nreferences/experiment-patterns.md\nreferences/notebook-structure.md\nreferences/quality-checklist.md\nscripts/new_notebook.py\nassets/tutorial-template.ipynb\nassets/experiment-template.ipynb\nagents/openai.yaml\nassets/jupyter-small.svg\nassets/jupyter.png\nLICENSE.txt\n重置\nreferences/notebook-structure.md\n# Notebook Structure\n\nJupyter notebooks are JSON documents with this high-level shape:\n\n- `nbformat` and `nbformat_minor`\n- `metadata`\n- `cells` (a list of markdown and code cells)\n\nWhen editing `.ipynb` files programmatically:\n\n- Preserve `nbformat` and `nbformat_minor` from the template.\n- Keep `cells` as an ordered list; do not reorder unless intentional.\n- For code cells, set `execution_count` to `null` when unknown.\n- For code cells, set `outputs` to an empty list when scaffolding.\n- For markdown cells, keep `cell_type=\"markdown\"` and `metadata={}`.\n\nPrefer scaffolding from the bundled templates or `new_notebook.py` (for example, `$CODEX_HOME/skills/jupyter-notebook/scripts/new_notebook.py`) instead of hand-authoring raw notebook JSON.\n\n\nNotebook文件结构与安全编辑规则。\n\n入口文件组织方法；参考、脚本与模板为具体任务提供可取用的资源。"
+}

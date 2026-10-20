@@ -1,0 +1,51 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=93&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=93&s=1
+	2 container
+		55 container Description: 第93页 渐进式披露：先摘要，再细节, ID: mount
+			56 container 第93页 渐进式披露：先摘要，再细节
+				57 heading 渐进式披露：先摘要，再细节, Value: 1
+					58 text 渐进式披露：先摘要，再细节
+				59 container 课件内容
+					60 container
+						61 text 渐进式披露（Progressive disclosure） ：先给要点和入口，再按任务读取细节。 第一层：摘要 先结论、后依据。
+金额统一用人民币。
+项目已完成20人试点。
+
+预算范围 → pilot-budget.md 第二层：相关记录 20人、3个月试点。
+预算上限10万元。
+包含软件费与初始配置。
+
+不覆盖300人正式部署。 本次输入 当前任务＋所需背景 • 摘要足够时，直接使用。
+						62 text • 详细信息会改变判断时，再读取对应文件。 摘要提供入口，读取取得细节；后续的Skills也会采用这种组织方式。
+				63 container 课程进度
+					64 button 导入
+					65 button 1. LLM基础
+					66 button 2. Prompting
+					67 button 3. Agents · Externalization & Internalization
+						68 text 3. Agents 
+						69 text · Externalization & Internalization
+					70 button 3.0 外化与内化总览
+					71 button 3.1 工具调用
+					72 button 3.2 Memory
+					73 button 3.3 Skills
+					74 button 3.4 Harness
+					75 button 3.5 外化与内化整合
+					76 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 93, ID: page-input
+				46 text / 151
+			77 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		78 text 第93页，渐进式披露：先摘要，再细节，整页显示
+
+The focused UI element is 55 container Description: 第93页 渐进式披露：先摘要，再细节, ID: mount

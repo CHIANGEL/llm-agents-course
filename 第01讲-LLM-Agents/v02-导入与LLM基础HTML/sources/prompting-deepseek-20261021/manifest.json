@@ -1,0 +1,383 @@
+{
+  "date": "2026-10-21",
+  "status": "complete",
+  "platform": "DeepSeek web via native Chrome",
+  "selected_pairs": 13,
+  "template_pages": 14,
+  "distinct_public_links": 27,
+  "new_chat_count": 64,
+  "current_course_pages": 200,
+  "items": [
+    {
+      "strategy": "four-elements",
+      "object": "复利",
+      "renderers": [
+        302
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/k088f4dp4m6bl4lchq",
+      "strategy_share_url": "https://chat.deepseek.com/share/sk9mik3gf1n0k37bzn",
+      "pages": [
+        20
+      ],
+      "selection": {
+        "strategy": "four-elements",
+        "object": "复利",
+        "simple_key": "four-elements/compound/simple",
+        "strategy_key": "four-elements/compound/strategy-clarified"
+      },
+      "observed_difference": "简单版讲公式和通用例子；四要素版按MBA课堂对象给出连续两年计算、回本基准与两个判断问题。",
+      "review": {
+        "selected": "复利",
+        "difference": "简单版讲公式和通用例子；四要素版按MBA课堂对象给出连续两年计算、回本基准与两个判断问题。",
+        "rejected": [
+          "ETF策略版混淆场内交易与申赎、部分费用口径不准确。",
+          "复利首次策略回答回本算式分子写错；重试版误称收益率换序改变终值，均不选。"
+        ],
+        "clarification": "最终四要素Prompt在任务条件中明确无中途存取款及同一组收益率换序不影响终值。该条件属于模板填入的具体教学任务；不把效果归因于长度或四要素本身。"
+      }
+    },
+    {
+      "strategy": "give-example",
+      "object": "上市公司财报快讯",
+      "renderers": [
+        303
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/2aduk1dixloh3tibvt",
+      "strategy_share_url": "https://chat.deepseek.com/share/v8wtrosv833thy3snt",
+      "pages": [
+        21
+      ],
+      "selection": {
+        "strategy": "give-example",
+        "object": "上市公司财报快讯",
+        "simple_key": "give-example/earnings/simple",
+        "strategy_key": "give-example/earnings/strategy"
+      },
+      "observed_difference": "普通新闻稿→固定四段信息结构，简洁地分开变化、计算、未证实解释和后续核查。咖啡通知备选同样体现表达风格迁移，但财报更契合本轮对象要求。",
+      "review": {
+        "selected": "上市公司财报快讯",
+        "difference": "普通新闻稿→固定四段信息结构，简洁地分开变化、计算、未证实解释和后续核查。咖啡通知备选同样体现表达风格迁移，但财报更契合本轮对象要求。"
+      }
+    },
+    {
+      "strategy": "model-write-prompt",
+      "object": "两家上市公司的财报比较",
+      "renderers": [
+        304
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/obntrim0b3tb1beibz",
+      "strategy_share_url": "https://chat.deepseek.com/share/rt7yz3zsy4xlws48pl",
+      "process_share_url": "https://chat.deepseek.com/share/ixwy4pocpwd3wsfjpr",
+      "pages": [
+        22
+      ],
+      "selection": {
+        "strategy": "model-write-prompt",
+        "object": "两家上市公司的财报比较",
+        "simple_key": "model-write-prompt/earnings/simple",
+        "strategy_key": "model-write-prompt/earnings/execution",
+        "prompt_generation_key": "model-write-prompt/earnings/strategy"
+      },
+      "observed_difference": "简单版扩展成30—40分钟的分析课，并有部分推断偏强；模型审查后补充5分钟教师讲解的要求，重新执行后得到按时间组织的讲稿与一页讲解卡片，事实/假设/待补证据逐项分开。",
+      "review": {
+        "selected": "两家上市公司的财报比较",
+        "difference": "简单版扩展成30—40分钟的分析课，并有部分推断偏强；模型审查后补充5分钟教师讲解的要求，重新执行后得到按时间组织的讲稿与一页讲解卡片，事实/假设/待补证据逐项分开。",
+        "rejected": "家庭装修预算改写后产生大量重复待确认表格，完整但课堂阅读负担太大。",
+        "method": "同一虚构财报输入；策略过程多一轮澄清时长与讲授形式，不把新增信息的作用称为纯模板因果效果。"
+      }
+    },
+    {
+      "strategy": "socratic",
+      "object": "奶茶店营收下降",
+      "renderers": [
+        307
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/vzspjzzovi9hgnc8zf",
+      "strategy_share_url": "https://chat.deepseek.com/share/lpwq4pu8zuyo1r405u",
+      "pages": [
+        26
+      ],
+      "selection": {
+        "strategy": "socratic",
+        "object": "奶茶店营收下降",
+        "simple_key": "socratic/tea/simple",
+        "strategy_key": "socratic/tea/strategy"
+      },
+      "observed_difference": "简单版直接给出诊断和方案；原模板驱动逐轮追问，分开营业额、客单价、进店人数、施工和贡献利润，最后重述可检验的问题。",
+      "review": {
+        "selected": "奶茶店营收下降",
+        "difference": "简单版直接给出诊断和方案；原模板驱动逐轮追问，分开营业额、客单价、进店人数、施工和贡献利润，最后重述可检验的问题。",
+        "comparison_limit": "多轮策略通过追问获得额外事实，差异是交互过程带来的信息增益，不是同等信息下的优劣证明。",
+        "rejected": "基金备选同样能追问基准和教育资金目标，但简单版引入了不必要的实时市场例子及过强建议；不作为最终课堂入口。"
+      }
+    },
+    {
+      "strategy": "two-layer",
+      "object": "机器学习中的过拟合",
+      "renderers": [
+        309
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/6pwts1x8p285jo7f1s",
+      "strategy_share_url": "https://chat.deepseek.com/share/v7m8ploalnkzz497iv",
+      "pages": [
+        29
+      ],
+      "selection": {
+        "strategy": "two-layer",
+        "object": "机器学习中的过拟合",
+        "simple_key": "two-layer/overfitting/simple",
+        "strategy_key": "two-layer/overfitting/strategy"
+      },
+      "observed_difference": "简单版罗列定义、成因、缓解方法；策略版先用考试类比，再给专业概念、术语映射、误区与适用边界，明确训练准确率高本身不足以判定过拟合。",
+      "review": {
+        "candidates": [
+          "市盈率",
+          "债券利率与价格",
+          "机会成本"
+        ],
+        "rejected": [
+          "市盈率策略版将倍数直接称为回本年数，初学类比说法过强；专业版虽有补充限制，仍不宜作为开场示例。",
+          "债券策略版未在类比中正确解释折价回本贡献，且将久期与剩余期限对应过简。"
+        ],
+        "selected": "机器学习中的过拟合",
+        "difference": "简单版罗列定义、成因、缓解方法；策略版先用考试类比，再给专业概念、术语映射、误区与适用边界，明确训练准确率高本身不足以判定过拟合。",
+        "additional_reject": "机会成本版将显性支出与机会成本对立过强，作为初学演示容易混淆经济成本口径。",
+        "review_sources": [
+          "https://scikit-learn.org/stable/modules/cross_validation.html",
+          "https://scikit-learn.org/stable/modules/learning_curve.html"
+        ]
+      }
+    },
+    {
+      "strategy": "reverse-deconstruction",
+      "object": "咖啡店促销文案",
+      "renderers": [
+        311
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/jgosysemgmnjhstqgf",
+      "strategy_share_url": "https://chat.deepseek.com/share/4nd06tnba46t0dddfd",
+      "pages": [
+        31
+      ],
+      "selection": {
+        "strategy": "reverse-deconstruction",
+        "object": "咖啡店促销文案",
+        "simple_key": "reverse-deconstruction/promo/simple",
+        "strategy_key": "reverse-deconstruction/promo/strategy"
+      },
+      "observed_difference": "简单版是优缺点评价；策略版拆出顾客决策链、可迁移规律、不能照搬的条件和操作清单。",
+      "review": {
+        "selected": "咖啡店促销文案",
+        "difference": "简单版是优缺点评价；策略版拆出顾客决策链、可迁移规律、不能照搬的条件和操作清单。",
+        "rejected": "财报短评策略版误把现金流附注列为零售连锁特有信息。",
+        "limit": "促销效果属于文本分析判断，未称真实转化实验；十分钟等文案只代表课堂样稿，不对应真实商家承诺。"
+      }
+    },
+    {
+      "strategy": "horizontal-vertical",
+      "object": "贵州茅台：白酒业务与渠道变化",
+      "renderers": [
+        313,
+        314
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/99ay89veta13e3j0ua",
+      "strategy_share_url": "https://chat.deepseek.com/share/y4agjaend0r72rq61k",
+      "pages": [
+        33,
+        34
+      ],
+      "selection": {
+        "strategy": "horizontal-vertical",
+        "object": "贵州茅台：白酒业务与渠道变化",
+        "simple_key": "horizontal-vertical/moutai-material/simple-clarified",
+        "strategy_key": "horizontal-vertical/moutai-material/strategy-clarified"
+      },
+      "observed_difference": "简单版按业务、品牌、渠道陈述；模板版增加时间线、同维度横向表、路径依赖与三条未来路径的前提及预警信号。",
+      "review": {
+        "selected": "贵州茅台（同一组核对材料）",
+        "difference": "简单版按业务、品牌、渠道陈述；模板版增加时间线、同维度横向表、路径依赖与三条未来路径的前提及预警信号。",
+        "rejected": [
+          "比亚迪回答混入未核实数据与过强独特性判断。",
+          "首轮茅台回答出现年份错误；材料版仍将产品类别称单品、把其他直销等同线下自营，重新给两边同一口径后再测。"
+        ],
+        "limits": "对照显示组织与推理路径的变化，不证明预测更准确。策略版部分品牌能力与概率判断是模型推断，不能当作核实事实；份额变化本身不意味着一方绝对增长必挤占另一方。"
+      }
+    },
+    {
+      "strategy": "fact-checking",
+      "object": "微软日本四天工作制",
+      "renderers": [
+        316
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/jm8d7vf2envk5dtzi2",
+      "strategy_share_url": "https://chat.deepseek.com/share/hve0axv30x116sgnv3",
+      "pages": [
+        36
+      ],
+      "selection": {
+        "strategy": "fact-checking",
+        "object": "微软日本四天工作制",
+        "simple_key": "fact-checking/microsoft-four-day/simple/deepseek",
+        "strategy_key": "fact-checking/microsoft-four-day/strategy/deepseek"
+      },
+      "observed_difference": "保留已审核的DeepSeek案例，观察核查过程、来源与证据口径。",
+      "review": {}
+    },
+    {
+      "strategy": "expert-consultation",
+      "object": "服装店换季库存与现金回笼",
+      "renderers": [
+        319
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/fn8y8bb6bm6elojgfa",
+      "strategy_share_url": "https://chat.deepseek.com/share/ki036n23wjpg3e1kwd",
+      "pages": [
+        40
+      ],
+      "selection": {
+        "strategy": "expert-consultation",
+        "object": "服装店换季库存与现金回笼",
+        "simple_key": "expert-consultation/apparel/simple",
+        "strategy_key": "expert-consultation/apparel/strategy"
+      },
+      "observed_difference": "简单版直接设定折扣和预计销量；策略版先询问分层数据，再用库存定价、顾客关系、现金节奏三种视角相互质疑，最后给出条件和退出规则。",
+      "review": {
+        "selected": "服装店库存",
+        "difference": "简单版直接设定折扣和预计销量；策略版先询问分层数据，再用库存定价、顾客关系、现金节奏三种视角相互质疑，最后给出条件和退出规则。",
+        "rejected": "咖啡外卖两版均出现替代率公式问题，策略版虽给55.9%正确临界值，仍保留错误的126.7%公式及解释，弃用。",
+        "limits": "策略的追问获得25万元目标与无赠品库存等新增信息；这是模板引导的互动收益。分层效果和转化率尚未验证，不把模型方案称真实经营结果。"
+      }
+    },
+    {
+      "strategy": "first-principles",
+      "object": "长周报与风险信息传递",
+      "renderers": [
+        320
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/xno5z15kffdx6q5x7n",
+      "strategy_share_url": "https://chat.deepseek.com/share/r6rcbs9a79oia96zo4",
+      "pages": [
+        41
+      ],
+      "selection": {
+        "strategy": "first-principles",
+        "object": "长周报与风险信息传递",
+        "simple_key": "first-principles/reports/simple",
+        "strategy_key": "first-principles/reports/strategy"
+      },
+      "observed_difference": "两版都能提出精简周报。简单版主要是8字段短表单、员工填写、周五催交；策略版逐条拆事实和假设，改为从项目系统生成风险候选、负责人只确认异常，并先验证数据及时性与经理实际使用。这一输入来源和验证顺序的变化比篇幅更适合演示。",
+      "review": {
+        "selected": "长周报与风险信息传递",
+        "difference": "两版都能提出精简周报。简单版主要是8字段短表单、员工填写、周五催交；策略版逐条拆事实和假设，改为从项目系统生成风险候选、负责人只确认异常，并先验证数据及时性与经理实际使用。这一输入来源和验证顺序的变化比篇幅更适合演示。",
+        "rejected": [
+          "利润增加现金减少：两版都能正确桥接现金，核心建议相似，不选。",
+          "生鲜店延长营业：两版均建议低成本试营业，策略另有需求不可创造等过强表达，未选。"
+        ],
+        "limits": "系统字段是否足够、能否自动导出、经理是否使用尚待验证；模板列出的事实中个别时间推断仍非实测。"
+      }
+    },
+    {
+      "strategy": "steelman",
+      "object": "上市公司分红还是回购",
+      "renderers": [
+        325
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/znpxawujbhd3v5dldd",
+      "strategy_share_url": "https://chat.deepseek.com/share/gdrkqucvwxv6tjap10",
+      "pages": [
+        47
+      ],
+      "selection": {
+        "strategy": "steelman",
+        "object": "上市公司分红还是回购",
+        "simple_key": "steelman/buyback/simple",
+        "strategy_key": "steelman/buyback/strategy"
+      },
+      "observed_difference": "简单版在估值未知时先偏向分红；模板版完整提出两边最强论证，追问可复核估值与价格纪律。补充明确标注的课堂假设后，结论变为有条件回购，并保留分批与停止条件。",
+      "review": {
+        "selected": "分红还是回购",
+        "difference": "简单版在估值未知时先偏向分红；模板版完整提出两边最强论证，追问可复核估值与价格纪律。补充明确标注的课堂假设后，结论变为有条件回购，并保留分批与停止条件。",
+        "limits": "结论变化主要由追问得到的新假设驱动，不能称同信息下策略必然更正确。两版都有组合方案倾向，策略最后明确若二选一选有条件回购；分配比例与价格上限均为模型建议，非真实投资指令。"
+      }
+    },
+    {
+      "strategy": "minimum-experiment",
+      "object": "咖啡店主付费社群",
+      "renderers": [
+        327
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/dnszgqghaqfi4x0nku",
+      "strategy_share_url": "https://chat.deepseek.com/share/z1doxoppv6j4ag1r99",
+      "pages": [
+        49
+      ],
+      "selection": {
+        "strategy": "minimum-experiment",
+        "object": "咖啡店主付费社群",
+        "simple_key": "minimum-experiment/community/simple",
+        "strategy_key": "minimum-experiment/community/strategy"
+      },
+      "observed_difference": "简单版给两周验证、预售、首月交付和工具建设的整体路线；原模板压缩为7天、10人、4—6小时、单一付费意愿假设，并逐项列指标与继续/停止条件。",
+      "review": {
+        "selected": "咖啡店主付费社群",
+        "difference": "简单版给两周验证、预售、首月交付和工具建设的整体路线；原模板压缩为7天、10人、4—6小时、单一付费意愿假设，并逐项列指标与继续/停止条件。",
+        "rejected": "财报通讯策略版把口头意愿当作六周投入的依据，反而弱于简单版的真实付费测试，不选。",
+        "limits": "社群两版均建议先验证，差异在实验的范围与执行细度。模型对小熟人样本的泛化偏强，所谓对照池不是随机对照；阈值为建议，不是统计证明。收费会产生交付与退款义务，零现金投入不等于无义务，不能把该句讲成现实经营事实。"
+      }
+    },
+    {
+      "strategy": "cross-domain",
+      "object": "餐厅午间取餐拥堵",
+      "renderers": [
+        322
+      ],
+      "status": "reviewed",
+      "shared_pages_verified": true,
+      "simple_share_url": "https://chat.deepseek.com/share/8fw7zm4qv6o69bpgam",
+      "strategy_share_url": "https://chat.deepseek.com/share/4co6futyrslmxo0tex",
+      "pages": [
+        43
+      ],
+      "selection": {
+        "strategy": "cross-domain",
+        "object": "餐厅午间取餐拥堵",
+        "simple_key": "cross-domain/pickup-scoped/simple",
+        "strategy_key": "cross-domain/pickup-scoped/strategy"
+      },
+      "observed_difference": "简单版列出三个领域的启发和执行办法；策略版先抽取共享通道与状态信号的矛盾，再逐项写来源问题、机制、对应关系和失效条件，最终把信号变为打包动作的副产品并提出可逆试验。",
+      "review": {
+        "selected": "餐厅午间取餐拥堵",
+        "difference": "简单版列出三个领域的启发和执行办法；策略版先抽取共享通道与状态信号的矛盾，再逐项写来源问题、机制、对应关系和失效条件，最终把信号变为打包动作的副产品并提出可逆试验。",
+        "rejected": [
+          "原取餐版本选用相近行业且夹杂品牌效果数据，重设同一对象范围后重测两边。",
+          "专家频繁被打断候选的简单回答已提出知识整理等办法，策略中的紧急响应安排还有歧义，未选。"
+        ],
+        "limits": "机制迁移是类比而非证明。MLFQ的动态优先级和防饥饿机制可核对，餐厅两区划分不是完整MLFQ算法。麦当劳官方资料支持通过App位置提前准备订单，未核实回答将车牌识别与电子围栏合并描述的实现；课堂重点为前三种机制及失效条件，不能把补充品牌段落作为已核实事实。一次前后比较也不能单独证明因果。"
+      }
+    }
+  ]
+}

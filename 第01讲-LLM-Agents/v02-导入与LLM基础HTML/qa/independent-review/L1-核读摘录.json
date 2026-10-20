@@ -1,0 +1,392 @@
+{
+  "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v09-章节导引与机制扩充/slide_manifest.json",
+  "read_date": "2026-10-19",
+  "pages": [
+    {
+      "page": 1,
+      "slide_id": "slide_001",
+      "title": "大语言模型（LLM）",
+      "on_slide": "大语言模型（Large Language Model，LLM）通过大量文本训练，可以根据我们的要求生成文字。\n我们在聊天应用中输入要求，应用调用大模型，再把回答显示出来。\n例如：改写一条通知\n我们的要求\n把“今天的讲座取消了”改得正式一些。\n模型可能回答\n原定于今天举行的讲座已取消，后续安排将另行通知。\n原文没有说会再发通知，这句话是模型自己加的。\n补充要求\n只调整措辞，不添加其他信息。\n修改后\n原定于今天举行的讲座已取消。\n语言流畅，不代表内容准确。",
+      "diagram": "Top title and the two explanatory bullet paragraphs in the top third, aligned to the reference slide's paragraph system. Below them put the modest subheading “例如：改写一条通知”. Show one spacious, readable annotated conversation example in the central and lower area: “我们的要求” plus request; “模型可能回答” plus answer; “补充要求” plus request; “修改后” plus answer. Keep these as open text on white, not boxed cards or tiny app controls. A compact simple outline of a notice sheet or natural speech tails can clarify the conversation, not decorate. In the initial answer highlight ONLY “后续安排将另行通知” in red and draw ONE precise fine red annotation line to the explanatory sentence at the right margin. The revision should be visibly shorter and keeps only the stated fact. Red emphasis on the bottom sentence “语言流畅，不代表内容准确。” Do not underline or mark the rest of the answer as erroneous. Correct visual order is request, possible answer, further constraint, revision. Preserve complete explanatory sentences with readable font; no microscopic footnotes.",
+      "sources": [
+        "教师已确认v07开场原图；记录见v07/slide_jobs.json与review.json"
+      ],
+      "prompt": "../../../v07-课程介绍风格-开场预览/prompts/slide_001_attempt01.txt",
+      "status": "root_passed",
+      "selected_image": "slides/slide_001.png",
+      "sha256": "d222a6f7f531995d1a06f14117be6d3849653a74a38f2ec16811e9ef8dfa74f6",
+      "reuse": true,
+      "original_generation_record": "../../../v07-课程介绍风格-开场预览/slide_jobs.json",
+      "original_candidate": "../../../v07-课程介绍风格-开场预览/candidates/slide_001_attempt04.png",
+      "module": "01-开场",
+      "image": "slides/slide_001.png",
+      "root_qa_status": "passed",
+      "root_review": {
+        "page": 1,
+        "content_id": "v08_001",
+        "status": "passed",
+        "image": "slides/slide_001.png",
+        "sha256": "d222a6f7f531995d1a06f14117be6d3849653a74a38f2ec16811e9ef8dfa74f6",
+        "basis": "逐字节复用v08已验收原图；原验收见v08/review.json。",
+        "source": "../v08-完整课件/slides/slide_001.png",
+        "original_review": {
+          "page": 1,
+          "status": "passed",
+          "image": "slides/slide_001.png",
+          "sha256": "d222a6f7f531995d1a06f14117be6d3849653a74a38f2ec16811e9ef8dfa74f6",
+          "basis": "教师已确认v07原图，逐字节复用，不重生",
+          "source": "v07-课程介绍风格-开场预览/slides/slide_001.png"
+        },
+        "date": "2026-09-16"
+      },
+      "module_manifest": "modules/01-开场/slide_manifest.md",
+      "module_metadata": "modules/01-开场/slides.json",
+      "generation_records": "../v07-课程介绍风格-开场预览/slide_jobs.json",
+      "content_id": "v08_001",
+      "kind": "reused",
+      "old_page": 1,
+      "chapter": "开场",
+      "bookmark": "开场",
+      "original_selected_image": "slides/slide_001.png",
+      "original_module_metadata": "../v08-完整课件/slide_manifest.json"
+    },
+    {
+      "page": 23,
+      "slide_id": "slide_023",
+      "title": "幻觉（Hallucination）",
+      "on_slide": "模型可能写出与事实不符，或没有材料支持的内容，这类问题通常称为幻觉。\n例如：数字算对了，结论就对了吗？\n访谈20位同学，其中12位愿意试用新应用。没有询问价格或付费意愿。\n12位愿意试用\n其余8位\n12 ÷ 20 = 60%\n错误摘要\n60%的大学生愿意为这款应用付费。\n试用 → 付费：问卷没有问。\n20位受访者 → 所有大学生：没有抽样依据。\n合适的摘要\n20位受访同学中，有12位愿意试用，占60%；付费意愿尚未调查。\n数字、对象和含义，都需要核对。\n课堂案例；“其余8位”不能直接写成“不愿意试用”",
+      "diagram": "Top definition/problem and source sentence. Main left exact20person pictograms in4rows5columns: first2rows10blue, thirdrow2blue+3lightgray, fourthrow5lightgray. Group labels12愿意试用/其余8位; count all20. Formula under persons. Main right incorrect summary with红色 “大学生”“付费” and two exact explanatory mapping lines. Bottom suitable full summary with source-qualified uncertainty. Do not visually label remaining8as against trying. No poster layout.",
+      "red_emphasis": "幻觉；大学生；付费；数字、对象和含义",
+      "reference_images": [
+        "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/00-课程规划/已确认样张/课件风格-v1/slide_001.png"
+      ],
+      "sources": [
+        "https://openai.com/index/chatgpt/"
+      ],
+      "status": "self_checked",
+      "selected_image": "slides/slide_023.png",
+      "prompt": "prompts/slide_020_attempt01.txt",
+      "selected_attempt": 2,
+      "sha256": "3c4991052e3f653328ecd07f85911774cc196efc18f1a0a6d4b524f9c69a1d7a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "实际逐一数20人、12蓝8灰；误导括号已改颜色图例；保留试用与付费、样本与总体、未调查限定。",
+      "main_thread_approval": "pending_or_recorded_by_main_thread",
+      "module": "03-六项类人性质",
+      "image": "slides/slide_023.png",
+      "root_qa_status": "passed",
+      "root_review": {
+        "page": 23,
+        "content_id": "v08_020",
+        "status": "passed",
+        "image": "slides/slide_023.png",
+        "sha256": "3c4991052e3f653328ecd07f85911774cc196efc18f1a0a6d4b524f9c69a1d7a",
+        "basis": "逐字节复用v08已验收原图；原验收见v08/review.json。",
+        "source": "../v08-完整课件/slides/slide_020.png",
+        "original_review": {
+          "page": 20,
+          "status": "passed",
+          "image": "slides/slide_020.png",
+          "sha256": "3c4991052e3f653328ecd07f85911774cc196efc18f1a0a6d4b524f9c69a1d7a",
+          "reviewer": "root",
+          "basis": "主线程实际逐张查看原图。实际20个人、12蓝8灰与60%正确；未询问付费、样本范围、其余8位均保留。",
+          "source": "modules/03-六项类人性质/slides/slide_020.png",
+          "date": "2026-09-16"
+        },
+        "date": "2026-09-16"
+      },
+      "module_manifest": "modules/03-六项类人性质/slide_manifest.md",
+      "module_metadata": "modules/03-六项类人性质/slides.json",
+      "generation_records": "modules/03-六项类人性质/generation_log.json",
+      "content_id": "v08_020",
+      "kind": "reused",
+      "old_page": 20,
+      "chapter": "大模型的类人特性",
+      "bookmark": null,
+      "original_selected_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v08-完整课件/modules/03-六项类人性质/slides/slide_020.png",
+      "original_module_metadata": "../v08-完整课件/slide_manifest.json"
+    },
+    {
+      "page": 38,
+      "title": "下一Token预测",
+      "on_slide": [
+        "模型根据已有文字，预测下一个Token的概率，再按生成规则选出一个。",
+        "把选出的Token接在已有文字后面，模型再预测下一个，逐步生成完整回答。",
+        "Token的生成概率，不是这句话为真的概率。"
+      ],
+      "diagram": "两次预测的完整过程：第一步前文“这家餐厅的味道很”，候选“好70%／一般20%／差10%”，本次选“一般”；第二步前文“这家餐厅的味道很一般”，候选“，65%／。30%／其他5%”，本次选“，”；结果“这家餐厅的味道很一般，”。两次前文完整保留，新增文字用红色标记，候选用有准确长度比例的短条形图。选出的Token追加到下一次输入，箭头方向清楚。不能把最高概率70%当成必选。两步并排，底部短回箭头标“继续预测”。 最终选图将原计划底部回箭头改为由最新完整前文向下继续，避免暗示重置输入。",
+      "extra_text": [
+        "这家餐厅的味道很",
+        "好 70%",
+        "一般 20%",
+        "差 10%",
+        "本次选中：一般",
+        "这家餐厅的味道很一般",
+        "，65%",
+        "。30%",
+        "其他 5%",
+        "本次选中：，",
+        "这家餐厅的味道很一般，",
+        "继续预测",
+        "切分与概率为教学示意。"
+      ],
+      "sources": [
+        "https://huggingface.co/docs/transformers/en/generation_strategies"
+      ],
+      "invariants": "两步概率各合计100%；第一步选一般而非最大概率好；第二步包含新Token；示意不能冒充真实分词或模型日志。",
+      "slide_id": "slide_038",
+      "status": "self_checked",
+      "selected_image": "slides/slide_038.png",
+      "prompt": "prompts/slide_031_attempt01.txt",
+      "selected_attempt": 2,
+      "sha256": "f195c2a7e53e9415b9e96aa74aaa284fe3cbc36f7c336c8880d44844b4f074fb",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "两步概率各100%；选一般20%后加入下一输入，再选逗号；已把回到初始输入的误导箭头改为最新完整前文→继续预测。橙色改红。",
+      "reference_images": [
+        "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/00-课程规划/已确认样张/课件风格-v1/slide_002.png"
+      ],
+      "main_thread_approval": "pending_or_recorded_by_main_thread",
+      "module": "05-下一Token生成",
+      "image": "slides/slide_038.png",
+      "root_qa_status": "passed",
+      "root_review": {
+        "page": 38,
+        "content_id": "v08_031",
+        "status": "passed",
+        "image": "slides/slide_038.png",
+        "sha256": "f195c2a7e53e9415b9e96aa74aaa284fe3cbc36f7c336c8880d44844b4f074fb",
+        "basis": "逐字节复用v08已验收原图；原验收见v08/review.json。",
+        "source": "../v08-完整课件/slides/slide_031.png",
+        "original_review": {
+          "page": 31,
+          "status": "passed",
+          "image": "slides/slide_031.png",
+          "sha256": "f195c2a7e53e9415b9e96aa74aaa284fe3cbc36f7c336c8880d44844b4f074fb",
+          "reviewer": "root",
+          "basis": "主线程实际逐张查看原图。两次前文逐步增长，一般后选逗号，再从最新前文继续；两组概率各100，示意及非真实概率限定清楚。",
+          "source": "modules/05-下一Token生成/slides/slide_031.png",
+          "date": "2026-09-16"
+        },
+        "date": "2026-09-16"
+      },
+      "module_manifest": "modules/05-下一Token生成/slide_manifest.md",
+      "module_metadata": "modules/05-下一Token生成/slides.json",
+      "generation_records": "modules/05-下一Token生成/generation_log.json",
+      "content_id": "v08_031",
+      "kind": "reused",
+      "old_page": 31,
+      "chapter": "回答怎样生成",
+      "bookmark": null,
+      "original_selected_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v08-完整课件/modules/05-下一Token生成/slides/slide_031.png",
+      "original_module_metadata": "../v08-完整课件/slide_manifest.json"
+    },
+    {
+      "page": 42,
+      "title": "逐步生成与流式显示",
+      "on_slide": [
+        "模型逐个生成Token，应用可以攒几个一起显示。屏幕上一次出现的文字，不一定就是一个Token。",
+        "模型可以生成结束标记，也可能因为达到输出长度上限而停止。句号出现后仍然可以继续写。",
+        "如果回答被截断，继续生成时仍需要提供相关前文。"
+      ],
+      "diagram": "中央用两条对齐的序列对照。已有输入“这家餐厅的味道很”单列，不计入新增输出。上方完整新增序列“一般｜，｜服务｜不错｜。｜还会｜再来｜。｜[结束]”9格；上方括号明确三次显示“一般，”“服务不错。”“还会再来。”，分别覆盖第1–2／3–5／6–8格，结束标记不显示为正文。下方“假设最多生成3个Token”仅“一般｜，｜服务”，在第三格后有清楚停止线，输出“一般，服务”。不用毫秒速度、不臆测真实模型tokenization。",
+      "extra_text": [
+        "已有输入：这家餐厅的味道很",
+        "新增Token",
+        "一般",
+        "，",
+        "服务",
+        "不错",
+        "。",
+        "还会",
+        "再来",
+        "。",
+        "[结束]",
+        "屏幕分批显示",
+        "一般，",
+        "服务不错。",
+        "还会再来。",
+        "假设最多生成3个Token",
+        "一般，服务",
+        "到达长度上限",
+        "切分、显示分组和长度上限均为教学示意。"
+      ],
+      "sources": [
+        "https://huggingface.co/docs/transformers/en/main_classes/text_generation"
+      ],
+      "invariants": "新增Token顺序9格准确；3个输出Token一般/逗号/服务，不把已有输入也数进3个；句号不等于结束标记。",
+      "slide_id": "slide_042",
+      "status": "self_checked",
+      "selected_image": "slides/slide_042.png",
+      "prompt": "prompts/slide_033_attempt01.txt",
+      "selected_attempt": 2,
+      "sha256": "9c58087218870b5a27789ccea6b1336a120f8124c96ccc4106c8c0c9c3fcca00",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": "上方9格准确，三组覆盖1–2、3–5、6–8，第9结束不显示为正文；下方只保留一般/逗号/服务3格，停止线在3后；绿橙色已改蓝红白。",
+      "reference_images": [
+        "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/00-课程规划/已确认样张/课件风格-v1/slide_002.png"
+      ],
+      "main_thread_approval": "pending_or_recorded_by_main_thread",
+      "module": "05-下一Token生成",
+      "image": "slides/slide_042.png",
+      "root_qa_status": "passed",
+      "root_review": {
+        "page": 42,
+        "content_id": "v08_033",
+        "status": "passed",
+        "image": "slides/slide_042.png",
+        "sha256": "9c58087218870b5a27789ccea6b1336a120f8124c96ccc4106c8c0c9c3fcca00",
+        "basis": "逐字节复用v08已验收原图；原验收见v08/review.json。",
+        "source": "../v08-完整课件/slides/slide_033.png",
+        "original_review": {
+          "page": 33,
+          "status": "passed",
+          "image": "slides/slide_033.png",
+          "sha256": "9c58087218870b5a27789ccea6b1336a120f8124c96ccc4106c8c0c9c3fcca00",
+          "reviewer": "root",
+          "basis": "主线程实际逐张查看原图。上方9Token含结束标记，分组1–2/3–5/6–8正确；下方严格3Token后停止，未把输入计入新增，示意限定清楚。",
+          "source": "modules/05-下一Token生成/slides/slide_033.png",
+          "date": "2026-09-16"
+        },
+        "date": "2026-09-16"
+      },
+      "module_manifest": "modules/05-下一Token生成/slide_manifest.md",
+      "module_metadata": "modules/05-下一Token生成/slides.json",
+      "generation_records": "modules/05-下一Token生成/generation_log.json",
+      "content_id": "v08_033",
+      "kind": "reused",
+      "old_page": 33,
+      "chapter": "回答怎样生成",
+      "bookmark": null,
+      "original_selected_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v08-完整课件/modules/05-下一Token生成/slides/slide_033.png",
+      "original_module_metadata": "../v08-完整课件/slide_manifest.json"
+    },
+    {
+      "page": 61,
+      "slide_id": "slide_061",
+      "title": "多轮对话怎样继续？",
+      "on_slide": "模型继续回答时，需要相关的历史内容，才能理解这次修改了什么。\n\n第一轮\n用户：读书会30人，每人材料10元、茶点12元，预算800元。请算总费用和余额。\n助手：30 ×（10 + 12）= 660元，还剩140元。\n\n第二轮\n用户：人数改成36人，重新算一下。\n本轮输入：系统要求＋第一轮用户消息＋第一轮回答＋这次修改\n模型生成新的回答\n材料：36 × 10 = 360元\n茶点：36 × 12 = 432元\n合计：792元；余额：800 − 792 = 8元\n\n如果只提供“人数改成36人”，模型不知道每人的费用和预算。\n可以提供原对话，也可以提供保留关键信息的摘要：\n读书会现为36人，每人材料10元、茶点12元，预算800元。\n课堂对话示意；历史由应用组织后提供给模型。",
+      "diagram": "左两轮对话，旧回答与新修改清楚分层；右本轮输入堆叠4项箭头到模型再到新的费用清单，新回答必须处于模型输出端不放进输入。底部对比只给短句缺信息与完整摘要。30旧人数灰色禁用不可大面积浅灰难读；深蓝旧、红36即可。前后金额算对，记录保持一组案例。",
+      "sources": [
+        "https://huggingface.co/docs/transformers/en/chat_templating",
+        "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/blob/ec84f302454dcb013b57c8acd7ca9cb331981e7e/tokenizer_config.json",
+        "verification.json"
+      ],
+      "prompt": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v08-完整课件/modules/07-聊天机制/prompts/slide_044_attempt01.txt",
+      "references": [
+        "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/00-课程规划/已确认样张/课件风格-v1/slide_001.png"
+      ],
+      "status": "self_checked",
+      "selected_image": "slides/slide_061.png",
+      "sha256": "749babfd21e0211e34c991b70572899e84ab5889cf949bab580d613c08b16999",
+      "selected_attempt": 2,
+      "self_check": "改为两宽栏；四项输入后才生成新回答；30人660余140、36人360+432=792余8；完整摘要保留费用和预算。",
+      "selected_prompt": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v08-完整课件/modules/07-聊天机制/prompts/slide_044_attempt02.txt",
+      "backend": "builtin_image_generation",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "module": "07-聊天机制",
+      "image": "slides/slide_061.png",
+      "root_qa_status": "passed",
+      "root_review": {
+        "page": 61,
+        "content_id": "v08_044",
+        "status": "passed",
+        "image": "slides/slide_061.png",
+        "sha256": "749babfd21e0211e34c991b70572899e84ab5889cf949bab580d613c08b16999",
+        "basis": "逐字节复用v08已验收原图；原验收见v08/review.json。",
+        "source": "../v08-完整课件/slides/slide_044.png",
+        "original_review": {
+          "page": 44,
+          "status": "passed",
+          "image": "slides/slide_044.png",
+          "sha256": "749babfd21e0211e34c991b70572899e84ab5889cf949bab580d613c08b16999",
+          "reviewer": "root",
+          "basis": "主线程实际逐张查看原图。第一轮660/140、第二轮792/8与费用细项正确；本轮输入4项在模型前，新回答在输出端，摘要保留全部条件。",
+          "source": "modules/07-聊天机制/slides/slide_044.png",
+          "date": "2026-09-16"
+        },
+        "date": "2026-09-16"
+      },
+      "module_manifest": "modules/07-聊天机制/slide_manifest.md",
+      "module_metadata": "modules/07-聊天机制/slides.json",
+      "generation_records": "modules/07-聊天机制/generation_log.json",
+      "content_id": "v08_044",
+      "kind": "reused",
+      "old_page": 44,
+      "chapter": "聊天怎样继续",
+      "bookmark": null,
+      "original_selected_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v08-完整课件/modules/07-聊天机制/slides/slide_044.png",
+      "original_module_metadata": "../v08-完整课件/slide_manifest.json"
+    },
+    {
+      "page": 63,
+      "slide_id": "slide_063",
+      "title": "模型参数、当前上下文与应用记忆",
+      "on_slide": "聊天时用到的信息，可能保存在不同地方。\n\n模型参数\n训练中学到的语言规律与能力。\n通常不会因这一轮聊天直接改变。\n\n当前上下文\n这次提供的要求、材料、历史和工具结果。\n读书会36人，预算800元 → 费用792元，还剩8元。\n\n应用保存的信息\n例如“用中文，回答简短一些”的偏好，或过去的对话记录。\n应用选择相关内容，放进本次输入，模型才能据此回答。\n\n应用保存的信息 → 检索或读取 → 本次输入 → 模型 → 回答\n新消息：人数又改成40人。\n40 ×（10 + 12）= 880元，超出预算80元。\n修改人数是更新本次输入，不是把模型重新训练一遍。\n课堂示意；是否保存、如何检索，取决于具体应用与设置。\n本次输入：读书会原为36人；材料10元/人、茶点12元/人；预算800元。",
+      "diagram": "顶部3个并排无外卡片列，标题+两行说明；中间应用储存圆柱（经典数据库线图）→读取→本次输入→模型→回答，模型参数作为模型内标记，不把储存数据库画在参数里。新修改进入本次输入；输出40人880超80下方大字。可有保存回答箭头回外部储存但不得穿正文，放不下直接省略回写箭头。不存在每轮对话自动训练模型的箭头。本次输入框明确包括材料10元/人、茶点12元/人和预算800元；原36人加新消息40人。",
+      "sources": [
+        "https://huggingface.co/docs/transformers/en/chat_templating",
+        "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/blob/ec84f302454dcb013b57c8acd7ca9cb331981e7e/tokenizer_config.json",
+        "verification.json"
+      ],
+      "prompt": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v08-完整课件/modules/07-聊天机制/prompts/slide_046_attempt01.txt",
+      "references": [
+        "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/00-课程规划/已确认样张/课件风格-v1/slide_002.png"
+      ],
+      "status": "self_checked",
+      "selected_image": "slides/slide_063.png",
+      "sha256": "69c0e17648bcf02abe1a917791b90d0f6e5419744a62c22e6ad0d7a68a1233d4",
+      "selected_attempt": 2,
+      "self_check": "按主线程要求，本次输入框补齐原36人、材料10元/人、茶点12元/人、预算800元，红字新40人保留；输出880元超80，与模型参数及应用存储区别正确。",
+      "selected_prompt": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v08-完整课件/modules/07-聊天机制/prompts/slide_046_attempt02.txt",
+      "backend": "builtin_image_generation",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "module": "07-聊天机制",
+      "image": "slides/slide_063.png",
+      "root_qa_status": "passed",
+      "root_review": {
+        "page": 63,
+        "content_id": "v08_046",
+        "status": "passed",
+        "image": "slides/slide_063.png",
+        "sha256": "69c0e17648bcf02abe1a917791b90d0f6e5419744a62c22e6ad0d7a68a1233d4",
+        "basis": "逐字节复用v08已验收原图；原验收见v08/review.json。",
+        "source": "../v08-完整课件/slides/slide_046.png",
+        "original_review": {
+          "page": 46,
+          "status": "passed",
+          "image": "slides/slide_046.png",
+          "sha256": "69c0e17648bcf02abe1a917791b90d0f6e5419744a62c22e6ad0d7a68a1233d4",
+          "reviewer": "root",
+          "basis": "主线程实际逐张查看原图。外部存储读取进输入，模型参数独立；本次输入补齐材料10/茶点12/预算800，40人880超80正确。",
+          "source": "modules/07-聊天机制/slides/slide_046.png",
+          "date": "2026-09-16"
+        },
+        "date": "2026-09-16"
+      },
+      "module_manifest": "modules/07-聊天机制/slide_manifest.md",
+      "module_metadata": "modules/07-聊天机制/slides.json",
+      "generation_records": "modules/07-聊天机制/generation_log.json",
+      "content_id": "v08_046",
+      "kind": "reused",
+      "old_page": 46,
+      "chapter": "聊天怎样继续",
+      "bookmark": null,
+      "original_selected_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v08-完整课件/modules/07-聊天机制/slides/slide_046.png",
+      "original_module_metadata": "../v08-完整课件/slide_manifest.json"
+    }
+  ]
+}

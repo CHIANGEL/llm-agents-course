@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "75",
+  "text": "新会话怎样用到过去的信息？\n一段会话结束后，把后续需要的信息保存在外部；新任务到来时再取用。\n保存 → 按任务查找 → 取得内容 → 加入当前输入。模型依据这次输入继续生成。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "新会话怎样用到过去的信息？"
+}

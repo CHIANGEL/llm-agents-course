@@ -1,0 +1,64 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8-qa1#p=87&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8-qa1#p=87&s=1
+	2 container
+		40 container Description: 第87页 Meta Muse与OpenAI dot, ID: mount
+			41 container 第87页 Meta Muse与OpenAI dot
+				42 heading Meta Muse与OpenAI dot, Value: 1
+					43 text Meta Muse与OpenAI dot
+				44 container 课件内容
+					45 container
+						46 text Meta Muse与OpenAI dot都在把长期背景、持续任务与工具操作连接起来。 Meta Muse
+						47 content list
+							48 container
+								49 AXListMarker • 
+								50 text 记住用户关心的事，围绕长期目标制定计划。
+							51 container
+								52 AXListMarker • 
+								53 text 在专用云端电脑中跨应用工作。
+							54 container
+								55 AXListMarker • 
+								56 text 用户决定读取或操作哪些应用。
+						57 text OpenAI dot
+						58 content list
+							59 container
+								60 AXListMarker • 
+								61 text 从ChatGPT记忆取得背景，跨对话推进任务。
+							62 container
+								63 AXListMarker • 
+								64 text 用云端电脑及连接应用完成工作。
+							65 container
+								66 AXListMarker • 
+								67 text 后台主动研究使用只读工具；执行任务另受权限约束。
+						68 text 长期背景 持续任务 个性化解决“如何更懂你”，主动工作解决“何时继续做”；两者都需要可控的工具访问。
+				69 container 课程进度
+					70 button 导入
+					71 button 1. LLM基础
+					72 button 2. Prompting
+					73 button 3. Agents · Externalization & Internalization
+						74 text 3. Agents 
+						75 text · Externalization & Internalization
+					76 button 3.0 外化与内化总览
+					77 button 3.1 工具调用
+					78 button 3.2 Memory
+					79 button 3.3 Skills
+					80 button 3.4 Harness
+					81 button 3.5 外化与内化整合
+					82 button 3.6 全讲总结
+		25 container Description: 课件操作, ID: controls
+			26 button Description: 上一步, Help: 上一步（←）
+			27 button Description: 下一步, Help: 下一步（→或空格）
+			28 container jump-form
+				29 text 页码
+				30 stepper (settable, integer) Description: 页码, Value: 87, ID: page-input
+				31 text / 151
+			83 text 整页显示
+			33 button 目录
+			34 button 讲者备注
+			35 button 完整材料
+			36 button 放大图解
+			37 button 全屏
+			38 button 隐藏, Help: 按H恢复
+			39 button 操作说明
+		84 text 第87页，Meta Muse与OpenAI dot，整页显示
+
+The focused UI element is 40 container Description: 第87页 Meta Muse与OpenAI dot, ID: mount

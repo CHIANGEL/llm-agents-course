@@ -1,0 +1,723 @@
+[
+  {
+    "id": "new-session",
+    "title": "新会话：客户端先准备哪些材料？",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<blockquote class=\"quote\">请做一份Agent Memory课件。这次允许HTML和动态演示，学生基础与课件风格沿用之前的约定。之前“讲到next-token prediction”的要求，这次还适用吗？</blockquote><p class=\"lead\">用户提交请求后，客户端还要准备基础指令、运行规则、项目与环境信息、Memory和工具定义。</p><p class=\"\">这些材料组成请求，模型才开始生成。</p>",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [],
+    "materials": [
+      "request-initial",
+      "notice"
+    ]
+  },
+  {
+    "id": "base-instructions",
+    "title": "基础指令也在模型输入中",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<p class=\"\">客户端从会话配置或模型模板取得 base_instructions。</p><pre class=\"code small\">You are Codex, a coding agent based on GPT-5. You and the user share one workspace, and your job is to collaborate with them until their goal is genuinely handled.</pre><p class=\"\">这段文字说明Codex的身份与基本工作方式。完整模板还包含工具使用、协作和回答要求。</p><p class=\"callout\">本例中：<span class=\"accent\">input[0] → developer → 基础指令</span></p><button class=\"text-button\" data-material=\"base-full\">展开基础指令全文</button>",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "基础指令的role与文本",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/context/base_instructions.rs"
+      },
+      {
+        "label": "Responses请求组装及Lite分支",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/client.rs#L956-L1090"
+      }
+    ],
+    "materials": [
+      "base-full",
+      "request-source",
+      "notice"
+    ]
+  },
+  {
+    "id": "roles",
+    "title": "role与材料来源是两件事",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<table><thead><tr><th>材料</th><th>本例中的role</th><th>从哪里来</th></tr></thead><tbody><tr><td>基础指令、Memory、权限说明</td><td>developer</td><td>客户端读取与组装</td></tr><tr><td>项目说明、环境信息</td><td>user</td><td>客户端读取与组装</td></tr><tr><td>当前备课请求</td><td>user</td><td>用户输入</td></tr></tbody></table><p class=\"callout\">日常所说的“System Prompt”，不一定对应一条role=system的消息。这里的基础指令使用developer。</p>",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "基础指令的role与文本",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/context/base_instructions.rs"
+      },
+      {
+        "label": "AGENTS.md真实包装",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/context/user_instructions.rs"
+      },
+      {
+        "label": "扩展与世界状态聚合",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs#L4444-L4790"
+      }
+    ],
+    "materials": [
+      "request-source",
+      "context-source",
+      "notice"
+    ]
+  },
+  {
+    "id": "runtime-rules",
+    "title": "运行规则说明工具能做什么",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<pre class=\"code small\">&lt;permissions instructions&gt;\nFilesystem sandboxing defines which files can be read or written. `sandbox_mode` is `read-only`: The sandbox only permits reading files. Network access is restricted.\nApproval policy is currently never. Do not provide the `sandbox_permissions` for any reason, commands will be rejected.\n&lt;/permissions instructions&gt;</pre><p class=\"\">本例允许读取文件，限制网络访问，不开放提权申请。</p><p class=\"callout\">客户端按权限配置生成这段文字，放入developer内容段。</p>",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "扩展与世界状态聚合",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs#L4444-L4790"
+      }
+    ],
+    "materials": [
+      "permissions",
+      "context-source",
+      "notice"
+    ]
+  },
+  {
+    "id": "project-context",
+    "title": "项目说明来自工作目录",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<pre class=\"code small\"># AGENTS.md instructions for /workspace/course\n\n&lt;INSTRUCTIONS&gt;\n本目录用于安泰本科课程《生成式人工智能及编程实践》的备课。\n学生没有深度学习基础，概念结合具体材料逐步讲解。\n课件沿用教师措辞和固定样式，每页只推进一个需要理解的问题。\n&lt;/INSTRUCTIONS&gt;</pre><p class=\"callout\">客户端读取项目说明，放入user消息的一个内容段。模型由此知道这个目录在做什么。</p>",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "AGENTS.md真实包装",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/context/user_instructions.rs"
+      }
+    ],
+    "materials": [
+      "project",
+      "notice"
+    ]
+  },
+  {
+    "id": "environment",
+    "title": "环境信息也由客户端准备",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<pre class=\"code small\">&lt;environment_context&gt;\n  &lt;cwd&gt;/workspace/course&lt;/cwd&gt;\n  &lt;shell&gt;zsh&lt;/shell&gt;\n  &lt;current_date&gt;2026-10-14&lt;/current_date&gt;\n  &lt;timezone&gt;Asia/Shanghai&lt;/timezone&gt;\n  &lt;filesystem&gt;…&lt;/filesystem&gt;\n&lt;/environment_context&gt;</pre><p class=\"\">工作目录用于解释相对路径；shell说明命令的运行环境。</p><p class=\"callout\">它和项目说明放在同一条user消息中，分别占一个content段。</p>",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "扩展与世界状态聚合",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs#L4444-L4790"
+      },
+      {
+        "label": "环境上下文模板",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/context/world_state/environment.rs"
+      }
+    ],
+    "materials": [
+      "environment",
+      "context-source",
+      "notice"
+    ]
+  },
+  {
+    "id": "stored-files",
+    "title": "磁盘里已经保存了哪些Memory？",
+    "chapter": 1,
+    "kind": "demo",
+    "body": "",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [],
+    "materials": [
+      "summary",
+      "style",
+      "scope",
+      "notice"
+    ],
+    "widget": {
+      "type": "file-reader",
+      "files": [
+        {
+          "id": "summary",
+          "label": "memory_summary.md"
+        },
+        {
+          "id": "style",
+          "label": "rollout_summaries/style.md"
+        },
+        {
+          "id": "scope",
+          "label": "rollout_summaries/scope.md"
+        }
+      ],
+      "printHTML": "<pre class=\"code small\">v1\n## User Profile\n教师为安泰本科大三授课；学生没有深度学习基础。\n## User preferences\n沿用教师措辞与固定样式；每页适量，复杂内容分步讲。\n## General Tips\n长材料可单独打开全文。\n## What&#x27;s in Memory\n- rollout_summaries/style.md：需要具体版式、措辞时读。\n- rollout_summaries/scope.md：核对“讲到next-token prediction”的适用范围。\n</pre>"
+    }
+  },
+  {
+    "id": "summary-uses",
+    "title": "摘要里既有信息，也有查阅入口",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<div class=\"cols\"><section><h2>可以直接使用</h2><blockquote class=\"quote\">教师为安泰本科大三授课；学生没有深度学习基础。</blockquote><blockquote class=\"quote\">沿用教师措辞与固定样式；每页适量。</blockquote></section><section><h2>需要时再打开</h2><pre class=\"code small\">rollout_summaries/style.md</pre><p class=\"\">查具体版式与措辞。</p><pre class=\"code small\">rollout_summaries/scope.md</pre><p class=\"\">查历史决定的适用范围。</p></section></div><p class=\"callout\">文件保存在磁盘上，并不意味着模型已经看到其内容。</p>",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [],
+    "materials": [
+      "summary",
+      "notice"
+    ]
+  },
+  {
+    "id": "detail-file",
+    "title": "详细记忆保留历史决定的范围",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<p class=\"note\">文件：rollout_summaries/scope.md</p><pre class=\"code small\"># 第一讲的机制讲解范围\n教师在规划第一讲时说明：学生没有深度学习基础。\n第一讲内部机制讲到next-token prediction，并用BPE说明Token。\n不在第一讲展开Transformer与Attention的架构计算。\n这项决定针对第一讲，不是后续所有专题的内容上限。\n后续可以讲文件、消息列表与工具使用，并逐步解释具体操作。\n</pre><p class=\"callout\">详细记忆通常也是历史会话总结，不等于原始聊天全文。</p>",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [],
+    "materials": [
+      "scope",
+      "notice"
+    ]
+  },
+  {
+    "id": "memory-load",
+    "title": "客户端读取摘要，再组合developer内容",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<pre class=\"code small\">developer消息\n  content[0]：Memory使用指令＋已加载的摘要\n  content[1]：权限说明</pre><p class=\"\">读取memory_summary.md后，客户端把摘要填入Memory模板。初始上下文将它与权限说明合在同一条developer消息中。</p><p class=\"callout\">这一步由客户端完成，模型还没有发起文件读取调用。</p><button class=\"text-button\" data-material=\"prompt0\">展开Memory指令与摘要全文</button>",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "读取并填入Memory摘要",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/ext/memories/src/prompts.rs#L35-L63"
+      },
+      {
+        "label": "扩展与世界状态聚合",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs#L4444-L4790"
+      }
+    ],
+    "materials": [
+      "prompt0",
+      "permissions",
+      "context-source",
+      "notice"
+    ]
+  },
+  {
+    "id": "input-grouping",
+    "title": "客户端加入用户请求，组成input",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<pre class=\"code small\">input[0]  developer  基础指令\ninput[1]  developer  Memory＋权限说明\ninput[2]  user       项目说明＋环境信息\ninput[3]  user       当前备课请求</pre><p class=\"callout\">一条消息可以包含多个content段。文件来源不同，不一定拆成不同消息。</p><button class=\"text-button\" data-material=\"list-initial\">展开这四条消息的全文</button>",
+    "notes": "材料准备的讲述顺序与最终input排序分开。此页是固定非Lite/非incremental分支的最终序列。",
+    "sources": [
+      {
+        "label": "Responses请求组装及Lite分支",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/client.rs#L956-L1090"
+      },
+      {
+        "label": "扩展与世界状态聚合",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs#L4444-L4790"
+      },
+      {
+        "label": "初始上下文与后续差分",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs#L4864-L4917"
+      }
+    ],
+    "materials": [
+      "list-initial",
+      "context-source",
+      "notice"
+    ]
+  },
+  {
+    "id": "tools",
+    "title": "工具名称和参数由客户端提供",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<div class=\"cols\"><section><pre class=\"code small\">tools[0]\n  type: function\n  name: exec_command\n  parameters:\n    cmd: string\n    workdir: string\n    …\n  required: [cmd]</pre></section><section><p class=\"\">说明：执行一条命令，返回输出或正在运行的session ID。</p><p class=\"\">cmd写要执行的命令；workdir指定运行目录。</p><p class=\"\">模型先看到名称、用途与参数格式，随后才能按这个接口生成调用。</p></section></div><p class=\"callout\">本例的工具定义放在请求的tools字段中，和input分开。</p><button class=\"text-button\" data-material=\"tool\">查看工具定义全文</button>",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "exec_command工具定义",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/tools/handlers/shell_spec.rs#L23-L124"
+      },
+      {
+        "label": "Responses请求组装及Lite分支",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/client.rs#L956-L1090"
+      }
+    ],
+    "materials": [
+      "tool",
+      "request-source",
+      "notice"
+    ]
+  },
+  {
+    "id": "request-structure",
+    "title": "完整请求包含input和其他字段",
+    "chapter": 1,
+    "kind": "content",
+    "body": "<pre class=\"code small\">{\n  &quot;model&quot;: &quot;gpt-5.5&quot;,\n  &quot;input&quot;: [\n    …基础指令、记忆与权限、项目与环境、用户请求…\n  ],\n  &quot;tools&quot;: [exec_command的完整定义],\n  &quot;tool_choice&quot;: &quot;auto&quot;,\n  &quot;parallel_tool_calls&quot;: true,\n  &quot;reasoning&quot;: {&quot;effort&quot;: &quot;medium&quot;},\n  &quot;stream&quot;: true, &quot;store&quot;: false, …\n}</pre><p class=\"callout\">input中的条目、tools中的工具定义和生成参数一起组成请求。</p><p class=\"note\">这是客户端请求结构，不能据此确定模型内部的Chat Template。</p><button class=\"text-button\" data-material=\"request-initial\">展开完整教学请求</button>",
+    "notes": "课堂以材料名称及省略号折叠JSON内容，完整材料中所有项展开。所选分支没有顶层instructions字段。这是客户端结构，不是模型内部Chat Template。",
+    "sources": [
+      {
+        "label": "ResponsesApiRequest字段",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/codex-api/src/common.rs#L279-L304"
+      },
+      {
+        "label": "Responses请求组装及Lite分支",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/client.rs#L956-L1090"
+      }
+    ],
+    "materials": [
+      "request-initial",
+      "request-source",
+      "notice"
+    ]
+  },
+  {
+    "id": "initial-input",
+    "title": "展开input，看看模型收到的内容",
+    "chapter": 2,
+    "kind": "demo",
+    "body": "",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "Responses请求组装及Lite分支",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/client.rs#L956-L1090"
+      },
+      {
+        "label": "扩展与世界状态聚合",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs#L4444-L4790"
+      }
+    ],
+    "materials": [
+      "request-initial",
+      "list-initial",
+      "notice"
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "prefixItems": [
+        "B",
+        "D0",
+        "C"
+      ],
+      "prefixLabel": "基础指令、记忆与权限、项目与环境",
+      "toolsKey": "initial",
+      "steps": [
+        {
+          "label": "发送首次请求前",
+          "items": [
+            "U1"
+          ],
+          "selected": "D0",
+          "added": [],
+          "caption": "基础指令、Memory、规则、项目、环境与用户要求同时进入输入。",
+          "requestKey": "initial"
+        },
+        {
+          "label": "当前任务的要求",
+          "items": [
+            "U1"
+          ],
+          "selected": "U1",
+          "added": [],
+          "caption": "这次允许HTML；历史偏好要结合当前明确要求使用。",
+          "requestKey": "initial"
+        }
+      ],
+      "printHTML": "<p class=\"note\">已有基础指令、记忆与权限、项目与环境；tools提供exec_command。</p><p class=\"\">这次允许HTML；历史偏好要结合当前明确要求使用。</p><pre class=\"code small\">type: message\nrole: user\ncontent: input_text\n\n请做一份Agent Memory课件。这次允许HTML和动态演示，学生基础与课件风格沿用之前的约定。之前“讲到next-token prediction”的要求，这次还适用吗？</pre>"
+    }
+  },
+  {
+    "id": "enough-summary",
+    "title": "摘要足够时，可以直接使用",
+    "chapter": 2,
+    "kind": "content",
+    "body": "<table><thead><tr><th>已经加载的摘要</th><th>这次怎样使用</th></tr></thead><tbody><tr><td>学生没有深度学习基础</td><td>从文件、文本和操作讲起。</td></tr><tr><td>沿用教师措辞与固定样式</td><td>保留课程表达与视觉风格。</td></tr><tr><td>每页适量，复杂内容分步讲</td><td>把读取、返回和回答分开。</td></tr></tbody></table><p class=\"callout\">这些信息已经进入输入，不必再读详细文件。历史决定的范围不清楚，才继续查相关材料。</p>",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "Memory读取提示词原文",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/ext/memories/templates/memories/read_path_v2.md"
+      }
+    ],
+    "materials": [
+      "prompt0",
+      "notice"
+    ]
+  },
+  {
+    "id": "read-call",
+    "title": "模型按已提供的接口生成读取调用",
+    "chapter": 2,
+    "kind": "demo",
+    "body": "",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "ResponseItem字段",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs#L1025-L1166"
+      },
+      {
+        "label": "exec_command工具定义",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/tools/handlers/shell_spec.rs#L23-L124"
+      }
+    ],
+    "materials": [
+      "list-call",
+      "tool",
+      "notice"
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "prefixItems": [
+        "B",
+        "D0",
+        "C"
+      ],
+      "prefixLabel": "基础指令、记忆与权限、项目与环境",
+      "toolsKey": "initial",
+      "steps": [
+        {
+          "label": "查阅入口已在摘要里",
+          "items": [
+            "U1"
+          ],
+          "selected": "D0",
+          "added": [],
+          "caption": "摘要给出了scope.md路径；详细文件此时还没有进入输入。",
+          "requestKey": "initial"
+        },
+        {
+          "label": "模型生成读取调用",
+          "items": [
+            "U1",
+            "F1"
+          ],
+          "selected": "F1",
+          "added": [
+            "F1"
+          ],
+          "caption": "模型生成exec_command调用。客户端随后将命令交给工具执行。",
+          "requestKey": null
+        }
+      ],
+      "printHTML": "<p class=\"note\">已有基础指令、记忆与权限、项目与环境；tools提供exec_command。</p><p class=\"\">模型生成exec_command调用。客户端随后将命令交给工具执行。</p><pre class=\"code small\">type: function_call\nname: exec_command\ncall_id: call_scope\narguments（JSON字符串）:\n  cmd: cat case/memories_v2/rollout_summaries/scope.md\n  workdir: /workspace/course</pre>"
+    }
+  },
+  {
+    "id": "read-result",
+    "title": "工具结果加入下一次模型请求",
+    "chapter": 2,
+    "kind": "demo",
+    "body": "",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "ResponseItem字段",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs#L1025-L1166"
+      },
+      {
+        "label": "从已有历史准备模型输入",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/turn.rs#L534-L551"
+      }
+    ],
+    "materials": [
+      "request-after-read",
+      "list-result",
+      "scope",
+      "notice"
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "prefixItems": [
+        "B",
+        "D0",
+        "C"
+      ],
+      "prefixLabel": "基础指令、记忆与权限、项目与环境",
+      "toolsKey": "initial",
+      "steps": [
+        {
+          "label": "等待文件读取结果",
+          "items": [
+            "U1",
+            "F1"
+          ],
+          "selected": "F1",
+          "added": [],
+          "caption": "读取调用已经生成。文件读取完成后，客户端才能加入对应结果。",
+          "requestKey": null
+        },
+        {
+          "label": "工具返回文件内容",
+          "items": [
+            "U1",
+            "F1",
+            "R1"
+          ],
+          "selected": "R1",
+          "added": [
+            "R1"
+          ],
+          "caption": "call_id将返回结果对应到读取调用。原有上下文和这次工具往返一起进入下一次请求。",
+          "requestKey": "after-read"
+        }
+      ],
+      "printHTML": "<p class=\"note\">已有基础指令、记忆与权限、项目与环境；tools提供exec_command。</p><p class=\"\">call_id将返回结果对应到读取调用。原有上下文和这次工具往返一起进入下一次请求。</p><pre class=\"code small\">type: function_call_output\ncall_id: call_scope\noutput（节选）:\n\n不在第一讲展开Transformer与Attention的架构计算。\n这项决定针对第一讲，不是后续所有专题的内容上限。\n后续可以讲文件、消息列表与工具使用，并逐步解释具体操作。</pre>"
+    }
+  },
+  {
+    "id": "answer",
+    "title": "模型结合全部输入回答",
+    "chapter": 2,
+    "kind": "demo",
+    "body": "",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "从已有历史准备模型输入",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/turn.rs#L534-L551"
+      }
+    ],
+    "materials": [
+      "list-answer",
+      "request-after-read",
+      "notice"
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "prefixItems": [
+        "B",
+        "D0",
+        "C"
+      ],
+      "prefixLabel": "基础指令、记忆与权限、项目与环境",
+      "toolsKey": "initial",
+      "steps": [
+        {
+          "label": "再次调用模型",
+          "items": [
+            "U1",
+            "F1",
+            "R1"
+          ],
+          "selected": "R1",
+          "added": [],
+          "caption": "当前请求包括基础上下文、备课请求和工具往返，详细范围已经可见。",
+          "requestKey": "after-read"
+        },
+        {
+          "label": "模型生成回答",
+          "items": [
+            "U1",
+            "F1",
+            "R1",
+            "A1"
+          ],
+          "selected": "A1",
+          "added": [
+            "A1"
+          ],
+          "caption": "回答采用本次HTML要求，并按详细记忆解释第一讲的适用范围。",
+          "requestKey": null
+        }
+      ],
+      "printHTML": "<p class=\"note\">已有基础指令、记忆与权限、项目与环境；tools提供exec_command。</p><p class=\"\">回答采用本次HTML要求，并按详细记忆解释第一讲的适用范围。</p><pre class=\"code small\">type: message\nrole: assistant\ncontent: output_text\n\n这次使用HTML和动态演示，面向没有深度学习基础的本科生，沿用原有措辞与固定样式，每页分步讲解。“讲到next-token prediction”针对第一讲的内部机制介绍。本专题可以讲Memory文件、消息列表与工具读取，不必展开网络架构计算。</pre>"
+    }
+  },
+  {
+    "id": "followup",
+    "title": "用户继续追问，原有内容仍然保留",
+    "chapter": 2,
+    "kind": "demo",
+    "body": "",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "初始上下文与后续差分",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs#L4864-L4917"
+      },
+      {
+        "label": "从已有历史准备模型输入",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/turn.rs#L534-L551"
+      }
+    ],
+    "materials": [
+      "request-followup",
+      "list-followup",
+      "notice"
+    ],
+    "frames": [
+      {
+        "label": "",
+        "html": ""
+      },
+      {
+        "label": "",
+        "html": ""
+      }
+    ],
+    "widget": {
+      "type": "message-trace",
+      "prefixItems": [
+        "B",
+        "D0",
+        "C"
+      ],
+      "prefixLabel": "基础指令、记忆与权限、项目与环境",
+      "toolsKey": "initial",
+      "steps": [
+        {
+          "label": "用户要求分开讲解",
+          "items": [
+            "U1",
+            "F1",
+            "R1",
+            "A1",
+            "U2"
+          ],
+          "selected": "U2",
+          "added": [
+            "U2"
+          ],
+          "caption": "用户要求摘要与详细记忆分开讲。这条纠正已经进入当前请求。",
+          "requestKey": "followup"
+        },
+        {
+          "label": "模型按要求调整",
+          "items": [
+            "U1",
+            "F1",
+            "R1",
+            "A1",
+            "U2",
+            "A2"
+          ],
+          "selected": "A2",
+          "added": [
+            "A2"
+          ],
+          "caption": "初次加载的摘要仍在原处。当前消息可以立即影响回答。",
+          "requestKey": null
+        }
+      ],
+      "printHTML": "<p class=\"note\">已有基础指令、记忆与权限、项目与环境；tools提供exec_command。</p><p class=\"\">初次加载的摘要仍在原处。当前消息可以立即影响回答。</p><pre class=\"code small\">type: message\nrole: assistant\ncontent: output_text\n\n好，先用一页展示摘要，再用一页展示详细记忆。两页之间保留对应的文件路径，方便学生看出它们的关系。</pre>"
+    }
+  },
+  {
+    "id": "retain-not-repeat",
+    "title": "后续请求保留摘要，不再追加一份",
+    "chapter": 3,
+    "kind": "demo",
+    "body": "",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "Responses请求组装及Lite分支",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/client.rs#L956-L1090"
+      },
+      {
+        "label": "初始上下文与后续差分",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs#L4864-L4917"
+      }
+    ],
+    "materials": [
+      "request-initial",
+      "request-followup",
+      "request-source",
+      "refresh-source",
+      "notice"
+    ],
+    "frames": [
+      {
+        "label": "首次请求",
+        "html": "<ol class=\"named-context\"><li>基础指令</li><li>初次加载的记忆摘要＋权限</li><li>项目说明＋环境信息</li><li>用户：请制作Agent Memory课件</li></ol><p class=\"callout\">客户端先读取摘要，放入这次请求。基础指令也在input前部。</p>"
+      },
+      {
+        "label": "用户继续追问",
+        "html": "<ol class=\"named-context\"><li>基础指令</li><li>初次加载的记忆摘要＋权限</li><li>项目说明＋环境信息</li><li>先前的备课请求、工具往返和模型回答</li><li class=\"accent\">用户：把摘要和详细记忆分开讲</li></ol><p class=\"callout\">后续请求仍包含已加载的摘要，但不会再追加一份完整摘要。</p><p class=\"note\">请求构建时处理基础指令，不意味着重新读取Memory文件。</p>"
+      }
+    ]
+  },
+  {
+    "id": "disk-vs-input",
+    "title": "文件更新了，当前输入不会跟着改变",
+    "chapter": 3,
+    "kind": "demo",
+    "body": "",
+    "notes": "源码分支、模板原文及教学材料说明见完整材料区。",
+    "sources": [
+      {
+        "label": "初始上下文与后续差分",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs#L4864-L4917"
+      },
+      {
+        "label": "从已有历史准备模型输入",
+        "url": "https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/turn.rs#L534-L551"
+      }
+    ],
+    "materials": [
+      "summary",
+      "summary-new",
+      "list-followup",
+      "notice"
+    ],
+    "frames": [
+      {
+        "label": "两边最初是相同内容",
+        "html": "<div class=\"cols\"><section><h2>磁盘：memory_summary.md</h2><blockquote class=\"quote\">学生没有深度学习基础。\n沿用教师措辞与固定样式。</blockquote></section><section><h2>当前输入中的记忆摘要</h2><blockquote class=\"quote\">学生没有深度学习基础。\n沿用教师措辞与固定样式。</blockquote></section></div><p class=\"note\">基础指令、权限、项目与环境，以及已有对话，也仍在当前输入中。</p>"
+      },
+      {
+        "label": "另一会话更新了磁盘文件",
+        "html": "<div class=\"cols\"><section><h2>磁盘：memory_summary.md</h2><blockquote class=\"quote\">学生没有深度学习基础。\n沿用教师措辞与固定样式。</blockquote><p class=\"accent\">新增：结尾安排三道检查题。</p></section><section><h2>当前输入中的记忆摘要</h2><blockquote class=\"quote\">学生没有深度学习基础。\n沿用教师措辞与固定样式。</blockquote><p class=\"\">仍是之前加载的内容。</p></section></div><p class=\"callout\">磁盘文件的新内容尚未进入输入；当前用户消息中的纠正已经可以使用。</p>"
+      }
+    ]
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "strategy_id": 2,
+  "strategy_name": "双层解释法",
+  "group": "学习",
+  "prepared_date": "2026-10-20",
+  "status": "pending_browser",
+  "template_source": "sources/prompting-r2/prompts.json",
+  "original_template": "我想学习的是：【填写概念或问题】。\n\n请分两层解释：\n\n第一层，小白版。\n用生活化的语言和一个具体例子，让完全没有基础的人也能听懂。\n\n第二层，专业版。\n使用准确术语，讲清核心机制、适用边界和常见误解。\n\n最后请整理出：\n1. 列出小白说法与专业术语的对应关系；\n2. 我最容易理解错的地方；\n3. 3个用于检查我是否真正理解的问题。",
+  "execution_policy": {
+    "separate_fresh_chats": true,
+    "same_platform_model_mode_per_pair": true,
+    "same_object_and_background_in_both_prompts": true,
+    "archive_full_prompts_and_full_replies": true,
+    "share_links_only_after_actual_UI_generation_and_verification": true,
+    "selection_rule": "实测后至少两个候选均独立比较；仅当策略产生可见的方法差异而非只有篇幅/标题差异，才选择一个链接对进入HTML。"
+  },
+  "browser_blocker": {
+    "attempts": [
+      {
+        "action": "cua.createBrowserTab('iab','https://chat.deepseek.com/',{visible:false})",
+        "result": "35.6秒后超时，kernel reset"
+      },
+      {
+        "action": "cua.getState()",
+        "result": "成功；本子代理独立侧边浏览器列出DeepSeek标签页"
+      },
+      {
+        "action": "cua.getTab('1',{browser:'iab'})",
+        "result": "30.0秒后超时，kernel reset"
+      }
+    ],
+    "submitted_prompts": 0,
+    "note": "没有提交任何聊天Prompt，没有模型回复，也没有创建共享链接。后续根代理负责连接恢复，准备工作不是演示实测。"
+  },
+  "candidates": [
+    {
+      "candidate_id": "rag",
+      "object": "检索增强生成（RAG）",
+      "placeholder_values": [
+        "检索增强生成（RAG），以及它与直接让大模型凭已有知识回答的区别"
+      ],
+      "simple_prompt": "请解释检索增强生成（RAG），以及它与直接让大模型凭已有知识回答的区别。",
+      "observation_points_to_test": [
+        "生活化例子中的各个对象是否在专业解释中一一对应，读者能否顺着映射表理解检索、上下文和生成的关系。",
+        "是否解释知识被检索到不等于答案一定正确，以及检索与模型参数更新的区别。",
+        "检查问题能否暴露误解，而不是只让读者复述缩写。"
+      ],
+      "selection_rationale_before_execution": "与后续Memory、工具读取资料的内容相连，熟悉业务而不懂模型实现的MBA学员容易感受到两层解释的衔接。",
+      "rejection_conditions": [
+        "简单回答也已给出同等清晰的生活例子、专业机制、对应关系和误解检查，差异仅为篇幅。",
+        "策略回答把RAG等同于重新训练模型，或把生活比喻当成准确机制。"
+      ],
+      "status": "pending_browser",
+      "platform": null,
+      "model_and_mode": null,
+      "simple_response": null,
+      "strategy_response": null,
+      "simple_conversation_url": null,
+      "strategy_conversation_url": null,
+      "simple_share_url": null,
+      "strategy_share_url": null,
+      "actual_comparison": null,
+      "strategy_prompt": "我想学习的是：检索增强生成（RAG），以及它与直接让大模型凭已有知识回答的区别。\n\n请分两层解释：\n\n第一层，小白版。\n用生活化的语言和一个具体例子，让完全没有基础的人也能听懂。\n\n第二层，专业版。\n使用准确术语，讲清核心机制、适用边界和常见误解。\n\n最后请整理出：\n1. 列出小白说法与专业术语的对应关系；\n2. 我最容易理解错的地方；\n3. 3个用于检查我是否真正理解的问题。",
+      "template_integrity": {
+        "only_placeholder_substitution": true,
+        "original_placeholders": [
+          "【填写概念或问题】"
+        ],
+        "strategy_prompt_sha256": "bfe4a487fb3174f6d4386ce7d019b8d942f9b84dff20f320daec9608601bc9ec"
+      }
+    },
+    {
+      "candidate_id": "simpsons-paradox",
+      "object": "辛普森悖论",
+      "placeholder_values": [
+        "辛普森悖论：为什么分组比较和汇总比较可能得到相反结论"
+      ],
+      "simple_prompt": "请解释辛普森悖论：为什么分组比较和汇总比较可能得到相反结论。",
+      "observation_points_to_test": [
+        "小白版是否给出可独立复算的业务或生活数字例子，专业版是否回到分组比例、权重与汇总结果。",
+        "生活说法与专业术语是否能逐项对应；是否说明不能一概认定分组结论或汇总结论必然正确。",
+        "三个检查问题是否需要学员判断信息缺口或权重变化，而非背诵名称。"
+      ],
+      "selection_rationale_before_execution": "概念本身反直觉，单纯给定义不足以完成理解；数值例子、机制和对应关系可以形成明显可见的教学层次。",
+      "rejection_conditions": [
+        "简单回答已经用清楚的可复算数字完整解释机制，策略回答只多了标题。",
+        "任何一方数字无法产生所声称的反转，或专业版把相关关系直接解释成因果。"
+      ],
+      "status": "pending_browser",
+      "platform": null,
+      "model_and_mode": null,
+      "simple_response": null,
+      "strategy_response": null,
+      "simple_conversation_url": null,
+      "strategy_conversation_url": null,
+      "simple_share_url": null,
+      "strategy_share_url": null,
+      "actual_comparison": null,
+      "strategy_prompt": "我想学习的是：辛普森悖论：为什么分组比较和汇总比较可能得到相反结论。\n\n请分两层解释：\n\n第一层，小白版。\n用生活化的语言和一个具体例子，让完全没有基础的人也能听懂。\n\n第二层，专业版。\n使用准确术语，讲清核心机制、适用边界和常见误解。\n\n最后请整理出：\n1. 列出小白说法与专业术语的对应关系；\n2. 我最容易理解错的地方；\n3. 3个用于检查我是否真正理解的问题。",
+      "template_integrity": {
+        "only_placeholder_substitution": true,
+        "original_placeholders": [
+          "【填写概念或问题】"
+        ],
+        "strategy_prompt_sha256": "13cfe57d713cac73f76614f53923918eca6077997bdf6c10fd7598d3abb44779"
+      }
+    }
+  ],
+  "selected_candidate_id": null,
+  "reviewer_decision": null
+}

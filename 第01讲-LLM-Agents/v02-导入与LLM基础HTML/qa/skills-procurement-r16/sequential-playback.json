@@ -1,0 +1,167 @@
+{
+  "earlier_segment": "113–121已实际按下一步顺序播放并保存截图；调用超时后从122继续",
+  "pages": [
+    {
+      "page": 122,
+      "broken_images": [],
+      "selected": null,
+      "title": "第122页 完整技能包：入口、方法与资源"
+    },
+    {
+      "page": 123,
+      "broken_images": [],
+      "selected": null,
+      "title": "第123页 Skills：接下来讲什么？"
+    },
+    {
+      "page": 124,
+      "broken_images": [],
+      "selected": null,
+      "title": "第124页 一次Skill调用：从采购条件到评审文件"
+    },
+    {
+      "page": 125,
+      "broken_images": [],
+      "selected": "memory",
+      "title": "第125页 当前输入：采购条件、用户任务与Skill目录"
+    },
+    {
+      "page": 126,
+      "broken_images": [],
+      "selected": "intro",
+      "title": "第126页 第一次读取：从目录进入SKILL.md"
+    },
+    {
+      "page": 127,
+      "broken_images": [],
+      "selected": "call_reference",
+      "title": "第127页 第二次读取：找到正式部署的评审方法"
+    },
+    {
+      "page": 128,
+      "broken_images": [],
+      "selected": "call_cost",
+      "title": "第128页 第三次读取：评审方法继续指向费用口径"
+    },
+    {
+      "page": 129,
+      "broken_images": [],
+      "selected": "call_security",
+      "title": "第129页 组织初稿：把项目事实放进评审结构"
+    },
+    {
+      "page": 130,
+      "broken_images": [],
+      "selected": "call_create",
+      "title": "第130页 生成文件：脚本读取初稿与模板"
+    },
+    {
+      "page": 131,
+      "broken_images": [],
+      "selected": "call_checklist",
+      "title": "第131页 生成之后：另读检查清单，再读回产物"
+    },
+    {
+      "page": 132,
+      "broken_images": [],
+      "selected": "call_validate",
+      "title": "第132页 运行检查：条件、初稿与产物是否一致？"
+    },
+    {
+      "page": 133,
+      "broken_images": [],
+      "selected": null,
+      "title": "第133页 一页采购评审要点：内容与当前任务一致"
+    },
+    {
+      "page": 134,
+      "broken_images": [],
+      "selected": "answer",
+      "title": "第134页 交付：说明文件内容与待确认事项"
+    },
+    {
+      "page": 135,
+      "broken_images": [],
+      "selected": null,
+      "title": "第135页 渐进式披露：沿任务逐层读取，用到时再展开"
+    },
+    {
+      "page": 136,
+      "broken_images": [],
+      "selected": null,
+      "title": "第136页 Skills：接下来讲什么？"
+    },
+    {
+      "page": 137,
+      "broken_images": [],
+      "selected": null,
+      "title": "第137页 三、自己的Skills：从已有工作到持续维护"
+    },
+    {
+      "page": 138,
+      "broken_images": [],
+      "selected": null,
+      "title": "第138页 让Codex或Claude Code整理Skill初稿"
+    },
+    {
+      "page": 139,
+      "broken_images": [],
+      "selected": null,
+      "title": "第139页 让文件结构服务于自己的任务"
+    },
+    {
+      "page": 140,
+      "broken_images": [],
+      "selected": null,
+      "title": "第140页 高Star的Skill，适合你的任务吗？"
+    },
+    {
+      "page": 141,
+      "broken_images": [],
+      "selected": null,
+      "title": "第141页 评估：选对了吗，读对了吗，结果对了吗？"
+    },
+    {
+      "page": 142,
+      "broken_images": [],
+      "selected": null,
+      "title": "第142页 Skill迁移：方法相同，运行条件可能不同"
+    },
+    {
+      "page": 143,
+      "broken_images": [],
+      "selected": null,
+      "title": "第143页 公共Skill：也会把外部指令与程序带进来"
+    },
+    {
+      "page": 144,
+      "broken_images": [],
+      "selected": null,
+      "title": "第144页 维护：场景、模型、Harness变了，就要复查"
+    },
+    {
+      "page": 145,
+      "broken_images": [],
+      "selected": null,
+      "title": "第145页 自己的Skills小结：用结果决定保留什么"
+    },
+    {
+      "page": 146,
+      "broken_images": [],
+      "selected": null,
+      "title": "第146页 Skills小结：组织方法、调用方法、检验方法"
+    },
+    {
+      "page": 147,
+      "broken_images": [],
+      "selected": null,
+      "title": "第147页 本讲内容"
+    },
+    {
+      "page": 148,
+      "broken_images": [],
+      "selected": null,
+      "title": "第148页 Protocols：约定怎样交互"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "broken": [],
+  "buttons": [
+    {
+      "attrs": [
+        [
+          "data-sr9-item",
+          "call_reference"
+        ]
+      ],
+      "label": null,
+      "text": "模型：读取教学参考\n模型生成"
+    },
+    {
+      "attrs": [
+        [
+          "data-sr9-item",
+          "result_reference"
+        ]
+      ],
+      "label": null,
+      "text": "工具：返回教学参考\n工具返回"
+    },
+    {
+      "attrs": [
+        [
+          "data-sr9-reset",
+          ""
+        ]
+      ],
+      "label": null,
+      "text": "重置"
+    },
+    {
+      "attrs": [
+        [
+          "data-sr9-mode",
+          "text"
+        ]
+      ],
+      "label": null,
+      "text": "关键内容"
+    },
+    {
+      "attrs": [
+        [
+          "data-sr9-mode",
+          "full"
+        ]
+      ],
+      "label": null,
+      "text": "完整内容"
+    },
+    {
+      "attrs": [
+        [
+          "data-sr9-mode",
+          "raw"
+        ]
+      ],
+      "label": null,
+      "text": "消息结构"
+    },
+    {
+      "attrs": [
+        [
+          "data-sr9-mode",
+          "all"
+        ]
+      ],
+      "label": null,
+      "text": "截至此处的内容"
+    }
+  ],
+  "links": [],
+  "page": "115",
+  "text": "第二次展开：按教程分支读取参考\n按照SKILL.md给出的路径，继续读取本次需要的教程参考。\n当前环节\n模型：读取教学参考\n模型生成\n工具：返回教学参考\n工具返回\n第二次展开：正文 → 参考\n重置\n关键内容\n完整内容\n消息结构\n截至此处的内容\n工具：返回教学参考\n教程内容的组织要求\n\n• 写明对象、前置知识和学习目标。\n• 先给大纲，再按小步解释与代码展开。\n• 将代码与结果解释配对。\n• 在Notebook内安排练习、答案骨架和常见错误。\n\n教程参考补充内容组织要求；按本次“先保留模板”的目标创建骨架。\n\n教程任务读取tutorial-patterns.md；实验分支的参考文件仍留在磁盘上。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "第二次展开：按教程分支读取参考"
+}

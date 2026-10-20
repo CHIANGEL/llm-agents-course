@@ -1,0 +1,19 @@
+{
+  "checked_on": "2026-10-18",
+  "source": "https://aws.amazon.com/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/",
+  "title": "Move your AI agents from proof of concept to production with Amazon Bedrock AgentCore",
+  "published": "2025-09-19",
+  "sections": [
+    "Add persistent memory for hyper-personalized agents",
+    "Create the memory resources",
+    "Integrate with Strands Agents hooks",
+    "Test the memory in action"
+  ],
+  "support": {
+    "保存": "USER_PREFERENCE和SEMANTIC分别提取客户偏好及事实；会话响应后保存交互。",
+    "取回": "以actor_id和当前query检索有关记忆，拼接Customer Context与新问题。",
+    "具体偏好": "竞技射击游戏中重视低延迟。"
+  },
+  "short_quote": "prefers low latency for competitive FPS games",
+  "archive_notes": "原文是开发参考方案及测试代码注释。课件讲解该方案结构，未将其表述为具名零售企业已上线的经营业绩。"
+}

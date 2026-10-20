@@ -1,0 +1,26 @@
+{
+  "source": "第03讲-Agent Externalization与Internalization.pdf",
+  "rendered_page_width": 1672,
+  "crops": [
+    {
+      "asset": "assets/skills-r9/creation-cycle.png",
+      "physical_page": 108,
+      "pixel_box": [
+        25,
+        380,
+        1650,
+        835
+      ]
+    },
+    {
+      "asset": "assets/skills-r9/file-structure.png",
+      "physical_page": 111,
+      "pixel_box": [
+        55,
+        360,
+        1630,
+        905
+      ]
+    }
+  ]
+}

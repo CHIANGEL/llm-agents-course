@@ -1,0 +1,33 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/index.html#p=69&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/index.html#p=69&s=1
+	2 container
+		3 container Description: 第69页 天气查询小结：两次生成，一次工具执行, ID: mount
+			4 container 第69页 天气查询小结：两次生成，一次工具执行
+				5 heading 天气查询小结：两次生成，一次工具执行, Value: 1
+					6 text 天气查询小结：两次生成，一次工具执行
+				7 container 课件内容
+					8 container
+						9 text 工具调用没有改变文本生成机制，它在两次生成之间接入外部执行。 第一次：生成调用 中间：工具执行 第二次：生成回答 问题＋工具说明
+						10 text ↓
+						11 text 工具名＋地点 解析调用 → 执行读取
+						12 text ↓
+						13 text 天气结果 原输入＋调用＋结果
+						14 text ↓
+						15 text 中文回答 模型生成文本；工具执行动作；应用把两者连接起来。
+				16 container 课程进度
+					17 button 导入
+					18 button 1. LLM基础
+					19 button 2. Prompting
+					20 button 3. Agents · Externalization & Internalization
+						21 text 3. Agents 
+						22 text · Externalization & Internalization
+					23 button 3.0 外化与内化总览
+					24 button 3.1 工具调用
+					25 button 3.2 Memory
+					26 button 3.3 Skills
+					27 button 3.4 Harness
+					28 button 3.5 外化与内化整合
+					29 button 3.6 全讲总结
+		30 text 第69页，天气查询小结：两次生成，一次工具执行，整页显示
+
+The focused UI element is 3 container Description: 第69页 天气查询小结：两次生成，一次工具执行, ID: mount

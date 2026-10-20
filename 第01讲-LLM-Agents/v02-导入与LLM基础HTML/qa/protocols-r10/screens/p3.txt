@@ -1,0 +1,75 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-qa3#p=3&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-qa3#p=3&s=1
+	2 container
+		53 container Description: 第3页 本讲内容, ID: mount
+			54 container 第3页 本讲内容
+				55 heading 本讲内容, Value: 1
+					56 text 本讲内容
+				57 container 课件内容
+					58 text 已结束：导入 →
+					59 text 接下来：LLM基础 · 连续生成
+					60 container
+						61 heading 1. LLM基础, Value: 2
+							62 text 1. LLM基础
+						63 text 连续生成与多轮聊天
+						64 content list
+							65 button → 1.1 连续生成 接下来
+								66 text →
+								67 text 1.1 连续生成
+								68 text 接下来
+							69 button 1.2 多轮聊天
+							70 button 1.3 LLM小结
+					71 container
+						72 heading 2. Prompting, Value: 2
+							73 text 2. Prompting
+						74 text 交代任务，再选择方法
+						75 content list
+							76 button 2.1 三个核心
+							77 button 2.2 问清问题
+							78 button 2.3 学习
+							79 button 2.4 解决问题
+							80 button 2.5 决策
+							81 button 2.6 Prompting小结
+					82 container
+						83 heading 3. Agents, Value: 2
+							84 text 3. Agents
+						85 text Externalization & Internalization
+						86 content list
+							87 button 3.0 外化与内化总览
+							88 button 3.1 工具调用
+							89 button 3.2 Memory
+							90 button 3.3 Skills
+							91 button 3.4 Protocols
+							92 button 3.5 Harness
+							93 button 3.6 外化与内化整合
+							94 button 3.7 全讲总结
+					95 container
+						96 text ✓ 已结束 → 接下来 其余内容随后展开
+				97 container 课程进度
+					98 button 导入
+					99 button 1. LLM基础
+					100 button 2. Prompting
+					101 button 3. Agents · Externalization & Internalization
+						102 text 3. Agents 
+						103 text · Externalization & Internalization
+					104 button 1.1 连续生成
+					105 button 1.2 多轮聊天
+					106 button 1.3 LLM小结
+		38 container Description: 课件操作, ID: controls
+			39 button Description: 上一步, Help: 上一步（←）
+			40 button Description: 下一步, Help: 下一步（→或空格）
+			41 container jump-form
+				42 text 页码
+				43 stepper (settable, integer) Description: 页码, Value: 3, ID: page-input
+				44 text / 177
+			107 text 整页显示
+			46 button 目录
+			47 button 讲者备注
+			48 button 完整材料
+			49 button 放大图解
+			50 button 全屏
+			51 button 隐藏, Help: 按H恢复
+			52 button 操作说明
+		108 text 第3页，本讲内容，整页显示
+
+The focused UI element is 53 container Description: 第3页 本讲内容, ID: mount

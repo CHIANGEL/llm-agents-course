@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-20",
+  "weather": {
+    "archive": "../agent-tools/tool_call_text",
+    "template": "Qwen2.5 fixed tokenizer_config.json",
+    "model_call_and_answer": "Original authored examples, no new model inference",
+    "execution": "Original recorded local JSON parsing, dispatch, weather_fixture.json read and history append",
+    "temperature": "72°F / Partly cloudy, fixed original record; not a current weather observation"
+  },
+  "layout_reference": {
+    "thread": "01a0a932-0d41-7863-be63-0bff60ff953a",
+    "source": "专题-Agent-Memory/v09-记忆读取课堂版/src/slim-widgets.js",
+    "reuse": "Left structured messages, right selected text; implemented in current deck, no source-course writes"
+  },
+  "computer_use": {
+    "official_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
+    "checked": "2026-10-20",
+    "claims": [
+      "Screenshot supplies desktop state",
+      "Application executes mouse/keyboard actions",
+      "Tool results return before subsequent model decisions"
+    ]
+  },
+  "no_new_execution_claims": true
+}

@@ -1,0 +1,3 @@
+<|im_start|>user
+纽约现在天气怎么样？<|im_end|>
+<|im_start|>assistant

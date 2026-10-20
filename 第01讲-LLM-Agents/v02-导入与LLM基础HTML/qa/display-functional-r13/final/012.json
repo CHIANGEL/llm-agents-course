@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 12,
+  "text": "第一轮：把角色和消息拼成输入\n先放入应用要求和用户问题，最后加上等待续写的 assistant 头。\n聊天窗口\n完整输入文本 · SmolLM2模板\n用户\n3人，每人20元？\n<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n▌接下来生成：60元。\nsystem：应用提供的要求\nuser：用户的消息\nassistant：助手的消息\n<|im_start|> 开始一条消息；<|im_end|> 结束一条消息。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n1.1 连续生成\n1.2 多轮聊天\n1.3 LLM小结",
+  "title": "第12页 第一轮：把角色和消息拼成输入"
+}

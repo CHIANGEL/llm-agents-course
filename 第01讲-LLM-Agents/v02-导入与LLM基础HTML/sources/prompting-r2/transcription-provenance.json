@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-19",
+  "primary": "../library/PROMPT_PDF/original.pdf",
+  "author": "数字生命卡兹克",
+  "article_url": "https://mp.weixin.qq.com/s/NAdhdFrUq9-BKelqzqpwBQ",
+  "method": "PDF pages 1–10 read visually and text extracted; original prompts and order retained; PDF clipping completion cross-checked against a public transcription. No repository instructions executed.",
+  "crosscheck_url": "https://github.com/zdrjson/thinking-prompts-skill/blob/main/README.md",
+  "corrections": [
+    {
+      "prompt": "苏格拉底式提问",
+      "pdf_page": 2,
+      "line": 2,
+      "pdf_visible": "先不要给建议。请对我进行一次苏格拉底式问诊，通过最多6个问题，帮我找到真正值得回答的问题",
+      "transcribed": "先不要给建议。请对我进行一次苏格拉底式问诊，通过最多6个问题，帮我找到真正值得回答的问题。"
+    },
+    {
+      "prompt": "苏格拉底式提问",
+      "pdf_page": 2,
+      "line": 7,
+      "pdf_visible": "3. 检查关键词是否含糊、我默认了哪些前提、证据来自哪里、有没有相反解释，以及结论成立或不",
+      "transcribed": "3. 检查关键词是否含糊、我默认了哪些前提、证据来自哪里、有没有相反解释，以及结论成立或不成立分别意味着什么；"
+    },
+    {
+      "prompt": "横纵分析法",
+      "pdf_page": 6,
+      "line": 26,
+      "pdf_visible": "最后按以下顺序输出：核心结论、关键时间线、横向对比表、详细分析、未来判断、仍待确认的问题",
+      "transcribed": "最后按以下顺序输出：核心结论、关键时间线、横向对比表、详细分析、未来判断、仍待确认的问题。"
+    },
+    {
+      "prompt": "专家会诊",
+      "pdf_page": 8,
+      "line": 23,
+      "pdf_visible": "不要选择三个高度相似的身份，也不要模仿或编造真实人物的观点。信息不足时，先只问我一个最关",
+      "transcribed": "不要选择三个高度相似的身份，也不要模仿或编造真实人物的观点。信息不足时，先只问我一个最关键的问题。"
+    },
+    {
+      "prompt": "跨领域借解",
+      "pdf_page": 9,
+      "line": 17,
+      "pdf_visible": "最后请选出最值得借用的3种机制，把它们翻译成适合我当前处境的解决方案，再推荐一个最值得先",
+      "transcribed": "最后请选出最值得借用的3种机制，把它们翻译成适合我当前处境的解决方案，再推荐一个最值得先试的低成本、可逆实验。"
+    },
+    {
+      "prompt": "双向钢人论证",
+      "pdf_page": 10,
+      "line": 6,
+      "pdf_visible": "2. 分别给出支持两个方向的最强理由、适用条件、最大收益、最大风险，以及最难回答的反对意见",
+      "transcribed": "2. 分别给出支持两个方向的最强理由、适用条件、最大收益、最大风险，以及最难回答的反对意见；"
+    }
+  ],
+  "excluded": "第五部分认识你自己；公开转录中额外出现的10000–30000字要求没有迁入，PDF不可见。",
+  "raw_exercise_terms": "原提示词内的小练习与理解检查文字按用户最新要求保留；不转为本课程练习、测验或作业。"
+}

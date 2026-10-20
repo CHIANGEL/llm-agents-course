@@ -1,0 +1,42 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=103&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=103&s=1
+	2 container
+		98 container Description: 第103页 从Memory到Skills：从信息到方法, ID: mount
+			99 container 第103页 从Memory到Skills：从信息到方法
+				100 heading 从Memory到Skills：从信息到方法, Value: 1
+					101 text 从Memory到Skills：从信息到方法
+				102 container 课件内容
+					103 container
+						104 text Memory留下跨时间的信息；已经验证的一套做法，可以进一步整理成Skills。 采购案例：预算适用范围是记忆；反复可用的采购评审步骤，可以整理成技能。 两者都能放在外部文件中，并按需读取；下一节看怎样组织一套可复用的做法。
+				105 container 课程进度
+					106 button 导入
+					107 button 1. LLM基础
+					108 button 2. Prompting
+					109 button 3. Agents · Externalization & Internalization
+						110 text 3. Agents 
+						111 text · Externalization & Internalization
+					112 button 3.0 外化与内化总览
+					113 button 3.1 工具调用
+					114 button 3.2 Memory
+					115 button 3.3 Skills
+					116 button 3.4 Harness
+					117 button 3.5 外化与内化整合
+					118 button 3.6 全讲总结
+		83 container Description: 课件操作, ID: controls
+			84 button Description: 上一步, Help: 上一步（←）
+			85 button Description: 下一步, Help: 下一步（→或空格）
+			86 container jump-form
+				87 text 页码
+				88 stepper (settable, integer) Description: 页码, Value: 103, ID: page-input
+				89 text / 161
+			119 text 整页显示
+			91 button 目录
+			92 button 讲者备注
+			93 button 完整材料
+			94 button 放大图解
+			95 button 全屏
+			96 button 隐藏, Help: 按H恢复
+			97 button 操作说明
+		120 text 第103页，从Memory到Skills：从信息到方法，整页显示
+
+The focused UI element is 98 container Description: 第103页 从Memory到Skills：从信息到方法, ID: mount

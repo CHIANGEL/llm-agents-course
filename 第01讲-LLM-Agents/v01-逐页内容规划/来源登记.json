@@ -1,0 +1,86 @@
+{
+  "L1": {
+    "title": "原课程第1讲 v09",
+    "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v09-章节导引与机制扩充/slide_manifest.json",
+    "kind": "原课逐页清单与已制作图片",
+    "use": "通知、工具分工、访谈、下一Token、上下文；保留教学示意性质。"
+  },
+  "L2": {
+    "title": "原课程第2讲 v09",
+    "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v09-论文原图与实验表/slide_manifest.json",
+    "kind": "原课逐页清单与已制作图片",
+    "use": "任务说明、四件套、样本、澄清与反馈。青禾食品材料为课堂构造。"
+  },
+  "L3": {
+    "title": "原课程第3讲 v16",
+    "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slide_manifest.json",
+    "kind": "原课逐页清单与已制作图片",
+    "use": "工具、Computer Use、Memory、Skills、Harness及外化/内化。各局部材料按原性质标注。"
+  },
+  "TEACHER": {
+    "title": "教师Prompting五项心得",
+    "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/参考资料/教师心得补充原文.md",
+    "kind": "已复制的教师原文",
+    "use": "四件套、不过度规定步骤、模型改Prompt、重试、eval。"
+  },
+  "PROMPT_PDF": {
+    "title": "Prompting技巧 PDF",
+    "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/参考资料/Prompting技巧.pdf",
+    "kind": "教师提供的15页PDF",
+    "use": "正文取澄清、核查、双向钢人、最小验证。作者为数字生命卡兹克；使用可见内容作教学改写，不补写被裁切原文。"
+  },
+  "PLAN": {
+    "title": "本课已确认要求与课程规划",
+    "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/第一讲课程规划.md",
+    "kind": "课程规划文件",
+    "use": "MBA受众、180分钟、无练习、案例与配图安排；排课细分以本版逐页稿为准。"
+  },
+  "RECAP": {
+    "title": "第3讲讲至Memory的精简HTML回顾",
+    "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/复习回顾-讲至Memory/v01-精简HTML/index.html",
+    "kind": "原课程6页、17状态HTML",
+    "use": "分步呈现、完整材料与来源展开；原最后一页检查题不迁入。"
+  },
+  "MEM": {
+    "title": "Memory专题 v09",
+    "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-Agent-Memory/v09-记忆读取课堂版/index.html",
+    "kind": "原课HTML与完整保存材料",
+    "use": "外部文件、读取、本次输入、旧信息适用性；不把磁盘修改当作参数更新。"
+  },
+  "SKILL": {
+    "title": "Skills专题 v01",
+    "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-Agent-Skills/v01-渐进式披露演示/index.html",
+    "kind": "真实Skill包及局部程序执行材料",
+    "use": "12文件包、按需读取、生成Notebook骨架。代码单元未执行；不借用其他版本的完整教程产物。"
+  },
+  "MCP": {
+    "title": "MCP专题 v01",
+    "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-MCP/v01-连接与调用演示/index.html",
+    "kind": "固定版本的连接与读取案例",
+    "use": "只讲运行位置与职责，原协议报文和配置留在来源材料。固定Codex提交21c16161191ff965031d1ac41fe9046011610743，原例使用2025-06-18 legacy stdio路径。"
+  },
+  "CASE_FIN": {
+    "title": "Intercom Fin与Linear集成",
+    "path": "https://claude.com/resources/articles/integrations",
+    "kind": "官方产品能力介绍",
+    "use": "可在用户报告问题时创建Linear问题记录。没有本课可回放的真实客户对话或完整工单日志；不等同问题已修复。"
+  },
+  "CASE_AWS": {
+    "title": "AWS AgentCore客服参考方案",
+    "path": "https://aws.amazon.com/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/",
+    "kind": "官方参考方案，非具名零售企业上线成绩",
+    "use": "保存偏好和事实、按用户检索并加入后续请求；采用方案结构，不虚构经营收益。"
+  },
+  "CASE_BOX": {
+    "title": "Box使用Skills生成文档",
+    "path": "https://claude.com/customers/box",
+    "kind": "厂商发布的企业应用案例",
+    "use": "从报告和更新生成格式化财务摘要草稿，后续可输出表格。企业内部Skill文件未公开，不能以原课包冒充。"
+  },
+  "CASE_REMARKABLE": {
+    "title": "reMarkable的Agent Mark与人工交接",
+    "path": "https://www.salesforce.com/customer-stories/remarkable/",
+    "kind": "厂商发布的企业客户案例",
+    "use": "超出范围或客户要求人工时转交聊天历史、相关文章、已尝试办法；Harness职责是课程分析，不是对其完整内部架构的披露。"
+  }
+}

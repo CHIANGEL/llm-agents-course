@@ -1,0 +1,27 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/index.html#p=63&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/index.html#p=63&s=1
+	2 container
+		3 container Description: 第63页 工具调用：大模型与外界交互的主要途径, ID: mount
+			4 container 第63页 工具调用：大模型与外界交互的主要途径
+				5 heading 工具调用：大模型与外界交互的主要途径, Value: 1
+					6 text 工具调用：大模型与外界交互的主要途径
+				7 container 课件内容
+					8 container
+						9 text 工具调用是大模型与外界发生交互的 主要途径 。 大模型 应用程序 外部数据与系统 生成调用请求 执行相应工具 返回结果 → 加入输入 → 继续生成 ① 为什么需要交互 取得信息，也能产生影响 ② 一次调用怎样发生 用天气查询看完整往返 ③ 复杂应用怎样组成 Computer Use、文件与记忆
+				10 container 课程进度
+					11 button 导入
+					12 button 1. LLM基础
+					13 button 2. Prompting
+					14 button 3. Agents · Externalization & Internalization
+						15 text 3. Agents 
+						16 text · Externalization & Internalization
+					17 button 3.0 外化与内化总览
+					18 button 3.1 工具调用
+					19 button 3.2 Memory
+					20 button 3.3 Skills
+					21 button 3.4 Harness
+					22 button 3.5 外化与内化整合
+					23 button 3.6 全讲总结
+		24 text 第63页，工具调用：大模型与外界交互的主要途径，整页显示
+
+The focused UI element is 3 container Description: 第63页 工具调用：大模型与外界交互的主要途径, ID: mount

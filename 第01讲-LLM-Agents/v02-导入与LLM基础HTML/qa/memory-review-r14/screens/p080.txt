@@ -1,0 +1,58 @@
+- main:
+  - article "第80页 记忆库：许多条目，或一张关系图":
+    - heading "记忆库：许多条目，或一张关系图" [level=1]
+    - region "课件内容":
+      - generic: 同一组材料：条目逐条保存事实；图谱沿着共同对象，把不同来源连起来。
+      - generic: 文档A · 试点预算：20人、3个月、10万元
+      - generic: 文档B · 安全要求：团队权限、企业账户
+      - generic: 条目库
+      - generic: 记忆图谱
+      - text: 试点人数：20人；期限：3个月。
+      - generic: 来源：文档A · 试点预算
+      - text: 试点预算上限：10万元。
+      - generic: 来源：文档A · 试点预算
+      - text: 资料按团队授权；企业账户统一管理。
+      - generic: 来源：文档B · 安全要求
+      - text: 知识库：试点预算10万元；资料按团队授权。
+      - generic: 一个条目也可以汇总两个来源：A＋B
+      - img "知识库连接试点预算与安全要求两个文档中的信息":
+        - generic: 开展 · A
+        - generic: 预算 · A
+        - generic: 期限 · A
+        - generic: 授权 · B
+        - generic: 账户 · B
+        - generic: 企业知识库
+        - generic: 20人试点
+        - generic: 10万元
+        - generic: 3个月
+        - generic: 按团队设置权限
+        - generic: 统一开通与停用
+      - generic: 同一个对象，把文档A与文档B的关系接起来。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "3.0 外化与内化总览"
+      - button "3.1 工具调用"
+      - button "3.2 Memory"
+      - button "3.3 Skills"
+      - button "3.4 Protocols"
+      - button "3.5 Harness"
+      - button "3.6 外化与内化整合"
+      - button "3.7 全讲总结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步": →
+  - generic: 页码
+  - spinbutton "页码": "80"
+  - generic: / 193
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第80页，记忆库：许多条目，或一张关系图，整页显示

@@ -1,0 +1,70 @@
+{
+  "pages": 203,
+  "states": 203,
+  "duration_seconds": 17545,
+  "tokenization_count": 16,
+  "tokenization_reconstructs_input": true,
+  "missing_entry_assets": [],
+  "changed_teaching_records": [
+    {
+      "author": 23001,
+      "page": 5,
+      "fields": [
+        "title",
+        "on_slide",
+        "talk",
+        "seconds"
+      ]
+    },
+    {
+      "author": 5,
+      "page": 6,
+      "fields": [
+        "on_slide"
+      ]
+    },
+    {
+      "author": 7,
+      "page": 9,
+      "fields": [
+        "talk"
+      ]
+    },
+    {
+      "author": 10,
+      "page": 13,
+      "fields": [
+        "on_slide",
+        "talk"
+      ]
+    },
+    {
+      "author": 17001,
+      "page": 54,
+      "fields": [
+        "on_slide",
+        "talk"
+      ]
+    },
+    {
+      "author": 23002,
+      "page": 64,
+      "fields": [
+        "on_slide",
+        "talk"
+      ]
+    }
+  ],
+  "generation_trace_sha256": "f31da8d30599e4efe38ac7c7376e794adba1d8eb09a30ba5ef68da61aa312390",
+  "reader_return_links": {
+    "sources/llm-foundations/decoding/reader.html": [
+      "index.html#p=8&s=1"
+    ],
+    "sources/tool-calling-r7/weather-text.html": [
+      "index.html#p=83&s=1"
+    ],
+    "sources/memory-r8/procurement-case/完整材料.html": [
+      "index.html#p=114&s=1"
+    ]
+  }
+}

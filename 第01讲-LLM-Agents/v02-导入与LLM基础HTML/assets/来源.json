@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-19",
+  "scope": "MBA第一讲当前129页HTML课件；历史素材保留来源，当前Prompting替换记录随附",
+  "assets": [
+    {
+      "file": "header.png",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/复习回顾-讲至Memory/v01-精简HTML/assets/header.png",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/header.png",
+      "size_px": [
+        1920,
+        116
+      ],
+      "sha256": "e38201aaf408eb47acfb7601aaf51af0900aab09a51d765a11cedcebe69e540c",
+      "operation": "原样复制；本次未裁切、重绘、改色或去背景",
+      "visual_inspection": "已通过view_image逐份查看",
+      "note": "安泰建筑页眉；原样复制，保留整条细线与建筑轮廓。"
+    },
+    {
+      "file": "model.png",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/素材库/原图裁切/model-person-L03-p028.png",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/model.png",
+      "size_px": [
+        129,
+        150
+      ],
+      "sha256": "f90e69330cbbf00a56129dbd9847812bc408a22122b943dfe826b8c17e21f045",
+      "operation": "原样复制；本次未裁切、重绘、改色或去背景",
+      "visual_inspection": "已通过view_image逐份查看",
+      "note": "原课模型人物独立裁片；使用时配模型文字标签。"
+    },
+    {
+      "file": "user.png",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/素材库/原图裁切/第03讲-可编辑重建/62f420558143d50a-pdf_140_user_icon.png",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/user.png",
+      "size_px": [
+        75,
+        92
+      ],
+      "sha256": "62f420558143d50ac0f8de59e1625aebfc5151dd4901d077c02f93d15887419f",
+      "operation": "原样复制；本次未裁切、重绘、改色或去背景",
+      "visual_inspection": "已通过view_image逐份查看",
+      "note": "原课蓝色用户剪影独立裁片；尺寸较小，避免过度放大。"
+    },
+    {
+      "file": "app.png",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/素材库/原图裁切/application-window-L03-p028.png",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/app.png",
+      "size_px": [
+        165,
+        138
+      ],
+      "sha256": "7ce3b3f275198efbc3683ec6797ca090d003538379f84aa4f614571051886fa6",
+      "operation": "原样复制；本次未裁切、重绘、改色或去背景",
+      "visual_inspection": "已通过view_image逐份查看",
+      "note": "原课应用窗口独立裁片。"
+    },
+    {
+      "file": "doc.png",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/素材库/原图裁切/document-L03-p028.png",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/doc.png",
+      "size_px": [
+        128,
+        140
+      ],
+      "sha256": "678cf20765bc20c7d54a2800ee37f16be687176bc8b6aca73aed3a381cceabfd",
+      "operation": "原样复制；本次未裁切、重绘、改色或去背景",
+      "visual_inspection": "已通过view_image逐份查看",
+      "note": "原课文档独立裁片。"
+    },
+    {
+      "file": "python.png",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/素材库/原图裁切/第03讲-可编辑重建/pdf_036_python_icon.png",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/python.png",
+      "size_px": [
+        212,
+        213
+      ],
+      "sha256": "d01934a6576c53660bb1294f7062b65e5f237c17244a54c703c3c9941cddffe3",
+      "operation": "原样复制；本次未裁切、重绘、改色或去背景",
+      "visual_inspection": "已通过view_image逐份查看",
+      "note": "原课Python执行程序窗口独立裁片；适用于代码执行对象。"
+    },
+    {
+      "file": "tool.png",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/素材库/原图裁切/第03讲-可编辑重建/pdf_057_robot_tool_icon.png",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/tool.png",
+      "size_px": [
+        345,
+        202
+      ],
+      "sha256": "04186edf7df69dc182f54c8962db712f63864b8bd96ac2f65534f43fdc378f01",
+      "operation": "原样复制；本次未裁切、重绘、改色或去背景",
+      "visual_inspection": "已通过view_image逐份查看",
+      "note": "原课机器人与工具组合裁片；若只表示实际工具执行，优先用python.png或app.png。"
+    },
+    {
+      "file": "llm.png",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/素材库/原图裁切/第03讲-可编辑重建/acc308d93b3149c6-pdf_147_b_model_icon.png",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/llm.png",
+      "sha256": "acc308d93b3149c64fc20606b095bd9f0720f5592456a0909c305d532608c60f",
+      "operation": "原样复制",
+      "note": "原课蓝色机器人模型独立裁片；用于第004页。",
+      "size_px": [
+        187,
+        218
+      ],
+      "visual_inspection": "已查看原图与实际渲染"
+    },
+    {
+      "file": "msyh.ttc",
+      "source_path": "/Applications/Microsoft PowerPoint.app/Contents/Resources/DFonts/msyh.ttc",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/msyh.ttc",
+      "sha256": "3084f1f88369af6bf9989c909024164d953d1e38d08734f05f28ef24b2f9d577",
+      "operation": "原样复制",
+      "note": "微软雅黑常规；本地离线课件字体，随原有Office安装提供。",
+      "browser_check": "Chrome已成功加载本地字体"
+    },
+    {
+      "file": "msyhbd.ttc",
+      "source_path": "/Applications/Microsoft PowerPoint.app/Contents/Resources/DFonts/msyhbd.ttc",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/msyhbd.ttc",
+      "sha256": "519309b7ab0479c4dc3ace5e291de5a8702175be5586e165bc810267bd4619a5",
+      "operation": "原样复制",
+      "note": "微软雅黑粗体；本地离线课件字体，随原有Office安装提供。",
+      "browser_check": "Chrome已成功加载本地字体"
+    },
+    {
+      "file": "agents-memory/music.png",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/agents-memory/music.png",
+      "sha256": "54449a1461a5111b1bfb2b53d735a39f74e6daa444147f2e0690d2ce5db7df18",
+      "note": "原课程Memory午休音频案例配图；复制原图，以CSS窗口显示相关区域。",
+      "visual_inspection": "已查看原图与实际渲染"
+    },
+    {
+      "file": "prompting-reference.png",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/qa/llm-foundations-r2/chat-template-revised.png",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/prompting-reference.png",
+      "size_px": [
+        1600,
+        900
+      ],
+      "sha256": "fd954cd494e2bbbae3f347b61b857535054f0a5837aaa6c96301e68737ab35c3",
+      "usage": "已确认的本课聊天模板页，用于Example和反向拆解"
+    },
+    {
+      "file": "agents-integration/prompting-example.png",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/qa/prompting-r2/screens/34.png",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/agents-integration/prompting-example.png",
+      "size_px": [
+        1600,
+        900
+      ],
+      "sha256": "a8a1272a437d2257d617460bcae07ba1323ffbd7a90de1429e5769efd21eff6c",
+      "usage": "当前第34页第一性原理，整合章节引用当前产物"
+    },
+    {
+      "file": "agents-integration/prompting-r2-example.png",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/qa/prompting-r2/screens/34.png",
+      "sha256": "4f6c0e8e1cee77a866c8cffac0049917fd9d8ed63bc3f66cb2f0660cafec9c70",
+      "usage": "第123页引用当前第34页，独立文件名避免旧图缓存"
+    },
+    {
+      "file": "agents-integration/prompting-r2-final-example.png",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/qa/prompting-r2/screens/34.png",
+      "sha256": "a8a1272a437d2257d617460bcae07ba1323ffbd7a90de1429e5769efd21eff6c",
+      "usage": "第123页引用当前第34页；1600×900画布复查后截图"
+    },
+    {
+      "file": "prompting-reference.jpg",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/qa/llm-foundations-r2/chat-template-revised.png",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/prompting-reference.jpg",
+      "size_px": [
+        1600,
+        900
+      ],
+      "sha256": "fd954cd494e2bbbae3f347b61b857535054f0a5837aaa6c96301e68737ab35c3",
+      "usage": "已确认的本课聊天模板页，用于Example和反向拆解"
+    },
+    {
+      "file": "agents-integration/prompting-r2-final-example.jpg",
+      "source_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/qa/prompting-r2/screens/34.png",
+      "sha256": "a8a1272a437d2257d617460bcae07ba1323ffbd7a90de1429e5769efd21eff6c",
+      "usage": "第123页引用当前第34页；1600×900画布复查后截图",
+      "destination_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/assets/agents-integration/prompting-r2-final-example.jpg"
+    }
+  ],
+  "not_found": [
+    {
+      "requested": "原L1六人圆桌与两人圆桌独立配图",
+      "search_scope": [
+        "原课程2026年秋学期素材库与索引",
+        "原第01讲目录中的assets/materials/crop及圆桌相关规划",
+        "已完成HTML资产目录"
+      ],
+      "result": "未找到现成独立素材；仅发现整页课件中的座位图，未裁切、重绘或复制整页作为配图。"
+    }
+  ]
+}

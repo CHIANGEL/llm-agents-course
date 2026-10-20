@@ -1,0 +1,11 @@
+{
+  "trajectoryLast": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 10 / 10 步\n当前任务与已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：The lecture scheduled for today has been cancelled.\n本步选中：结束标记 <|im_end|>\n下一个Token\n概率\n<|im_end|>\n77.67%\n换行\n16.95%\n␠↵\n1.27%\n␠The\n0.35%\n␠I\n0.31%\n其他候选合计\n3.45%\n0\n100%\n累计输出：The lecture scheduled for today has been cancelled.　本轮结束\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。",
+  "trajectoryPrevious": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 9 / 10 步\n当前任务与已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：The lecture scheduled for today has been cancelled\n本步选中：.\n下一个Token\n概率\n.\n52.42%\n,\n25.99%\n␠due\n10.73%\n␠and\n4.45%\n␠as\n1.27%\n其他候选合计\n5.15%\n0\n100%\n累计输出：The lecture scheduled for today has been cancelled.\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。",
+  "trajectoryReset": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 1 / 10 步\n当前任务与已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：尚未生成回复文字\n本步选中：The\n下一个Token\n概率\nThe\n26.92%\n\"\n13.66%\nWe\n9.34%\nToday\n5.08%\nI\n4.91%\n其他候选合计\n40.09%\n0\n100%\n累计输出：The\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。",
+  "memory": {
+    "first": "当前任务与摘要\n准备课件\n核对每页怎样组织\n入口：style.md\n读取 style.md\n模型提出读取\n工具打开文件",
+    "last": "当前任务与摘要\n准备课件\n核对每页怎样组织\n入口：style.md\n读取 style.md\n“每页只推进一个\n需要理解的问题，\n复杂内容允许拆页。”\n后续输入\n当前任务\n＋原有摘要\n＋详细要求\n把当前讲解内容与逐页要求一起放入输入，决定每页怎样组织。",
+    "restored": true
+  },
+  "step": "1"
+}

@@ -1,0 +1,44 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=129&s=1".
+0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=129&s=1
+	1 container
+		47 container Description: 第129页 自己的Skills小结：用结果决定保留什么, ID: mount
+			48 container 第129页 自己的Skills小结：用结果决定保留什么
+				49 heading 自己的Skills小结：用结果决定保留什么, Value: 1
+					50 text 自己的Skills小结：用结果决定保留什么
+				51 container 课件内容
+					52 container
+						53 text 自己的Skill是否值得保留，最终取决于它在自己任务中的作用。
+						54 image 从已有工作创建初稿，再用新任务持续改进
+						55 text 提炼：来自自己的有效做法 评估：比较实际结果 维护：随条件变化复查 适配自己的要求，检查外部内容与权限，保留经过验证的方法和版本。
+				56 container 课程进度
+					57 button 导入
+					58 button 1. LLM基础
+					59 button 2. Prompting
+					60 button 3. Agents · Externalization & Internalization
+						61 text 3. Agents 
+						62 text · Externalization & Internalization
+					63 button 3.0 外化与内化总览
+					64 button 3.1 工具调用
+					65 button 3.2 Memory
+					66 button 3.3 Skills
+					67 button 3.4 Harness
+					68 button 3.5 外化与内化整合
+					69 button 3.6 全讲总结
+		32 container Description: 课件操作, ID: controls
+			33 button Description: 上一步, Help: 上一步（←）
+			34 button Description: 下一步, Help: 下一步（→或空格）
+			35 container jump-form
+				36 text 页码
+				37 stepper (settable, integer) Description: 页码, Value: 129, ID: page-input
+				38 text / 161
+			70 text 整页显示
+			40 button 目录
+			41 button 讲者备注
+			42 button 完整材料
+			43 button 放大图解
+			44 button 全屏
+			45 button 隐藏, Help: 按H恢复
+			46 button 操作说明
+		71 text 第129页，自己的Skills小结：用结果决定保留什么，整页显示
+
+The focused UI element is 47 container Description: 第129页 自己的Skills小结：用结果决定保留什么, ID: mount

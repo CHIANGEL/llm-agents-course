@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=165&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=165&s=1
+	2 container 第165页 · 完整材料, ID: deck-dialog
+		3 container
+			4 heading 第165页 · 完整材料, Value: 2, ID: dialog-title
+				8 text 第165页 · 完整材料
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			9 heading 本页要点, Value: 3
+				10 text 本页要点
+			11 text 恢复前，确认哪些动作已经发生
+
+外部通知可能已经发出，只是在等待返回结果时中断。此时不能只凭没有收到响应就判断未执行；应查询发送状态或检查外部结果，再决定继续、重试或交给人处理。运行日志帮助定位问题，已保存状态支持恢复，检查结果帮助判断是否满足目标。若需要继续，具体问题再进入下一轮输入。
+			12 heading 相关材料, Value: 3
+				13 text 相关材料
+			14 text 外部通知可能已经发出，只是在等待返回结果时中断。此时不能只凭没有收到响应就判断未执行；应查询发送状态或检查外部结果，再决定继续、重试或交给人处理。运行日志帮助定位问题，已保存状态支持恢复，检查结果帮助判断是否满足目标。若需要继续，具体问题再进入下一轮输入。
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

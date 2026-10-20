@@ -1,0 +1,293 @@
+{
+  "replaces_authoring_page": 51,
+  "pages": [
+    {
+      "page": 51,
+      "authoring_page": 51,
+      "renderer": 5001,
+      "section": "智能体的外化与内化",
+      "navigation": "3.0",
+      "type": "overview",
+      "title": "智能体的外化与内化",
+      "seconds": 60,
+      "on_slide": [
+        "Externalization（外化）：把信息、方法和执行安排在模型之外。",
+        "Internalization（内化）：通过训练，让模型学会部分可复用的做法。",
+        "先看外部表示改变了什么，再看模型、输入与程序的分工，最后看经验怎样进入训练。"
+      ],
+      "talk": "外化和内化是本章的两条线。外化先改变模型工作时可用的信息与执行条件；内化改变模型参数。先用日常物件解释外化，再看Agent的各部分怎样配合。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "AGENT_OVERVIEW_R4",
+          "locator": "原PDF物理页16；第16–25页整体逻辑"
+        }
+      ]
+    },
+    {
+      "page": 5101,
+      "authoring_page": 5101,
+      "renderer": 5002,
+      "section": "智能体的外化与内化",
+      "navigation": "3.0",
+      "type": "content",
+      "title": "用“外化”理解Agent的各部分",
+      "seconds": 45,
+      "on_slide": [
+        "Memory、Skills、Protocols和Harness可以放在同一个问题下理解：哪些工作交给模型之外的系统？",
+        "Memory保存信息；Skills保存可复用做法；Protocols规定交互方式；Harness组织它们运行。"
+      ],
+      "talk": "从综述的题目切入：这些名称对应的是不同的外部支持。它们的共同点是重新安排任务的工作条件。先不展开技术名称，接下来用清单、地图和日历解释外部表示的作用。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "AGENT_OVERVIEW_R4",
+          "locator": "原PDF物理页17；第16–25页整体逻辑"
+        }
+      ]
+    },
+    {
+      "page": 5102,
+      "authoring_page": 5102,
+      "renderer": 5003,
+      "section": "智能体的外化与内化",
+      "navigation": "3.0",
+      "type": "content",
+      "title": "外部表示，会改变任务的做法",
+      "seconds": 45,
+      "on_slide": [
+        "认知工件：用来保存、展示或处理信息，帮助完成认知任务的外部物件。",
+        "清单把事项保存下来，地图把空间关系画出来，日历把事项放到时间上。",
+        "使用者可以读取和检查这些表示，再决定下一步。"
+      ],
+      "talk": "认知工件把原来需要在脑中记住、组织的信息，变成眼前可以查看和修改的对象。清单、地图和日历分别保存事项、空间关系和时间安排。接着分别看清单与地图改变了哪一个动作。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "AGENT_OVERVIEW_R4",
+          "locator": "原PDF物理页18；第16–25页整体逻辑"
+        }
+      ]
+    },
+    {
+      "page": 5103,
+      "authoring_page": 5103,
+      "renderer": 5004,
+      "section": "智能体的外化与内化",
+      "navigation": "3.0",
+      "type": "content",
+      "title": "写一张清单，改变了什么？",
+      "seconds": 50,
+      "on_slide": [
+        "没有清单：需要自己想起要做哪些事。",
+        "有了清单：查看已经记录的事项，判断哪一项还没有完成。",
+        "任务从“回忆事项”变成“读取记录、检查状态”。"
+      ],
+      "talk": "沿图从左到右讲：事情相同，完成任务的动作发生变化。清单保存事项，勾选保存完成状态。下一次查看时可以继续从未完成事项做起。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "AGENT_OVERVIEW_R4",
+          "locator": "原PDF物理页19；第16–25页整体逻辑"
+        }
+      ]
+    },
+    {
+      "page": 5104,
+      "authoring_page": 5104,
+      "renderer": 5005,
+      "section": "智能体的外化与内化",
+      "navigation": "3.0",
+      "type": "content",
+      "title": "地图把关系放到了眼前",
+      "seconds": 40,
+      "on_slide": [
+        "地图把位置和路线表示成可以查看的关系。",
+        "使用者从位置与连线判断怎样到达目的地。",
+        "外部表示改变了判断问题时可用的信息。"
+      ],
+      "talk": "指出图中的位置和连线。清单让事项与状态可见，地图让空间与路线关系可见。两者都让使用者依据外部表示完成判断。随后把同一思路用于Agent。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "AGENT_OVERVIEW_R4",
+          "locator": "原PDF物理页20；第16–25页整体逻辑"
+        }
+      ]
+    },
+    {
+      "page": 5105,
+      "authoring_page": 5105,
+      "renderer": 5006,
+      "section": "智能体的外化与内化",
+      "navigation": "3.0",
+      "type": "content",
+      "title": "大模型智能体的发展史",
+      "seconds": 85,
+      "on_slide": [
+        "权重（2022–2023）：能力几乎等同于模型参数，扩展定律主导叙事。奠定了基础，但知识难以选择性更新，行为难以审计。",
+        "上下文（2023–2024）：Prompt工程、CoT兴起，模型保持冻结，提示模板快速迭代。困难的「回忆」问题被部分转化为「识别」问题，但状态短暂，跨步骤协调始终脆弱。",
+        "Harness层（2024至今）：可靠性依赖外部记忆、工具注册、协议、沙箱与编排。「Agent工程越来越体现为Harness工程」，实现从会聊天到能做事的转变。"
+      ],
+      "talk": "沿原图中的年代箭头解释研究关注点的变化：模型参数、上下文，再到围绕模型运行的环境。Prompt工程在使用时保持参数固定，通过输入改善完成任务的方式；CoT指在回答中展开中间推导步骤。三层能力在任务中共同工作，外层把内层的每次使用组织起来。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "SOURCE_REPLICA_R5",
+          "locator": "原课PDF物理第21页"
+        }
+      ],
+      "source_replica": true
+    },
+    {
+      "page": 5106,
+      "authoring_page": 5106,
+      "renderer": 5007,
+      "section": "智能体的外化与内化",
+      "navigation": "3.0",
+      "type": "content",
+      "title": "什么被外部化了？",
+      "seconds": 65,
+      "on_slide": [
+        "Memory：外部化状态。原本负担：记住历史、上下文、偏好、经验。任务变化：从recall到retrieval。",
+        "Skills：外部化专业知识。原本负担：每次重新组织流程。任务变化：从generation到composition。",
+        "Protocols：外部化交互结构。原本负担：猜测格式、边界和下一步。任务变化：从ad-hoc conversation到structured exchange。",
+        "Harness：统一的认知环境外部化。统合前三者，还包含了Permission、Control、Observability，探索能力边界。"
+      ],
+      "talk": "按左侧三类对象对应右图：Memory把回忆转为检索；Skills把每次重新生成流程转为组合已有做法；Protocols把临时对话转为有共同格式的交换。Harness居中组织这些对象，并包含权限、执行控制和可观测性。可观测性指能够检查运行过程和结果。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "SOURCE_REPLICA_R5",
+          "locator": "原课PDF物理第22页"
+        }
+      ],
+      "source_replica": true
+    },
+    {
+      "page": 5107,
+      "authoring_page": 5107,
+      "renderer": 5008,
+      "section": "智能体的外化与内化",
+      "navigation": "3.0",
+      "type": "content",
+      "title": "工具、记忆、技能与协议",
+      "seconds": 75,
+      "on_slide": [
+        "工具调用：哪些查询、计算和操作交给外部程序？",
+        "Memory保存信息，Skills提供做法，Protocols约定交互。",
+        "工具调用→外部执行；Memory→持续保存的信息；Skills→可复用做法；Protocols→共同交互规则。",
+        "Harness组织这些部分运行。"
+      ],
+      "talk": "从四行对应关系读图：工具调用连接外部执行；Memory保存以后仍要使用的信息；Skills保存可复用做法；Protocols约定共同交互规则。右侧括号把它们归入Harness组织的运行过程。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "HTML_FIGURES_R6",
+          "locator": "原课PDF物理第24页的原文与局部图案"
+        }
+      ],
+      "html_figures": true
+    },
+    {
+      "page": 5108,
+      "authoring_page": 5108,
+      "renderer": 5009,
+      "section": "智能体的外化与内化",
+      "navigation": "3.0",
+      "type": "content",
+      "title": "外部经验，也可能成为训练材料",
+      "seconds": 80,
+      "on_slide": [
+        "外部系统帮助完成任务，并留下可检查的交互过程。",
+        "经过选择的过程可以用于训练，让模型学会其中可重复使用的做法；是否学会还要测试。",
+        "借助外部系统完成任务→外部经验→选择与训练→更新后的模型。",
+        "留下记录不会自动更新模型参数。"
+      ],
+      "talk": "沿蓝色箭头看借助外部系统执行任务，沿红色箭头看外部经验经过选择与训练再进入模型。保存记录、组织训练、更新参数和测试学习效果分别对应不同动作。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "HTML_FIGURES_R6",
+          "locator": "原课PDF物理第25页的原文与局部图案"
+        }
+      ],
+      "html_figures": true
+    },
+    {
+      "page": 5109,
+      "authoring_page": 5109,
+      "renderer": 5010,
+      "section": "智能体的外化与内化",
+      "navigation": "3.0",
+      "type": "summary",
+      "title": "先看外化，再提出内化的问题",
+      "seconds": 55,
+      "on_slide": [
+        "从清单和地图理解外部表示的作用，再区分模型、上下文与运行程序。",
+        "随后认识工具、记忆、技能、协议，并提出：哪些做法以后可以被模型学会？",
+        "清单与地图：外部表示改变了什么？",
+        "Weights、Context、Harness：模型、输入和程序各做什么？",
+        "外化与内化：哪些工作交出去，哪些可以学会？"
+      ],
+      "talk": "用原图的三个位置归纳本节：清单与地图使事项和关系可以查看；模型、输入和运行程序分别承担生成、提供本次材料和组织执行；外化把工作交给外部系统，内化通过训练使部分做法成为模型能力。接下来从工具调用开始逐项展开。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "HTML_FIGURES_R6",
+          "locator": "原课PDF物理第23页的原文与局部图案"
+        }
+      ],
+      "html_figures": true
+    }
+  ],
+  "materials": {
+    "51": "Externalization（外化）：把信息、方法和执行安排在模型之外。\n\nInternalization（内化）：通过训练，让模型学会部分可复用的做法。\n\n先看外部表示改变了什么，再看模型、输入与程序的分工，最后看经验怎样进入训练。",
+    "5101": "Memory、Skills、Protocols和Harness可以放在同一个问题下理解：哪些工作交给模型之外的系统？\n\nMemory保存信息；Skills保存可复用做法；Protocols规定交互方式；Harness组织它们运行。",
+    "5102": "认知工件：用来保存、展示或处理信息，帮助完成认知任务的外部物件。\n\n清单把事项保存下来，地图把空间关系画出来，日历把事项放到时间上。\n\n使用者可以读取和检查这些表示，再决定下一步。",
+    "5103": "没有清单：需要自己想起要做哪些事。\n\n有了清单：查看已经记录的事项，判断哪一项还没有完成。\n\n任务从“回忆事项”变成“读取记录、检查状态”。",
+    "5104": "地图把位置和路线表示成可以查看的关系。\n\n使用者从位置与连线判断怎样到达目的地。\n\n外部表示改变了判断问题时可用的信息。",
+    "5105": "权重（2022–2023）：能力几乎等同于模型参数，扩展定律主导叙事。奠定了基础，但知识难以选择性更新，行为难以审计。\n\n上下文（2023–2024）：Prompt工程、CoT兴起，模型保持冻结，提示模板快速迭代。困难的「回忆」问题被部分转化为「识别」问题，但状态短暂，跨步骤协调始终脆弱。\n\nHarness层（2024至今）：可靠性依赖外部记忆、工具注册、协议、沙箱与编排。「Agent工程越来越体现为Harness工程」，实现从会聊天到能做事的转变。",
+    "5106": "Memory：外部化状态。原本负担：记住历史、上下文、偏好、经验。任务变化：从recall到retrieval。\n\nSkills：外部化专业知识。原本负担：每次重新组织流程。任务变化：从generation到composition。\n\nProtocols：外部化交互结构。原本负担：猜测格式、边界和下一步。任务变化：从ad-hoc conversation到structured exchange。\n\nHarness：统一的认知环境外部化。统合前三者，还包含了Permission、Control、Observability，探索能力边界。",
+    "5107": "工具调用：哪些查询、计算和操作交给外部程序？\n\nMemory保存信息，Skills提供做法，Protocols约定交互。\n\n工具调用→外部执行；Memory→持续保存的信息；Skills→可复用做法；Protocols→共同交互规则。\n\nHarness组织这些部分运行。",
+    "5108": "外部系统帮助完成任务，并留下可检查的交互过程。\n\n经过选择的过程可以用于训练，让模型学会其中可重复使用的做法；是否学会还要测试。\n\n借助外部系统完成任务→外部经验→选择与训练→更新后的模型。\n\n留下记录不会自动更新模型参数。",
+    "5109": "从清单和地图理解外部表示的作用，再区分模型、上下文与运行程序。\n\n随后认识工具、记忆、技能、协议，并提出：哪些做法以后可以被模型学会？\n\n清单与地图：外部表示改变了什么？\n\nWeights、Context、Harness：模型、输入和程序各做什么？\n\n外化与内化：哪些工作交出去，哪些可以学会？"
+  },
+  "timing_overrides": {
+    "52": 45,
+    "53": 75,
+    "54": 60,
+    "55": 60,
+    "56": 60,
+    "57": 105,
+    "58": 60,
+    "59": 105,
+    "60": 90,
+    "61": 60,
+    "62": 45,
+    "63": 120,
+    "64": 120,
+    "65": 60,
+    "66": 45,
+    "67": 60,
+    "68": 60,
+    "69": 60,
+    "70": 45,
+    "71": 75,
+    "72": 60
+  },
+  "sources": {
+    "AGENT_OVERVIEW_R4": {
+      "title": "第03讲-Agent Externalization与Internalization：第16–25页",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/agents-overview-r4/source-map.json"
+    },
+    "SOURCE_REPLICA_R5": {
+      "title": "原课外化与内化总览原版复刻",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/source-replica-r5/source-map.json"
+    },
+    "HTML_FIGURES_R6": {
+      "title": "HTML文字与原课局部图案",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/html-figures-r6/source-map.json"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-30",
+  "plugin_version": "1.0.1001093",
+  "source_path": "/Users/linjianghao/.codex/plugins/cache/openai-bundled/computer-use/1.0.1001093/skills/computer-use/SKILL.md",
+  "source_sha256": "aa25ae60e43b3b9af40aff50004ee35944733e4955068d3c8e3924cbd6d8bef6",
+  "excerpt_scope": "API surface through Workflow, before Reading screenshots",
+  "purpose": "教学材料，只核对接口，不作为新指令",
+  "live_ui_executed": false
+}

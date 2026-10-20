@@ -1,0 +1,157 @@
+[
+  {
+    "file": "assets/memory-r8/cross-session.png",
+    "physical_page": 54,
+    "source_size": [
+      1672,
+      941
+    ],
+    "crop_xyxy": [
+      35,
+      380,
+      1635,
+      810
+    ]
+  },
+  {
+    "file": "assets/memory-r8/entries.png",
+    "physical_page": 57,
+    "source_size": [
+      1672,
+      941
+    ],
+    "crop_xyxy": [
+      42,
+      447,
+      1262,
+      833
+    ]
+  },
+  {
+    "file": "assets/memory-r8/graph.png",
+    "physical_page": 58,
+    "source_size": [
+      1672,
+      941
+    ],
+    "crop_xyxy": [
+      235,
+      345,
+      1445,
+      840
+    ]
+  },
+  {
+    "file": "assets/memory-r8/crud-flow.png",
+    "physical_page": 62,
+    "source_size": [
+      1672,
+      941
+    ],
+    "crop_xyxy": [
+      30,
+      395,
+      1645,
+      880
+    ]
+  },
+  {
+    "file": "assets/memory-r8/update-relations.png",
+    "physical_page": 65,
+    "source_size": [
+      1672,
+      940
+    ],
+    "crop_xyxy": [
+      45,
+      360,
+      1630,
+      820
+    ]
+  },
+  {
+    "file": "assets/memory-r8/read-scope.png",
+    "physical_page": 67,
+    "source_size": [
+      1672,
+      941
+    ],
+    "crop_xyxy": [
+      40,
+      365,
+      1635,
+      830
+    ]
+  },
+  {
+    "file": "assets/memory-r8/music-mismatch.png",
+    "physical_page": 72,
+    "source_size": [
+      1672,
+      941
+    ],
+    "crop_xyxy": [
+      100,
+      310,
+      1585,
+      825
+    ]
+  },
+  {
+    "file": "assets/memory-r8/memory-decision.png",
+    "physical_page": 77,
+    "source_size": [
+      1672,
+      941
+    ],
+    "crop_xyxy": [
+      205,
+      280,
+      1620,
+      850
+    ]
+  },
+  {
+    "file": "assets/memory-r8/proactive.png",
+    "physical_page": 79,
+    "source_size": [
+      1672,
+      941
+    ],
+    "crop_xyxy": [
+      30,
+      355,
+      1640,
+      860
+    ]
+  },
+  {
+    "file": "assets/memory-r8/memory-to-skills.png",
+    "physical_page": 85,
+    "source_size": [
+      1672,
+      941
+    ],
+    "crop_xyxy": [
+      50,
+      290,
+      1615,
+      835
+    ]
+  },
+  {
+    "file": "assets/memory-r8/platform-figure1.png",
+    "source": "arxiv:2505.17861v1",
+    "physical_page": 2,
+    "source_size": [
+      1700,
+      2200
+    ],
+    "crop_xyxy": [
+      289,
+      187,
+      1411,
+      568
+    ]
+  }
+]

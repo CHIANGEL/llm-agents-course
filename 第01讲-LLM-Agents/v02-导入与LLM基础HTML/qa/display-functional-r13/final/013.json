@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 13,
+  "text": "第二轮：旧问题、旧回答和追问一起传入\n追问“5人呢？”时，原问题、60元的回复和新问题一起进入输入。\n聊天窗口\n完整输入文本 · SmolLM2模板\n用户\n3人，每人20元？\n助手\n60元。\n用户\n5人呢？\n<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n60元。<|im_end|>\n<|im_start|>user\n5人呢？<|im_end|>\n<|im_start|>assistant\n▌接下来生成：100元。\n“每人20元”仍在原问题中，\n这次计算沿用这个条件。\n旧回复成为历史的一部分；新的回复仍然从最后一个 assistant 头后开始。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n1.1 连续生成\n1.2 多轮聊天\n1.3 LLM小结",
+  "title": "第13页 第二轮：旧问题、旧回答和追问一起传入"
+}

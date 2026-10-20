@@ -1,0 +1,44 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=150&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=150&s=1
+	2 container
+		104 container 第150页 一次任务，在Harness中怎样推进？
+			105 heading 一次任务，在Harness中怎样推进？, Value: 1
+				106 text 一次任务，在Harness中怎样推进？
+			107 container 课件内容
+				108 container
+					109 text 模型依据当前输入提出下一步；Harness安排实际执行，把结果带回后续输入。
+					110 image 用户任务进入Harness：准备材料、模型判断、工具执行、检查结果；再继续、等待或结束
+					111 text 调用工具与服务可采用Protocols；继续、等待与结束也可以由预设规则决定。
+			112 container 课程进度
+				113 button 导入
+				114 button 1. LLM基础
+				115 button 2. Prompting
+				116 button 3. Agents · Externalization & Internalization
+					117 text 3. Agents 
+					118 text · Externalization & Internalization
+				119 button 3.0 外化与内化总览
+				120 button 3.1 工具调用
+				121 button 3.2 Memory
+				122 button 3.3 Skills
+				123 button 3.4 Protocols
+				124 button 3.5 Harness
+				125 button 3.6 外化与内化整合
+				126 button 3.7 全讲总结
+		89 container Description: 课件操作, ID: controls
+			90 button Description: 上一步, Help: 上一步（←）
+			91 button Description: 下一步, Help: 下一步（→或空格）
+			92 container jump-form
+				93 text 页码
+				94 stepper (settable, integer) Description: 页码, Value: 150, ID: page-input
+				95 text / 175
+			127 text 整页显示
+			97 button 目录
+			98 button 讲者备注
+			99 button 完整材料
+			100 button 放大图解
+			101 button 全屏
+			102 button 隐藏, Help: 按H恢复
+			103 button 操作说明
+		128 text 第150页，一次任务，在Harness中怎样推进？，整页显示
+
+The focused UI element is 91 button Description: 下一步, Help: 下一步（→或空格）

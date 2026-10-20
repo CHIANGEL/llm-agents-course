@@ -1,0 +1,13 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-final#p=3&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-final#p=3&s=1
+	2 container
+		3 container Description: 第3页 本讲内容, ID: mount
+			4 container 第3页 本讲内容
+				5 heading 本讲内容, Value: 1
+					6 text 本讲内容
+				7 container 课件内容
+					8 container
+						9 text 1. LLM基础 逐Token连续生成、多轮消息与聊天模板 2. Prompting 三个核心：交代任务；四类策略：澄清、学习、求解、决策 3. Agents：Externalization & Internalization 外化：由模型外部系统承担工作　　内化：通过训练形成模型能力 3.1 Agent与工具调用：执行操作、取得反馈 3.2 Memory：保存、取回与更新信息 3.3 Skills：保存和复用做事方法 3.4 Harness：组织输入、工具与运行过程 3.5 外化与内化：回看模型与系统的分工
+		10 text 第3页，本讲内容，整页显示
+
+The focused UI element is 3 container Description: 第3页 本讲内容, ID: mount

@@ -1,0 +1,1 @@
+Wrote /Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-Agent-Skills/v01-渐进式披露演示/case/workspace/output/jupyter-notebook/python-lists-and-mean.ipynb using kind=tutorial.

@@ -1,0 +1,48 @@
+- main:
+  - article "第129页 打开产物：标题已替换，其余保留模板":
+    - heading "打开产物：标题已替换，其余保留模板" [level=1]
+    - region "课件内容":
+      - generic: 用户要求先保留模板：7个单元中，首个标题已改为“Python列表与平均值”。
+      - heading "7个单元" [level=2]
+      - button "1. 标题与对象" [pressed]
+      - button "2. 内容大纲"
+      - button "3. 准备代码"
+      - button "4. 步骤说明"
+      - button "5. 正弦示例代码"
+      - button "6. 模板中的练习栏目"
+      - button "7. 模板中的答案代码"
+      - heading "python-lists-and-mean.ipynb" [level=2]
+      - img "Jupyter"
+      - text: 文件中的单元内容
+      - generic: 说明
+      - generic: "# Tutorial: Python列表与平均值 Audience: - Describe who this is for. Prerequisites: - List required concepts or setup. Learning goals: - By the end, the reader can..."
+      - paragraph: 第1单元：标题已经替换；对象、前置知识与目标仍保留模板内容。
+      - generic: 后续补充对象与目标，把正弦示例改成列表求平均值，再逐单元运行并检查结果。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "3.0 外化与内化总览"
+      - button "3.1 工具调用"
+      - button "3.2 Memory"
+      - button "3.3 Skills"
+      - button "3.4 Protocols"
+      - button "3.5 Harness"
+      - button "3.6 外化与内化整合"
+      - button "3.7 全讲总结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步": →
+  - generic: 页码
+  - spinbutton "页码": "129"
+  - generic: / 193
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第129页，打开产物：标题已替换，其余保留模板，整页显示

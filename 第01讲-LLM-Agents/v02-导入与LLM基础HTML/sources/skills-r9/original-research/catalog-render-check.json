@@ -1,0 +1,11 @@
+{
+  "budget": "Tokens, ample for full single description",
+  "alias_overhead": 0,
+  "absolute_line_cost": 82,
+  "alias_line_cost": 74,
+  "selected": "HostAliases",
+  "root": "/workspace/course/.agents/skills",
+  "catalog_chars": 3246,
+  "method": "render.rs:1022-1084 and utils/string/src/truncate.rs:101; all fixed-source strings and exact teaching path",
+  "alias_total_cost": 74
+}

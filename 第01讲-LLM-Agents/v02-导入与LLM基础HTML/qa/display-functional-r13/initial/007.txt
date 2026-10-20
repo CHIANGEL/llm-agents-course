@@ -1,0 +1,42 @@
+- main:
+  - article "第7页 第二步：把刚生成的内容加入前文":
+    - heading "第二步：把刚生成的内容加入前文" [level=1]
+    - region "课件内容":
+      - generic: 第二步使用同一份任务输入，并加上第一步已经生成的 The。
+      - generic: 这一轮已有的前文
+      - generic: 下一Token的主要候选
+      - generic: 第1步
+      - generic: 完整任务输入
+      - text: The 26.92%
+      - text: "\" 13.66%"
+      - text: We 9.34%
+      - generic: 第2步
+      - generic: 完整任务输入 + The
+      - text: ␠lecture 55.12%
+      - text: ␠lecturer 3.60%
+      - text: ␠scheduled 2.96%
+      - generic: 每次都依据完整前文重新预测；新生成的内容也成为下一步的条件。
+      - generic: ␠表示Token自带的空格。Token是模型生成文本的单位。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "1.1 连续生成"
+      - button "1.2 多轮聊天"
+      - button "1.3 LLM小结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "7"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "备注 / 来源"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第7页，第二步：把刚生成的内容加入前文，整页显示

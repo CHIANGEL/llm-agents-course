@@ -1,0 +1,331 @@
+[
+  {
+    "from": 65,
+    "clicked": "1. 交互的两种方向",
+    "expected": 64,
+    "arrived": "第64页 与外界交互：获取信息，也能产生影响",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=64&s=1"
+  },
+  {
+    "from": 65,
+    "clicked": "2. 一次天气查询",
+    "expected": 66,
+    "arrived": "第66页 天气查询：一次调用，有来有回",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=66&s=1"
+  },
+  {
+    "from": 65,
+    "clicked": "3. 复杂应用中的工具调用",
+    "expected": 72,
+    "arrived": "第72页 Computer Use：把读取与操作封装成工具",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=72&s=1"
+  },
+  {
+    "from": 71,
+    "clicked": "1. 交互的两种方向",
+    "expected": 64,
+    "arrived": "第64页 与外界交互：获取信息，也能产生影响",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=64&s=1"
+  },
+  {
+    "from": 71,
+    "clicked": "2. 一次天气查询",
+    "expected": 66,
+    "arrived": "第66页 天气查询：一次调用，有来有回",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=66&s=1"
+  },
+  {
+    "from": 71,
+    "clicked": "3. 复杂应用中的工具调用",
+    "expected": 72,
+    "arrived": "第72页 Computer Use：把读取与操作封装成工具",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=72&s=1"
+  },
+  {
+    "from": 86,
+    "clicked": "1. 保存与使用",
+    "expected": 77,
+    "arrived": "第77页 新会话怎样用到过去的信息？",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=77&s=1"
+  },
+  {
+    "from": 86,
+    "clicked": "2. 作用与代价",
+    "expected": 87,
+    "arrived": "第87页 记忆也可能干扰当前任务",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=87&s=1"
+  },
+  {
+    "from": 86,
+    "clicked": "3. 实际怎样运行",
+    "expected": 98,
+    "arrived": "第98页 从记忆架构，到一次模型输入",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=98&s=1"
+  },
+  {
+    "from": 90,
+    "clicked": "1. 保存与使用",
+    "expected": 77,
+    "arrived": "第77页 新会话怎样用到过去的信息？",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=77&s=1"
+  },
+  {
+    "from": 90,
+    "clicked": "2. 作用与代价",
+    "expected": 87,
+    "arrived": "第87页 记忆也可能干扰当前任务",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=87&s=1"
+  },
+  {
+    "from": 90,
+    "clicked": "3. 实际怎样运行",
+    "expected": 98,
+    "arrived": "第98页 从记忆架构，到一次模型输入",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=98&s=1"
+  },
+  {
+    "from": 97,
+    "clicked": "1. 保存与使用",
+    "expected": 77,
+    "arrived": "第77页 新会话怎样用到过去的信息？",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=77&s=1"
+  },
+  {
+    "from": 97,
+    "clicked": "2. 作用与代价",
+    "expected": 87,
+    "arrived": "第87页 记忆也可能干扰当前任务",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=87&s=1"
+  },
+  {
+    "from": 97,
+    "clicked": "3. 实际怎样运行",
+    "expected": 98,
+    "arrived": "第98页 从记忆架构，到一次模型输入",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=98&s=1"
+  },
+  {
+    "from": 122,
+    "clicked": "1. 完整技能包",
+    "expected": 117,
+    "arrived": "第117页 一、完整的技能包：先看方法怎样落在文件中",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=117&s=1"
+  },
+  {
+    "from": 122,
+    "clicked": "2. 一次调用全过程",
+    "expected": 123,
+    "arrived": "第123页 二、一次调用：从任务到Notebook文件",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=123&s=1"
+  },
+  {
+    "from": 122,
+    "clicked": "3. 合成、评估与维护",
+    "expected": 133,
+    "arrived": "第133页 三、自己的Skills：从已有工作到持续维护",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=133&s=1"
+  },
+  {
+    "from": 132,
+    "clicked": "1. 完整技能包",
+    "expected": 117,
+    "arrived": "第117页 一、完整的技能包：先看方法怎样落在文件中",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=117&s=1"
+  },
+  {
+    "from": 132,
+    "clicked": "2. 一次调用全过程",
+    "expected": 123,
+    "arrived": "第123页 二、一次调用：从任务到Notebook文件",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=123&s=1"
+  },
+  {
+    "from": 132,
+    "clicked": "3. 合成、评估与维护",
+    "expected": 133,
+    "arrived": "第133页 三、自己的Skills：从已有工作到持续维护",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=133&s=1"
+  },
+  {
+    "from": 147,
+    "clicked": "1. 交互对象与范围",
+    "expected": 145,
+    "arrived": "第145页 理解协议：连接谁，为哪些场景设计？",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=145&s=1"
+  },
+  {
+    "from": 147,
+    "clicked": "2. MCP：工具与数据",
+    "expected": 148,
+    "arrived": "第148页 MCP：连接工具与数据",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=148&s=1"
+  },
+  {
+    "from": 147,
+    "clicked": "3. A2A：Agent任务协作",
+    "expected": 155,
+    "arrived": "第155页 A2A：把任务交给另一个Agent",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=155&s=1"
+  },
+  {
+    "from": 154,
+    "clicked": "1. 交互对象与范围",
+    "expected": 145,
+    "arrived": "第145页 理解协议：连接谁，为哪些场景设计？",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=145&s=1"
+  },
+  {
+    "from": 154,
+    "clicked": "2. MCP：工具与数据",
+    "expected": 148,
+    "arrived": "第148页 MCP：连接工具与数据",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=148&s=1"
+  },
+  {
+    "from": 154,
+    "clicked": "3. A2A：Agent任务协作",
+    "expected": 155,
+    "arrived": "第155页 A2A：把任务交给另一个Agent",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=155&s=1"
+  },
+  {
+    "from": 169,
+    "clicked": "1. 上下文",
+    "expected": 166,
+    "arrived": "第166页 上下文：下一次调用要带上什么？",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=166&s=1"
+  },
+  {
+    "from": 169,
+    "clicked": "2. 沙盒与权限",
+    "expected": 170,
+    "arrived": "第170页 沙盒与权限：范围和放行分别管理",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=170&s=1"
+  },
+  {
+    "from": 169,
+    "clicked": "3. Hooks",
+    "expected": 173,
+    "arrived": "第173页 Hooks：按事件触发预设动作",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=173&s=1"
+  },
+  {
+    "from": 169,
+    "clicked": "4. 子智能体",
+    "expected": 177,
+    "arrived": "第177页 子智能体：把具体工作分出去",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=177&s=1"
+  },
+  {
+    "from": 169,
+    "clicked": "5. 进度与恢复",
+    "expected": 182,
+    "arrived": "第182页 保存进度，让下一次运行接得上",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=182&s=1"
+  },
+  {
+    "from": 172,
+    "clicked": "1. 上下文",
+    "expected": 166,
+    "arrived": "第166页 上下文：下一次调用要带上什么？",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=166&s=1"
+  },
+  {
+    "from": 172,
+    "clicked": "2. 沙盒与权限",
+    "expected": 170,
+    "arrived": "第170页 沙盒与权限：范围和放行分别管理",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=170&s=1"
+  },
+  {
+    "from": 172,
+    "clicked": "3. Hooks",
+    "expected": 173,
+    "arrived": "第173页 Hooks：按事件触发预设动作",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=173&s=1"
+  },
+  {
+    "from": 172,
+    "clicked": "4. 子智能体",
+    "expected": 177,
+    "arrived": "第177页 子智能体：把具体工作分出去",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=177&s=1"
+  },
+  {
+    "from": 172,
+    "clicked": "5. 进度与恢复",
+    "expected": 182,
+    "arrived": "第182页 保存进度，让下一次运行接得上",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=182&s=1"
+  },
+  {
+    "from": 176,
+    "clicked": "1. 上下文",
+    "expected": 166,
+    "arrived": "第166页 上下文：下一次调用要带上什么？",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=166&s=1"
+  },
+  {
+    "from": 176,
+    "clicked": "2. 沙盒与权限",
+    "expected": 170,
+    "arrived": "第170页 沙盒与权限：范围和放行分别管理",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=170&s=1"
+  },
+  {
+    "from": 176,
+    "clicked": "3. Hooks",
+    "expected": 173,
+    "arrived": "第173页 Hooks：按事件触发预设动作",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=173&s=1"
+  },
+  {
+    "from": 176,
+    "clicked": "4. 子智能体",
+    "expected": 177,
+    "arrived": "第177页 子智能体：把具体工作分出去",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=177&s=1"
+  },
+  {
+    "from": 176,
+    "clicked": "5. 进度与恢复",
+    "expected": 182,
+    "arrived": "第182页 保存进度，让下一次运行接得上",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=182&s=1"
+  },
+  {
+    "from": 181,
+    "clicked": "1. 上下文",
+    "expected": 166,
+    "arrived": "第166页 上下文：下一次调用要带上什么？",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=166&s=1"
+  },
+  {
+    "from": 181,
+    "clicked": "2. 沙盒与权限",
+    "expected": 170,
+    "arrived": "第170页 沙盒与权限：范围和放行分别管理",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=170&s=1"
+  },
+  {
+    "from": 181,
+    "clicked": "3. Hooks",
+    "expected": 173,
+    "arrived": "第173页 Hooks：按事件触发预设动作",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=173&s=1"
+  },
+  {
+    "from": 181,
+    "clicked": "4. 子智能体",
+    "expected": 177,
+    "arrived": "第177页 子智能体：把具体工作分出去",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=177&s=1"
+  },
+  {
+    "from": 181,
+    "clicked": "5. 进度与恢复",
+    "expected": 182,
+    "arrived": "第182页 保存进度，让下一次运行接得上",
+    "url": "http://127.0.0.1:8765/index.html?revision=memory-review-r14#p=182&s=1"
+  }
+]

@@ -1,0 +1,480 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "ec84f302454dcb013b57c8acd7ca9cb331981e7e",
+  "request": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Write one short formal sentence announcing that the lecture scheduled for today has been cancelled."
+    }
+  ],
+  "input_text": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.<|im_end|>\n<|im_start|>assistant\n",
+  "output": "The lecture scheduled for today has been cancelled.",
+  "step_count": 10,
+  "stop_reason": "eos_token",
+  "steps": [
+    {
+      "step": 1,
+      "prefix_output": "",
+      "generated_output": "The",
+      "chosen": "The",
+      "chosen_probability": 0.26924237608909607,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 504,
+          "token_text": "The",
+          "token_raw": "The",
+          "probability": 0.26924237608909607
+        },
+        {
+          "rank": 2,
+          "token_id": 18,
+          "token_text": "\"",
+          "token_raw": "\"",
+          "probability": 0.1365969479084015
+        },
+        {
+          "rank": 3,
+          "token_id": 1882,
+          "token_text": "We",
+          "token_raw": "We",
+          "probability": 0.09336037933826447
+        },
+        {
+          "rank": 4,
+          "token_id": 7886,
+          "token_text": "Today",
+          "token_raw": "Today",
+          "probability": 0.050796445459127426
+        },
+        {
+          "rank": 5,
+          "token_id": 57,
+          "token_text": "I",
+          "token_raw": "I",
+          "probability": 0.04913032054901123
+        }
+      ],
+      "other_probability": 0.4008735418319702,
+      "eos": false
+    },
+    {
+      "step": 2,
+      "prefix_output": "The",
+      "generated_output": "The lecture",
+      "chosen": " lecture",
+      "chosen_probability": 0.5511583685874939,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 9364,
+          "token_text": " lecture",
+          "token_raw": "Ġlecture",
+          "probability": 0.5511583685874939
+        },
+        {
+          "rank": 2,
+          "token_id": 23869,
+          "token_text": " lecturer",
+          "token_raw": "Ġlecturer",
+          "probability": 0.03600415214896202
+        },
+        {
+          "rank": 3,
+          "token_id": 13831,
+          "token_text": " scheduled",
+          "token_raw": "Ġscheduled",
+          "probability": 0.029619542881846428
+        },
+        {
+          "rank": 4,
+          "token_id": 1740,
+          "token_text": " course",
+          "token_raw": "Ġcourse",
+          "probability": 0.02575320191681385
+        },
+        {
+          "rank": 5,
+          "token_id": 13857,
+          "token_text": " lectures",
+          "token_raw": "Ġlectures",
+          "probability": 0.0225540641695261
+        }
+      ],
+      "other_probability": 0.3349107503890991,
+      "eos": false
+    },
+    {
+      "step": 3,
+      "prefix_output": "The lecture",
+      "generated_output": "The lecture scheduled",
+      "chosen": " scheduled",
+      "chosen_probability": 0.6117278337478638,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 13831,
+          "token_text": " scheduled",
+          "token_raw": "Ġscheduled",
+          "probability": 0.6117278337478638
+        },
+        {
+          "rank": 2,
+          "token_id": 335,
+          "token_text": " on",
+          "token_raw": "Ġon",
+          "probability": 0.11531376838684082
+        },
+        {
+          "rank": 3,
+          "token_id": 327,
+          "token_text": " for",
+          "token_raw": "Ġfor",
+          "probability": 0.06610101461410522
+        },
+        {
+          "rank": 4,
+          "token_id": 28,
+          "token_text": ",",
+          "token_raw": ",",
+          "probability": 0.02561452053487301
+        },
+        {
+          "rank": 5,
+          "token_id": 436,
+          "token_text": " was",
+          "token_raw": "Ġwas",
+          "probability": 0.022992873564362526
+        }
+      ],
+      "other_probability": 0.15825003385543823,
+      "eos": false
+    },
+    {
+      "step": 4,
+      "prefix_output": "The lecture scheduled",
+      "generated_output": "The lecture scheduled for",
+      "chosen": " for",
+      "chosen_probability": 0.9768905639648438,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 327,
+          "token_text": " for",
+          "token_raw": "Ġfor",
+          "probability": 0.9768905639648438
+        },
+        {
+          "rank": 2,
+          "token_id": 1834,
+          "token_text": " today",
+          "token_raw": "Ġtoday",
+          "probability": 0.018405599519610405
+        },
+        {
+          "rank": 3,
+          "token_id": 288,
+          "token_text": " to",
+          "token_raw": "Ġto",
+          "probability": 0.0023552740458399057
+        },
+        {
+          "rank": 4,
+          "token_id": 335,
+          "token_text": " on",
+          "token_raw": "Ġon",
+          "probability": 0.0008821317460387945
+        },
+        {
+          "rank": 5,
+          "token_id": 18400,
+          "token_text": " yesterday",
+          "token_raw": "Ġyesterday",
+          "probability": 0.0005559356068260968
+        }
+      ],
+      "other_probability": 0.0009104609489440918,
+      "eos": false
+    },
+    {
+      "step": 5,
+      "prefix_output": "The lecture scheduled for",
+      "generated_output": "The lecture scheduled for today",
+      "chosen": " today",
+      "chosen_probability": 0.9773371815681458,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 1834,
+          "token_text": " today",
+          "token_raw": "Ġtoday",
+          "probability": 0.9773371815681458
+        },
+        {
+          "rank": 2,
+          "token_id": 260,
+          "token_text": " the",
+          "token_raw": "Ġthe",
+          "probability": 0.010189851745963097
+        },
+        {
+          "rank": 3,
+          "token_id": 451,
+          "token_text": " this",
+          "token_raw": "Ġthis",
+          "probability": 0.00540072051808238
+        },
+        {
+          "rank": 4,
+          "token_id": 13759,
+          "token_text": " tomorrow",
+          "token_raw": "Ġtomorrow",
+          "probability": 0.002095378004014492
+        },
+        {
+          "rank": 5,
+          "token_id": 14801,
+          "token_text": " Tuesday",
+          "token_raw": "ĠTuesday",
+          "probability": 0.000914195436052978
+        }
+      ],
+      "other_probability": 0.004062652587890625,
+      "eos": false
+    },
+    {
+      "step": 6,
+      "prefix_output": "The lecture scheduled for today",
+      "generated_output": "The lecture scheduled for today has",
+      "chosen": " has",
+      "chosen_probability": 0.5817121267318726,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 553,
+          "token_text": " has",
+          "token_raw": "Ġhas",
+          "probability": 0.5817121267318726
+        },
+        {
+          "rank": 2,
+          "token_id": 436,
+          "token_text": " was",
+          "token_raw": "Ġwas",
+          "probability": 0.15862016379833221
+        },
+        {
+          "rank": 3,
+          "token_id": 28,
+          "token_text": ",",
+          "token_raw": ",",
+          "probability": 0.09239852428436279
+        },
+        {
+          "rank": 4,
+          "token_id": 327,
+          "token_text": " for",
+          "token_raw": "Ġfor",
+          "probability": 0.05522200092673302
+        },
+        {
+          "rank": 5,
+          "token_id": 314,
+          "token_text": " is",
+          "token_raw": "Ġis",
+          "probability": 0.03353263810276985
+        }
+      ],
+      "other_probability": 0.07851457595825195,
+      "eos": false
+    },
+    {
+      "step": 7,
+      "prefix_output": "The lecture scheduled for today has",
+      "generated_output": "The lecture scheduled for today has been",
+      "chosen": " been",
+      "chosen_probability": 0.9940570592880249,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 719,
+          "token_text": " been",
+          "token_raw": "Ġbeen",
+          "probability": 0.9940570592880249
+        },
+        {
+          "rank": 2,
+          "token_id": 441,
+          "token_text": " not",
+          "token_raw": "Ġnot",
+          "probability": 0.0011702587362378836
+        },
+        {
+          "rank": 3,
+          "token_id": 1209,
+          "token_text": " now",
+          "token_raw": "Ġnow",
+          "probability": 0.0003623833763413131
+        },
+        {
+          "rank": 4,
+          "token_id": 1438,
+          "token_text": " become",
+          "token_raw": "Ġbecome",
+          "probability": 0.0003225896507501602
+        },
+        {
+          "rank": 5,
+          "token_id": 35295,
+          "token_text": " cancelled",
+          "token_raw": "Ġcancelled",
+          "probability": 0.00031153831514529884
+        }
+      ],
+      "other_probability": 0.0037761330604553223,
+      "eos": false
+    },
+    {
+      "step": 8,
+      "prefix_output": "The lecture scheduled for today has been",
+      "generated_output": "The lecture scheduled for today has been cancelled",
+      "chosen": " cancelled",
+      "chosen_probability": 0.989740252494812,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 35295,
+          "token_text": " cancelled",
+          "token_raw": "Ġcancelled",
+          "probability": 0.989740252494812
+        },
+        {
+          "rank": 2,
+          "token_id": 43619,
+          "token_text": " canceled",
+          "token_raw": "Ġcanceled",
+          "probability": 0.008439699187874794
+        },
+        {
+          "rank": 3,
+          "token_id": 45244,
+          "token_text": " postponed",
+          "token_raw": "Ġpostponed",
+          "probability": 0.00024094224500004202
+        },
+        {
+          "rank": 4,
+          "token_id": 11828,
+          "token_text": " subsequently",
+          "token_raw": "Ġsubsequently",
+          "probability": 0.00010744736209744588
+        },
+        {
+          "rank": 5,
+          "token_id": 15336,
+          "token_text": " temporarily",
+          "token_raw": "Ġtemporarily",
+          "probability": 9.949394734576344e-05
+        }
+      ],
+      "other_probability": 0.0013721585273742676,
+      "eos": false
+    },
+    {
+      "step": 9,
+      "prefix_output": "The lecture scheduled for today has been cancelled",
+      "generated_output": "The lecture scheduled for today has been cancelled.",
+      "chosen": ".",
+      "chosen_probability": 0.5241541266441345,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 30,
+          "token_text": ".",
+          "token_raw": ".",
+          "probability": 0.5241541266441345
+        },
+        {
+          "rank": 2,
+          "token_id": 28,
+          "token_text": ",",
+          "token_raw": ",",
+          "probability": 0.2598574459552765
+        },
+        {
+          "rank": 3,
+          "token_id": 1568,
+          "token_text": " due",
+          "token_raw": "Ġdue",
+          "probability": 0.1072920486330986
+        },
+        {
+          "rank": 4,
+          "token_id": 284,
+          "token_text": " and",
+          "token_raw": "Ġand",
+          "probability": 0.04453878104686737
+        },
+        {
+          "rank": 5,
+          "token_id": 347,
+          "token_text": " as",
+          "token_raw": "Ġas",
+          "probability": 0.01268716063350439
+        }
+      ],
+      "other_probability": 0.05147045850753784,
+      "eos": false
+    },
+    {
+      "step": 10,
+      "prefix_output": "The lecture scheduled for today has been cancelled.",
+      "generated_output": "The lecture scheduled for today has been cancelled.",
+      "chosen": "<|im_end|>",
+      "chosen_probability": 0.7767271399497986,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 2,
+          "token_text": "<|im_end|>",
+          "token_raw": "<|im_end|>",
+          "probability": 0.7767271399497986
+        },
+        {
+          "rank": 2,
+          "token_id": 198,
+          "token_text": "\n",
+          "token_raw": "Ċ",
+          "probability": 0.16951945424079895
+        },
+        {
+          "rank": 3,
+          "token_id": 3717,
+          "token_text": " \n",
+          "token_raw": "ĠĊ",
+          "probability": 0.012721817940473557
+        },
+        {
+          "rank": 4,
+          "token_id": 378,
+          "token_text": " The",
+          "token_raw": "ĠThe",
+          "probability": 0.003493455471470952
+        },
+        {
+          "rank": 5,
+          "token_id": 339,
+          "token_text": " I",
+          "token_raw": "ĠI",
+          "probability": 0.003087600925937295
+        }
+      ],
+      "other_probability": 0.03445059061050415,
+      "eos": true
+    }
+  ]
+}

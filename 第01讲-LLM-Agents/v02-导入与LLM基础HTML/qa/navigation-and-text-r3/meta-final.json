@@ -1,0 +1,15 @@
+{
+  "active": "region",
+  "page": "20",
+  "region": [
+    {
+      "children": 0,
+      "color": "rgb(17, 17, 17)",
+      "height": 486,
+      "scroll": 0,
+      "text": "我准备用【目标模型】完成下面的任务。\n任务初稿：【粘贴初稿】\n背景、目标和参考示例：【补充信息】\n\n请先 critique, review and improve：\n1. 找出缺失信息、歧义和冲突；\n2. 信息不足时先向我提问；\n3. 再给出一份可直接使用的完整Prompt。\n\n保留我的目标和必要约束，不要自行改变任务。",
+      "total": 486,
+      "weight": "400"
+    }
+  ]
+}

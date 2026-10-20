@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-20",
+  "scope": "Protocols131–147；Skills130与Harness148–152衔接；全讲目录3与整合170/175/176/177",
+  "default_pages": [
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147
+  ],
+  "body_controls": [
+    {
+      "page": 139,
+      "controls": [
+        "message0",
+        "message1",
+        "message2",
+        "message3",
+        "key",
+        "raw",
+        "reset",
+        "scroll region"
+      ],
+      "tested_states": 8,
+      "evidence": "message-tests.json"
+    }
+  ],
+  "navigation": "navigation-tests.json",
+  "final_sequence": "sequential-playback.json",
+  "visual_evidence": "screens/",
+  "checks": [
+    "repeated selection",
+    "repeated reset",
+    "Enter/Space",
+    "End/Home",
+    "Escape",
+    "next/back reentry",
+    "material open/scroll/close",
+    "notes final text",
+    "zoom select/resize/close",
+    "agenda jump",
+    "TOC jump",
+    "8 footer jumps",
+    "controls hide/H restore",
+    "1280x720",
+    "1024x768 click"
+  ],
+  "not_verified": [
+    "native fullscreen: current IAB did not enter",
+    "file:// offline playback: URL security policy blocked scheme",
+    "unchanged remainder of complete deck not re-reviewed this turn"
+  ]
+}

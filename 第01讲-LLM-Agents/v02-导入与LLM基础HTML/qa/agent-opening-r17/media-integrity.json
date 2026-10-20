@@ -1,0 +1,20 @@
+[
+  {
+    "file": "assets/agent-opening-r17/finance.mp4",
+    "exists": true,
+    "hash_matches": true,
+    "bytes_match": true
+  },
+  {
+    "file": "assets/agent-opening-r17/browser-booking.mp4",
+    "exists": true,
+    "hash_matches": true,
+    "bytes_match": true
+  },
+  {
+    "file": "assets/agent-opening-r17/astra-arm.mp4",
+    "exists": true,
+    "hash_matches": true,
+    "bytes_match": true
+  }
+]

@@ -1,0 +1,44 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=72&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=72&s=1
+	2 container
+		55 container Description: 第72页 从对话机器人，走向能做事的智能体, ID: mount
+			56 container 第72页 从对话机器人，走向能做事的智能体
+				57 heading 从对话机器人，走向能做事的智能体, Value: 1
+					58 text 从对话机器人，走向能做事的智能体
+				59 container 课件内容
+					60 container
+						61 text 工具把“生成回答”与“执行操作”连接起来，结果再回到模型。 生成内容与调用 应用执行工具 外部数据与系统 结果成为新的输入，继续判断与行动 • 获取信息：把外部材料带进来。
+						62 text • 产生影响：让工具实际执行操作。
+						63 text • 继续工作：根据返回结果生成下一步。 下一节 Memory：通过写入、读取与检索，让信息跨任务保留与复用。
+				64 container 课程进度
+					65 button 导入
+					66 button 1. LLM基础
+					67 button 2. Prompting
+					68 button 3. Agents · Externalization & Internalization
+						69 text 3. Agents 
+						70 text · Externalization & Internalization
+					71 button 3.0 外化与内化总览
+					72 button 3.1 工具调用
+					73 button 3.2 Memory
+					74 button 3.3 Skills
+					75 button 3.4 Harness
+					76 button 3.5 外化与内化整合
+					77 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 72, ID: page-input
+				46 text / 151
+			78 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		79 text 第72页，从对话机器人，走向能做事的智能体，整页显示
+
+The focused UI element is 55 container Description: 第72页 从对话机器人，走向能做事的智能体, ID: mount

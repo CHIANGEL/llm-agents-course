@@ -1,0 +1,41 @@
+- main:
+  - article "第11页 聊天界面背后，仍然是在继续生成文本":
+    - heading "聊天界面背后，仍然是在继续生成文本" [level=1]
+    - region "课件内容":
+      - generic: 聊天模板（chat template）把消息按顺序拼接，并标明角色与边界。
+      - generic: 聊天界面中的消息
+      - generic: 模型收到的连续文本
+      - generic: 用户：
+      - generic: Write one short formal sentence announcing that the lecture scheduled for today has been cancelled.
+      - generic: 应用先组织输入， 模型从输入末尾继续写。
+      - generic: <|im_start|>system
+      - generic: You are a helpful assistant.<|im_end|>
+      - generic: <|im_start|>user
+      - generic: Write one short formal sentence announcing that the lecture scheduled for today has been cancelled.<|im_end|>
+      - generic: <|im_start|>assistant
+      - generic: ▌从这里继续生成回复
+      - generic: “输入 → 预测一个Token → 追加 → 继续”的机制保持不变。
+      - generic: 下面沿用同一种SmolLM2模板，展开三轮消息如何接在一起。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "1.1 连续生成"
+      - button "1.2 多轮聊天"
+      - button "1.3 LLM小结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "11"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "备注 / 来源"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第11页，聊天界面背后，仍然是在继续生成文本，整页显示

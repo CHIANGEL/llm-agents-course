@@ -1,0 +1,64 @@
+{
+  "pages": 200,
+  "states": 200,
+  "resourceCount": 73,
+  "missing": [],
+  "errors": [],
+  "stageCounts": [
+    {
+      "page": 119,
+      "count": 4,
+      "end": "user"
+    },
+    {
+      "page": 121,
+      "count": 5,
+      "end": "call"
+    },
+    {
+      "page": 122,
+      "count": 6,
+      "end": "result"
+    },
+    {
+      "page": 124,
+      "count": 7,
+      "end": "answer"
+    },
+    {
+      "page": 125,
+      "count": 8,
+      "end": "followup"
+    },
+    {
+      "page": 141,
+      "count": 4,
+      "end": "user"
+    },
+    {
+      "page": 142,
+      "count": 6,
+      "end": "result_skill"
+    },
+    {
+      "page": 143,
+      "count": 8,
+      "end": "result_reference"
+    },
+    {
+      "page": 144,
+      "count": 10,
+      "end": "result_cost"
+    },
+    {
+      "page": 145,
+      "count": 12,
+      "end": "result_prepare"
+    },
+    {
+      "page": 146,
+      "count": 13,
+      "end": "answer"
+    }
+  ]
+}

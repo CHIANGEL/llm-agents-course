@@ -1,0 +1,76 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=html-figures-r6#p=58&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=html-figures-r6#p=58&s=1
+	2 container
+		3 container Description: 第58页 什么被外部化了？, ID: mount
+			4 container 第58页 什么被外部化了？
+				5 container 课件内容
+					6 image
+						7 text 什么被外部化了？
+						8 text •
+						9 text Memory
+						10 text ：
+						11 text 外部化
+						12 text 状态
+						13 text •
+						14 text 原本负担：记住历史、上下文、偏好、经验
+						15 text •
+						16 text 任务变化：从
+						17 text recall 
+						18 text 到
+						19 text retrieval
+						20 text •
+						21 text Skills
+						22 text ：
+						23 text 外部化
+						24 text 专业知识
+						25 text •
+						26 text 原本负担：每次重新组织流程
+						27 text •
+						28 text 任务变化：从
+						29 text generation 
+						30 text 到
+						31 text composition
+						32 text •
+						33 text Protocols
+						34 text ：
+						35 text 外部化
+						36 text 交互结构
+						37 text •
+						38 text 原本负担：猜测格式、边界和下一步
+						39 text •
+						40 text 任务变化：从
+						41 text ad
+						42 text -
+						43 text hoc conversation 
+						44 text 到
+						45 text structured exchange
+						46 text •
+						47 text Harness
+						48 text ：统一的
+						49 text 认知环境
+						50 text 外部化
+						51 text •
+						52 text 统合前三者，还包含了
+						53 text Permission
+						54 text 、
+						55 text Control
+						56 text 、
+						57 text Observability
+						58 text ，探索能力边界
+				59 container 课程进度
+					60 button 导入
+					61 button 1. LLM基础
+					62 button 2. Prompting
+					63 button 3. Agents · Externalization & Internalization
+						64 text 3. Agents 
+						65 text · Externalization & Internalization
+					66 button 3.0 外化与内化总览
+					67 button 3.1 工具调用
+					68 button 3.2 Memory
+					69 button 3.3 Skills
+					70 button 3.4 Harness
+					71 button 3.5 外化与内化整合
+					72 button 3.6 全讲总结
+		73 text 第58页，什么被外部化了？，整页显示
+
+The focused UI element is 3 container Description: 第58页 什么被外部化了？, ID: mount

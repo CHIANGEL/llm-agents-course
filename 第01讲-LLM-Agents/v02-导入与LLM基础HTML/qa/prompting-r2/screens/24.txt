@@ -1,0 +1,15 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=24&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=24&s=1
+	2 container
+		3 container Description: 第24页 反向拆解：从成品找到可复用的做法, ID: mount
+			4 container 第24页 反向拆解：从成品找到可复用的做法
+				5 heading 反向拆解：从成品找到可复用的做法, Value: 1
+					6 text 反向拆解：从成品找到可复用的做法
+				7 container 课件内容
+					8 container
+						9 text 看到一个优秀成品，先问它解决了什么问题，再看为什么有效。 拆解刚才这页参考课件
+						10 image 聊天消息与连续输入文本一一对应的课件
+						11 text 先明确：它要帮助听众理解什么？ 反向找到四个选择 对象：没有技术基础的学员 结构：消息与输入文本左右对应 重点：角色、边界与续写位置 标准：能解释多轮对话仍是文本生成 可复用的是图文对应的做法；具体内容随新任务变化。
+		12 text 第24页，反向拆解：从成品找到可复用的做法，整页显示
+
+The focused UI element is 3 container Description: 第24页 反向拆解：从成品找到可复用的做法, ID: mount

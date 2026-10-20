@@ -1,0 +1,30 @@
+{
+  "Memory": {
+    "pages": [
+      112,
+      114,
+      115,
+      117,
+      118
+    ],
+    "labels_identical": true,
+    "row_heights_identical": true,
+    "current_visible_on_all": true
+  },
+  "Skills": {
+    "pages": [
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      143
+    ],
+    "labels_identical": true,
+    "row_heights_identical": true,
+    "current_visible_on_all": true
+  }
+}

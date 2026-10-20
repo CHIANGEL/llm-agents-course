@@ -1,0 +1,15 @@
+{
+  "broken": [],
+  "page": "139",
+  "scroll": [
+    {
+      "max": 525,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "④ 返回天气内容",
+    "完整协议消息"
+  ],
+  "text": "同一次纽约天气查询，对照目录、调用和返回；原始消息可按需展开。\n① 索取工具目录\n② 返回工具说明\n③ 发起天气查询\n④ 返回天气内容\n重置\n主要内容\n完整协议消息\n天气服务 → 应用\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 102,\n  \"result\": {\n    \"resultType\": \"complete\",\n    \"content\": [\n      {\n        \"type\": \"text\",\n        \"text\": \"Current weather in New York:\\n Temperature: 72°F\\n Conditions: Partly cloudy\"\n      }\n    ],\n    \"isError\": false,\n    \"_meta\": {\n      \"io.modelcontextprotocol/serverInfo\": {\n        \"name\": \"classroom-weather-fixture\",\n        \"version\": \"1.0.0\"\n      }\n    }\n  }\n}\n\n应用收到结果后，放回后续模型输入，模型据此回答。\n\n请求与返回按编号配对；协议消息由应用和服务处理。"
+}

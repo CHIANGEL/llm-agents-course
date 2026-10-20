@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=43&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=43&s=1
+	2 container
+		3 container Description: 第43页 Prompting小结：任务清楚，方法合适, ID: mount
+			4 container 第43页 Prompting小结：任务清楚，方法合适
+				5 heading Prompting小结：任务清楚，方法合适, Value: 1
+					6 text Prompting小结：任务清楚，方法合适
+				7 container 课件内容
+					8 container
+						9 text 先把任务交代清楚，再根据当前需要选择处理方法。 先把任务交代清楚 四大要点
+						10 text 给Example
+						11 text 让模型写Prompt 再根据需要选择方法 问清问题 苏格拉底式提问 学习 双层解释 · 反向拆解
+						12 text 横纵分析 · 事实核查 解决问题 专家会诊 · 第一性原理
+						13 text 跨领域借解 决策 双向钢人 · 最小实验 背景与目标 → 示例标准
+						14 text → 完整可用的指令 任务交代决定输入是否清楚；处理方法决定接下来怎样分析。
+		15 text 第43页，Prompting小结：任务清楚，方法合适，整页显示
+
+The focused UI element is 3 container Description: 第43页 Prompting小结：任务清楚，方法合适, ID: mount

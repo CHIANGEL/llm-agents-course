@@ -1,0 +1,17 @@
+{
+  "checked_on": "2026-10-18",
+  "files": [
+    {
+      "path": "memory_summary.md",
+      "sha256": "1218da1963d035b08a71e60f8685a79dbbccdf84fc3e1c28be3388733a2c8908"
+    },
+    {
+      "path": "rollout_summaries/scope.md",
+      "sha256": "8d568a51592ff0cdeb28f9a75b155bb74486b12a13eecc073953a3e91bbaa034"
+    },
+    {
+      "path": "rollout_summaries/style.md",
+      "sha256": "4e60b4fd0e728dd5a61c34d127193c08158f7431ca9adf0b3dd6f802f291b39a"
+    }
+  ]
+}

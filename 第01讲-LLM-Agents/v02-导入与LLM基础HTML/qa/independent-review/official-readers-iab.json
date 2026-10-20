@@ -1,0 +1,412 @@
+[
+  {
+    "id": "CASE_FIN",
+    "notes_link_opened": true,
+    "facts": "第一讲 LLM Agents · 官方来源核读档案 · CASE_FIN\n\nFin：把客户问题登记到 Linear\n官方资料\nClaude can now connect to your world\n资料性质\nAnthropic 官方产品连接能力介绍\n版本与日期\n网页；2025-05-01发布；2026-10-19核读\n核对位置\nIntegrations / Intercom\n涉及课件\n第59页、第60页、第61页\n本课采用的事实与关系\nIntercom 的 Fin 可在客户报告问题时，向 Linear 登记缺陷。\n本课据此解释客服对话、创建请求和系统记录的衔接。\n问题记录建立后，后续修复与客户确认各有自己的完成条件。\n\n第59页介绍连接能力，第60页拆开材料、请求与记录，第61页区分登记与问题解决。\n\n核读档案\n本轮官方来源核对记录\n工具与Memory逐页审阅记录\n\n核读日期：2026-10-19。此档案保存本课采用的要点、资料性质与来源定位；官方原文入口见上方链接。文字为依据核读记录所作的简短归纳。",
+    "links": [
+      {
+        "href": "../../index.html#p=59&s=1",
+        "text": "返回课程第59页"
+      },
+      {
+        "href": "https://claude.com/resources/articles/integrations",
+        "text": "Claude can now connect to your world"
+      },
+      {
+        "href": "../../index.html#p=59&s=1",
+        "text": "第59页"
+      },
+      {
+        "href": "../../index.html#p=60&s=1",
+        "text": "第60页"
+      },
+      {
+        "href": "../../index.html#p=61&s=1",
+        "text": "第61页"
+      },
+      {
+        "href": "../../qa/independent-review/tools-memory/source-check.json",
+        "text": "本轮官方来源核对记录"
+      },
+      {
+        "href": "../../qa/independent-review/tools-memory-review.md",
+        "text": "工具与Memory逐页审阅记录"
+      }
+    ]
+  },
+  {
+    "id": "CASE_FIN",
+    "clicked": "../../index.html#p=59&s=1",
+    "visibleCharacters": 122,
+    "not404": true
+  },
+  {
+    "id": "CASE_FIN",
+    "clicked": "../../index.html#p=59&s=1",
+    "visibleCharacters": 122,
+    "not404": true
+  },
+  {
+    "id": "CASE_FIN",
+    "clicked": "../../index.html#p=60&s=1",
+    "visibleCharacters": 129,
+    "not404": true
+  },
+  {
+    "id": "CASE_FIN",
+    "clicked": "../../index.html#p=61&s=1",
+    "visibleCharacters": 145,
+    "not404": true
+  },
+  {
+    "id": "CASE_FIN",
+    "clicked": "../../qa/independent-review/tools-memory/source-check.json",
+    "visibleCharacters": 5876,
+    "not404": true
+  },
+  {
+    "id": "CASE_FIN",
+    "clicked": "../../qa/independent-review/tools-memory-review.md",
+    "visibleCharacters": 60,
+    "not404": true
+  },
+  {
+    "id": "CASE_AWS",
+    "notes_link_opened": true,
+    "facts": "第一讲 LLM Agents · 官方来源核读档案 · CASE_AWS\n\nAWS：电子产品客服中的持续记忆\n官方资料\nMove your AI agents from proof of concept to production with Amazon Bedrock AgentCore\n资料性质\nAWS 官方开发参考方案及测试代码\n版本与日期\n网页；2025-09-19发布；2026-10-19复核\n核对位置\nAdd persistent memory / Create the memory resources / Integrate with Strands Agents hooks / Test the memory in action\n涉及课件\n第80页、第81页、第82页、第83页\n本课采用的事实与关系\n方案为电子产品客服整理用户偏好和相关事实，并在会话响应后保存交互。\n后续请求以客户身份和当前问题检索有关记忆，再把结果加入当前输入。\n测试情境包含竞技射击游戏用途与低延迟耳机偏好；新问题询问耳机推荐。\n\n第80页总览两次会话，第81页解释保存偏好与事实，第82页展示取回并加入新问题，第83页归纳三步。\n\n核读档案\nAWS原始核读档案\n本轮官方来源核对记录\n\n核读日期：2026-10-19。此档案保存本课采用的要点、资料性质与来源定位；官方原文入口见上方链接。文字为依据核读记录所作的简短归纳。",
+    "links": [
+      {
+        "href": "../../index.html#p=80&s=1",
+        "text": "返回课程第80页"
+      },
+      {
+        "href": "https://aws.amazon.com/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/",
+        "text": "Move your AI agents from proof of concept to production with Amazon Bedrock AgentCore"
+      },
+      {
+        "href": "../../index.html#p=80&s=1",
+        "text": "第80页"
+      },
+      {
+        "href": "../../index.html#p=81&s=1",
+        "text": "第81页"
+      },
+      {
+        "href": "../../index.html#p=82&s=1",
+        "text": "第82页"
+      },
+      {
+        "href": "../../index.html#p=83&s=1",
+        "text": "第83页"
+      },
+      {
+        "href": "../agents-memory/official-case-review.json",
+        "text": "AWS原始核读档案"
+      },
+      {
+        "href": "../../qa/independent-review/tools-memory/source-check.json",
+        "text": "本轮官方来源核对记录"
+      }
+    ]
+  },
+  {
+    "id": "CASE_AWS",
+    "clicked": "../../index.html#p=80&s=1",
+    "visibleCharacters": 137,
+    "not404": true
+  },
+  {
+    "id": "CASE_AWS",
+    "clicked": "../../index.html#p=80&s=1",
+    "visibleCharacters": 137,
+    "not404": true
+  },
+  {
+    "id": "CASE_AWS",
+    "clicked": "../../index.html#p=81&s=1",
+    "visibleCharacters": 115,
+    "not404": true
+  },
+  {
+    "id": "CASE_AWS",
+    "clicked": "../../index.html#p=82&s=1",
+    "visibleCharacters": 131,
+    "not404": true
+  },
+  {
+    "id": "CASE_AWS",
+    "clicked": "../../index.html#p=83&s=1",
+    "visibleCharacters": 140,
+    "not404": true
+  },
+  {
+    "id": "CASE_AWS",
+    "clicked": "../agents-memory/official-case-review.json",
+    "visibleCharacters": 806,
+    "not404": true
+  },
+  {
+    "id": "CASE_AWS",
+    "clicked": "../../qa/independent-review/tools-memory/source-check.json",
+    "visibleCharacters": 5876,
+    "not404": true
+  },
+  {
+    "id": "CASE_BOX",
+    "notes_link_opened": true,
+    "facts": "第一讲 LLM Agents · 官方来源核读档案 · CASE_BOX\n\nBox：从已有资料形成文档草稿\n官方资料\nBox builds document creation into its AI agent with Claude\n资料性质\nAnthropic 官方客户案例\n版本与日期\n网页；2026-10-19核读版\n核对位置\nThe solution: Pre-built skills connected to the path Box already trusted / The outcome: financial summary flow\n涉及课件\n第99页、第100页、第101页、第102页\n本课采用的事实与关系\nBox Agent 查找上一份季度报告与近期月度更新，并提取与请求有关的数据。\n通过 Skills API 获得文档制作能力，形成有格式的财务摘要幻灯片草稿，再由团队补充分析。\n后续电子表格请求可以复用已经找到的资料。\n\n第99页说明资料、制作接口与交付的关系，第100页看材料，第101页看制作与团队分析，第102页看资料在另一交付形式中的复用。\n\n核读档案\nBox原始及本轮核读档案\n本轮Skills与Harness来源核读记录\n\n核读日期：2026-10-19。此档案保存本课采用的要点、资料性质与来源定位；官方原文入口见上方链接。文字为依据核读记录所作的简短归纳。",
+    "links": [
+      {
+        "href": "../../index.html#p=99&s=1",
+        "text": "返回课程第99页"
+      },
+      {
+        "href": "https://claude.com/customers/box",
+        "text": "Box builds document creation into its AI agent with Claude"
+      },
+      {
+        "href": "../../index.html#p=99&s=1",
+        "text": "第99页"
+      },
+      {
+        "href": "../../index.html#p=100&s=1",
+        "text": "第100页"
+      },
+      {
+        "href": "../../index.html#p=101&s=1",
+        "text": "第101页"
+      },
+      {
+        "href": "../../index.html#p=102&s=1",
+        "text": "第102页"
+      },
+      {
+        "href": "../agents-skills/official-case-review.json",
+        "text": "Box原始及本轮核读档案"
+      },
+      {
+        "href": "../../qa/independent-review/issues-skills-harness.md",
+        "text": "本轮Skills与Harness来源核读记录"
+      }
+    ]
+  },
+  {
+    "id": "CASE_BOX",
+    "clicked": "../../index.html#p=99&s=1",
+    "visibleCharacters": 140,
+    "not404": true
+  },
+  {
+    "id": "CASE_BOX",
+    "clicked": "../../index.html#p=99&s=1",
+    "visibleCharacters": 140,
+    "not404": true
+  },
+  {
+    "id": "CASE_BOX",
+    "clicked": "../../index.html#p=100&s=1",
+    "visibleCharacters": 126,
+    "not404": true
+  },
+  {
+    "id": "CASE_BOX",
+    "clicked": "../../index.html#p=101&s=1",
+    "visibleCharacters": 108,
+    "not404": true
+  },
+  {
+    "id": "CASE_BOX",
+    "clicked": "../../index.html#p=102&s=1",
+    "visibleCharacters": 136,
+    "not404": true
+  },
+  {
+    "id": "CASE_BOX",
+    "clicked": "../agents-skills/official-case-review.json",
+    "visibleCharacters": 1030,
+    "not404": true
+  },
+  {
+    "id": "CASE_BOX",
+    "clicked": "../../qa/independent-review/issues-skills-harness.md",
+    "visibleCharacters": 60,
+    "not404": true
+  },
+  {
+    "id": "CASE_REMARKABLE",
+    "notes_link_opened": true,
+    "facts": "第一讲 LLM Agents · 官方来源核读档案 · CASE_REMARKABLE\n\nreMarkable：自动客服与人工交接\n官方资料\nSalesforce customer story: reMarkable\n资料性质\nSalesforce 官方客户案例\n版本与日期\n网页；页面日期2025-08-04；2026-10-19复核\n核对位置\nHow Salesforce Helps\n涉及课件\n第114页、第115页、第116页\n本课采用的事实与关系\nAgent Mark 依据知识库中的产品指南、政策等资料处理支持请求。\n请求超出范围或客户要求人工时，通过 Service Cloud 交接给客服人员。\n交接信息包括完整聊天历史、相关文章和已经尝试的办法，使人工客服可以接续处理。\n\n第114页解释自动处理与交接条件，第115页展开三类交接材料，第116页回到同一服务流程。\n\n核读档案\nHarness来源核读档案\n本轮Skills与Harness来源核读记录\n\n核读日期：2026-10-19。此档案保存本课采用的要点、资料性质与来源定位；官方原文入口见上方链接。文字为依据核读记录所作的简短归纳。",
+    "links": [
+      {
+        "href": "../../index.html#p=114&s=1",
+        "text": "返回课程第114页"
+      },
+      {
+        "href": "https://www.salesforce.com/customer-stories/remarkable/",
+        "text": "Salesforce customer story: reMarkable"
+      },
+      {
+        "href": "../../index.html#p=114&s=1",
+        "text": "第114页"
+      },
+      {
+        "href": "../../index.html#p=115&s=1",
+        "text": "第115页"
+      },
+      {
+        "href": "../../index.html#p=116&s=1",
+        "text": "第116页"
+      },
+      {
+        "href": "../agents-harness/来源核读记录.md",
+        "text": "Harness来源核读档案"
+      },
+      {
+        "href": "../../qa/independent-review/issues-skills-harness.md",
+        "text": "本轮Skills与Harness来源核读记录"
+      }
+    ]
+  },
+  {
+    "id": "CASE_REMARKABLE",
+    "clicked": "../../index.html#p=114&s=1",
+    "visibleCharacters": 173,
+    "not404": true
+  },
+  {
+    "id": "CASE_REMARKABLE",
+    "clicked": "../../index.html#p=114&s=1",
+    "visibleCharacters": 173,
+    "not404": true
+  },
+  {
+    "id": "CASE_REMARKABLE",
+    "clicked": "../../index.html#p=115&s=1",
+    "visibleCharacters": 148,
+    "not404": true
+  },
+  {
+    "id": "CASE_REMARKABLE",
+    "clicked": "../../index.html#p=116&s=1",
+    "visibleCharacters": 140,
+    "not404": true
+  },
+  {
+    "id": "CASE_REMARKABLE",
+    "clicked": "../agents-harness/来源核读记录.md",
+    "visibleCharacters": 60,
+    "not404": true
+  },
+  {
+    "id": "CASE_REMARKABLE",
+    "clicked": "../../qa/independent-review/issues-skills-harness.md",
+    "visibleCharacters": 60,
+    "not404": true
+  },
+  {
+    "id": "CASE_ZEP",
+    "notes_link_opened": true,
+    "facts": "第一讲 LLM Agents · 官方来源核读档案 · CASE_ZEP\n\nZep Facts：偏好变化与历史关系\n官方资料\nZep v3 Facts\n资料性质\nZep 官方产品机制文档及其中的案例\n版本与日期\n文档路径v3；2026-10-19核读版\n核对位置\nHow Zep updates facts / The four fact timestamps\n涉及课件\n第85页\n本课采用的事实与关系\n文档用 Kendra 的品牌偏好说明关系更新：原先喜欢 Adidas，鞋损坏后转而喜欢 Puma。\n新消息可以触发旧关系失效标记与新事实加入，同时保留历史及适用时间。\n课件把“标记旧关系失效”作为记录处理动作，并说明后续按当前有效信息回答。\n\n第85页按时间展开旧偏好、新消息和关系更新，接入Memory的时间与适用性判断。\n\n核读档案\n本轮官方来源核对记录\n工具与Memory逐页审阅记录\n\n核读日期：2026-10-19。此档案保存本课采用的要点、资料性质与来源定位；官方原文入口见上方链接。文字为依据核读记录所作的简短归纳。",
+    "links": [
+      {
+        "href": "../../index.html#p=85&s=1",
+        "text": "返回课程第85页"
+      },
+      {
+        "href": "https://help.getzep.com/v3/facts",
+        "text": "Zep v3 Facts"
+      },
+      {
+        "href": "../../index.html#p=85&s=1",
+        "text": "第85页"
+      },
+      {
+        "href": "../../qa/independent-review/tools-memory/source-check.json",
+        "text": "本轮官方来源核对记录"
+      },
+      {
+        "href": "../../qa/independent-review/tools-memory-review.md",
+        "text": "工具与Memory逐页审阅记录"
+      }
+    ]
+  },
+  {
+    "id": "CASE_ZEP",
+    "clicked": "../../index.html#p=85&s=1",
+    "visibleCharacters": 162,
+    "not404": true
+  },
+  {
+    "id": "CASE_ZEP",
+    "clicked": "../../index.html#p=85&s=1",
+    "visibleCharacters": 162,
+    "not404": true
+  },
+  {
+    "id": "CASE_ZEP",
+    "clicked": "../../qa/independent-review/tools-memory/source-check.json",
+    "visibleCharacters": 5876,
+    "not404": true
+  },
+  {
+    "id": "CASE_ZEP",
+    "clicked": "../../qa/independent-review/tools-memory-review.md",
+    "visibleCharacters": 60,
+    "not404": true
+  },
+  {
+    "id": "RP_PAPER",
+    "notes_link_opened": true,
+    "facts": "第一讲 LLM Agents · 官方来源核读档案 · RP_PAPER\n\nRPEval：旧偏好与当前用途\n官方资料\nRPEval · arXiv:2601.16621v1\n资料性质\n研究论文；引言与Figure 1中的任务情境\n版本与日期\narXiv v1；2026-10-19核读\n核对位置\n§1 / Figure 1（PDF第2页）\n涉及课件\n第86页\n本课采用的事实与关系\n论文情境比较午休时放松的当前需求，与过去用强节奏音乐保持清醒的偏好。\n两份信息都涉及音乐，但目的不同；当前选择需要依据这次用途。\n本课据此区分本次不采用某条记忆，与把该记忆从长期记录中删除。\n\n第86页在同一画面比较当前请求与过去偏好，第87页归纳信息更新与用途判断。\n\n核读档案\n论文摘要与版本入口\n本轮官方来源核对记录\n工具与Memory逐页审阅记录\n\n核读日期：2026-10-19。此档案保存本课采用的要点、资料性质与来源定位；官方原文入口见上方链接。文字为依据核读记录所作的简短归纳。",
+    "links": [
+      {
+        "href": "../../index.html#p=86&s=1",
+        "text": "返回课程第86页"
+      },
+      {
+        "href": "https://arxiv.org/pdf/2601.16621v1",
+        "text": "RPEval · arXiv:2601.16621v1"
+      },
+      {
+        "href": "../../index.html#p=86&s=1",
+        "text": "第86页"
+      },
+      {
+        "href": "https://arxiv.org/abs/2601.16621",
+        "text": "论文摘要与版本入口"
+      },
+      {
+        "href": "../../qa/independent-review/tools-memory/source-check.json",
+        "text": "本轮官方来源核对记录"
+      },
+      {
+        "href": "../../qa/independent-review/tools-memory-review.md",
+        "text": "工具与Memory逐页审阅记录"
+      }
+    ]
+  },
+  {
+    "id": "RP_PAPER",
+    "clicked": "../../index.html#p=86&s=1",
+    "visibleCharacters": 134,
+    "not404": true
+  },
+  {
+    "id": "RP_PAPER",
+    "clicked": "../../index.html#p=86&s=1",
+    "visibleCharacters": 134,
+    "not404": true
+  },
+  {
+    "id": "RP_PAPER",
+    "clicked": "../../qa/independent-review/tools-memory/source-check.json",
+    "visibleCharacters": 5876,
+    "not404": true
+  },
+  {
+    "id": "RP_PAPER",
+    "clicked": "../../qa/independent-review/tools-memory-review.md",
+    "visibleCharacters": 60,
+    "not404": true
+  }
+]

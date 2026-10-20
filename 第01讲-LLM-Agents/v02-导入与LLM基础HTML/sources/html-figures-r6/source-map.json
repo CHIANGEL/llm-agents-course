@@ -1,0 +1,172 @@
+{
+  "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-Agent Externalization与Internalization.pdf",
+  "source_sha256": "27b8339daf248aa5cc73eb6e45c7af98cf8cd5d6dddfa3a8d88ef2652070d163",
+  "method": "从只读PDF的已保存渲染图按坐标截图，不重绘图案；所有说明文字在HTML排版。",
+  "clips": [
+    {
+      "file": "tool.png",
+      "source_physical_page": 24,
+      "rect": [
+        88,
+        210,
+        151,
+        267
+      ],
+      "scale": 2
+    },
+    {
+      "file": "memory.png",
+      "source_physical_page": 24,
+      "rect": [
+        89,
+        274,
+        143,
+        332
+      ],
+      "scale": 2
+    },
+    {
+      "file": "skill.png",
+      "source_physical_page": 24,
+      "rect": [
+        82,
+        335,
+        150,
+        401
+      ],
+      "scale": 2
+    },
+    {
+      "file": "protocol.png",
+      "source_physical_page": 24,
+      "rect": [
+        85,
+        402,
+        154,
+        464
+      ],
+      "scale": 2
+    },
+    {
+      "file": "row-arrow.png",
+      "source_physical_page": 24,
+      "rect": [
+        296,
+        229,
+        338,
+        254
+      ],
+      "scale": 2
+    },
+    {
+      "file": "brace.png",
+      "source_physical_page": 24,
+      "rect": [
+        605,
+        207,
+        640,
+        459
+      ],
+      "scale": 2
+    },
+    {
+      "file": "model.png",
+      "source_physical_page": 25,
+      "rect": [
+        77,
+        222,
+        226,
+        404
+      ],
+      "scale": 2
+    },
+    {
+      "file": "computer.png",
+      "source_physical_page": 25,
+      "rect": [
+        732,
+        250,
+        894,
+        404
+      ],
+      "scale": 2
+    },
+    {
+      "file": "blue-arrow.png",
+      "source_physical_page": 25,
+      "rect": [
+        248,
+        273,
+        716,
+        332
+      ],
+      "scale": 2
+    },
+    {
+      "file": "red-arrow-head.png",
+      "source_physical_page": 25,
+      "rect": [
+        233,
+        358,
+        275,
+        416
+      ],
+      "scale": 2
+    },
+    {
+      "file": "red-arrow-shaft.png",
+      "source_physical_page": 25,
+      "rect": [
+        274,
+        377,
+        639,
+        401
+      ],
+      "scale": 2
+    },
+    {
+      "file": "list-map.png",
+      "source_physical_page": 23,
+      "rect": [
+        32,
+        258,
+        258,
+        397
+      ],
+      "scale": 2
+    },
+    {
+      "file": "three-layers.png",
+      "source_physical_page": 23,
+      "rect": [
+        336,
+        278,
+        612,
+        375
+      ],
+      "scale": 2
+    },
+    {
+      "file": "external-internal.png",
+      "source_physical_page": 23,
+      "rect": [
+        697,
+        272,
+        941,
+        385
+      ],
+      "scale": 2
+    },
+    {
+      "file": "next-arrow.png",
+      "source_physical_page": 23,
+      "rect": [
+        275,
+        308,
+        322,
+        353
+      ],
+      "scale": 2
+    }
+  ]
+}

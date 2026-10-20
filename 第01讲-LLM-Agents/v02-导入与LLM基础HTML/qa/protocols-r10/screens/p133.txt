@@ -1,0 +1,52 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-qa1#p=133&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-qa1#p=133&s=1
+	2 container
+		42 container Description: 第133页 理解协议：连接谁，为哪些场景设计？, ID: mount
+			43 container 第133页 理解协议：连接谁，为哪些场景设计？
+				44 heading 理解协议：连接谁，为哪些场景设计？, Value: 1
+					45 text 理解协议：连接谁，为哪些场景设计？
+				46 container 课件内容
+					47 container
+						48 text 看懂一种协议，先问 “连接谁” ，再问“为哪些场景设计”。
+						49 image 协议的交互对象与适用场景两个维度
+						50 content list
+							51 container
+								52 AXListMarker • 
+								53 text 连接工具与数据：约定能力说明、调用格式与返回内容。
+							54 container
+								55 AXListMarker • 
+								56 text 连接另一个Agent：约定如何委托、补充信息、报告状态与交付成果。
+						57 text 交互对象与适用范围可以组合；本章重点看MCP和A2A。
+				58 container 课程进度
+					59 button 导入
+					60 button 1. LLM基础
+					61 button 2. Prompting
+					62 button 3. Agents · Externalization & Internalization
+						63 text 3. Agents 
+						64 text · Externalization & Internalization
+					65 button 3.0 外化与内化总览
+					66 button 3.1 工具调用
+					67 button 3.2 Memory
+					68 button 3.3 Skills
+					69 button 3.4 Protocols
+					70 button 3.5 Harness
+					71 button 3.6 外化与内化整合
+					72 button 3.7 全讲总结
+		27 container Description: 课件操作, ID: controls
+			28 button Description: 上一步, Help: 上一步（←）
+			29 button Description: 下一步, Help: 下一步（→或空格）
+			30 container jump-form
+				31 text 页码
+				32 stepper (settable, integer) Description: 页码, Value: 133, ID: page-input
+				33 text / 177
+			73 text 整页显示
+			35 button 目录
+			36 button 讲者备注
+			37 button 完整材料
+			38 button 放大图解
+			39 button 全屏
+			40 button 隐藏, Help: 按H恢复
+			41 button 操作说明
+		74 text 第133页，理解协议：连接谁，为哪些场景设计？，整页显示
+
+The focused UI element is 42 container Description: 第133页 理解协议：连接谁，为哪些场景设计？, ID: mount

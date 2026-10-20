@@ -1,0 +1,14 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=40&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=40&s=1
+	2 container
+		3 container Description: 第40页 最小实验：用行动取得新的判断依据, ID: mount
+			4 container 第40页 最小实验：用行动取得新的判断依据
+				5 heading 最小实验：用行动取得新的判断依据, Value: 1
+					6 text 最小实验：用行动取得新的判断依据
+				7 container 课件内容
+					8 container
+						9 text 有些不确定性需要现实反馈。先验证最可能改变决定的假设。 先找到关键假设 列出3个，选最可能改变
+最终结论的1个 设计低成本、可逆的验证 限定周期、时间和资源投入 行动之前：指标与判定条件 什么结果支持继续 什么结果提醒停止 行动之后：获得什么新信息 先写清判断标准，再行动；新信息要能帮助下一步选择。
+		10 text 第40页，最小实验：用行动取得新的判断依据，整页显示
+
+The focused UI element is 3 container Description: 第40页 最小实验：用行动取得新的判断依据, ID: mount

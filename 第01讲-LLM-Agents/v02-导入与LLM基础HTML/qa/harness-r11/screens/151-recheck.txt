@@ -1,0 +1,45 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=151&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=151&s=1
+	2 container
+		106 container Description: 第151页 让任务持续运行，还要解决哪些问题？, ID: mount
+			107 container 第151页 让任务持续运行，还要解决哪些问题？
+				108 heading 让任务持续运行，还要解决哪些问题？, Value: 1
+					109 text 让任务持续运行，还要解决哪些问题？
+				110 container 课件内容
+					111 container
+						112 text 运行越长、可做的事越多，越需要安排材料、约束、分工与进度。
+						113 image 模型与外部系统共同完成整理信息、执行约束、保存进度及分配子任务
+						114 text 输入越来越长 ① 上下文 压缩与清理 操作影响外部 ② 沙盒与权限 范围与放行 固定动作反复做 ③ Hooks 按事件触发 任务能否拆开 ④ 子智能体 分工与汇总 中断后接着做 ⑤ 进度与恢复 记录与核对 下面按“材料 → 操作 → 触发 → 分工 → 连续运行”逐项展开。
+				115 container 课程进度
+					116 button 导入
+					117 button 1. LLM基础
+					118 button 2. Prompting
+					119 button 3. Agents · Externalization & Internalization
+						120 text 3. Agents 
+						121 text · Externalization & Internalization
+					122 button 3.0 外化与内化总览
+					123 button 3.1 工具调用
+					124 button 3.2 Memory
+					125 button 3.3 Skills
+					126 button 3.4 Protocols
+					127 button 3.5 Harness
+					128 button 3.6 外化与内化整合
+					129 button 3.7 全讲总结
+		91 container Description: 课件操作, ID: controls
+			92 button Description: 上一步, Help: 上一步（←）
+			93 button Description: 下一步, Help: 下一步（→或空格）
+			94 container jump-form
+				95 text 页码
+				96 stepper (settable, integer) Description: 页码, Value: 151, ID: page-input
+				97 text / 175
+			130 text 整页显示
+			99 button 目录
+			100 button 讲者备注
+			101 button 完整材料
+			102 button 放大图解
+			103 button 全屏
+			104 button 隐藏, Help: 按H恢复
+			105 button 操作说明
+		131 text 第151页，让任务持续运行，还要解决哪些问题？，整页显示
+
+The focused UI element is 106 container Description: 第151页 让任务持续运行，还要解决哪些问题？, ID: mount

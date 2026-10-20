@@ -1,0 +1,116 @@
+[
+  {
+    "listCount": 8,
+    "page": 112,
+    "selected": "基础指令客户端准备",
+    "title": "首次输入：摘要怎样进入模型？"
+  },
+  {
+    "listCount": 0,
+    "page": 113,
+    "selected": null,
+    "title": "摘要足够吗？哪些内容还要查？"
+  },
+  {
+    "listCount": 8,
+    "page": 114,
+    "selected": "模型：读取预算记录生成工具调用",
+    "title": "模型生成读取调用"
+  },
+  {
+    "listCount": 8,
+    "page": 115,
+    "selected": "工具：返回预算范围读取文件得到正文",
+    "title": "工具返回后，输入增加了什么？"
+  },
+  {
+    "listCount": 0,
+    "page": 116,
+    "selected": null,
+    "title": "读取记忆后的采购判断"
+  },
+  {
+    "listCount": 8,
+    "page": 117,
+    "selected": "模型：给出评审要点结合当前任务与记忆",
+    "title": "模型生成采购评审要点"
+  },
+  {
+    "listCount": 8,
+    "page": 118,
+    "selected": "用户：正式部署30万元新的条件",
+    "title": "用户补充正式部署条件"
+  },
+  {
+    "listCount": 0,
+    "page": 119,
+    "selected": null,
+    "title": "文件更新了，当前输入会自动变吗？"
+  },
+  {
+    "listCount": 23,
+    "page": 134,
+    "selected": "当前条件：沿用Memory案例客户端提供",
+    "title": "当前输入：采购条件、用户任务与Skill目录"
+  },
+  {
+    "listCount": 23,
+    "page": 135,
+    "selected": "模型：选用采购评审Skill模型生成",
+    "title": "第一次读取：从目录进入SKILL.md"
+  },
+  {
+    "listCount": 23,
+    "page": 136,
+    "selected": "模型：读取正式部署方法模型生成",
+    "title": "第二次读取：找到正式部署的评审方法"
+  },
+  {
+    "listCount": 23,
+    "page": 137,
+    "selected": "模型：继续读取费用口径模型生成",
+    "title": "第三次读取：评审方法继续指向费用口径"
+  },
+  {
+    "listCount": 23,
+    "page": 138,
+    "selected": "模型：读取项目已有要求模型生成",
+    "title": "组织初稿：把项目事实放进评审结构"
+  },
+  {
+    "listCount": 23,
+    "page": 139,
+    "selected": "模型：运行生成脚本模型生成",
+    "title": "生成文件：脚本读取初稿与模板"
+  },
+  {
+    "listCount": 23,
+    "page": 140,
+    "selected": "模型：读取交付检查清单模型生成",
+    "title": "生成之后：另读检查清单，再读回产物"
+  },
+  {
+    "listCount": 23,
+    "page": 141,
+    "selected": "模型：运行一致性检查模型生成",
+    "title": "运行检查：条件、初稿与产物是否一致？"
+  },
+  {
+    "listCount": 0,
+    "page": 142,
+    "selected": null,
+    "title": "一页采购评审要点：内容与当前任务一致"
+  },
+  {
+    "listCount": 23,
+    "page": 143,
+    "selected": "模型：交付评审要点模型生成",
+    "title": "交付：说明文件内容与待确认事项"
+  },
+  {
+    "listCount": 0,
+    "page": 144,
+    "selected": null,
+    "title": "渐进式披露：沿任务逐层读取，用到时再展开"
+  }
+]

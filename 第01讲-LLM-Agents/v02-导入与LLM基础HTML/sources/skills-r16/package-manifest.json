@@ -1,0 +1,38 @@
+[
+  {
+    "path": "SKILL.md",
+    "sha256": "b8619b224c574c3ea7f77b0057f2fabbf79e100de5e05e2aa201cf34752c84d8"
+  },
+  {
+    "path": "references/rollout-review.md",
+    "sha256": "27bfcf7a66374b210271d581678beaabda0af7cb9d65bdcaa99fc52919b10e19"
+  },
+  {
+    "path": "references/pilot-review.md",
+    "sha256": "3c5f65d08f085d6b883eec84d65789d54b4c70f748920e84fa80a302d715696a"
+  },
+  {
+    "path": "references/cost-scope.md",
+    "sha256": "3f94785a6639137afff4a78b731ec71a273aeaf4bd1776c8afd67b4a09405e36"
+  },
+  {
+    "path": "references/quality-checklist.md",
+    "sha256": "8e488215c3c7a03994e5b6ad48d66ef8000b0792664bbf637ec10b5ea1135aa7"
+  },
+  {
+    "path": "agents/openai.yaml",
+    "sha256": "b2fac7100b2a57a0fd1836ac3fed18b6b714b39c56bec55ab32234aee8d3d828"
+  },
+  {
+    "path": "assets/review-template.html",
+    "sha256": "6aa73063d90d0559236f05e1abc065dcab0812506bf966cb3d5b44a2003d19e9"
+  },
+  {
+    "path": "scripts/render_review.py",
+    "sha256": "62bd132e65eeefd35a65c7ef31eededecb2d8b1b8eca7706202c9149b0e0ec4b"
+  },
+  {
+    "path": "scripts/check_review.py",
+    "sha256": "e5c1cd79f3666fd8936f045e6f166ef140af94b4cb7aead322d95c229b04fed5"
+  }
+]

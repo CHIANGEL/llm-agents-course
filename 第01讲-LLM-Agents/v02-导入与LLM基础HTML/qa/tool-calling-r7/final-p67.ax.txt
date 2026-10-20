@@ -1,0 +1,31 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/index.html#p=67&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/index.html#p=67&s=1
+	2 container
+		3 container Description: 第67页 程序执行工具，取得模型之外的结果, ID: mount
+			4 container 第67页 程序执行工具，取得模型之外的结果
+				5 heading 程序执行工具，取得模型之外的结果, Value: 1
+					6 text 程序执行工具，取得模型之外的结果
+				7 container 课件内容
+					8 container
+						9 text 模型给出调用文本；实际读取由应用程序执行。 ① 应用解析并调用 get_weather
+						10 text (location="New York") ② 工具读取天气记录 weather_fixture.json New York → 72°F / Partly cloudy ③ 应用追加调用与结果 原来的问题和工具说明保留，
+						11 text 新的天气结果进入下一次输入。 Current weather in New York:
+Temperature: 72°F
+Conditions: Partly cloudy 接入天气服务时，工具从服务查询数据；这里的读取过程连接了模型与外部文件。
+				12 container 课程进度
+					13 button 导入
+					14 button 1. LLM基础
+					15 button 2. Prompting
+					16 button 3. Agents · Externalization & Internalization
+						17 text 3. Agents 
+						18 text · Externalization & Internalization
+					19 button 3.0 外化与内化总览
+					20 button 3.1 工具调用
+					21 button 3.2 Memory
+					22 button 3.3 Skills
+					23 button 3.4 Harness
+					24 button 3.5 外化与内化整合
+					25 button 3.6 全讲总结
+		26 text 第67页，程序执行工具，取得模型之外的结果，整页显示
+
+The focused UI element is 3 container Description: 第67页 程序执行工具，取得模型之外的结果, ID: mount

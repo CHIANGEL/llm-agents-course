@@ -1,0 +1,21 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=39&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=39&s=1
+	2 container
+		3 container Description: 第39页 双向钢人论证：原始Prompt, ID: mount
+			4 container 第39页 双向钢人论证：原始Prompt
+				5 heading 双向钢人论证：原始Prompt, Value: 1
+					6 text 双向钢人论证：原始Prompt
+				7 container 课件内容
+					8 container
+						9 text 充分比较两边之后，只追问最可能改变结论的一个问题。 原始Prompt 接续左栏
+						10 text 我需要做的决定是：【写清问题、两个选项、目标和现实约束】。
+						11 text 先别急着回答，也别默认我已经把问题想清楚。请先做一次双向钢人论证：
+						12 text 1. 用最完整、有力的方式，重述我真正需要做出的选择；
+						13 text 2. 分别给出支持两个方向的最强理由、适用条件、最大收益、最大风险，以及最难回答的反对意见；
+						14 text 3. 找出双方真正的分歧、最可能改变结论的关键变量，以及还需要补充的信息；
+						15 text 4. 只问我一个最可能改变结论的问题。
+						16 text 等我回答以后，再给出明确判断、理由、适用条件和下一步行动。
+						17 text 《Prompting技巧》· 决策 · 第9–10页
+		18 text 第39页，双向钢人论证：原始Prompt，整页显示
+
+The focused UI element is 3 container Description: 第39页 双向钢人论证：原始Prompt, ID: mount

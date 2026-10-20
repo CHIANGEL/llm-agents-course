@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "url": "http://127.0.0.1:8765/sources/prompting-r2/reader.html?from=34#prompt-1",
+    "heading": "问清问题 · 苏格拉底式提问"
+  },
+  {
+    "id": 2,
+    "url": "http://127.0.0.1:8765/sources/prompting-r2/reader.html?from=34#prompt-2",
+    "heading": "学习 · 双层解释法"
+  },
+  {
+    "id": 3,
+    "url": "http://127.0.0.1:8765/sources/prompting-r2/reader.html?from=34#prompt-3",
+    "heading": "学习 · 反向拆解"
+  },
+  {
+    "id": 4,
+    "url": "http://127.0.0.1:8765/sources/prompting-r2/reader.html?from=34#prompt-4",
+    "heading": "学习 · 横纵分析法"
+  },
+  {
+    "id": 5,
+    "url": "http://127.0.0.1:8765/sources/prompting-r2/reader.html?from=34#prompt-5",
+    "heading": "学习 · 事实核查"
+  },
+  {
+    "id": 6,
+    "url": "http://127.0.0.1:8765/sources/prompting-r2/reader.html?from=34#prompt-6",
+    "heading": "解决问题 · 专家会诊"
+  },
+  {
+    "id": 7,
+    "url": "http://127.0.0.1:8765/sources/prompting-r2/reader.html?from=34#prompt-7",
+    "heading": "解决问题 · 第一性原理"
+  },
+  {
+    "id": 8,
+    "url": "http://127.0.0.1:8765/sources/prompting-r2/reader.html?from=34#prompt-8",
+    "heading": "解决问题 · 跨领域借解"
+  },
+  {
+    "id": 9,
+    "url": "http://127.0.0.1:8765/sources/prompting-r2/reader.html?from=34#prompt-9",
+    "heading": "决策 · 双向钢人论证"
+  },
+  {
+    "id": 10,
+    "url": "http://127.0.0.1:8765/sources/prompting-r2/reader.html?from=34#prompt-10",
+    "heading": "决策 · 用最小实验替代空想"
+  }
+]

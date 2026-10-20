@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "python3",
+    "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/skills-r9/package/scripts/new_notebook.py",
+    "--kind",
+    "tutorial",
+    "--title",
+    "Python列表与平均值",
+    "--out",
+    "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/skills-r9/output/python-lists-and-mean.ipynb"
+  ],
+  "timestamp": "2026-10-20T02:49:07.607600",
+  "exit_code": 0,
+  "stdout": "Wrote /Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/skills-r9/output/python-lists-and-mean.ipynb using kind=tutorial.\n",
+  "stderr": ""
+}

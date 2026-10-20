@@ -1,0 +1,53 @@
+{
+  "checked_date": "2026-09-30",
+  "protocol_version": "2026-07-28",
+  "source": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+  "source_locators": [
+    "Listing Tools",
+    "Calling Tools"
+  ],
+  "official_fixture_fields": [
+    "get_weather name/description/inputSchema",
+    "New York weather result text"
+  ],
+  "classroom_adaptations": [
+    "IDs 101/102",
+    "client/server names",
+    "metadata",
+    "single-page list without nextCursor",
+    "model prompt/messages/tool adapter",
+    "assistant decision and final answer"
+  ],
+  "omitted_optional_tool_fields": [
+    "title",
+    "icons"
+  ],
+  "model_inference_run": false,
+  "network_mcp_run": false,
+  "live_weather_query": false,
+  "local_schema_mapping_and_json_serialization_run": true,
+  "qwen_template_rendered_locally": true,
+  "qwen_template_origin": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "checked_date": "2026-09-30",
+    "files": [
+      {
+        "name": "tokenizer_config.json",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/a09a35458c702b33eeacc393d103063234e8bc28/tokenizer_config.json",
+        "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+        "bytes": 7305
+      },
+      {
+        "name": "LICENSE",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/a09a35458c702b33eeacc393d103063234e8bc28/LICENSE",
+        "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+        "bytes": 11343
+      }
+    ],
+    "model_weights_downloaded": false
+  },
+  "model_call_id": "assigned by the classroom adapter in this fixture; not a claim about generated tokens",
+  "message_format": "classroom/Qwen-compatible internal messages; not Codex wire or an MCP requirement",
+  "tool_result_adapter_scope": "one successful complete text-only result; not a general multimodal/error adapter"
+}

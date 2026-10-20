@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=17&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=17&s=1
+	2 container
+		3 container Description: 第17页 给Example：把想要的样子给模型看, ID: mount
+			4 container 第17页 给Example：把想要的样子给模型看
+				5 heading 给Example：把想要的样子给模型看, Value: 1
+					6 text 给Example：把想要的样子给模型看
+				7 container 课件内容
+					8 container
+						9 text “清楚、专业、有逻辑”不如一个具体样例。给文件，也说明要参考什么。 参考样例
+						10 image 本课聊天模板页：聊天消息与连续输入左右对应
+						11 text 说明要参考的特征 版式：页眉、字号、图文比例
+						12 text 结构：先说明问题，再展示对应关系
+						13 text 表达：对象明确，动作具体 “参考这页的版式和图文对应方式，
+把新内容的关系讲清楚。” 样例提供具体标准；同时说清哪些特征需要沿用。
+		14 text 第17页，给Example：把想要的样子给模型看，整页显示
+
+The focused UI element is 3 container Description: 第17页 给Example：把想要的样子给模型看, ID: mount

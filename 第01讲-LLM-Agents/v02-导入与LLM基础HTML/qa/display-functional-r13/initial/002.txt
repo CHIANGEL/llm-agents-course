@@ -1,0 +1,37 @@
+- main:
+  - article "第2页 回答、操作与交付":
+    - heading "回答、操作与交付" [level=1]
+    - region "课件内容":
+      - generic: 活动共有50人，每桌最多6人，至少需要几张桌子？
+      - generic: 8桌坐满，共48人
+      - text: 剩下2人
+      - text: 还需要1桌
+      - text: 8 × 6 ＋ 2 ＝ 50人
+      - text: 至少需要 9张桌子
+      - generic: 用程序计算
+      - generic: 向上取整（50 ÷ 6）
+      - generic: 程序运行 → 返回 9
+      - text: 代码写出来，
+      - text: 还需要程序执行。
+      - generic: 如果任务还包括预订桌位，就需要进入预订系统，取得操作回执。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - generic: 生成回答 → 交代任务 → 组织执行
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "2"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "备注 / 来源"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第2页，回答、操作与交付，整页显示

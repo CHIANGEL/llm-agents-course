@@ -1,0 +1,79 @@
+[
+  {
+    "id": "49",
+    "providerTabId": "be395238-ad30-48f7-b851-399264ad36f2",
+    "title": "LLM Agents · 入门与实践",
+    "url": "http://127.0.0.1:8765/?revision=integration-r21#p=188&s=1",
+    "browserId": "2"
+  },
+  {
+    "id": "50",
+    "providerTabId": "browser-use:c6622754-949e-44bd-82b8-87c31b1c2911",
+    "title": "Rethinking skills and prompts for GPT-6 Astra | OpenAI Developers",
+    "url": "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra",
+    "browserId": "2"
+  },
+  {
+    "id": "51",
+    "providerTabId": "a08180d1-427e-4772-abaf-b8e0bbcbc026",
+    "title": "Amazon boosts Meta's Muse in fight over agentic shopping",
+    "url": "https://www.axios.com/2026/09/21/amazon-meta-muse-ai-agentic-shopping",
+    "browserId": "2"
+  },
+  {
+    "id": "52",
+    "providerTabId": "4645867e-ea0c-432f-9e8b-4b9bb9e2a314",
+    "title": "含DeepSeek、微信等，151款应用拒绝接入豆包手机助手|界面新闻 · 科技",
+    "url": "https://www.jiemian.com/article/15189349.html",
+    "browserId": "2"
+  },
+  {
+    "id": "57",
+    "providerTabId": "c446241e-c5d4-4686-9914-c54cfc4b1d7d",
+    "title": "504 Gateway Time-out",
+    "url": "https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/",
+    "browserId": "2"
+  },
+  {
+    "id": "53",
+    "providerTabId": "92f387a5-6cb8-4b48-9546-6e497a864518",
+    "title": "GitHub - browser-use/browser-use: Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API. · GitHub",
+    "url": "https://github.com/browser-use/browser-use",
+    "browserId": "2"
+  },
+  {
+    "id": "54",
+    "providerTabId": "2fbeb9ed-671d-4f09-9d91-477bedbbc680",
+    "title": "Language-guided manipulation on a low-cost robot arm | Zhiyang (Frank) Dou",
+    "url": "https://people.csail.mit.edu/frankzydou/blog/so101-pen-pickup/index.html",
+    "browserId": "2"
+  },
+  {
+    "id": "55",
+    "providerTabId": "539ecd9c-e253-4fd7-bb71-f9caa1a32d8b",
+    "title": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal · GitHub",
+    "url": "https://github.com/openai/codex",
+    "browserId": "2"
+  },
+  {
+    "id": "56",
+    "providerTabId": "7e6f2f44-93f0-4e71-a31d-a3914f3b80a0",
+    "title": "采购评审要点",
+    "url": "http://127.0.0.1:8765/sources/skills-r16/case/output/procurement-review.html",
+    "browserId": "2"
+  },
+  {
+    "id": "58",
+    "providerTabId": "browser-use:ce994184-9e58-4b26-bb31-e2fb8da5038f",
+    "title": "LLM Agents · 入门与实践",
+    "url": "http://127.0.0.1:8765/?revision=display-qa-r22#p=195&s=1",
+    "browserId": "2"
+  },
+  {
+    "id": "59",
+    "providerTabId": "0b55fe65-9a4a-49b2-9789-4fbb379b7f10",
+    "title": "Rethinking skills and prompts for GPT-6 Astra | OpenAI Developers",
+    "url": "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra",
+    "browserId": "2"
+  }
+]

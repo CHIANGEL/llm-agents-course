@@ -1,0 +1,170 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=108&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=108&s=1
+	2 container
+		156 container Description: 第108页 打开jupyter-notebook：12个文件各有什么用？, ID: mount
+			157 container 第108页 打开jupyter-notebook：12个文件各有什么用？
+				158 heading 打开jupyter-notebook：12个文件各有什么用？, Value: 1
+					159 text 打开jupyter-notebook：12个文件各有什么用？
+				160 container 课件内容
+					161 container
+						162 text 从左侧选择文件；右侧查看原文、模板或图标。
+						163 heading jupyter-notebook / 12个文件, Value: 2
+							164 text jupyter-notebook / 12个文件
+						165 container
+							166 checkbox SKILL.md, Value: 1
+							167 checkbox references/tutorial-patterns.md, Value: 0
+							168 checkbox references/experiment-patterns.md, Value: 0
+							169 checkbox references/notebook-structure.md, Value: 0
+							170 checkbox references/quality-checklist.md, Value: 0
+							171 checkbox scripts/new_notebook.py, Value: 0
+							172 checkbox assets/tutorial-template.ipynb, Value: 0
+							173 checkbox assets/experiment-template.ipynb, Value: 0
+							174 checkbox agents/openai.yaml, Value: 0
+							175 checkbox assets/jupyter-small.svg, Value: 0
+							176 checkbox assets/jupyter.png, Value: 0
+							177 checkbox LICENSE.txt, Value: 0
+						178 button 重置
+						179 heading SKILL.md, Value: 2
+							180 text SKILL.md
+						181 text ---
+name: "jupyter-notebook"
+description: "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook."
+---
+
+
+# Jupyter Notebook Skill
+
+Create clean, reproducible Jupyter notebooks for two primary modes:
+
+- Experiments and exploratory analysis
+- Tutorials and teaching-oriented walkthroughs
+
+Prefer the bundled templates and the helper script for consistent structure and fewer JSON mistakes.
+
+## When to use
+- Create a new `.ipynb` notebook from scratch.
+- Convert rough notes or scripts into a structured notebook.
+- Refactor an existing notebook to be more reproducible and skimmable.
+- Build experiments or tutorials that will be read or re-run by other people.
+
+## Decision tree
+- If the request is exploratory, analytical, or hypothesis-driven, choose `experiment`.
+- If the request is instructional, step-by-step, or audience-specific, choose `tutorial`.
+- If editing an existing notebook, treat it as a refactor: preserve intent and improve structure.
+
+## Skill path (set once)
+
+```bash
+export CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
+export JUPYTER_NOTEBOOK_CLI="$CODEX_HOME/skills/jupyter-notebook/scripts/new_notebook.py"
+```
+
+User-scoped skills install under `$CODEX_HOME/skills` (default: `~/.codex/skills`).
+
+## Workflow
+1. Lock the intent.
+Identify the notebook kind: `experiment` or `tutorial`.
+Capture the objective, audience, and what "done" looks like.
+
+2. Scaffold from the template.
+Use the helper script to avoid hand-authoring raw notebook JSON.
+
+```bash
+uv run --python 3.12 python "$JUPYTER_NOTEBOOK_CLI" \
+  --kind experiment \
+  --title "Compare prompt variants" \
+  --out output/jupyter-notebook/compare-prompt-variants.ipynb
+```
+
+```bash
+uv run --python 3.12 python "$JUPYTER_NOTEBOOK_CLI" \
+  --kind tutorial \
+  --title "Intro to embeddings" \
+  --out output/jupyter-notebook/intro-to-embeddings.ipynb
+```
+
+3. Fill the notebook with small, runnable steps.
+Keep each code cell focused on one step.
+Add short markdown cells that explain the purpose and expected result.
+Avoid large, noisy outputs when a short summary works.
+
+4. Apply the right pattern.
+For experiments, follow `references/experiment-patterns.md`.
+For tutorials, follow `references/tutorial-patterns.md`.
+
+5. Edit safely when working with existing notebooks.
+Preserve the notebook structure; avoid reordering cells unless it improves the top-to-bottom story.
+Prefer targeted edits over full rewrites.
+If you must edit raw JSON, review `references/notebook-structure.md` first.
+
+6. Validate the result.
+Run the notebook top-to-bottom when the environment allows.
+If execution is not possible, say so explicitly and call out how to validate locally.
+Use the final pass checklist in `references/quality-checklist.md`.
+
+## Templates and helper script
+- Templates live in `assets/experiment-template.ipynb` and `assets/tutorial-template.ipynb`.
+- The helper script loads a template, updates the title cell, and writes a notebook.
+
+Script path:
+- `$JUPYTER_NOTEBOOK_CLI` (installed default: `$CODEX_HOME/skills/jupyter-notebook/scripts/new_notebook.py`)
+
+## Temp and output conventions
+- Use `tmp/jupyter-notebook/` for intermediate files; delete when done.
+- Write final artifacts under `output/jupyter-notebook/` when working in this repo.
+- Use stable, descriptive filenames (for example, `ablation-temperature.ipynb`).
+
+## Dependencies (install only when needed)
+Prefer `uv` for dependency management.
+
+Optional Python packages for local notebook execution:
+
+```bash
+uv pip install jupyterlab ipykernel
+```
+
+The bundled scaffold script uses only the Python standard library and does not require extra dependencies.
+
+## Environment
+No required environment variables.
+
+## Reference map
+- `references/experiment-patterns.md`: experiment structure and heuristics.
+- `references/tutorial-patterns.md`: tutorial structure and teaching flow.
+- `references/notebook-structure.md`: notebook JSON shape and safe editing rules.
+- `references/quality-checklist.md`: final validation checklist.
+
+						182 text 名称与用途帮助匹配任务；正文说明步骤、资源位置与检查方法。
+						183 text 入口文件组织方法；参考、脚本与模板为具体任务提供可取用的资源。
+				184 container 课程进度
+					185 button 导入
+					186 button 1. LLM基础
+					187 button 2. Prompting
+					188 button 3. Agents · Externalization & Internalization
+						189 text 3. Agents 
+						190 text · Externalization & Internalization
+					191 button 3.0 外化与内化总览
+					192 button 3.1 工具调用
+					193 button 3.2 Memory
+					194 button 3.3 Skills
+					195 button 3.4 Harness
+					196 button 3.5 外化与内化整合
+					197 button 3.6 全讲总结
+		141 container Description: 课件操作, ID: controls
+			142 button Description: 上一步, Help: 上一步（←）
+			143 button Description: 下一步, Help: 下一步（→或空格）
+			144 container jump-form
+				145 text 页码
+				146 stepper (settable, integer) Description: 页码, Value: 108, ID: page-input
+				147 text / 161
+			198 text 整页显示
+			149 button 目录
+			150 button 讲者备注
+			151 button 完整材料
+			152 button 放大图解
+			153 button 全屏
+			154 button 隐藏, Help: 按H恢复
+			155 button 操作说明
+		199 text 第108页，打开jupyter-notebook：12个文件各有什么用？，整页显示
+
+The focused UI element is 156 container Description: 第108页 打开jupyter-notebook：12个文件各有什么用？, ID: mount

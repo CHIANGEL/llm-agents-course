@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-19",
+  "files": [
+    {
+      "id": "L1",
+      "title": "原课程第1讲 v09",
+      "original_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v09-章节导引与机制扩充/slide_manifest.json",
+      "copy": "sources/library/L1/original.json",
+      "sha256": "74dec912c3e7c0ef92fcf85e285370a33713986b171e93dc6859df539d7d7681",
+      "reader": "sources/library/L1/index.html",
+      "reader_text_source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第01讲-大模型的发展、基本原理与聊天机制/v09-章节导引与机制扩充/slide_manifest.json"
+    },
+    {
+      "id": "L2",
+      "title": "原课程第2讲 v09",
+      "original_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v09-论文原图与实验表/slide_manifest.json",
+      "copy": "sources/library/L2/original.json",
+      "sha256": "43181edcafe724528147e760060908c1f8acadaeee7887ff0c5f06d403fe4cd1",
+      "reader": "sources/library/L2/index.html",
+      "reader_text_source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v09-论文原图与实验表/slide_manifest.json"
+    },
+    {
+      "id": "L3",
+      "title": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+      "original_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slide_manifest.json",
+      "copy": "sources/library/L3/original.json",
+      "sha256": "83dccce8f3f9a0137eaea900269622928dbaf1f763cdb92c75c35cdaf115a01a",
+      "reader": "sources/library/L3/index.html",
+      "reader_text_source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slide_manifest.json"
+    },
+    {
+      "id": "TEACHER",
+      "title": "教师Prompting五项心得",
+      "original_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/参考资料/教师心得补充原文.md",
+      "copy": "sources/library/TEACHER/original.md",
+      "sha256": "45f1f11359b25bbbb4109466a2451b085fc46f55508ad90864d163b62a8fcc96",
+      "reader": "sources/library/TEACHER/index.html",
+      "reader_text_source": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/参考资料/教师心得补充原文.md"
+    },
+    {
+      "id": "PROMPT_PDF",
+      "title": "Prompting技巧 PDF",
+      "original_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/参考资料/Prompting技巧.pdf",
+      "copy": "sources/library/PROMPT_PDF/original.pdf",
+      "sha256": "7709a7f604ea71312e294d12c56f499551118db7f8953fc6dce7ae305d0c5e5e",
+      "reader": "sources/library/PROMPT_PDF/index.html",
+      "reader_text_source": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/library/PROMPT_PDF/extracted.txt"
+    },
+    {
+      "id": "PLAN",
+      "title": "MBA课程共识与制作规范",
+      "original_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/课程共识与制作规范.md",
+      "copy": "sources/library/PLAN/original.md",
+      "sha256": "4f9f84b92202d5b89cadb559935841ef0cd49e6e904b2004d585bac5c4a68692",
+      "reader": "sources/library/PLAN/index.html",
+      "reader_text_source": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/课程共识与制作规范.md"
+    },
+    {
+      "id": "MEM",
+      "title": "Memory专题 v09",
+      "original_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-Agent-Memory/v09-记忆读取课堂版/index.html",
+      "copy": "sources/library/MEM/original.html",
+      "sha256": "b0a8e08832af00dad0ddac49e146285ac984d08cdeaa5974fe62f621f11a8ea8",
+      "reader": "sources/library/MEM/index.html",
+      "reader_text_source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-Agent-Memory/v09-记忆读取课堂版/slides.json"
+    },
+    {
+      "id": "SKILL",
+      "title": "Skills专题 v01",
+      "original_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-Agent-Skills/v01-渐进式披露演示/index.html",
+      "copy": "sources/library/SKILL/original.html",
+      "sha256": "dd6e0c1c839d4873f2585c77d9ce8b7606595e961db63630addc4d2ddf009a3e",
+      "reader": "sources/library/SKILL/index.html",
+      "reader_text_source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-Agent-Skills/v01-渐进式披露演示/slides.json"
+    },
+    {
+      "id": "MCP",
+      "title": "原课程专题：MCP连接与调用演示",
+      "original_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-MCP/v01-连接与调用演示/index.html",
+      "copy": "sources/library/MCP/original.html",
+      "sha256": "e6a5284b1352157237e766660a1f7c9d1db854d750ea02927fcdfb6abb09b2d1",
+      "reader": "sources/library/MCP/index.html",
+      "reader_text_source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-MCP/v01-连接与调用演示/slides.json"
+    },
+    {
+      "id": "NOTEBOOK_COMPLETED",
+      "title": "Python列表与平均值：完整Notebook与运行结果",
+      "original_path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/agents-skills/completed/python-lists-and-mean-completed.ipynb",
+      "copy": "sources/library/NOTEBOOK_COMPLETED/original.ipynb",
+      "sha256": "50f3f8bf4f378aac1a8238834edb41a6ae4d2b9dde0171155b9df46945a082c6",
+      "reader": "sources/library/NOTEBOOK_COMPLETED/index.html",
+      "reader_text_source": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/agents-skills/completed/python-lists-and-mean-completed.ipynb"
+    }
+  ]
+}

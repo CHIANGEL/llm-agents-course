@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-20",
+  "browser": "IAB localhost:8765",
+  "scope": "新增机械臂页和Protocols新页及相邻页面",
+  "subdirectories": [
+    {
+      "from": 160,
+      "to": 159,
+      "actual": "第159页 为什么换个浏览器，仍能打开同一个网站？"
+    },
+    {
+      "from": 160,
+      "to": 161,
+      "actual": "第161页 MCP：给工具调用一套统一的接入方式"
+    },
+    {
+      "from": 160,
+      "to": 165,
+      "actual": "第165页 A2A：把任务委托给另一个智能体"
+    },
+    {
+      "from": 164,
+      "to": 159,
+      "actual": "第159页 为什么换个浏览器，仍能打开同一个网站？"
+    },
+    {
+      "from": 164,
+      "to": 161,
+      "actual": "第161页 MCP：给工具调用一套统一的接入方式"
+    },
+    {
+      "from": 164,
+      "to": 165,
+      "actual": "第165页 A2A：把任务委托给另一个智能体"
+    }
+  ],
+  "video": {
+    "play_pause": "observed",
+    "seek_seconds": 12,
+    "speed": 0.5,
+    "mute_toggle": "observed",
+    "expanded_and_escaped": "position and speed retained",
+    "end": {
+      "duration": 29.354667,
+      "time": 29.354667,
+      "ended": true,
+      "paused": true
+    },
+    "keyboard": "Home→0 then ArrowRight→5 seconds; page stayed 82",
+    "return_initial": {
+      "muted": true,
+      "paused": true,
+      "rate": 1,
+      "time": 0
+    }
+  },
+  "player": {
+    "progress_Protocols": 157,
+    "code_arrowdown": "page stayed 162",
+    "material_scroll": "request and weather return visible",
+    "diagram_zoom": "100%→125%→100%",
+    "fullscreen": "entered and exited at page162",
+    "controls": "hide and H restore observed"
+  },
+  "dialogs": [
+    {
+      "page": 82,
+      "notes_opened_and_closed": true,
+      "materials_opened_and_closed": true
+    },
+    {
+      "page": 158,
+      "notes_opened_and_closed": true,
+      "materials_opened_and_closed": true
+    },
+    {
+      "page": 159,
+      "notes_opened_and_closed": true,
+      "materials_opened_and_closed": true
+    },
+    {
+      "page": 161,
+      "notes_opened_and_closed": true,
+      "materials_opened_and_closed": true
+    },
+    {
+      "page": 162,
+      "notes_opened_and_closed": true,
+      "materials_opened_and_closed": true
+    },
+    {
+      "page": 163,
+      "notes_opened_and_closed": true,
+      "materials_opened_and_closed": true
+    },
+    {
+      "page": 165,
+      "notes_opened_and_closed": true,
+      "materials_opened_and_closed": true
+    },
+    {
+      "page": 166,
+      "notes_opened_and_closed": true,
+      "materials_opened_and_closed": true
+    },
+    {
+      "page": 167,
+      "notes_opened_and_closed": true,
+      "materials_opened_and_closed": true
+    },
+    {
+      "page": 168,
+      "notes_opened_and_closed": true,
+      "materials_opened_and_closed": true
+    }
+  ],
+  "console": [],
+  "not_tested": [
+    "file://双击离线播放",
+    "其他浏览器",
+    "本轮未完整复播全部200页",
+    "作者链接点击后的外部窗口未取得；URL已用网页读取验证"
+  ]
+}

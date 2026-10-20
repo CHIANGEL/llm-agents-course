@@ -1,0 +1,18 @@
+{
+  "tool": "image_gen built-in",
+  "prompts": [
+    [
+      "web",
+      "Create a realistic clean DeepSeek desktop chat interface screenshot, landscape 3:2, white/light gray, crisp readable simplified Chinese. Slim left sidebar 16% width with DeepSeek logo and 新对话. Main conversation area x22%-94% y15%-76%. Top app name DeepSeek. Exactly four messages in order: user at y20% '请写一句正式通知，说明今天的讲座取消。'; assistant at y33% '原定于今天的讲座已取消。'; user at y49% '请补充：新的时间另行通知。'; final assistant at y69% '原定于今天的讲座已取消，新的时间将另行通知。'. User messages right aligned in pale gray bubbles, assistant left aligned. Keep each message short large and readable. Empty compose box at bottom y88% reading 给 DeepSeek 发送消息. No red or blue annotations, no extra example text, no browser chrome. Faithful tasteful app mockup."
+    ],
+    [
+      "mobile",
+      "Create a realistic Doubao 豆包 smartphone app chat screen screenshot, portrait 9:16, white background, flat front-on screen without device frame. Large crisp readable simplified Chinese. Header 豆包 centered at y6%. Exactly four messages: user bubble at y20% '请写一句正式通知，说明今天的讲座取消。'; assistant response at y35% '原定于今天的讲座已取消。'; second user bubble at y50% '请补充：新的时间另行通知。'; final assistant response at y70% '原定于今天的讲座已取消，新的时间将另行通知。'. User bubbles light gray on right, assistant small colorful Doubao avatar on left. Bottom empty input bar at y93% with text 发消息. Short sentences should wrap naturally at readable size. No other chats or text. No blue or red annotation frames."
+    ],
+    [
+      "brain",
+      "Create a polished editorial scientific metaphor illustration for MBA lecture, wide landscape 3:2 on pure white background. No text, no labels, no title, no letters. On LEFT half a pink human brain suspended in a large transparent cylindrical glass vat filled with faint pale blue fluid on a sleek dark navy pedestal, tiny electrical connections at base. Brain is detailed but friendly, not gruesome. In CENTER a distinct compact external electronic control system: a small blue processor console and cables visibly connecting it to the vat and to the right equipment. On RIGHT a computer monitor showing a simple document with abstract non-readable lines plus a small elegant robotic arm grasping a yellow cube on a table. The vat brain does NOT have hands or limbs and does NOT directly connect to the robot except through the central console. Two thin luminous directional signal streams between vat and console convey information going both ways. Clean sophisticated 3D rendered illustration, restrained navy blue, turquoise and warm pink palette, studio soft lighting, generous whitespace above/below, accurate perspective, objects separated clearly. Full objects visible, no cropped edges."
+    ]
+  ],
+  "brain_edit": "Upper cyan arrow right to console; lower pink arrow left to brain; preserve all objects."
+}

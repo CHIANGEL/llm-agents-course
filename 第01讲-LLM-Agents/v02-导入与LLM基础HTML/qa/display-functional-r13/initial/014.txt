@@ -1,0 +1,55 @@
+- main:
+  - article "第14页 第三轮：完整历史接在同一份输入中":
+    - heading "第三轮：完整历史接在同一份输入中" [level=1]
+    - region "课件内容":
+      - generic: 再问预算时，前两轮问答仍在同一个序列中，新问题接在最后。
+      - generic: 聊天窗口
+      - generic: 完整输入文本 · SmolLM2模板
+      - generic: 用户
+      - generic: 3人，每人20元？
+      - generic: 助手
+      - generic: 60元。
+      - generic: 用户
+      - generic: 5人呢？
+      - generic: 助手
+      - generic: 100元。
+      - generic: 用户
+      - generic: 预算80元，差多少？
+      - generic: <|im_start|>system
+      - generic: 只给结果。<|im_end|>
+      - generic: <|im_start|>user
+      - generic: 3人，每人20元？<|im_end|>
+      - generic: <|im_start|>assistant
+      - generic: 60元。<|im_end|>
+      - generic: <|im_start|>user
+      - generic: 5人呢？<|im_end|>
+      - generic: <|im_start|>assistant
+      - generic: 100元。<|im_end|>
+      - generic: <|im_start|>user
+      - generic: 预算80元，差多少？<|im_end|>
+      - generic: <|im_start|>assistant
+      - generic: ▌接下来生成：还差20元。
+      - generic: 三轮对话是逐次增长的输入序列；这次仍然是在末尾继续生成。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "1.1 连续生成"
+      - button "1.2 多轮聊天"
+      - button "1.3 LLM小结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "14"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "备注 / 来源"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第14页，第三轮：完整历史接在同一份输入中，整页显示

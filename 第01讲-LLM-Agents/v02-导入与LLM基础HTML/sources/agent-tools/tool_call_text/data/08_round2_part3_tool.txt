@@ -1,0 +1,6 @@
+<|im_start|>user
+<tool_response>
+Current weather in New York:
+Temperature: 72°F
+Conditions: Partly cloudy
+</tool_response><|im_end|>

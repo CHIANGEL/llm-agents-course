@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "89",
+  "text": "智能体会改变平台的入口吗？\n如果智能体替用户寻找、比较和选择服务，谁掌握入口与推荐顺序就可能改变。\n① 用户 → 平台 → 服务\n② 用户 → Agent → 平台\n③ 用户 → Agent → 服务\n从注意力、广告曝光，到服务选择与交易入口，平台的商业位置可能受到冲击。\n新的问题是：智能体替谁排序、根据什么选择，以及谁获得交易与用户反馈。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "智能体会改变平台的入口吗？"
+}

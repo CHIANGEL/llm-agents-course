@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 128,
+  "text": "维护：场景、模型、Harness变了，就要复查\n把Skill当作需要维护的工作方法：场景、模型或Harness变化后，重新检验。\n变化\t需要复查什么\n场景变化\t新材料、新受众、新交付标准，是否仍在适用范围内？\n模型变化\t旧做法是否仍能改善结果，还是已经多余、产生干扰？\nHarness变化\t工具名、文件路径、依赖和权限，是否仍然可用？\n已验证版本 → 新条件下复查 → 修改对应问题 → 重跑代表任务\n保留版本，必要时回退或停用\n修订时只加入可复用的规则，不把每一次偶然情况都扩展成通用要求。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "第128页 维护：场景、模型、Harness变了，就要复查"
+}

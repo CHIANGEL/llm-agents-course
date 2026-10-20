@@ -1,0 +1,40 @@
+- main:
+  - article "第1页 第一讲：LLM Agents":
+    - heading "第一讲：LLM Agents" [level=1]
+    - region "课件内容":
+      - generic: 从模型生成回答，走到Agent执行任务。
+      - generic: Prompting组织输入，LLM生成内容，Agents执行并反馈。
+      - generic: 生成回答
+      - generic: 执行操作
+      - generic: 检查交付
+      - generic: 今天的讲座取消了。
+      - text: 原定于今天举行的
+      - text: 讲座已取消。
+      - img "原课程中的应用程序图像"
+      - generic: 读取文件 → 返回材料
+      - img "原课程中的交付文档图像"
+      - text: ✓ 内容依据
+      - text: ✓ 文件可用
+      - text: ✓ 操作回执
+      - generic: 模型提出的内容，要与程序执行和最终结果联系起来看。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - generic: 生成回答 → 交代任务 → 组织执行
+- navigation "课件操作":
+  - button "上一步" [disabled]: ←
+  - button "下一步": →
+  - generic: 页码
+  - spinbutton "页码": "1"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "备注 / 来源"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第1页，第一讲：LLM Agents，整页显示

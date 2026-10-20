@@ -1,0 +1,45 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=130&s=1".
+0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=130&s=1
+	1 container
+		47 container Description: 第130页 Skills小结：组织方法、调用方法、检验方法, ID: mount
+			48 container 第130页 Skills小结：组织方法、调用方法、检验方法
+				49 heading Skills小结：组织方法、调用方法、检验方法, Value: 1
+					50 text Skills小结：组织方法、调用方法、检验方法
+				51 container 课件内容
+					52 container
+						53 text Skills把程序性记忆组织成方法包，再借助工具，在新任务中重新使用。 ① 完整技能包 入口说明何时用，
+						54 text 正文与资源说明怎样做。 ② 一次调用 目录 → 正文 → 相关参考；
+						55 text 工具执行，再读回检查。 ③ 自己的Skills 从自己的有效做法提炼，
+						56 text 按任务结果评估与维护。 工具提供动作　　Memory保存信息　　Skills组织方法 接下来：Harness把模型、工具、记忆、方法与权限组织成运行过程。 方法能否落实为可靠交付，还取决于这些组件怎样配合。
+				57 container 课程进度
+					58 button 导入
+					59 button 1. LLM基础
+					60 button 2. Prompting
+					61 button 3. Agents · Externalization & Internalization
+						62 text 3. Agents 
+						63 text · Externalization & Internalization
+					64 button 3.0 外化与内化总览
+					65 button 3.1 工具调用
+					66 button 3.2 Memory
+					67 button 3.3 Skills
+					68 button 3.4 Harness
+					69 button 3.5 外化与内化整合
+					70 button 3.6 全讲总结
+		32 container Description: 课件操作, ID: controls
+			33 button Description: 上一步, Help: 上一步（←）
+			34 button Description: 下一步, Help: 下一步（→或空格）
+			35 container jump-form
+				36 text 页码
+				37 stepper (settable, integer) Description: 页码, Value: 130, ID: page-input
+				38 text / 161
+			71 text 整页显示
+			40 button 目录
+			41 button 讲者备注
+			42 button 完整材料
+			43 button 放大图解
+			44 button 全屏
+			45 button 隐藏, Help: 按H恢复
+			46 button 操作说明
+		72 text 第130页，Skills小结：组织方法、调用方法、检验方法，整页显示
+
+The focused UI element is 47 container Description: 第130页 Skills小结：组织方法、调用方法、检验方法, ID: mount

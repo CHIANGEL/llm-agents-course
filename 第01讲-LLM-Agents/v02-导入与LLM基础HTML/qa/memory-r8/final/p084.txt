@@ -1,0 +1,64 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=84&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=84&s=1
+	2 container
+		55 container Description: 第84页 工作场景：哪些背景值得带入？, ID: mount
+			56 container 第84页 工作场景：哪些背景值得带入？
+				57 heading 工作场景：哪些背景值得带入？, Value: 1
+					58 text 工作场景：哪些背景值得带入？
+				59 container 课件内容
+					60 container
+						61 text 工作任务往往需要明确边界：这个项目需要哪些背景，哪些背景会干扰判断？ “在工作场景里，我通常会把ChatGPT和Codex的个性化记忆关掉。” 跨任务自动带入
+						62 content list
+							63 container
+								64 AXListMarker • 
+								65 text 过去项目的预算、写作习惯
+							66 container
+								67 AXListMarker • 
+								68 text 过时的角色与决策条件
+							69 container
+								70 AXListMarker • 
+								71 text 与本次目标无关的个人偏好
+						72 text 按当前任务提供
+						73 content list
+							74 container
+								75 AXListMarker • 
+								76 text 明确指定本项目材料
+							77 container
+								78 AXListMarker • 
+								79 text 需要历史时，读取相关记录
+							80 container
+								81 AXListMarker • 
+								82 text 核对对象、时间和用途
+						83 text 关闭个性化记忆后，仍然可以通过明确提供材料、读取文件来延续工作。
+				84 container 课程进度
+					85 button 导入
+					86 button 1. LLM基础
+					87 button 2. Prompting
+					88 button 3. Agents · Externalization & Internalization
+						89 text 3. Agents 
+						90 text · Externalization & Internalization
+					91 button 3.0 外化与内化总览
+					92 button 3.1 工具调用
+					93 button 3.2 Memory
+					94 button 3.3 Skills
+					95 button 3.4 Harness
+					96 button 3.5 外化与内化整合
+					97 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 84, ID: page-input
+				46 text / 151
+			98 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		99 text 第84页，工作场景：哪些背景值得带入？，整页显示
+
+The focused UI element is 55 container Description: 第84页 工作场景：哪些背景值得带入？, ID: mount

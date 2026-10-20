@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "166",
+  "text": "Harness：把输入、执行与反馈接起来\n回到运行总图：Harness把输入、执行、反馈与继续组织成一个过程。\n五类安排，各有位置\n上下文：留下所需材料\n权限：限定与放行操作\nHooks：按事件触发\n子智能体：分工与汇总\n进度：核对后接着做\n工具、Memory、Skills、Protocols提供操作、信息、方法与交互；Harness把它们组织起来。\n这些安排发生在模型之外。接下来：哪些有效做法可以再通过训练进入模型？\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "Harness：把输入、执行与反馈接起来"
+}

@@ -1,0 +1,10 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:,"><title>02_tools.py</title><style>body{max-width:1050px;margin:32px auto;padding:0 24px;color:#002060;font:20px/1.7 Arial,"Microsoft YaHei",sans-serif}h1{font-size:28px}pre{font:18px/1.6 monospace;white-space:pre-wrap;overflow-wrap:anywhere;color:#111}a{color:#003f98}li{margin:10px 0}</style><h1>02_tools.py</h1><p><a href="../agent-tools/tool_call_text/data/02_tools.py" download>下载原始文件</a></p><pre>tools = [dict(type=&quot;function&quot;, function=dict(
+    name=&quot;get_weather&quot;,
+    description=&quot;Get current weather for a location.&quot;,
+    parameters=dict(
+        type=&quot;object&quot;,
+        properties=dict(location=dict(type=&quot;string&quot;)),
+        required=[&quot;location&quot;]
+    )
+))]
+</pre></html>

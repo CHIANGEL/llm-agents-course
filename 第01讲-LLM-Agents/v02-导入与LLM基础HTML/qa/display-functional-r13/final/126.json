@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 126,
+  "text": "换一个环境，Skill还适用吗？\n一个地方做出来的Skill，迁到另一个场景或应用后，要重新验证。\n依赖什么\t换环境时可能发生什么\t迁移前核对\n任务场景\t受众、材料与交付标准变了\t适用任务、输入和产物\n模型\t遵循方式与原有能力不同\t指令是否仍有帮助\nHarness：运行环境\t工具、路径、依赖与权限不同\t能否读取、执行并检查\n例如：能在本机写Notebook，不代表另一个应用也有相同文件路径和Python环境。\n迁移顺序：检查依赖 → 调整入口与工具 → 用代表任务验证。\n方法可以复用；运行条件需要适配。换了环境以后，重新看实际结果。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "第126页 换一个环境，Skill还适用吗？"
+}

@@ -1,0 +1,59 @@
+- main:
+  - article "第69页 工具调用，也是一段文本的继续生成":
+    - heading "工具调用，也是一段文本的继续生成" [level=1]
+    - region "课件内容":
+      - generic: 左侧看消息与分工，右侧看它们怎样接成连续文本。
+      - heading "一次天气查询" [level=2]
+      - button "1. 回答要求与工具说明 中文回答；get_weather需要地点" [pressed]:
+        - generic: 1. 回答要求与工具说明
+        - generic: 中文回答；get_weather需要地点
+      - button "2. 用户提出问题 纽约现在天气怎么样？":
+        - generic: 2. 用户提出问题
+        - generic: 纽约现在天气怎么样？
+      - button "3. 模型生成工具调用 get_weather · New York":
+        - generic: 3. 模型生成工具调用
+        - generic: get_weather · New York
+      - paragraph: ↓ 应用执行get_weather，结果返回 ↓
+      - button "4. 工具返回天气 72°F · Partly cloudy":
+        - generic: 4. 工具返回天气
+        - generic: 72°F · Partly cloudy
+      - button "5. 模型生成中文回答 纽约气温72°F，局部多云。":
+        - generic: 5. 模型生成中文回答
+        - generic: 纽约气温72°F，局部多云。
+      - group "模板查看范围":
+        - button "对应片段" [pressed]
+        - button "第一次完整输入"
+        - button "第二次完整输入"
+        - button "完整对话"
+      - heading "回答要求与工具说明 · Qwen2.5 chat template" [level=2]
+      - generic: "<|im_start|>system 请用中文回答。 # Tools You may call one or more functions to assist with the user query. You are provided with function signatures within <tools></tools> XML tags: <tools> {\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}} </tools> For each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags: <tool_call> {\"name\": <function-name>, \"arguments\": <args-json-object>} </tool_call><|im_end|>"
+      - paragraph: 应用把回答要求、工具定义和调用格式放进输入。
+      - generic: 两轮输入都以assistant前缀结尾，模型从那里继续预测下一个Token。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "3.0 外化与内化总览"
+      - button "3.1 工具调用"
+      - button "3.2 Memory"
+      - button "3.3 Skills"
+      - button "3.4 Protocols"
+      - button "3.5 Harness"
+      - button "3.6 外化与内化整合"
+      - button "3.7 全讲总结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步": →
+  - generic: 页码
+  - spinbutton "页码": "69"
+  - generic: / 193
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第69页，工具调用，也是一段文本的继续生成，整页显示

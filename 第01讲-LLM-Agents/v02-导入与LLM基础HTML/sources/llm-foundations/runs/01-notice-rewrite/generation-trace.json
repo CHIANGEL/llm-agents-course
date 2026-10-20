@@ -1,0 +1,1117 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "ec84f302454dcb013b57c8acd7ca9cb331981e7e",
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 40,
+    "selection": "greedy argmax",
+    "temperature_applied": false,
+    "device": "cpu",
+    "dtype": "float32"
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite this notice in one short formal sentence: Today’s lecture is cancelled."
+    }
+  ],
+  "chat_template_text": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nRewrite this notice in one short formal sentence: Today’s lecture is cancelled.<|im_end|>\n<|im_start|>assistant\n",
+  "input_token_ids": [
+    1,
+    9690,
+    198,
+    2683,
+    359,
+    253,
+    5356,
+    11173,
+    30,
+    2,
+    198,
+    1,
+    4093,
+    198,
+    66,
+    846,
+    16064,
+    451,
+    4887,
+    281,
+    582,
+    1890,
+    5764,
+    6330,
+    42,
+    4104,
+    417,
+    99,
+    9364,
+    314,
+    35295,
+    30,
+    2,
+    198,
+    1,
+    520,
+    9531,
+    198
+  ],
+  "vocab_size": 49152,
+  "tokenizer_length": 49152,
+  "eos_token_id": 2,
+  "eos_token_text": "<|im_end|>",
+  "generated_token_ids": [
+    7886,
+    417,
+    99,
+    9364,
+    314,
+    35295,
+    30,
+    2
+  ],
+  "output_text": "Today’s lecture is cancelled.",
+  "stop_reason": "eos_token",
+  "steps": [
+    {
+      "step": 1,
+      "input_token_ids": [
+        1,
+        9690,
+        198,
+        2683,
+        359,
+        253,
+        5356,
+        11173,
+        30,
+        2,
+        198,
+        1,
+        4093,
+        198,
+        66,
+        846,
+        16064,
+        451,
+        4887,
+        281,
+        582,
+        1890,
+        5764,
+        6330,
+        42,
+        4104,
+        417,
+        99,
+        9364,
+        314,
+        35295,
+        30,
+        2,
+        198,
+        1,
+        520,
+        9531,
+        198
+      ],
+      "input_text": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nRewrite this notice in one short formal sentence: Today’s lecture is cancelled.<|im_end|>\n<|im_start|>assistant\n",
+      "generated_before": "",
+      "generated_after": "Today",
+      "incremental_text": "Today",
+      "chosen_token_id": 7886,
+      "chosen_token_text": "Today",
+      "chosen_token_raw": "Today",
+      "chosen_probability": 0.4306686520576477,
+      "top10": [
+        {
+          "rank": 1,
+          "token_id": 7886,
+          "token_text": "Today",
+          "token_raw": "Today",
+          "probability": 0.4306686520576477
+        },
+        {
+          "rank": 2,
+          "token_id": 504,
+          "token_text": "The",
+          "token_raw": "The",
+          "probability": 0.13119879364967346
+        },
+        {
+          "rank": 3,
+          "token_id": 57,
+          "token_text": "I",
+          "token_raw": "I",
+          "probability": 0.03641994297504425
+        },
+        {
+          "rank": 4,
+          "token_id": 1882,
+          "token_text": "We",
+          "token_raw": "We",
+          "probability": 0.033747054636478424
+        },
+        {
+          "rank": 5,
+          "token_id": 788,
+          "token_text": "In",
+          "token_raw": "In",
+          "probability": 0.02383667789399624
+        },
+        {
+          "rank": 6,
+          "token_id": 1348,
+          "token_text": "This",
+          "token_raw": "This",
+          "probability": 0.017975958064198494
+        },
+        {
+          "rank": 7,
+          "token_id": 1589,
+          "token_text": "It",
+          "token_raw": "It",
+          "probability": 0.014069152995944023
+        },
+        {
+          "rank": 8,
+          "token_id": 49,
+          "token_text": "A",
+          "token_raw": "A",
+          "probability": 0.013783459551632404
+        },
+        {
+          "rank": 9,
+          "token_id": 52,
+          "token_text": "D",
+          "token_raw": "D",
+          "probability": 0.010685541667044163
+        },
+        {
+          "rank": 10,
+          "token_id": 24,
+          "token_text": "(",
+          "token_raw": "(",
+          "probability": 0.009022618643939495
+        }
+      ],
+      "top10_remaining_probability": 0.2785921096801758,
+      "top5_remaining_probability": 0.34412890672683716,
+      "eos": false
+    },
+    {
+      "step": 2,
+      "input_token_ids": [
+        1,
+        9690,
+        198,
+        2683,
+        359,
+        253,
+        5356,
+        11173,
+        30,
+        2,
+        198,
+        1,
+        4093,
+        198,
+        66,
+        846,
+        16064,
+        451,
+        4887,
+        281,
+        582,
+        1890,
+        5764,
+        6330,
+        42,
+        4104,
+        417,
+        99,
+        9364,
+        314,
+        35295,
+        30,
+        2,
+        198,
+        1,
+        520,
+        9531,
+        198,
+        7886
+      ],
+      "input_text": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nRewrite this notice in one short formal sentence: Today’s lecture is cancelled.<|im_end|>\n<|im_start|>assistant\nToday",
+      "generated_before": "Today",
+      "generated_after": "Today’",
+      "incremental_text": "’",
+      "chosen_token_id": 417,
+      "chosen_token_text": "’",
+      "chosen_token_raw": "âĢĻ",
+      "chosen_probability": 0.811308741569519,
+      "top10": [
+        {
+          "rank": 1,
+          "token_id": 417,
+          "token_text": "’",
+          "token_raw": "âĢĻ",
+          "probability": 0.811308741569519
+        },
+        {
+          "rank": 2,
+          "token_id": 506,
+          "token_text": "'s",
+          "token_raw": "'s",
+          "probability": 0.06509428471326828
+        },
+        {
+          "rank": 3,
+          "token_id": 28,
+          "token_text": ",",
+          "token_raw": ",",
+          "probability": 0.06275789439678192
+        },
+        {
+          "rank": 4,
+          "token_id": 314,
+          "token_text": " is",
+          "token_raw": "Ġis",
+          "probability": 0.035732120275497437
+        },
+        {
+          "rank": 5,
+          "token_id": 392,
+          "token_text": " we",
+          "token_raw": "Ġwe",
+          "probability": 0.007620776537805796
+        },
+        {
+          "rank": 6,
+          "token_id": 523,
+          "token_text": " will",
+          "token_raw": "Ġwill",
+          "probability": 0.005142038222402334
+        },
+        {
+          "rank": 7,
+          "token_id": 260,
+          "token_text": " the",
+          "token_raw": "Ġthe",
+          "probability": 0.0023520959075540304
+        },
+        {
+          "rank": 8,
+          "token_id": 436,
+          "token_text": " was",
+          "token_raw": "Ġwas",
+          "probability": 0.0015857354737818241
+        },
+        {
+          "rank": 9,
+          "token_id": 553,
+          "token_text": " has",
+          "token_raw": "Ġhas",
+          "probability": 0.0010072187287732959
+        },
+        {
+          "rank": 10,
+          "token_id": 339,
+          "token_text": " I",
+          "token_raw": "ĠI",
+          "probability": 0.0005856214556843042
+        }
+      ],
+      "top10_remaining_probability": 0.006813526153564453,
+      "top5_remaining_probability": 0.017486214637756348,
+      "eos": false
+    },
+    {
+      "step": 3,
+      "input_token_ids": [
+        1,
+        9690,
+        198,
+        2683,
+        359,
+        253,
+        5356,
+        11173,
+        30,
+        2,
+        198,
+        1,
+        4093,
+        198,
+        66,
+        846,
+        16064,
+        451,
+        4887,
+        281,
+        582,
+        1890,
+        5764,
+        6330,
+        42,
+        4104,
+        417,
+        99,
+        9364,
+        314,
+        35295,
+        30,
+        2,
+        198,
+        1,
+        520,
+        9531,
+        198,
+        7886,
+        417
+      ],
+      "input_text": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nRewrite this notice in one short formal sentence: Today’s lecture is cancelled.<|im_end|>\n<|im_start|>assistant\nToday’",
+      "generated_before": "Today’",
+      "generated_after": "Today’s",
+      "incremental_text": "s",
+      "chosen_token_id": 99,
+      "chosen_token_text": "s",
+      "chosen_token_raw": "s",
+      "chosen_probability": 0.9999898672103882,
+      "top10": [
+        {
+          "rank": 1,
+          "token_id": 99,
+          "token_text": "s",
+          "token_raw": "s",
+          "probability": 0.9999898672103882
+        },
+        {
+          "rank": 2,
+          "token_id": 67,
+          "token_text": "S",
+          "token_raw": "S",
+          "probability": 3.1958406907506287e-06
+        },
+        {
+          "rank": 3,
+          "token_id": 764,
+          "token_text": "ll",
+          "token_raw": "ll",
+          "probability": 1.3886938177165575e-06
+        },
+        {
+          "rank": 4,
+          "token_id": 93,
+          "token_text": "m",
+          "token_raw": "m",
+          "probability": 7.639691830263473e-07
+        },
+        {
+          "rank": 5,
+          "token_id": 84,
+          "token_text": "d",
+          "token_raw": "d",
+          "probability": 7.364192811110115e-07
+        },
+        {
+          "rank": 6,
+          "token_id": 100,
+          "token_text": "t",
+          "token_raw": "t",
+          "probability": 4.266427140464657e-07
+        },
+        {
+          "rank": 7,
+          "token_id": 257,
+          "token_text": "re",
+          "token_raw": "re",
+          "probability": 2.4407398768744315e-07
+        },
+        {
+          "rank": 8,
+          "token_id": 302,
+          "token_text": "st",
+          "token_raw": "st",
+          "probability": 2.1706898678530706e-07
+        },
+        {
+          "rank": 9,
+          "token_id": 6831,
+          "token_text": "sm",
+          "token_raw": "sm",
+          "probability": 1.9461464262349182e-07
+        },
+        {
+          "rank": 10,
+          "token_id": 373,
+          "token_text": "th",
+          "token_raw": "th",
+          "probability": 1.223830849994556e-07
+        }
+      ],
+      "top10_remaining_probability": 2.9206275939941406e-06,
+      "top5_remaining_probability": 4.0531158447265625e-06,
+      "eos": false
+    },
+    {
+      "step": 4,
+      "input_token_ids": [
+        1,
+        9690,
+        198,
+        2683,
+        359,
+        253,
+        5356,
+        11173,
+        30,
+        2,
+        198,
+        1,
+        4093,
+        198,
+        66,
+        846,
+        16064,
+        451,
+        4887,
+        281,
+        582,
+        1890,
+        5764,
+        6330,
+        42,
+        4104,
+        417,
+        99,
+        9364,
+        314,
+        35295,
+        30,
+        2,
+        198,
+        1,
+        520,
+        9531,
+        198,
+        7886,
+        417,
+        99
+      ],
+      "input_text": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nRewrite this notice in one short formal sentence: Today’s lecture is cancelled.<|im_end|>\n<|im_start|>assistant\nToday’s",
+      "generated_before": "Today’s",
+      "generated_after": "Today’s lecture",
+      "incremental_text": " lecture",
+      "chosen_token_id": 9364,
+      "chosen_token_text": " lecture",
+      "chosen_token_raw": "Ġlecture",
+      "chosen_probability": 0.9484070539474487,
+      "top10": [
+        {
+          "rank": 1,
+          "token_id": 9364,
+          "token_text": " lecture",
+          "token_raw": "Ġlecture",
+          "probability": 0.9484070539474487
+        },
+        {
+          "rank": 2,
+          "token_id": 32991,
+          "token_text": " Lecture",
+          "token_raw": "ĠLecture",
+          "probability": 0.026435241103172302
+        },
+        {
+          "rank": 3,
+          "token_id": 13857,
+          "token_text": " lectures",
+          "token_raw": "Ġlectures",
+          "probability": 0.006305689457803965
+        },
+        {
+          "rank": 4,
+          "token_id": 5040,
+          "token_text": " lesson",
+          "token_raw": "Ġlesson",
+          "probability": 0.0018518231809139252
+        },
+        {
+          "rank": 5,
+          "token_id": 1128,
+          "token_text": " class",
+          "token_raw": "Ġclass",
+          "probability": 0.001361423172056675
+        },
+        {
+          "rank": 6,
+          "token_id": 6709,
+          "token_text": " presentation",
+          "token_raw": "Ġpresentation",
+          "probability": 0.001183565123938024
+        },
+        {
+          "rank": 7,
+          "token_id": 1740,
+          "token_text": " course",
+          "token_raw": "Ġcourse",
+          "probability": 0.00046337273670360446
+        },
+        {
+          "rank": 8,
+          "token_id": 4887,
+          "token_text": " notice",
+          "token_raw": "Ġnotice",
+          "probability": 0.0004418620956130326
+        },
+        {
+          "rank": 9,
+          "token_id": 6094,
+          "token_text": " session",
+          "token_raw": "Ġsession",
+          "probability": 0.00036359619116410613
+        },
+        {
+          "rank": 10,
+          "token_id": 4109,
+          "token_text": " note",
+          "token_raw": "Ġnote",
+          "probability": 0.00033634784631431103
+        }
+      ],
+      "top10_remaining_probability": 0.012849986553192139,
+      "top5_remaining_probability": 0.015638768672943115,
+      "eos": false
+    },
+    {
+      "step": 5,
+      "input_token_ids": [
+        1,
+        9690,
+        198,
+        2683,
+        359,
+        253,
+        5356,
+        11173,
+        30,
+        2,
+        198,
+        1,
+        4093,
+        198,
+        66,
+        846,
+        16064,
+        451,
+        4887,
+        281,
+        582,
+        1890,
+        5764,
+        6330,
+        42,
+        4104,
+        417,
+        99,
+        9364,
+        314,
+        35295,
+        30,
+        2,
+        198,
+        1,
+        520,
+        9531,
+        198,
+        7886,
+        417,
+        99,
+        9364
+      ],
+      "input_text": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nRewrite this notice in one short formal sentence: Today’s lecture is cancelled.<|im_end|>\n<|im_start|>assistant\nToday’s lecture",
+      "generated_before": "Today’s lecture",
+      "generated_after": "Today’s lecture is",
+      "incremental_text": " is",
+      "chosen_token_id": 314,
+      "chosen_token_text": " is",
+      "chosen_token_raw": "Ġis",
+      "chosen_probability": 0.6421332359313965,
+      "top10": [
+        {
+          "rank": 1,
+          "token_id": 314,
+          "token_text": " is",
+          "token_raw": "Ġis",
+          "probability": 0.6421332359313965
+        },
+        {
+          "rank": 2,
+          "token_id": 523,
+          "token_text": " will",
+          "token_raw": "Ġwill",
+          "probability": 0.1418197900056839
+        },
+        {
+          "rank": 3,
+          "token_id": 553,
+          "token_text": " has",
+          "token_raw": "Ġhas",
+          "probability": 0.08239459246397018
+        },
+        {
+          "rank": 4,
+          "token_id": 28,
+          "token_text": ",",
+          "token_raw": ",",
+          "probability": 0.0397108756005764
+        },
+        {
+          "rank": 5,
+          "token_id": 436,
+          "token_text": " was",
+          "token_raw": "Ġwas",
+          "probability": 0.036070648580789566
+        },
+        {
+          "rank": 6,
+          "token_id": 3786,
+          "token_text": " shall",
+          "token_raw": "Ġshall",
+          "probability": 0.013569285161793232
+        },
+        {
+          "rank": 7,
+          "token_id": 418,
+          "token_text": " at",
+          "token_raw": "Ġat",
+          "probability": 0.0034489743411540985
+        },
+        {
+          "rank": 8,
+          "token_id": 335,
+          "token_text": " on",
+          "token_raw": "Ġon",
+          "probability": 0.0033970901276916265
+        },
+        {
+          "rank": 9,
+          "token_id": 3267,
+          "token_text": " remains",
+          "token_raw": "Ġremains",
+          "probability": 0.0029348661191761494
+        },
+        {
+          "rank": 10,
+          "token_id": 282,
+          "token_text": " of",
+          "token_raw": "Ġof",
+          "probability": 0.0028765860479325056
+        }
+      ],
+      "top10_remaining_probability": 0.03164404630661011,
+      "top5_remaining_probability": 0.05787086486816406,
+      "eos": false
+    },
+    {
+      "step": 6,
+      "input_token_ids": [
+        1,
+        9690,
+        198,
+        2683,
+        359,
+        253,
+        5356,
+        11173,
+        30,
+        2,
+        198,
+        1,
+        4093,
+        198,
+        66,
+        846,
+        16064,
+        451,
+        4887,
+        281,
+        582,
+        1890,
+        5764,
+        6330,
+        42,
+        4104,
+        417,
+        99,
+        9364,
+        314,
+        35295,
+        30,
+        2,
+        198,
+        1,
+        520,
+        9531,
+        198,
+        7886,
+        417,
+        99,
+        9364,
+        314
+      ],
+      "input_text": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nRewrite this notice in one short formal sentence: Today’s lecture is cancelled.<|im_end|>\n<|im_start|>assistant\nToday’s lecture is",
+      "generated_before": "Today’s lecture is",
+      "generated_after": "Today’s lecture is cancelled",
+      "incremental_text": " cancelled",
+      "chosen_token_id": 35295,
+      "chosen_token_text": " cancelled",
+      "chosen_token_raw": "Ġcancelled",
+      "chosen_probability": 0.7076990008354187,
+      "top10": [
+        {
+          "rank": 1,
+          "token_id": 35295,
+          "token_text": " cancelled",
+          "token_raw": "Ġcancelled",
+          "probability": 0.7076990008354187
+        },
+        {
+          "rank": 2,
+          "token_id": 43619,
+          "token_text": " canceled",
+          "token_raw": "Ġcanceled",
+          "probability": 0.05021800845861435
+        },
+        {
+          "rank": 3,
+          "token_id": 1036,
+          "token_text": " being",
+          "token_raw": "Ġbeing",
+          "probability": 0.04118430241942406
+        },
+        {
+          "rank": 4,
+          "token_id": 441,
+          "token_text": " not",
+          "token_raw": "Ġnot",
+          "probability": 0.027287960052490234
+        },
+        {
+          "rank": 5,
+          "token_id": 288,
+          "token_text": " to",
+          "token_raw": "Ġto",
+          "probability": 0.024441929534077644
+        },
+        {
+          "rank": 6,
+          "token_id": 4112,
+          "token_text": " currently",
+          "token_raw": "Ġcurrently",
+          "probability": 0.01558253075927496
+        },
+        {
+          "rank": 7,
+          "token_id": 1568,
+          "token_text": " due",
+          "token_raw": "Ġdue",
+          "probability": 0.008979342877864838
+        },
+        {
+          "rank": 8,
+          "token_id": 787,
+          "token_text": " no",
+          "token_raw": "Ġno",
+          "probability": 0.00816967524588108
+        },
+        {
+          "rank": 9,
+          "token_id": 45244,
+          "token_text": " postponed",
+          "token_raw": "Ġpostponed",
+          "probability": 0.007076159585267305
+        },
+        {
+          "rank": 10,
+          "token_id": 13831,
+          "token_text": " scheduled",
+          "token_raw": "Ġscheduled",
+          "probability": 0.006808205042034388
+        }
+      ],
+      "top10_remaining_probability": 0.10255289077758789,
+      "top5_remaining_probability": 0.14916878938674927,
+      "eos": false
+    },
+    {
+      "step": 7,
+      "input_token_ids": [
+        1,
+        9690,
+        198,
+        2683,
+        359,
+        253,
+        5356,
+        11173,
+        30,
+        2,
+        198,
+        1,
+        4093,
+        198,
+        66,
+        846,
+        16064,
+        451,
+        4887,
+        281,
+        582,
+        1890,
+        5764,
+        6330,
+        42,
+        4104,
+        417,
+        99,
+        9364,
+        314,
+        35295,
+        30,
+        2,
+        198,
+        1,
+        520,
+        9531,
+        198,
+        7886,
+        417,
+        99,
+        9364,
+        314,
+        35295
+      ],
+      "input_text": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nRewrite this notice in one short formal sentence: Today’s lecture is cancelled.<|im_end|>\n<|im_start|>assistant\nToday’s lecture is cancelled",
+      "generated_before": "Today’s lecture is cancelled",
+      "generated_after": "Today’s lecture is cancelled.",
+      "incremental_text": ".",
+      "chosen_token_id": 30,
+      "chosen_token_text": ".",
+      "chosen_token_raw": ".",
+      "chosen_probability": 0.9145051836967468,
+      "top10": [
+        {
+          "rank": 1,
+          "token_id": 30,
+          "token_text": ".",
+          "token_raw": ".",
+          "probability": 0.9145051836967468
+        },
+        {
+          "rank": 2,
+          "token_id": 28,
+          "token_text": ",",
+          "token_raw": ",",
+          "probability": 0.02095734141767025
+        },
+        {
+          "rank": 3,
+          "token_id": 1568,
+          "token_text": " due",
+          "token_raw": "Ġdue",
+          "probability": 0.01424920279532671
+        },
+        {
+          "rank": 4,
+          "token_id": 2,
+          "token_text": "<|im_end|>",
+          "token_raw": "<|im_end|>",
+          "probability": 0.009435589425265789
+        },
+        {
+          "rank": 5,
+          "token_id": 284,
+          "token_text": " and",
+          "token_raw": "Ġand",
+          "probability": 0.006638158578425646
+        },
+        {
+          "rank": 6,
+          "token_id": 347,
+          "token_text": " as",
+          "token_raw": "Ġas",
+          "probability": 0.005887636914849281
+        },
+        {
+          "rank": 7,
+          "token_id": 418,
+          "token_text": " at",
+          "token_raw": "Ġat",
+          "probability": 0.0028259754180908203
+        },
+        {
+          "rank": 8,
+          "token_id": 43,
+          "token_text": ";",
+          "token_raw": ";",
+          "probability": 0.0018007726175710559
+        },
+        {
+          "rank": 9,
+          "token_id": 411,
+          "token_text": " by",
+          "token_raw": "Ġby",
+          "probability": 0.0016849390231072903
+        },
+        {
+          "rank": 10,
+          "token_id": 327,
+          "token_text": " for",
+          "token_raw": "Ġfor",
+          "probability": 0.001656021922826767
+        }
+      ],
+      "top10_remaining_probability": 0.020359158515930176,
+      "top5_remaining_probability": 0.03421449661254883,
+      "eos": false
+    },
+    {
+      "step": 8,
+      "input_token_ids": [
+        1,
+        9690,
+        198,
+        2683,
+        359,
+        253,
+        5356,
+        11173,
+        30,
+        2,
+        198,
+        1,
+        4093,
+        198,
+        66,
+        846,
+        16064,
+        451,
+        4887,
+        281,
+        582,
+        1890,
+        5764,
+        6330,
+        42,
+        4104,
+        417,
+        99,
+        9364,
+        314,
+        35295,
+        30,
+        2,
+        198,
+        1,
+        520,
+        9531,
+        198,
+        7886,
+        417,
+        99,
+        9364,
+        314,
+        35295,
+        30
+      ],
+      "input_text": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nRewrite this notice in one short formal sentence: Today’s lecture is cancelled.<|im_end|>\n<|im_start|>assistant\nToday’s lecture is cancelled.",
+      "generated_before": "Today’s lecture is cancelled.",
+      "generated_after": "Today’s lecture is cancelled.",
+      "incremental_text": "",
+      "chosen_token_id": 2,
+      "chosen_token_text": "<|im_end|>",
+      "chosen_token_raw": "<|im_end|>",
+      "chosen_probability": 0.8470427393913269,
+      "top10": [
+        {
+          "rank": 1,
+          "token_id": 2,
+          "token_text": "<|im_end|>",
+          "token_raw": "<|im_end|>",
+          "probability": 0.8470427393913269
+        },
+        {
+          "rank": 2,
+          "token_id": 198,
+          "token_text": "\n",
+          "token_raw": "Ċ",
+          "probability": 0.12877823412418365
+        },
+        {
+          "rank": 3,
+          "token_id": 1116,
+          "token_text": "\n\n",
+          "token_raw": "ĊĊ",
+          "probability": 0.005055487621575594
+        },
+        {
+          "rank": 4,
+          "token_id": 3717,
+          "token_text": " \n",
+          "token_raw": "ĠĊ",
+          "probability": 0.004079163074493408
+        },
+        {
+          "rank": 5,
+          "token_id": 365,
+          "token_text": " (",
+          "token_raw": "Ġ(",
+          "probability": 0.0023223450407385826
+        },
+        {
+          "rank": 6,
+          "token_id": 16506,
+          "token_text": "\n\n\n",
+          "token_raw": "ĊĊĊ",
+          "probability": 0.002310490934178233
+        },
+        {
+          "rank": 7,
+          "token_id": 933,
+          "token_text": " [",
+          "token_raw": "Ġ[",
+          "probability": 0.0014758399920538068
+        },
+        {
+          "rank": 8,
+          "token_id": 339,
+          "token_text": " I",
+          "token_raw": "ĠI",
+          "probability": 0.0006065378547646105
+        },
+        {
+          "rank": 9,
+          "token_id": 378,
+          "token_text": " The",
+          "token_raw": "ĠThe",
+          "probability": 0.0005741018685512245
+        },
+        {
+          "rank": 10,
+          "token_id": 216,
+          "token_text": " ",
+          "token_raw": "Ġ",
+          "probability": 0.000473313732072711
+        }
+      ],
+      "top10_remaining_probability": 0.007281780242919922,
+      "top5_remaining_probability": 0.01272207498550415,
+      "eos": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "tool": "image_gen",
+  "date": "2026-10-21",
+  "output": "assets/intro-r26/codex-workbuddy.png",
+  "prompt": "Use case: ui-mockup. Create a crisp educational bitmap asset showing TWO desktop AI agent application windows vertically stacked, on pure white background. Landscape 3:2 canvas, high resolution. Upper half: Codex macOS desktop app, restrained warm-white interface, left navigation/sidebar with New task, Automations, Skills, Projects; main space reads 'What should we work on?' and a rounded empty task composer 'Describe a task', small folder selector. Title or tiny app identifier 'Codex'. Lower half: Tencent WorkBuddy desktop app, light off-white interface, left sidebar with 新任务、工作区、技能、自动化; main central heading '今天想完成什么工作？', empty rounded task composer '描述你的任务', three small document-oriented shortcuts 整理文件、分析数据、生成报告. Tiny app identifier 'WorkBuddy'. Both show native window border and small macOS traffic-light buttons. Windows should occupy full canvas width with only minimal white margins. Each window about 48% canvas height, 4% whitespace gap. Show realistic product-interface composition, fine UI details but NO filled conversation, no execution results, no success claims, no metrics, no private information. No decorative robots, no external explanatory text, no comparison heading, no arrows. Elegant realistic desktop interface illustrations, front-on flat view, no perspective tilt, no device housing. Preserve good readability. Actual slide headings and product captions will be added in HTML separately.",
+  "transparent_background": false
+}

@@ -1,0 +1,23 @@
+{
+  "zip_files": [
+    "procurement-review/SKILL.md",
+    "procurement-review/agents/openai.yaml",
+    "procurement-review/assets/review-template.html",
+    "procurement-review/references/cost-scope.md",
+    "procurement-review/references/pilot-review.md",
+    "procurement-review/references/quality-checklist.md",
+    "procurement-review/references/rollout-review.md",
+    "procurement-review/scripts/check_review.py",
+    "procurement-review/scripts/render_review.py"
+  ],
+  "download_matches_local": true,
+  "download_sha256": "796270636c1cc3e3af2a7b064604f4c9f0c356f0e0a285de77d2e1e44113307a",
+  "conditions": {
+    "phase": "正式部署",
+    "people": 300,
+    "term_months": 12,
+    "budget_cap_cny": 300000
+  },
+  "http_cli_probe": "sandbox prevented socket connection; not counted as passed",
+  "browser_evidence": "review-input.json opened and read; decision PNG displayed; ZIP downloaded via actual material link"
+}

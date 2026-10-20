@@ -1,0 +1,25 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=41&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=41&s=1
+	2 container
+		3 container Description: 第41页 用最小实验替代空想：原始Prompt, ID: mount
+			4 container 第41页 用最小实验替代空想：原始Prompt
+				5 heading 用最小实验替代空想：原始Prompt, Value: 1
+					6 text 用最小实验替代空想：原始Prompt
+				7 container 课件内容
+					8 container
+						9 text 行动前写清投入、指标、继续与停止条件，行动后取得新信息。 原始Prompt 接续左栏
+						10 text 我正在纠结的是：【填写你的选择或想法】。
+						11 text 请先找出这个决定背后最需要验证的3个假设，再选出最可能改变最终结论的那一个。
+						12 text 围绕这个假设，帮我设计一个低成本、可逆、能在【7天或你能接受的周期】内完成的最小实验。
+						13 text 请写清：
+						14 text 1. 具体要做什么；
+						15 text 2. 需要投入多少时间和资源；
+						16 text 3. 观察什么指标；
+						17 text 4. 什么结果支持继续；
+						18 text 5. 什么结果提醒我停止；
+						19 text 6. 实验结束后能获得什么新信息。
+						20 text 最后告诉我，明天就能开始的第一个动作是什么。
+						21 text 《Prompting技巧》· 决策 · 第10页
+		22 text 第41页，用最小实验替代空想：原始Prompt，整页显示
+
+The focused UI element is 3 container Description: 第41页 用最小实验替代空想：原始Prompt, ID: mount

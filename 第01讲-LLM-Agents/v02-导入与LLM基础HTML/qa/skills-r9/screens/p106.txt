@@ -1,0 +1,61 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=106&s=1".
+0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=106&s=1
+	1 container
+		47 container Description: 第106页 从程序性记忆到Skills, ID: mount
+			48 container 第106页 从程序性记忆到Skills
+				49 heading 从程序性记忆到Skills, Value: 1
+					50 text 从程序性记忆到Skills
+				51 container 课件内容
+					52 container
+						53 text 程序性记忆（Procedural memory） ：保留做事的方法、步骤和经验。 记住“是什么”
+						54 heading 历史与事实, Value: 3
+							55 text 历史与事实
+						56 container
+							57 text 这次项目采用哪个预算。
+							58 text 用户偏好什么表达方式。
+						59 text 记住“怎样做”
+						60 heading 程序性记忆, Value: 3
+							61 text 程序性记忆
+						62 container
+							63 text 拿到材料后，先核对什么？
+							64 text 按什么顺序处理，如何判断完成？
+						65 heading 独立组织为Skill, Value: 3
+							66 text 独立组织为Skill
+						67 container
+							68 text 把适用条件、步骤、资源与检查标准
+							69 text 放到可发现、可读取的文件包里。
+						70 text Memory保存的信息中，
+						71 text 可以包含可复用的做法。
+						72 text Skills把这些做法组织成独立入口。 文件中的方法被读入当前输入，影响本次生成；修改Skill文件不等于训练模型参数。
+				73 container 课程进度
+					74 button 导入
+					75 button 1. LLM基础
+					76 button 2. Prompting
+					77 button 3. Agents · Externalization & Internalization
+						78 text 3. Agents 
+						79 text · Externalization & Internalization
+					80 button 3.0 外化与内化总览
+					81 button 3.1 工具调用
+					82 button 3.2 Memory
+					83 button 3.3 Skills
+					84 button 3.4 Harness
+					85 button 3.5 外化与内化整合
+					86 button 3.6 全讲总结
+		32 container Description: 课件操作, ID: controls
+			33 button Description: 上一步, Help: 上一步（←）
+			34 button Description: 下一步, Help: 下一步（→或空格）
+			35 container jump-form
+				36 text 页码
+				37 stepper (settable, integer) Description: 页码, Value: 106, ID: page-input
+				38 text / 161
+			87 text 整页显示
+			40 button 目录
+			41 button 讲者备注
+			42 button 完整材料
+			43 button 放大图解
+			44 button 全屏
+			45 button 隐藏, Help: 按H恢复
+			46 button 操作说明
+		88 text 第106页，从程序性记忆到Skills，整页显示
+
+The focused UI element is 47 container Description: 第106页 从程序性记忆到Skills, ID: mount

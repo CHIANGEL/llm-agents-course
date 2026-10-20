@@ -1,0 +1,212 @@
+[
+  {
+    "asset": "assets/protocols-r10/classification-axes.png",
+    "pdf_page": 116,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      30,
+      325,
+      1642,
+      630
+    ],
+    "sha256": "27da0cdc28e1d05862cec3b26b2e4ba104180e2eeed94ee682d3aa7fb7c76185"
+  },
+  {
+    "asset": "assets/protocols-r10/two-interactions.png",
+    "pdf_page": 122,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      265,
+      465,
+      1415,
+      907
+    ],
+    "sha256": "34d5b1d838377f65883e8759172898312c88e3806e12b9e4783e81bcd16c27a8"
+  },
+  {
+    "asset": "assets/protocols-r10/mcp-roles.png",
+    "pdf_page": 125,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      55,
+      370,
+      1645,
+      725
+    ],
+    "sha256": "6a79e6c72756f779b8c568ae58d2d05e17648d727a21836d82a688ba5ed95d31"
+  },
+  {
+    "asset": "assets/protocols-r10/mcp-flow.png",
+    "pdf_page": 124,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      100,
+      330,
+      1620,
+      890
+    ],
+    "sha256": "0e14a379258f5f3f9342173fd1f2c096556104186f9b43686486023514e81426"
+  },
+  {
+    "asset": "assets/protocols-r10/a2a-flow.png",
+    "pdf_page": 137,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      35,
+      325,
+      1640,
+      480
+    ],
+    "sha256": "06c12f0c84ce9c5fa8ca9539c2c3b3b3ecc1c070ee0f3629cebe397c9c847217"
+  },
+  {
+    "asset": "assets/protocols-r10/a2a-messages.png",
+    "pdf_page": 137,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      35,
+      500,
+      1640,
+      865
+    ],
+    "sha256": "cdc1405169beb57b9e67648c6e89e8eb9f2f74553c3325fe7fc0f694d8314062"
+  },
+  {
+    "asset": "assets/protocols-r10/participants.png",
+    "pdf_page": 138,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      815,
+      440,
+      1640,
+      685
+    ],
+    "sha256": "6f2a01f77ae83010084ef97f7fbe7d0e7b615ecbf2c174eb017c4f9f6d615614"
+  },
+  {
+    "asset": "assets/protocols-r10/combination.png",
+    "pdf_page": 151,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      30,
+      440,
+      1635,
+      740
+    ],
+    "sha256": "bf5c660411048ce8b87d3a978080da62569cbbc126b04eb37cc733a8e9d18222"
+  },
+  {
+    "asset": "assets/protocols-r10/agent.png",
+    "pdf_page": 125,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      65,
+      380,
+      310,
+      640
+    ],
+    "sha256": "ff3a1b735c1e1a1624b8d1758703a69bb6742e82d027043a08e1c7aa1962b8ea"
+  },
+  {
+    "asset": "assets/protocols-r10/host.png",
+    "pdf_page": 125,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      644,
+      400,
+      1000,
+      644
+    ],
+    "sha256": "4485b0ca8af6aad9045763e8c62f2391de8edc1e168df6bc252ecff1f9ed3dc9"
+  },
+  {
+    "asset": "assets/protocols-r10/weather.png",
+    "pdf_page": 125,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      1310,
+      375,
+      1635,
+      625
+    ],
+    "sha256": "c9ed15a9ffadca5d4c505f23094efc8255f20adb15d6e739a5fbbd02cc3434e4"
+  },
+  {
+    "asset": "assets/protocols-r10/directory.png",
+    "pdf_page": 124,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      180,
+      410,
+      375,
+      554
+    ],
+    "sha256": "bad7150de7178db3f24bb3ff06fc533e6e010a337a1fb70a291a7fcb555e6f11"
+  },
+  {
+    "asset": "assets/protocols-r10/card.png",
+    "pdf_page": 137,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      75,
+      350,
+      180,
+      450
+    ],
+    "sha256": "6e2fda64363cd536b90f7b1ba39e032c3ce7bf0e1f9b4c3de8a10916303f2ab8"
+  },
+  {
+    "asset": "assets/protocols-r10/result.png",
+    "pdf_page": 137,
+    "render_size": [
+      1672,
+      941
+    ],
+    "pixel_crop": [
+      1310,
+      350,
+      1425,
+      455
+    ],
+    "sha256": "29365e72122a51b4599641e24581d6277c1e73ad043b6f989357d25735bb4a2f"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "rpc_request_id": 102,
+  "model_tool_call_id": "call_weather_01",
+  "server": "classroom-weather-fixture",
+  "tool_name": "get_weather"
+}

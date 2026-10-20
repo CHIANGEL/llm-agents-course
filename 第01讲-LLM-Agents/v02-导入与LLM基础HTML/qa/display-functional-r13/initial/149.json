@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "149",
+  "text": "Harness：把各部分组织成运行系统\nHarness是围绕模型运行的一套程序：把已有组件接成能推进任务的系统。\n工具\nMemory\nSkills\nProtocols\n执行操作\n保存和取用信息\n提供可复用的方法\n约定请求与返回\nHarness：组织输入 → 调用模型 → 安排执行 → 检查与继续\n本节先看整体怎样运行，再看上下文、权限、Hooks、子智能体与进度恢复。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "Harness：把各部分组织成运行系统"
+}

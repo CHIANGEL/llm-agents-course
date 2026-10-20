@@ -1,0 +1,104 @@
+{
+  "promptingPages": 30,
+  "minutes": 35,
+  "lectureMinutes": 180,
+  "defaultFullDisplay": true,
+  "unchangedLLMPages": [
+    4,
+    14
+  ],
+  "originalPromptCoverage": [
+    {
+      "id": 1,
+      "title": "苏格拉底式提问",
+      "pages": [
+        21
+      ],
+      "lines": 16,
+      "exactPromptText": true
+    },
+    {
+      "id": 2,
+      "title": "双层解释法",
+      "pages": [
+        23
+      ],
+      "lines": 10,
+      "exactPromptText": true
+    },
+    {
+      "id": 3,
+      "title": "反向拆解",
+      "pages": [
+        25
+      ],
+      "lines": 13,
+      "exactPromptText": true
+    },
+    {
+      "id": 4,
+      "title": "横纵分析法",
+      "pages": [
+        27,
+        28
+      ],
+      "lines": 20,
+      "exactPromptText": true
+    },
+    {
+      "id": 5,
+      "title": "事实核查",
+      "pages": [
+        30
+      ],
+      "lines": 22,
+      "exactPromptText": true
+    },
+    {
+      "id": 6,
+      "title": "专家会诊",
+      "pages": [
+        33
+      ],
+      "lines": 18,
+      "exactPromptText": true
+    },
+    {
+      "id": 7,
+      "title": "第一性原理",
+      "pages": [
+        34
+      ],
+      "lines": 12,
+      "exactPromptText": true
+    },
+    {
+      "id": 8,
+      "title": "跨领域借解",
+      "pages": [
+        36
+      ],
+      "lines": 13,
+      "exactPromptText": true
+    },
+    {
+      "id": 9,
+      "title": "双向钢人论证",
+      "pages": [
+        39
+      ],
+      "lines": 7,
+      "exactPromptText": true
+    },
+    {
+      "id": 10,
+      "title": "用最小实验替代空想",
+      "pages": [
+        41
+      ],
+      "lines": 11,
+      "exactPromptText": true
+    }
+  ],
+  "method": "Source-to-rendered-text comparison; supplements actual browser review."
+}

@@ -1,0 +1,18 @@
+{
+  "broken": [],
+  "page": "108",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    },
+    {
+      "max": 0,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "assets/jupyter.png"
+  ],
+  "text": "从左侧选择文件；右侧查看原文、模板或图标。\njupyter-notebook / 12个文件\nSKILL.md\nreferences/tutorial-patterns.md\nreferences/experiment-patterns.md\nreferences/notebook-structure.md\nreferences/quality-checklist.md\nscripts/new_notebook.py\nassets/tutorial-template.ipynb\nassets/experiment-template.ipynb\nagents/openai.yaml\nassets/jupyter-small.svg\nassets/jupyter.png\nLICENSE.txt\n重置\nassets/jupyter.png\nPNG图片，见文件包中的原文件。\n\n界面图标。\n\n入口文件组织方法；参考、脚本与模板为具体任务提供可取用的资源。"
+}

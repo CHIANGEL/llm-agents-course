@@ -1,0 +1,77 @@
+{
+  "L1": {
+    "href": "sources/library/L1/index.html"
+  },
+  "L2": {
+    "href": "sources/library/L2/index.html"
+  },
+  "L3": {
+    "href": "sources/library/L3/index.html"
+  },
+  "TEACHER": {
+    "href": "sources/library/TEACHER/index.html"
+  },
+  "PROMPT_PDF": {
+    "href": "sources/library/PROMPT_PDF/index.html"
+  },
+  "PLAN": {
+    "href": "sources/library/PLAN/index.html"
+  },
+  "MEM": {
+    "href": "sources/library/MEM/index.html"
+  },
+  "SKILL": {
+    "href": "sources/library/SKILL/index.html"
+  },
+  "MCP": {
+    "href": "sources/library/MCP/index.html"
+  },
+  "CASE_FIN": {
+    "href": "sources/official-readers/fin.html"
+  },
+  "CASE_AWS": {
+    "href": "sources/official-readers/aws.html"
+  },
+  "CASE_BOX": {
+    "href": "sources/official-readers/box.html"
+  },
+  "CASE_REMARKABLE": {
+    "href": "sources/official-readers/remarkable.html"
+  },
+  "CASE_ZEP": {
+    "href": "sources/official-readers/zep.html"
+  },
+  "RP_PAPER": {
+    "href": "sources/official-readers/rpeval.html"
+  },
+  "NOTEBOOK_COMPLETED": {
+    "href": "sources/library/NOTEBOOK_COMPLETED/index.html"
+  },
+  "TOOLS_R7": {
+    "href": "sources/tool-calling-r7/source-map.json"
+  },
+  "SKILLS_R9": {
+    "href": "sources/skills-r9/来源与适配记录.md"
+  },
+  "SKILLS_R16": {
+    "href": "sources/skills-r16/来源与执行记录.md"
+  },
+  "PROTOCOLS_R19": {
+    "href": "sources/tools-protocols-r19/来源与适配记录.md"
+  },
+  "AGENT_INTERNET_R20": {
+    "href": "sources/agent-internet-r20/来源与适配记录.md"
+  },
+  "INTEGRATION_R21": {
+    "href": "sources/integration-r21/来源与内容取舍.md"
+  },
+  "AGENT_OVERVIEW_R4": {
+    "href": "sources/agents-overview-r4/source-map.json"
+  },
+  "SOURCE_REPLICA_R5": {
+    "href": "sources/source-replica-r5/source-map.json"
+  },
+  "HTML_FIGURES_R6": {
+    "href": "sources/html-figures-r6/source-map.json"
+  }
+}

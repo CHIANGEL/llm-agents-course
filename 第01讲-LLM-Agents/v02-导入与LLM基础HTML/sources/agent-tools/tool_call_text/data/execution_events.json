@@ -1,0 +1,18 @@
+{
+  "main_replay": [
+    {
+      "event": "tool_executed",
+      "name": "get_weather",
+      "location": "New York",
+      "read": "weather_fixture.json"
+    }
+  ],
+  "snippet_replay": [
+    {
+      "event": "tool_executed",
+      "name": "get_weather",
+      "location": "New York",
+      "read": "weather_fixture.json"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "page_count": 200,
+  "state_count": 200,
+  "removed_authoring_page_2": true,
+  "all_pages_from_3_unchanged": true,
+  "total_seconds": 17140,
+  "local_images": {
+    "assets/basic-concepts-r23/deepseek-web.png": true,
+    "assets/basic-concepts-r23/doubao-mobile.png": true,
+    "assets/intro-r26/codex-workbuddy.png": true
+  }
+}

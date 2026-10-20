@@ -1,0 +1,119 @@
+{
+  "status": "reviewed_and_published",
+  "pairs": [
+    {
+      "strategy": "four-elements",
+      "object": "RAG面向管理层",
+      "simple_index": 0,
+      "strategy_index": 1,
+      "observed_difference": "从通用技术说明改为5分钟管理层讲解，贯穿采购尾款并给出供应商检查问题。"
+    },
+    {
+      "strategy": "give-example",
+      "object": "单点登录通知",
+      "simple_index": 4,
+      "strategy_index": 5,
+      "observed_difference": "同样事实，策略版沿用参考示例的用户收益标题、现在/开始前/开放时间结构。"
+    },
+    {
+      "strategy": "model-write-prompt",
+      "object": "企业知识库试点验收",
+      "simple_index": 65,
+      "strategy_index": 66,
+      "observed_difference": "普通版直接确定D14评审、报价/合同材料与三类结论；模型审查后追问未确认事项，改写稿的执行结果把场景、职责、评审选项明确标为建议待确认，将试点证据与采购批准分开。两侧均有可用成品，普通版另给出Word文件；此例重点是澄清和约束显式化，不宣称策略版排版更好。",
+      "prompt_generation_index": 63
+    },
+    {
+      "strategy": "socratic",
+      "object": "知识库AI活跃人数",
+      "simple_index": 12,
+      "strategy_index": 13,
+      "observed_difference": "简单版虽提醒核实需求，仍给出到200人的8周增长表；问诊逐问核实80人高频人群，最终转为验证业务价值。"
+    },
+    {
+      "strategy": "two-layer",
+      "object": "辛普森悖论",
+      "simple_index": 18,
+      "strategy_index": 19,
+      "observed_difference": "简单版已有好例子；策略版进一步明确小白/专业两层、术语对应、分组变量的因果边界。"
+    },
+    {
+      "strategy": "reverse-deconstruction",
+      "object": "知识库采购说明会文案",
+      "simple_index": 20,
+      "strategy_index": 21,
+      "observed_difference": "简单版主要评改原稿；策略版区分可迁移规律与情境细节，并形成重建流程。"
+    },
+    {
+      "strategy": "horizontal-vertical",
+      "object": "Costco",
+      "simple_index": 24,
+      "strategy_index": 25,
+      "observed_difference": "从单个公司经营介绍，转为历史路径、同维度横向比较与条件化未来路径。"
+    },
+    {
+      "strategy": "fact-checking",
+      "object": "微软日本四天工作制",
+      "simple_index": 56,
+      "strategy_index": 57,
+      "observed_difference": "简单版已指出逻辑问题，但未实际检索或给出引用；策略版检索74个网页，补出同期比较口径、配套会议改革、2019年冬季安排与后续研究，逐项评级。展示重点是证据核查与上下文，不宣称只有策略版能识别因果问题。",
+      "primary_source_check": "微软2019-10-31公告、2019-11-08更新：39.9%属实，但由多种因素造成，不能仅归因于该挑战；冬季不再另给特别假。模型未明确提到11月8日的官方更正，保留此局限。"
+    },
+    {
+      "strategy": "expert-consultation",
+      "object": "咖啡店外卖经营",
+      "simple_index": 32,
+      "strategy_index": 59,
+      "observed_difference": "简单版已有利润测算与试点建议；策略版分别展开增量经济、运营产能、顾客渠道三个视角，逐项提出改变判断的证据，并交叉质疑短期利润、午高峰限流与新客价值之间的冲突。"
+    },
+    {
+      "strategy": "first-principles",
+      "object": "120人周报",
+      "simple_index": 38,
+      "strategy_index": 39,
+      "observed_difference": "策略版先审计真实决策事件与信号缺失，再决定新机制；简单版更快进入周报替代方案。"
+    },
+    {
+      "strategy": "cross-domain",
+      "object": "售前专家被频繁打断",
+      "simple_index": 40,
+      "strategy_index": 41,
+      "observed_difference": "显式从值班分诊、案例复用等不同领域迁移机制，并说明迁移边界。"
+    },
+    {
+      "strategy": "steelman",
+      "object": "咖啡品牌平台投放与会员",
+      "simple_index": 62,
+      "strategy_index": 47,
+      "observed_difference": "先给平台与会员双方最强论据和成立条件，再追问近期可触达顾客规模。补入模拟数据后，给出75%真实增量订单的打平条件及先用8000元验证会员的分阶段预算；保留足以推翻判断的条件。追加信息由追问获得，不能把数字差异全部归因于思维能力。"
+    },
+    {
+      "strategy": "minimum-experiment",
+      "object": "咖啡店主付费社群",
+      "simple_index": 64,
+      "strategy_index": 61,
+      "observed_difference": "普通版已有付费验证意识，但给出8周推进计划，第3周才预售；策略版把当前决定缩为7天、7–8小时、0–100元的真实付费预售，写清继续、调整与停止边界。"
+    }
+  ],
+  "rejections": [
+    {
+      "objects": [
+        "BCG顾问实验",
+        "Google心理安全感"
+      ],
+      "reason": "ChatGPT简单版已经完成主要事实核验与逻辑纠错；不因策略版更长就优先选入。"
+    },
+    {
+      "object": "BCG实验DeepSeek复测",
+      "reason": "简单版同样能核查核心反证；策略版还把部分经验断言过度归为价值判断，不优选。"
+    },
+    {
+      "objects": [
+        "AI会议纪要服务",
+        "小店经营周报订阅"
+      ],
+      "reason": "普通回答已覆盖低成本试验与付费信号；新增社群对象，观察8周完整推进与7天单一假设验证的差别。"
+    }
+  ],
+  "date": "2026-10-21"
+}

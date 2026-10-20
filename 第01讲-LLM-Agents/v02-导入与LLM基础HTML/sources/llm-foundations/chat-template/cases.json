@@ -1,0 +1,125 @@
+[
+  {
+    "id": "chat_01",
+    "title": "多轮聊天：第一次提问",
+    "explanation": "应用先放入system指令，再加入用户问题。",
+    "browser_messages": [
+      {
+        "role": "user",
+        "content": "3人，每人20元？"
+      }
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "只给结果。"
+      },
+      {
+        "role": "user",
+        "content": "3人，每人20元？"
+      }
+    ],
+    "python_code": "messages = [\n  dict(role='system',\n    content='只给结果。'),\n  dict(role='user',\n    content='3人，每人20元？'),\n]",
+    "template_text": "<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n",
+    "subsequent_illustrative_answer": "60元。",
+    "status": "draft_for_root"
+  },
+  {
+    "id": "chat_02",
+    "title": "多轮聊天：接着问人数",
+    "explanation": "上一轮回答作为assistant消息，与追问一起传入。",
+    "browser_messages": [
+      {
+        "role": "user",
+        "content": "3人，每人20元？"
+      },
+      {
+        "role": "assistant",
+        "content": "60元。"
+      },
+      {
+        "role": "user",
+        "content": "5人呢？"
+      }
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "只给结果。"
+      },
+      {
+        "role": "user",
+        "content": "3人，每人20元？"
+      },
+      {
+        "role": "assistant",
+        "content": "60元。"
+      },
+      {
+        "role": "user",
+        "content": "5人呢？"
+      }
+    ],
+    "python_code": "messages = [\n  dict(role='system',\n    content='只给结果。'),\n  dict(role='user',\n    content='3人，每人20元？'),\n  dict(role='assistant',\n    content='60元。'),\n  dict(role='user',\n    content='5人呢？'),\n]",
+    "template_text": "<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n60元。<|im_end|>\n<|im_start|>user\n5人呢？<|im_end|>\n<|im_start|>assistant\n",
+    "subsequent_illustrative_answer": "100元。",
+    "status": "draft_for_root"
+  },
+  {
+    "id": "chat_03",
+    "title": "多轮聊天：再问预算",
+    "explanation": "模型收到完整历史，才知道这次仍按5人计算。",
+    "browser_messages": [
+      {
+        "role": "user",
+        "content": "3人，每人20元？"
+      },
+      {
+        "role": "assistant",
+        "content": "60元。"
+      },
+      {
+        "role": "user",
+        "content": "5人呢？"
+      },
+      {
+        "role": "assistant",
+        "content": "100元。"
+      },
+      {
+        "role": "user",
+        "content": "预算80元，差多少？"
+      }
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "只给结果。"
+      },
+      {
+        "role": "user",
+        "content": "3人，每人20元？"
+      },
+      {
+        "role": "assistant",
+        "content": "60元。"
+      },
+      {
+        "role": "user",
+        "content": "5人呢？"
+      },
+      {
+        "role": "assistant",
+        "content": "100元。"
+      },
+      {
+        "role": "user",
+        "content": "预算80元，差多少？"
+      }
+    ],
+    "python_code": "messages = [\n  dict(role='system',\n    content='只给结果。'),\n  dict(role='user',\n    content='3人，每人20元？'),\n  dict(role='assistant',\n    content='60元。'),\n  dict(role='user',\n    content='5人呢？'),\n  dict(role='assistant',\n    content='100元。'),\n  dict(role='user',\n    content='预算80元，差多少？'),\n]",
+    "template_text": "<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n60元。<|im_end|>\n<|im_start|>user\n5人呢？<|im_end|>\n<|im_start|>assistant\n100元。<|im_end|>\n<|im_start|>user\n预算80元，差多少？<|im_end|>\n<|im_start|>assistant\n",
+    "subsequent_illustrative_answer": "还差20元。",
+    "status": "draft_for_root"
+  }
+]

@@ -1,0 +1,13 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=37&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=37&s=1
+	2 container
+		3 container Description: 第37页 有了解法，再判断选哪一个, ID: mount
+			4 container 第37页 有了解法，再判断选哪一个
+				5 heading 有了解法，再判断选哪一个, Value: 1
+					6 text 有了解法，再判断选哪一个
+				7 container 课件内容
+					8 container
+						9 text 专家会诊、第一性原理和跨领域借解帮助找到方案；决策要再比较和验证。 三种求解方法 专家会诊：从不同视角看 第一性原理：回到基本条件 跨领域借解：向其他领域找 两个方向都有道理，怎么选？ 双向钢人论证 比较双方理由和成立条件 用最小实验替代空想 让现实反馈补充判断依据 找到更多解法以后，继续处理取舍与不确定性。
+		10 text 第37页，有了解法，再判断选哪一个，整页显示
+
+The focused UI element is 3 container Description: 第37页 有了解法，再判断选哪一个, ID: mount

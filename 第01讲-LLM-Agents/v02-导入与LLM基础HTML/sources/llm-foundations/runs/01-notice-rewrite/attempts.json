@@ -1,0 +1,30 @@
+[
+  {
+    "attempt": 1,
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Rewrite this notice in one short formal sentence: Today’s lecture is cancelled."
+      }
+    ],
+    "template": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nRewrite this notice in one short formal sentence: Today’s lecture is cancelled.<|im_end|>\n<|im_start|>assistant\n",
+    "generated_token_ids": [
+      7886,
+      417,
+      99,
+      9364,
+      314,
+      35295,
+      30,
+      2
+    ],
+    "answer": "Today’s lecture is cancelled.",
+    "steps": 8,
+    "eos": true,
+    "seconds": 0.167
+  }
+]

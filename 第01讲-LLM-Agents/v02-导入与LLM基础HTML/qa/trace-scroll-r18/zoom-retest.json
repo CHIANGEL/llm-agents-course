@@ -1,0 +1,22 @@
+[
+  {
+    "stage": "before",
+    "scroll": 1422,
+    "selected": "call_checklist"
+  },
+  {
+    "stage": "open",
+    "scroll": 1422,
+    "selected": "call_checklist"
+  },
+  {
+    "stage": "select",
+    "scroll": 632.5,
+    "selected": "call_cost"
+  },
+  {
+    "stage": "close",
+    "scroll": 632.5,
+    "selected": "call_cost"
+  }
+]

@@ -1,0 +1,22 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=166&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=166&s=1
+	2 container 图解放大 · Harness：把输入、执行与反馈接起来, ID: deck-dialog
+		3 container
+			4 heading 图解放大 · Harness：把输入、执行与反馈接起来, Value: 2, ID: dialog-title
+				5 text 图解放大 · Harness：把输入、执行与反馈接起来
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			8 button 缩小图解
+			9 text 125%
+			10 button 继续放大图解
+			11 text 滚动查看图中细节
+			12 container
+				13 text 回到运行总图：Harness把 输入、执行、反馈与继续 组织成一个过程。
+				14 image 回到用户任务、材料、模型判断、执行、结果检查以及继续等待结束的循环
+				15 text 五类安排，各有位置 上下文：留下所需材料
+权限：限定与放行操作
+Hooks：按事件触发
+子智能体：分工与汇总
+进度：核对后接着做 工具、Memory、Skills、Protocols提供操作、信息、方法与交互；Harness把它们组织起来。 这些安排发生在模型之外。接下来：哪些有效做法可以再通过训练进入模型？
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

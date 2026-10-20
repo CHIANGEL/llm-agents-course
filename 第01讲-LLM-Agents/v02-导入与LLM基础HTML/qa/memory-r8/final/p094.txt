@@ -1,0 +1,66 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=94&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=94&s=1
+	2 container
+		55 container Description: 第94页 首次输入：摘要怎样进入模型？, ID: mount
+			56 container 第94页 首次输入：摘要怎样进入模型？
+				57 heading 首次输入：摘要怎样进入模型？, Value: 1
+					58 text 首次输入：摘要怎样进入模型？
+				59 container 课件内容
+					60 container
+						61 text 用户提交任务后，客户端先读取摘要，连同其他必要材料组织成输入。
+						62 heading 首次模型输入, Value: 2
+							63 text 首次模型输入
+						64 checkbox 基础指令 客户端准备, Value: 0
+						65 checkbox 记忆摘要与使用要求 客户端读取摘要, Value: 1
+						66 checkbox 项目说明与操作范围 客户端准备, Value: 0
+						67 checkbox 用户：300人部署 当前任务, Value: 0
+						68 button 重置
+						69 checkbox 关键内容, Value: 1
+						70 checkbox 原始条目, Value: 0
+						71 checkbox 本次完整输入, Value: 0
+						72 heading 已加载的记忆摘要, Value: 2
+							73 text 已加载的记忆摘要
+						74 text # 用户偏好
+采购评审使用简体中文，先结论、后依据；金额统一用人民币。
+
+# 项目背景
+企业知识库项目已完成20人试点，正在讨论扩大部署。
+
+# 详细记忆入口
+- rollout_summaries/pilot-budget.md：试点预算、包含内容和适用范围。
+- rollout_summaries/security-requirements.md：数据权限和企业账户要求。
+
+						75 text 左侧按输入顺序排列；右侧可阅读对应文本。
+						76 text 摘要由客户端加入；此时模型还没有发起读取详细记忆的工具调用。
+				77 container 课程进度
+					78 button 导入
+					79 button 1. LLM基础
+					80 button 2. Prompting
+					81 button 3. Agents · Externalization & Internalization
+						82 text 3. Agents 
+						83 text · Externalization & Internalization
+					84 button 3.0 外化与内化总览
+					85 button 3.1 工具调用
+					86 button 3.2 Memory
+					87 button 3.3 Skills
+					88 button 3.4 Harness
+					89 button 3.5 外化与内化整合
+					90 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 94, ID: page-input
+				46 text / 151
+			91 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		92 text 第94页，首次输入：摘要怎样进入模型？，整页显示
+
+The focused UI element is 55 container Description: 第94页 首次输入：摘要怎样进入模型？, ID: mount

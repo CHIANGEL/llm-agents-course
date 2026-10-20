@@ -1,0 +1,4461 @@
+[
+  {
+    "page": 1,
+    "controls": []
+  },
+  {
+    "page": 2,
+    "controls": []
+  },
+  {
+    "page": 3,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "→\n1.1 连续生成\n接下来"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "1.2 多轮聊天"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "14"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "1.3 LLM小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "15"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.1 三个核心"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "21"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.2 问清问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "24"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.3 学习"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "34"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.4 解决问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "41"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.5 决策"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "48"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.6 Prompting小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "50"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.0 大模型与智能体"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "59"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.1 外化与内化总览"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "70"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.2 工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "84"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.3 Memory"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "123"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.4 Skills"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "156"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.5 Protocols"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "169"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.6 Harness"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "192"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.7 外化与内化整合"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "controls": []
+  },
+  {
+    "page": 5,
+    "controls": []
+  },
+  {
+    "page": 6,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-dec-view",
+            "lab"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "温度 · top-k · top-p →"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "controls": []
+  },
+  {
+    "page": 8,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-token-index",
+            "0"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "查看第1步"
+      },
+      {
+        "attrs": [
+          [
+            "data-token-index",
+            "1"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "查看第2步"
+      },
+      {
+        "attrs": [
+          [
+            "data-token-index",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "查看第3步"
+      },
+      {
+        "attrs": [
+          [
+            "data-token-index",
+            "3"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "查看第4步"
+      },
+      {
+        "attrs": [
+          [
+            "data-token-index",
+            "4"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "查看第5步"
+      },
+      {
+        "attrs": [
+          [
+            "data-token-index",
+            "5"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "查看第6步"
+      },
+      {
+        "attrs": [
+          [
+            "data-token-index",
+            "6"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "查看第7步"
+      },
+      {
+        "attrs": [
+          [
+            "data-token-index",
+            "7"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "查看第8步"
+      },
+      {
+        "attrs": [
+          [
+            "data-token-index",
+            "8"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "查看第9步"
+      },
+      {
+        "attrs": [
+          [
+            "data-token-index",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "查看第10步"
+      },
+      {
+        "attrs": [
+          [
+            "data-token-move",
+            "-1"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "← 上一个Token"
+      },
+      {
+        "attrs": [
+          [
+            "data-token-move",
+            "1"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "下一个Token →"
+      },
+      {
+        "attrs": [
+          [
+            "data-token-index",
+            "0"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "从头查看"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "controls": []
+  },
+  {
+    "page": 10,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.1 连续生成"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "→\n1.2 多轮聊天\n接下来"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "14"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "1.3 LLM小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "15"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.1 三个核心"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "21"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.2 问清问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "24"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.3 学习"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "34"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.4 解决问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "41"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.5 决策"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "48"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.6 Prompting小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "50"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.0 大模型与智能体"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "59"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.1 外化与内化总览"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "70"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.2 工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "84"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.3 Memory"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "123"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.4 Skills"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "156"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.5 Protocols"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "169"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.6 Harness"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "192"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.7 外化与内化整合"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "controls": []
+  },
+  {
+    "page": 12,
+    "controls": []
+  },
+  {
+    "page": 13,
+    "controls": []
+  },
+  {
+    "page": 14,
+    "controls": []
+  },
+  {
+    "page": 15,
+    "controls": []
+  },
+  {
+    "page": 16,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.1 连续生成"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.2 多轮聊天"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "14"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.3 LLM小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "15"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "→\n2.1 三个核心\n接下来"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "21"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.2 问清问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "24"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.3 学习"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "34"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.4 解决问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "41"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.5 决策"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "48"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.6 Prompting小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "50"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.0 大模型与智能体"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "59"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.1 外化与内化总览"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "70"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.2 工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "84"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.3 Memory"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "123"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.4 Skills"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "156"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.5 Protocols"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "169"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.6 Harness"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "192"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.7 外化与内化整合"
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "controls": []
+  },
+  {
+    "page": 18,
+    "controls": []
+  },
+  {
+    "page": 19,
+    "controls": []
+  },
+  {
+    "page": 20,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Prompt正文，可滚动阅读"
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "controls": []
+  },
+  {
+    "page": 22,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.1 连续生成"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.2 多轮聊天"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "14"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.3 LLM小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "15"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.1 三个核心"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "21"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "→\n2.2 问清问题\n接下来"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "24"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.3 学习"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "34"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.4 解决问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "41"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.5 决策"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "48"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.6 Prompting小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "50"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.0 大模型与智能体"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "59"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.1 外化与内化总览"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "70"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.2 工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "84"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.3 Memory"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "123"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.4 Skills"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "156"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.5 Protocols"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "169"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.6 Harness"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "192"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.7 外化与内化整合"
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "controls": []
+  },
+  {
+    "page": 24,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Prompt正文，可滚动阅读"
+      }
+    ]
+  },
+  {
+    "page": 25,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.1 连续生成"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.2 多轮聊天"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "14"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.3 LLM小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "15"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.1 三个核心"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "21"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.2 问清问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "24"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "→\n2.3 学习\n接下来"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "34"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.4 解决问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "41"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.5 决策"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "48"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.6 Prompting小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "50"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.0 大模型与智能体"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "59"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.1 外化与内化总览"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "70"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.2 工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "84"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.3 Memory"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "123"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.4 Skills"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "156"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.5 Protocols"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "169"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.6 Harness"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "192"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.7 外化与内化整合"
+      }
+    ]
+  },
+  {
+    "page": 26,
+    "controls": []
+  },
+  {
+    "page": 27,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Prompt正文，可滚动阅读"
+      }
+    ]
+  },
+  {
+    "page": 28,
+    "controls": []
+  },
+  {
+    "page": 29,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Prompt正文，可滚动阅读"
+      }
+    ]
+  },
+  {
+    "page": 30,
+    "controls": []
+  },
+  {
+    "page": 31,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Prompt正文，可滚动阅读"
+      }
+    ]
+  },
+  {
+    "page": 32,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Prompt正文，可滚动阅读"
+      }
+    ]
+  },
+  {
+    "page": 33,
+    "controls": []
+  },
+  {
+    "page": 34,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Prompt正文，可滚动阅读"
+      }
+    ]
+  },
+  {
+    "page": 35,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.1 连续生成"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.2 多轮聊天"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "14"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.3 LLM小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "15"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.1 三个核心"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "21"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.2 问清问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "24"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.3 学习"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "34"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "→\n2.4 解决问题\n接下来"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "41"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.5 决策"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "48"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.6 Prompting小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "50"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.0 大模型与智能体"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "59"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.1 外化与内化总览"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "70"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.2 工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "84"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.3 Memory"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "123"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.4 Skills"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "156"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.5 Protocols"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "169"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.6 Harness"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "192"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.7 外化与内化整合"
+      }
+    ]
+  },
+  {
+    "page": 36,
+    "controls": []
+  },
+  {
+    "page": 37,
+    "controls": []
+  },
+  {
+    "page": 38,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Prompt正文，可滚动阅读"
+      }
+    ]
+  },
+  {
+    "page": 39,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Prompt正文，可滚动阅读"
+      }
+    ]
+  },
+  {
+    "page": 40,
+    "controls": []
+  },
+  {
+    "page": 41,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Prompt正文，可滚动阅读"
+      }
+    ]
+  },
+  {
+    "page": 42,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.1 连续生成"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.2 多轮聊天"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "14"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.3 LLM小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "15"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.1 三个核心"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "21"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.2 问清问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "24"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.3 学习"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "34"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.4 解决问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "41"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "→\n2.5 决策\n接下来"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "48"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2.6 Prompting小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "50"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.0 大模型与智能体"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "59"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.1 外化与内化总览"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "70"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.2 工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "84"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.3 Memory"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "123"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.4 Skills"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "156"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.5 Protocols"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "169"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.6 Harness"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "192"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.7 外化与内化整合"
+      }
+    ]
+  },
+  {
+    "page": 43,
+    "controls": []
+  },
+  {
+    "page": 44,
+    "controls": []
+  },
+  {
+    "page": 45,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Prompt正文，可滚动阅读"
+      }
+    ]
+  },
+  {
+    "page": 46,
+    "controls": []
+  },
+  {
+    "page": 47,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Prompt正文，可滚动阅读"
+      }
+    ]
+  },
+  {
+    "page": 48,
+    "controls": []
+  },
+  {
+    "page": 49,
+    "controls": []
+  },
+  {
+    "page": 50,
+    "controls": []
+  },
+  {
+    "page": 51,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.1 连续生成"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.2 多轮聊天"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "14"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.3 LLM小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "15"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.1 三个核心"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "21"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.2 问清问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "24"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.3 学习"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "34"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.4 解决问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "41"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.5 决策"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "48"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.6 Prompting小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "50"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "→\n3.0 大模型与智能体\n接下来"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "59"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.1 外化与内化总览"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "70"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.2 工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "84"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.3 Memory"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "123"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.4 Skills"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "156"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.5 Protocols"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "169"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.6 Harness"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "192"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.7 外化与内化整合"
+      }
+    ]
+  },
+  {
+    "page": 52,
+    "controls": []
+  },
+  {
+    "page": 53,
+    "controls": []
+  },
+  {
+    "page": 54,
+    "controls": [
+      {
+        "attrs": [],
+        "id": "",
+        "tag": "VIDEO",
+        "text": "财务数据分析视频"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "button"
+          ],
+          [
+            "data-video-action",
+            "play"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "播放财务数据分析视频"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "range"
+          ],
+          [
+            "min",
+            "0"
+          ],
+          [
+            "max",
+            "24.466667"
+          ],
+          [
+            "step",
+            "0.1"
+          ]
+        ],
+        "id": "",
+        "tag": "INPUT",
+        "text": "财务数据分析视频播放进度"
+      },
+      {
+        "attrs": [],
+        "id": "",
+        "tag": "SELECT",
+        "text": "财务数据分析视频播放速度"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "button"
+          ],
+          [
+            "data-video-action",
+            "mute"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "开启财务数据分析视频声音"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "button"
+          ],
+          [
+            "data-video-action",
+            "expand"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "放大财务数据分析视频"
+      }
+    ]
+  },
+  {
+    "page": 55,
+    "controls": [
+      {
+        "attrs": [],
+        "id": "",
+        "tag": "VIDEO",
+        "text": "网页预约视频"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "button"
+          ],
+          [
+            "data-video-action",
+            "play"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "播放网页预约视频"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "range"
+          ],
+          [
+            "min",
+            "0"
+          ],
+          [
+            "max",
+            "20.4"
+          ],
+          [
+            "step",
+            "0.1"
+          ]
+        ],
+        "id": "",
+        "tag": "INPUT",
+        "text": "网页预约视频播放进度"
+      },
+      {
+        "attrs": [],
+        "id": "",
+        "tag": "SELECT",
+        "text": "网页预约视频播放速度"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "button"
+          ],
+          [
+            "data-video-action",
+            "mute"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "开启网页预约视频声音"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "button"
+          ],
+          [
+            "data-video-action",
+            "expand"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "放大网页预约视频"
+      }
+    ]
+  },
+  {
+    "page": 56,
+    "controls": []
+  },
+  {
+    "page": 57,
+    "controls": [
+      {
+        "attrs": [],
+        "id": "",
+        "tag": "VIDEO",
+        "text": "机械臂抓笔视频"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "button"
+          ],
+          [
+            "data-video-action",
+            "play"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "播放机械臂抓笔视频"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "range"
+          ],
+          [
+            "min",
+            "0"
+          ],
+          [
+            "max",
+            "29.354667"
+          ],
+          [
+            "step",
+            "0.1"
+          ]
+        ],
+        "id": "",
+        "tag": "INPUT",
+        "text": "机械臂抓笔视频播放进度"
+      },
+      {
+        "attrs": [],
+        "id": "",
+        "tag": "SELECT",
+        "text": "机械臂抓笔视频播放速度"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "button"
+          ],
+          [
+            "data-video-action",
+            "mute"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "开启机械臂抓笔视频声音"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "button"
+          ],
+          [
+            "data-video-action",
+            "expand"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "放大机械臂抓笔视频"
+      }
+    ]
+  },
+  {
+    "page": 58,
+    "controls": []
+  },
+  {
+    "page": 59,
+    "controls": []
+  },
+  {
+    "page": 60,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.1 连续生成"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.2 多轮聊天"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "14"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.3 LLM小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "15"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.1 三个核心"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "21"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.2 问清问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "24"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.3 学习"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "34"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.4 解决问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "41"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.5 决策"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "48"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.6 Prompting小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "50"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n3.0 大模型与智能体"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "59"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "→\n3.1 外化与内化总览\n接下来"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "70"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.2 工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "84"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.3 Memory"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "123"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.4 Skills"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "156"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.5 Protocols"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "169"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.6 Harness"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "192"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.7 外化与内化整合"
+      }
+    ]
+  },
+  {
+    "page": 61,
+    "controls": []
+  },
+  {
+    "page": 62,
+    "controls": []
+  },
+  {
+    "page": 63,
+    "controls": []
+  },
+  {
+    "page": 64,
+    "controls": []
+  },
+  {
+    "page": 65,
+    "controls": []
+  },
+  {
+    "page": 66,
+    "controls": []
+  },
+  {
+    "page": 67,
+    "controls": []
+  },
+  {
+    "page": 68,
+    "controls": []
+  },
+  {
+    "page": 69,
+    "controls": []
+  },
+  {
+    "page": 70,
+    "controls": []
+  },
+  {
+    "page": 71,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.1 连续生成"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.2 多轮聊天"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "14"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.3 LLM小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "15"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.1 三个核心"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "21"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.2 问清问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "24"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.3 学习"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "34"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.4 解决问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "41"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.5 决策"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "48"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.6 Prompting小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "50"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n3.0 大模型与智能体"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "59"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n3.1 外化与内化总览"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "70"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "→\n3.2 工具调用\n接下来"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "84"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.3 Memory"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "123"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.4 Skills"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "156"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.5 Protocols"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "169"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.6 Harness"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "192"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.7 外化与内化整合"
+      }
+    ]
+  },
+  {
+    "page": 72,
+    "controls": []
+  },
+  {
+    "page": 73,
+    "controls": []
+  },
+  {
+    "page": 74,
+    "controls": []
+  },
+  {
+    "page": 75,
+    "controls": []
+  },
+  {
+    "page": 76,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "page": 77,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "Current weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy"
+      }
+    ]
+  },
+  {
+    "page": 78,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-tr7-part",
+            "0"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "1. 回答要求与工具说明\n中文回答；get_weather需要地点"
+      },
+      {
+        "attrs": [
+          [
+            "data-tr7-part",
+            "1"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2. 用户提出问题\n纽约现在天气怎么样？"
+      },
+      {
+        "attrs": [
+          [
+            "data-tr7-part",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3. 模型生成工具调用\nget_weather · New York"
+      },
+      {
+        "attrs": [
+          [
+            "data-tr7-part",
+            "3"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "4. 工具返回天气\n72°F · Partly cloudy"
+      },
+      {
+        "attrs": [
+          [
+            "data-tr7-part",
+            "4"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "5. 模型生成中文回答\n纽约气温72°F，局部多云。"
+      },
+      {
+        "attrs": [
+          [
+            "data-tr7-mode",
+            "fragment"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "对应片段"
+      },
+      {
+        "attrs": [
+          [
+            "data-tr7-mode",
+            "first"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "第一次完整输入"
+      },
+      {
+        "attrs": [
+          [
+            "data-tr7-mode",
+            "second"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "第二次完整输入"
+      },
+      {
+        "attrs": [
+          [
+            "data-tr7-mode",
+            "complete"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "完整对话"
+      },
+      {
+        "attrs": [
+          [
+            "data-tr7-text",
+            ""
+          ],
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools>"
+      }
+    ]
+  },
+  {
+    "page": 79,
+    "controls": []
+  },
+  {
+    "page": 80,
+    "controls": []
+  },
+  {
+    "page": 81,
+    "controls": []
+  },
+  {
+    "page": 82,
+    "controls": [
+      {
+        "attrs": [],
+        "id": "",
+        "tag": "VIDEO",
+        "text": "机械臂工具调用视频"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "button"
+          ],
+          [
+            "data-video-action",
+            "play"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "播放机械臂工具调用视频"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "range"
+          ],
+          [
+            "min",
+            "0"
+          ],
+          [
+            "max",
+            "29.354667"
+          ],
+          [
+            "step",
+            "0.1"
+          ]
+        ],
+        "id": "",
+        "tag": "INPUT",
+        "text": "机械臂工具调用视频播放进度"
+      },
+      {
+        "attrs": [],
+        "id": "",
+        "tag": "SELECT",
+        "text": "机械臂工具调用视频播放速度"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "button"
+          ],
+          [
+            "data-video-action",
+            "mute"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "开启机械臂工具调用视频声音"
+      },
+      {
+        "attrs": [
+          [
+            "type",
+            "button"
+          ],
+          [
+            "data-video-action",
+            "expand"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "放大机械臂工具调用视频"
+      }
+    ]
+  },
+  {
+    "page": 83,
+    "controls": []
+  },
+  {
+    "page": 84,
+    "controls": []
+  },
+  {
+    "page": 85,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.1 连续生成"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.2 多轮聊天"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "14"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.3 LLM小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "15"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.1 三个核心"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "21"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.2 问清问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "24"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.3 学习"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "34"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.4 解决问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "41"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.5 决策"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "48"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.6 Prompting小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "50"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n3.0 大模型与智能体"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "59"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n3.1 外化与内化总览"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "70"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n3.2 工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "84"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "→\n3.3 Memory\n接下来"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "123"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.4 Skills"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "156"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.5 Protocols"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "169"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.6 Harness"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "192"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.7 外化与内化整合"
+      }
+    ]
+  },
+  {
+    "page": 86,
+    "controls": []
+  },
+  {
+    "page": 87,
+    "controls": []
+  },
+  {
+    "page": 88,
+    "controls": []
+  },
+  {
+    "page": 89,
+    "controls": []
+  },
+  {
+    "page": 90,
+    "controls": []
+  },
+  {
+    "page": 91,
+    "controls": []
+  },
+  {
+    "page": 92,
+    "controls": []
+  },
+  {
+    "page": 93,
+    "controls": []
+  },
+  {
+    "page": 94,
+    "controls": []
+  },
+  {
+    "page": 95,
+    "controls": []
+  },
+  {
+    "page": 96,
+    "controls": []
+  },
+  {
+    "page": 97,
+    "controls": []
+  },
+  {
+    "page": 98,
+    "controls": []
+  },
+  {
+    "page": 99,
+    "controls": []
+  },
+  {
+    "page": 100,
+    "controls": []
+  },
+  {
+    "page": 101,
+    "controls": []
+  },
+  {
+    "page": 102,
+    "controls": []
+  },
+  {
+    "page": 103,
+    "controls": []
+  },
+  {
+    "page": 104,
+    "controls": []
+  },
+  {
+    "page": 105,
+    "controls": []
+  },
+  {
+    "page": 106,
+    "controls": []
+  },
+  {
+    "page": 107,
+    "controls": []
+  },
+  {
+    "page": 108,
+    "controls": []
+  },
+  {
+    "page": 109,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "企业知识库准备从20人试点扩大到300人部署。\n请起草一页采购评审要点。上次10万元的预算能直接沿用吗？\n先整理评估要点，暂不联系供应商。"
+      }
+    ]
+  },
+  {
+    "page": 110,
+    "controls": []
+  },
+  {
+    "page": 111,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-mr8-file",
+            "summary"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "memory_summary.md\n摘要＋详细记录入口"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-file",
+            "budget"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "pilot-budget.md\nrollout_summaries / 预算范围"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-file",
+            "security"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "security-requirements.md\nrollout_summaries / 安全要求"
+      },
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ],
+          [
+            "data-mr8-content",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "# 用户偏好\n采购评审使用简体中文，先结论、后依据；金额统一用人民币。\n\n# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n# 详细记忆入口\n- rollout_summaries/pilot-budget.md：试点预算、包含内容和适用范围。\n- rollout_summaries/security"
+      }
+    ]
+  },
+  {
+    "page": 112,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "先结论、后依据。\n金额统一用人民币。\n项目已完成20人试点。\n\n预算范围 → pilot-budget.md"
+      },
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "20人、3个月试点。\n预算上限10万元。\n包含软件费与初始配置。\n\n不覆盖300人正式部署。"
+      }
+    ]
+  },
+  {
+    "page": 113,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-trace-list",
+            ""
+          ],
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "DIV",
+        "text": "Memory案例完整过程"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "base"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "基础指令\n客户端准备"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "memory"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "记忆摘要与使用要求\n客户端读取摘要"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "project"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "项目说明与操作范围\n客户端准备"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "user"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "用户：300人部署\n当前任务"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "call"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "模型：读取预算记录\n生成工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "result"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "工具：返回预算范围\n读取文件得到正文"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "answer"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "模型：给出评审要点\n结合当前任务与记忆"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "followup"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "用户：正式部署30万元\n新的条件"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "selected"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "关键内容"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "raw"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "原始条目"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "all"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "本次完整输入"
+      },
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ],
+          [
+            "data-mr8-content",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "You are Codex, a coding agent based on GPT-5. You and the user share one workspace, and your job is to collaborate with them until their goal is genuinely handl"
+      }
+    ]
+  },
+  {
+    "page": 114,
+    "controls": []
+  },
+  {
+    "page": 115,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-trace-list",
+            ""
+          ],
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "DIV",
+        "text": "Memory案例完整过程"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "base"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "基础指令\n客户端准备"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "memory"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "记忆摘要与使用要求\n客户端读取摘要"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "project"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "项目说明与操作范围\n客户端准备"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "user"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "用户：300人部署\n当前任务"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "call"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "模型：读取预算记录\n生成工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "result"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "工具：返回预算范围\n读取文件得到正文"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "answer"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "模型：给出评审要点\n结合当前任务与记忆"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "followup"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "用户：正式部署30万元\n新的条件"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "selected"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "关键内容"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "raw"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "原始条目"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "all"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "当前条目列表"
+      },
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ],
+          [
+            "data-mr8-content",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "exec_command\n{\n  \"cmd\": \"cat memories_v2/rollout_summaries/pilot-budget.md\",\n  \"workdir\": \"/workspace/procurement\"\n}"
+      }
+    ]
+  },
+  {
+    "page": 116,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-trace-list",
+            ""
+          ],
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "DIV",
+        "text": "Memory案例完整过程"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "base"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "基础指令\n客户端准备"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "memory"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "记忆摘要与使用要求\n客户端读取摘要"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "project"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "项目说明与操作范围\n客户端准备"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "user"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "用户：300人部署\n当前任务"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "call"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "模型：读取预算记录\n生成工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "result"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "工具：返回预算范围\n读取文件得到正文"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "answer"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "模型：给出评审要点\n结合当前任务与记忆"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "followup"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "用户：正式部署30万元\n新的条件"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "selected"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "关键内容"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "raw"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "原始条目"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "all"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "本次完整输入"
+      },
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ],
+          [
+            "data-mr8-content",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "# 企业知识库：试点预算的适用范围\n\n上次讨论的范围是20名员工、为期3个月的试点。\n10万元是本次试点的预算上限，包含试点软件费与初始配置。\n\n这一额度没有覆盖300人正式部署，也没有核定正式部署的年度费用。\n扩大部署时，应重新确认人数、使用期限、实施服务和费用范围。\n\n试点结束后，下一步是整理扩大部署的采购评估要求"
+      }
+    ]
+  },
+  {
+    "page": 117,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "20人、3个月的试点。\n\n10万元包含试点软件费与初始配置。\n\n没有覆盖300人正式部署，也没有核定正式部署的年度费用。"
+      }
+    ]
+  },
+  {
+    "page": 118,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-trace-list",
+            ""
+          ],
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "DIV",
+        "text": "Memory案例完整过程"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "base"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "基础指令\n客户端准备"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "memory"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "记忆摘要与使用要求\n客户端读取摘要"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "project"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "项目说明与操作范围\n客户端准备"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "user"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "用户：300人部署\n当前任务"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "call"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "模型：读取预算记录\n生成工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "result"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "工具：返回预算范围\n读取文件得到正文"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "answer"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "模型：给出评审要点\n结合当前任务与记忆"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "followup"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "用户：正式部署30万元\n新的条件"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "selected"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "关键内容"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "raw"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "原始条目"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "all"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "当前条目列表"
+      },
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ],
+          [
+            "data-mr8-content",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "结论\n上次10万元对应20人、3个月的试点，不能直接作为300人正式部署的预算。正式部署需要按人数、期限及服务范围重新估算。\n\n依据\n历史记录明确：10万元包含试点软件费和初始配置，没有核定300人正式部署的年度费用。\n\n采购评审要点\n1. 范围：300人；明确使用期限、所需功能与实施范围。\n2. 费用：分别列出软件、"
+      }
+    ]
+  },
+  {
+    "page": 119,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-trace-list",
+            ""
+          ],
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "DIV",
+        "text": "Memory案例完整过程"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "base"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "基础指令\n客户端准备"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "memory"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "记忆摘要与使用要求\n客户端读取摘要"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "project"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "项目说明与操作范围\n客户端准备"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "user"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "用户：300人部署\n当前任务"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "call"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "模型：读取预算记录\n生成工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "result"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "工具：返回预算范围\n读取文件得到正文"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "answer"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "模型：给出评审要点\n结合当前任务与记忆"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-item",
+            "followup"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "用户：正式部署30万元\n新的条件"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "selected"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "关键内容"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "raw"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "原始条目"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-mode",
+            "all"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "本次完整输入"
+      },
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ],
+          [
+            "data-mr8-content",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "这次300人正式部署的预算上限是30万元，使用期限为一年。\n请按这个条件更新评审要点，并记住这是正式部署的条件。"
+      }
+    ]
+  },
+  {
+    "page": 120,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-mr8-update",
+            "0"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "1. 最初加载"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-update",
+            "1"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "2. 磁盘已更新"
+      },
+      {
+        "attrs": [
+          [
+            "data-mr8-update",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3. 再次读取"
+      },
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ],
+          [
+            "data-mr8-disk",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。"
+      },
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ],
+          [
+            "data-mr8-input",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。"
+      }
+    ]
+  },
+  {
+    "page": 121,
+    "controls": []
+  },
+  {
+    "page": 122,
+    "controls": []
+  },
+  {
+    "page": 123,
+    "controls": []
+  },
+  {
+    "page": 124,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "2"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.1 连续生成"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "9"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.2 多轮聊天"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "14"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n1.3 LLM小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "15"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.1 三个核心"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "21"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.2 问清问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "24"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.3 学习"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "34"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.4 解决问题"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "41"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.5 决策"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "48"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n2.6 Prompting小结"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "50"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n3.0 大模型与智能体"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "59"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n3.1 外化与内化总览"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "70"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n3.2 工具调用"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "84"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "✓\n3.3 Memory"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "123"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "→\n3.4 Skills\n接下来"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "156"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.5 Protocols"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "169"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.6 Harness"
+      },
+      {
+        "attrs": [
+          [
+            "data-deck-goto",
+            "192"
+          ]
+        ],
+        "id": "",
+        "tag": "BUTTON",
+        "text": "3.7 外化与内化整合"
+      }
+    ]
+  },
+  {
+    "page": 125,
+    "controls": []
+  },
+  {
+    "page": 126,
+    "controls": []
+  },
+  {
+    "page": 127,
+    "controls": [
+      {
+        "attrs": [
+          [
+            "data-scroll-region",
+            ""
+          ]
+        ],
+        "id": "",
+        "tag": "PRE",
+        "text": "请按刚才确认的条件，起草一页采购评审要点：300人正式部署，使用期限一年，预算上限30万元。\n"
+      }
+    ]
+  }
+]

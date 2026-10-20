@@ -1,0 +1,46 @@
+{
+  "style_id": "安泰课件风格-v1",
+  "status": "teacher_approved",
+  "confirmed_on": "2026-09-16",
+  "approval_quote": "这个风格很好，把你这一轮总结的关于样式、排版、字体字号颜色、措辞等等东西都固定下来，以后必须遵照这个进行",
+  "applies_to": "本课程今后各讲及后续学期，教师明确修订时更新版本",
+  "references": [
+    {
+      "image": "slide_001.png",
+      "role": "定义、对话与旁注",
+      "sha256": "d222a6f7f531995d1a06f14117be6d3849653a74a38f2ec16811e9ef8dfa74f6",
+      "source": "第01讲-大模型的发展、基本原理与聊天机制/v07-课程介绍风格-开场预览/slides/slide_001.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "source_prompt": "prompts/slide_001_attempt04.txt",
+      "reference_kind": "teacher_approved_generated_slide"
+    },
+    {
+      "image": "slide_002.png",
+      "role": "算例、配图、代码与流程",
+      "sha256": "dc333586bf5f12250051ea3b51e8dae8626dbe8c7db2a846100344c3643a24d8",
+      "source": "第01讲-大模型的发展、基本原理与聊天机制/v07-课程介绍风格-开场预览/slides/slide_002.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "source_prompt": "prompts/slide_002_attempt01.txt",
+      "reference_kind": "teacher_approved_generated_slide"
+    },
+    {
+      "image": "slide_003.png",
+      "role": "章节目录与总起",
+      "sha256": "c48169ce5a079f58e517d6379efa6e3c91b81a065bb511371f84c26d519d3eb5",
+      "source": "第01讲-大模型的发展、基本原理与聊天机制/v07-课程介绍风格-开场预览/slides/slide_003.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "source_prompt": "prompts/slide_003_attempt02.txt",
+      "reference_kind": "teacher_approved_generated_slide"
+    }
+  ],
+  "source_paths_relative_to": "2026年-秋学期"
+}

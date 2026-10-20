@@ -1,0 +1,5 @@
+单元数： 7
+首标题： # Tutorial: Python列表与平均值
+第4单元： ## Step 1 - Start with a tiny example
+
+Explain what the next cell does in plain language.

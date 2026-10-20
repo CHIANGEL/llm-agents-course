@@ -1,0 +1,388 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "ec84f302454dcb013b57c8acd7ca9cb331981e7e",
+  "request": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Rewrite this notice in one short formal sentence: Today’s lecture is cancelled."
+    }
+  ],
+  "input_text": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nRewrite this notice in one short formal sentence: Today’s lecture is cancelled.<|im_end|>\n<|im_start|>assistant\n",
+  "output": "Today’s lecture is cancelled.",
+  "step_count": 8,
+  "stop_reason": "eos_token",
+  "steps": [
+    {
+      "step": 1,
+      "prefix_output": "",
+      "generated_output": "Today",
+      "chosen": "Today",
+      "chosen_probability": 0.4306686520576477,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 7886,
+          "token_text": "Today",
+          "token_raw": "Today",
+          "probability": 0.4306686520576477
+        },
+        {
+          "rank": 2,
+          "token_id": 504,
+          "token_text": "The",
+          "token_raw": "The",
+          "probability": 0.13119879364967346
+        },
+        {
+          "rank": 3,
+          "token_id": 57,
+          "token_text": "I",
+          "token_raw": "I",
+          "probability": 0.03641994297504425
+        },
+        {
+          "rank": 4,
+          "token_id": 1882,
+          "token_text": "We",
+          "token_raw": "We",
+          "probability": 0.033747054636478424
+        },
+        {
+          "rank": 5,
+          "token_id": 788,
+          "token_text": "In",
+          "token_raw": "In",
+          "probability": 0.02383667789399624
+        }
+      ],
+      "other_probability": 0.34412890672683716,
+      "eos": false
+    },
+    {
+      "step": 2,
+      "prefix_output": "Today",
+      "generated_output": "Today’",
+      "chosen": "’",
+      "chosen_probability": 0.811308741569519,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 417,
+          "token_text": "’",
+          "token_raw": "âĢĻ",
+          "probability": 0.811308741569519
+        },
+        {
+          "rank": 2,
+          "token_id": 506,
+          "token_text": "'s",
+          "token_raw": "'s",
+          "probability": 0.06509428471326828
+        },
+        {
+          "rank": 3,
+          "token_id": 28,
+          "token_text": ",",
+          "token_raw": ",",
+          "probability": 0.06275789439678192
+        },
+        {
+          "rank": 4,
+          "token_id": 314,
+          "token_text": " is",
+          "token_raw": "Ġis",
+          "probability": 0.035732120275497437
+        },
+        {
+          "rank": 5,
+          "token_id": 392,
+          "token_text": " we",
+          "token_raw": "Ġwe",
+          "probability": 0.007620776537805796
+        }
+      ],
+      "other_probability": 0.017486214637756348,
+      "eos": false
+    },
+    {
+      "step": 3,
+      "prefix_output": "Today’",
+      "generated_output": "Today’s",
+      "chosen": "s",
+      "chosen_probability": 0.9999898672103882,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 99,
+          "token_text": "s",
+          "token_raw": "s",
+          "probability": 0.9999898672103882
+        },
+        {
+          "rank": 2,
+          "token_id": 67,
+          "token_text": "S",
+          "token_raw": "S",
+          "probability": 3.1958406907506287e-06
+        },
+        {
+          "rank": 3,
+          "token_id": 764,
+          "token_text": "ll",
+          "token_raw": "ll",
+          "probability": 1.3886938177165575e-06
+        },
+        {
+          "rank": 4,
+          "token_id": 93,
+          "token_text": "m",
+          "token_raw": "m",
+          "probability": 7.639691830263473e-07
+        },
+        {
+          "rank": 5,
+          "token_id": 84,
+          "token_text": "d",
+          "token_raw": "d",
+          "probability": 7.364192811110115e-07
+        }
+      ],
+      "other_probability": 4.0531158447265625e-06,
+      "eos": false
+    },
+    {
+      "step": 4,
+      "prefix_output": "Today’s",
+      "generated_output": "Today’s lecture",
+      "chosen": " lecture",
+      "chosen_probability": 0.9484070539474487,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 9364,
+          "token_text": " lecture",
+          "token_raw": "Ġlecture",
+          "probability": 0.9484070539474487
+        },
+        {
+          "rank": 2,
+          "token_id": 32991,
+          "token_text": " Lecture",
+          "token_raw": "ĠLecture",
+          "probability": 0.026435241103172302
+        },
+        {
+          "rank": 3,
+          "token_id": 13857,
+          "token_text": " lectures",
+          "token_raw": "Ġlectures",
+          "probability": 0.006305689457803965
+        },
+        {
+          "rank": 4,
+          "token_id": 5040,
+          "token_text": " lesson",
+          "token_raw": "Ġlesson",
+          "probability": 0.0018518231809139252
+        },
+        {
+          "rank": 5,
+          "token_id": 1128,
+          "token_text": " class",
+          "token_raw": "Ġclass",
+          "probability": 0.001361423172056675
+        }
+      ],
+      "other_probability": 0.015638768672943115,
+      "eos": false
+    },
+    {
+      "step": 5,
+      "prefix_output": "Today’s lecture",
+      "generated_output": "Today’s lecture is",
+      "chosen": " is",
+      "chosen_probability": 0.6421332359313965,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 314,
+          "token_text": " is",
+          "token_raw": "Ġis",
+          "probability": 0.6421332359313965
+        },
+        {
+          "rank": 2,
+          "token_id": 523,
+          "token_text": " will",
+          "token_raw": "Ġwill",
+          "probability": 0.1418197900056839
+        },
+        {
+          "rank": 3,
+          "token_id": 553,
+          "token_text": " has",
+          "token_raw": "Ġhas",
+          "probability": 0.08239459246397018
+        },
+        {
+          "rank": 4,
+          "token_id": 28,
+          "token_text": ",",
+          "token_raw": ",",
+          "probability": 0.0397108756005764
+        },
+        {
+          "rank": 5,
+          "token_id": 436,
+          "token_text": " was",
+          "token_raw": "Ġwas",
+          "probability": 0.036070648580789566
+        }
+      ],
+      "other_probability": 0.05787086486816406,
+      "eos": false
+    },
+    {
+      "step": 6,
+      "prefix_output": "Today’s lecture is",
+      "generated_output": "Today’s lecture is cancelled",
+      "chosen": " cancelled",
+      "chosen_probability": 0.7076990008354187,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 35295,
+          "token_text": " cancelled",
+          "token_raw": "Ġcancelled",
+          "probability": 0.7076990008354187
+        },
+        {
+          "rank": 2,
+          "token_id": 43619,
+          "token_text": " canceled",
+          "token_raw": "Ġcanceled",
+          "probability": 0.05021800845861435
+        },
+        {
+          "rank": 3,
+          "token_id": 1036,
+          "token_text": " being",
+          "token_raw": "Ġbeing",
+          "probability": 0.04118430241942406
+        },
+        {
+          "rank": 4,
+          "token_id": 441,
+          "token_text": " not",
+          "token_raw": "Ġnot",
+          "probability": 0.027287960052490234
+        },
+        {
+          "rank": 5,
+          "token_id": 288,
+          "token_text": " to",
+          "token_raw": "Ġto",
+          "probability": 0.024441929534077644
+        }
+      ],
+      "other_probability": 0.14916878938674927,
+      "eos": false
+    },
+    {
+      "step": 7,
+      "prefix_output": "Today’s lecture is cancelled",
+      "generated_output": "Today’s lecture is cancelled.",
+      "chosen": ".",
+      "chosen_probability": 0.9145051836967468,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 30,
+          "token_text": ".",
+          "token_raw": ".",
+          "probability": 0.9145051836967468
+        },
+        {
+          "rank": 2,
+          "token_id": 28,
+          "token_text": ",",
+          "token_raw": ",",
+          "probability": 0.02095734141767025
+        },
+        {
+          "rank": 3,
+          "token_id": 1568,
+          "token_text": " due",
+          "token_raw": "Ġdue",
+          "probability": 0.01424920279532671
+        },
+        {
+          "rank": 4,
+          "token_id": 2,
+          "token_text": "<|im_end|>",
+          "token_raw": "<|im_end|>",
+          "probability": 0.009435589425265789
+        },
+        {
+          "rank": 5,
+          "token_id": 284,
+          "token_text": " and",
+          "token_raw": "Ġand",
+          "probability": 0.006638158578425646
+        }
+      ],
+      "other_probability": 0.03421449661254883,
+      "eos": false
+    },
+    {
+      "step": 8,
+      "prefix_output": "Today’s lecture is cancelled.",
+      "generated_output": "Today’s lecture is cancelled.",
+      "chosen": "<|im_end|>",
+      "chosen_probability": 0.8470427393913269,
+      "candidates": [
+        {
+          "rank": 1,
+          "token_id": 2,
+          "token_text": "<|im_end|>",
+          "token_raw": "<|im_end|>",
+          "probability": 0.8470427393913269
+        },
+        {
+          "rank": 2,
+          "token_id": 198,
+          "token_text": "\n",
+          "token_raw": "Ċ",
+          "probability": 0.12877823412418365
+        },
+        {
+          "rank": 3,
+          "token_id": 1116,
+          "token_text": "\n\n",
+          "token_raw": "ĊĊ",
+          "probability": 0.005055487621575594
+        },
+        {
+          "rank": 4,
+          "token_id": 3717,
+          "token_text": " \n",
+          "token_raw": "ĠĊ",
+          "probability": 0.004079163074493408
+        },
+        {
+          "rank": 5,
+          "token_id": 365,
+          "token_text": " (",
+          "token_raw": "Ġ(",
+          "probability": 0.0023223450407385826
+        }
+      ],
+      "other_probability": 0.01272207498550415,
+      "eos": true
+    }
+  ]
+}

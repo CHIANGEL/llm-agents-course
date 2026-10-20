@@ -1,0 +1,17 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=32&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=32&s=1
+	2 container
+		3 container Description: 第32页 专家会诊：让互补视角相互质疑, ID: mount
+			4 container 第32页 专家会诊：让互补视角相互质疑
+				5 heading 专家会诊：让互补视角相互质疑, Value: 1
+					6 text 专家会诊：让互补视角相互质疑
+				7 container 课件内容
+					8 container
+						9 text 复杂问题常常需要不同专业视角；关键在相互质疑之后的综合。 互补视角1 互补视角2 相互质疑 互补视角3 每种视角都回答 如何定义问题
+						10 text 推荐什么路径
+						11 text 有哪些风险
+						12 text 什么证据会改变判断 综合时分清 共同事实 · 真正分歧
+						13 text 分歧背后的不同假设 每种视角独立分析，再通过质疑与比较形成综合方案。
+		14 text 第32页，专家会诊：让互补视角相互质疑，整页显示
+
+The focused UI element is 3 container Description: 第32页 专家会诊：让互补视角相互质疑, ID: mount

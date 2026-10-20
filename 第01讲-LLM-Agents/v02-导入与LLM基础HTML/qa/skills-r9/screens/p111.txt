@@ -1,0 +1,72 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=111&s=1".
+0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=111&s=1
+	1 container
+		47 container Description: 第111页 技能包小结：入口、方法与资源怎样配合, ID: mount
+			48 container 第111页 技能包小结：入口、方法与资源怎样配合
+				49 heading 技能包小结：入口、方法与资源怎样配合, Value: 1
+					50 text 技能包小结：入口、方法与资源怎样配合
+				51 container 课件内容
+					52 container
+						53 text 技能包把一套做法与所需资源放在一起，并提供清楚的读取入口。
+						54 table
+							55 row
+								56 cell
+									57 text 组成
+								58 cell
+									59 text 回答的问题
+								60 cell
+									61 text jupyter-notebook中的对应
+							62 row
+								63 cell
+									64 text 入口：名称、用途与路径
+								65 cell
+									66 text 这次要不要用？
+								67 cell
+									68 text 创建、搭建或编辑.ipynb
+							69 row
+								70 cell
+									71 text SKILL.md正文
+								72 cell
+									73 text 按什么步骤完成？
+								74 cell
+									75 text 分用途、选模板、生成、检查
+							76 row
+								77 cell
+									78 text 参考、脚本与模板
+								79 cell
+									80 text 细节在哪？哪些可重复使用？
+								81 cell
+									82 text 教程方法、生成程序、7单元模板
+						83 text 配置与图标服务于客户端展示；许可说明使用条件。 文件按需要组织。简单方法可以只写一份SKILL.md。 接下来把这些文件放回一次任务：到底先读什么，什么时候执行，怎样核对交付？
+				84 container 课程进度
+					85 button 导入
+					86 button 1. LLM基础
+					87 button 2. Prompting
+					88 button 3. Agents · Externalization & Internalization
+						89 text 3. Agents 
+						90 text · Externalization & Internalization
+					91 button 3.0 外化与内化总览
+					92 button 3.1 工具调用
+					93 button 3.2 Memory
+					94 button 3.3 Skills
+					95 button 3.4 Harness
+					96 button 3.5 外化与内化整合
+					97 button 3.6 全讲总结
+		32 container Description: 课件操作, ID: controls
+			33 button Description: 上一步, Help: 上一步（←）
+			34 button Description: 下一步, Help: 下一步（→或空格）
+			35 container jump-form
+				36 text 页码
+				37 stepper (settable, integer) Description: 页码, Value: 111, ID: page-input
+				38 text / 161
+			98 text 整页显示
+			40 button 目录
+			41 button 讲者备注
+			42 button 完整材料
+			43 button 放大图解
+			44 button 全屏
+			45 button 隐藏, Help: 按H恢复
+			46 button 操作说明
+		99 text 第111页，技能包小结：入口、方法与资源怎样配合，整页显示
+
+The focused UI element is 47 container Description: 第111页 技能包小结：入口、方法与资源怎样配合, ID: mount

@@ -1,0 +1,19 @@
+{
+  "reviewed_on": "2026-10-19",
+  "original_archive_hashes_unchanged": true,
+  "original_file_count": 20,
+  "completed_notebook_files": [
+    {
+      "path": "completed/execution.json",
+      "sha256": "9f90bcfbcdb16025d09ac6a561c52edacf5ccf99396f6623354c7c8a991c5e60"
+    },
+    {
+      "path": "completed/notebook-readable.txt",
+      "sha256": "bee8a2fde289c759cfb866c114654e30c606805d430739ce7ad8f1874ee25ceb"
+    },
+    {
+      "path": "completed/python-lists-and-mean-completed.ipynb",
+      "sha256": "50f3f8bf4f378aac1a8238834edb41a6ae4d2b9dde0171155b9df46945a082c6"
+    }
+  ]
+}

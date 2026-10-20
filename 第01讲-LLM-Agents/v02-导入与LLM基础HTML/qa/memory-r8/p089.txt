@@ -1,0 +1,44 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8-qa1#p=89&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8-qa1#p=89&s=1
+	2 container
+		40 container Description: 第89页 智能体会改变平台的入口吗？, ID: mount
+			41 container 第89页 智能体会改变平台的入口吗？
+				42 heading 智能体会改变平台的入口吗？, Value: 1
+					43 text 智能体会改变平台的入口吗？
+				44 container 课件内容
+					45 container
+						46 text 如果智能体替用户寻找、比较和选择服务，谁掌握入口与推荐顺序就可能改变。
+						47 image 三种入口关系：平台为入口、智能体成为入口、智能体直达服务
+						48 text ① 用户 → 平台 → 服务 ② 用户 → Agent → 平台 ③ 用户 → Agent → 服务 从注意力、广告曝光，到服务选择与交易入口，平台的商业位置可能受到冲击。 新的问题是：智能体替谁排序、根据什么选择，以及谁获得交易与用户反馈。
+				49 container 课程进度
+					50 button 导入
+					51 button 1. LLM基础
+					52 button 2. Prompting
+					53 button 3. Agents · Externalization & Internalization
+						54 text 3. Agents 
+						55 text · Externalization & Internalization
+					56 button 3.0 外化与内化总览
+					57 button 3.1 工具调用
+					58 button 3.2 Memory
+					59 button 3.3 Skills
+					60 button 3.4 Harness
+					61 button 3.5 外化与内化整合
+					62 button 3.6 全讲总结
+		25 container Description: 课件操作, ID: controls
+			26 button Description: 上一步, Help: 上一步（←）
+			27 button Description: 下一步, Help: 下一步（→或空格）
+			28 container jump-form
+				29 text 页码
+				30 stepper (settable, integer) Description: 页码, Value: 89, ID: page-input
+				31 text / 151
+			63 text 整页显示
+			33 button 目录
+			34 button 讲者备注
+			35 button 完整材料
+			36 button 放大图解
+			37 button 全屏
+			38 button 隐藏, Help: 按H恢复
+			39 button 操作说明
+		64 text 第89页，智能体会改变平台的入口吗？，整页显示
+
+The focused UI element is 40 container Description: 第89页 智能体会改变平台的入口吗？, ID: mount

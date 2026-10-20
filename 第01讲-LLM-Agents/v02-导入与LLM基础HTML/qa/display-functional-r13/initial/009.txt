@@ -1,0 +1,64 @@
+- main:
+  - article "第9页 句号之后，模型还会再预测一次":
+    - heading "句号之后，模型还会再预测一次" [level=1]
+    - region "课件内容":
+      - generic: 第9步先生成句号，第10步再生成结束标记，本次回复才停止。
+      - generic: 第9步：选择句号
+      - generic: 第10步：选择结束标记
+      - text: 下一个Token
+      - generic: 概率
+      - generic: .
+      - generic: 52.42%
+      - generic: ","
+      - generic: 25.99%
+      - generic: ␠due
+      - generic: 10.73%
+      - generic: ␠and
+      - generic: 4.45%
+      - generic: ␠as
+      - generic: 1.27%
+      - generic: 其他候选合计
+      - generic: 5.15%
+      - generic: "0"
+      - generic: 100%
+      - text: 下一个Token
+      - generic: 概率
+      - generic: <|im_end|>
+      - generic: 77.67%
+      - generic: 换行
+      - generic: 16.95%
+      - generic: ␠↵
+      - generic: 1.27%
+      - generic: ␠The
+      - generic: 0.35%
+      - generic: ␠I
+      - generic: 0.31%
+      - generic: 其他候选合计
+      - generic: 3.45%
+      - generic: "0"
+      - generic: 100%
+      - generic: The lecture scheduled for today has been cancelled. <|im_end|>
+      - generic: 句号也是输出内容。结束标记或生成长度上限会触发停止。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "1.1 连续生成"
+      - button "1.2 多轮聊天"
+      - button "1.3 LLM小结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "9"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "备注 / 来源"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第9页，句号之后，模型还会再预测一次，整页显示

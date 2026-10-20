@@ -1,0 +1,20 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=28&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=28&s=1
+	2 container
+		3 container Description: 第28页 横纵分析：证据要求与报告结构, ID: mount
+			4 container 第28页 横纵分析：证据要求与报告结构
+				5 heading 横纵分析：证据要求与报告结构, Value: 1
+					6 text 横纵分析：证据要求与报告结构
+				7 container 课件内容
+					8 container
+						9 text 分析之后，结论要能追溯到资料，并按固定结构组织。 原始Prompt · 接续分析要求
+						10 text 请遵守这些证据规则：
+						11 text 1. 优先使用官方资料、原始数据、论文、财报和访谈等一手来源；
+						12 text 2. 重要结论就近标注来源与日期；
+						13 text 3. 事实、推断和观点分开写；
+						14 text 4. 遇到冲突信息时并列呈现，找不到证据时明确写“暂未核实”。
+						15 text 最后按以下顺序输出：核心结论、关键时间线、横向对比表、详细分析、未来判断、仍待确认的问题。
+						16 text 报告的输出顺序 核心结论 关键时间线 横向对比表 详细分析 未来判断 仍待确认的问题 重要结论能够追溯来源；分析与报告结构保持对应。
+		17 text 第28页，横纵分析：证据要求与报告结构，整页显示
+
+The focused UI element is 3 container Description: 第28页 横纵分析：证据要求与报告结构, ID: mount

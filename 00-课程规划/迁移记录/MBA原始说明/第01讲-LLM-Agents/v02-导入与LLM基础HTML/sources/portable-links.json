@@ -1,0 +1,50 @@
+{
+  "L1": {
+    "href": "sources/library/L1/index.html"
+  },
+  "L2": {
+    "href": "sources/library/L2/index.html"
+  },
+  "L3": {
+    "href": "sources/library/L3/index.html"
+  },
+  "TEACHER": {
+    "href": "sources/library/TEACHER/index.html"
+  },
+  "PROMPT_PDF": {
+    "href": "sources/library/PROMPT_PDF/index.html"
+  },
+  "PLAN": {
+    "href": "sources/library/PLAN/index.html"
+  },
+  "MEM": {
+    "href": "sources/library/MEM/index.html"
+  },
+  "SKILL": {
+    "href": "sources/library/SKILL/index.html"
+  },
+  "MCP": {
+    "href": "sources/library/MCP/index.html"
+  },
+  "CASE_FIN": {
+    "href": "sources/official-readers/fin.html"
+  },
+  "CASE_AWS": {
+    "href": "sources/official-readers/aws.html"
+  },
+  "CASE_BOX": {
+    "href": "sources/official-readers/box.html"
+  },
+  "CASE_REMARKABLE": {
+    "href": "sources/official-readers/remarkable.html"
+  },
+  "CASE_ZEP": {
+    "href": "sources/official-readers/zep.html"
+  },
+  "RP_PAPER": {
+    "href": "sources/official-readers/rpeval.html"
+  },
+  "NOTEBOOK_COMPLETED": {
+    "href": "sources/library/NOTEBOOK_COMPLETED/index.html"
+  }
+}

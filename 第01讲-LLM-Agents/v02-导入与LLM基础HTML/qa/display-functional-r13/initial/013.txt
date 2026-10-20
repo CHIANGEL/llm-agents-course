@@ -1,0 +1,49 @@
+- main:
+  - article "第13页 第二轮：旧问题、旧回答和追问一起传入":
+    - heading "第二轮：旧问题、旧回答和追问一起传入" [level=1]
+    - region "课件内容":
+      - generic: 追问“5人呢？”时，原问题、60元的回复和新问题一起进入输入。
+      - generic: 聊天窗口
+      - generic: 完整输入文本 · SmolLM2模板
+      - generic: 用户
+      - generic: 3人，每人20元？
+      - generic: 助手
+      - generic: 60元。
+      - generic: 用户
+      - generic: 5人呢？
+      - generic: <|im_start|>system
+      - generic: 只给结果。<|im_end|>
+      - generic: <|im_start|>user
+      - generic: 3人，每人20元？<|im_end|>
+      - generic: <|im_start|>assistant
+      - generic: 60元。<|im_end|>
+      - generic: <|im_start|>user
+      - generic: 5人呢？<|im_end|>
+      - generic: <|im_start|>assistant
+      - generic: ▌接下来生成：100元。
+      - text: “每人20元”仍在原问题中，
+      - text: 这次计算沿用这个条件。
+      - generic: 旧回复成为历史的一部分；新的回复仍然从最后一个 assistant 头后开始。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "1.1 连续生成"
+      - button "1.2 多轮聊天"
+      - button "1.3 LLM小结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "13"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "备注 / 来源"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第13页，第二轮：旧问题、旧回答和追问一起传入，整页显示

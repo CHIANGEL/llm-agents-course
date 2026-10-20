@@ -1,0 +1,91 @@
+{
+  "pages": [
+    {
+      "page": 24001,
+      "renderer": 24001,
+      "section": "LLM基础",
+      "navigation": "1.1",
+      "type": "concept",
+      "title": "Token：模型处理文本的单位",
+      "seconds": 150,
+      "on_slide": [
+        "Token是模型处理文本的单位，可以是词、词的一部分、标点或特殊标记。",
+        "Tokenization：把文本转换成Token序列；每个Token在词表中都有编号。",
+        "文本输入 → 输入Token序列 → LLM逐个生成 → 输出Token序列 → 文本输出。"
+      ],
+      "talk": "把上一页的英文任务转换为16个Token，按实际SmolLM2分词结果显示；空格也包含在Token中。一个Token不一定等于一个词。输入序列送入LLM，模型逐次预测输出Token；输出序列还原为文字，成为聊天界面里的回复。这里只看转换结果与输入输出关系，不展开分词算法。",
+      "sources": [
+        {
+          "id": "BASIC_R24",
+          "locator": "同一SmolLM2 tokenizer的实际转换结果"
+        }
+      ],
+      "show_sources": false
+    },
+    {
+      "page": 24002,
+      "authoring_page": 24002,
+      "renderer": 24002,
+      "section": "大模型与智能体",
+      "navigation": "3.0",
+      "type": "summary",
+      "title": "智能体比大模型多了什么？",
+      "seconds": 90,
+      "on_slide": [
+        "Agent = LLM + Harness",
+        "LLM根据输入生成回答、计划或工具调用；Harness组织输入、执行操作、返回结果和管理运行过程。",
+        "模型生成下一步，外部系统执行，再把结果交回模型。"
+      ],
+      "talk": "先给出定义：智能体由模型与组织其工作的运行系统共同构成。LLM生成下一步，Harness执行和返回结果。后面的通知、网页与机械臂案例分别解释它们的分工。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "R17_COMPUTER",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_MS",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_ARM",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 24003,
+      "renderer": 24003,
+      "section": "大模型与智能体",
+      "navigation": "3.0",
+      "type": "concept",
+      "title": "把大模型想成“缸中之脑”",
+      "seconds": 90,
+      "on_slide": [
+        "LLM处理输入、生成输出，类似缸中之脑接收和发出信号。",
+        "Harness接收模型输出，调用工具执行，把外界结果送回模型。",
+        "脑中形成“发送通知”的想法，与邮件系统实际发送通知，是两件事。"
+      ],
+      "talk": "用缸中之脑理解分工：脑接收与发出电信号，对应模型接收输入与生成输出；让外界发生变化还需要外部系统读取信号并执行。模型生成发送通知的指令，邮件工具实际发送；结果再回到模型。图中电信号是比喻，实际对应文本、工具调用等模型输入输出。",
+      "sources": [
+        {
+          "id": "BASIC_R24",
+          "locator": "缸中之脑比喻配图"
+        }
+      ],
+      "show_sources": false
+    }
+  ],
+  "materials": {
+    "24001": "Token是模型处理文本的单位，可以是词、词的一部分、标点或特殊标记。\n\nTokenization：把文本转换成Token序列；每个Token在词表中都有编号。\n\n文本输入 → 输入Token序列 → LLM逐个生成 → 输出Token序列 → 文本输出。\n\n完整转换记录：\n{\n  \"text\": \"Write one short formal sentence announcing that the lecture scheduled for today has been cancelled.\",\n  \"ids\": [\n    19161,\n    582,\n    1890,\n    5764,\n    6330,\n    34769,\n    338,\n    260,\n    9364,\n    13831,\n    327,\n    1834,\n    553,\n    719,\n    35295,\n    30\n  ],\n  \"pieces\": [\n    \"Write\",\n    \" one\",\n    \" short\",\n    \" formal\",\n    \" sentence\",\n    \" announcing\",\n    \" that\",\n    \" the\",\n    \" lecture\",\n    \" scheduled\",\n    \" for\",\n    \" today\",\n    \" has\",\n    \" been\",\n    \" cancelled\",\n    \".\"\n  ],\n  \"output_text\": \"The lecture scheduled for today has been cancelled.\",\n  \"output_ids\": [\n    504,\n    9364,\n    13831,\n    327,\n    1834,\n    553,\n    719,\n    35295,\n    30,\n    2\n  ]\n}",
+    "24002": "Agent = LLM + Harness\n\nLLM根据输入生成回答、计划或工具调用；Harness组织输入、执行操作、返回结果和管理运行过程。\n\n模型生成下一步，外部系统执行，再把结果交回模型。",
+    "24003": "LLM处理输入、生成输出，类似缸中之脑接收和发出信号。\n\nHarness接收模型输出，调用工具执行，把外界结果送回模型。\n\n脑中形成“发送通知”的想法，与邮件系统实际发送通知，是两件事。"
+  },
+  "sources": {
+    "BASIC_R24": {
+      "title": "Context、Token与模型/系统比喻增补",
+      "path": "sources/basic-mechanisms-r24/来源与制作记录.md",
+      "href": "sources/basic-mechanisms-r24/来源与制作记录.md"
+    }
+  }
+}

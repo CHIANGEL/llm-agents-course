@@ -1,0 +1,33 @@
+{
+  "jsonrpc": "2.0",
+  "id": 101,
+  "result": {
+    "resultType": "complete",
+    "tools": [
+      {
+        "name": "get_weather",
+        "description": "Get current weather information for a location",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "location": {
+              "type": "string",
+              "description": "City name or zip code"
+            }
+          },
+          "required": [
+            "location"
+          ]
+        }
+      }
+    ],
+    "ttlMs": 300000,
+    "cacheScope": "public",
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "classroom-weather-fixture",
+        "version": "1.0.0"
+      }
+    }
+  }
+}

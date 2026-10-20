@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "147",
+  "text": "Protocols小结：交互约定如何落到运行\nProtocols把外部交互变成有约定的交换，接上前面的工具、记忆与方法。\n① 对象与范围\n先看连接谁，再看约定什么。\n② MCP\n工具目录、调用与返回。\n③ A2A\n能力、任务、状态与成果。\n接下来：Harness把模型、工具、Memory、Skills和Protocols组织成运行过程。\n交互有了共同约定，还要安排谁执行、何时等待，以及怎样检查交付。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "Protocols小结：交互约定如何落到运行"
+}

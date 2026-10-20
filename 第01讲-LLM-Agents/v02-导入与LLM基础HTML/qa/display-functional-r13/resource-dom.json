@@ -1,0 +1,1281 @@
+{
+  "images": [
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/app.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/app.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/doc.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/prompting-reference.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/prompting-reference.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/app.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/agents-overview-r4/review-heading.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/agents-overview-r4/list-recall.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/agents-overview-r4/list-check.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/agents-overview-r4/map.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/tool.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/row-arrow.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/memory.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/row-arrow.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/skill.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/row-arrow.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/protocol.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/row-arrow.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/brace.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/model.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/computer.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/blue-arrow.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/red-arrow-head.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/red-arrow-shaft.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/list-map.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/next-arrow.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/three-layers.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/next-arrow.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/external-internal.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/app.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/tool.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/doc.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/computer.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/app.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/tool.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/tool.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/computer.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/tool.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/html-figures-r6/computer.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/cross-session.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/cross-session.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/doc.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/graph.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/crud-flow.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/update-relations.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/doc.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/app.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/tool.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/doc.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/read-scope.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/music-mismatch.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/memory-decision.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/proactive.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/doc.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/app.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/doc.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/tool.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/platform-figure1.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/proactive.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/doc.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/doc.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/tool.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/cross-session.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/memory-r8/memory-to-skills.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/skills-r9/jupyter.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/skills-r9/jupyter.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/skills-r9/creation-cycle.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/skills-r9/file-structure.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/skills-r9/creation-cycle.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/two-interactions.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/classification-axes.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/two-interactions.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/mcp-roles.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/mcp-roles.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/directory.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/mcp-flow.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/mcp-roles.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/mcp-roles.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/a2a-flow.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/participants.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/card.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/participants.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/a2a-messages.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/agent.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/result.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/combination.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/protocols-r10/two-interactions.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/components.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/runloop.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/externalization.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/context.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/compaction.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/clearing.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/sandbox.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/confirmation.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/hooks.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/formatter.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/hook-timing.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/subagents.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/subagent-context.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/dependency.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/delegation.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/progress.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/resume.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/harness-r11/runloop.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/app.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/agents-integration/prompting-r3-example.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/app.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/app.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/app.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/header.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/llm.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/app.png"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8765/assets/doc.png"
+    }
+  ],
+  "scripts": [
+    "http://127.0.0.1:8765/src/data.js?v=0ba591212eab",
+    "http://127.0.0.1:8765/src/001-004.js?v=523c9ea9776e",
+    "http://127.0.0.1:8765/src/005-008.js?v=685bbd94591f",
+    "http://127.0.0.1:8765/src/009-013.js?v=54996e6e5047",
+    "http://127.0.0.1:8765/src/section-frames.js?v=0b853b2f4834",
+    "http://127.0.0.1:8765/src/prompting-base.js?v=af765f54844d",
+    "http://127.0.0.1:8765/src/prompting-r2-data.js?v=07f6c21e7adf",
+    "http://127.0.0.1:8765/src/prompting-r2.js?v=4325fb65b264",
+    "http://127.0.0.1:8765/src/agents-base.js?v=e4ba513dbdec",
+    "http://127.0.0.1:8765/src/agents-frames.js?v=96a5ed3c3122",
+    "http://127.0.0.1:8765/src/agent-overview-r4.js?v=67f7815d4964",
+    "http://127.0.0.1:8765/src/tool-calling-r7-data.js?v=c947645f8274",
+    "http://127.0.0.1:8765/src/agents-tools.js?v=dee6dabc29c7",
+    "http://127.0.0.1:8765/src/memory-r8-data.js?v=490ab5908a33",
+    "http://127.0.0.1:8765/src/memory-r8.js?v=c8f7ec3b79bd",
+    "http://127.0.0.1:8765/src/skills-r9-data.js?v=2ea5f312cf7d",
+    "http://127.0.0.1:8765/src/skills-r9.js?v=19273cb3afb3",
+    "http://127.0.0.1:8765/src/harness-r11.js?v=680de0a2d82e",
+    "http://127.0.0.1:8765/src/llm-evidence.js?v=6fec7ab6f989",
+    "http://127.0.0.1:8765/src/decoding-data.js?v=07eb6411a87f",
+    "http://127.0.0.1:8765/src/decoding.js?v=7b4688475898",
+    "http://127.0.0.1:8765/src/llm-foundations.js?v=9b9fa744e6bf",
+    "http://127.0.0.1:8765/src/source-replica-r5.js?v=74999842e7a5",
+    "http://127.0.0.1:8765/src/html-figures-r6.js?v=58ba10c72778",
+    "http://127.0.0.1:8765/src/navigation.js?v=d6b668999a7f",
+    "http://127.0.0.1:8765/src/protocols-r10-data.js?v=f242946ed345",
+    "http://127.0.0.1:8765/src/protocols-r10.js?v=b3f2e64783d5",
+    "http://127.0.0.1:8765/src/player.js?v=7604ab325adf"
+  ],
+  "styles": [
+    "data:,",
+    "http://127.0.0.1:8765/src/base.css?v=378a222aec12",
+    "http://127.0.0.1:8765/src/001-004.css?v=572d16296032",
+    "http://127.0.0.1:8765/src/005-008.css?v=816a22ee9cda",
+    "http://127.0.0.1:8765/src/009-013.css?v=5f7721b1226c",
+    "http://127.0.0.1:8765/src/prompting.css?v=754a5fe00593",
+    "http://127.0.0.1:8765/src/llm-foundations.css?v=357d0c328c3a",
+    "http://127.0.0.1:8765/src/prompting-r2.css?v=c7d2ccaf980a",
+    "http://127.0.0.1:8765/src/navigation.css?v=67b972e6e93b",
+    "http://127.0.0.1:8765/src/agent-overview-r4.css?v=51a075af7997",
+    "http://127.0.0.1:8765/src/source-replica-r5.css?v=9f7261b9b54f",
+    "http://127.0.0.1:8765/src/html-figures-r6.css?v=6621a4bb33ce",
+    "http://127.0.0.1:8765/src/tool-calling-r7.css?v=685a87a4b54a",
+    "http://127.0.0.1:8765/src/memory-r8.css?v=b10893ad9a3e",
+    "http://127.0.0.1:8765/src/skills-r9.css?v=e2cb63b88bde",
+    "http://127.0.0.1:8765/src/protocols-r10.css?v=3fc2a43b9156",
+    "http://127.0.0.1:8765/src/harness-r11.css?v=0b9d2b1c071d"
+  ]
+}

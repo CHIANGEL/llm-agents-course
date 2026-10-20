@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "revision": "prompting-demos-r22",
+  "created_date": "2026-10-20",
+  "status": "pending_browser",
+  "selected_candidate_id": null,
+  "execution": {
+    "submitted_prompts": 0,
+    "collected_responses": 0,
+    "created_share_links": 0,
+    "platform": null,
+    "model": null,
+    "mode": null,
+    "browser_attempt": {
+      "api": "cua.createBrowserTab('iab','https://chatgpt.com/',{visible:false})",
+      "outcome": "timeout_and_kernel_reset",
+      "elapsed_seconds": 32.776,
+      "retries_stopped_on_parent_instruction": true
+    }
+  },
+  "run_rules": [
+    "每个对照的简单Prompt与策略Prompt使用同一网站、同一可见模型与模式，分别新建聊天。",
+    "不以篇幅增加认定策略有效；逐项检查目标相关的内容变化。",
+    "原始回复按网页实际结果完整保存，不补写、润色或冒充模型回复。",
+    "没有实测结果的候选只能称待试，不能称成功案例。",
+    "若简单Prompt已满足同样关键标准，淘汰该候选，换对象重试。",
+    "网页分享链接必须在实际完成聊天后通过平台分享功能获取；普通会话URL不能冒充公开分享链接。",
+    "以选中的两份最终产物生成共享链接；审核在新标签页打开可读后，才能写入课件。"
+  ],
+  "data_provenance": "本档案案例输入为教学测试设计，不含教师私人资料或真实企业内部资料；输出与分享链接尚未生成。",
+  "strategy_id": "four-elements",
+  "strategy_name": "四大要点",
+  "renderer_id": 302,
+  "source_file": "src/prompting-r2-data.js",
+  "source_key": "coreprompt",
+  "original_prompt": "你是一位讲授生成式AI的教师，擅长向非技术学员解释机制。\n\n我要为MBA学员讲LLM Agents。学员没有编程和深度学习基础。\n\n请用3小时讲清LLM怎样生成、Prompting怎样交代任务、Agents怎样组织执行，含10分钟休息。\n\n参考提供的原课程课件：沿用版式和措辞，配图解释关系，先总览、再展开、最后总结。",
+  "template_adaptation": {
+    "kind": "four-paragraph task adaptation; not verbatim bracket substitution",
+    "preserved": [
+      "四段顺序：模型角色→学员与场景→目标→参考示例。",
+      "第一段教师角色原文完整保留。"
+    ],
+    "changed": [
+      "原例面向完整课程，候选改为一个具体AI概念；学员范围、讲解时长和目标按对象适配。",
+      "原例引用原课程课件，候选提供本次撰写的短文字参照，使新聊天无需访问课程文件。"
+    ],
+    "reference_text_provenance": "候选内参考示例为本次手工撰写，仅作为输入示例，不是网页模型输出。"
+  },
+  "candidates": [
+    {
+      "id": "rag-management",
+      "object": "RAG与企业知识库",
+      "status": "pending_browser",
+      "simple": {
+        "prompt": "请给我解释一下RAG。",
+        "response": null,
+        "chat_url": null,
+        "share_url": null
+      },
+      "strategy": {
+        "prompt": "你是一位讲授生成式AI的教师，擅长向非技术学员解释机制。\n\n我要为一家制造企业的管理层讲RAG。听众负责采购、财务和业务运营，没有编程和深度学习基础，正在讨论企业知识库。\n\n请用一份约5分钟的讲解稿讲清RAG是什么、企业自己的文档怎样进入回答、为什么接入知识库仍不能保证回答正确。最后让听众能够向供应商提出3个具体检查问题。\n\n参考下面的表达示例：沿用对象明确、动作具体、先说明问题、再解释过程、最后指出检查办法的写法。示例：“财务经理想知道某项费用能否报销。查制度时，要先找适用条款，再检查版本和适用人员；找到一段文字，不等于已经做对了报销判断。”请用企业知识库中的具体问题贯穿解释，并说明类比不能覆盖的部分。",
+        "response": null,
+        "chat_url": null,
+        "share_url": null
+      },
+      "expected_differences_to_test": [
+        "简单版可能停留在检索增强生成的定义、组件和一般优点；策略版应针对采购、财务与业务经理解释文档如何进入一次回答。",
+        "检查是否明确“检索质量、文档版本/权限、回答是否有依据”等具体可核对环节，而非泛泛说提高准确率。",
+        "输出应形成能在供应商演示中提出的具体问题；篇幅与标题数量不计优势。"
+      ],
+      "acceptance_criteria": [
+        "用非技术语言正确讲明检索与生成的先后关系。",
+        "能从讲解内容找到至少2个基线未提供、且可在供应商演示中执行的检查问题。",
+        "不把RAG说成保证准确、自动更新模型参数或无需检查。"
+      ],
+      "review": null
+    },
+    {
+      "id": "distillation-service",
+      "object": "模型蒸馏与客服成本",
+      "status": "pending_browser",
+      "simple": {
+        "prompt": "请给我解释一下模型蒸馏。",
+        "response": null,
+        "chat_url": null,
+        "share_url": null
+      },
+      "strategy": {
+        "prompt": "你是一位讲授生成式AI的教师，擅长向非技术学员解释机制。\n\n我要为一家软件公司的产品与运营经理讲模型蒸馏。听众没有编程和深度学习基础，公司已有一个能回答客服问题的大模型，正在讨论怎样降低高频标准问题的服务成本。\n\n请用一份约5分钟的讲解稿讲清模型蒸馏的教师模型、训练样本和学生模型分别做什么；说明为什么小模型可能降低服务成本，也为什么不能直接假定它保留全部能力。最后让听众能列出试点前必须检查的3件事。\n\n参考下面的表达示例：沿用对象明确、动作具体、先说明问题、再解释过程、最后指出检查办法的写法。示例：“资深客服处理复杂客诉，新客服先从经过审核的案例学习常见问题；培训结束后，要用没见过的案例检查，而不是只看他能否背出培训答案。”请说明这个类比与模型训练的对应关系，以及哪些地方不能照搬。",
+        "response": null,
+        "chat_url": null,
+        "share_url": null
+      },
+      "expected_differences_to_test": [
+        "策略版应把教师、样本、训练和学生模型部署对应到产品经理的决策，基线可能给出更多训练术语但缺少试点判断。",
+        "策略版应区分“便宜”与“适合该任务”，并能提出未见案例评估、难题升级或总成本比较的具体检查。"
+      ],
+      "acceptance_criteria": [
+        "正确区分教学类比与实际训练，不能说把全部知识直接复制进小模型。",
+        "至少2处对目标用户判断试点有实质帮助，而基线没有同等清楚说明。",
+        "不把更短、更通俗或更长本身当作策略成功。"
+      ],
+      "review": null
+    }
+  ]
+}

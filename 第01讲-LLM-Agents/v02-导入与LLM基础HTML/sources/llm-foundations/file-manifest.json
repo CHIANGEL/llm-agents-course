@@ -1,0 +1,103 @@
+{
+  "files": {
+    "README.md": {
+      "size": 3446,
+      "sha256": "a3e055193054d11de6f3fc8ff0fab559d7b9c272848d4134ef271296109f0beb"
+    },
+    "attempts.json": {
+      "size": 813,
+      "sha256": "4c6a7a18c59fc75c9971467a2f7b346197dfdd4a5e82fe2b4714080dc263f88d"
+    },
+    "collect_trace.py": {
+      "size": 6401,
+      "sha256": "f2602048c0bee39e119f04886e00f435a00f0398d39702784e1aa5047161725a"
+    },
+    "generated-answer.txt": {
+      "size": 52,
+      "sha256": "0e7aec2affafd6db36b3f9dc56614908cd73c407bfdc1d446c189ea2771687f6"
+    },
+    "generation-display.json": {
+      "size": 12983,
+      "sha256": "b2bc6a18294097e3886b9400e38364fa20d7a54b4e3bee1c50bd8052ae514f1f"
+    },
+    "generation-trace.json": {
+      "size": 33092,
+      "sha256": "f31da8d30599e4efe38ac7c7376e794adba1d8eb09a30ba5ef68da61aa312390"
+    },
+    "input-chat-template.txt": {
+      "size": 207,
+      "sha256": "43f6cdf9f67916967af89e58540f61fe3cacae51f5537f46811ae0b195d98604"
+    },
+    "model-chat-template.jinja": {
+      "size": 368,
+      "sha256": "872be49dbb638044ad01b60388f48d469ff2980e5f0dccdc22ec907db54d0788"
+    },
+    "model-config.json": {
+      "size": 861,
+      "sha256": "8eb740e8bbe4cff95ea7b4588d17a2432deb16e8075bc5828ff7ba9be94d982a"
+    },
+    "model-generation_config.json": {
+      "size": 132,
+      "sha256": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013"
+    },
+    "model-tokenizer_config.json": {
+      "size": 3764,
+      "sha256": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df"
+    },
+    "provenance.json": {
+      "size": 2416,
+      "sha256": "8623012a4f30842dd62077e228ed8260c71d807106e80dd6d2ce6c4abab0f8c6"
+    },
+    "runs/01-notice-rewrite/attempts.json": {
+      "size": 731,
+      "sha256": "1e6763ef6d90ef3bcb10ef95838410fccefbb45e5a4a915a8a970fdaf19a2fc7"
+    },
+    "runs/01-notice-rewrite/collect_trace.py": {
+      "size": 6290,
+      "sha256": "01a0be87538bf5afe7ec2fed51cd8e13805342dba795161cc5d9fff5b6a04c70"
+    },
+    "runs/01-notice-rewrite/generated-answer.txt": {
+      "size": 32,
+      "sha256": "a56eab01db0fa6afceacfb37cfb9333be50c406f705a0bf6f434380bc1c1761c"
+    },
+    "runs/01-notice-rewrite/generation-display.json": {
+      "size": 10130,
+      "sha256": "32da954cd337a364ec1eda89ba7fbb679d09e3aa2213fde0fb6e7ce48f4c87c2"
+    },
+    "runs/01-notice-rewrite/generation-trace.json": {
+      "size": 25989,
+      "sha256": "abf03e59dbaae05ac06578da74911cd2f0a651ebe4d5c1b98b945dc5b9ad614f"
+    },
+    "runs/01-notice-rewrite/input-chat-template.txt": {
+      "size": 189,
+      "sha256": "039b390f42af2b088df0eb517e5bac05f10b77c19409e4941824f0878eaa2c67"
+    },
+    "runs/01-notice-rewrite/model-chat-template.jinja": {
+      "size": 368,
+      "sha256": "872be49dbb638044ad01b60388f48d469ff2980e5f0dccdc22ec907db54d0788"
+    },
+    "runs/01-notice-rewrite/provenance.json": {
+      "size": 2415,
+      "sha256": "87a780abadabc3eecc893cf803f6a83d512a4b632b9f1ca179719deaf35aebfb"
+    },
+    "runs/01-notice-rewrite/verification.json": {
+      "size": 2071,
+      "sha256": "43cb7ef3cd1d484f86fcc695f3cc479718268431f8d648a32bf5b79b94ce97d4"
+    },
+    "runs/01-notice-rewrite/verify_trace.py": {
+      "size": 2438,
+      "sha256": "16a28150fbd4f96596b2a66e535c0da99b6e66c34bd5f166e27fe5ded73d87dc"
+    },
+    "verification.json": {
+      "size": 2473,
+      "sha256": "1ba894e154c9dafe12debc433e5b7cd47e1fa13a79a145bbf7f19ab38185a7ca"
+    },
+    "verify_trace.py": {
+      "size": 2438,
+      "sha256": "16a28150fbd4f96596b2a66e535c0da99b6e66c34bd5f166e27fe5ded73d87dc"
+    }
+  },
+  "model_weights_in_package": false,
+  "active_trace_steps": 10,
+  "archived_first_trace_steps": 8
+}

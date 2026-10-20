@@ -1,0 +1,2776 @@
+{
+  "states": [
+    {
+      "index": 49,
+      "step": 0,
+      "page": 50,
+      "steps": 1,
+      "text": "本讲内容\n1. LLM基础\n生成机制、上下文与事实依据\n2. Prompting\n交代任务、组织材料、反馈与检查\n3. Agents：Externalization & Internalization\n外化：由模型外部系统承担工作　　内化：通过训练形成模型能力\n3.1 Agent与工具调用：执行操作、取得反馈\n3.2 Memory：保存、取回与更新信息\n3.3 Skills：保存和复用做事方法\n3.4 Harness：组织输入、工具与运行过程\n3.5 外化与内化：回看模型与系统的分工",
+      "file": "50-1.png"
+    },
+    {
+      "index": 50,
+      "step": 0,
+      "page": 51,
+      "steps": 3,
+      "text": "Agents：外化与内化\n理解Agent，要同时看模型能力，以及模型之外怎样组织工作。\nExternalization：外化\nInternalization\nHarness组织整个运行过程\nMemory：信息\nSkills：方法\n本次\n输入\n模型\n工具执行\n结果进入下一次输入",
+      "file": "51-1.png"
+    },
+    {
+      "index": 50,
+      "step": 1,
+      "page": 51,
+      "steps": 3,
+      "text": "Agents：外化与内化\n理解Agent，要同时看模型能力，以及模型之外怎样组织工作。\nExternalization：外化\nInternalization\nHarness组织整个运行过程\nMemory：信息\nSkills：方法\n本次\n输入\n模型\n工具执行\n结果进入下一次输入\n内化：训练模型\n训练材料与反馈\n模型参数经过更新",
+      "file": "51-2.png"
+    },
+    {
+      "index": 50,
+      "step": 2,
+      "page": 51,
+      "steps": 3,
+      "text": "Agents：外化与内化\n理解Agent，要同时看模型能力，以及模型之外怎样组织工作。\nExternalization：外化\nInternalization\nHarness组织整个运行过程\nMemory：信息\nSkills：方法\n本次\n输入\n模型\n工具执行\n结果进入下一次输入\n内化：训练模型\n训练材料与反馈\n模型参数经过更新\n依次展开工具调用、Memory、Skills、Harness，再回看外化与内化。",
+      "file": "51-3.png"
+    },
+    {
+      "index": 51,
+      "step": 0,
+      "page": 52,
+      "steps": 3,
+      "text": "工具调用：把请求、执行与反馈接起来\n工具调用把“生成请求”和“执行操作”接成一个闭环。\n模型\n任务＋当前材料",
+      "file": "52-1.png"
+    },
+    {
+      "index": 51,
+      "step": 1,
+      "page": 52,
+      "steps": 3,
+      "text": "工具调用：把请求、执行与反馈接起来\n工具调用把“生成请求”和“执行操作”接成一个闭环。\n模型\n应用\n工具\n提出调用\n分发与执行\n任务＋当前材料\n找到对应的执行程序\n读取、计算或操作",
+      "file": "52-2.png"
+    },
+    {
+      "index": 51,
+      "step": 2,
+      "page": 52,
+      "steps": 3,
+      "text": "工具调用：把请求、执行与反馈接起来\n工具调用把“生成请求”和“执行操作”接成一个闭环。\n模型\n应用\n工具\n提出调用\n分发与执行\n任务＋当前材料\n找到对应的执行程序\n读取、计算或操作\n返回结果 → 加入下一次输入\n本节沿同一闭环看：天气查询 → 客户工单 → 多步反馈 → 界面操作。",
+      "file": "52-3.png"
+    },
+    {
+      "index": 52,
+      "step": 0,
+      "page": 53,
+      "steps": 3,
+      "text": "一次调用：从查询建议到天气材料\n一次调用：先看请求怎样变成外部执行，再看结果怎样回到模型。\n纽约现在天气怎么样？\n生成查询建议\n“可以查询天气服务，\n查看纽约的温度与天气状况。”\n产生了文字",
+      "file": "53-1.png"
+    },
+    {
+      "index": 52,
+      "step": 1,
+      "page": 53,
+      "steps": 3,
+      "text": "一次调用：从查询建议到天气材料\n一次调用：先看请求怎样变成外部执行，再看结果怎样回到模型。\n纽约现在天气怎么样？\n生成查询建议\n取得天气材料\n“可以查询天气服务，\n查看纽约的温度与天气状况。”\n查询请求 → 工具执行\n纽约 · 72°F · 局部多云\n产生了文字\n新增了外部返回材料",
+      "file": "53-2.png"
+    },
+    {
+      "index": 52,
+      "step": 2,
+      "page": 53,
+      "steps": 3,
+      "text": "一次调用：从查询建议到天气材料\n一次调用：先看请求怎样变成外部执行，再看结果怎样回到模型。\n纽约现在天气怎么样？\n生成查询建议\n取得天气材料\n“可以查询天气服务，\n查看纽约的温度与天气状况。”\n查询请求 → 工具执行\n纽约 · 72°F · 局部多云\n产生了文字\n新增了外部返回材料\n接下来拆开：工具说明 → 调用请求 → 外部执行 → 结果回到输入。",
+      "file": "53-3.png"
+    },
+    {
+      "index": 53,
+      "step": 0,
+      "page": 54,
+      "steps": 3,
+      "text": "工具说明告诉模型可以做什么\n工具的名称、用途和所需信息，一起告诉模型怎样提出调用。\n用户问题\n纽约现在天气怎么样？",
+      "file": "54-1.png"
+    },
+    {
+      "index": 53,
+      "step": 1,
+      "page": 54,
+      "steps": 3,
+      "text": "工具说明告诉模型可以做什么\n工具的名称、用途和所需信息，一起告诉模型怎样提出调用。\n用户问题\n纽约现在天气怎么样？\n工具说明\n名称：get_weather\n用途：查询地点天气\n需要：location（地点）",
+      "file": "54-2.png"
+    },
+    {
+      "index": 53,
+      "step": 2,
+      "page": 54,
+      "steps": 3,
+      "text": "工具说明告诉模型可以做什么\n工具的名称、用途和所需信息，一起告诉模型怎样提出调用。\n用户问题\n纽约现在天气怎么样？\n工具说明\n名称：get_weather\n用途：查询地点天气\n需要：location（地点）\n本次模型输入\n问题＋工具说明\n有了可用工具的说明，模型才有依据生成对应的调用请求。",
+      "file": "54-3.png"
+    },
+    {
+      "index": 54,
+      "step": 0,
+      "page": 55,
+      "steps": 3,
+      "text": "调用请求写明工具与地点\n调用请求要把“做什么”和“对什么做”交给应用。\n模型\n调用请求\n工具：get_weather",
+      "file": "55-1.png"
+    },
+    {
+      "index": 54,
+      "step": 1,
+      "page": 55,
+      "steps": 3,
+      "text": "调用请求写明工具与地点\n调用请求要把“做什么”和“对什么做”交给应用。\n模型\n调用请求\n工具：get_weather\n地点：New York",
+      "file": "55-2.png"
+    },
+    {
+      "index": 54,
+      "step": 2,
+      "page": 55,
+      "steps": 3,
+      "text": "调用请求写明工具与地点\n调用请求要把“做什么”和“对什么做”交给应用。\n模型\n调用请求\n工具：get_weather\n地点：New York\n应用接收请求\n工具名用来选择执行程序；地点作为这次执行的输入。\n请求中的字段，必须对应工具说明要求的信息。",
+      "file": "55-3.png"
+    },
+    {
+      "index": 55,
+      "step": 0,
+      "page": 56,
+      "steps": 3,
+      "text": "程序执行读取，工具返回天气\n应用把请求交给工具，工具从数据来源取得结果。\n1. 执行请求\nget_weather\n地点：New York",
+      "file": "56-1.png"
+    },
+    {
+      "index": 55,
+      "step": 1,
+      "page": 56,
+      "steps": 3,
+      "text": "程序执行读取，工具返回天气\n应用把请求交给工具，工具从数据来源取得结果。\n1. 执行请求\n2. 读取资料\nget_weather\n地点：New York\nweather_fixture\n.json\nNew York\n72°F / Partly cloudy",
+      "file": "56-2.png"
+    },
+    {
+      "index": 55,
+      "step": 2,
+      "page": 56,
+      "steps": 3,
+      "text": "程序执行读取，工具返回天气\n应用把请求交给工具，工具从数据来源取得结果。\n1. 执行请求\n2. 读取资料\n3. 返回天气\nget_weather\n地点：New York\nweather_fixture\n.json\nNew York\n72°F / Partly cloudy\n72°F\n局部多云\n这一步执行了读取：数据从文件进入工具返回，再交给应用。",
+      "file": "56-3.png"
+    },
+    {
+      "index": 56,
+      "step": 0,
+      "page": 57,
+      "steps": 4,
+      "text": "把调用与结果追加到下一次输入\n应用追加本次调用与工具返回，再让模型继续生成。\n已有消息\n回答要求＋纽约天气问题",
+      "file": "57-1.png"
+    },
+    {
+      "index": 56,
+      "step": 1,
+      "page": 57,
+      "steps": 4,
+      "text": "把调用与结果追加到下一次输入\n应用追加本次调用与工具返回，再让模型继续生成。\n已有消息\n回答要求＋纽约天气问题\n本次调用\nget_weather · New York",
+      "file": "57-2.png"
+    },
+    {
+      "index": 56,
+      "step": 2,
+      "page": 57,
+      "steps": 4,
+      "text": "把调用与结果追加到下一次输入\n应用追加本次调用与工具返回，再让模型继续生成。\n已有消息\n回答要求＋纽约天气问题\n本次调用\nget_weather · New York\n工具返回\n72°F · Partly cloudy\n再次生成",
+      "file": "57-3.png"
+    },
+    {
+      "index": 56,
+      "step": 3,
+      "page": 57,
+      "steps": 4,
+      "text": "把调用与结果追加到下一次输入\n应用追加本次调用与工具返回，再让模型继续生成。\n已有消息\n回答要求＋纽约天气问题\n本次调用\nget_weather · New York\n工具返回\n72°F · Partly cloudy\n再次生成\n纽约气温\n72°F，\n局部多云。\n已有任务继续保留；新取得的材料成为这次回答的依据。",
+      "file": "57-4.png"
+    },
+    {
+      "index": 57,
+      "step": 0,
+      "page": 58,
+      "steps": 3,
+      "text": "两次生成，中间执行一次工具\n两次模型生成，中间发生一次工具执行。\n生成调用\n工具＋地点",
+      "file": "58-1.png"
+    },
+    {
+      "index": 57,
+      "step": 1,
+      "page": 58,
+      "steps": 3,
+      "text": "两次生成，中间执行一次工具\n两次模型生成，中间发生一次工具执行。\n生成调用\n工具＋地点\n应用分发\n执行读取\n天气资料",
+      "file": "58-2.png"
+    },
+    {
+      "index": 57,
+      "step": 2,
+      "page": 58,
+      "steps": 3,
+      "text": "两次生成，中间执行一次工具\n两次模型生成，中间发生一次工具执行。\n生成调用\n工具＋地点\n应用分发\n执行读取\n天气资料\n结果加入输入\n生成回答\n依据工具结果\n生成 → 执行 → 带着结果继续生成\n模型给出请求与回答；程序负责取得资料或改变外部系统。",
+      "file": "58-3.png"
+    },
+    {
+      "index": 58,
+      "step": 0,
+      "page": 59,
+      "steps": 3,
+      "text": "Fin：把客户反馈送入问题跟踪\n客户反馈 → 建立问题记录 → 后续跟进。\n客户报告问题",
+      "file": "59-1.png"
+    },
+    {
+      "index": 58,
+      "step": 1,
+      "page": 59,
+      "steps": 3,
+      "text": "Fin：把客户反馈送入问题跟踪\n客户反馈 → 建立问题记录 → 后续跟进。\n客户报告问题\n客服对话\nIntercom\nFin\nLinear\n问题记录",
+      "file": "59-2.png"
+    },
+    {
+      "index": 58,
+      "step": 2,
+      "page": 59,
+      "steps": 3,
+      "text": "Fin：把客户反馈送入问题跟踪\n客户反馈 → 建立问题记录 → 后续跟进。\n客户报告问题\n客服对话\nIntercom\nFin\nLinear\n问题记录\nFin 可以把客户报告的问题登记为 Linear 工单。\n先有客户材料，再有业务系统中的可跟进对象。",
+      "file": "59-3.png"
+    },
+    {
+      "index": 59,
+      "step": 0,
+      "page": 60,
+      "steps": 3,
+      "text": "客户材料、创建请求与系统记录\n把客户材料、操作请求和业务记录放在三个不同位置。\n客户对话\n客户报告的问题",
+      "file": "60-1.png"
+    },
+    {
+      "index": 59,
+      "step": 1,
+      "page": 60,
+      "steps": 3,
+      "text": "客户材料、创建请求与系统记录\n把客户材料、操作请求和业务记录放在三个不同位置。\n客户对话\nAgent\n与应用\n客户报告的问题\n提出创建问题记录的请求\n程序调用已连接的系统",
+      "file": "60-2.png"
+    },
+    {
+      "index": 59,
+      "step": 2,
+      "page": 60,
+      "steps": 3,
+      "text": "客户材料、创建请求与系统记录\n把客户材料、操作请求和业务记录放在三个不同位置。\n客户对话\nAgent\n与应用\n业务系统\n客户报告的问题\n提出创建问题记录的请求\n程序调用已连接的系统\n保存问题记录，返回结果\n请求说明要执行的动作；系统返回说明动作完成到了哪里。",
+      "file": "60-3.png"
+    },
+    {
+      "index": 60,
+      "step": 0,
+      "page": 61,
+      "steps": 3,
+      "text": "记录建立与问题解决，各有完成条件\n创建记录与解决问题，分别对应不同的完成条件。\n客户报告\n问题记录建立\n检查系统返回\n或查询对应记录",
+      "file": "61-1.png"
+    },
+    {
+      "index": 60,
+      "step": 1,
+      "page": 61,
+      "steps": 3,
+      "text": "记录建立与问题解决，各有完成条件\n创建记录与解决问题，分别对应不同的完成条件。\n客户报告\n问题记录建立\n检查系统返回\n或查询对应记录\n问题修复\n客户确认\n修复结果、客户反馈\n提供后续完成的依据",
+      "file": "61-2.png"
+    },
+    {
+      "index": 60,
+      "step": 2,
+      "page": 61,
+      "steps": 3,
+      "text": "记录建立与问题解决，各有完成条件\n创建记录与解决问题，分别对应不同的完成条件。\n客户报告\n问题记录建立\n检查系统返回\n或查询对应记录\n问题修复\n客户确认\n修复结果、客户反馈\n提供后续完成的依据\n客户材料 → 创建请求 → 系统记录：工具调用把对话接到业务动作。\n判断完成到哪一步，回到本次任务要求和相应结果。",
+      "file": "61-3.png"
+    },
+    {
+      "index": 61,
+      "step": 0,
+      "page": 62,
+      "steps": 3,
+      "text": "新结果决定继续、补充还是结束\n多步行动：每取得一份新结果，都要重新判断下一步。\n任务与材料\n目标\n当前已知条件\n判断",
+      "file": "62-1.png"
+    },
+    {
+      "index": 61,
+      "step": 1,
+      "page": 62,
+      "steps": 3,
+      "text": "新结果决定继续、补充还是结束\n多步行动：每取得一份新结果，都要重新判断下一步。\n任务与材料\n目标\n当前已知条件\n判断\n足够\n组织交付并结束",
+      "file": "62-2.png"
+    },
+    {
+      "index": 61,
+      "step": 2,
+      "page": 62,
+      "steps": 3,
+      "text": "新结果决定继续、补充还是结束\n多步行动：每取得一份新结果，都要重新判断下一步。\n任务与材料\n目标\n当前已知条件\n判断\n足够\n组织交付并结束\n缺少关键材料\n补充读取或查询\n新结果进入下一轮\n继续还是结束，\n由结果与任务要求共同决定。",
+      "file": "62-3.png"
+    },
+    {
+      "index": 62,
+      "step": 0,
+      "page": 63,
+      "steps": 3,
+      "text": "缺少地点：让反馈回到原问题\n反馈指出缺少的信息，再回到已有材料寻找依据。\n原问题：纽约现在天气怎么样？\n调用请求\n工具：get_weather\n地点：",
+      "file": "63-1.png"
+    },
+    {
+      "index": 62,
+      "step": 1,
+      "page": 63,
+      "steps": 3,
+      "text": "缺少地点：让反馈回到原问题\n反馈指出缺少的信息，再回到已有材料寻找依据。\n原问题：纽约现在天气怎么样？\n调用请求\n工具：get_weather\n地点：\n检查参数\n反馈：缺少地点",
+      "file": "63-2.png"
+    },
+    {
+      "index": 62,
+      "step": 2,
+      "page": 63,
+      "steps": 3,
+      "text": "缺少地点：让反馈回到原问题\n反馈指出缺少的信息，再回到已有材料寻找依据。\n原问题：纽约现在天气怎么样？\n调用请求\n工具：get_weather\n地点：\n检查参数\n反馈：缺少地点\n修正请求：地点 New York\n缺少地点 → 对照原问题 → 补上地点 → 再交给程序执行。\n错误反馈也是新材料；修正要有原任务或新信息作依据。",
+      "file": "63-3.png"
+    },
+    {
+      "index": 63,
+      "step": 0,
+      "page": 64,
+      "steps": 3,
+      "text": "返回内容要对应对象、内容与时点\n把任务拆成地点、内容与时点，逐项对应返回材料。\n纽约｜现在｜天气怎么样？\n任务要求\n天气返回\n检查依据\n地点：纽约\nNew York\n地点对应",
+      "file": "64-1.png"
+    },
+    {
+      "index": 63,
+      "step": 1,
+      "page": 64,
+      "steps": 3,
+      "text": "返回内容要对应对象、内容与时点\n把任务拆成地点、内容与时点，逐项对应返回材料。\n纽约｜现在｜天气怎么样？\n任务要求\n天气返回\n检查依据\n地点：纽约\nNew York\n地点对应\n内容：天气情况\n72°F · Partly cloudy\n内容对应",
+      "file": "64-2.png"
+    },
+    {
+      "index": 63,
+      "step": 2,
+      "page": 64,
+      "steps": 3,
+      "text": "返回内容要对应对象、内容与时点\n把任务拆成地点、内容与时点，逐项对应返回材料。\n纽约｜现在｜天气怎么样？\n任务要求\n天气返回\n检查依据\n地点：纽约\nNew York\n地点对应\n内容：天气情况\n72°F · Partly cloudy\n内容对应\n时点：现在\n未包含观测时间\n补查后核对时效\n工具有返回，接着还要检查：对象、内容和时效是否满足任务。",
+      "file": "64-3.png"
+    },
+    {
+      "index": 64,
+      "step": 0,
+      "page": 65,
+      "steps": 3,
+      "text": "行动、反馈、判断与下一步\n多步反馈的小结：有依据地修改，再按完成条件决定去向。\n1. 看新结果\n取得天气\n或缺少地点的反馈",
+      "file": "65-1.png"
+    },
+    {
+      "index": 64,
+      "step": 1,
+      "page": 65,
+      "steps": 3,
+      "text": "行动、反馈、判断与下一步\n多步反馈的小结：有依据地修改，再按完成条件决定去向。\n1. 看新结果\n2. 对照原任务\n取得天气\n或缺少地点的反馈\n地点是否一致\n信息是否够用\n时点是否合适",
+      "file": "65-2.png"
+    },
+    {
+      "index": 64,
+      "step": 2,
+      "page": 65,
+      "steps": 3,
+      "text": "行动、反馈、判断与下一步\n多步反馈的小结：有依据地修改，再按完成条件决定去向。\n1. 看新结果\n2. 对照原任务\n3. 选择下一步\n取得天气\n或缺少地点的反馈\n地点是否一致\n信息是否够用\n时点是否合适\n交付并结束\n补充查询\n修正请求\n行动 → 反馈 → 判断 → 下一步\n计划给出方向；每一步返回的材料决定怎样继续。",
+      "file": "65-3.png"
+    },
+    {
+      "index": 65,
+      "step": 0,
+      "page": 66,
+      "steps": 3,
+      "text": "Computer Use：观察、动作与新观察\nComputer Use（计算机操作）：通过工具观察并操作软件界面。\n观察\n当前界面",
+      "file": "66-1.png"
+    },
+    {
+      "index": 65,
+      "step": 1,
+      "page": 66,
+      "steps": 3,
+      "text": "Computer Use：观察、动作与新观察\nComputer Use（计算机操作）：通过工具观察并操作软件界面。\n观察\n选择动作\n执行\n当前界面\n点击或输入\n程序操作",
+      "file": "66-2.png"
+    },
+    {
+      "index": 65,
+      "step": 2,
+      "page": 66,
+      "steps": 3,
+      "text": "Computer Use：观察、动作与新观察\nComputer Use（计算机操作）：通过工具观察并操作软件界面。\n观察\n选择动作\n执行\n重新观察\n当前界面\n点击或输入\n程序操作\n新界面与状态\n根据新观察决定继续或结束",
+      "file": "66-3.png"
+    },
+    {
+      "index": 66,
+      "step": 0,
+      "page": 67,
+      "steps": 3,
+      "text": "界面结构与截图提供两种观察\n同一软件界面，可以通过结构信息或截图进入模型输入。\n界面结构：有哪些可操作对象\n浏览器窗口\n　地址栏：输入框\n　返回：按钮\n　页面内容：文档区域",
+      "file": "67-1.png"
+    },
+    {
+      "index": 66,
+      "step": 1,
+      "page": 67,
+      "steps": 3,
+      "text": "界面结构与截图提供两种观察\n同一软件界面，可以通过结构信息或截图进入模型输入。\n界面结构：有哪些可操作对象\n浏览器窗口\n　地址栏：输入框\n　返回：按钮\n　页面内容：文档区域\n界面截图：对象在什么位置\n地址栏",
+      "file": "67-2.png"
+    },
+    {
+      "index": 66,
+      "step": 2,
+      "page": 67,
+      "steps": 3,
+      "text": "界面结构与截图提供两种观察\n同一软件界面，可以通过结构信息或截图进入模型输入。\n界面结构：有哪些可操作对象\n浏览器窗口\n　地址栏：输入框\n　返回：按钮\n　页面内容：文档区域\n界面截图：对象在什么位置\n地址栏\n本次观察\n界面结构提供对象与属性，截图提供位置与视觉状态。",
+      "file": "67-3.png"
+    },
+    {
+      "index": 67,
+      "step": 0,
+      "page": 68,
+      "steps": 3,
+      "text": "根据当前观察，提出界面操作\n根据当前观察提出动作，由工具程序实际操作界面。\n地址栏\n当前目标：地址栏",
+      "file": "68-1.png"
+    },
+    {
+      "index": 67,
+      "step": 1,
+      "page": 68,
+      "steps": 3,
+      "text": "根据当前观察，提出界面操作\n根据当前观察提出动作，由工具程序实际操作界面。\n地址栏\n当前目标：地址栏\n动作请求：点击地址栏\n目标来自刚取得的界面观察",
+      "file": "68-2.png"
+    },
+    {
+      "index": 67,
+      "step": 2,
+      "page": 68,
+      "steps": 3,
+      "text": "根据当前观察，提出界面操作\n根据当前观察提出动作，由工具程序实际操作界面。\n地址栏\n当前目标：地址栏\n动作请求：点击地址栏\n目标来自刚取得的界面观察\n工具执行点击\n模型选择动作与目标；工具把动作交给软件或操作系统。",
+      "file": "68-3.png"
+    },
+    {
+      "index": 68,
+      "step": 0,
+      "page": 69,
+      "steps": 3,
+      "text": "操作以后，再读取界面核对目标\n操作后重新读取状态，确认变化是否符合当前目标。\n点击前\n地址栏\n观察可操作对象与当前位置",
+      "file": "69-1.png"
+    },
+    {
+      "index": 68,
+      "step": 1,
+      "page": 69,
+      "steps": 3,
+      "text": "操作以后，再读取界面核对目标\n操作后重新读取状态，确认变化是否符合当前目标。\n点击前\n重新观察\n地址栏\n地址栏\n观察可操作对象与当前位置\n检查焦点、内容与页面状态",
+      "file": "69-2.png"
+    },
+    {
+      "index": 68,
+      "step": 2,
+      "page": 69,
+      "steps": 3,
+      "text": "操作以后，再读取界面核对目标\n操作后重新读取状态，确认变化是否符合当前目标。\n点击前\n重新观察\n地址栏\n地址栏\n观察可操作对象与当前位置\n检查焦点、内容与页面状态\n请求发出 → 执行 → 新观察 → 核对目标 → 决定下一步。",
+      "file": "69-3.png"
+    },
+    {
+      "index": 69,
+      "step": 0,
+      "page": 70,
+      "steps": 3,
+      "text": "界面操作也要带着新结果继续判断\n当前观察提供动作依据，工具执行以后，再用新观察核对目标。\n观察\n当前界面",
+      "file": "70-1.png"
+    },
+    {
+      "index": 69,
+      "step": 1,
+      "page": 70,
+      "steps": 3,
+      "text": "界面操作也要带着新结果继续判断\n当前观察提供动作依据，工具执行以后，再用新观察核对目标。\n观察\n选择动作\n执行\n当前界面\n模型选择动作\n工具执行操作",
+      "file": "70-2.png"
+    },
+    {
+      "index": 69,
+      "step": 2,
+      "page": 70,
+      "steps": 3,
+      "text": "界面操作也要带着新结果继续判断\n当前观察提供动作依据，工具执行以后，再用新观察核对目标。\n观察\n选择动作\n执行\n重新观察\n当前界面\n模型选择动作\n工具执行操作\n新界面与状态\n观察 → 选择 → 执行 → 新观察",
+      "file": "70-3.png"
+    },
+    {
+      "index": 70,
+      "step": 0,
+      "page": 71,
+      "steps": 3,
+      "text": "工具调用小结：执行结果回到判断\n模型决定下一步，外部程序完成操作，结果成为新的输入。\n模型\n用新结果继续判断",
+      "file": "71-1.png"
+    },
+    {
+      "index": 70,
+      "step": 1,
+      "page": 71,
+      "steps": 3,
+      "text": "工具调用小结：执行结果回到判断\n模型决定下一步，外部程序完成操作，结果成为新的输入。\n模型\n应用\n工具\n提出调用\n分发与执行\n用新结果继续判断\n连接请求与执行程序\n取得资料或改变系统",
+      "file": "71-2.png"
+    },
+    {
+      "index": 70,
+      "step": 2,
+      "page": 71,
+      "steps": 3,
+      "text": "工具调用小结：执行结果回到判断\n模型决定下一步，外部程序完成操作，结果成为新的输入。\n模型\n应用\n工具\n提出调用\n分发与执行\n用新结果继续判断\n连接请求与执行程序\n取得资料或改变系统\n返回结果 → 加入下一次输入\n一次天气查询、客户工单与界面操作，都要把结果带回判断。",
+      "file": "71-3.png"
+    },
+    {
+      "index": 71,
+      "step": 0,
+      "page": 72,
+      "steps": 3,
+      "text": "把以后要用的信息留给下一次任务\n本次工具执行结束后，后续任务还可能需要已确认的信息。\n本次工作\n任务要求\n工具返回\n已完成的动作",
+      "file": "72-1.png"
+    },
+    {
+      "index": 71,
+      "step": 1,
+      "page": 72,
+      "steps": 3,
+      "text": "把以后要用的信息留给下一次任务\n本次工具执行结束后，后续任务还可能需要已确认的信息。\n本次工作\n任务要求\n工具返回\n已完成的动作\n以后需要的\n信息\n保存",
+      "file": "72-2.png"
+    },
+    {
+      "index": 71,
+      "step": 2,
+      "page": 72,
+      "steps": 3,
+      "text": "把以后要用的信息留给下一次任务\n本次工具执行结束后，后续任务还可能需要已确认的信息。\n本次工作\n任务要求\n工具返回\n已完成的动作\n以后需要的\n信息\n下次任务\n＋\n取回的信息\n保存\n取回\nMemory：保存以后会用到的信息，在合适的任务中重新取回。",
+      "file": "72-3.png"
+    },
+    {
+      "index": 72,
+      "step": 0,
+      "page": 73,
+      "steps": 1,
+      "text": "课间休息\n课间休息\n10分钟\n接下来：Memory → Skills → Harness → 外化与内化整合",
+      "file": "73-1.png"
+    },
+    {
+      "index": 73,
+      "step": 0,
+      "page": 74,
+      "steps": 3,
+      "text": "Memory：把过去的信息带入本次任务\nAgents / Memory：保存 → 取回 → 更新\n过去会话\n哪些信息值得\n留给以后？\n外部记录\n本次输入\n保存",
+      "file": "74-1.png"
+    },
+    {
+      "index": 73,
+      "step": 1,
+      "page": 74,
+      "steps": 3,
+      "text": "Memory：把过去的信息带入本次任务\nAgents / Memory：保存 → 取回 → 更新\n过去会话\n哪些信息值得\n留给以后？\n外部记录\n摘要 · 详细文件\n对象 · 时间 · 范围\n本次输入\n当前任务到来时\n按需要取回\n保存\n取回",
+      "file": "74-2.png"
+    },
+    {
+      "index": 73,
+      "step": 2,
+      "page": 74,
+      "steps": 3,
+      "text": "Memory：把过去的信息带入本次任务\nAgents / Memory：保存 → 取回 → 更新\n过去会话\n哪些信息值得\n留给以后？\n外部记录\n摘要 · 详细文件\n对象 · 时间 · 范围\n本次输入\n当前任务到来时\n按需要取回\n保存\n取回\n新的信息：更新记录\n先看文件怎样被读回，再看客服连续性，最后看记录更新与当前用途。",
+      "file": "74-3.png"
+    },
+    {
+      "index": 74,
+      "step": 0,
+      "page": 75,
+      "steps": 3,
+      "text": "保存与取回：从文件到本次输入\n保存与取回：沿着文件、读取、输入，查看同一份信息。\n磁盘上的记录\n记忆摘要\n＋详细文件入口",
+      "file": "75-1.png"
+    },
+    {
+      "index": 74,
+      "step": 1,
+      "page": 75,
+      "steps": 3,
+      "text": "保存与取回：从文件到本次输入\n保存与取回：沿着文件、读取、输入，查看同一份信息。\n磁盘上的记录\n记忆摘要\n＋详细文件入口\n读取文件\n提出读取 → 工具执行\n→ 返回内容",
+      "file": "75-2.png"
+    },
+    {
+      "index": 74,
+      "step": 2,
+      "page": 75,
+      "steps": 3,
+      "text": "保存与取回：从文件到本次输入\n保存与取回：沿着文件、读取、输入，查看同一份信息。\n磁盘上的记录\n记忆摘要\n＋详细文件入口\n读取文件\n提出读取 → 工具执行\n→ 返回内容\n本次输入\n当前任务\n＋已取得的内容\n接下来打开记忆摘要，沿路径读取详细记录，再观察文件更新后的变化。",
+      "file": "75-3.png"
+    },
+    {
+      "index": 75,
+      "step": 0,
+      "page": 76,
+      "steps": 3,
+      "text": "一份摘要，怎样带出详细记录？\n摘要同时保存两类内容：可以直接使用的信息，以及详细记录的入口。\nmemories_v2/\nmemory_summary.md\nrollout_summaries/\nmemory_summary.md",
+      "file": "76-1.png"
+    },
+    {
+      "index": 75,
+      "step": 1,
+      "page": 76,
+      "steps": 3,
+      "text": "一份摘要，怎样带出详细记录？\n摘要同时保存两类内容：可以直接使用的信息，以及详细记录的入口。\nmemories_v2/\nmemory_summary.md\nrollout_summaries/\nscope.md\nmemory_summary.md\n沿用教师措辞与固定样式；\n每页适量，复杂内容分步讲。",
+      "file": "76-2.png"
+    },
+    {
+      "index": 75,
+      "step": 2,
+      "page": 76,
+      "steps": 3,
+      "text": "一份摘要，怎样带出详细记录？\n摘要同时保存两类内容：可以直接使用的信息，以及详细记录的入口。\nmemories_v2/\nmemory_summary.md\nrollout_summaries/\nscope.md\nstyle.md\nmemory_summary.md\n沿用教师措辞与固定样式；\n每页适量，复杂内容分步讲。\nstyle.md：需要具体版式、措辞时读。\nscope.md：核对讲解范围。\n摘要里的路径指向详细文件；路径本身不能代替文件中的内容。",
+      "file": "76-3.png"
+    },
+    {
+      "index": 76,
+      "step": 0,
+      "page": 77,
+      "steps": 4,
+      "text": "读取内容，加入后续输入\n当前任务与摘要\n准备课件\n核对每页怎样组织\n入口：style.md",
+      "file": "77-1.png"
+    },
+    {
+      "index": 76,
+      "step": 1,
+      "page": 77,
+      "steps": 4,
+      "text": "读取内容，加入后续输入\n当前任务与摘要\n准备课件\n核对每页怎样组织\n入口：style.md\n读取 style.md\n模型提出读取\n工具打开文件",
+      "file": "77-2.png"
+    },
+    {
+      "index": 76,
+      "step": 2,
+      "page": 77,
+      "steps": 4,
+      "text": "读取内容，加入后续输入\n当前任务与摘要\n准备课件\n核对每页怎样组织\n入口：style.md\n读取 style.md\n“每页只推进一个\n需要理解的问题，\n复杂内容允许拆页。”\n从摘要入口，取得逐页组织要求的正文。",
+      "file": "77-3.png"
+    },
+    {
+      "index": 76,
+      "step": 3,
+      "page": 77,
+      "steps": 4,
+      "text": "读取内容，加入后续输入\n当前任务与摘要\n准备课件\n核对每页怎样组织\n入口：style.md\n读取 style.md\n“每页只推进一个\n需要理解的问题，\n复杂内容允许拆页。”\n后续输入\n当前任务\n＋原有摘要\n＋详细要求\n把当前讲解内容与逐页要求一起放入输入，决定每页怎样组织。",
+      "file": "77-4.png"
+    },
+    {
+      "index": 77,
+      "step": 0,
+      "page": 78,
+      "steps": 3,
+      "text": "文件更新以后，还要更新输入\n文件与输入位于不同位置，更新也发生在不同时间。\n磁盘文件\n已组装的输入\n读取时的内容\n版本 A\n上次读取的内容\n版本 A\n读取\n第一次读取：把文件当时的内容加入输入。",
+      "file": "78-1.png"
+    },
+    {
+      "index": 77,
+      "step": 1,
+      "page": 78,
+      "steps": 3,
+      "text": "文件更新以后，还要更新输入\n文件与输入位于不同位置，更新也发生在不同时间。\n磁盘文件\n已组装的输入\n文件已经修改\n版本 B\n上次读取的内容\n版本 A\n等待读取\n随后修改磁盘文件，已经组装的输入仍保留版本 A。",
+      "file": "78-2.png"
+    },
+    {
+      "index": 77,
+      "step": 2,
+      "page": 78,
+      "steps": 3,
+      "text": "文件更新以后，还要更新输入\n文件与输入位于不同位置，更新也发生在不同时间。\n磁盘文件\n已组装的输入\n文件已经修改\n版本 B\n重新取得的内容\n版本 B\n读取\n再次读取或加入更新内容后，后续输入才取得版本 B。\n保存改变外部记录；读取改变输入；训练更新模型参数。",
+      "file": "78-3.png"
+    },
+    {
+      "index": 78,
+      "step": 0,
+      "page": 79,
+      "steps": 3,
+      "text": "保存在哪里，取回什么，怎样参与生成\n“已经保存”和“这次取得了什么”，要分别定位。\n磁盘上的记录\n记忆摘要\n＋详细文件入口",
+      "file": "79-1.png"
+    },
+    {
+      "index": 78,
+      "step": 1,
+      "page": 79,
+      "steps": 3,
+      "text": "保存在哪里，取回什么，怎样参与生成\n“已经保存”和“这次取得了什么”，要分别定位。\n磁盘上的记录\n记忆摘要\n＋详细文件入口\n读取文件\n提出读取 → 工具执行\n→ 返回内容",
+      "file": "79-2.png"
+    },
+    {
+      "index": 78,
+      "step": 2,
+      "page": 79,
+      "steps": 3,
+      "text": "保存在哪里，取回什么，怎样参与生成\n“已经保存”和“这次取得了什么”，要分别定位。\n磁盘上的记录\n记忆摘要\n＋详细文件入口\n读取文件\n提出读取 → 工具执行\n→ 返回内容\n本次输入\n当前任务\n＋已取得的内容\n摘要提供要点和入口；读取取得内容；内容进入后续输入，才参与后续生成。",
+      "file": "79-3.png"
+    },
+    {
+      "index": 79,
+      "step": 0,
+      "page": 80,
+      "steps": 3,
+      "text": "电子产品客服：延续两次会话的背景\nAWS 客服方案：两次会话之间，用记忆延续背景。\n前次会话\n表达偏好\n说明设备问题",
+      "file": "80-1.png"
+    },
+    {
+      "index": 79,
+      "step": 1,
+      "page": 80,
+      "steps": 3,
+      "text": "电子产品客服：延续两次会话的背景\nAWS 客服方案：两次会话之间，用记忆延续背景。\n前次会话\n表达偏好\n说明设备问题\n客户记忆\n偏好与事实",
+      "file": "80-2.png"
+    },
+    {
+      "index": 79,
+      "step": 2,
+      "page": 80,
+      "steps": 3,
+      "text": "电子产品客服：延续两次会话的背景\nAWS 客服方案：两次会话之间，用记忆延续背景。\n前次会话\n表达偏好\n说明设备问题\n客户记忆\n偏好与事实\n本次会话\n新的问题\n＋有关背景\n先看保存什么，再看怎样取回，最后把背景加入当前请求。",
+      "file": "80-3.png"
+    },
+    {
+      "index": 80,
+      "step": 0,
+      "page": 81,
+      "steps": 3,
+      "text": "电子产品客服：保存偏好与有关事实\n竞技射击游戏\n客户重视耳机的\n低延迟。",
+      "file": "81-1.png"
+    },
+    {
+      "index": 80,
+      "step": 1,
+      "page": 81,
+      "steps": 3,
+      "text": "电子产品客服：保存偏好与有关事实\n竞技射击游戏\n客户重视耳机的\n低延迟。\n客户偏好\n用途：竞技射击游戏\n偏好：低延迟",
+      "file": "81-2.png"
+    },
+    {
+      "index": 80,
+      "step": 2,
+      "page": 81,
+      "steps": 3,
+      "text": "电子产品客服：保存偏好与有关事实\n竞技射击游戏\n客户重视耳机的\n低延迟。\n客户偏好\n用途：竞技射击游戏\n偏好：低延迟\n有关事实：曾报告的设备问题\n会话中值得延续的信息，整理为后续可以检索的偏好与事实。",
+      "file": "81-3.png"
+    },
+    {
+      "index": 81,
+      "step": 0,
+      "page": 82,
+      "steps": 3,
+      "text": "电子产品客服：把背景加入新的问题\n该客户的记忆\n竞技射击游戏\n重视低延迟\n本次请求\n“推荐哪一款耳机？”",
+      "file": "82-1.png"
+    },
+    {
+      "index": 81,
+      "step": 1,
+      "page": 82,
+      "steps": 3,
+      "text": "电子产品客服：把背景加入新的问题\n该客户的记忆\n竞技射击游戏\n重视低延迟\n本次请求\n“推荐哪一款耳机？”\n取回背景：游戏用途、低延迟偏好",
+      "file": "82-2.png"
+    },
+    {
+      "index": 81,
+      "step": 2,
+      "page": 82,
+      "steps": 3,
+      "text": "电子产品客服：把背景加入新的问题\n该客户的记忆\n竞技射击游戏\n重视低延迟\n本次请求\n“推荐哪一款耳机？”\n取回背景：游戏用途、低延迟偏好\n当前问题 ＋ 相关历史 → 模型\n取回以客户和当前问题为线索，让后续服务取得有关背景。",
+      "file": "82-3.png"
+    },
+    {
+      "index": 82,
+      "step": 0,
+      "page": 83,
+      "steps": 3,
+      "text": "电子产品客服：让后续服务取得有关背景\n把当前问题与有关历史一起交给客服 Agent。\n前次会话\n表达偏好\n说明设备问题",
+      "file": "83-1.png"
+    },
+    {
+      "index": 82,
+      "step": 1,
+      "page": 83,
+      "steps": 3,
+      "text": "电子产品客服：让后续服务取得有关背景\n把当前问题与有关历史一起交给客服 Agent。\n前次会话\n表达偏好\n说明设备问题\n客户记忆\n偏好与事实",
+      "file": "83-2.png"
+    },
+    {
+      "index": 82,
+      "step": 2,
+      "page": 83,
+      "steps": 3,
+      "text": "电子产品客服：让后续服务取得有关背景\n把当前问题与有关历史一起交给客服 Agent。\n前次会话\n表达偏好\n说明设备问题\n客户记忆\n偏好与事实\n本次会话\n新的问题\n＋有关背景\n先保存后续需要的背景，再按客户和当前问题取回。",
+      "file": "83-3.png"
+    },
+    {
+      "index": 83,
+      "step": 0,
+      "page": 84,
+      "steps": 3,
+      "text": "取回以后，还要判断本次是否适用\n更新与适用性：旧记录是否仍然成立、是否适合当前目标？\n旧记录\n过去的偏好\n与事实\n当前任务\n新的信息\n＋当前用途",
+      "file": "84-1.png"
+    },
+    {
+      "index": 83,
+      "step": 1,
+      "page": 84,
+      "steps": 3,
+      "text": "取回以后，还要判断本次是否适用\n更新与适用性：旧记录是否仍然成立、是否适合当前目标？\n旧记录\n过去的偏好\n与事实\n本次\n适用？\n当前任务\n新的信息\n＋当前用途",
+      "file": "84-2.png"
+    },
+    {
+      "index": 83,
+      "step": 2,
+      "page": 84,
+      "steps": 3,
+      "text": "取回以后，还要判断本次是否适用\n更新与适用性：旧记录是否仍然成立、是否适合当前目标？\n旧记录\n过去的偏好\n与事实\n本次\n适用？\n更新记录／调整采用\n当前任务\n新的信息\n＋当前用途\n先看偏好发生变化，再看偏好仍成立、但这次用途已经改变。",
+      "file": "84-3.png"
+    },
+    {
+      "index": 84,
+      "step": 0,
+      "page": 85,
+      "steps": 3,
+      "text": "偏好改变，保留历史并更新当前关系\nKendra 的偏好发生变化：先前喜欢 Adidas，后来转而喜欢 Puma。\n较早的记录\nKendra → 喜欢 → Adidas",
+      "file": "85-1.png"
+    },
+    {
+      "index": 84,
+      "step": 1,
+      "page": 85,
+      "steps": 3,
+      "text": "偏好改变，保留历史并更新当前关系\nKendra 的偏好发生变化：先前喜欢 Adidas，后来转而喜欢 Puma。\n较早的记录\nKendra → 喜欢 → Adidas\n新的消息\nAdidas 鞋坏了\n现在喜欢 Puma",
+      "file": "85-2.png"
+    },
+    {
+      "index": 84,
+      "step": 2,
+      "page": 85,
+      "steps": 3,
+      "text": "偏好改变，保留历史并更新当前关系\nKendra 的偏好发生变化：先前喜欢 Adidas，后来转而喜欢 Puma。\n较早的记录\nKendra → 喜欢 → Adidas\n新的消息\nAdidas 鞋坏了\n现在喜欢 Puma\n标记旧关系失效，保留历史\n加入新的偏好关系\n记录变化内容与适用时间，后续按当前有效的信息回答。",
+      "file": "85-3.png"
+    },
+    {
+      "index": 85,
+      "step": 0,
+      "page": 86,
+      "steps": 3,
+      "text": "喜欢的音乐，这次一定适合听吗？\n当前想在午休时放松；过去曾用强节奏音乐保持清醒。\n当前请求：午休放松\n用途：放松",
+      "file": "86-1.png"
+    },
+    {
+      "index": 85,
+      "step": 1,
+      "page": 86,
+      "steps": 3,
+      "text": "喜欢的音乐，这次一定适合听吗？\n当前想在午休时放松；过去曾用强节奏音乐保持清醒。\n当前请求：午休放松\n过去偏好：保持清醒\n同属音乐\n用途：放松\n用途：保持清醒",
+      "file": "86-2.png"
+    },
+    {
+      "index": 85,
+      "step": 2,
+      "page": 86,
+      "steps": 3,
+      "text": "喜欢的音乐，这次一定适合听吗？\n当前想在午休时放松；过去曾用强节奏音乐保持清醒。\n当前请求：午休放松\n过去偏好：保持清醒\n同属音乐\n用途：放松\n用途：保持清醒\n这次根据“放松”选择音频；暂不采用旧偏好，也不必删除那条记录。",
+      "file": "86-3.png"
+    },
+    {
+      "index": 86,
+      "step": 0,
+      "page": 87,
+      "steps": 3,
+      "text": "更新记录，也检查当前用途\n取回以后，还要检查信息的时间与用途。\n旧记录\n过去的偏好\n与事实\n当前任务\n新的信息\n＋当前用途",
+      "file": "87-1.png"
+    },
+    {
+      "index": 86,
+      "step": 1,
+      "page": 87,
+      "steps": 3,
+      "text": "更新记录，也检查当前用途\n取回以后，还要检查信息的时间与用途。\n旧记录\n过去的偏好\n与事实\n本次\n适用？\n当前任务\n新的信息\n＋当前用途",
+      "file": "87-2.png"
+    },
+    {
+      "index": 86,
+      "step": 2,
+      "page": 87,
+      "steps": 3,
+      "text": "更新记录，也检查当前用途\n取回以后，还要检查信息的时间与用途。\n旧记录\n过去的偏好\n与事实\n本次\n适用？\n更新记录／调整采用\n当前任务\n新的信息\n＋当前用途\n变化了，就更新记录；仍正确但用途不同，就调整本次采用方式。",
+      "file": "87-3.png"
+    },
+    {
+      "index": 87,
+      "step": 0,
+      "page": 88,
+      "steps": 3,
+      "text": "Memory：留下信息，再按当前任务取用\n记忆的作用，是让后续任务取得适用的信息。\n过去会话\n留下以后需要的\n偏好、事实与决定\n外部记录\n本次输入\n保存",
+      "file": "88-1.png"
+    },
+    {
+      "index": 87,
+      "step": 1,
+      "page": 88,
+      "steps": 3,
+      "text": "Memory：留下信息，再按当前任务取用\n记忆的作用，是让后续任务取得适用的信息。\n过去会话\n留下以后需要的\n偏好、事实与决定\n外部记录\n摘要 · 详细文件\n对象 · 时间 · 范围\n本次输入\n当前目标\n＋适用的历史信息\n保存\n取回",
+      "file": "88-2.png"
+    },
+    {
+      "index": 87,
+      "step": 2,
+      "page": 88,
+      "steps": 3,
+      "text": "Memory：留下信息，再按当前任务取用\n记忆的作用，是让后续任务取得适用的信息。\n过去会话\n留下以后需要的\n偏好、事实与决定\n外部记录\n摘要 · 详细文件\n对象 · 时间 · 范围\n本次输入\n当前目标\n＋适用的历史信息\n保存\n取回\n变化了：更新记录\n留下信息、读入输入、判断适用性，三个环节共同决定记忆怎样发挥作用。",
+      "file": "88-3.png"
+    }
+  ],
+  "modals": [
+    {
+      "page": 50,
+      "type": "m",
+      "text": "本页完整文字\nLLM基础\n\nPrompting\n\nAgents：Externalization & Internalization\n\n工具调用、Memory、Skills、Harness与外化内化整合\n相关材料\nLLM基础\n\nPrompting\n\nAgents：Externalization & Internalization\n\n工具调用、Memory、Skills、Harness与外化内化整合",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 50,
+      "type": "n",
+      "text": "本讲内容\n\nAgents由外化与内化统领。依次理解执行动作、保存信息、复用做法和组织运行，最后回到模型与系统的分工。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第009–011、147–149、181–188、196、201页\nMBA课程共识与制作规范：Agents主线与外化内化整合",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        },
+        {
+          "text": "MBA课程共识与制作规范",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/PLAN/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 51,
+      "type": "m",
+      "text": "本页完整文字\nExternalization（外化）：在模型之外组织工具、信息、方法与运行过程。\n\nInternalization（内化）：通过训练更新模型参数。\n\nHarness组织运行；Memory和Skills为本次输入提供信息与方法；工具执行并返回结果。\n相关材料\nExternalization（外化）：在模型之外组织工具、信息、方法与运行过程。\n\nInternalization（内化）：通过训练更新模型参数。\n\nHarness组织运行；Memory和Skills为本次输入提供信息与方法；工具执行并返回结果。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 51,
+      "type": "n",
+      "text": "Agents：外化与内化\n\n先用同一张图定义两条路径，说明外部的四类工作与模型的关系。后面按工具、信息、方法和运行安排依次展开，最后回到训练与外部安排。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第009–011、147–149、181–188、196、201页\nMBA课程共识与制作规范：Agents主线与外化内化整合",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        },
+        {
+          "text": "MBA课程共识与制作规范",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/PLAN/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 52,
+      "type": "m",
+      "text": "本页完整文字\n模型提出调用，应用分发与执行，工具取得资料或改变系统。\n\n返回结果加入下一次输入，模型据此继续判断。\n\n天气查询、客户工单、多步反馈与界面操作共用同一闭环。\n相关材料\nAgent（智能体）根据任务和当前材料决定下一步，把需要执行的操作交给工具，再利用返回结果继续工作。\n\n职责与关系\n1. 模型根据任务、材料和可用工具说明，生成下一步请求。\n2. 应用找到对应的执行程序，传入本次参数。\n3. 工具读取数据、计算或操作外部系统。\n4. 应用把结果加入后续输入。\n5. 模型根据新结果继续、调整或结束。\n\n本节依次使用天气调用、客户工单、多步反馈和界面操作解释这一关系。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 52,
+      "type": "n",
+      "text": "工具调用：把请求、执行与反馈接起来\n\n先建立模型、应用和工具的职责关系，再沿回箭头说明结果怎样形成下一次判断的依据。指出本节的四个展开部分与同一闭环的关系。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第028、037页",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 53,
+      "type": "m",
+      "text": "本页完整文字\n一次调用按工具说明、请求、执行和返回展开。\n\n查询建议产生文字；工具执行取得外部返回材料。\n相关材料\n工具调用信息\nmessages = [{'role': 'system', 'content': '请用中文回答。'},\n {'role': 'user', 'content': '纽约现在天气怎么样？'}]\n\ntools = [dict(type=\"function\", function=dict(\n    name=\"get_weather\",\n    description=\"Get current weather for a location.\",\n    parameters=dict(\n        type=\"object\",\n        properties=dict(location=dict(type=\"string\")),\n        required=[\"location\"]\n    )\n))]\n\n调用请求\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n解析后的字段\n{\n  \"name\": \"get_weather\",\n  \"arguments\": {\n    \"location\": \"New York\"\n  }\n}\n\n工具返回\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 53,
+      "type": "n",
+      "text": "一次调用：从查询建议到天气材料\n\n用同一天气问题对比两条路径，然后预告后续四步。停在材料新增的位置，说明工具调用给本次输入带来了什么。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第027–028页",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 54,
+      "type": "m",
+      "text": "本页完整文字\n工具名称为get_weather，用途为查询地点天气，需要location。\n\n用户问题与工具说明共同进入本次模型输入。\n相关材料\n第一轮消息\nmessages = [{'role': 'system', 'content': '请用中文回答。'},\n {'role': 'user', 'content': '纽约现在天气怎么样？'}]\n\n工具说明\ntools = [dict(type=\"function\", function=dict(\n    name=\"get_weather\",\n    description=\"Get current weather for a location.\",\n    parameters=dict(\n        type=\"object\",\n        properties=dict(location=dict(type=\"string\")),\n        required=[\"location\"]\n    )\n))]\n\n第一次完整模型输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n",
+      "links": [],
+      "segments": 3,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 54,
+      "type": "n",
+      "text": "工具说明告诉模型可以做什么\n\n依次显示问题、工具说明和汇入模型的路径。将地点要求与用户原话中的纽约对应起来。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第015–019页；examples/tool_call_text/data/01_messages.py、02_tools.py",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 55,
+      "type": "m",
+      "text": "本页完整文字\n调用请求包含工具get_weather与地点New York。\n\n工具名选择执行程序，地点作为执行的输入。\n相关材料\n调用文本\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n解析后的调用\n{\n  \"name\": \"get_weather\",\n  \"arguments\": {\n    \"location\": \"New York\"\n  }\n}\n\n解析代码\npayload = raw_output.split(\"<tool_call>\", 1)[1]\npayload = payload.split(\"</tool_call>\", 1)[0]\ncall = json.loads(payload)\n",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 55,
+      "type": "n",
+      "text": "调用请求写明工具与地点\n\n先认出动作名称，再认出作用对象，最后让调用到达应用。请求中的字段逐项对应前页工具说明。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第020–022页；data/04_assistant_call_illustrative.txt、05_parsed_call.json",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 56,
+      "type": "m",
+      "text": "本页完整文字\n应用执行get_weather，工具读取weather_fixture.json中的纽约记录。\n\n天气记录返回72°F与Partly cloudy。\n相关材料\n工具分发代码\nregistry = {\"get_weather\": get_weather}\nfunction = registry[call[\"name\"]]\nresult = function(**call[\"arguments\"])\n\n数据记录\n{\n  \"New York\": \"Current weather in New York:\\nTemperature: 72°F\\nConditions: Partly cloudy\"\n}\n\n工具返回\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 56,
+      "type": "n",
+      "text": "程序执行读取，工具返回天气\n\n沿执行、文件读取、返回三步讲解。指明外部数据进入过程的具体位置，随后连接结果如何交回应用。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第023页；data/weather_fixture.json、06_tool_result.txt",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 57,
+      "type": "m",
+      "text": "本页完整文字\n已有任务与要求继续保留。\n\n本次调用和工具结果按顺序追加，模型依据新材料生成回答。\n相关材料\n追加后的完整消息列表\nmessages = [{'role': 'system', 'content': '请用中文回答。'},\n {'role': 'user', 'content': '纽约现在天气怎么样？'},\n {'role': 'assistant',\n  'tool_calls': [{'type': 'function',\n                  'function': {'name': 'get_weather',\n                               'arguments': {'location': 'New '\n                                                         'York'}}}]},\n {'role': 'tool',\n  'content': 'Current weather in New York:\\n'\n             'Temperature: 72°F\\n'\n             'Conditions: Partly cloudy'}]\n\n第二次完整模型输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n<|im_start|>user\n<tool_response>\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n</tool_response><|im_end|>\n<|im_start|>assistant\n\n回答\n纽约气温72°F，局部多云。<|im_end|>",
+      "links": [],
+      "segments": 3,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 57,
+      "type": "n",
+      "text": "把调用与结果追加到下一次输入\n\n逐条展开消息带，区分用户问题、助手调用与工具返回。最后指出回答中的温度和天气状况对应哪一条输入。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第024–026页；data/07_messages_after_tool.py、08_round2_complete.txt",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 58,
+      "type": "m",
+      "text": "本页完整文字\n第一次生成提出调用，程序执行并返回结果。\n\n结果进入新输入后，模型再次生成回答。\n相关材料\n工具调用信息\nmessages = [{'role': 'system', 'content': '请用中文回答。'},\n {'role': 'user', 'content': '纽约现在天气怎么样？'}]\n\ntools = [dict(type=\"function\", function=dict(\n    name=\"get_weather\",\n    description=\"Get current weather for a location.\",\n    parameters=dict(\n        type=\"object\",\n        properties=dict(location=dict(type=\"string\")),\n        required=[\"location\"]\n    )\n))]\n\n调用请求\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n解析后的字段\n{\n  \"name\": \"get_weather\",\n  \"arguments\": {\n    \"location\": \"New York\"\n  }\n}\n\n工具返回\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n\n完整消息历史\n[\n  {\n    \"role\": \"system\",\n    \"content\": \"请用中文回答。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"纽约现在天气怎么样？\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"tool_calls\": [\n      {\n        \"type\": \"function\",\n        \"function\": {\n          \"name\": \"get_weather\",\n          \"arguments\": {\n            \"location\": \"New York\"\n          }\n        }\n      }\n    ]\n  },\n  {\n    \"role\": \"tool\",\n    \"content\": \"Current weather in New York:\\nTemperature: 72°F\\nConditions: Partly cloudy\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"纽约气温72°F，局部多云。\"\n  }\n]\n",
+      "links": [],
+      "segments": 4,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 58,
+      "type": "n",
+      "text": "两次生成，中间执行一次工具\n\n回到完整时间线，将两次模型生成与中间一次工具执行连起来。归纳模型、应用、工具分别贡献什么。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第028页",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 59,
+      "type": "m",
+      "text": "本页完整文字\n客户反馈、问题记录与后续跟进构成业务关系。\n\nFin可以把客户报告的问题登记为Linear工单。\n相关材料\n业务关系\n客户在客服对话中报告问题，问题跟踪系统保存后续需要处理的记录。Fin可以把用户报告的问题登记为Linear工单。\n\n官方文章\nClaude can now connect to your world\nhttps://claude.com/resources/articles/integrations\n\n原文关键短语\n“filing bugs in Linear when users report issues”\n\n本节讲授顺序\n客户材料 → 创建请求 → 外部问题记录 → 按任务检查完成条件。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 59,
+      "type": "n",
+      "text": "Fin：把客户反馈送入问题跟踪\n\n先区分客户对话与问题跟踪两个工作对象，再连接官方披露的跨系统操作。接下来分别看材料、动作和完成条件。\n\n内容来源\nClaude can now connect to your world · Fin / Linear：Integrations节，Intercom段",
+      "links": [
+        {
+          "text": "Claude can now connect to your world · Fin / Linear",
+          "href": "https://claude.com/resources/articles/integrations"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 60,
+      "type": "m",
+      "text": "本页完整文字\n客户描述提供问题材料，操作请求说明要做什么。\n\n外部系统保存问题记录，并返回结果供后续判断。\n相关材料\n工具调用中的三个位置\n\n客户材料：本次报告的问题。\n操作请求：创建可供后续跟进的问题记录。\n外部结果：系统返回或相应记录，可用于检查操作结果。\n\n与天气调用的对应\n天气问题 → 查询请求 → 天气返回。\n客户反馈 → 创建请求 → 业务记录。\n\n两者的共同关系：请求经程序执行，结果进入后续判断。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 60,
+      "type": "n",
+      "text": "客户材料、创建请求与系统记录\n\n沿三条泳道拆开业务对象和动作。上层是客户材料，中层是请求和程序执行，下层是业务系统中的记录；再把返回结果接回处理过程。\n\n内容来源\nClaude can now connect to your world · Fin / Linear：Integrations节，Intercom段\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第028页：工具请求、执行与返回关系",
+      "links": [
+        {
+          "text": "Claude can now connect to your world · Fin / Linear",
+          "href": "https://claude.com/resources/articles/integrations"
+        },
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 61,
+      "type": "m",
+      "text": "本页完整文字\n检查系统返回或查询记录，可以判断登记结果。\n\n问题修复和客户确认还需要各自对应的结果。\n\n客户材料、创建请求和系统记录把对话接到业务动作。\n相关材料\n完成条件\n\n建立记录：查询对应记录，或检查系统返回是否满足登记要求。\n解决问题：检查修复结果与原问题的对应。\n客户确认：根据客户反馈判断问题是否得到妥善处理。\n\n不同目标需要对应的结果。创建一个工作对象，可以支持后续跟进；后续是否完成，要检查相应任务的结果。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 61,
+      "type": "n",
+      "text": "记录建立与问题解决，各有完成条件\n\n回到客户反馈到后续跟进的业务关系。将建立记录、修复问题和客户确认分成不同完成节点，收束为任务要求与结果的对应。\n\n内容来源\nClaude can now connect to your world · Fin / Linear：Integrations节，Intercom段\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第028页：工具请求、执行与返回关系",
+      "links": [
+        {
+          "text": "Claude can now connect to your world · Fin / Linear",
+          "href": "https://claude.com/resources/articles/integrations"
+        },
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 62,
+      "type": "m",
+      "text": "本页完整文字\n新结果先与任务要求比较。\n\n材料足够时组织交付，缺少关键材料时补充读取或查询。\n相关材料\n行动与反馈\n\n取得新材料后：\n1. 将新结果与原任务逐项对应。\n2. 信息足够时组织交付。\n3. 缺少关键材料时补充读取或查询。\n4. 调用反馈指出缺项时，依据已有材料或新确认的信息修正。\n\n下一步取决于本轮取得的结果，计划与实际执行通过反馈不断衔接。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 62,
+      "type": "n",
+      "text": "新结果决定继续、补充还是结束\n\n先呈现判断与两种去向的完整关系，再逐步走过足够和不足两条路径。后续页沿错误修正与结果核对展开。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第028、030、035页",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 63,
+      "type": "m",
+      "text": "本页完整文字\n调用缺少地点时，反馈指出缺失项。\n\n原问题中的纽约提供修正依据，补上New York后再交给程序执行。\n相关材料\n用户问题\n纽约现在天气怎么样？\n\n工具要求\ntools = [dict(type=\"function\", function=dict(\n    name=\"get_weather\",\n    description=\"Get current weather for a location.\",\n    parameters=dict(\n        type=\"object\",\n        properties=dict(location=dict(type=\"string\")),\n        required=[\"location\"]\n    )\n))]\n\n缺少地点的请求\n{\"name\":\"get_weather\",\"arguments\":{}}\n\n参数检查\n缺少地点。\n\n修正后的请求\n{\"name\":\"get_weather\",\"arguments\":{\"location\":\"New York\"}}\n\n对应关系\n原问题中的“纽约”提供地点依据。修正调用后，程序接收新请求并执行。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 63,
+      "type": "n",
+      "text": "缺少地点：让反馈回到原问题\n\n并排对照用户问题和调用地点栏。反馈出现后沿原问题中的纽约补齐参数，将修正依据、修正请求与后续执行区分开。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第015–016页；data/01_messages.py、02_tools.py",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 64,
+      "type": "m",
+      "text": "本页完整文字\n地点、天气内容与查询时点分别构成任务要求。\n\nNew York对应地点，72°F与Partly cloudy对应天气。\n\n返回中未包含观测时间，需要补查后再核对时效。\n相关材料\n原问题\nmessages = [{'role': 'system', 'content': '请用中文回答。'},\n {'role': 'user', 'content': '纽约现在天气怎么样？'}]\n\n返回内容\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n\n逐项核对\n地点：New York与纽约对应。\n天气：温度72°F、状况Partly cloudy。\n时效：查询要求包含“现在”，返回中未包含观测时间。下一步需要补查观测时间，再与查询时点核对。\n\n核对要点\n对象是否一致，内容是否充分，观测时点是否满足任务要求。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 64,
+      "type": "n",
+      "text": "返回内容要对应对象、内容与时点\n\n按三行核对任务与返回。前两行可直接对应；时点一行指出返回中缺少的观测时间，再区分下一步补查与已取得的材料。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第015、023、028页；data/01_messages.py、06_tool_result.txt",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 65,
+      "type": "m",
+      "text": "本页完整文字\n先看新结果，再对照原任务，最后选择下一步。\n\n结果足够就交付；信息不足就补充；请求有缺项就修正。\n相关材料\n反馈小结\n\n新结果是后续判断的输入。\n判断要回到原任务和必要条件。\n信息足够则交付，信息不足则补充，请求缺项则修正。\n\n新材料 → 与任务对应 → 选择下一步 → 取得下一份结果。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 65,
+      "type": "n",
+      "text": "行动、反馈、判断与下一步\n\n回到多步反馈总览的三个出口，分别定位天气材料、地点反馈和时效核对，归纳后续行动怎样依赖新材料。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第028、030、035页",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 66,
+      "type": "m",
+      "text": "本页完整文字\n通过工具读取和操作软件界面。\n\n观察当前界面，选择动作，执行，再重新观察。\n相关材料\nComputer Use：通过工具读取和操作软件界面。\n\n基本顺序\n1. 读取当前界面结构或截图。\n2. 根据任务与当前观察选择点击、输入等动作。\n3. 工具程序执行操作。\n4. 重新读取界面。\n5. 检查状态变化，决定下一步。\n\n与工具调用的对应\n观察提供材料，模型提出动作，工具执行，新观察返回模型。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 66,
+      "type": "n",
+      "text": "Computer Use：观察、动作与新观察\n\n先建立完整四步关系，再定位模型选择动作、程序执行操作和界面反馈三处。后续按当前观察、动作执行、新观察逐项展开。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第030–037页；examples/computer_use/README.md",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 67,
+      "type": "m",
+      "text": "本页完整文字\n界面结构提供可操作对象及属性。\n\n截图提供对象位置与视觉状态。\n\n两类观察共同构成本次选择动作的材料。\n相关材料\n界面结构\n提供当前窗口中的可操作对象、属性与内容。\n\n界面截图\n提供对象位置、布局与视觉状态。\n\n接口读取代码\nvar state = await sky.get_app_state({ app: \"com.google.Chrome\" });\nnodeRepl.write(state.text);\n\n返回对象\nAppState包含app、text和screenshot；其中screenshot可以为空。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 67,
+      "type": "n",
+      "text": "界面结构与截图提供两种观察\n\n将浏览器窗口和地址栏在结构文本与图像中逐一对应。只讲模型能够取得什么信息，再让两类观察汇入本次输入。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第030–033、036页；computer_use/source/本机接口说明摘录.md",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 68,
+      "type": "m",
+      "text": "本页完整文字\n点击地址栏的目标来自当前观察。\n\n模型提出动作请求，工具程序操作软件或操作系统。\n相关材料\n动作的组成\n\n对象：从最新界面观察中确定的目标。\n动作：点击、输入、选择、滚动等。\n执行者：工具程序调用软件或操作系统接口。\n\n点击接口\nclick(args: {app: string, element_index?: number, x?: number, y?: number, mouse_button?: string, click_count?: number}): Promise<void>\n\n参数中使用的对象编号或位置，应来自最新观察。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 68,
+      "type": "n",
+      "text": "根据当前观察，提出界面操作\n\n依次展示当前地址栏位置、点击请求和工具执行。强调动作和作用目标必须从当前观察中确定。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第034–035页；computer_use/click.js",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 69,
+      "type": "m",
+      "text": "本页完整文字\n重新观察焦点、内容与页面状态。\n\n新状态与目标对应后，才能决定下一步。\n相关材料\n操作后读取代码\nvar after = await sky.get_app_state({ app: \"com.google.Chrome\" });\nnodeRepl.write(after.text);\n\n检查目标\n当前焦点是否到达目标控件？\n输入的内容是否出现在目标位置？\n页面状态是否满足任务的下一步条件？\n\n新的观察结果用于下一轮判断，选择下一次动作时重新确定当前对象。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 69,
+      "type": "n",
+      "text": "操作以后，再读取界面核对目标\n\n对比动作前后要观察的位置。用地址栏焦点作为当前目标的核对对象，归纳请求、执行、新观察和后续判断的顺序。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第034–037页；computer_use/observe_after.js",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 70,
+      "type": "m",
+      "text": "本页完整文字\n当前观察提供动作依据。\n\n模型选择动作，工具执行操作，新观察用于核对目标。\n\n观察 → 选择 → 执行 → 新观察，循环到任务完成。\n相关材料\nComputer Use小结\n\n观察：知道软件当前显示了什么。\n动作：根据任务与观察选择对哪个对象做什么。\n执行：工具实际操作界面。\n重新观察：检查变化，再决定后续动作或结束。\n\n当前观察 → 动作选择 → 工具执行 → 新观察 → 下一轮判断。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 70,
+      "type": "n",
+      "text": "界面操作也要带着新结果继续判断\n\n回到本小节总览的同一四环图。按模型选择动作、工具实际执行、新观察反馈三个位置，归纳界面操作如何继续或结束。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第037页；computer_use/observe.js、observe_after.js",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 71,
+      "type": "m",
+      "text": "本页完整文字\n模型决定下一步，应用连接请求与执行程序，工具取得资料或改变系统。\n\n结果回到下一次输入，成为后续判断依据。\n相关材料\n工具调用总结\n\n模型：生成下一步调用或回答。\n应用：组织输入、分发请求、将工具结果带回。\n工具：读取、计算或操作外部系统。\n\n天气调用取得资料；Fin与Linear连接客服反馈和问题记录；Computer Use通过当前观察选择界面动作。\n\n共同关系\n请求经过执行，结果成为下一次判断的依据。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 71,
+      "type": "n",
+      "text": "工具调用小结：执行结果回到判断\n\n回到章首同一职责与反馈图，依次用天气、工单和界面操作定位共同的请求、执行、返回、继续关系。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第028、037页",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 72,
+      "type": "m",
+      "text": "本页完整文字\n当前工作包含任务要求、工具返回和已完成的动作。\n\n以后需要的信息需要保存，并在下次任务取回。\n相关材料\n从工具调用到Memory\n\n本次工作产生了任务要求、取得的材料和执行结果。\n后续仍有用途的信息，需要保存，并在合适的任务中取回。\n\n下一章将展开\n保存什么、怎样取回、怎样更新，以及已有记录如何结合当前任务使用。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 72,
+      "type": "n",
+      "text": "把以后要用的信息留给下一次任务\n\n先回看本章工作对象，再把时间线延伸到下一次任务。只定位保存与取回的关系，下一章展开Memory的具体机制。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第037页；Memory章节",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 73,
+      "type": "m",
+      "text": "本页完整文字\n10分钟。\n\n接下来：Memory、Skills、Harness、外化与内化整合。\n相关材料\n课间休息10分钟。\n\n后半讲顺序\nMemory：信息保存、取回与更新。\nSkills：可复用做法的组织与使用。\nHarness：材料、工具、执行过程与状态的组织。\nExternalization与Internalization：回看外部系统分工与模型能力变化。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 73,
+      "type": "n",
+      "text": "课间休息\n\n课间休息；后半讲从过去信息如何重新进入当前任务开始。\n\n内容来源\nMBA课程共识与制作规范：课间休息10分钟",
+      "links": [
+        {
+          "text": "MBA课程共识与制作规范",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/PLAN/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 74,
+      "type": "m",
+      "text": "本页完整文字\nAgents / Memory：保存 → 取回 → 更新\n\n过去会话\n\n哪些信息值得\n留给以后？\n\n外部记录\n\n摘要 · 详细文件\n对象 · 时间 · 范围\n\n本次输入\n\n当前任务到来时\n按需要取回\n\n保存\n\n取回\n\n新的信息：更新记录\n\n先看文件怎样被读回，再看客服连续性，最后看记录更新与当前用途。\n相关材料\nMemory关系：过去会话→保存记录→外部存储→按当前任务取回→加入本次输入；新的信息用于更新后续记录。\n三个位置：磁盘上的记录、本次输入、模型参数。文件读写改变外部记录；读取结果加入输入；参数训练改变模型能力。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 74,
+      "type": "n",
+      "text": "Memory：把过去的信息带入本次任务\n\n章首先定位Memory在Agents中的位置，再用同一信息流说明后面的文件、客服和适用性三部分。\n\n内容来源\nMemory专题 v09：case/memories_v2；第007–021页",
+      "links": [
+        {
+          "text": "Memory专题 v09",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/MEM/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 75,
+      "type": "m",
+      "text": "本页完整文字\n保存与取回：沿着文件、读取、输入，查看同一份信息。\n\n磁盘上的记录\n\n记忆摘要\n＋详细文件入口\n\n读取文件\n\n提出读取 → 工具执行\n→ 返回内容\n\n本次输入\n\n当前任务\n＋已取得的内容\n\n接下来打开记忆摘要，沿路径读取详细记录，再观察文件更新后的变化。\n相关材料\n保存与取回链：摘要保存要点与详细文件路径；根据当前任务读取有关详细文件；工具返回正文后，应用把它加入后续输入。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 75,
+      "type": "n",
+      "text": "保存与取回：从文件到本次输入\n\n先看三处位置，随后逐项展开摘要、文件读取与更新。\n\n内容来源\nMemory专题 v09：case/memories_v2；第007–021页",
+      "links": [
+        {
+          "text": "Memory专题 v09",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/MEM/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 76,
+      "type": "m",
+      "text": "本页完整文字\n摘要同时保存两类内容：可以直接使用的信息，以及详细记录的入口。\n\nmemories_v2/\n\nmemory_summary.md\n\nrollout_summaries/\n\nscope.md\n\nstyle.md\n\n沿用教师措辞与固定样式；\n每页适量，复杂内容分步讲。\n\nstyle.md：需要具体版式、措辞时读。\nscope.md：核对讲解范围。\n\n摘要里的路径指向详细文件；路径本身不能代替文件中的内容。\n相关材料\nmemory_summary.md · 要点与入口\n## User preferences\n沿用教师措辞与固定样式；每页适量，复杂内容分步讲。\n## General Tips\n长材料可单独打开全文。\n## What's in Memory\n- rollout_summaries/style.md：需要具体版式、措辞时读。\n- rollout_summaries/scope.md：核对“讲到next-token prediction”的适用范围。\n\nstyle.md · 页面组织条目\n每页只推进一个需要理解的问题，复杂内容允许拆页。\n\n摘要给出要点与详细文件入口；要按要求组织每页，还需要取得对应条目。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 76,
+      "type": "n",
+      "text": "一份摘要，怎样带出详细记录？\n\n先看摘要中的偏好要点，再区分详细范围和具体版式两个入口。沿style.md的路径，下一页核对每页怎样组织。\n\n内容来源\nMemory专题 v09：case/memories_v2；第007–021页",
+      "links": [
+        {
+          "text": "Memory专题 v09",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/MEM/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 77,
+      "type": "m",
+      "text": "本页完整文字\n当前任务与摘要\n\n准备课件\n核对每页怎样组织\n\n入口：style.md\n\n读取 style.md\n\n模型提出读取\n工具打开文件\n\n后续输入\n\n当前任务\n＋原有摘要\n＋详细要求\n\n从摘要入口，取得逐页组织要求的正文。\n\n“每页只推进一个\n需要理解的问题，\n复杂内容允许拆页。”\n\n把当前讲解内容与逐页要求一起放入输入，决定每页怎样组织。\n相关材料\nstyle.md · 有关条目\n白底，蓝色标题与细线页眉，深蓝正文，红色重点。\n中文按微软雅黑视觉，英文按Arial；代码用等宽字体。\n措辞参照教师第0讲，直接说明对象、操作和结果。\n每页只推进一个需要理解的问题，复杂内容允许拆页。\n\n当前任务：准备课件，核对每页怎样组织。\n读取路径：摘要中的style.md入口→模型提出读取→工具读取文件→正文加入后续输入。\n后续输入：当前讲解内容＋摘要要点＋详细页面组织要求。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 77,
+      "type": "n",
+      "text": "读取内容，加入后续输入\n\n任务是准备课件并核对每页怎样组织。先沿摘要找到style.md，再读取“每页只推进一个问题、复杂内容允许拆页”的条目，最后把当前内容与这些具体要求共同放入后续输入。\n\n内容来源\nMemory专题 v09：case/memories_v2；第007–021页",
+      "links": [
+        {
+          "text": "Memory专题 v09",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/MEM/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 78,
+      "type": "m",
+      "text": "本页完整文字\n文件与输入位于不同位置，更新也发生在不同时间。\n\n磁盘文件\n\n已组装的输入\n\n读取时的内容\n\n版本 A\n\n上次读取的内容\n\n读取\n\n第一次读取：把文件当时的内容加入输入。\n\n文件已经修改\n\n版本 B\n\n等待读取\n\n随后修改磁盘文件，已经组装的输入仍保留版本 A。\n\n重新取得的内容\n\n再次读取或加入更新内容后，后续输入才取得版本 B。\n\n保存改变外部记录；读取改变输入；训练更新模型参数。\n相关材料\n状态一：磁盘内容A，读取后输入含A。\n状态二：磁盘修改为B，已组装的输入仍含A。\n状态三：重新读取或将更新内容加入后续输入，后续请求取得B。\n磁盘文件、已经组装的输入、模型参数位于不同位置。\n保存改变外部记录；读取后把内容加入输入；训练更新模型参数。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 78,
+      "type": "n",
+      "text": "文件更新以后，还要更新输入\n\n先读取内容A，随后文件改成B；再次读取后，后续输入取得B。最后分清外部记录、本次输入与模型参数，分别由保存、读取与训练改变。\n\n内容来源\nMemory专题 v09：case/memories_v2；第007–021页",
+      "links": [
+        {
+          "text": "Memory专题 v09",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/MEM/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 79,
+      "type": "m",
+      "text": "本页完整文字\n“已经保存”和“这次取得了什么”，要分别定位。\n\n磁盘上的记录\n\n记忆摘要\n＋详细文件入口\n\n读取文件\n\n提出读取 → 工具执行\n→ 返回内容\n\n本次输入\n\n当前任务\n＋已取得的内容\n\n摘要提供要点和入口；读取取得内容；内容进入后续输入，才参与后续生成。\n相关材料\n摘要：提供要点与详细文件入口。\n读取：取得当前任务需要的内容。\n输入：当前任务、已有上下文与新取得内容共同参与后续生成。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 79,
+      "type": "n",
+      "text": "保存在哪里，取回什么，怎样参与生成\n\n回到本小节三处位置，归纳文件、读取与输入之间的关系。\n\n内容来源\nMemory专题 v09：case/memories_v2；第007–021页",
+      "links": [
+        {
+          "text": "Memory专题 v09",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/MEM/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 80,
+      "type": "m",
+      "text": "本页完整文字\nAWS 客服方案：两次会话之间，用记忆延续背景。\n\n前次会话\n\n表达偏好\n说明设备问题\n\n客户记忆\n\n偏好与事实\n\n本次会话\n\n新的问题\n＋有关背景\n\n先看保存什么，再看怎样取回，最后把背景加入当前请求。\n相关材料\nAWS电子产品客服方案的关系：前次会话→客户记忆→新会话。记忆保存与后续问题有关的客户偏好和事实。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 80,
+      "type": "n",
+      "text": "电子产品客服：延续两次会话的背景\n\n先展示两次会话和外部记忆的位置，再沿保存和取回展开。\n\n内容来源\nAWS AgentCore客服参考方案：Add persistent memory；Create the memory resources；Test the memory in action",
+      "links": [
+        {
+          "text": "AWS AgentCore客服参考方案",
+          "href": "https://aws.amazon.com/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 81,
+      "type": "m",
+      "text": "本页完整文字\n竞技射击游戏\n\n客户重视耳机的\n低延迟。\n\n客户偏好\n\n用途：竞技射击游戏\n偏好：低延迟\n\n有关事实：曾报告的设备问题\n\n会话中值得延续的信息，整理为后续可以检索的偏好与事实。\n相关材料\n偏好条目：用途为竞技射击游戏，重视低延迟。另一类记录是与客服有关的事实，例如曾报告的设备问题。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 81,
+      "type": "n",
+      "text": "电子产品客服：保存偏好与有关事实\n\n将低延迟偏好分解为用途与偏好，再点出设备问题属于另一类有关事实。\n\n内容来源\nAWS AgentCore客服参考方案：Add persistent memory；Create the memory resources；Test the memory in action",
+      "links": [
+        {
+          "text": "AWS AgentCore客服参考方案",
+          "href": "https://aws.amazon.com/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 82,
+      "type": "m",
+      "text": "本页完整文字\n该客户的记忆\n\n竞技射击游戏\n重视低延迟\n\n本次请求\n\n“推荐哪一款耳机？”\n\n取回背景：游戏用途、低延迟偏好\n\n当前问题 ＋ 相关历史 → 模型\n\n取回以客户和当前问题为线索，让后续服务取得有关背景。\n相关材料\n新问题是耳机推荐。以该客户和当前问题为检索线索，取回低延迟及游戏用途背景，加入当前请求。",
+      "links": [],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 82,
+      "type": "n",
+      "text": "电子产品客服：把背景加入新的问题\n\n保留当前耳机问题，将有关游戏用途和低延迟偏好加入输入。\n\n内容来源\nAWS AgentCore客服参考方案：Add persistent memory；Create the memory resources；Test the memory in action",
+      "links": [
+        {
+          "text": "AWS AgentCore客服参考方案",
+          "href": "https://aws.amazon.com/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 83,
+      "type": "m",
+      "text": "本页完整文字\n把当前问题与有关历史一起交给客服 Agent。\n\n前次会话\n\n表达偏好\n说明设备问题\n\n客户记忆\n\n偏好与事实\n\n本次会话\n\n新的问题\n＋有关背景\n\n先保存后续需要的背景，再按客户和当前问题取回。\n相关材料\n保存：留下以后可能需要的背景。取回：按客户和当前问题寻找有关记录。使用：与新问题一起加入输入。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 83,
+      "type": "n",
+      "text": "电子产品客服：让后续服务取得有关背景\n\n回到两次会话图，指出保存、检索、加入请求三个动作。\n\n内容来源\nAWS AgentCore客服参考方案：Add persistent memory；Create the memory resources；Test the memory in action",
+      "links": [
+        {
+          "text": "AWS AgentCore客服参考方案",
+          "href": "https://aws.amazon.com/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 84,
+      "type": "m",
+      "text": "本页完整文字\n更新与适用性：旧记录是否仍然成立、是否适合当前目标？\n\n旧记录\n\n过去的偏好\n与事实\n\n本次\n适用？\n\n更新记录／调整采用\n\n当前任务\n\n新的信息\n＋当前用途\n\n先看偏好发生变化，再看偏好仍成立、但这次用途已经改变。\n相关材料\n两类变化：一是偏好或事实本身变化；二是记录仍成立，但当前用途不同。先核对对象、时间和范围，再决定采用方式。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 84,
+      "type": "n",
+      "text": "取回以后，还要判断本次是否适用\n\n先并排显示旧记录与当前任务；以信息的时间和用途判断本次适用性，再区分更新记录与调整本次采用方式。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第064页：当前任务、信息时间与用途",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 85,
+      "type": "m",
+      "text": "本页完整文字\nKendra 的偏好发生变化：先前喜欢 Adidas，后来转而喜欢 Puma。\n\n较早的记录\n\nKendra → 喜欢 → Adidas\n\n新的消息\n\nAdidas 鞋坏了\n现在喜欢 Puma\n\n加入新的偏好关系\n\n记录变化内容与适用时间，后续按当前有效的信息回答。\n\n标记旧关系失效，保留历史\n相关材料\nKendra较早喜欢Adidas鞋；后来表示鞋子坏了，转而喜欢Puma。旧喜好关系可标记失效，同时保留历史并记录新的偏好。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 85,
+      "type": "n",
+      "text": "偏好改变，保留历史并更新当前关系\n\n时间线先保留较早记录，再加入新消息，区分历史关系和当前采用。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第052页\nZep v3 Facts：偏好关系的更新：How Zep updates facts；The four fact timestamps",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        },
+        {
+          "text": "Zep v3 Facts：偏好关系的更新",
+          "href": "https://help.getzep.com/v3/facts"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 86,
+      "type": "m",
+      "text": "本页完整文字\n当前想在午休时放松；过去曾用强节奏音乐保持清醒。\n\n当前请求：午休放松\n\n过去偏好：保持清醒\n\n同属音乐\n\n用途：放松\n\n用途：保持清醒\n\n这次根据“放松”选择音频；暂不采用旧偏好，也不必删除那条记录。\n相关材料\n当前请求：午休时听放松音频。\n过去记录：曾用强节奏音乐保持清醒。\n两条信息同属音乐主题，用途却不同。当前选择服务于放松。本次暂不采用某条记录，与从长期记忆中删除它是不同操作。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 86,
+      "type": "n",
+      "text": "喜欢的音乐，这次一定适合听吗？\n\n先看午休请求，再加入强节奏偏好，最后比较用途；本次暂不采用与删除长期记录是不同动作。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第059页\nRPEval：记忆适用性与当前用途：§1；Figure 1（PDF第2页）",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        },
+        {
+          "text": "RPEval：记忆适用性与当前用途",
+          "href": "https://arxiv.org/pdf/2601.16621v1"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 87,
+      "type": "m",
+      "text": "本页完整文字\n取回以后，还要检查信息的时间与用途。\n\n旧记录\n\n过去的偏好\n与事实\n\n本次\n适用？\n\n更新记录／调整采用\n\n当前任务\n\n新的信息\n＋当前用途\n\n变化了，就更新记录；仍正确但用途不同，就调整本次采用方式。\n相关材料\n时间判断：信息是否已发生变化？\n用途判断：信息是否适合当前目标？\n更新记录和选择本次采用方式分别处理。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 87,
+      "type": "n",
+      "text": "更新记录，也检查当前用途\n\n先并排显示旧记录与当前任务；以信息的时间和用途判断本次适用性，再区分更新记录与调整本次采用方式。\n\n内容来源\n第03讲：从Prompt到Context再到Harness · v16 Skills完整案例：第064页：当前任务、信息时间与用途",
+      "links": [
+        {
+          "text": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/L3/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 88,
+      "type": "m",
+      "text": "本页完整文字\n记忆的作用，是让后续任务取得适用的信息。\n\n过去会话\n\n留下以后需要的\n偏好、事实与决定\n\n外部记录\n\n摘要 · 详细文件\n对象 · 时间 · 范围\n\n本次输入\n\n当前目标\n＋适用的历史信息\n\n保存\n\n取回\n\n变化了：更新记录\n\n留下信息、读入输入、判断适用性，三个环节共同决定记忆怎样发挥作用。\n相关材料\n保存—取回—更新：过去信息以外部记录留下，系统按当前任务取得有关内容；新事实改变记录，当前用途影响采用。下一部分Skills将可复用做法组织为文件包。",
+      "links": [],
+      "segments": 2,
+      "initialScrollTop": 0
+    },
+    {
+      "page": 88,
+      "type": "n",
+      "text": "Memory：留下信息，再按当前任务取用\n\n用章首关系图总结保存、取回和更新，并连接下一部分的可复用做法。\n\n内容来源\nMemory专题 v09：case/memories_v2；第007–021页",
+      "links": [
+        {
+          "text": "Memory专题 v09",
+          "href": "file:///Users/linjianghao/Desktop/%E6%88%91%E7%9A%84%E5%AE%89%E6%B3%B0/%E5%BC%80%E8%AE%BE%E8%AF%BE%E7%A8%8B/MBA-%E8%91%9B%E8%80%81%E5%B8%88%E8%AF%BE%E7%A8%8B/%E7%AC%AC01%E8%AE%B2-LLM-Agents/v02-%E5%AF%BC%E5%85%A5%E4%B8%8ELLM%E5%9F%BA%E7%A1%80HTML/sources/library/MEM/index.html"
+        }
+      ],
+      "segments": 1,
+      "initialScrollTop": 0
+    }
+  ],
+  "controls": [
+    {
+      "page": 50,
+      "bodyControls": []
+    },
+    {
+      "page": 51,
+      "bodyControls": []
+    },
+    {
+      "page": 52,
+      "bodyControls": []
+    },
+    {
+      "page": 53,
+      "bodyControls": []
+    },
+    {
+      "page": 54,
+      "bodyControls": []
+    },
+    {
+      "page": 55,
+      "bodyControls": []
+    },
+    {
+      "page": 56,
+      "bodyControls": []
+    },
+    {
+      "page": 57,
+      "bodyControls": []
+    },
+    {
+      "page": 58,
+      "bodyControls": []
+    },
+    {
+      "page": 59,
+      "bodyControls": []
+    },
+    {
+      "page": 60,
+      "bodyControls": []
+    },
+    {
+      "page": 61,
+      "bodyControls": []
+    },
+    {
+      "page": 62,
+      "bodyControls": []
+    },
+    {
+      "page": 63,
+      "bodyControls": []
+    },
+    {
+      "page": 64,
+      "bodyControls": []
+    },
+    {
+      "page": 65,
+      "bodyControls": []
+    },
+    {
+      "page": 66,
+      "bodyControls": []
+    },
+    {
+      "page": 67,
+      "bodyControls": []
+    },
+    {
+      "page": 68,
+      "bodyControls": []
+    },
+    {
+      "page": 69,
+      "bodyControls": []
+    },
+    {
+      "page": 70,
+      "bodyControls": []
+    },
+    {
+      "page": 71,
+      "bodyControls": []
+    },
+    {
+      "page": 72,
+      "bodyControls": []
+    },
+    {
+      "page": 73,
+      "bodyControls": []
+    },
+    {
+      "page": 74,
+      "bodyControls": []
+    },
+    {
+      "page": 75,
+      "bodyControls": []
+    },
+    {
+      "page": 76,
+      "bodyControls": []
+    },
+    {
+      "page": 77,
+      "bodyControls": []
+    },
+    {
+      "page": 78,
+      "bodyControls": []
+    },
+    {
+      "page": 79,
+      "bodyControls": []
+    },
+    {
+      "page": 80,
+      "bodyControls": []
+    },
+    {
+      "page": 81,
+      "bodyControls": []
+    },
+    {
+      "page": 82,
+      "bodyControls": []
+    },
+    {
+      "page": 83,
+      "bodyControls": []
+    },
+    {
+      "page": 84,
+      "bodyControls": []
+    },
+    {
+      "page": 85,
+      "bodyControls": []
+    },
+    {
+      "page": 86,
+      "bodyControls": []
+    },
+    {
+      "page": 87,
+      "bodyControls": []
+    },
+    {
+      "page": 88,
+      "bodyControls": []
+    }
+  ],
+  "operations": [
+    {
+      "page": 50,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 50,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 51,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 51,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 51,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 51,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 52,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 52,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 52,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 52,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 53,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 53,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 53,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 53,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 54,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 54,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 54,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 54,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 55,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 55,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 55,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 55,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 56,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 56,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 56,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 56,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 57,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 57,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 57,
+      "step": 4,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 57,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 57,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 58,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 58,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 58,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 58,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 59,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 59,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 59,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 59,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 60,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 60,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 60,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 60,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 61,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 61,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 61,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 61,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 62,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 62,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 62,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 62,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 63,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 63,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 63,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 63,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 64,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 64,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 64,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 64,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 65,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 65,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 65,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 65,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 66,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 66,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 66,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 66,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 67,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 67,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 67,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 67,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 68,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 68,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 68,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 68,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 69,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 69,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 69,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 69,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 70,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 70,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 70,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 70,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 71,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 71,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 71,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 71,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 72,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 72,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 72,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 72,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 73,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 73,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 74,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 74,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 74,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 74,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 75,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 75,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 75,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 75,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 76,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 76,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 76,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 76,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 77,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 77,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 77,
+      "step": 4,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 77,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 77,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 78,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 78,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 78,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 78,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 79,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 79,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 79,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 79,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 80,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 80,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 80,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 80,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 81,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 81,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 81,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 81,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 82,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 82,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 82,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 82,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 83,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 83,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 83,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 83,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 84,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 84,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 84,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 84,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 85,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 85,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 85,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 85,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 86,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 86,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 86,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 86,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 87,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 87,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 87,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 87,
+      "action": "leave and return resets to first state",
+      "pass": true
+    },
+    {
+      "page": 88,
+      "step": 2,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 88,
+      "step": 3,
+      "action": "back then forward",
+      "pass": true
+    },
+    {
+      "page": 88,
+      "action": "double click diagram; plus; minus; close",
+      "pass": true
+    },
+    {
+      "page": 88,
+      "action": "leave and return resets to first state",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

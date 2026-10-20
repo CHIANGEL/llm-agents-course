@@ -1,0 +1,53 @@
+[
+  {
+    "page": 54,
+    "tests": [
+      "play/pause",
+      "mute/unmute",
+      "speed 2→1",
+      "range Home/End",
+      "video ArrowRight +5s",
+      "zoom preserves 5s",
+      "close restores paused node"
+    ],
+    "passed": true
+  },
+  {
+    "page": 55,
+    "tests": [
+      "play/pause",
+      "End confirms Appointment Scheduled frame",
+      "Home",
+      "ArrowRight +5",
+      "zoom and Escape restores node",
+      "speed .5→1",
+      "mute toggle",
+      "Space plays without page turn"
+    ],
+    "passed": true
+  },
+  {
+    "page": 57,
+    "tests": [
+      "play/pause",
+      "End frame shows held pen",
+      "Home",
+      "2×ArrowRight=10s",
+      "zoom preserves 10s",
+      "close restores node",
+      "speed .5→1",
+      "mute/unmute"
+    ],
+    "passed": true
+  },
+  {
+    "page": 57,
+    "tests": [
+      "full play to ended 29.354667",
+      "replay then leave: no active video",
+      "return resets time/rate/mute",
+      "seek before first play"
+    ],
+    "passed": true
+  }
+]

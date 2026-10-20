@@ -1,0 +1,28 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=html-figures-r6#p=60&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=html-figures-r6#p=60&s=1
+	2 container 第60页 · 完整材料, ID: deck-dialog
+		3 container
+			4 heading 第60页 · 完整材料, Value: 2, ID: dialog-title
+				5 text 第60页 · 完整材料
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			8 heading 本页要点, Value: 3
+				9 text 本页要点
+			10 text 外部系统帮助完成任务，并留下可检查的交互过程。
+
+经过选择的过程可以用于训练，让模型学会其中可重复使用的做法；是否学会还要测试。
+
+借助外部系统完成任务→外部经验→选择与训练→更新后的模型。
+
+留下记录不会自动更新模型参数。
+			11 heading 相关材料, Value: 3
+				12 text 相关材料
+			13 text 外部系统帮助完成任务，并留下可检查的交互过程。
+
+经过选择的过程可以用于训练，让模型学会其中可重复使用的做法；是否学会还要测试。
+
+借助外部系统完成任务→外部经验→选择与训练→更新后的模型。
+
+留下记录不会自动更新模型参数。
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

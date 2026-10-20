@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "71",
+  "text": "复杂应用，拆开看仍是一次次工具调用\n复杂任务需要连续调用不同工具，每次结果都能成为下一步的依据。\n资料研究\n获取信息并形成文件\n检索新闻\n读取网页\n写入报告\n任务记忆 Memory\n保存以后还要用的信息\n写入记录\n读取 / 检索\n放回模型输入\n软件操作\n观察与动作不断往返\n读取界面\n点击 / 输入\n读取新状态\nMemory也要依靠文件读取、写入或检索，把信息送出模型、再带回来。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "复杂应用，拆开看仍是一次次工具调用"
+}

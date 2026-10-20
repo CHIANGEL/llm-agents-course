@@ -1,0 +1,52 @@
+{
+  "text": "Write one short formal sentence announcing that the lecture scheduled for today has been cancelled.",
+  "ids": [
+    19161,
+    582,
+    1890,
+    5764,
+    6330,
+    34769,
+    338,
+    260,
+    9364,
+    13831,
+    327,
+    1834,
+    553,
+    719,
+    35295,
+    30
+  ],
+  "pieces": [
+    "Write",
+    " one",
+    " short",
+    " formal",
+    " sentence",
+    " announcing",
+    " that",
+    " the",
+    " lecture",
+    " scheduled",
+    " for",
+    " today",
+    " has",
+    " been",
+    " cancelled",
+    "."
+  ],
+  "output_text": "The lecture scheduled for today has been cancelled.",
+  "output_ids": [
+    504,
+    9364,
+    13831,
+    327,
+    1834,
+    553,
+    719,
+    35295,
+    30,
+    2
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "status": "reviewed_and_published",
+  "pairs": [
+    {
+      "strategy": "four-elements",
+      "object": "复利",
+      "simple_key": "four-elements/compound/simple",
+      "strategy_key": "four-elements/compound/strategy-clarified"
+    },
+    {
+      "strategy": "give-example",
+      "object": "上市公司财报快讯",
+      "simple_key": "give-example/earnings/simple",
+      "strategy_key": "give-example/earnings/strategy"
+    },
+    {
+      "strategy": "model-write-prompt",
+      "object": "两家上市公司的财报比较",
+      "simple_key": "model-write-prompt/earnings/simple",
+      "strategy_key": "model-write-prompt/earnings/execution",
+      "prompt_generation_key": "model-write-prompt/earnings/strategy"
+    },
+    {
+      "strategy": "socratic",
+      "object": "奶茶店营收下降",
+      "simple_key": "socratic/tea/simple",
+      "strategy_key": "socratic/tea/strategy"
+    },
+    {
+      "strategy": "two-layer",
+      "object": "机器学习中的过拟合",
+      "simple_key": "two-layer/overfitting/simple",
+      "strategy_key": "two-layer/overfitting/strategy"
+    },
+    {
+      "strategy": "reverse-deconstruction",
+      "object": "咖啡店促销文案",
+      "simple_key": "reverse-deconstruction/promo/simple",
+      "strategy_key": "reverse-deconstruction/promo/strategy"
+    },
+    {
+      "strategy": "horizontal-vertical",
+      "object": "贵州茅台：白酒业务与渠道变化",
+      "simple_key": "horizontal-vertical/moutai-material/simple-clarified",
+      "strategy_key": "horizontal-vertical/moutai-material/strategy-clarified"
+    },
+    {
+      "strategy": "fact-checking",
+      "object": "微软日本四天工作制",
+      "simple_key": "fact-checking/microsoft-four-day/simple/deepseek",
+      "strategy_key": "fact-checking/microsoft-four-day/strategy/deepseek"
+    },
+    {
+      "strategy": "expert-consultation",
+      "object": "服装店换季库存与现金回笼",
+      "simple_key": "expert-consultation/apparel/simple",
+      "strategy_key": "expert-consultation/apparel/strategy"
+    },
+    {
+      "strategy": "first-principles",
+      "object": "长周报与风险信息传递",
+      "simple_key": "first-principles/reports/simple",
+      "strategy_key": "first-principles/reports/strategy"
+    },
+    {
+      "strategy": "steelman",
+      "object": "上市公司分红还是回购",
+      "simple_key": "steelman/buyback/simple",
+      "strategy_key": "steelman/buyback/strategy"
+    },
+    {
+      "strategy": "minimum-experiment",
+      "object": "咖啡店主付费社群",
+      "simple_key": "minimum-experiment/community/simple",
+      "strategy_key": "minimum-experiment/community/strategy"
+    },
+    {
+      "strategy": "cross-domain",
+      "object": "餐厅午间取餐拥堵",
+      "simple_key": "cross-domain/pickup-scoped/simple",
+      "strategy_key": "cross-domain/pickup-scoped/strategy"
+    }
+  ]
+}

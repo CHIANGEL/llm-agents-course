@@ -1,0 +1,109 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=167&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=167&s=1
+	2 container
+		42 container 第167页 本讲内容
+			43 heading 本讲内容, Value: 1
+				44 text 本讲内容
+			45 container 课件内容
+				46 text 已结束：Harness →
+				47 text 接下来：外化与内化整合
+				48 container
+					49 heading 1. LLM基础, Value: 2
+						50 text 1. LLM基础
+					51 text 连续生成与多轮聊天
+					52 content list
+						53 button ✓ 1.1 连续生成
+							54 text ✓
+							55 text 1.1 连续生成
+						56 button ✓ 1.2 多轮聊天
+							57 text ✓
+							58 text 1.2 多轮聊天
+						59 button ✓ 1.3 LLM小结
+							60 text ✓
+							61 text 1.3 LLM小结
+				62 container
+					63 heading 2. Prompting, Value: 2
+						64 text 2. Prompting
+					65 text 交代任务，再选择方法
+					66 content list
+						67 button ✓ 2.1 三个核心
+							68 text ✓
+							69 text 2.1 三个核心
+						70 button ✓ 2.2 问清问题
+							71 text ✓
+							72 text 2.2 问清问题
+						73 button ✓ 2.3 学习
+							74 text ✓
+							75 text 2.3 学习
+						76 button ✓ 2.4 解决问题
+							77 text ✓
+							78 text 2.4 解决问题
+						79 button ✓ 2.5 决策
+							80 text ✓
+							81 text 2.5 决策
+						82 button ✓ 2.6 Prompting小结
+							83 text ✓
+							84 text 2.6 Prompting小结
+				85 container
+					86 heading 3. Agents, Value: 2
+						87 text 3. Agents
+					88 text Externalization & Internalization
+					89 content list
+						90 button ✓ 3.0 外化与内化总览
+							91 text ✓
+							92 text 3.0 外化与内化总览
+						93 button ✓ 3.1 工具调用
+							94 text ✓
+							95 text 3.1 工具调用
+						96 button ✓ 3.2 Memory
+							97 text ✓
+							98 text 3.2 Memory
+						99 button ✓ 3.3 Skills
+							100 text ✓
+							101 text 3.3 Skills
+						102 button ✓ 3.4 Protocols
+							103 text ✓
+							104 text 3.4 Protocols
+						105 button ✓ 3.5 Harness
+							106 text ✓
+							107 text 3.5 Harness
+						108 button → 3.6 外化与内化整合 接下来
+							109 text →
+							110 text 3.6 外化与内化整合
+							111 text 接下来
+						112 button 3.7 全讲总结
+				113 container
+					114 text ✓ 已结束 → 接下来 其余内容随后展开
+			115 container 课程进度
+				116 button 导入
+				117 button 1. LLM基础
+				118 button 2. Prompting
+				119 button 3. Agents · Externalization & Internalization
+					120 text 3. Agents 
+					121 text · Externalization & Internalization
+				122 button 3.0 外化与内化总览
+				123 button 3.1 工具调用
+				124 button 3.2 Memory
+				125 button 3.3 Skills
+				126 button 3.4 Protocols
+				127 button 3.5 Harness
+				128 button 3.6 外化与内化整合
+				129 button 3.7 全讲总结
+		27 container Description: 课件操作, ID: controls
+			28 button Description: 上一步, Help: 上一步（←）
+			29 button Description: 下一步, Help: 下一步（→或空格）
+			30 container jump-form
+				31 text 页码
+				32 stepper (settable, integer) Description: 页码, Value: 167, ID: page-input
+				33 text / 175
+			130 text 整页显示
+			35 button 目录
+			36 button 讲者备注
+			37 button 完整材料
+			38 button 放大图解
+			39 button 全屏
+			40 button 隐藏, Help: 按H恢复
+			41 button 操作说明
+		131 text 第167页，本讲内容，整页显示
+
+The focused UI element is 29 button Description: 下一步, Help: 下一步（→或空格）

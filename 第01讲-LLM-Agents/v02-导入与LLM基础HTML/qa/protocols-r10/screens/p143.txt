@@ -1,0 +1,56 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-qa2#p=143&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-qa2#p=143&s=1
+	2 container
+		41 container Description: 第143页 汇率任务：委托、补充、继续, ID: mount
+			42 container 第143页 汇率任务：委托、补充、继续
+				43 heading 汇率任务：委托、补充、继续, Value: 1
+					44 text 汇率任务：委托、补充、继续
+				45 container 课件内容
+					46 container
+						47 text 沿用同一任务：先委托，缺少目标币种时补充，再继续原任务。
+						48 content list
+							49 container
+								50 text 用户 → 本方助理 → 汇率Agent 1美元能换多少？
+							51 container
+								52 text 汇率Agent → 本方助理 → 用户 要换成哪种货币？
+							53 container
+								54 text 用户 → 本方助理 → 汇率Agent CAD（加拿大元）。
+							55 container
+								56 text 汇率Agent → 本方助理 继续处理，返回换算成果。
+						57 image 用户、助理和汇率Agent之间的委托关系
+						58 text 补充信息要接回原任务 任务标识与上下文标识，
+帮助应用把“CAD”接回
+“1美元能换多少”的请求。 追问是任务的一部分；补充后继续处理，双方都需要保留可续接的状态。
+				59 container 课程进度
+					60 button 导入
+					61 button 1. LLM基础
+					62 button 2. Prompting
+					63 button 3. Agents · Externalization & Internalization
+						64 text 3. Agents 
+						65 text · Externalization & Internalization
+					66 button 3.0 外化与内化总览
+					67 button 3.1 工具调用
+					68 button 3.2 Memory
+					69 button 3.3 Skills
+					70 button 3.4 Protocols
+					71 button 3.5 Harness
+					72 button 3.6 外化与内化整合
+					73 button 3.7 全讲总结
+		26 container Description: 课件操作, ID: controls
+			27 button Description: 上一步, Help: 上一步（←）
+			28 button Description: 下一步, Help: 下一步（→或空格）
+			29 container jump-form
+				30 text 页码
+				31 stepper (settable, integer) Description: 页码, Value: 143, ID: page-input
+				32 text / 177
+			74 text 整页显示
+			34 button 目录
+			35 button 讲者备注
+			36 button 完整材料
+			37 button 放大图解
+			38 button 全屏
+			39 button 隐藏, Help: 按H恢复
+			40 button 操作说明
+		75 text 第143页，汇率任务：委托、补充、继续，整页显示
+
+The focused UI element is 41 container Description: 第143页 汇率任务：委托、补充、继续, ID: mount

@@ -1,0 +1,80 @@
+{
+  "method": "Recompute each full prefix through model.forward(use_cache=False), independent from cached generation scores",
+  "status": "passed",
+  "trace_sha256": "f31da8d30599e4efe38ac7c7376e794adba1d8eb09a30ba5ef68da61aa312390",
+  "steps": [
+    {
+      "step": 1,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 8.642673492431641e-07,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 2,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 1.9669532775878906e-06,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 3,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 1.0728836059570312e-06,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 4,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 1.1920928955078125e-07,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 5,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 1.7881393432617188e-07,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 6,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 1.2516975402832031e-06,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 7,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 0.0,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 8,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 0.0,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 9,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 0.0,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 10,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 4.470348358154297e-06,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    }
+  ],
+  "eos_only_at_last_step": true,
+  "template_matches_messages": true,
+  "final_decode_matches_output": true
+}

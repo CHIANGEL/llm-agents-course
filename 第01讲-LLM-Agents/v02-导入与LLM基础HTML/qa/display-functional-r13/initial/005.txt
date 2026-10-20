@@ -1,0 +1,35 @@
+- main:
+  - article "第5页 先看一次完整的生成":
+    - heading "先看一次完整的生成" [level=1]
+    - region "课件内容":
+      - generic: 任务：用一句简短、正式的话，通知今天的讲座取消。
+      - generic: 输入的要求
+      - generic: Write one short formal sentence announcing that the lecture scheduled for today has been cancelled.
+      - generic: 完整生成结果
+      - generic: The lecture scheduled for today has been cancelled.
+      - generic: 原定于今天的讲座已取消。
+      - generic: Token是生成文本的单位，可以是词、词的一部分、标点或特殊标记。
+      - generic: SmolLM2-135M-Instruct · 每一步选择概率最高的候选
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "1.1 连续生成"
+      - button "1.2 多轮聊天"
+      - button "1.3 LLM小结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "5"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "备注 / 来源"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第5页，先看一次完整的生成，整页显示

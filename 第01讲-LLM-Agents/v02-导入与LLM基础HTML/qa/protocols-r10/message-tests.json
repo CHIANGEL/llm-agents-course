@@ -1,0 +1,94 @@
+[
+  {
+    "action": "choice 0 / key",
+    "choice": "0",
+    "direction": "应用 → 天气服务",
+    "pressed": [
+      "① 索取工具目录",
+      "主要内容"
+    ],
+    "text": "操作：tools/list\n\n请求：列出这个服务可用的工具。\n\n请求编号：101。",
+    "view": "key"
+  },
+  {
+    "action": "choice 0 / raw",
+    "choice": "0",
+    "direction": "应用 → 天气服务",
+    "pressed": [
+      "① 索取工具目录",
+      "完整协议消息"
+    ],
+    "text": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 101,\n  \"method\": \"tools/list\",\n  \"params\": {\n    \"_meta\": {\n      \"io.modelcontextprotocol/protocolVersion\": \"2026-07-28\",\n      \"io.modelcontextprotocol/clientInfo\": {\n        \"name\": \"classroom-mcp-client\",\n        \"version\": \"1.0.0\"\n      },\n      \"io.modelcontextprotocol/clientCapabilities\": {}\n    }\n  }\n}",
+    "view": "raw"
+  },
+  {
+    "action": "choice 1 / key",
+    "choice": "1",
+    "direction": "天气服务 → 应用",
+    "pressed": [
+      "② 返回工具说明",
+      "主要内容"
+    ],
+    "text": "工具：get_weather\n\n用途：查询指定地点的天气。\n参数：location，文字，必须提供。\n\n返回编号：101，与目录请求对应。",
+    "view": "key"
+  },
+  {
+    "action": "choice 1 / raw",
+    "choice": "1",
+    "direction": "天气服务 → 应用",
+    "pressed": [
+      "② 返回工具说明",
+      "完整协议消息"
+    ],
+    "text": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 101,\n  \"result\": {\n    \"resultType\": \"complete\",\n    \"tools\": [\n      {\n        \"name\": \"get_weather\",\n        \"description\": \"Get current weather information for a location\",\n        \"inputSchema\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"location\": {\n              \"type\": \"string\",\n              \"description\": \"City name or zip code\"\n            }\n          },\n          \"required\": [\n            \"location\"\n          ]\n        }\n      }\n    ],\n    \"ttlMs\": 300000,\n    \"cacheScope\": \"public\",\n    \"_meta\": {\n      \"io.modelcontextprotocol/serverInfo\": {\n        \"name\": \"classroom-weather-fixture\",\n        \"version\": \"1.0.0\"\n      }\n    }\n  }\n}",
+    "view": "raw"
+  },
+  {
+    "action": "choice 2 / key",
+    "choice": "2",
+    "direction": "应用 → 天气服务",
+    "pressed": [
+      "③ 发起天气查询",
+      "主要内容"
+    ],
+    "text": "操作：tools/call\n\n工具：get_weather\n参数：location = New York\n\n请求编号：102。",
+    "view": "key"
+  },
+  {
+    "action": "choice 2 / raw",
+    "choice": "2",
+    "direction": "应用 → 天气服务",
+    "pressed": [
+      "③ 发起天气查询",
+      "完整协议消息"
+    ],
+    "text": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 102,\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"get_weather\",\n    \"arguments\": {\n      \"location\": \"New York\"\n    },\n    \"_meta\": {\n      \"io.modelcontextprotocol/protocolVersion\": \"2026-07-28\",\n      \"io.modelcontextprotocol/clientInfo\": {\n        \"name\": \"classroom-mcp-client\",\n        \"version\": \"1.0.0\"\n      },\n      \"io.modelcontextprotocol/clientCapabilities\": {}\n    }\n  }\n}",
+    "view": "raw"
+  },
+  {
+    "action": "choice 3 / key",
+    "choice": "3",
+    "direction": "天气服务 → 应用",
+    "pressed": [
+      "④ 返回天气内容",
+      "主要内容"
+    ],
+    "text": "天气内容：\nNew York\nTemperature: 72°F\nConditions: Partly cloudy\n\n返回编号：102，与天气查询对应。",
+    "view": "key"
+  },
+  {
+    "action": "choice 3 / raw",
+    "choice": "3",
+    "direction": "天气服务 → 应用",
+    "pressed": [
+      "④ 返回天气内容",
+      "完整协议消息"
+    ],
+    "text": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 102,\n  \"result\": {\n    \"resultType\": \"complete\",\n    \"content\": [\n      {\n        \"type\": \"text\",\n        \"text\": \"Current weather in New York:\\n Temperature: 72°F\\n Conditions: Partly cloudy\"\n      }\n    ],\n    \"isError\": false,\n    \"_meta\": {\n      \"io.modelcontextprotocol/serverInfo\": {\n        \"name\": \"classroom-weather-fixture\",\n        \"version\": \"1.0.0\"\n      }\n    }\n  }\n}",
+    "view": "raw"
+  },
+  {
+    "action": "repeat clicks, repeated reset, Enter/Space, End/Home, Escape and next/back",
+    "result": "画面按预期改变；返回默认查询主要内容"
+  }
+]

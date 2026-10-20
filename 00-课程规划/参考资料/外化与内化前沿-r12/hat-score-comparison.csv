@@ -1,0 +1,4 @@
+model,benchmark,checkpoint,deployment_harness,mean_judge_score,source
+Qwen3.5-9B,SWE-QA,H4-trained,H4-full,75.70,https://arxiv.org/html/2610.01235v1
+Qwen3.5-9B,SWE-QA,H4-trained,H1-tools,71.99,https://arxiv.org/html/2610.01235v1
+Qwen3.5-9B,SWE-QA,H2-targeted,H1-tools,77.00,https://arxiv.org/html/2610.01235v1

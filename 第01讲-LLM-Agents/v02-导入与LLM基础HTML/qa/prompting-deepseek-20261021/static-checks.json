@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-21",
+  "pair_count": 13,
+  "template_page_count": 14,
+  "distinct_deepseek_share_urls": 27,
+  "templates": [
+    {
+      "strategy": "socratic",
+      "exact_template_except_placeholders": true
+    },
+    {
+      "strategy": "two-layer",
+      "exact_template_except_placeholders": true
+    },
+    {
+      "strategy": "reverse-deconstruction",
+      "exact_template_except_placeholders": true
+    },
+    {
+      "strategy": "horizontal-vertical",
+      "exact_template_except_placeholders": true
+    },
+    {
+      "strategy": "fact-checking",
+      "exact_template_except_placeholders": true
+    },
+    {
+      "strategy": "expert-consultation",
+      "exact_template_except_placeholders": true
+    },
+    {
+      "strategy": "first-principles",
+      "exact_template_except_placeholders": true
+    },
+    {
+      "strategy": "steelman",
+      "exact_template_except_placeholders": true
+    },
+    {
+      "strategy": "minimum-experiment",
+      "exact_template_except_placeholders": true
+    },
+    {
+      "strategy": "cross-domain",
+      "exact_template_except_placeholders": true
+    }
+  ],
+  "open_in_new_tab": true,
+  "preserved_course_page_count": 200,
+  "pages": [
+    {
+      "strategy": "four-elements",
+      "object": "复利",
+      "pages": [
+        20
+      ]
+    },
+    {
+      "strategy": "give-example",
+      "object": "上市公司财报快讯",
+      "pages": [
+        21
+      ]
+    },
+    {
+      "strategy": "model-write-prompt",
+      "object": "两家上市公司的财报比较",
+      "pages": [
+        22
+      ]
+    },
+    {
+      "strategy": "socratic",
+      "object": "奶茶店营收下降",
+      "pages": [
+        26
+      ]
+    },
+    {
+      "strategy": "two-layer",
+      "object": "机器学习中的过拟合",
+      "pages": [
+        29
+      ]
+    },
+    {
+      "strategy": "reverse-deconstruction",
+      "object": "咖啡店促销文案",
+      "pages": [
+        31
+      ]
+    },
+    {
+      "strategy": "horizontal-vertical",
+      "object": "贵州茅台：白酒业务与渠道变化",
+      "pages": [
+        33,
+        34
+      ]
+    },
+    {
+      "strategy": "fact-checking",
+      "object": "微软日本四天工作制",
+      "pages": [
+        36
+      ]
+    },
+    {
+      "strategy": "expert-consultation",
+      "object": "服装店换季库存与现金回笼",
+      "pages": [
+        40
+      ]
+    },
+    {
+      "strategy": "first-principles",
+      "object": "长周报与风险信息传递",
+      "pages": [
+        41
+      ]
+    },
+    {
+      "strategy": "steelman",
+      "object": "上市公司分红还是回购",
+      "pages": [
+        47
+      ]
+    },
+    {
+      "strategy": "minimum-experiment",
+      "object": "咖啡店主付费社群",
+      "pages": [
+        49
+      ]
+    },
+    {
+      "strategy": "cross-domain",
+      "object": "餐厅午间取餐拥堵",
+      "pages": [
+        43
+      ]
+    }
+  ]
+}

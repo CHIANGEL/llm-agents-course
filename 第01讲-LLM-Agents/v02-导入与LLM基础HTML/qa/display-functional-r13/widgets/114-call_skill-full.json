@@ -1,0 +1,15 @@
+{
+  "broken": [],
+  "page": "114",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "模型：读取SKILL.md\n模型生成",
+    "完整内容"
+  ],
+  "text": "目录指向入口文件；工具读取后，工作步骤和资源位置进入后续输入。\n当前环节\n模型：说明使用的Skill\n模型生成\n模型：读取SKILL.md\n模型生成\n工具：返回Skill正文\n工具返回\n第一次展开：目录 → 正文\n重置\n关键内容\n完整内容\n消息结构\n截至此处的内容\n模型：读取SKILL.md\n工具：exec_command\n工作目录：/workspace/course\n\ncat /workspace/course/.agents/skills/jupyter-notebook/SKILL.md\n\n模型生成读取命令；命令交给工具执行。\n\n教学用途 → tutorial分支；正文进一步指向tutorial-patterns.md。"
+}

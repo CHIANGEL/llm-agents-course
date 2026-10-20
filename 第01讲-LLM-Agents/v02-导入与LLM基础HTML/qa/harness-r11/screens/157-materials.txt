@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=157&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=157&s=1
+	2 container 第157页 · 完整材料, ID: deck-dialog
+		3 container
+			4 heading 第157页 · 完整材料, Value: 2, ID: dialog-title
+				8 text 第157页 · 完整材料
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			9 heading 本页要点, Value: 3
+				10 text 本页要点
+			11 text Hooks：按事件触发预设动作
+
+Hook把一个运行事件与预先配置的动作关联起来，发生事件且条件匹配时由应用触发。这里用命令型Hook解释选择事件、配置条件、指定程序，以及实际运行时的对应关系。格式整理、记录工具使用、固定检查都可以接到这样的触发点。Hook的核心是触发关系；它运行什么程序、是否还调用模型，取决于具体配置。
+			12 heading 相关材料, Value: 3
+				13 text 相关材料
+			14 text Hook把一个运行事件与预先配置的动作关联起来，发生事件且条件匹配时由应用触发。这里用命令型Hook解释选择事件、配置条件、指定程序，以及实际运行时的对应关系。格式整理、记录工具使用、固定检查都可以接到这样的触发点。Hook的核心是触发关系；它运行什么程序、是否还调用模型，取决于具体配置。
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

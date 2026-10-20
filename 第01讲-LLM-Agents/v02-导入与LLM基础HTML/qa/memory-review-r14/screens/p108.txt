@@ -1,0 +1,62 @@
+- main:
+  - article "第108页 模型怎样把记忆用进回答？":
+    - heading "模型怎样把记忆用进回答？" [level=1]
+    - region "课件内容":
+      - generic: 模型结合当前任务、摘要和读回的预算范围，继续生成采购评审要点。
+      - heading "模型依据记忆给出回答" [level=2]
+      - button "基础指令 客户端准备":
+        - text: 基础指令
+        - generic: 客户端准备
+      - button "记忆摘要与使用要求 客户端读取摘要":
+        - text: 记忆摘要与使用要求
+        - generic: 客户端读取摘要
+      - button "项目说明与操作范围 客户端准备":
+        - text: 项目说明与操作范围
+        - generic: 客户端准备
+      - button "用户：300人部署 当前任务":
+        - text: 用户：300人部署
+        - generic: 当前任务
+      - button "模型：读取预算记录 生成工具调用":
+        - text: 模型：读取预算记录
+        - generic: 生成工具调用
+      - button "工具：返回预算范围 读取文件得到正文":
+        - text: 工具：返回预算范围
+        - generic: 读取文件得到正文
+      - button "模型：给出评审要点 结合当前任务与记忆" [pressed]:
+        - text: 模型：给出评审要点
+        - generic: 结合当前任务与记忆
+      - button "关键内容" [pressed]
+      - button "原始条目"
+      - button "当前条目列表"
+      - heading "模型：给出评审要点" [level=2]
+      - generic: 结论 上次10万元对应20人、3个月的试点，不能直接作为300人正式部署的预算。正式部署需要按人数、期限及服务范围重新估算。 依据 历史记录明确：10万元包含试点软件费和初始配置，没有核定300人正式部署的年度费用。 采购评审要点 1. 范围：300人；明确使用期限、所需功能与实施范围。 2. 费用：分别列出软件、实施、培训与后续运维费用。 3. 对比：统一人数、期限和服务范围后，再比较供应商方案。 4. 待确认：正式部署预算上限、上线时间与验收要求。 下一步 先补齐这些条件，形成供应商评估表。
+      - paragraph: 左侧按过程顺序排列；回答由模型生成，下一轮才随历史进入输入。
+      - generic: 先看模型如何回答；下一页再加入用户补充的正式部署条件。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "3.0 外化与内化总览"
+      - button "3.1 工具调用"
+      - button "3.2 Memory"
+      - button "3.3 Skills"
+      - button "3.4 Protocols"
+      - button "3.5 Harness"
+      - button "3.6 外化与内化整合"
+      - button "3.7 全讲总结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步": →
+  - generic: 页码
+  - spinbutton "页码": "108"
+  - generic: / 193
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第108页，模型怎样把记忆用进回答？，整页显示

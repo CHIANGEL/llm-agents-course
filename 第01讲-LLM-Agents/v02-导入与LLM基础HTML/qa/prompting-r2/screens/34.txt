@@ -1,0 +1,28 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=34&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=34&s=1
+	2 container
+		3 container Description: 第34页 第一性原理：从事实、目标和约束重推, ID: mount
+			4 container 第34页 第一性原理：从事实、目标和约束重推
+				5 heading 第一性原理：从事实、目标和约束重推, Value: 1
+					6 text 第一性原理：从事实、目标和约束重推
+				7 container 课件内容
+					8 container
+						9 text 当方案不断增加补丁，先分清基本事实与未经验证的惯例。 原始Prompt
+						10 text 我想解决的问题是：【填写你的问题】。
+						11 text 请用第一性原理把它拆回最底层，区分：
+						12 text 1. 已经确认、无法绕开的基本事实；
+						13 text 2. 习惯性接受、却没有验证过的假设；
+						14 text 3. 真正想实现的目标；
+						15 text 4. 现实中的资源与约束。
+						16 text 暂时放下行业惯例和现成方案，只从基本事实、目标和约束出发，重新推导可行路径。
+						17 text 最后请输出：
+						18 text 1. 原方案中只在修补表面的部分；
+						19 text 2. 从基本事实重新推导出的新路径；
+						20 text 3. 这条路径成立的前提；
+						21 text 4. 验证它的第一步。
+						22 text 保留基本条件 已确认的事实
+						23 text 真正想实现的目标
+						24 text 现实资源与约束 重新推导可行路径 写明前提与验证第一步 把惯例当作待检查的假设，重新从事实、目标和约束出发。
+		25 text 第34页，第一性原理：从事实、目标和约束重推，整页显示
+
+The focused UI element is 3 container Description: 第34页 第一性原理：从事实、目标和约束重推, ID: mount

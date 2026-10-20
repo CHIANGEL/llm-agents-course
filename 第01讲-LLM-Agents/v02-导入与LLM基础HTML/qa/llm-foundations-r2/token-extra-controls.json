@@ -1,0 +1,87 @@
+[
+  {
+    "operation": "back",
+    "expected": 9,
+    "pass": true
+  },
+  {
+    "operation": "back",
+    "expected": 8,
+    "pass": true
+  },
+  {
+    "operation": "back",
+    "expected": 7,
+    "pass": true
+  },
+  {
+    "operation": "back",
+    "expected": 6,
+    "pass": true
+  },
+  {
+    "operation": "back",
+    "expected": 5,
+    "pass": true
+  },
+  {
+    "operation": "back",
+    "expected": 4,
+    "pass": true
+  },
+  {
+    "operation": "back",
+    "expected": 3,
+    "pass": true
+  },
+  {
+    "operation": "back",
+    "expected": 2,
+    "pass": true
+  },
+  {
+    "operation": "back",
+    "expected": 1,
+    "pass": true
+  },
+  {
+    "operation": "pick",
+    "expected": 10,
+    "pass": true
+  },
+  {
+    "operation": "pick",
+    "expected": 3,
+    "pass": true
+  },
+  {
+    "operation": "pick",
+    "expected": 8,
+    "pass": true
+  },
+  {
+    "operation": "pick",
+    "expected": 8,
+    "pass": true
+  },
+  {
+    "operation": "pick first",
+    "pass": true
+  },
+  {
+    "operation": "double click no zoom",
+    "pass": true
+  },
+  {
+    "operation": "reset",
+    "pass": true
+  },
+  {
+    "operation": "space native button",
+    "pass": true
+  },
+  {
+    "operation": "leave return resets",
+    "pass": true
+  }
+]

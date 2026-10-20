@@ -1,0 +1,47 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=160&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=160&s=1
+	2 container
+		106 container Description: 第160页 子智能体：把具体工作分出去, ID: mount
+			107 container 第160页 子智能体：把具体工作分出去
+				108 heading 子智能体：把具体工作分出去, Value: 1
+					109 text 子智能体：把具体工作分出去
+				110 container 课件内容
+					111 container
+						112 text 运行安排 4 / 5
+						113 text 分配子任务 → 交回结果 → 协调与汇总
+						114 text 子智能体（Sub-agent）也称子代理：在自己的上下文中处理子任务，把结果交回主代理。
+						115 image Harness内主代理委托A和B，分别处理后回传，由主代理汇总检查
+						116 text 先看怎样隔开过程，再看任务能否并行，最后判断是否值得分工。 子智能体是一种分工安排；前面的A2A协议可用于跨Agent服务的任务交换。
+				117 container 课程进度
+					118 button 导入
+					119 button 1. LLM基础
+					120 button 2. Prompting
+					121 button 3. Agents · Externalization & Internalization
+						122 text 3. Agents 
+						123 text · Externalization & Internalization
+					124 button 3.0 外化与内化总览
+					125 button 3.1 工具调用
+					126 button 3.2 Memory
+					127 button 3.3 Skills
+					128 button 3.4 Protocols
+					129 button 3.5 Harness
+					130 button 3.6 外化与内化整合
+					131 button 3.7 全讲总结
+		91 container Description: 课件操作, ID: controls
+			92 button Description: 上一步, Help: 上一步（←）
+			93 button Description: 下一步, Help: 下一步（→或空格）
+			94 container jump-form
+				95 text 页码
+				96 stepper (settable, integer) Description: 页码, Value: 160, ID: page-input
+				97 text / 175
+			132 text 整页显示
+			99 button 目录
+			100 button 讲者备注
+			101 button 完整材料
+			102 button 放大图解
+			103 button 全屏
+			104 button 隐藏, Help: 按H恢复
+			105 button 操作说明
+		133 text 第160页，子智能体：把具体工作分出去，整页显示
+
+The focused UI element is 106 container Description: 第160页 子智能体：把具体工作分出去, ID: mount

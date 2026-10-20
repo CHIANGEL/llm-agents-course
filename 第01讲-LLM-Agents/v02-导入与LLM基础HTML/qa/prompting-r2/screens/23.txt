@@ -1,0 +1,24 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=23&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=23&s=1
+	2 container
+		3 container Description: 第23页 双层解释：从直觉到准确理解, ID: mount
+			4 container 第23页 双层解释：从直觉到准确理解
+				5 heading 双层解释：从直觉到准确理解, Value: 1
+					6 text 双层解释：从直觉到准确理解
+				7 container 课件内容
+					8 container
+						9 text 类比听懂之后，还要讲清机制；用两层解释建立准确理解。 原始Prompt
+						10 text 我想学习的是：【填写概念或问题】。
+						11 text 请分两层解释：
+						12 text 第一层，小白版。
+						13 text 用生活化的语言和一个具体例子，让完全没有基础的人也能听懂。
+						14 text 第二层，专业版。
+						15 text 使用准确术语，讲清核心机制、适用边界和常见误解。
+						16 text 最后请整理出：
+						17 text 1. 列出小白说法与专业术语的对应关系；
+						18 text 2. 我最容易理解错的地方；
+						19 text 3. 3个用于检查我是否真正理解的问题。
+						20 text 通俗层 生活语言 + 具体例子 专业层 术语 + 机制 + 适用边界 把两层说法一一对应， 定位容易理解错的地方。 先听懂，再解释准确；类比与专业机制要对应。
+		21 text 第23页，双层解释：从直觉到准确理解，整页显示
+
+The focused UI element is 3 container Description: 第23页 双层解释：从直觉到准确理解, ID: mount

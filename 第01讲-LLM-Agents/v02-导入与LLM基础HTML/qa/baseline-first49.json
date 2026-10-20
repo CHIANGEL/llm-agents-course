@@ -1,0 +1,1279 @@
+{
+  "page_count": 49,
+  "state_count": 135,
+  "files": {
+    "src/section-frames.js": "e24ef8aa4fd6bea0cac07d908677de8a97c80a4a166c84022edcf0ebee32533c",
+    "src/005-008.js": "685bbd94591f1eef28d2f38b1fad7d431781cea042dc4b383c8b52e45f628562",
+    "src/009-013.js": "54996e6e5047ed75cd35bde7692cc90f0623e4d9cd397e88e8bc9e9ad9217c1d",
+    "src/prompting-task.js": "fdbc58055aac1c9561e254c24fdb095502de1ac3346ad66d87a9cc1d846ecadf",
+    "src/prompting-clarify.js": "6920cd8531a0d9ff9f9776fdf7f6db5eae6ee937b9b0dcf0739b224ec678fef5",
+    "src/prompting-feedback.js": "32c0da6aed08fdbdcadcac06f07946c3ea3310069a3ee170e1e095545ac5c5c3",
+    "src/005-008.css": "816a22ee9cda1b2016102c48809d3c5ed420ff4d181e2b9c34ae51b703a11931",
+    "src/009-013.css": "5f7721b1226cbf7e11a8fcddf44ee5cb005c7fc0bfadc69abbfd0b6f3f28f227",
+    "src/prompting-verify-facts.js": "cd7de2880d7c451be53c33577df4b5384c2fdd0d7e58f5c9a4c20884e6b68956",
+    "src/prompting-base.js": "af765f54844da03ca11d76c2ef39e7a2aea1672e6a63e1e8b113e37bbe9e7cf7",
+    "src/prompting-compare.js": "d097365db7be454fa5d4853f5acce8a9558f1a7b606d3336ea3b8437a40475cd",
+    "src/prompting.css": "754a5fe00593e93e51cfd36d5ead4837dca93b5a0092faf9d7cbabb65c311065",
+    "src/prompting-frame.js": "45fd95f5ffaf4796ca7a9e1ffba2a4be5ed57fd03517bfa61a9ac67a7b7d4235",
+    "src/001-004.css": "572d162960325bdf41ce1deb11223c6296ba10c8d5429b077809a3ac72753dd2",
+    "src/001-004.js": "701ba8b351a36946b4d369f02a0f5962c3b4f1d48d12f2e3949bd7c6a6569276",
+    "src/base.css": "0d7a66f99cf9523ae65a53f880360c5332bcab3492e1fd3a52ae2cc55bab424a",
+    "src/prompting-validation.js": "88adfb84e438097ccc8d8692ed2d27a237a0e8da3abadab4e7f7aedaac629cf3"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "renderer": 1,
+      "source_plan_page": 1,
+      "section": "导入",
+      "type": "cover",
+      "title": "第一讲：LLM Agents",
+      "seconds": 60,
+      "on_slide": [
+        "从模型生成回答，走到Agent执行任务。",
+        "任务怎样交代，系统怎样执行，交付结果怎样检查。"
+      ],
+      "talk": "先看回答、操作、交付三个对象。模型生成的回答需要经过工具和程序执行，才会产生外部操作结果；随后核对交付。",
+      "sources": [
+        {
+          "id": "PLAN",
+          "locator": "课程主线、180分钟安排"
+        }
+      ],
+      "start_seconds": 0,
+      "end_seconds": 60
+    },
+    {
+      "page": 2,
+      "renderer": 2,
+      "source_plan_page": 2,
+      "section": "导入",
+      "type": "content",
+      "title": "回答、操作与交付",
+      "seconds": 180,
+      "on_slide": [
+        "50人，每桌最多6人，至少需要9张桌子。",
+        "8 × 6 ＋ 2 ＝ 50人。",
+        "代码写出来，还需要程序执行。",
+        "如果任务还包括预订桌位，就需要进入预订系统，取得操作回执。"
+      ],
+      "talk": "用桌位图确认9桌，再说明代码文本、程序运行、预订操作各自完成什么。以回答、操作、交付三个对象回收导入。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第002页：大模型与工具"
+        },
+        {
+          "id": "PLAN",
+          "locator": "导入：回答、操作与交付"
+        }
+      ],
+      "start_seconds": 60,
+      "end_seconds": 240
+    },
+    {
+      "page": 3,
+      "renderer": 3,
+      "source_plan_page": 3,
+      "section": "导入",
+      "type": "agenda",
+      "title": "本讲内容",
+      "seconds": 60,
+      "on_slide": [
+        "1. LLM基础：生成机制、上下文与事实依据",
+        "2. Prompting：交代任务、组织材料、反馈与检查",
+        "3. Agents：Externalization & Internalization",
+        "3.1 Agent与工具调用；3.2 Memory；3.3 Skills；3.4 Harness；3.5 外化与内化"
+      ],
+      "talk": "课程分三个一级主题。先理解LLM，再学习任务交代，最后在外化与内化框架下看工具、记忆、技能、运行系统与模型能力。Externalization由模型外部系统承担工作；Internalization通过训练形成模型能力。",
+      "sources": [
+        {
+          "id": "PLAN",
+          "locator": "180分钟安排"
+        }
+      ],
+      "start_seconds": 240,
+      "end_seconds": 300
+    },
+    {
+      "page": 4,
+      "renderer": 4,
+      "source_plan_page": 4,
+      "section": "LLM基础总览",
+      "type": "overview",
+      "title": "LLM基础：生成、上下文与事实依据",
+      "seconds": 60,
+      "on_slide": [
+        "1. 怎样生成回答：根据前文预测、选择并追加Token。",
+        "2. 本次参考什么：任务、相关材料与历史进入本次输入。",
+        "3. 怎样核对结果：数字、对象、含义与范围得到材料支持。",
+        "上下文进入生成过程，生成的结果再回到材料中核对。"
+      ],
+      "talk": "本章依次解释生成机制、输入条件和输出依据。后面三个子章节分别总览内容和关系，展开例子，再回到同一组概念总结。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第038、061、023页"
+        },
+        {
+          "id": "PLAN",
+          "locator": "LLM入门基础"
+        }
+      ],
+      "start_seconds": 300,
+      "end_seconds": 360
+    },
+    {
+      "page": 5,
+      "renderer": 101,
+      "source_plan_page": null,
+      "section": "生成",
+      "type": "overview",
+      "title": "生成：回答怎样一步步写出来",
+      "seconds": 25,
+      "on_slide": [
+        "预测候选 → 选出一个 → 追加前文 → 再次预测。",
+        "先看通知改写，再展开候选选择与连续生成。"
+      ],
+      "talk": "用闭环总览三步。通知展示输出对象；候选分布解释选择；继续生成说明每一步都要保留更新后的前文。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第038、042页"
+        }
+      ],
+      "start_seconds": 360,
+      "end_seconds": 385
+    },
+    {
+      "page": 6,
+      "renderer": 5,
+      "source_plan_page": 5,
+      "section": "生成",
+      "type": "content",
+      "title": "LLM怎样生成回答",
+      "seconds": 100,
+      "on_slide": [
+        "大语言模型（LLM）通过大量文本训练，可以根据输入要求生成文字。",
+        "原通知：今天的讲座取消了。",
+        "改写：原定于今天举行的讲座已取消，后续安排将另行通知。",
+        "原文没有提供后续安排。这句补充需要另外的依据。"
+      ],
+      "talk": "通知改写展示模型生成流畅表述，同时指出新增安排需要材料支持。接下来解释文字怎样一步步生成。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第001页：大语言模型"
+        }
+      ],
+      "start_seconds": 385,
+      "end_seconds": 485
+    },
+    {
+      "page": 7,
+      "renderer": 6,
+      "source_plan_page": 6,
+      "section": "生成",
+      "type": "content",
+      "title": "下一Token预测（Next token prediction）",
+      "seconds": 125,
+      "on_slide": [
+        "Token是模型处理文本的单位，不固定等于一个汉字或一个词。",
+        "模型根据已有内容，预测下一Token，再按生成规则选出一个。",
+        "前文：这家餐厅的味道很。候选：好70%、一般20%、差10%。",
+        "本次选出“一般”。按概率选择时，概率较低的候选也可能被选中。"
+      ],
+      "talk": "先看前文与候选分布，再揭示选中项。概率描述生成倾向，选择不必总取最高概率候选。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第038页：下一Token预测"
+        }
+      ],
+      "start_seconds": 485,
+      "end_seconds": 610
+    },
+    {
+      "page": 8,
+      "renderer": 7,
+      "source_plan_page": 7,
+      "section": "生成",
+      "type": "content",
+      "title": "选出一个，再接着生成",
+      "seconds": 105,
+      "on_slide": [
+        "选中的Token接到前文后，模型依据新前文再预测下一个。",
+        "这家餐厅的味道很一般 → 逗号65%、句号30%、其他5%。",
+        "选中逗号后，继续接到完整前文后面。",
+        "用这份新前文，继续预测。"
+      ],
+      "talk": "分步展示选中“一般”、保留完整前文、选中逗号、继续预测。每一步都把新增内容带入后续生成条件。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第038、042页"
+        }
+      ],
+      "start_seconds": 610,
+      "end_seconds": 715
+    },
+    {
+      "page": 9,
+      "renderer": 102,
+      "source_plan_page": null,
+      "section": "生成",
+      "type": "summary",
+      "title": "生成小结：预测、选择与追加",
+      "seconds": 25,
+      "on_slide": [
+        "根据已有前文预测候选。",
+        "按生成规则选出一个Token。",
+        "把选中项加入完整前文，再预测下一个。"
+      ],
+      "talk": "回收前文、候选、追加三步。转入输入条件：前文中的任务、材料和历史从哪里来。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第038、042页"
+        }
+      ],
+      "start_seconds": 715,
+      "end_seconds": 740
+    },
+    {
+      "page": 10,
+      "renderer": 103,
+      "source_plan_page": null,
+      "section": "上下文",
+      "type": "overview",
+      "title": "上下文：本次输入由哪些内容组成",
+      "seconds": 25,
+      "on_slide": [
+        "任务要求：决定要完成什么。",
+        "相关历史：保留仍有用的条件。",
+        "外部材料：读取后加入本次输入。"
+      ],
+      "talk": "三路内容汇入本次输入，再进入模型。依次用评论、读书会对话、文件读取展开三种来源。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第043、061、063页"
+        }
+      ],
+      "start_seconds": 740,
+      "end_seconds": 765
+    },
+    {
+      "page": 11,
+      "renderer": 9,
+      "source_plan_page": 9,
+      "section": "上下文",
+      "type": "content",
+      "title": "同一材料，可以完成不同任务",
+      "seconds": 70,
+      "on_slide": [
+        "评论：菜品不错，但上菜很慢。",
+        "任务一：翻译成英文。任务二：判断情感。",
+        "评论不变，改变的是任务要求。"
+      ],
+      "talk": "先显示共同材料，再分别展示翻译和情感判断。任务要求决定如何处理同一份材料。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第043页：同一段材料，不同的任务"
+        }
+      ],
+      "start_seconds": 765,
+      "end_seconds": 835
+    },
+    {
+      "page": 12,
+      "renderer": 10,
+      "source_plan_page": 10,
+      "section": "上下文",
+      "type": "content",
+      "title": "“人数改成36人”还缺什么？",
+      "seconds": 110,
+      "on_slide": [
+        "相关历史，需要由应用整理进这一次的输入。",
+        "已有条件：30人、材料10元/人、茶点12元/人、预算800元。",
+        "最新修改：人数改成36人。",
+        "36 × (10＋12) ＝ 792元；800－792＝8元。"
+      ],
+      "talk": "依次合并原条件与人数修改。只有最新一句不足以计算，保留费用和预算才能得出合计与余额。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第061页：多轮对话怎样继续"
+        }
+      ],
+      "start_seconds": 835,
+      "end_seconds": 945
+    },
+    {
+      "page": 13,
+      "renderer": 11,
+      "source_plan_page": 11,
+      "section": "上下文",
+      "type": "content",
+      "title": "文件存在，与模型这次读到，是两件事",
+      "seconds": 100,
+      "on_slide": [
+        "当前上下文，就是这次实际提供给模型的内容。",
+        "外部文件 → 读取相关内容 → 本次输入 → 模型。",
+        "读取一份材料，改变的是本次输入；模型参数是另一个位置。"
+      ],
+      "talk": "说明文件、当前输入和模型参数三个位置。外部记录通过读取进入输入，模型据此生成；输入改变与参数更新分别理解。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第063页：模型参数、当前上下文与应用记忆"
+        }
+      ],
+      "start_seconds": 945,
+      "end_seconds": 1045
+    },
+    {
+      "page": 14,
+      "renderer": 104,
+      "source_plan_page": null,
+      "section": "上下文",
+      "type": "summary",
+      "title": "上下文小结：任务、历史与材料",
+      "seconds": 25,
+      "on_slide": [
+        "任务给出目标：同一条评论可用于翻译或情感判断。",
+        "历史保留条件：人数修改与费用、预算共同参与计算。",
+        "文件经读取加入：外部记录中的相关内容进入本次输入。"
+      ],
+      "talk": "回收三种来源。上下文是本次实际提供的内容；接下来检查生成的结论是否获得这些材料支持。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第043、061、063页"
+        }
+      ],
+      "start_seconds": 1045,
+      "end_seconds": 1070
+    },
+    {
+      "page": 15,
+      "renderer": 105,
+      "source_plan_page": null,
+      "section": "事实依据",
+      "type": "overview",
+      "title": "事实依据：生成倾向与结论支持",
+      "seconds": 25,
+      "on_slide": [
+        "先理解概率：它描述模型怎样接着写。",
+        "再核对材料：数字、对象、含义与范围支持哪些结论。"
+      ],
+      "talk": "先解释概率含义，再用访谈摘要检查材料到结论的对应关系，讲清生成过程与事实判断各自需要的依据。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第038、023页"
+        }
+      ],
+      "start_seconds": 1070,
+      "end_seconds": 1095
+    },
+    {
+      "page": 16,
+      "renderer": 8,
+      "source_plan_page": 8,
+      "section": "事实依据",
+      "type": "content",
+      "title": "生成概率与事实依据",
+      "seconds": 80,
+      "on_slide": [
+        "“好”的生成概率，描述当前输入条件下模型怎样接着写。",
+        "70%不是这家餐厅有70%的概率味道好。",
+        "现实评价需要评论、记录或其他依据。"
+      ],
+      "talk": "区分候选生成概率与现实判断的证据。查验事实需要追踪评价对象、时间、记录内容和材料支持的结论。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第038页：Token的生成概率不是这句话为真的概率"
+        }
+      ],
+      "start_seconds": 1095,
+      "end_seconds": 1175
+    },
+    {
+      "page": 17,
+      "renderer": 12,
+      "source_plan_page": 12,
+      "section": "事实依据",
+      "type": "case",
+      "title": "数字算对，结论也可能不对",
+      "seconds": 150,
+      "on_slide": [
+        "访谈20位同学，其中12位愿意试用，占60%。",
+        "没有询问价格或付费意愿。",
+        "“60%的大学生愿意付费”改变了对象和含义。",
+        "可支持的结论：20位受访同学中，12位愿意试用，占60%。"
+      ],
+      "talk": "先确认12除以20，再逐项揭示对象扩大与含义变化。摘要需要保留材料支持的对象、范围和意愿类型。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第023页：幻觉"
+        }
+      ],
+      "start_seconds": 1175,
+      "end_seconds": 1325
+    },
+    {
+      "page": 18,
+      "renderer": 106,
+      "source_plan_page": null,
+      "section": "事实依据",
+      "type": "summary",
+      "title": "事实依据小结：计算、对象与含义",
+      "seconds": 25,
+      "on_slide": [
+        "计算：12 ÷ 20 ＝ 60%。",
+        "对象：20位受访同学。",
+        "含义：愿意试用。",
+        "20位受访同学中，12位愿意试用，占60%。"
+      ],
+      "talk": "将计算、对象范围、意愿含义合在一起，形成材料支持的结论。再回收生成倾向与事实依据的区别。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第023页"
+        }
+      ],
+      "start_seconds": 1325,
+      "end_seconds": 1350
+    },
+    {
+      "page": 19,
+      "renderer": 13,
+      "source_plan_page": 13,
+      "section": "LLM基础总结",
+      "type": "summary",
+      "title": "LLM基础小结：生成、上下文与事实依据",
+      "seconds": 150,
+      "on_slide": [
+        "生成：根据完整前文，预测、选择并追加Token。",
+        "上下文：把任务、材料与相关历史组织进本次输入。",
+        "事实依据：回到材料，核对数字、对象、含义与范围。"
+      ],
+      "talk": "回扣开头的三部分：回答如何形成，本次参考什么，结论怎样核对。接下来通过Prompting交代任务、组织材料并提出检查要求。",
+      "sources": [
+        {
+          "id": "L1",
+          "locator": "v09第023、043、061页"
+        },
+        {
+          "id": "PLAN",
+          "locator": "LLM入门基础"
+        }
+      ],
+      "start_seconds": 1350,
+      "end_seconds": 1500
+    },
+    {
+      "page": 20,
+      "renderer": 20,
+      "source_plan_page": 14,
+      "section": "Prompting",
+      "type": "agenda",
+      "title": "本讲内容",
+      "seconds": 15,
+      "on_slide": [
+        "1. LLM基础：生成机制、上下文与事实依据。",
+        "2. Prompting：交代任务、组织材料、反馈与检查。",
+        "3. Agents：Externalization & Internalization；工具调用、Memory、Skills、Harness与整合。"
+      ],
+      "talk": "转入Prompting，承接上一章本次输入的作用。Agents部分仍由Externalization与Internalization统领。",
+      "sources": [
+        {
+          "id": "PLAN",
+          "locator": "Prompting核心技巧与全讲层级"
+        }
+      ],
+      "start_seconds": 1500,
+      "end_seconds": 1515
+    },
+    {
+      "page": 21,
+      "renderer": 21,
+      "source_plan_page": 15,
+      "section": "Prompting",
+      "type": "overview",
+      "title": "Prompting：从交代任务到反馈检查",
+      "seconds": 45,
+      "on_slide": [
+        "交代任务 → 补齐信息 → 形成方案 → 反馈检查。",
+        "交代：用途、对象、目标与参考样例。",
+        "补齐信息：先澄清关键缺口，再核查事实依据。",
+        "形成方案：先比较不同方案，再验证关键假设。",
+        "反馈检查：具体反馈、改Prompt、代表性任务检查。",
+        "把有效反馈写回下一次输入。"
+      ],
+      "talk": "先展示四个环节及反馈回路，再交代六个方法各自的位置。材料已有时可直接核查，信息不足时先澄清；需要选择时再比较与验证。",
+      "sources": [
+        {
+          "id": "PLAN",
+          "locator": "Prompting核心技巧与全讲层级"
+        }
+      ],
+      "start_seconds": 1515,
+      "end_seconds": 1560
+    },
+    {
+      "page": 22,
+      "renderer": 22,
+      "source_plan_page": 15,
+      "section": "Prompting·任务交代",
+      "type": "overview",
+      "title": "把用途、需求与条件写进任务",
+      "seconds": 35,
+      "on_slide": [
+        "先明确用途，再用四件套写清需求，最后检查必要条件。",
+        "用途决定结果给谁看、要帮助对方理解什么。",
+        "四件套组织视角、背景、目标与样本；材料、定义和交付要求形成完成条件。"
+      ],
+      "talk": "用一张关系图说明任务交代的三个部分。屏幕对应用途，带四行文字的任务稿对应四件套，核对点对应必要条件。三项汇入完整Prompt，后面按这一顺序展开。",
+      "sources": [
+        {
+          "id": "L2",
+          "locator": "v09第004、007–013页"
+        },
+        {
+          "id": "TEACHER",
+          "locator": "第1、2项"
+        }
+      ],
+      "start_seconds": 1560,
+      "end_seconds": 1595
+    },
+    {
+      "page": 23,
+      "renderer": 23,
+      "source_plan_page": 16,
+      "section": "Prompting·任务交代",
+      "type": "content",
+      "title": "Prompt要说明结果拿来做什么",
+      "seconds": 115,
+      "on_slide": [
+        "“分析一下这份经营资料”还没有说明结果拿来做什么。",
+        "为没有读过材料的同事准备5分钟汇报，解释收入、毛利率和简化利润的变化；每个判断指出依据。",
+        "先给提纲，再根据反馈写讲稿。",
+        "用途决定选什么、讲多深、交付什么。"
+      ],
+      "talk": "先看完整报表，再补听众、时长、问题与交付顺序。简化利润保留给定公式。此页重点是任务用途怎样筛选材料和输出，计算细节供材料阅读层核对。",
+      "sources": [
+        {
+          "id": "L2",
+          "locator": "v09第005–006、008–009页"
+        }
+      ],
+      "start_seconds": 1595,
+      "end_seconds": 1710
+    },
+    {
+      "page": 24,
+      "renderer": 24,
+      "source_plan_page": 17,
+      "section": "Prompting·任务交代",
+      "type": "content",
+      "title": "四件套：视角、背景、目标与样本",
+      "seconds": 130,
+      "on_slide": [
+        "Who you are：模型采用的视角。",
+        "Who I am：使用者、听众与背景。",
+        "Objective：目标与理想结果。",
+        "Example：可参照的表达样本。"
+      ],
+      "talk": "四个名称逐条连接到同一份Prompt。角色句落实为给初学者解释报表；听众与时间限定详略；目标说明要理解主要变化；例子明确表达顺序。解释每一项补充了什么生成条件。",
+      "sources": [
+        {
+          "id": "TEACHER",
+          "locator": "第1项：四件套公式"
+        },
+        {
+          "id": "L2",
+          "locator": "v09第007–010、013页"
+        }
+      ],
+      "start_seconds": 1710,
+      "end_seconds": 1840
+    },
+    {
+      "page": 25,
+      "renderer": 25,
+      "source_plan_page": 18,
+      "section": "Prompting·任务交代",
+      "type": "content",
+      "title": "给例子：参考结构，依据材料写事实",
+      "seconds": 120,
+      "on_slide": [
+        "收入1,000→1,200万元，增长20%。",
+        "参考“报告数字→说明变化→解释含义”的结构。",
+        "简化利润80→60万元，下降25%；变化方向要重新确定。"
+      ],
+      "talk": "上下两组柱形图分别显示收入增加和简化利润下降。先保留样例句法，再检查换指标后的方向，最后给出（60−80）÷80＝−25%。回退可以再次显示错误的“增长25%”，便于讲解。",
+      "sources": [
+        {
+          "id": "L2",
+          "locator": "v09第010页"
+        }
+      ],
+      "start_seconds": 1840,
+      "end_seconds": 1960
+    },
+    {
+      "page": 26,
+      "renderer": 26,
+      "source_plan_page": 19,
+      "section": "Prompting·任务交代",
+      "type": "content",
+      "title": "必要条件写清，解决办法留空间",
+      "seconds": 100,
+      "on_slide": [
+        "保留两年数字、单位和材料范围。",
+        "明确指标定义，主要判断对应表格或段落。",
+        "先确认提纲，再写讲稿。",
+        "额外步骤是否服务任务，应逐项判断。"
+      ],
+      "talk": "先展示必须保留的要求，再对照五句公司介绍、每个数字三个原因、固定五段总结三种机械规定。划线定位要审查的指令。最后回到材料、定义、依据和交付，不将Prompt长短当作质量标准。",
+      "sources": [
+        {
+          "id": "TEACHER",
+          "locator": "第2项：不要过度干预解决步骤"
+        },
+        {
+          "id": "L2",
+          "locator": "v09第011–012页"
+        }
+      ],
+      "start_seconds": 1960,
+      "end_seconds": 2060
+    },
+    {
+      "page": 27,
+      "renderer": 27,
+      "source_plan_page": 19,
+      "section": "Prompting·任务交代",
+      "type": "summary",
+      "title": "任务交代小结：让结果有明确参照",
+      "seconds": 40,
+      "on_slide": [
+        "用途：5分钟汇报，听众没有读过材料。",
+        "四件套：财务分析视角、背景、解释目标与数字表达样本。",
+        "必要条件：数字依据、指标定义与先提纲再讲稿。"
+      ],
+      "talk": "回到任务交代总览中的相同对象。逐项填入刚才案例的具体内容，归纳用途、需求、完成条件怎样合成完整任务说明。",
+      "sources": [
+        {
+          "id": "L2",
+          "locator": "v09第004–013页"
+        },
+        {
+          "id": "TEACHER",
+          "locator": "第1、2项"
+        }
+      ],
+      "start_seconds": 2060,
+      "end_seconds": 2100
+    },
+    {
+      "page": 28,
+      "renderer": 28,
+      "source_plan_page": 20,
+      "section": "Prompting·澄清关键问题",
+      "type": "overview",
+      "title": "澄清：从已有信息找到关键缺口",
+      "seconds": 35,
+      "on_slide": [
+        "先区分事实、解释与目标，再找需要补充的信息。",
+        "只问会改变结论的问题，信息足够就继续任务。"
+      ],
+      "talk": "先展示完整关系，说明这一节看两件事：把已有信息分清，再用有针对性的追问补齐交付条件。沿图把新增信息送回任务。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第2–3页：苏格拉底式提问"
+        }
+      ],
+      "start_seconds": 2100,
+      "end_seconds": 2135
+    },
+    {
+      "page": 29,
+      "renderer": 29,
+      "source_plan_page": 20,
+      "section": "Prompting·澄清关键问题",
+      "type": "content",
+      "title": "先分清事实、解释与目标",
+      "seconds": 80,
+      "on_slide": [
+        "20位受访同学中，12位表示愿意试用。",
+        "“大家会买”需要付费资料支持。",
+        "目标是判断是否值得继续验证产品需求。",
+        "只问可能改变判断的问题。"
+      ],
+      "talk": "从访谈原句出发，依次区分已经取得的事实、对事实的解释，以及这次希望解决的问题。把追问收敛到实际使用与付费反应。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第2–3页：苏格拉底式提问"
+        },
+        {
+          "id": "L1",
+          "locator": "v09第023页：20位同学访谈"
+        }
+      ],
+      "start_seconds": 2135,
+      "end_seconds": 2215
+    },
+    {
+      "page": 30,
+      "renderer": 30,
+      "source_plan_page": 21,
+      "section": "Prompting·澄清关键问题",
+      "type": "content",
+      "title": "只追问会改变交付的问题",
+      "seconds": 120,
+      "on_slide": [
+        "提纲是供自己准备，还是直接上屏？",
+        "台上可以展示一张表；只保留必要计算。",
+        "用途决定详略，展示条件决定数字怎样呈现。"
+      ],
+      "talk": "按三轮对话揭示内容，再把回答连接到准备提纲与上屏表格两个具体产物。已有的5分钟要求、听众与两年材料继续使用，提纲用途与展示方式补齐后即可推进。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第2–3页：苏格拉底式提问"
+        },
+        {
+          "id": "L2",
+          "locator": "v09第016页：三轮澄清对话；第005页经营数据"
+        }
+      ],
+      "start_seconds": 2215,
+      "end_seconds": 2335
+    },
+    {
+      "page": 31,
+      "renderer": 31,
+      "source_plan_page": 21,
+      "section": "Prompting·澄清关键问题",
+      "type": "summary",
+      "title": "澄清小结：让新信息改变下一步",
+      "seconds": 35,
+      "on_slide": [
+        "已有信息直接使用。",
+        "追问集中在影响结果的缺口。",
+        "信息足够后，把答案落实到内容与形式。"
+      ],
+      "talk": "回到章首同一关系图，用提纲用途例归纳信息怎样流动：先用已有信息，补影响结果的一处缺口，再落实为交付。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第2–3页：苏格拉底式提问"
+        },
+        {
+          "id": "L2",
+          "locator": "v09第016页：用途与呈现方式"
+        }
+      ],
+      "start_seconds": 2335,
+      "end_seconds": 2370
+    },
+    {
+      "page": 32,
+      "renderer": 32,
+      "source_plan_page": 22,
+      "section": "Prompting·核查事实与结论",
+      "type": "overview",
+      "title": "核查：让说法连回材料与条件",
+      "seconds": 35,
+      "on_slide": [
+        "拆开说法，逐项核查，再调整结论。",
+        "先核对事实，再检查推理，最后确定结论范围。"
+      ],
+      "talk": "完整显示说法、核查与结论的关系。内部依次看材料、推理、范围，随后用访谈和经营材料展开。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第6–7页：事实核查"
+        }
+      ],
+      "start_seconds": 2370,
+      "end_seconds": 2405
+    },
+    {
+      "page": 33,
+      "renderer": 33,
+      "source_plan_page": 22,
+      "section": "Prompting·核查事实与结论",
+      "type": "content",
+      "title": "事实核查：逐条记录依据与范围",
+      "seconds": 100,
+      "on_slide": [
+        "12位愿意试用，对应访谈原句。",
+        "60%对应12÷20，仅限20位受访者。",
+        "付费意愿需要相应资料支持。"
+      ],
+      "talk": "按行展开核对记录，把原句、计算与付费判断分别对应到材料。让核查动作可以回查；计算正确与结论含义正确分别核对。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第6–7页：事实核查"
+        },
+        {
+          "id": "L1",
+          "locator": "v09第023页：访谈与错误摘要"
+        }
+      ],
+      "start_seconds": 2405,
+      "end_seconds": 2505
+    },
+    {
+      "page": 34,
+      "renderer": 34,
+      "source_plan_page": 23,
+      "section": "Prompting·核查事实与结论",
+      "type": "content",
+      "title": "来源存在，还要检查结论范围",
+      "seconds": 130,
+      "on_slide": [
+        "费用表单位：万元。",
+        "费用合计增加120万元，可以从表格复算。",
+        "费用增长与扩店相关，对应经营段落。",
+        "分店盈亏需要分店收入与成本。",
+        "下一年利润判断需要后续年度资料。"
+      ],
+      "talk": "从青禾食品表格和经营段落出发，按四项判断说明依据。前两项回到已有材料，后两项连接到需要补充的资料。保留费用关联的解释范围。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第6–7页：事实核查"
+        },
+        {
+          "id": "L2",
+          "locator": "v09第019页：有出处还要看出处支持什么"
+        }
+      ],
+      "start_seconds": 2505,
+      "end_seconds": 2635
+    },
+    {
+      "page": 35,
+      "renderer": 35,
+      "source_plan_page": 23,
+      "section": "Prompting·核查事实与结论",
+      "type": "summary",
+      "title": "核查小结：事实、推理与范围对应",
+      "seconds": 35,
+      "on_slide": [
+        "事实对应材料。",
+        "推理连接事实与结论。",
+        "范围明确对象与条件。",
+        "需要补充的资料进入下一步。"
+      ],
+      "talk": "回到核查关系图，归纳判断怎样连接来源、计算与适用范围。得到支持的部分保留，需要材料的部分明确下一步，再进入方案比较。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第6–7页：事实核查"
+        },
+        {
+          "id": "L1",
+          "locator": "v09第023页"
+        },
+        {
+          "id": "L2",
+          "locator": "v09第019页"
+        }
+      ],
+      "start_seconds": 2635,
+      "end_seconds": 2670
+    },
+    {
+      "page": 36,
+      "renderer": 36,
+      "source_plan_page": 24,
+      "section": "Prompting·比较选择",
+      "type": "overview",
+      "title": "比较选择：先把两边说充分",
+      "seconds": 30,
+      "on_slide": [
+        "共同目标：决定应用下一步怎样推进。",
+        "先展开两个方向的理由与成立条件，再按共同维度比较，最后找出关键变量。",
+        "“请分别给出两方最有力的理由、条件与风险，再找出关键变量。”"
+      ],
+      "talk": "先把本节的关系图讲清。我们先给两种方向各自最有力的理由，再把理由与成立条件连起来。随后用同一维度比较信息、条件、收益和风险，最后找出最可能改变选择的变量。共同目标始终是决定应用下一步怎样推进。最后呈现短Prompt，把图里的步骤写成输入要求。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第9–10页：双向钢人论证"
+        },
+        {
+          "id": "L1",
+          "locator": "v09第023页：20位受访者中12位愿意试用"
+        }
+      ],
+      "start_seconds": 2670,
+      "end_seconds": 2700
+    },
+    {
+      "page": 37,
+      "renderer": 37,
+      "source_plan_page": 24,
+      "section": "Prompting·比较选择",
+      "type": "content",
+      "title": "双向钢人：理由要连上成立条件",
+      "seconds": 120,
+      "on_slide": [
+        "20位受访者中，12位愿意试用。",
+        "先验证实际试用，可以观察实际使用和放弃位置；需要可用原型和过程记录。",
+        "准备收费推广，可以更早接触付费反馈；需要可交付产品，并能承担投入。"
+      ],
+      "talk": "先呈现访谈材料和两种行动对象。推进一步，讲清先验证实际试用的有力理由：从口头意愿走向实际使用，找出人从哪里开始、在哪里放弃。这个方向成立需要原型可用和记录过程的能力。再推进一步，讲清准备收费推广的有力理由：更早接触对价格和交付的反馈；其成立需要产品可交付并能承担相应投入。两边都先讲充分，下一页再比较。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第9–10页：双向钢人论证"
+        },
+        {
+          "id": "L1",
+          "locator": "v09第023页：20位受访者中12位愿意试用"
+        }
+      ],
+      "start_seconds": 2700,
+      "end_seconds": 2820
+    },
+    {
+      "page": 38,
+      "renderer": 38,
+      "source_plan_page": 25,
+      "section": "Prompting·比较选择",
+      "type": "content",
+      "title": "用同一组维度比较两种行动",
+      "seconds": 110,
+      "on_slide": [
+        "获得什么信息：实际使用与放弃位置；对价格和交付的反馈。",
+        "需要什么条件：可用原型和记录；可交付产品和可承担投入。",
+        "承担什么风险：推迟接触付费反馈；需求尚未明确就增加投入。",
+        "关键问题：当前最需要了解实际使用，还是付费反应？"
+      ],
+      "talk": "对照表逐行展开。第一行比较获得的信息，第二行比较行动条件，第三行比较风险。相同维度能让双方的理由相互对应。最后回到会改变选择的变量：原型是否可以交付、准备和推广投入是否可以承担，以及当前最缺的是哪类信息。在当前比较里，把关键追问落到实际使用与付费反应的优先次序。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第9–10页：双向钢人论证"
+        },
+        {
+          "id": "L1",
+          "locator": "v09第023页：20位受访者中12位愿意试用"
+        }
+      ],
+      "start_seconds": 2820,
+      "end_seconds": 2930
+    },
+    {
+      "page": 39,
+      "renderer": 39,
+      "source_plan_page": 25,
+      "section": "Prompting·比较选择",
+      "type": "summary",
+      "title": "比较选择小结：留下有条件的判断",
+      "seconds": 40,
+      "on_slide": [
+        "分别给出两个方向最有力的理由。",
+        "用共同维度比较理由成立的条件、收益和风险。",
+        "找出会改变选择的变量，并补齐决定性信息。"
+      ],
+      "talk": "回到本节开头的关系图。先把两个方向论证充分，接着按同一维度检查条件与风险，最后明确会改变选择的变量。比较应留下有条件的判断以及下一步要补的信息。接下来把需要从现实取得的信息变成可观察的行动。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第9–10页：双向钢人论证"
+        },
+        {
+          "id": "L1",
+          "locator": "v09第023页：20位受访者中12位愿意试用"
+        }
+      ],
+      "start_seconds": 2930,
+      "end_seconds": 2970
+    },
+    {
+      "page": 40,
+      "renderer": 40,
+      "source_plan_page": 26,
+      "section": "Prompting·验证假设",
+      "type": "overview",
+      "title": "验证假设：让行动带回新信息",
+      "seconds": 30,
+      "on_slide": [
+        "先选最可能改变决定的假设。",
+        "限定投入与周期，设计可逆的小范围行动。",
+        "把观察记录连向继续、调整或停止条件。",
+        "“请设计一次最小验证，写清投入、周期、观察指标和决策条件。”"
+      ],
+      "talk": "本节先用一张关系图说明验证怎样支持判断。关键假设决定需要观察什么，限定行动负责产生记录，记录进入事先写清的判断条件，再把新信息带回原来的选择。投入、周期和决策条件在行动前写清。最后呈现短Prompt，将假设、行动与判断条件写成输入要求。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第10页：用最小实验替代空想"
+        },
+        {
+          "id": "L1",
+          "locator": "v09第023页：20位受访者中12位愿意试用"
+        }
+      ],
+      "start_seconds": 2970,
+      "end_seconds": 3000
+    },
+    {
+      "page": 41,
+      "renderer": 41,
+      "source_plan_page": 26,
+      "section": "Prompting·验证假设",
+      "type": "content",
+      "title": "从试用意愿走向实际使用",
+      "seconds": 120,
+      "on_slide": [
+        "关键假设：愿意试用的人会实际开始使用。",
+        "行动前写清投入、周期和决策条件。",
+        "提供可用原型，记录受邀、是否开始使用、放弃位置。",
+        "按预期开始则继续观察，步骤受阻则调整流程，触及投入上限则停止。",
+        "付费反应围绕价格与交付另设观察。"
+      ],
+      "talk": "沿用20位受访者中12位愿意试用的材料，锁定“愿意试用的人会实际开始使用”这一假设。先限定时间资源和周期，再向愿意试用者提供可用原型。逐人记录受邀、是否开始以及放弃位置。记录表与关键假设直接相连，能看出从意愿走向行动时发生了什么。判断条件提前写清：按预期开始使用则继续观察；步骤受阻则调整流程；触及投入上限则停止。付费反应需要围绕价格和交付另设观察。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第10页：用最小实验替代空想"
+        },
+        {
+          "id": "L1",
+          "locator": "v09第023页：20位受访者中12位愿意试用"
+        }
+      ],
+      "start_seconds": 3000,
+      "end_seconds": 3120
+    },
+    {
+      "page": 42,
+      "renderer": 42,
+      "source_plan_page": 26,
+      "section": "Prompting·验证假设",
+      "type": "summary",
+      "title": "验证假设小结：用记录更新判断",
+      "seconds": 30,
+      "on_slide": [
+        "假设决定看什么。",
+        "记录提供新信息。",
+        "事先约定的条件决定继续、调整或停止。",
+        "把新信息带回原来的选择。"
+      ],
+      "talk": "回到本节开头的关系图。选择关键假设，限定投入周期，提供能够观察的行动，留下记录，再按事先约定的条件作下一步判断。验证的目的，是取得能改变决定的新信息。接下来回到Prompt本身，说明如何用具体反馈改进输出并再次检查。",
+      "sources": [
+        {
+          "id": "PROMPT_PDF",
+          "locator": "第10页：用最小实验替代空想"
+        },
+        {
+          "id": "L1",
+          "locator": "v09第023页：20位受访者中12位愿意试用"
+        }
+      ],
+      "start_seconds": 3120,
+      "end_seconds": 3150
+    },
+    {
+      "page": 43,
+      "renderer": 43,
+      "source_plan_page": 27,
+      "section": "Prompting·反馈与检查",
+      "type": "overview",
+      "title": "反馈与检查：从具体问题改进Prompt",
+      "seconds": 35,
+      "on_slide": [
+        "具体反馈：定位问题、保留内容、修改内容。",
+        "把有效反馈写回Prompt，保留原任务与听众，形成完整改稿。",
+        "用材料完整、缺关键数据、换对象三类输入检查，发现问题后继续修改。"
+      ],
+      "talk": "用回答稿、批注后的Prompt和三种材料表现反馈循环。先区分改这次回答与改可复用要求，然后说明检查为什么需要不同输入。",
+      "sources": [
+        {
+          "id": "L2",
+          "locator": "v09第015、017–018、025–026、030–032页"
+        },
+        {
+          "id": "TEACHER",
+          "locator": "第3、5项"
+        }
+      ],
+      "start_seconds": 3150,
+      "end_seconds": 3185
+    },
+    {
+      "page": 44,
+      "renderer": 44,
+      "source_plan_page": 27,
+      "section": "Prompting·反馈与检查",
+      "type": "content",
+      "title": "把具体反馈写回Prompt",
+      "seconds": 110,
+      "on_slide": [
+        "请critique、review、improve，保留任务、听众与5分钟时长。",
+        "反馈要具体：保留两年数字，把变化关系讲清楚。",
+        "新增毛利100万元，新增费用120万元，简化利润减少20万元。",
+        "把有效要求写入完整改稿：数字注明表格，解释注明段落。"
+      ],
+      "talk": "先看概括句“费用上升，所以利润下降”，说明如何保留数字、补充数量关系。两条同一比例的条形图分别显示新增毛利100和新增费用120；费用比毛利多20，简化利润因此减少20。然后把已明确的反馈写成以后可复用的要求。改Prompt时附上初稿与目标模型，要求解释修改理由并给完整改稿。",
+      "sources": [
+        {
+          "id": "L2",
+          "locator": "v09第017–018、026、030–031页"
+        },
+        {
+          "id": "TEACHER",
+          "locator": "第3项：让LLM自己改prompt"
+        }
+      ],
+      "start_seconds": 3185,
+      "end_seconds": 3295
+    },
+    {
+      "page": 45,
+      "renderer": 45,
+      "source_plan_page": 28,
+      "section": "Prompting·反馈与检查",
+      "type": "content",
+      "title": "重试、改要求和补材料各解决什么",
+      "seconds": 90,
+      "on_slide": [
+        "表达不够自然：保持Prompt与材料，比较另一候选。",
+        "总是删掉限制：补充保留范围和限制的要求。",
+        "缺少事实：补充问题所需的数据和原文。",
+        "聊天中的“再来一版”会连同上一版回答与新要求进入输入。"
+      ],
+      "talk": "沿用两家企业远程办公问卷的短文。解释相同输入重试与改变输入的差别；选择表达时检查范围、相关关系和因果限制。“证明能提升”改变了原意，需要具体修改，而不是只选更顺口的句子。",
+      "sources": [
+        {
+          "id": "L2",
+          "locator": "v09第020–022页"
+        },
+        {
+          "id": "TEACHER",
+          "locator": "第4项：理解prompt的原理"
+        }
+      ],
+      "start_seconds": 3295,
+      "end_seconds": 3385
+    },
+    {
+      "page": 46,
+      "renderer": 46,
+      "source_plan_page": 29,
+      "section": "Prompting·反馈与检查",
+      "type": "content",
+      "title": "用代表性输入检查Prompt",
+      "seconds": 100,
+      "on_slide": [
+        "Eval使用代表性输入与明确核对依据。",
+        "材料完整、缺少关键数据、换对象三种输入，分别送入修改前后Prompt。",
+        "按同一依据检查计算、范围、缺失处理与交付。"
+      ],
+      "talk": "这里讲系统结果验收。三份材料来自原课程案例底稿。完整材料毛利率20%到25%；缺2024成本时先说明缺项并保留2025可计算结果；另一对象30%到20%。先确定核对依据，再比较两个Prompt的实际回答。领域知识和任务相关性决定检查项是否有用。",
+      "sources": [
+        {
+          "id": "TEACHER",
+          "locator": "第5项：用eval优化prompt"
+        },
+        {
+          "id": "L2",
+          "locator": "v09第032页；案例底稿.md，T01、T04、T07"
+        }
+      ],
+      "start_seconds": 3385,
+      "end_seconds": 3485
+    },
+    {
+      "page": 47,
+      "renderer": 47,
+      "source_plan_page": 29,
+      "section": "Prompting·反馈与检查",
+      "type": "summary",
+      "title": "反馈检查小结：留下有效要求",
+      "seconds": 40,
+      "on_slide": [
+        "具体反馈保留两年数字、补足变化关系、指出修改位置。",
+        "有效要求写回Prompt：依据、范围与缺项处理。",
+        "检查不同材料上的结果，发现问题再修改。"
+      ],
+      "talk": "回到本节总览的相同循环。收束为当前回答的问题怎样成为后续输入的一部分，以及换材料后怎样判断这些要求仍然有效。",
+      "sources": [
+        {
+          "id": "L2",
+          "locator": "v09第015–032页"
+        },
+        {
+          "id": "TEACHER",
+          "locator": "第3–5项"
+        }
+      ],
+      "start_seconds": 3485,
+      "end_seconds": 3525
+    },
+    {
+      "page": 48,
+      "renderer": 48,
+      "source_plan_page": 30,
+      "section": "Prompting",
+      "type": "summary",
+      "title": "Prompting小结：从交代任务到反馈检查",
+      "seconds": 45,
+      "on_slide": [
+        "交代任务：让谁用、用来做什么、交付怎样的结果。",
+        "补齐信息：澄清会改变结论的点，核对材料支持的范围。",
+        "形成方案：在共同维度下比较，优先验证关键假设。",
+        "反馈检查：指出具体修改位置，用代表性输入检查。",
+        "把有效反馈写回下一次输入。"
+      ],
+      "talk": "沿章首同一幅关系图回看六个方法。财务任务说明用途与受众，访谈材料说明核查范围，方案选择说明关键条件与验证，反馈则进入可复用的Prompt。",
+      "sources": [
+        {
+          "id": "PLAN",
+          "locator": "Prompting核心技巧与全讲层级"
+        }
+      ],
+      "start_seconds": 3525,
+      "end_seconds": 3570
+    },
+    {
+      "page": 49,
+      "renderer": 49,
+      "source_plan_page": 31,
+      "section": "Prompting",
+      "type": "bridge",
+      "title": "从Prompting走向Agent",
+      "seconds": 30,
+      "on_slide": [
+        "任务：读取经营资料，整理关键数字，解释利润变化。",
+        "模型提出工具调用；工具读取文件；材料与结果进入下一次输入。",
+        "Prompting组织每次输入；Harness组织整个执行过程。"
+      ],
+      "talk": "从写清任务推进到谁执行操作、如何取得结果，以及结果怎样成为下一步的输入。下一部分进入Agent与工具调用。",
+      "sources": [
+        {
+          "id": "PLAN",
+          "locator": "Prompting核心技巧与全讲层级"
+        }
+      ],
+      "start_seconds": 3570,
+      "end_seconds": 3600
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Rewrite this notice in one short formal sentence: Today’s lecture is cancelled.<|im_end|>
+<|im_start|>assistant

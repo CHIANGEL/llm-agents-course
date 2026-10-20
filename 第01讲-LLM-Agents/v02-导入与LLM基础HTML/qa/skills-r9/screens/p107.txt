@@ -1,0 +1,59 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=107&s=1".
+0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=107&s=1
+	1 container
+		47 container Description: 第107页 一、完整的技能包：先看方法怎样落在文件中, ID: mount
+			48 container 第107页 一、完整的技能包：先看方法怎样落在文件中
+				49 heading 一、完整的技能包：先看方法怎样落在文件中, Value: 1
+					50 text 一、完整的技能包：先看方法怎样落在文件中
+				51 container 课件内容
+					52 container
+						53 text 已结束：Skills的定位　→　 接下来：完整技能包 用jupyter-notebook包看清：入口、具体做法和生成文件怎样连接。 Jupyter Notebook是什么？
+						54 content list
+							55 container
+								56 AXListMarker • 
+								57 text 一份同时容纳说明文字与代码的文件。
+							58 container
+								59 AXListMarker • 
+								60 text 可按单元逐段阅读和运行，保存结果。
+							61 container
+								62 AXListMarker • 
+								63 text 这个Skill支持实验分析与教学教程。
+						64 heading Jupyter Notebook · .ipynb, Value: 3
+							65 text Jupyter Notebook · .ipynb
+						66 text 说明单元：这一步要做什么？
+						67 text 代码单元：完成这一小步的计算
+						68 text 输出区域：展示运行结果
+						69 image Jupyter图标
+						70 text 入口说明　→　参考方法　＋　生成脚本　＋　Notebook模板 先打开完整包，看清每个部分的作用；随后再观察模型实际读取了哪些文件。
+				71 container 课程进度
+					72 button 导入
+					73 button 1. LLM基础
+					74 button 2. Prompting
+					75 button 3. Agents · Externalization & Internalization
+						76 text 3. Agents 
+						77 text · Externalization & Internalization
+					78 button 3.0 外化与内化总览
+					79 button 3.1 工具调用
+					80 button 3.2 Memory
+					81 button 3.3 Skills
+					82 button 3.4 Harness
+					83 button 3.5 外化与内化整合
+					84 button 3.6 全讲总结
+		32 container Description: 课件操作, ID: controls
+			33 button Description: 上一步, Help: 上一步（←）
+			34 button Description: 下一步, Help: 下一步（→或空格）
+			35 container jump-form
+				36 text 页码
+				37 stepper (settable, integer) Description: 页码, Value: 107, ID: page-input
+				38 text / 161
+			85 text 整页显示
+			40 button 目录
+			41 button 讲者备注
+			42 button 完整材料
+			43 button 放大图解
+			44 button 全屏
+			45 button 隐藏, Help: 按H恢复
+			46 button 操作说明
+		86 text 第107页，一、完整的技能包：先看方法怎样落在文件中，整页显示
+
+The focused UI element is 47 container Description: 第107页 一、完整的技能包：先看方法怎样落在文件中, ID: mount

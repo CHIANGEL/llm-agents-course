@@ -1,0 +1,50 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-final#p=152&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-final#p=152&s=1
+	2 container
+		53 container 第152页 材料进入输入，调用到达工具
+			54 heading 材料进入输入，调用到达工具, Value: 1
+				55 text 材料进入输入，调用到达工具
+			56 container 课件内容
+				57 container
+					58 text 准备输入与连接工具，在一次任务中各有位置。 当前要求
+					59 text 工作摘要
+					60 text 必要原文 应用组织
+					61 image
+					62 image
+					63 text 模型判断
+					64 image
+					65 image
+					66 text MCP 客户端 ↔ 服务端 ① 材料进入本次输入 ② 调用经连接到达工具 ③ 工具返回新材料，应用将它接入下一次模型输入。
+			67 container 课程进度
+				68 button 导入
+				69 button 1. LLM基础
+				70 button 2. Prompting
+				71 button 3. Agents · Externalization & Internalization
+					72 text 3. Agents 
+					73 text · Externalization & Internalization
+				74 button 3.0 外化与内化总览
+				75 button 3.1 工具调用
+				76 button 3.2 Memory
+				77 button 3.3 Skills
+				78 button 3.4 Protocols
+				79 button 3.5 Harness
+				80 button 3.6 外化与内化整合
+				81 button 3.7 全讲总结
+		38 container Description: 课件操作, ID: controls
+			39 button Description: 上一步, Help: 上一步（←）
+			40 button Description: 下一步, Help: 下一步（→或空格）
+			41 container jump-form
+				42 text 页码
+				43 stepper (settable, integer) Description: 页码, Value: 152, ID: page-input
+				44 text / 177
+			82 text 整页显示
+			46 button 目录
+			47 button 备注 / 来源
+			48 button 完整材料
+			49 button 放大图解
+			50 button 全屏
+			51 button 隐藏, Help: 按H恢复
+			52 button 操作说明
+		83 text 第152页，材料进入输入，调用到达工具，整页显示
+
+The focused UI element is 40 button Description: 下一步, Help: 下一步（→或空格）

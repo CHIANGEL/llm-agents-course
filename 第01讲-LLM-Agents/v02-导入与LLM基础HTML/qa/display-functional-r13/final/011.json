@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 11,
+  "text": "聊天界面背后，仍然是在继续生成文本\n聊天模板（chat template）把消息按顺序拼接，并标明角色与边界。\n聊天界面中的消息\n模型收到的连续文本\n用户：\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n应用先组织输入，\n模型从输入末尾继续写。\n<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.<|im_end|>\n<|im_start|>assistant\n▌从这里继续生成回复\n“输入 → 预测一个Token → 追加 → 继续”的机制保持不变。\n下面沿用同一种SmolLM2模板，展开三轮消息如何接在一起。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n1.1 连续生成\n1.2 多轮聊天\n1.3 LLM小结",
+  "title": "第11页 聊天界面背后，仍然是在继续生成文本"
+}

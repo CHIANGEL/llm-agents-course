@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-30",
+  "model_template": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "config_sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+  "method": "Exact archived Jinja template, matching tojson behavior; no tokenization or model inference",
+  "model_inference_run": false,
+  "live_weather_query": false,
+  "template_actually_executed": true,
+  "parser_and_dispatch_executed": true,
+  "weather_value_source": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+  "round1_parts_concatenate_exactly": true,
+  "round2_parts_concatenate_exactly": true,
+  "round1_message_roles": [
+    "system",
+    "user"
+  ],
+  "round2_message_roles": [
+    "system",
+    "user",
+    "assistant",
+    "tool"
+  ],
+  "role_tool_serialized_as_user_tool_response": true,
+  "tool_executions_without_dispatch": 0,
+  "tool_executions_with_dispatch": 1,
+  "count_scope": "0 versus 1 within each isolated replay; the script runs the full replay and shown snippets separately",
+  "main_replay_tool_executions": 1,
+  "snippet_replay_tool_executions": 1,
+  "whole_script_tool_executions": 2,
+  "unknown_tool_rejected_without_execution": true,
+  "shown_snippets_executed": [
+    "parse",
+    "dispatch",
+    "append"
+  ],
+  "shown_python_data_roundtrip": true,
+  "special_tokens": {
+    "im_start": 151644,
+    "im_end": 151645
+  },
+  "tool_call_tags_are_marked_special_in_config": false,
+  "claims_scope": "Replay verifies serialization and program execution, not model tool-use success rate."
+}

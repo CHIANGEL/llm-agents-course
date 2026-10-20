@@ -1,0 +1,31 @@
+# 操作系统文件
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+Thumbs.db
+Desktop.ini
+
+# 本地依赖和运行缓存
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 本地配置与凭据；示例配置可提交
+.env
+.env.*
+!.env.example
+!.env.sample
+*.local
+
+# 预览服务日志与可重新打包的交付 ZIP
+**/qa/**/preview-server.log
+/交付/*.zip
+
+# GitHub Pages 本地发布产物
+/_site/
+
+# sources、QA 报告与历史截图均保留版本记录

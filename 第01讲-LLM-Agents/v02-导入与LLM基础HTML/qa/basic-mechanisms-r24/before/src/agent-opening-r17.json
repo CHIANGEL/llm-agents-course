@@ -1,0 +1,295 @@
+{
+  "pages": [
+    {
+      "page": 17001,
+      "authoring_page": 17001,
+      "renderer": 17001,
+      "section": "大模型与智能体",
+      "navigation": "3.0",
+      "type": "overview",
+      "title": "从大模型到智能体",
+      "seconds": 90,
+      "on_slide": [
+        "大模型处理给定输入，生成内容。",
+        "软件智能体围绕目标，反复观察、决定、执行和检查。",
+        "具身智能体通过传感器与执行器，作用于物理环境。"
+      ],
+      "talk": "大模型接收输入、生成内容。软件智能体围绕目标执行操作，再依据返回结果继续。具身智能体把这一循环连接到传感器和执行器。通知、数据分析、预约与抓笔，分别展示这些交付结果。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "R17_MODEL",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_MS",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_BROWSER",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_ARM",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 17002,
+      "authoring_page": 17002,
+      "renderer": 17002,
+      "section": "大模型与智能体",
+      "navigation": "3.0",
+      "type": "content",
+      "title": "大模型能生成什么？还缺什么？",
+      "seconds": 100,
+      "on_slide": [
+        "没有连接工具时，模型处理收到的输入，生成输出。",
+        "The lecture scheduled for today has been cancelled.",
+        "发送通知需要收件人、邮件系统和发送结果。写出“已发送”不会自动发出邮件。"
+      ],
+      "talk": "前面已经生成了通知内容。取得收件人、发送和检查结果，都需要邮件系统及相应工具执行。聊天产品可以内置这些工具；单独的模型负责根据输入生成输出。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "GEN_TRACE",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_MODEL",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 17003,
+      "authoring_page": 17003,
+      "renderer": 17003,
+      "section": "大模型与智能体",
+      "navigation": "3.0",
+      "type": "case",
+      "title": "查询数据：模型得到新的信息",
+      "seconds": 100,
+      "on_slide": [
+        "Magentic-One查询标普500指数数据。",
+        "生成取数程序→运行程序→读取返回的数据→生成分析。",
+        "新增的信息通过执行过程进入模型输入。",
+        "取得数据后仍需检查回答：标普500指数的单位是点，原视频最后回答误用了美元符号。"
+      ],
+      "talk": "程序从数据服务取得数值，执行结果进入模型后续输入，模型据此给出分析。获取到数据以后，回答中的单位仍可能出错：标普500的数值单位是点，视频最后误用了美元符号。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "R17_MS",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_SP",
+          "locator": "FAQ问题2：Index points"
+        }
+      ]
+    },
+    {
+      "page": 17004,
+      "authoring_page": 17004,
+      "renderer": 17004,
+      "section": "大模型与智能体",
+      "navigation": "3.0",
+      "type": "case",
+      "title": "操作网页：从建议到实际操作",
+      "seconds": 100,
+      "on_slide": [
+        "Browser Use在网站寻找并选择驾驶考试预约时段。",
+        "查看日期、填写资料、选择时段、提交后检查预约成功页面。",
+        "观察→决定→执行→再观察。"
+      ],
+      "talk": "浏览器先显示可选日期，随后填写资料、选择时段并提交。最后的页面显示Appointment Scheduled。每一次动作之后，返回的页面状态为下一步提供依据。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "R17_BROWSER",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 17005,
+      "authoring_page": 17005,
+      "renderer": 17005,
+      "section": "大模型与智能体",
+      "navigation": "3.0",
+      "type": "content",
+      "title": "软件智能体的操作范围",
+      "seconds": 90,
+      "on_slide": [
+        "智能体的操作范围取决于连接的工具和获准的操作。",
+        "软件操作需要账户、权限与网站支持。",
+        "移动物体需要传感器、执行器和控制程序。",
+        "软件操作可以间接影响现实；直接移动物体还需要物理设备。"
+      ],
+      "talk": "软件中的订票或下单，可以通过服务商间接改变现实中的安排。直接抓取物体还需要感知位置、控制硬件并检查动作结果。浏览器工具与机器人控制工具，连接的是不同的执行环境。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "R17_BROWSER",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_ARM",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_COMPUTER",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 17006,
+      "authoring_page": 17006,
+      "renderer": 17006,
+      "section": "大模型与智能体",
+      "navigation": "3.0",
+      "type": "case",
+      "title": "机械臂抓笔：GPT-6 Astra的一个案例",
+      "seconds": 110,
+      "on_slide": [
+        "GPT-6 Astra＋SO101机械臂：找到红笔，抓起并保持。",
+        "摄像头观察→模型调整运动脚本→控制程序执行→新画面返回。",
+        "原作者视频为50倍速，任务实际耗时22分钟。"
+      ],
+      "talk": "已有电机控制、相机与运动学代码提供执行条件。模型接收画面，编写运动脚本，再依据新画面调整。作者记录端到端约22分钟；视频压缩为50倍速，不能从播放速度推导模型每次决策的耗时。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "R17_ARM",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_MODEL",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 17007,
+      "authoring_page": 17007,
+      "renderer": 17007,
+      "section": "大模型与智能体",
+      "navigation": "3.0",
+      "type": "content",
+      "title": "具身智能：把执行循环接到物理设备",
+      "seconds": 90,
+      "on_slide": [
+        "传感器提供环境信息，控制程序安排硬件动作，物理反馈用于检查结果。",
+        "物体可能移动，抓取也可能失败，需要重新观察和调整。",
+        "可进一步延伸到仓储搬运、生产操作、家庭服务。"
+      ],
+      "talk": "抓取需要准确的位置和动作控制，失败后要用新画面重新调整。扩展到仓储、生产和家庭服务，还会增加物体种类、空间变化、持续运行等要求。传感器、控制程序与硬件需要一同适配任务。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "R17_ARM",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_ROBOTICS",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 17008,
+      "authoring_page": 17008,
+      "renderer": 17008,
+      "section": "大模型与智能体",
+      "navigation": "3.0",
+      "type": "summary",
+      "title": "智能体比大模型多了什么？",
+      "seconds": 110,
+      "on_slide": [
+        "Agent = LLM + Harness。",
+        "LLM理解任务，生成回答、计划或工具调用。",
+        "Harness准备输入、组织工具执行、返回结果、保存状态并安排继续或停止。",
+        "外化：哪些工作由模型外部承担？内化：哪些做法可通过训练进入模型？"
+      ],
+      "talk": "单独调用模型得到生成内容。智能体通过Harness组织输入、工具执行和结果反馈，把多次模型调用连接成任务过程。工具提供执行接口，运行系统还保存状态并控制继续或停止。外化与内化进一步说明，哪些工作安排在模型之外，哪些做法通过训练成为模型能力。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "R17_COMPUTER",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_MS",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_ARM",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "17001": "大模型处理给定输入，生成内容。\n\n软件智能体围绕目标，反复观察、决定、执行和检查。\n\n具身智能体通过传感器与执行器，作用于物理环境。",
+    "17002": "没有连接工具时，模型处理收到的输入，生成输出。\n\nThe lecture scheduled for today has been cancelled.\n\n发送通知需要收件人、邮件系统和发送结果。写出“已发送”不会自动发出邮件。",
+    "17003": "Magentic-One查询标普500指数数据。\n\n生成取数程序→运行程序→读取返回的数据→生成分析。\n\n新增的信息通过执行过程进入模型输入。\n\n标普500指数的数值用“点”表示；视频最后回答给指数数值加上美元符号，单位应予修正。",
+    "17004": "Browser Use在网站寻找并选择驾驶考试预约时段。\n查看日期、填写资料、选择时段、提交后检查预约成功页面。\n观察→决定→执行→再观察。",
+    "17005": "智能体的操作范围取决于连接的工具和获准的操作。\n\n软件操作需要账户、权限与网站支持。\n\n移动物体需要传感器、执行器和控制程序。\n\n软件操作可以间接影响现实；直接移动物体还需要物理设备。",
+    "17006": "GPT-6 Astra＋SO101机械臂：找到红笔，抓起并保持。\n\n摄像头观察→模型调整运动脚本→控制程序执行→新画面返回。\n\n原作者视频为50倍速，任务实际耗时22分钟。\n\n作者记录：GPT-6 Astra使用xhigh推理，接收第三人称RGB摄像头画面。已有程序提供电机控制、关节坐标转换、配置加载、相机采集与机器人运动学。系统新写运动和录制脚本，依据相机反馈调整，最后抓起并保持红笔。",
+    "17007": "传感器提供环境信息，控制程序安排硬件动作，物理反馈用于检查结果。\n\n物体可能移动，抓取也可能失败，需要重新观察和调整。\n\n可进一步延伸到仓储搬运、生产操作、家庭服务。",
+    "17008": "Agent = LLM + Harness。\n\nLLM理解任务，生成回答、计划或工具调用。\n\nHarness准备输入、组织工具执行、返回结果、保存状态并安排继续或停止。\n\n外化：哪些工作由模型外部承担？内化：哪些做法可通过训练进入模型？"
+  },
+  "sources": {
+    "R17_MODEL": {
+      "title": "OpenAI · GPT-6 Astra model documentation",
+      "path": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+    },
+    "R17_COMPUTER": {
+      "title": "OpenAI · Computer use execution loop",
+      "path": "https://developers.openai.com/api/docs/guides/tools-computer-use"
+    },
+    "R17_MS": {
+      "title": "Microsoft Research · Magentic-One",
+      "path": "https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/"
+    },
+    "R17_BROWSER": {
+      "title": "Browser Use · official repository demo",
+      "path": "https://github.com/browser-use/browser-use"
+    },
+    "R17_ARM": {
+      "title": "Zhiyang Dou · Language-guided manipulation on a low-cost robot arm",
+      "path": "https://people.csail.mit.edu/frankzydou/blog/so101-pen-pickup/index.html"
+    },
+    "R17_ROBOTICS": {
+      "title": "Google DeepMind · Gemini Robotics 1.5",
+      "path": "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/"
+    },
+    "R17_SP": {
+      "title": "S&P Dow Jones Indices · Index points definition",
+      "path": "https://www.spglobal.com/spdji/en/education/article/faq-sp-500-dividend-points-index/"
+    }
+  },
+  "files": {
+    "17003": [
+      {
+        "label": "Microsoft Research · 案例说明",
+        "href": "https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/"
+      }
+    ],
+    "17004": [
+      {
+        "label": "Browser Use · 官方仓库",
+        "href": "https://github.com/browser-use/browser-use"
+      }
+    ],
+    "17006": [
+      {
+        "label": "机械臂抓笔 · 作者记录",
+        "href": "https://people.csail.mit.edu/frankzydou/blog/so101-pen-pickup/index.html"
+      }
+    ]
+  }
+}

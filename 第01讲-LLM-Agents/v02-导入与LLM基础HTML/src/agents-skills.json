@@ -1,0 +1,469 @@
+{
+  "pages": [
+    {
+      "page": 89,
+      "renderer": 2089,
+      "source_plan_page": 61,
+      "section": "Skills·总览",
+      "type": "overview",
+      "title": "Skills：把可复用的做法组织起来",
+      "seconds": 60,
+      "on_slide": [
+        "Agents / Skills：方法封装 → 按需读取 → 执行 → 检查产物",
+        "方法封装",
+        "说明 · 参考\n脚本 · 模板",
+        "按需读取",
+        "本次任务\n需要的做法",
+        "执行",
+        "读取模板\n生成文件",
+        "检查产物",
+        "对照要求\n打开文件",
+        "Notebook 把说明、代码和结果放在同一文档。先看文件包，再看读取、执行与交付。"
+      ],
+      "talk": "Notebook把说明、代码和结果放在同一文档中。Skill组织可复用方法，工具承担读取和执行，产物检查回到任务要求。四个环节连接方法、动作与交付。",
+      "sources": [
+        {
+          "id": "SKILL",
+          "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+        }
+      ]
+    },
+    {
+      "page": 90,
+      "renderer": 2090,
+      "source_plan_page": 61,
+      "section": "Skills·方法封装",
+      "type": "overview",
+      "title": "方法封装：说明、参考、脚本和模板",
+      "seconds": 40,
+      "on_slide": [
+        "方法封装：先看四类文件，再对应到本次创建任务。",
+        "jupyter-notebook",
+        "创建、整理 Notebook\n说明 · 代码 · 结果",
+        "SKILL.md",
+        "用途与工作步骤",
+        "references/",
+        "结构与检查要求",
+        "scripts/",
+        "可执行程序",
+        "assets/",
+        "模板与素材",
+        "下面用真实文件树和文件原文，逐项查看各自提供什么。"
+      ],
+      "talk": "先展示四类文件的关系，再打开具体材料。",
+      "sources": [
+        {
+          "id": "SKILL",
+          "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+        }
+      ]
+    },
+    {
+      "page": 91,
+      "renderer": 2091,
+      "source_plan_page": 62,
+      "section": "Skills·方法封装",
+      "type": "content",
+      "title": "打开一个包含12份文件的Skill包",
+      "seconds": 100,
+      "on_slide": [
+        "文件包共有 12 份文件：从入口找到本次要用的方法。",
+        "jupyter-notebook/",
+        "SKILL.md",
+        "references/tutorial-patterns.md",
+        "references/experiment-patterns.md",
+        "references/notebook-structure.md",
+        "references/quality-checklist.md",
+        "scripts/new_notebook.py",
+        "assets/tutorial-template.ipynb",
+        "assets/experiment-template.ipynb",
+        "agents/openai.yaml",
+        "assets/jupyter-small.svg",
+        "assets/jupyter.png",
+        "LICENSE.txt",
+        "本次任务",
+        "为“Python列表与平均值”\n创建教学 Notebook 骨架。",
+        "先保留模板内容，\n并说明后续要补哪些内容。",
+        "任务决定需要哪条读取路线。"
+      ],
+      "talk": "十二份文件提供入口说明、四份任务参考、生成程序、两份模板、界面资源和许可证。本次任务选择教学路线，需要入口说明、教学参考、生成程序与教学模板。",
+      "sources": [
+        {
+          "id": "SKILL",
+          "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+        }
+      ]
+    },
+    {
+      "page": 92,
+      "renderer": 2092,
+      "source_plan_page": 62,
+      "section": "Skills·方法封装",
+      "type": "content",
+      "title": "从入口说明，找到本次需要的做法",
+      "seconds": 100,
+      "on_slide": [
+        "入口说明先分任务类型，再给出材料和程序的位置。",
+        "SKILL.md",
+        "Decision tree",
+        "教学讲解 → tutorial\n探索分析 → experiment",
+        "Workflow",
+        "确定目标 → 用模板创建骨架\n→ 补内容 → 检查结果",
+        "tutorial-patterns.md",
+        "说明受众、基础与学习目标\n提供可以快速浏览的目录",
+        "每步将短说明、代码\n与结果解释相连。",
+        "先理解用途，再沿文件中的入口查阅具体做法。"
+      ],
+      "talk": "使用文件原文标题和中文释义，解释任务类型如何决定材料路线。",
+      "sources": [
+        {
+          "id": "SKILL",
+          "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+        }
+      ]
+    },
+    {
+      "page": 93,
+      "renderer": 2093,
+      "source_plan_page": 62,
+      "section": "Skills·方法封装",
+      "type": "summary",
+      "title": "文件包把方法与材料组织在一起",
+      "seconds": 40,
+      "on_slide": [
+        "文件包把“何时用、怎样做、用什么、如何查”放在一起。",
+        "jupyter-notebook",
+        "创建、整理 Notebook\n说明 · 代码 · 结果",
+        "SKILL.md",
+        "用途与工作步骤",
+        "references/",
+        "结构与检查要求",
+        "scripts/",
+        "可执行程序",
+        "assets/",
+        "模板与素材",
+        "说明给出使用路线，参考补充要求，脚本和模板帮助形成文件。"
+      ],
+      "talk": "回到四类文件分工图，归纳它们怎样配合。",
+      "sources": [
+        {
+          "id": "SKILL",
+          "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+        }
+      ]
+    },
+    {
+      "page": 94,
+      "renderer": 2094,
+      "source_plan_page": 63,
+      "section": "Skills·按需读取与执行",
+      "type": "overview",
+      "title": "从发现用途，到读取方法和执行",
+      "seconds": 40,
+      "on_slide": [
+        "按需读取与执行：先发现用途，再取得方法，最后运行程序。",
+        "名称 · 用途 · 入口",
+        "判断这项 Skill\n是否适合任务",
+        "说明与教学参考",
+        "SKILL.md\ntutorial-patterns.md",
+        "执行生成脚本",
+        "读模板 → 改标题\n→ 写出 Notebook",
+        "读取改变模型这次取得的材料，执行改变工作目录中的文件。"
+      ],
+      "talk": "先区分读取和执行改变的位置，再沿目录、正文、参考、模板和输出展开。",
+      "sources": [
+        {
+          "id": "SKILL",
+          "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+        }
+      ]
+    },
+    {
+      "page": 95,
+      "renderer": 2095,
+      "source_plan_page": 63,
+      "section": "Skills·按需读取与执行",
+      "type": "content",
+      "title": "先根据用途，决定是否打开Skill",
+      "seconds": 90,
+      "on_slide": [
+        "名称、用途与入口，帮助模型决定是否打开 Skill。",
+        "当前可用 Skill",
+        "jupyter-notebook",
+        "创建、搭建或编辑 Notebook\n入口：jupyter-notebook/SKILL.md",
+        "取得详细说明",
+        "模型提出读取 SKILL.md\n工具返回文件正文",
+        "输入增加：工作步骤和文件入口",
+        "从一条用途信息，进入一份可以沿着执行的方法说明。"
+      ],
+      "talk": "输入从用途信息增加为工作步骤和文件位置。",
+      "sources": [
+        {
+          "id": "SKILL",
+          "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+        }
+      ]
+    },
+    {
+      "page": 96,
+      "renderer": 2096,
+      "source_plan_page": 64,
+      "section": "Skills·按需读取与执行",
+      "type": "content",
+      "title": "渐进式披露：需要什么，再读取什么",
+      "seconds": 110,
+      "on_slide": [
+        "渐进式披露：需要什么，再读取什么。",
+        "文件包",
+        "SKILL.md\ntutorial-patterns.md\nexperiment-patterns.md",
+        "当前已经取得",
+        "名称、用途、入口\n＋ SKILL.md 正文",
+        "任务是教学 Notebook，沿教学参考继续读取。",
+        "＋ 教学参考的具体要求",
+        "模板由生成脚本读取；读取路径要看清执行者和用途。"
+      ],
+      "talk": "文件树与当前输入并排，先高亮SKILL.md，再加入教学参考，最后点明模板由脚本使用。",
+      "sources": [
+        {
+          "id": "SKILL",
+          "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+        }
+      ]
+    },
+    {
+      "page": 97,
+      "renderer": 2097,
+      "source_plan_page": 65,
+      "section": "Skills·按需读取与执行",
+      "type": "content",
+      "title": "脚本读取模板，写出Notebook骨架",
+      "seconds": 130,
+      "on_slide": [
+        "工具运行 new_notebook.py：读取教学模板、修改标题、写出文件。",
+        "模板包含7个单元，保留说明与代码的位置。",
+        "生成脚本选用教学模板，写入新标题。",
+        "输出为7个单元的Notebook骨架，首标题为Python列表与平均值。",
+        "工具返回路径后，打开文件核对结构与内容。"
+      ],
+      "talk": "从模板到脚本再到输出骨架，逐步显现生成过程。返回路径之后连接产物检查。",
+      "sources": [
+        {
+          "id": "SKILL",
+          "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+        }
+      ]
+    },
+    {
+      "page": 98,
+      "renderer": 2098,
+      "source_plan_page": 65,
+      "section": "Skills·按需读取与执行",
+      "type": "summary",
+      "title": "读取得到方法，执行形成文件",
+      "seconds": 40,
+      "on_slide": [
+        "每次读取，都让当前输入多取得一份所需材料。",
+        "名称 · 用途 · 入口",
+        "判断这项 Skill\n是否适合任务",
+        "说明与教学参考",
+        "SKILL.md\ntutorial-patterns.md",
+        "执行生成脚本",
+        "读模板 → 改标题\n→ 写出 Notebook",
+        "模型读取说明与参考；工具运行程序；程序读取模板并写出文件。"
+      ],
+      "talk": "回到本小节读取与执行图，分别定位内容进入输入和文件写入目录。",
+      "sources": [
+        {
+          "id": "SKILL",
+          "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+        }
+      ]
+    },
+    {
+      "page": 99,
+      "renderer": 2099,
+      "source_plan_page": 66,
+      "section": "Skills·Box文档生成",
+      "type": "overview",
+      "title": "Box：从已有资料到交付文件",
+      "seconds": 40,
+      "on_slide": [
+        "Box 文档生成：已有资料 → 制作方法 → 可继续编辑的文件",
+        "已有报告",
+        "季度报告\n近期月度更新",
+        "文档制作接口",
+        "Skills API",
+        "交付文件",
+        "幻灯片草稿\n电子表格",
+        "沿公开的财务摘要流程，依次看查资料、做草稿和后续表格要求。"
+      ],
+      "talk": "Box从已有资料出发，通过Skills API这个文档制作接口调用预置方法，形成幻灯片或电子表格。资料提供内容，方法组织文件，交付要求决定最后检查什么。",
+      "sources": [
+        {
+          "id": "CASE_BOX",
+          "locator": "The solution；The outcome：financial summary flow"
+        }
+      ]
+    },
+    {
+      "page": 100,
+      "renderer": 2100,
+      "source_plan_page": 66,
+      "section": "Skills·Box文档生成",
+      "type": "case",
+      "title": "Box：先找到季度报告与月度更新",
+      "seconds": 90,
+      "on_slide": [
+        "用户要求：用一页幻灯片概括公司的财务状况。",
+        "上一份季度报告",
+        "近期月度更新",
+        "有关数据",
+        "汇入本次\n制作材料",
+        "Agent 搜索 Box 文件夹，取得两类报告中的有关数据。"
+      ],
+      "talk": "用文件对象与汇入关系解释检索结果成为制作材料。",
+      "sources": [
+        {
+          "id": "CASE_BOX",
+          "locator": "The solution；The outcome：financial summary flow"
+        }
+      ]
+    },
+    {
+      "page": 101,
+      "renderer": 2101,
+      "source_plan_page": 67,
+      "section": "Skills·Box文档生成",
+      "type": "case",
+      "title": "Box：生成草稿，继续补充分析",
+      "seconds": 90,
+      "on_slide": [
+        "已找到的资料",
+        "文档制作方法",
+        "财务摘要",
+        "幻灯片草稿",
+        "Box 通过 Skills API，把有关资料组织成有格式的幻灯片草稿。",
+        "团队接着补充分析与判断，继续完善这份草稿。"
+      ],
+      "talk": "从来源资料和制作方法两条路径汇入幻灯片草稿。",
+      "sources": [
+        {
+          "id": "CASE_BOX",
+          "locator": "The solution；The outcome：financial summary flow"
+        }
+      ]
+    },
+    {
+      "page": 102,
+      "renderer": 2102,
+      "source_plan_page": 68,
+      "section": "Skills·Box文档生成",
+      "type": "summary",
+      "title": "Box：同一批资料，响应新的文件要求",
+      "seconds": 90,
+      "on_slide": [
+        "后续要求改为电子表格，复用已经找到的资料。",
+        "同一批来源材料",
+        "幻灯片草稿",
+        "电子表格",
+        "新要求：改变交付形式",
+        "资料与方法配合形成文件；换一种交付形式，仍保持相同的数据依据。"
+      ],
+      "talk": "两条输出路径都从共同资料出发，最后归纳资料、方法和交付的关系。",
+      "sources": [
+        {
+          "id": "CASE_BOX",
+          "locator": "The solution；The outcome：financial summary flow"
+        }
+      ]
+    },
+    {
+      "page": 103,
+      "renderer": 2103,
+      "source_plan_page": 69,
+      "section": "Skills·产物检查",
+      "type": "content",
+      "title": "回到Notebook：补齐内容、运行与验收",
+      "seconds": 100,
+      "on_slide": [
+        "骨架提供结构；补齐任务内容后，运行代码，再核对结果。",
+        "补齐内容 → 运行 → 验收。",
+        "列表：[10,20,30]。合计60，个数3，平均值20。",
+        "7个单元保留说明与代码的顺序，3段代码按顺序执行。",
+        "输入、计算与解释相互对应；检查通过。",
+        "验收同时看文件结构、内容、运行结果，以及它们是否满足任务目标。"
+      ],
+      "talk": "骨架写出之后，继续补入任务需要的说明、代码和结果解释。文档中的三个数为10、20、30，合计60，个数3，平均值20。三段代码按顺序运行，核对输入、合计、个数和平均值后，检查结果通过。文件结构、具体内容与运行结果一起决定交付是否完成。",
+      "sources": [
+        {
+          "id": "SKILL",
+          "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+        },
+        {
+          "id": "NOTEBOOK_COMPLETED",
+          "locator": "7个单元、3段代码、输出与execution.json"
+        }
+      ]
+    },
+    {
+      "page": 104,
+      "renderer": 2104,
+      "source_plan_page": 70,
+      "section": "Skills·小结",
+      "type": "summary",
+      "title": "Skills：方法、操作与检查相互配合",
+      "seconds": 40,
+      "on_slide": [
+        "Skill 把方法组织为材料，工具执行动作，检查回到实际产物。",
+        "方法封装",
+        "说明 · 参考\n脚本 · 模板",
+        "按需读取",
+        "本次任务\n需要的做法",
+        "执行",
+        "读取模板\n生成文件",
+        "检查产物",
+        "对照要求\n打开文件",
+        "方法说明怎样做；文件记录做出了什么；任务要求决定怎样检查。"
+      ],
+      "talk": "回到章首四环节图，总结方法复用与工具操作，连接Harness的运行组织。",
+      "sources": [
+        {
+          "id": "SKILL",
+          "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "89": "Notebook是一种将文字说明、可执行代码和运行结果保存在一起的文档。\nSkills关系：方法封装→按需读取→执行→检查产物。说明与参考帮助理解做法，脚本与模板参与文件生成，任务要求决定交付检查。",
+    "90": "SKILL.md：说明何时使用及工作步骤。\nreferences/：任务模式、文件结构与质量要求。\nscripts/：可调用的程序。\nassets/：模板和素材。",
+    "91": "jupyter-notebook/\n  SKILL.md\n  references/tutorial-patterns.md\n  references/experiment-patterns.md\n  references/notebook-structure.md\n  references/quality-checklist.md\n  scripts/new_notebook.py\n  assets/tutorial-template.ipynb\n  assets/experiment-template.ipynb\n  agents/openai.yaml\n  assets/jupyter-small.svg\n  assets/jupyter.png\n  LICENSE.txt\n\n本次请求\n请为“Python列表与平均值”创建一个教学用的Jupyter Notebook骨架，先保留模板内容，并说明后续要补哪些内容。\n",
+    "92": "SKILL.md的决策树：探索、分析、验证假设对应experiment；教学、逐步讲解、特定受众对应tutorial。\n工作路线：明确意图→用模板创建骨架→补充内容→应用对应模式→检查结果。\n教学参考中的结构要求：受众、基础和目标；可浏览的目录；短说明与独立代码步骤配对，并解释结果。",
+    "93": "何时用：入口说明用途。怎样做：工作步骤和参考要求。用什么：程序、模板与素材。如何查：依据任务目标和质量检查要求。",
+    "94": "按需读取顺序：名称、用途与入口→SKILL.md→tutorial-patterns.md。\n执行路线：模型提出命令→工具运行new_notebook.py→程序读取tutorial-template.ipynb→写出Notebook→返回路径。",
+    "95": "名称：jupyter-notebook。\n用途：创建、搭建或编辑用于探索、实验、教学的Jupyter Notebook。\n入口：jupyter-notebook/SKILL.md。\n选用以后读取入口正文，取得工作步骤和后续材料位置。",
+    "96": "当前输入依次取得：Skill用途信息、SKILL.md正文、tutorial-patterns.md中的教学要求。\n程序读取的模板：assets/tutorial-template.ipynb。模型读取参考与程序读取模板是两条路径。",
+    "97": "生成命令\npython3 .agents/skills/jupyter-notebook/scripts/new_notebook.py --kind tutorial --title 'Python列表与平均值' --out output/jupyter-notebook/python-lists-and-mean.ipynb\n\n命令的工作目录\n/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-Agent-Skills/v01-渐进式披露演示/case/workspace\n\n脚本操作：读取教学模板→替换首标题→写入目标路径。\n输出文件：output/jupyter-notebook/python-lists-and-mean.ipynb。\n首标题：# Tutorial: Python列表与平均值。\n单元类型：markdown、markdown、code、markdown、code、markdown、code。\n\n完整生成脚本 new_notebook.py\nfrom __future__ import annotations\n\nimport argparse\nimport json\nimport re\nfrom pathlib import Path\nfrom typing import Any\n\n\ndef slugify(text: str) -> str:\n    lowered = text.strip().lower()\n    cleaned = re.sub(r\"[^a-z0-9]+\", \"-\", lowered)\n    collapsed = re.sub(r\"-+\", \"-\", cleaned).strip(\"-\")\n    return collapsed or \"notebook\"\n\n\ndef find_repo_root(start: Path) -> Path:\n    for candidate in (start, *start.parents):\n        if (candidate / \".git\").exists():\n            return candidate\n    return start\n\n\ndef load_template(skill_dir: Path, kind: str) -> dict[str, Any]:\n    asset_name = \"experiment-template.ipynb\" if kind == \"experiment\" else \"tutorial-template.ipynb\"\n    template_path = skill_dir / \"assets\" / asset_name\n    if not template_path.exists():\n        raise SystemExit(f\"Missing template: {template_path}\")\n    with template_path.open(\"r\", encoding=\"utf-8\") as f:\n        data = json.load(f)\n    if not isinstance(data, dict):\n        raise SystemExit(f\"Unexpected template shape: {template_path}\")\n    return data\n\n\ndef update_title(notebook: dict[str, Any], kind: str, title: str) -> None:\n    prefix = \"Experiment\" if kind == \"experiment\" else \"Tutorial\"\n    expected = f\"# {prefix}: {title}\\n\"\n\n    cells = notebook.get(\"cells\")\n    if not isinstance(cells, list) or not cells:\n        raise SystemExit(\"Template notebook has no cells\")\n\n    first_cell = cells[0]\n    if not isinstance(first_cell, dict) or first_cell.get(\"cell_type\") != \"markdown\":\n        raise SystemExit(\"Template notebook must start with a markdown title cell\")\n\n    source = first_cell.get(\"source\", [])\n    if isinstance(source, str):\n        source_lines = [source]\n    elif isinstance(source, list):\n        source_lines = [str(line) for line in source]\n    else:\n        source_lines = []\n\n    if source_lines:\n        source_lines[0] = expected\n    else:\n        source_lines = [expected]\n\n    first_cell[\"source\"] = source_lines\n\n    metadata = notebook.setdefault(\"metadata\", {})\n    if not isinstance(metadata, dict):\n        raise SystemExit(\"Notebook metadata must be a mapping\")\n\n    language_info = metadata.setdefault(\"language_info\", {})\n    if isinstance(language_info, dict):\n        language_info.setdefault(\"name\", \"python\")\n        language_info.setdefault(\"version\", \"3.12\")\n\n\ndef default_output(repo_root: Path, title: str) -> Path:\n    filename = f\"{slugify(title)}.ipynb\"\n    return repo_root / \"output\" / \"jupyter-notebook\" / filename\n\n\ndef parse_args() -> argparse.Namespace:\n    parser = argparse.ArgumentParser(description=\"Scaffold a Jupyter notebook for experiments or tutorials.\")\n    parser.add_argument(\n        \"--kind\",\n        choices=[\"experiment\", \"tutorial\"],\n        default=\"experiment\",\n        help=\"Notebook style to scaffold (default: experiment).\",\n    )\n    parser.add_argument(\n        \"--title\",\n        required=True,\n        help=\"Human-readable notebook title used in the first markdown cell.\",\n    )\n    parser.add_argument(\n        \"--out\",\n        type=Path,\n        default=None,\n        help=\"Output path for the notebook. Defaults to output/jupyter-notebook/<slug>.ipynb.\",\n    )\n    parser.add_argument(\n        \"--force\",\n        action=\"store_true\",\n        help=\"Overwrite the output file if it already exists.\",\n    )\n    return parser.parse_args()\n\n\ndef main() -> None:\n    args = parse_args()\n\n    script_path = Path(__file__).resolve()\n    skill_dir = script_path.parents[1]\n    repo_root = find_repo_root(skill_dir)\n\n    notebook = load_template(skill_dir, args.kind)\n    update_title(notebook, args.kind, args.title)\n\n    out_path = args.out or default_output(repo_root, args.title)\n    out_path = out_path.resolve()\n\n    if out_path.exists() and not args.force:\n        raise SystemExit(f\"Refusing to overwrite existing file without --force: {out_path}\")\n\n    out_path.parent.mkdir(parents=True, exist_ok=True)\n    with out_path.open(\"w\", encoding=\"utf-8\") as f:\n        json.dump(notebook, f, indent=2)\n        f.write(\"\\n\")\n\n    print(f\"Wrote {out_path} using kind={args.kind}.\")\n\n\nif __name__ == \"__main__\":\n    main()\n",
+    "98": "读取增加本次取得的说明与参考；执行运行程序并产生文件。工具返回路径后，继续打开实际产物，对照原任务要求。",
+    "99": "Box财务摘要流程：找到来源资料→调用文档制作接口（Skills API）中的预置方法→形成有格式的文件→响应后续交付要求。",
+    "100": "任务是用一页幻灯片概括财务状况。资料来自上一份季度报告和近期月度更新；Agent在Box文件夹中检索并取得有关数据。",
+    "101": "来源资料提供内容，预置文档制作方法组织文件。生成财务摘要幻灯片草稿后，团队继续补充分析。",
+    "102": "后续要求改为电子表格时，复用已经找到的资料。两种交付形式都以相同资料为依据。",
+    "103": "补齐后的文件\nsources/agents-skills/completed/python-lists-and-mean-completed.ipynb\n\n按顺序读取以下七个单元。三段代码的输出保存在文件中。\n\n第1单元（markdown）\n# Python列表与平均值\n\n把三个数放入列表，计算并解释平均值。本文档将说明、代码和运行结果放在一起。\n\n\n第2单元（markdown）\n## 处理顺序\n\n1. 写入三个数。\n2. 计算合计、个数与平均值。\n3. 核对数据和结果。\n\n\n第3单元（code）\nvalues = [10, 20, 30]\nprint(f\"数据：{values}\")\n输出\n数据：[10, 20, 30]\n\n\n第4单元（markdown）\n## 平均值怎样得到\n\n合计除以个数得到平均值。这里的三个数合计为60，个数为3，平均值为20。\n\n\n第5单元（code）\ntotal = sum(values)\ncount = len(values)\naverage = total / count\nprint(f\"合计：{total}\")\nprint(f\"个数：{count}\")\nprint(f\"平均值：{average:g}\")\n输出\n合计：60\n个数：3\n平均值：20\n\n\n第6单元（markdown）\n## 解释与检查\n\n平均值20表示这三个数的总量平均分成三份后，每份为20。核对输入仍是10、20、30，并检查计算结果。\n\n\n第7单元（code）\nassert values == [10, 20, 30]\nassert count == 3\nassert total == 60\nassert average == 20\nprint(\"检查通过：20 = (10 + 20 + 30) / 3\")\n输出\n检查通过：20 = (10 + 20 + 30) / 3\n\n",
+    "104": "方法：用途、步骤、参考、脚本、模板和检查要求。\n操作：工具实际读取与运行。\n产物：依据当前任务要求打开并核对。\nHarness继续解释这些材料、工具和运行过程由谁组织。"
+  },
+  "sources": {
+    "SKILL": {
+      "title": "Skills专题 v01",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-Agent-Skills/v01-渐进式披露演示/index.html"
+    },
+    "CASE_BOX": {
+      "title": "Box使用Skills生成文档",
+      "path": "https://claude.com/customers/box"
+    },
+    "NOTEBOOK_COMPLETED": {
+      "title": "Python列表与平均值：完整Notebook与运行结果",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/agents-skills/completed/python-lists-and-mean-completed.ipynb"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=118&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=118&s=1
+	2 container
+		57 container Description: 第118页 打开产物：标题已替换，其余保留模板, ID: mount
+			58 container 第118页 打开产物：标题已替换，其余保留模板
+				59 heading 打开产物：标题已替换，其余保留模板, Value: 1
+					60 text 打开产物：标题已替换，其余保留模板
+				61 container 课件内容
+					62 container
+						63 text 用户要求先保留模板：7个单元中，首个标题已改为“Python列表与平均值”。
+						64 heading 7个单元, Value: 2
+							65 text 7个单元
+						66 checkbox 1. 标题与对象, Value: 1
+						67 checkbox 2. 内容大纲, Value: 0
+						68 checkbox 3. 准备代码, Value: 0
+						69 checkbox 4. 步骤说明, Value: 0
+						70 checkbox 5. 正弦示例代码, Value: 0
+						71 checkbox 6. 模板中的练习栏目, Value: 0
+						72 checkbox 7. 模板中的答案代码, Value: 0
+						73 button 重置
+						74 heading python-lists-and-mean.ipynb, Value: 2
+							75 text python-lists-and-mean.ipynb
+						76 container
+							77 image Jupyter
+							78 text 文件中的单元内容
+						79 text 说明
+						80 text # Tutorial: Python列表与平均值
+
+Audience:
+- Describe who this is for.
+
+Prerequisites:
+- List required concepts or setup.
+
+Learning goals:
+- By the end, the reader can...
+
+						81 text 第1单元：标题已经替换；对象、前置知识与目标仍保留模板内容。
+						82 text 后续补充对象与目标，把正弦示例改成列表求平均值，再逐单元运行并检查结果。
+				83 container 课程进度
+					84 button 导入
+					85 button 1. LLM基础
+					86 button 2. Prompting
+					87 button 3. Agents · Externalization & Internalization
+						88 text 3. Agents 
+						89 text · Externalization & Internalization
+					90 button 3.0 外化与内化总览
+					91 button 3.1 工具调用
+					92 button 3.2 Memory
+					93 button 3.3 Skills
+					94 button 3.4 Harness
+					95 button 3.5 外化与内化整合
+					96 button 3.6 全讲总结
+		42 container Description: 课件操作, ID: controls
+			43 button Description: 上一步, Help: 上一步（←）
+			44 button Description: 下一步, Help: 下一步（→或空格）
+			45 container jump-form
+				46 text 页码
+				47 stepper (settable, integer) Description: 页码, Value: 118, ID: page-input
+				48 text / 161
+			97 text 整页显示
+			50 button 目录
+			51 button 讲者备注
+			52 button 完整材料
+			53 button 放大图解
+			54 button 全屏
+			55 button 隐藏, Help: 按H恢复
+			56 button 操作说明
+		98 text 第118页，打开产物：标题已替换，其余保留模板，整页显示
+
+The focused UI element is 57 container Description: 第118页 打开产物：标题已替换，其余保留模板, ID: mount

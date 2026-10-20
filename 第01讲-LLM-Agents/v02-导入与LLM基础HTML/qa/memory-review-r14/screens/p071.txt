@@ -1,0 +1,56 @@
+- main:
+  - article "第71页 工具调用：接下来讲什么？":
+    - heading "工具调用：接下来讲什么？" [level=1]
+    - region "课件内容":
+      - generic: 已讲完：调用格式、工具返回与连续文本生成
+      - generic: ✓ 已结束
+      - strong:
+        - link "1. 交互的两种方向":
+          - /url: "#p=64&s=1"
+      - paragraph: 从外部取得信息；对外部产生影响
+      - generic: ✓ 已结束
+      - strong:
+        - link "2. 一次天气查询":
+          - /url: "#p=66&s=1"
+      - paragraph: 特定格式 → 执行 → 返回 → 继续生成
+      - generic: → 接下来
+      - strong:
+        - link "3. 复杂应用中的工具调用":
+          - /url: "#p=72&s=1"
+      - paragraph: Computer Use与连续任务，再回到整体
+      - img "模型"
+      - img "外部工具"
+      - text: 调用 →
+      - text: ← 结果
+      - generic: 读取界面，执行操作
+      - text: 工具调用
+      - text: 回到本节的整体路线
+      - generic: 接下来：把相同机制放进Computer Use等复杂应用
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "3.0 外化与内化总览"
+      - button "3.1 工具调用"
+      - button "3.2 Memory"
+      - button "3.3 Skills"
+      - button "3.4 Protocols"
+      - button "3.5 Harness"
+      - button "3.6 外化与内化整合"
+      - button "3.7 全讲总结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步": →
+  - generic: 页码
+  - spinbutton "页码": "71"
+  - generic: / 193
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第71页，工具调用：接下来讲什么？，整页显示

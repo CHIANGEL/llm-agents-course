@@ -1,0 +1,13 @@
+jupyter-notebook/
+  SKILL.md
+  references/tutorial-patterns.md
+  references/experiment-patterns.md
+  references/notebook-structure.md
+  references/quality-checklist.md
+  scripts/new_notebook.py
+  assets/tutorial-template.ipynb
+  assets/experiment-template.ipynb
+  agents/openai.yaml
+  assets/jupyter-small.svg
+  assets/jupyter.png
+  LICENSE.txt

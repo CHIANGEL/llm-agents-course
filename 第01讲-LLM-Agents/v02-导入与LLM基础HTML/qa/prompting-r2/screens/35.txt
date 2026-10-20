@@ -1,0 +1,13 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=35&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=35&s=1
+	2 container
+		3 container Description: 第35页 跨领域借解：迁移机制，而非照搬做法, ID: mount
+			4 container 第35页 跨领域借解：迁移机制，而非照搬做法
+				5 heading 跨领域借解：迁移机制，而非照搬做法, Value: 1
+					6 text 跨领域借解：迁移机制，而非照搬做法
+				7 container 课件内容
+					8 container
+						9 text 本领域的解法遇到瓶颈时，先抽象问题，再到其他领域寻找相似结构。 当前问题 背景、做法、约束、卡点 先抽象底层结构 核心矛盾是什么？普通解法为何失效？ 领域A 相似问题 → 解决机制 领域B 相似问题 → 解决机制 领域C 相似问题 → 解决机制 迁移条件 → 当前方案 → 低成本验证 领域要有距离，问题结构要相似；最终要回到当前条件。
+		10 text 第35页，跨领域借解：迁移机制，而非照搬做法，整页显示
+
+The focused UI element is 3 container Description: 第35页 跨领域借解：迁移机制，而非照搬做法, ID: mount

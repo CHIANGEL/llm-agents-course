@@ -1,0 +1,885 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:,"><title>Skills专题 v01</title><style>body{max-width:1100px;margin:40px auto;padding:0 24px;color:#002060;font:20px/1.7 Arial,"Microsoft YaHei",sans-serif}h1{font-size:30px}pre{font:18px/1.65 monospace;white-space:pre-wrap;overflow-wrap:anywhere;color:#111}a{color:#003f98}details{margin:22px 0}small{overflow-wrap:anywhere}</style><h1>Skills专题 v01</h1><p><a href="original.html" download>下载原始文件</a></p><details><summary>资料位置与版本</summary><small>/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-Agent-Skills/v01-渐进式披露演示/index.html</small></details><pre>[
+  {
+    &quot;id&quot;: &quot;skill-task&quot;,
+    &quot;title&quot;: &quot;用Skill创建一个Notebook骨架&quot;,
+    &quot;chapter&quot;: 1,
+    &quot;kind&quot;: &quot;content&quot;,
+    &quot;body&quot;: &quot;&lt;blockquote class=\&quot;quote\&quot;&gt;请为“Python列表与平均值”创建一个教学用的Jupyter Notebook骨架，先保留模板内容，并说明后续要补哪些内容。&lt;/blockquote&gt;&lt;p class=\&quot;\&quot;&gt;Notebook（.ipynb）把说明文字和代码分成不同单元，适合边讲边运行。&lt;/p&gt;&lt;p class=\&quot;lead\&quot;&gt;本例先创建文件骨架，保留模板内容。沿着这次请求，看Skill中的材料怎样被读取和使用。&lt;/p&gt;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;request-initial&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;真实jupyter-notebook包&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/SKILL.md&quot;
+      }
+    ]
+  },
+  {
+    &quot;id&quot;: &quot;package&quot;,
+    &quot;title&quot;: &quot;先看磁盘上的完整Skill包&quot;,
+    &quot;chapter&quot;: 1,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;完整12文件包，左侧逐个点击。此页为教师从磁盘查看文件；不表示模型已读取全部文件。&quot;,
+    &quot;materials&quot;: [
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;真实jupyter-notebook包&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/SKILL.md&quot;
+      }
+    ],
+    &quot;widget&quot;: {
+      &quot;type&quot;: &quot;package-browser&quot;,
+      &quot;initial&quot;: &quot;SKILL.md&quot;,
+      &quot;printHTML&quot;: &quot;&lt;pre class=\&quot;code small\&quot;&gt;jupyter-notebook/\n  SKILL.md\n  references/tutorial-patterns.md\n  references/experiment-patterns.md\n  references/notebook-structure.md\n  references/quality-checklist.md\n  scripts/new_notebook.py\n  assets/tutorial-template.ipynb\n  assets/experiment-template.ipynb\n  agents/openai.yaml\n  assets/jupyter-small.svg\n  assets/jupyter.png\n  LICENSE.txt\n&lt;/pre&gt;&quot;
+    }
+  },
+  {
+    &quot;id&quot;: &quot;entry&quot;,
+    &quot;title&quot;: &quot;SKILL.md：名称、用途与工作步骤&quot;,
+    &quot;chapter&quot;: 1,
+    &quot;kind&quot;: &quot;content&quot;,
+    &quot;body&quot;: &quot;&lt;div class=\&quot;cols\&quot;&gt;&lt;section&gt;&lt;h2&gt;文件开头：识别用途&lt;/h2&gt;&lt;pre class=\&quot;code small\&quot;&gt;name: &amp;quot;jupyter-notebook&amp;quot;\ndescription: &amp;quot;Use when the user asks\nto create, scaffold, or edit\nJupyter notebooks (`.ipynb`) …&amp;quot;&lt;/pre&gt;&lt;p class=\&quot;\&quot;&gt;description说明什么时候适用。&lt;/p&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;后续正文：怎样完成任务&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;判断是实验还是教程。&lt;/li&gt;&lt;li&gt;找到模板和生成脚本。&lt;/li&gt;&lt;li&gt;按需读取参考，检查产物。&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;/div&gt;&lt;button class=\&quot;text-button\&quot; data-material=\&quot;file-SKILL.md\&quot;&gt;查看完整SKILL.md&lt;/button&gt;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;file-SKILL.md&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;真实jupyter-notebook包&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/SKILL.md&quot;
+      }
+    ]
+  },
+  {
+    &quot;id&quot;: &quot;resources&quot;,
+    &quot;title&quot;: &quot;references、scripts、assets分别放什么&quot;,
+    &quot;chapter&quot;: 1,
+    &quot;kind&quot;: &quot;content&quot;,
+    &quot;body&quot;: &quot;&lt;div class=\&quot;three-cols\&quot;&gt;&lt;section&gt;&lt;h2&gt;references&lt;/h2&gt;&lt;p class=\&quot;\&quot;&gt;保存具体做法。&lt;/p&gt;&lt;p class=\&quot;\&quot;&gt;tutorial-patterns.md说明教学内容怎样组织。&lt;/p&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;scripts&lt;/h2&gt;&lt;p class=\&quot;\&quot;&gt;保存可执行程序。&lt;/p&gt;&lt;p class=\&quot;\&quot;&gt;new_notebook.py读取模板、改标题、写文件。&lt;/p&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;assets&lt;/h2&gt;&lt;p class=\&quot;\&quot;&gt;保存可复用素材。&lt;/p&gt;&lt;p class=\&quot;\&quot;&gt;tutorial-template.ipynb是这次生成骨架的模板。&lt;/p&gt;&lt;/section&gt;&lt;/div&gt;&lt;p class=\&quot;callout\&quot;&gt;这些文件在磁盘上。需要其中哪一份，再读取或执行。&lt;/p&gt;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;file-references/tutorial-patterns.md&quot;,
+      &quot;file-scripts/new_notebook.py&quot;,
+      &quot;file-assets/tutorial-template.ipynb&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;真实jupyter-notebook包&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/SKILL.md&quot;
+      },
+      {
+        &quot;label&quot;: &quot;骨架生成脚本&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/scripts/new_notebook.py&quot;
+      }
+    ]
+  },
+  {
+    &quot;id&quot;: &quot;catalog&quot;,
+    &quot;title&quot;: &quot;客户端先把Skill目录放进输入&quot;,
+    &quot;chapter&quot;: 1,
+    &quot;kind&quot;: &quot;content&quot;,
+    &quot;body&quot;: &quot;&lt;p class=\&quot;\&quot;&gt;客户端发现本地Skill，读取name、description和文件入口，写入可用Skill目录。&lt;/p&gt;&lt;pre class=\&quot;code small\&quot;&gt;jupyter-notebook\n用途：创建、编辑实验或教学Notebook。\n文件入口：\n/workspace/course/.agents/skills/jupyter-notebook/SKILL.md&lt;/pre&gt;&lt;p class=\&quot;\&quot;&gt;本例目录放在developer消息中，并附带“如何选择和读取Skill”的使用规则。&lt;/p&gt;&lt;button class=\&quot;text-button\&quot; data-material=\&quot;catalog\&quot;&gt;展开真实目录与使用规则&lt;/button&gt;&quot;,
+    &quot;notes&quot;: &quot;课堂路径展开显示；真实目录自动选择r0短路径，并在同一目录中定义根路径。name和description来自真实包，中文用途是解释。目录角色和聚合顺序按固定版本审核。&quot;,
+    &quot;materials&quot;: [
+      &quot;catalog&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;Skills目录与渐进式披露规则&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/ext/skills/src/catalog_prompt.rs&quot;
+      },
+      {
+        &quot;label&quot;: &quot;初始上下文聚合&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs#L4444-L4790&quot;
+      }
+    ]
+  },
+  {
+    &quot;id&quot;: &quot;request&quot;,
+    &quot;title&quot;: &quot;这一请求还包含基础指令、权限与工具&quot;,
+    &quot;chapter&quot;: 1,
+    &quot;kind&quot;: &quot;content&quot;,
+    &quot;body&quot;: &quot;&lt;pre class=\&quot;code small\&quot;&gt;input[0]  developer  基础指令\ninput[1]  developer  权限说明＋Skill目录\ninput[2]  user       项目说明＋环境信息\ninput[3]  user       当前Notebook请求\n\ntools[0]  function   exec_command&lt;/pre&gt;&lt;p class=\&quot;\&quot;&gt;exec_command的名称、用途和参数格式在tools字段。模型看到后，才能按这个接口生成命令。&lt;/p&gt;&lt;button class=\&quot;text-button\&quot; data-material=\&quot;request-initial\&quot;&gt;完整教学请求&lt;/button&gt; &lt;button class=\&quot;text-button\&quot; data-material=\&quot;tool\&quot;&gt;工具定义&lt;/button&gt;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;request-initial&quot;,
+      &quot;tool&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;Responses请求构建&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/client.rs#L956-L1090&quot;
+      },
+      {
+        &quot;label&quot;: &quot;初始上下文聚合&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/session/mod.rs#L4444-L4790&quot;
+      },
+      {
+        &quot;label&quot;: &quot;exec_command定义&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/tools/handlers/shell_spec.rs#L23-L124&quot;
+      }
+    ]
+  },
+  {
+    &quot;id&quot;: &quot;initial&quot;,
+    &quot;title&quot;: &quot;模型先看到目录，还没有读到全文&quot;,
+    &quot;chapter&quot;: 2,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;request-initial&quot;,
+      &quot;catalog&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;Skills目录与渐进式披露规则&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/ext/skills/src/catalog_prompt.rs&quot;
+      },
+      {
+        &quot;label&quot;: &quot;ResponseItem结构&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs#L1025-L1166&quot;
+      }
+    ],
+    &quot;frames&quot;: [
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      },
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      }
+    ],
+    &quot;widget&quot;: {
+      &quot;type&quot;: &quot;message-trace&quot;,
+      &quot;prefixItems&quot;: [
+        &quot;base&quot;,
+        &quot;policy&quot;,
+        &quot;project&quot;
+      ],
+      &quot;prefixLabel&quot;: &quot;基础指令、权限与Skill目录、项目与环境&quot;,
+      &quot;toolsKey&quot;: &quot;initial&quot;,
+      &quot;steps&quot;: [
+        {
+          &quot;label&quot;: &quot;先看可用Skill&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;
+          ],
+          &quot;selected&quot;: &quot;policy&quot;,
+          &quot;added&quot;: [],
+          &quot;caption&quot;: &quot;目录指出Skill的用途和位置；完整步骤仍在磁盘文件中。&quot;,
+          &quot;requestKey&quot;: &quot;initial&quot;
+        },
+        {
+          &quot;label&quot;: &quot;再结合当前请求&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;
+          ],
+          &quot;selected&quot;: &quot;user&quot;,
+          &quot;added&quot;: [],
+          &quot;caption&quot;: &quot;用户要求创建教学Notebook骨架，与目录中的用途相符。&quot;,
+          &quot;requestKey&quot;: &quot;initial&quot;
+        }
+      ],
+      &quot;printHTML&quot;: &quot;&lt;pre class=\&quot;code small\&quot;&gt;type: message\nrole: user\n\n请为“Python列表与平均值”创建一个教学用的Jupyter Notebook骨架，先保留模板内容，并说明后续要补哪些内容。&lt;/pre&gt;&quot;
+    }
+  },
+  {
+    &quot;id&quot;: &quot;read-skill&quot;,
+    &quot;title&quot;: &quot;根据任务，读取SKILL.md&quot;,
+    &quot;chapter&quot;: 2,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;tool&quot;,
+      &quot;file-SKILL.md&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;ResponseItem结构&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs#L1025-L1166&quot;
+      }
+    ],
+    &quot;frames&quot;: [
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      },
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      }
+    ],
+    &quot;widget&quot;: {
+      &quot;type&quot;: &quot;message-trace&quot;,
+      &quot;prefixItems&quot;: [
+        &quot;base&quot;,
+        &quot;policy&quot;,
+        &quot;project&quot;
+      ],
+      &quot;prefixLabel&quot;: &quot;基础指令、权限与Skill目录、项目与环境&quot;,
+      &quot;toolsKey&quot;: &quot;initial&quot;,
+      &quot;steps&quot;: [
+        {
+          &quot;label&quot;: &quot;模型说明选用的Skill&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;,
+            &quot;intro&quot;
+          ],
+          &quot;selected&quot;: &quot;intro&quot;,
+          &quot;added&quot;: [
+            &quot;intro&quot;
+          ],
+          &quot;caption&quot;: &quot;这段说明由模型生成；随后还需要实际读取文件。&quot;,
+          &quot;requestKey&quot;: null
+        },
+        {
+          &quot;label&quot;: &quot;生成普通文件读取调用&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;,
+            &quot;intro&quot;,
+            &quot;call_skill&quot;
+          ],
+          &quot;selected&quot;: &quot;call_skill&quot;,
+          &quot;added&quot;: [
+            &quot;call_skill&quot;
+          ],
+          &quot;caption&quot;: &quot;模型生成exec_command调用，客户端把命令交给工具执行。&quot;,
+          &quot;requestKey&quot;: null
+        }
+      ],
+      &quot;printHTML&quot;: &quot;&lt;pre class=\&quot;code small\&quot;&gt;type: function_call\nname: exec_command\ncall_id: call_skill\narguments（JSON字符串）:\n  cmd: cat /workspace/course/.agents/skills/jupyter-notebook/SKILL.md\n  workdir: /workspace/course&lt;/pre&gt;&quot;
+    }
+  },
+  {
+    &quot;id&quot;: &quot;skill-return&quot;,
+    &quot;title&quot;: &quot;工具返回正文，下一次请求带上全文&quot;,
+    &quot;chapter&quot;: 2,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;request-after-skill&quot;,
+      &quot;file-SKILL.md&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;ResponseItem结构&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs#L1025-L1166&quot;
+      }
+    ],
+    &quot;frames&quot;: [
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      }
+    ],
+    &quot;widget&quot;: {
+      &quot;type&quot;: &quot;message-trace&quot;,
+      &quot;prefixItems&quot;: [
+        &quot;base&quot;,
+        &quot;policy&quot;,
+        &quot;project&quot;
+      ],
+      &quot;prefixLabel&quot;: &quot;基础指令、权限与Skill目录、项目与环境&quot;,
+      &quot;toolsKey&quot;: &quot;initial&quot;,
+      &quot;steps&quot;: [
+        {
+          &quot;label&quot;: &quot;SKILL.md内容进入对话&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;,
+            &quot;intro&quot;,
+            &quot;call_skill&quot;,
+            &quot;result_skill&quot;
+          ],
+          &quot;selected&quot;: &quot;result_skill&quot;,
+          &quot;added&quot;: [
+            &quot;result_skill&quot;
+          ],
+          &quot;caption&quot;: &quot;旧上下文继续保留；新工具结果提供完整Skill正文。&quot;,
+          &quot;requestKey&quot;: &quot;after-skill&quot;
+        }
+      ],
+      &quot;printHTML&quot;: &quot;&lt;pre class=\&quot;code small\&quot;&gt;type: function_call_output\ncall_id: call_skill\noutput（原文节选）:\n\n## Decision tree\n- If the request is instructional,\n  step-by-step, or audience-specific,\n  choose `tutorial`.&lt;/pre&gt;&quot;
+    }
+  },
+  {
+    &quot;id&quot;: &quot;follow-paths&quot;,
+    &quot;title&quot;: &quot;正文给出后续文件和脚本的位置&quot;,
+    &quot;chapter&quot;: 2,
+    &quot;kind&quot;: &quot;content&quot;,
+    &quot;body&quot;: &quot;&lt;div class=\&quot;cols\&quot;&gt;&lt;section&gt;&lt;h2&gt;这次是教学任务&lt;/h2&gt;&lt;pre class=\&quot;code small\&quot;&gt;If the request is instructional,\nstep-by-step, or audience-specific,\nchoose `tutorial`.&lt;/pre&gt;&lt;p class=\&quot;\&quot;&gt;选择tutorial模式。&lt;/p&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;继续找到相关材料&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;参考：tutorial-patterns.md&lt;/li&gt;&lt;li&gt;脚本：new_notebook.py&lt;/li&gt;&lt;li&gt;模板：tutorial-template.ipynb&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;/div&gt;&lt;p class=\&quot;callout\&quot;&gt;本例继续读取教学参考；实验任务的reference此时不需要加载。&lt;/p&gt;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;file-SKILL.md&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;真实jupyter-notebook包&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/SKILL.md&quot;
+      }
+    ]
+  },
+  {
+    &quot;id&quot;: &quot;read-reference&quot;,
+    &quot;title&quot;: &quot;再读教学Notebook的参考要求&quot;,
+    &quot;chapter&quot;: 2,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;request-after-reference&quot;,
+      &quot;file-references/tutorial-patterns.md&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;教学Notebook参考&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/references/tutorial-patterns.md&quot;
+      },
+      {
+        &quot;label&quot;: &quot;ResponseItem结构&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs#L1025-L1166&quot;
+      }
+    ],
+    &quot;frames&quot;: [
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      },
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      }
+    ],
+    &quot;widget&quot;: {
+      &quot;type&quot;: &quot;message-trace&quot;,
+      &quot;prefixItems&quot;: [
+        &quot;base&quot;,
+        &quot;policy&quot;,
+        &quot;project&quot;
+      ],
+      &quot;prefixLabel&quot;: &quot;基础指令、权限与Skill目录、项目与环境&quot;,
+      &quot;toolsKey&quot;: &quot;initial&quot;,
+      &quot;steps&quot;: [
+        {
+          &quot;label&quot;: &quot;模型请求教学参考&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;,
+            &quot;intro&quot;,
+            &quot;call_skill&quot;,
+            &quot;result_skill&quot;,
+            &quot;call_reference&quot;
+          ],
+          &quot;selected&quot;: &quot;call_reference&quot;,
+          &quot;added&quot;: [
+            &quot;call_reference&quot;
+          ],
+          &quot;caption&quot;: &quot;路径来自刚读到的Skill正文。&quot;,
+          &quot;requestKey&quot;: null
+        },
+        {
+          &quot;label&quot;: &quot;工具返回参考内容&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;,
+            &quot;intro&quot;,
+            &quot;call_skill&quot;,
+            &quot;result_skill&quot;,
+            &quot;call_reference&quot;,
+            &quot;result_reference&quot;
+          ],
+          &quot;selected&quot;: &quot;result_reference&quot;,
+          &quot;added&quot;: [
+            &quot;result_reference&quot;
+          ],
+          &quot;caption&quot;: &quot;教学要求进入后续input；未读取的参考文件仍留在磁盘上。&quot;,
+          &quot;requestKey&quot;: &quot;after-reference&quot;
+        }
+      ],
+      &quot;printHTML&quot;: &quot;&lt;pre class=\&quot;code small\&quot;&gt;type: function_call_output\ncall_id: call_reference\noutput（内容概要）:\n\n写明对象、前置知识和学习目标。\n用简短说明配合小段代码。\n加入练习、答案骨架与常见错误。\n\n完整工具返回保留英文原文。&lt;/pre&gt;&quot;
+    }
+  },
+  {
+    &quot;id&quot;: &quot;run-script&quot;,
+    &quot;title&quot;: &quot;Skill里的脚本通过工具执行&quot;,
+    &quot;chapter&quot;: 2,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;file-scripts/new_notebook.py&quot;,
+      &quot;execution&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;骨架生成脚本&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/scripts/new_notebook.py&quot;
+      },
+      {
+        &quot;label&quot;: &quot;exec_command定义&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/core/src/tools/handlers/shell_spec.rs#L23-L124&quot;
+      }
+    ],
+    &quot;frames&quot;: [
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      }
+    ],
+    &quot;widget&quot;: {
+      &quot;type&quot;: &quot;message-trace&quot;,
+      &quot;prefixItems&quot;: [
+        &quot;base&quot;,
+        &quot;policy&quot;,
+        &quot;project&quot;
+      ],
+      &quot;prefixLabel&quot;: &quot;基础指令、权限与Skill目录、项目与环境&quot;,
+      &quot;toolsKey&quot;: &quot;initial&quot;,
+      &quot;steps&quot;: [
+        {
+          &quot;label&quot;: &quot;生成执行命令&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;,
+            &quot;intro&quot;,
+            &quot;call_skill&quot;,
+            &quot;result_skill&quot;,
+            &quot;call_reference&quot;,
+            &quot;result_reference&quot;,
+            &quot;call_create&quot;
+          ],
+          &quot;selected&quot;: &quot;call_create&quot;,
+          &quot;added&quot;: [
+            &quot;call_create&quot;
+          ],
+          &quot;caption&quot;: &quot;--kind选择tutorial，--title设置标题，--out指定产物路径。&quot;,
+          &quot;requestKey&quot;: null
+        }
+      ],
+      &quot;printHTML&quot;: &quot;&lt;pre class=\&quot;code small\&quot;&gt;type: function_call\nname: exec_command\ncall_id: call_create\narguments（JSON字符串）:\n  cmd: python3 .agents/skills/jupyter-notebook/scripts/new_notebook.py --kind tutorial --title &amp;#x27;Python列表与平均值&amp;#x27; --out output/jupyter-notebook/python-lists-and-mean.ipynb\n  workdir: /workspace/course&lt;/pre&gt;&quot;
+    }
+  },
+  {
+    &quot;id&quot;: &quot;script-files&quot;,
+    &quot;title&quot;: &quot;脚本读取模板并写出Notebook&quot;,
+    &quot;chapter&quot;: 2,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;file-scripts/new_notebook.py&quot;,
+      &quot;file-assets/tutorial-template.ipynb&quot;,
+      &quot;execution&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;骨架生成脚本&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/scripts/new_notebook.py&quot;
+      }
+    ],
+    &quot;frames&quot;: [
+      {
+        &quot;label&quot;: &quot;脚本在文件系统中工作&quot;,
+        &quot;html&quot;: &quot;&lt;div class=\&quot;cols\&quot;&gt;&lt;section&gt;&lt;h2&gt;程序读取&lt;/h2&gt;&lt;p class=\&quot;path-line\&quot;&gt;assets/tutorial-template.ipynb&lt;/p&gt;&lt;p class=\&quot;\&quot;&gt;加载7个单元的模板结构。&lt;/p&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;程序写入&lt;/h2&gt;&lt;p class=\&quot;path-line\&quot;&gt;output/jupyter-notebook/\npython-lists-and-mean.ipynb&lt;/p&gt;&lt;p class=\&quot;\&quot;&gt;替换首个标题，保存新文件。&lt;/p&gt;&lt;/section&gt;&lt;/div&gt;&lt;p class=\&quot;callout\&quot;&gt;这一步由Python程序完成；模板全文没有因此自动进入模型输入。&lt;/p&gt;&quot;
+      },
+      {
+        &quot;label&quot;: &quot;模型输入怎样变化&quot;,
+        &quot;html&quot;: &quot;&lt;div class=\&quot;cols\&quot;&gt;&lt;section&gt;&lt;h2&gt;执行前&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;模型已经读取Skill正文。&lt;/li&gt;&lt;li&gt;模型已经读取教学参考。&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;执行后&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;工具返回命令输出。&lt;/li&gt;&lt;li&gt;模型先收到“文件写在哪里”。&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;/div&gt;&lt;p class=\&quot;callout\&quot;&gt;如果还要判断文件里写了什么，可以继续读取产物。&lt;/p&gt;&quot;
+      }
+    ]
+  },
+  {
+    &quot;id&quot;: &quot;script-result&quot;,
+    &quot;title&quot;: &quot;执行结果先告诉模型文件写在哪里&quot;,
+    &quot;chapter&quot;: 2,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;request-after-create&quot;,
+      &quot;execution&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;骨架生成脚本&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/scripts/new_notebook.py&quot;
+      },
+      {
+        &quot;label&quot;: &quot;ResponseItem结构&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs#L1025-L1166&quot;
+      }
+    ],
+    &quot;frames&quot;: [
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      }
+    ],
+    &quot;widget&quot;: {
+      &quot;type&quot;: &quot;message-trace&quot;,
+      &quot;prefixItems&quot;: [
+        &quot;base&quot;,
+        &quot;policy&quot;,
+        &quot;project&quot;
+      ],
+      &quot;prefixLabel&quot;: &quot;基础指令、权限与Skill目录、项目与环境&quot;,
+      &quot;toolsKey&quot;: &quot;initial&quot;,
+      &quot;steps&quot;: [
+        {
+          &quot;label&quot;: &quot;程序完成，工具返回输出&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;,
+            &quot;intro&quot;,
+            &quot;call_skill&quot;,
+            &quot;result_skill&quot;,
+            &quot;call_reference&quot;,
+            &quot;result_reference&quot;,
+            &quot;call_create&quot;,
+            &quot;result_create&quot;
+          ],
+          &quot;selected&quot;: &quot;result_create&quot;,
+          &quot;added&quot;: [
+            &quot;result_create&quot;
+          ],
+          &quot;caption&quot;: &quot;骨架文件已经写入磁盘；本次stdout没有返回Notebook全部内容。&quot;,
+          &quot;requestKey&quot;: &quot;after-create&quot;
+        }
+      ],
+      &quot;printHTML&quot;: &quot;&lt;pre class=\&quot;code small\&quot;&gt;type: function_call_output\ncall_id: call_create\noutput:\n\nWrote /workspace/course/output/jupyter-notebook/python-lists-and-mean.ipynb using kind=tutorial.\n&lt;/pre&gt;&quot;
+    }
+  },
+  {
+    &quot;id&quot;: &quot;read-checklist&quot;,
+    &quot;title&quot;: &quot;继续读取检查要求&quot;,
+    &quot;chapter&quot;: 2,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;file-references/quality-checklist.md&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;ResponseItem结构&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs#L1025-L1166&quot;
+      }
+    ],
+    &quot;frames&quot;: [
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      },
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      }
+    ],
+    &quot;widget&quot;: {
+      &quot;type&quot;: &quot;message-trace&quot;,
+      &quot;prefixItems&quot;: [
+        &quot;base&quot;,
+        &quot;policy&quot;,
+        &quot;project&quot;
+      ],
+      &quot;prefixLabel&quot;: &quot;基础指令、权限与Skill目录、项目与环境&quot;,
+      &quot;toolsKey&quot;: &quot;initial&quot;,
+      &quot;steps&quot;: [
+        {
+          &quot;label&quot;: &quot;模型读取检查清单&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;,
+            &quot;intro&quot;,
+            &quot;call_skill&quot;,
+            &quot;result_skill&quot;,
+            &quot;call_reference&quot;,
+            &quot;result_reference&quot;,
+            &quot;call_create&quot;,
+            &quot;result_create&quot;,
+            &quot;call_checklist&quot;
+          ],
+          &quot;selected&quot;: &quot;call_checklist&quot;,
+          &quot;added&quot;: [
+            &quot;call_checklist&quot;
+          ],
+          &quot;caption&quot;: &quot;Skill正文给出quality-checklist.md入口。&quot;,
+          &quot;requestKey&quot;: null
+        },
+        {
+          &quot;label&quot;: &quot;工具返回检查要求&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;,
+            &quot;intro&quot;,
+            &quot;call_skill&quot;,
+            &quot;result_skill&quot;,
+            &quot;call_reference&quot;,
+            &quot;result_reference&quot;,
+            &quot;call_create&quot;,
+            &quot;result_create&quot;,
+            &quot;call_checklist&quot;,
+            &quot;result_checklist&quot;
+          ],
+          &quot;selected&quot;: &quot;result_checklist&quot;,
+          &quot;added&quot;: [
+            &quot;result_checklist&quot;
+          ],
+          &quot;caption&quot;: &quot;按本次骨架任务检查文件，并说明尚待补充和验证的内容。&quot;,
+          &quot;requestKey&quot;: &quot;after-checklist&quot;
+        }
+      ],
+      &quot;printHTML&quot;: &quot;&lt;pre class=\&quot;code small\&quot;&gt;type: function_call_output\ncall_id: call_checklist\noutput（内容概要）:\n\n检查运行顺序与所需状态；\n控制输出长度；\n保留清楚的标题和说明；\n尚待完成的内容要写明。\n\n完整工具返回保留英文原文。&lt;/pre&gt;&quot;
+    }
+  },
+  {
+    &quot;id&quot;: &quot;read-output&quot;,
+    &quot;title&quot;: &quot;打开生成文件，检查实际内容&quot;,
+    &quot;chapter&quot;: 2,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;output&quot;,
+      &quot;request-after-notebook&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;ResponseItem结构&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs#L1025-L1166&quot;
+      }
+    ],
+    &quot;frames&quot;: [
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      },
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      }
+    ],
+    &quot;widget&quot;: {
+      &quot;type&quot;: &quot;message-trace&quot;,
+      &quot;prefixItems&quot;: [
+        &quot;base&quot;,
+        &quot;policy&quot;,
+        &quot;project&quot;
+      ],
+      &quot;prefixLabel&quot;: &quot;基础指令、权限与Skill目录、项目与环境&quot;,
+      &quot;toolsKey&quot;: &quot;initial&quot;,
+      &quot;steps&quot;: [
+        {
+          &quot;label&quot;: &quot;模型请求读取产物&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;,
+            &quot;intro&quot;,
+            &quot;call_skill&quot;,
+            &quot;result_skill&quot;,
+            &quot;call_reference&quot;,
+            &quot;result_reference&quot;,
+            &quot;call_create&quot;,
+            &quot;result_create&quot;,
+            &quot;call_checklist&quot;,
+            &quot;result_checklist&quot;,
+            &quot;call_notebook&quot;
+          ],
+          &quot;selected&quot;: &quot;call_notebook&quot;,
+          &quot;added&quot;: [
+            &quot;call_notebook&quot;
+          ],
+          &quot;caption&quot;: &quot;这次读取的是刚生成的Notebook。&quot;,
+          &quot;requestKey&quot;: null
+        },
+        {
+          &quot;label&quot;: &quot;文件内容进入后续输入&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;,
+            &quot;intro&quot;,
+            &quot;call_skill&quot;,
+            &quot;result_skill&quot;,
+            &quot;call_reference&quot;,
+            &quot;result_reference&quot;,
+            &quot;call_create&quot;,
+            &quot;result_create&quot;,
+            &quot;call_checklist&quot;,
+            &quot;result_checklist&quot;,
+            &quot;call_notebook&quot;,
+            &quot;result_notebook&quot;
+          ],
+          &quot;selected&quot;: &quot;result_notebook&quot;,
+          &quot;added&quot;: [
+            &quot;result_notebook&quot;
+          ],
+          &quot;caption&quot;: &quot;模型此时才能依据实际单元内容，说明哪些位置仍是模板。&quot;,
+          &quot;requestKey&quot;: &quot;after-notebook&quot;
+        }
+      ],
+      &quot;printHTML&quot;: &quot;&lt;pre class=\&quot;code small\&quot;&gt;type: function_call_output\ncall_id: call_notebook\noutput（从JSON提取的内容）:\n\n# Tutorial: Python列表与平均值\n\nAudience:\n- Describe who this is for.\n\n正文仍有模板占位内容。&lt;/pre&gt;&quot;
+    }
+  },
+  {
+    &quot;id&quot;: &quot;notebook&quot;,
+    &quot;title&quot;: &quot;骨架里仍保留模板占位内容&quot;,
+    &quot;chapter&quot;: 2,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;七个单元可分别查看；标题已改，正弦示例和练习骨架保留。上游脚本仅生成骨架，没有自动填写列表求平均值教程。&quot;,
+    &quot;materials&quot;: [
+      &quot;output&quot;,
+      &quot;execution&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;骨架生成脚本&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/scripts/new_notebook.py&quot;
+      }
+    ],
+    &quot;widget&quot;: {
+      &quot;type&quot;: &quot;notebook-reader&quot;,
+      &quot;printHTML&quot;: &quot;&lt;pre class=\&quot;code small\&quot;&gt;# Tutorial: Python列表与平均值\n\nAudience:\n- Describe who this is for.\n\nPrerequisites:\n- List required concepts or setup.\n\nLearning goals:\n- By the end, the reader can...\n&lt;/pre&gt;&quot;
+    }
+  },
+  {
+    &quot;id&quot;: &quot;answer&quot;,
+    &quot;title&quot;: &quot;模型根据实际结果回答&quot;,
+    &quot;chapter&quot;: 2,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;complete&quot;,
+      &quot;output&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;ResponseItem结构&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs#L1025-L1166&quot;
+      }
+    ],
+    &quot;frames&quot;: [
+      {
+        &quot;label&quot;: &quot;&quot;,
+        &quot;html&quot;: &quot;&quot;
+      }
+    ],
+    &quot;widget&quot;: {
+      &quot;type&quot;: &quot;message-trace&quot;,
+      &quot;prefixItems&quot;: [
+        &quot;base&quot;,
+        &quot;policy&quot;,
+        &quot;project&quot;
+      ],
+      &quot;prefixLabel&quot;: &quot;基础指令、权限与Skill目录、项目与环境&quot;,
+      &quot;toolsKey&quot;: &quot;initial&quot;,
+      &quot;steps&quot;: [
+        {
+          &quot;label&quot;: &quot;说明已完成与待补内容&quot;,
+          &quot;items&quot;: [
+            &quot;user&quot;,
+            &quot;intro&quot;,
+            &quot;call_skill&quot;,
+            &quot;result_skill&quot;,
+            &quot;call_reference&quot;,
+            &quot;result_reference&quot;,
+            &quot;call_create&quot;,
+            &quot;result_create&quot;,
+            &quot;call_checklist&quot;,
+            &quot;result_checklist&quot;,
+            &quot;call_notebook&quot;,
+            &quot;result_notebook&quot;,
+            &quot;answer&quot;
+          ],
+          &quot;selected&quot;: &quot;answer&quot;,
+          &quot;added&quot;: [
+            &quot;answer&quot;
+          ],
+          &quot;caption&quot;: &quot;回答依据前面的Skill、参考要求、命令输出和产物内容。&quot;,
+          &quot;requestKey&quot;: null
+        }
+      ],
+      &quot;printHTML&quot;: &quot;&lt;pre class=\&quot;code small\&quot;&gt;role: assistant\ncontent: output_text\n回答概要：\n\n已创建Notebook，含7个模板单元。\n标题已更新，其余保留模板内容。\n待补：背景、目标、列表求平均值示例、练习。\n\nNotebook代码单元尚未执行。&lt;/pre&gt;&quot;
+    }
+  },
+  {
+    &quot;id&quot;: &quot;disclosure&quot;,
+    &quot;title&quot;: &quot;回看：输入怎样一步步增加&quot;,
+    &quot;chapter&quot;: 3,
+    &quot;kind&quot;: &quot;demo&quot;,
+    &quot;body&quot;: &quot;&quot;,
+    &quot;notes&quot;: &quot;完整材料可展开；公开文件、教学消息与实际本地执行的区别见来源说明。&quot;,
+    &quot;materials&quot;: [
+      &quot;request-initial&quot;,
+      &quot;request-after-skill&quot;,
+      &quot;request-after-notebook&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;Skills目录与渐进式披露规则&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/ext/skills/src/catalog_prompt.rs&quot;
+      },
+      {
+        &quot;label&quot;: &quot;真实jupyter-notebook包&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/SKILL.md&quot;
+      }
+    ],
+    &quot;frames&quot;: [
+      {
+        &quot;label&quot;: &quot;先看目录&quot;,
+        &quot;html&quot;: &quot;&lt;table class=\&quot;stage-table\&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;阶段&lt;/th&gt;&lt;th&gt;模型新增看到什么&lt;/th&gt;&lt;th&gt;还有什么未自动进入&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr class=\&quot;active\&quot;&gt;&lt;td&gt;可用Skill目录&lt;/td&gt;&lt;td&gt;名称、用途、文件入口&lt;/td&gt;&lt;td&gt;尚未读取正文&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;读取SKILL.md后&lt;/td&gt;&lt;td&gt;工作步骤、脚本与参考路径&lt;/td&gt;&lt;td&gt;其他文件仍未自动加载&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;继续读取与执行后&lt;/td&gt;&lt;td&gt;相关参考、工具输出、产物内容&lt;/td&gt;&lt;td&gt;未读取的脚本源码与其他文件&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p class=\&quot;callout\&quot;&gt;目录用于判断是否值得打开这个Skill。&lt;/p&gt;&quot;
+      },
+      {
+        &quot;label&quot;: &quot;再读入口&quot;,
+        &quot;html&quot;: &quot;&lt;table class=\&quot;stage-table\&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;阶段&lt;/th&gt;&lt;th&gt;模型新增看到什么&lt;/th&gt;&lt;th&gt;还有什么未自动进入&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;可用Skill目录&lt;/td&gt;&lt;td&gt;名称、用途、文件入口&lt;/td&gt;&lt;td&gt;尚未读取正文&lt;/td&gt;&lt;/tr&gt;&lt;tr class=\&quot;active\&quot;&gt;&lt;td&gt;读取SKILL.md后&lt;/td&gt;&lt;td&gt;工作步骤、脚本与参考路径&lt;/td&gt;&lt;td&gt;其他文件仍未自动加载&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;继续读取与执行后&lt;/td&gt;&lt;td&gt;相关参考、工具输出、产物内容&lt;/td&gt;&lt;td&gt;未读取的脚本源码与其他文件&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p class=\&quot;callout\&quot;&gt;读取正文后，模型知道可以去哪里找具体方法。&lt;/p&gt;&quot;
+      },
+      {
+        &quot;label&quot;: &quot;按任务继续展开&quot;,
+        &quot;html&quot;: &quot;&lt;table class=\&quot;stage-table\&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;阶段&lt;/th&gt;&lt;th&gt;模型新增看到什么&lt;/th&gt;&lt;th&gt;还有什么未自动进入&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;可用Skill目录&lt;/td&gt;&lt;td&gt;名称、用途、文件入口&lt;/td&gt;&lt;td&gt;尚未读取正文&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;读取SKILL.md后&lt;/td&gt;&lt;td&gt;工作步骤、脚本与参考路径&lt;/td&gt;&lt;td&gt;其他文件仍未自动加载&lt;/td&gt;&lt;/tr&gt;&lt;tr class=\&quot;active\&quot;&gt;&lt;td&gt;继续读取与执行后&lt;/td&gt;&lt;td&gt;相关参考、工具输出、产物内容&lt;/td&gt;&lt;td&gt;未读取的脚本源码与其他文件&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p class=\&quot;callout\&quot;&gt;这就是渐进式披露：先提供入口，随后只展开当前需要的材料。&lt;/p&gt;&quot;
+      }
+    ]
+  },
+  {
+    &quot;id&quot;: &quot;skill-tools&quot;,
+    &quot;title&quot;: &quot;Skill说明方法，工具完成操作&quot;,
+    &quot;chapter&quot;: 3,
+    &quot;kind&quot;: &quot;content&quot;,
+    &quot;body&quot;: &quot;&lt;div class=\&quot;cols\&quot;&gt;&lt;section&gt;&lt;h2&gt;Skill中的内容&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;这类任务适合什么流程。&lt;/li&gt;&lt;li&gt;需要哪份参考和模板。&lt;/li&gt;&lt;li&gt;用哪个脚本、怎样检查结果。&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;本例中的工具操作&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;exec_command读取Markdown。&lt;/li&gt;&lt;li&gt;exec_command运行Python脚本。&lt;/li&gt;&lt;li&gt;exec_command读取生成文件。&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;/div&gt;&lt;p class=\&quot;callout\&quot;&gt;本次“使用Skill”的过程，可以拆成具体文本、连续消息和实际文件操作。&lt;/p&gt;&lt;button class=\&quot;text-button\&quot; data-material=\&quot;complete\&quot;&gt;回看完整示例消息&lt;/button&gt;&quot;,
+    &quot;notes&quot;: &quot;本例是本地host Skill隐式读取路径。固定版本另有显式注入、executor/cloud专用工具等路径，不以本页概括所有实现。&quot;,
+    &quot;materials&quot;: [
+      &quot;complete&quot;,
+      &quot;catalog&quot;,
+      &quot;tool&quot;,
+      &quot;notice&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;label&quot;: &quot;ResponseItem结构&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/codex/blob/21c16161191ff965031d1ac41fe9046011610743/codex-rs/protocol/src/models.rs#L1025-L1166&quot;
+      },
+      {
+        &quot;label&quot;: &quot;真实jupyter-notebook包&quot;,
+        &quot;url&quot;: &quot;https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/SKILL.md&quot;
+      }
+    ]
+  }
+]</pre></html>

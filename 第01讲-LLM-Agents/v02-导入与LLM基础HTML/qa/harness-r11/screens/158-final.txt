@@ -1,0 +1,44 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=158&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=158&s=1
+	2 container
+		42 container 第158页 文件编辑后，自动整理格式
+			43 heading 文件编辑后，自动整理格式, Value: 1
+				44 text 文件编辑后，自动整理格式
+			45 container 课件内容
+				46 container
+					47 text Claude Code中，可在文件编辑成功后，用Hook自动调用Prettier整理格式。
+					48 image Edit或Write编辑成功，触发Hook，Prettier整理刚编辑的文件
+					49 text 触发条件：Edit或Write成功　　执行动作：整理该文件的缩进、换行等格式。 格式程序处理格式；内容是否准确、功能是否正确，仍按任务要求检查。
+			50 container 课程进度
+				51 button 导入
+				52 button 1. LLM基础
+				53 button 2. Prompting
+				54 button 3. Agents · Externalization & Internalization
+					55 text 3. Agents 
+					56 text · Externalization & Internalization
+				57 button 3.0 外化与内化总览
+				58 button 3.1 工具调用
+				59 button 3.2 Memory
+				60 button 3.3 Skills
+				61 button 3.4 Protocols
+				62 button 3.5 Harness
+				63 button 3.6 外化与内化整合
+				64 button 3.7 全讲总结
+		27 container Description: 课件操作, ID: controls
+			28 button Description: 上一步, Help: 上一步（←）
+			29 button Description: 下一步, Help: 下一步（→或空格）
+			30 container jump-form
+				31 text 页码
+				32 stepper (settable, integer) Description: 页码, Value: 158, ID: page-input
+				33 text / 175
+			65 text 整页显示
+			35 button 目录
+			36 button 讲者备注
+			37 button 完整材料
+			38 button 放大图解
+			39 button 全屏
+			40 button 隐藏, Help: 按H恢复
+			41 button 操作说明
+		66 text 第158页，文件编辑后，自动整理格式，整页显示
+
+The focused UI element is 29 button Description: 下一步, Help: 下一步（→或空格）

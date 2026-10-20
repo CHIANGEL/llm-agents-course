@@ -1,0 +1,57 @@
+[
+  {
+    "strategy": "model-write-prompt",
+    "run_index": 63,
+    "exact_non_placeholder_text": true
+  },
+  {
+    "strategy": "socratic",
+    "run_index": 13,
+    "exact_non_placeholder_text": true
+  },
+  {
+    "strategy": "two-layer",
+    "run_index": 19,
+    "exact_non_placeholder_text": true
+  },
+  {
+    "strategy": "reverse-deconstruction",
+    "run_index": 21,
+    "exact_non_placeholder_text": true
+  },
+  {
+    "strategy": "horizontal-vertical",
+    "run_index": 25,
+    "exact_non_placeholder_text": true
+  },
+  {
+    "strategy": "fact-checking",
+    "run_index": 57,
+    "exact_non_placeholder_text": true
+  },
+  {
+    "strategy": "expert-consultation",
+    "run_index": 59,
+    "exact_non_placeholder_text": true
+  },
+  {
+    "strategy": "first-principles",
+    "run_index": 39,
+    "exact_non_placeholder_text": true
+  },
+  {
+    "strategy": "cross-domain",
+    "run_index": 41,
+    "exact_non_placeholder_text": true
+  },
+  {
+    "strategy": "steelman",
+    "run_index": 47,
+    "exact_non_placeholder_text": true
+  },
+  {
+    "strategy": "minimum-experiment",
+    "run_index": 61,
+    "exact_non_placeholder_text": true
+  }
+]

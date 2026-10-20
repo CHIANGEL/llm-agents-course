@@ -1,0 +1,73 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=95&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=95&s=1
+	2 container
+		55 container Description: 第95页 摘要足够吗？哪些内容还要查？, ID: mount
+			56 container 第95页 摘要足够吗？哪些内容还要查？
+				57 heading 摘要足够吗？哪些内容还要查？, Value: 1
+					58 text 摘要足够吗？哪些内容还要查？
+				59 container 课件内容
+					60 container
+						61 text 同一份摘要，有的信息已经够用，有的信息只提供了查阅入口。
+						62 table
+							63 row
+								64 cell
+									65 text 摘要里是什么
+								66 cell
+									67 text 本次怎样处理
+								68 cell
+									69 text 为什么
+							70 row
+								71 cell
+									72 text 先结论、后依据；金额用人民币
+								73 cell
+									74 text 直接用于采购评审的表达
+								75 cell
+									76 text 内容已在输入中，适用范围清楚
+							77 row
+								78 cell
+									79 text 项目已完成20人试点
+								80 cell
+									81 text 作为项目背景
+								82 cell
+									83 text 解释为什么现在考虑扩大部署
+							84 row
+								85 cell
+									86 text pilot-budget.md：预算范围
+								87 cell
+									88 text 继续读取详细记录
+								89 cell
+									90 text 10万元能否沿用，会改变采购判断
+						91 text 找到入口
+						92 text 读取预算范围 security-requirements.md仍在磁盘上；只为回答预算问题，不必把所有历史文件都读一遍。
+				93 container 课程进度
+					94 button 导入
+					95 button 1. LLM基础
+					96 button 2. Prompting
+					97 button 3. Agents · Externalization & Internalization
+						98 text 3. Agents 
+						99 text · Externalization & Internalization
+					100 button 3.0 外化与内化总览
+					101 button 3.1 工具调用
+					102 button 3.2 Memory
+					103 button 3.3 Skills
+					104 button 3.4 Harness
+					105 button 3.5 外化与内化整合
+					106 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 95, ID: page-input
+				46 text / 151
+			107 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		108 text 第95页，摘要足够吗？哪些内容还要查？，整页显示
+
+The focused UI element is 55 container Description: 第95页 摘要足够吗？哪些内容还要查？, ID: mount

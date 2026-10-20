@@ -1,0 +1,17 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=42&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=42&s=1
+	2 container
+		3 container Description: 第42页 决策小结：条件比较与现实反馈, ID: mount
+			4 container 第42页 决策小结：条件比较与现实反馈
+				5 heading 决策小结：条件比较与现实反馈, Value: 1
+					6 text 决策小结：条件比较与现实反馈
+				7 container 课件内容
+					8 container
+						9 text 双方理由都成立时，比较成立条件；缺少决定性信息时，设计最小验证。 双向钢人论证 把两边理由说充分
+比较各自成立的条件
+找出会改变结论的变量 最小实验 选一个决定性的假设
+设计低成本、可逆行动
+取得现实反馈 用新信息更新判断与下一步行动 推理帮助找到关键条件；现实反馈帮助判断这些条件是否成立。
+		10 text 第42页，决策小结：条件比较与现实反馈，整页显示
+
+The focused UI element is 3 container Description: 第42页 决策小结：条件比较与现实反馈, ID: mount

@@ -1,0 +1,62 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-qa1#p=139&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-qa1#p=139&s=1
+	2 container
+		42 container Description: 第139页 天气查询：对照一次协议往返, ID: mount
+			43 container 第139页 天气查询：对照一次协议往返
+				44 heading 天气查询：对照一次协议往返, Value: 1
+					45 text 天气查询：对照一次协议往返
+				46 container 课件内容
+					47 container
+						48 text 同一次纽约天气查询，对照目录、调用和返回；原始消息可按需展开。
+						49 container
+							50 image MCP消息往返位于应用和服务之间
+							51 checkbox ① 索取工具目录, Value: 0
+							52 checkbox ② 返回工具说明, Value: 0
+							53 checkbox ③ 发起天气查询, Value: 1
+							54 checkbox ④ 返回天气内容, Value: 0
+							55 button 重置
+						56 checkbox 主要内容, Value: 1
+						57 checkbox 完整协议消息, Value: 0
+						58 heading 应用 → 天气服务, Value: 2
+							59 text 应用 → 天气服务
+						60 text 操作：tools/call
+
+工具：get_weather
+参数：location = New York
+
+请求编号：102。
+						61 text 模型给出工具名和参数后，应用把它们写入MCP请求。
+						62 text 请求与返回按编号配对；协议消息由应用和服务处理。
+				63 container 课程进度
+					64 button 导入
+					65 button 1. LLM基础
+					66 button 2. Prompting
+					67 button 3. Agents · Externalization & Internalization
+						68 text 3. Agents 
+						69 text · Externalization & Internalization
+					70 button 3.0 外化与内化总览
+					71 button 3.1 工具调用
+					72 button 3.2 Memory
+					73 button 3.3 Skills
+					74 button 3.4 Protocols
+					75 button 3.5 Harness
+					76 button 3.6 外化与内化整合
+					77 button 3.7 全讲总结
+		27 container Description: 课件操作, ID: controls
+			28 button Description: 上一步, Help: 上一步（←）
+			29 button Description: 下一步, Help: 下一步（→或空格）
+			30 container jump-form
+				31 text 页码
+				32 stepper (settable, integer) Description: 页码, Value: 139, ID: page-input
+				33 text / 177
+			78 text 整页显示
+			35 button 目录
+			36 button 讲者备注
+			37 button 完整材料
+			38 button 放大图解
+			39 button 全屏
+			40 button 隐藏, Help: 按H恢复
+			41 button 操作说明
+		79 text 第139页，天气查询：对照一次协议往返，整页显示
+
+The focused UI element is 42 container Description: 第139页 天气查询：对照一次协议往返, ID: mount

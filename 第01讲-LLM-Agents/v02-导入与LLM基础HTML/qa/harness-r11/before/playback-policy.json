@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-20",
+  "default": "full",
+  "description": "普通页进入即完整显示。只有需要比较不同时间或纠正前后结果的机制演示保留手动状态。pages 按 authoring_page 原稿编号匹配；source_steps 是原 renderer 的零起始状态编号。",
+  "pages": {
+    "123": {
+      "source_steps": [
+        1,
+        2,
+        3
+      ],
+      "reason": "三态分别把问题定位到输入、工具返回和结果解释；初态已展示完整记录链。"
+    }
+  }
+}

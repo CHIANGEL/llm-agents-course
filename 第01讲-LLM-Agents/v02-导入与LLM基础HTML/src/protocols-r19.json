@@ -1,0 +1,250 @@
+{
+  "pages": [
+    {
+      "page": 8001,
+      "renderer": 8001,
+      "navigation": "3.5",
+      "section": "Protocols·总览",
+      "type": "overview",
+      "title": "Protocols：不同系统怎样配合？",
+      "seconds": 75,
+      "show_sources": false,
+      "on_slide": [
+        "各自开发的系统，需要共同的交互规则。",
+        "MCP：连接工具与数据，统一能力说明、调用和返回。",
+        "A2A：委托另一个智能体，交代任务、补充信息、取得成果。"
+      ],
+      "talk": "承接Skills：方法已经说明清楚，工具与外部智能体怎样与当前应用配合？先用Web类比解释协议的作用，再区分MCP的工具接入与A2A的任务委托。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R19",
+          "locator": "见来源档案与逐页对应"
+        }
+      ]
+    },
+    {
+      "page": 8002,
+      "renderer": 8002,
+      "navigation": "3.5",
+      "section": "Protocols·为什么需要协议",
+      "type": "concept",
+      "title": "为什么换个浏览器，仍能打开同一个网站？",
+      "seconds": 110,
+      "show_sources": false,
+      "on_slide": [
+        "不同浏览器能打开同一个网站，因为双方遵守共同的Web标准与协议。",
+        "网站按共同约定处理请求并返回内容。",
+        "智能体也需要共同约定，让工具和服务能被不同兼容应用复用。"
+      ],
+      "talk": "不同浏览器与网站可以由不同团队开发，双方按共同的Web标准处理请求和内容。智能体应用与外部服务也需要共同约定。兼容需要双方支持相应标准，并完成连接与权限配置。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R19",
+          "locator": "见来源档案与逐页对应"
+        }
+      ]
+    },
+    {
+      "page": 8004,
+      "renderer": 8004,
+      "navigation": "3.5",
+      "section": "Protocols·MCP",
+      "type": "concept",
+      "title": "MCP：给工具调用一套统一的接入方式",
+      "seconds": 110,
+      "show_sources": false,
+      "on_slide": [
+        "MCP（Model Context Protocol）让AI应用按统一方式接入外部工具和数据。",
+        "统一说明有什么工具、需要什么输入、执行后返回什么。",
+        "工具仍负责具体操作；MCP减少应用与服务之间的重复对接。"
+      ],
+      "talk": "先回忆天气调用已有工具名称和输入。MCP进一步约定应用怎样取得这些说明、联系工具服务并接收结果。同一MCP服务可以供多个兼容应用使用，连接与权限仍需配置。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R19",
+          "locator": "见来源档案与逐页对应"
+        }
+      ]
+    },
+    {
+      "page": 8008,
+      "renderer": 8008,
+      "navigation": "3.5",
+      "section": "Protocols·MCP",
+      "type": "case",
+      "title": "一个MCP请求：查询纽约天气",
+      "seconds": 130,
+      "show_sources": false,
+      "on_slide": [
+        "MCP请求中的主要内容：tools/call；get_weather；location为New York。",
+        "天气工具执行，返回72°F、局部多云。",
+        "模型收到结果后生成天气回答。"
+      ],
+      "talk": "沿用前面天气示例的地点和天气内容。左侧只需读出动作、工具和地点，右侧解释服务执行与结果返回。MCP消息由应用组织发送，模型生成工具调用意图；两者不是同一个文本模板。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R19",
+          "locator": "见来源档案与逐页对应"
+        }
+      ]
+    },
+    {
+      "page": 8009,
+      "renderer": 8009,
+      "navigation": "3.5",
+      "section": "Protocols·MCP",
+      "type": "summary",
+      "title": "MCP让一次工具接入，可以被多个应用复用",
+      "seconds": 85,
+      "show_sources": false,
+      "on_slide": [
+        "服务按共同格式说明能力，兼容应用按统一方式调用。",
+        "工具继续查询、读取或执行操作，结果返回模型。",
+        "可用操作和可见数据由服务能力、账户权限决定。"
+      ],
+      "talk": "回应MCP总览：标准化的是工具接入和往来；具体天气、文件或业务操作仍由服务实现。归纳完工具接入，转到委托另一个智能体。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R19",
+          "locator": "见来源档案与逐页对应"
+        }
+      ]
+    },
+    {
+      "page": 8010,
+      "renderer": 8010,
+      "navigation": "3.5",
+      "section": "Protocols·A2A",
+      "type": "concept",
+      "title": "A2A：把任务委托给另一个智能体",
+      "seconds": 110,
+      "show_sources": false,
+      "on_slide": [
+        "A2A（Agent-to-Agent）约定独立智能体服务怎样接受和交付任务。",
+        "本方说明目标与已有信息；对方组织处理，返回问题、进度和成果。",
+        "调用工具指定操作，委托智能体交代任务。"
+      ],
+      "talk": "本方说明任务与已有信息，对方自行组织处理；双方交换必要的问题、进度与成果。对方内部可以有自己的模型、工具和记忆。MCP也能支持追问，区分两者要看工具接入与任务委托的分工。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R19",
+          "locator": "见来源档案与逐页对应"
+        }
+      ]
+    },
+    {
+      "page": 8012,
+      "renderer": 8012,
+      "navigation": "3.5",
+      "section": "Protocols·A2A",
+      "type": "case",
+      "title": "汇率任务：问清楚，再完成换算",
+      "seconds": 140,
+      "show_sources": false,
+      "on_slide": [
+        "任务：1美元能兑换多少？",
+        "汇率智能体询问目标货币；补充加元CAD。",
+        "同一任务继续查询，返回1 USD对应1.3739 CAD。",
+        "交互中可提出问题、报告进度、交付结果。"
+      ],
+      "talk": "使用A2A项目官方LangGraph Currency Agent README的多轮案例，金额与币种保持一致。1.3739是该案例返回值。讲清缺条件时任务暂停等待补充，补齐后对方调用自己的汇率工具。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R19",
+          "locator": "见来源档案与逐页对应"
+        }
+      ]
+    },
+    {
+      "page": 8015,
+      "renderer": 8015,
+      "navigation": "3.5",
+      "section": "Protocols·A2A",
+      "type": "summary",
+      "title": "MCP与A2A：两种连接可以同时存在",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "同一个智能体可以通过MCP查询天气，也可以通过A2A委托汇率换算。",
+        "对方智能体也可能通过MCP使用工具。",
+        "看本次连接是在接入工具，还是委托另一个智能体。"
+      ],
+      "talk": "当前智能体可以同时使用两种连接：通过MCP接入工具，通过A2A向其他智能体委托任务。对方智能体在自己的执行过程中，也可以选择MCP来接入工具。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R19",
+          "locator": "见来源档案与逐页对应"
+        }
+      ]
+    },
+    {
+      "page": 8017,
+      "renderer": 8017,
+      "navigation": "3.5",
+      "section": "Protocols·智能体互联网",
+      "type": "outlook",
+      "title": "趋势：从个人助手到智能体互联网",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "个人助手、平台服务智能体与第三方工具，可以逐步连接成一个生态。",
+        "个人助手结合每位用户的偏好、历史与当前任务，向平台服务智能体委托任务、接收结果。",
+        "美团等本地生活平台、淘宝等电商平台，可以通过服务智能体承接用户需求。",
+        "个人助手和平台服务智能体，都可以通过MCP调用地图、天气、搜索等第三方工具。",
+        "用户入口可能从App转向个人助手；平台需要让服务能被助手找到和调用。",
+        "生态能否形成，还取决于平台开放哪些服务、用户授予哪些权限。"
+      ],
+      "talk": "接回Memory部分的Persona Agent：每个人的助手保存不同的偏好、历史与任务信息。把上一页的两种连接放大，就能看到一种生态方向：助手向平台服务智能体委托任务，双方又都可以调用第三方工具。只需传递本次任务所需的信息，双方不必共享内部记忆。平台从直接接待用户，扩展到接待用户的助手，因而涉及入口、服务发现和交易关系的变化。前面平台限制智能体访问的案例，也说明这种连接取决于服务开放和用户授权。随后回到Protocols小结，再讨论Harness怎样组织这些连接。",
+      "sources": [
+        {
+          "id": "AGENT_INTERNET_R20",
+          "locator": "A2A与MCP的互补关系、官方平台能力资料、图形复用及趋势判断依据"
+        }
+      ]
+    },
+    {
+      "page": 8016,
+      "renderer": 8016,
+      "navigation": "3.5",
+      "section": "Protocols·小结",
+      "type": "summary",
+      "title": "Protocols小结：按共同规则连接外部系统",
+      "seconds": 75,
+      "show_sources": false,
+      "on_slide": [
+        "MCP统一工具能力说明、调用与返回。",
+        "A2A统一任务委托、补充信息与成果交付。",
+        "Harness组织这些连接，安排哪些工具可用、何时调用以及结果怎样进入下一轮输入。"
+      ],
+      "talk": "回到总览的三个问题：为什么需要共同规则、怎样连接工具、怎样委托另一个智能体。随后把工具、Memory、Skills、Protocols汇入Harness，讨论运行环境怎样安排工作。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R19",
+          "locator": "见来源档案与逐页对应"
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "8001": "Protocols：不同系统怎样配合？\n\n各自开发的系统，需要共同的交互规则。\n\nMCP：连接工具与数据，统一能力说明、调用和返回。\n\nA2A：委托另一个智能体，交代任务、补充信息、取得成果。",
+    "8002": "为什么换个浏览器，仍能打开同一个网站？\n\n不同浏览器能打开同一个网站，因为双方遵守共同的Web标准与协议。\n\n网站按共同约定处理请求并返回内容。\n\n智能体也需要共同约定，让工具和服务能被不同兼容应用复用。",
+    "8004": "MCP：给工具调用一套统一的接入方式\n\nMCP（Model Context Protocol）让AI应用按统一方式接入外部工具和数据。\n\n统一说明有什么工具、需要什么输入、执行后返回什么。\n\n工具仍负责具体操作；MCP减少应用与服务之间的重复对接。",
+    "8008": "一个MCP请求：查询纽约天气\n\nMCP请求中的主要内容：tools/call；get_weather；location为New York。\n\n天气工具执行，返回72°F、局部多云。\n\n模型收到结果后生成天气回答。\n\nMCP请求中的主要内容\n{\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"get_weather\",\n    \"arguments\": {\n      \"location\": \"New York\"\n    }\n  }\n}\n\n返回天气信息\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy",
+    "8009": "MCP让一次工具接入，可以被多个应用复用\n\n服务按共同格式说明能力，兼容应用按统一方式调用。\n\n工具继续查询、读取或执行操作，结果返回模型。\n\n可用操作和可见数据由服务能力、账户权限决定。",
+    "8010": "A2A：把任务委托给另一个智能体\n\nA2A（Agent-to-Agent）约定独立智能体服务怎样接受和交付任务。\n\n本方说明目标与已有信息；对方组织处理，返回问题、进度和成果。\n\n调用工具指定操作，委托智能体交代任务。",
+    "8012": "汇率任务：问清楚，再完成换算\n\n任务：1美元能兑换多少？\n\n汇率智能体询问目标货币；补充加元CAD。\n\n同一任务继续查询，返回1 USD对应1.3739 CAD。\n\n交互中可提出问题、报告进度、交付结果。",
+    "8015": "MCP与A2A：两种连接可以同时存在\n\n同一个智能体可以通过MCP查询天气，也可以通过A2A委托汇率换算。\n\n对方智能体也可能通过MCP使用工具。\n\n看本次连接是在接入工具，还是委托另一个智能体。",
+    "8016": "Protocols小结：按共同规则连接外部系统\n\nMCP统一工具能力说明、调用与返回。\n\nA2A统一任务委托、补充信息与成果交付。\n\nHarness组织这些连接，安排哪些工具可用、何时调用以及结果怎样进入下一轮输入。",
+    "8017": "趋势：从个人助手到智能体互联网\n\n个人助手、平台服务智能体与第三方工具，可以逐步连接成一个生态。\n\n个人助手结合每位用户的偏好、历史与当前任务，向平台服务智能体委托任务、接收结果。\n\n美团等本地生活平台、淘宝等电商平台，可以通过服务智能体承接用户需求。\n\n个人助手和平台服务智能体，都可以通过MCP调用地图、天气、搜索等第三方工具。\n\n用户入口可能从App转向个人助手；平台需要让服务能被助手找到和调用。\n\n生态能否形成，还取决于平台开放哪些服务、用户授予哪些权限。\n\nA2A等：向另一个智能体委托任务、接收结果。\nMCP：个人助手与平台服务智能体接入第三方工具。\n跨系统协作只传递本次任务所需信息，不必共享双方的内部记忆。"
+  },
+  "sources": {
+    "PROTOCOLS_R19": {
+      "title": "Protocols r19：官方资料与适配档案",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/tools-protocols-r19/来源与适配记录.md"
+    },
+    "AGENT_INTERNET_R20": {
+      "title": "智能体互联网 r20：来源与趋势判断依据",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/agent-internet-r20/来源与适配记录.md"
+    }
+  }
+}

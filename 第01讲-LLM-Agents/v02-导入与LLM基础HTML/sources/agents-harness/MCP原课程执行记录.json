@@ -1,0 +1,50 @@
+{
+  "timestamp_utc": "2026-10-14T09:22:52Z",
+  "case": "Read confirmed course grading proportions from a local file",
+  "model_called": false,
+  "client": "Small Python stdio recorder (source in case/run_mcp_case.py), not a Codex process",
+  "server_package": {
+    "name": "@modelcontextprotocol/server-filesystem",
+    "version": "1.0.0"
+  },
+  "sdk_version": "1.32.1",
+  "protocolVersion": "2025-06-18",
+  "transport": "stdio",
+  "argv": [
+    "/opt/homebrew/bin/node",
+    "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-MCP/v01-连接与调用演示/case/runtime/node_modules/@modelcontextprotocol/server-filesystem/dist/index.js",
+    "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-MCP/v01-连接与调用演示/case/workspace/course"
+  ],
+  "cwd": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-MCP/v01-连接与调用演示/case/workspace",
+  "allowed_directories": [
+    "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-MCP/v01-连接与调用演示/case/workspace/course"
+  ],
+  "display_path": {
+    "actual": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/专题-MCP/v01-连接与调用演示/case/workspace/course",
+    "teaching": "/workspace/course"
+  },
+  "server_exit_code": 0,
+  "tools_count": 14,
+  "selected_tool": "read_text_file",
+  "checks": {
+    "initialize_version_matches": true,
+    "tools_list_contains_read_text_file": true,
+    "text_result_matches_file": true,
+    "structuredContent_matches_file": true,
+    "access_scope_only_case_course_directory": true
+  },
+  "sha256": {
+    "workspace/course/course-info.md": "88cfdc379f65078cc719f892b423aec90fde5779906dd17f34be2edcf637736b",
+    "runtime/node_modules/@modelcontextprotocol/server-filesystem/dist/index.js": "68e6aae96c907bf00089dd48b9f2fdd06113e6588d9915f19852cb468f9296d8",
+    "runtime/package-lock.json": "7eba088332fbde3e933e9ea8991afeb57ffb00f389bc52a0dbd96d22d051d3d7"
+  },
+  "tools_call_timing": {
+    "duration_ms": 1.713,
+    "duration_seconds": 0.0017130000000000001,
+    "formatted_seconds": "0.0017",
+    "measurement": "Recorder tools/call send timestamp to receive callback timestamp; differs from exact Codex internal wall clock measurement",
+    "source": "raw/bidirectional.json",
+    "send_sequence": 6,
+    "receive_sequence": 7
+  }
+}

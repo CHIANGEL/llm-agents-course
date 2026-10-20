@@ -1,0 +1,75 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-final#p=137&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-final#p=137&s=1
+	2 container
+		53 container 第137页 先取得目录：工具名、用途与参数
+			54 heading 先取得目录：工具名、用途与参数, Value: 1
+				55 text 先取得目录：工具名、用途与参数
+			56 container 课件内容
+				57 container
+					58 text 连接建立后，应用先获取工具目录，才知道服务提供什么、调用时需要什么。
+					59 image 工具目录文件
+					60 text tools/list 请求工具目录
+					61 table
+						62 row
+							63 cell
+								64 text 目录中的说明
+							65 cell
+								66 text 天气工具
+							67 cell
+								68 text 模型据此判断
+						69 row
+							70 cell
+								71 text 名称
+							72 cell
+								73 text get_weather
+							74 cell
+								75 text 要调用哪个工具
+						76 row
+							77 cell
+								78 text 用途
+							79 cell
+								80 text 查询指定地点的天气
+							81 cell
+								82 text 是否适合当前任务
+						83 row
+							84 cell
+								85 text 参数要求
+							86 cell
+								87 text location：文字，必填
+							88 cell
+								89 text 调用时必须给出地点
+					90 text 应用保留名称、用途与参数要求，
+整理成模型能够使用的工具说明。 MCP还可提供资料（Resources）和提示模板（Prompts）；这里先看工具往返。 “工具可以做什么”先进入模型输入，模型才能结合任务选择调用。
+			91 container 课程进度
+				92 button 导入
+				93 button 1. LLM基础
+				94 button 2. Prompting
+				95 button 3. Agents · Externalization & Internalization
+					96 text 3. Agents 
+					97 text · Externalization & Internalization
+				98 button 3.0 外化与内化总览
+				99 button 3.1 工具调用
+				100 button 3.2 Memory
+				101 button 3.3 Skills
+				102 button 3.4 Protocols
+				103 button 3.5 Harness
+				104 button 3.6 外化与内化整合
+				105 button 3.7 全讲总结
+		38 container Description: 课件操作, ID: controls
+			39 button Description: 上一步, Help: 上一步（←）
+			40 button Description: 下一步, Help: 下一步（→或空格）
+			41 container jump-form
+				42 text 页码
+				43 stepper (settable, integer) Description: 页码, Value: 137, ID: page-input
+				44 text / 177
+			106 text 整页显示
+			46 button 目录
+			47 button 讲者备注
+			48 button 完整材料
+			49 button 放大图解
+			50 button 全屏
+			51 button 隐藏, Help: 按H恢复
+			52 button 操作说明
+		107 text 第137页，先取得目录：工具名、用途与参数，整页显示
+
+The focused UI element is 40 button Description: 下一步, Help: 下一步（→或空格）

@@ -1,0 +1,55 @@
+- main:
+  - article "第95页 平台对智能体的限制，已经在发生":
+    - heading "平台对智能体的限制，已经在发生" [level=1]
+    - region "课件内容":
+      - generic: 用户愿意把任务交给智能体，平台也可能限制它的访问和操作。
+      - generic: Axios · 2026.09.21
+      - heading "Amazon限制 Muse访问与购物" [level=3]:
+        - text: Amazon限制
+        - text: Muse访问与购物
+      - generic: Meta Muse
+      - generic: → ×
+      - generic: Amazon
+      - paragraph: 平台设置智能体访问边界。
+      - link "阅读报道 ↗":
+        - /url: https://www.axios.com/2026/09/21/amazon-meta-muse-ai-agentic-shopping
+      - generic: 界面新闻 · 2026.10.14
+      - heading "151款应用声明拒绝 豆包手机助手GUI操作" [level=3]:
+        - text: 151款应用声明拒绝
+        - text: 豆包手机助手GUI操作
+      - paragraph:
+        - text: 微信、淘宝、美团等在列。
+        - text: 开发者可按协议声明拒绝。
+      - paragraph: 限制的是自动操作，用户仍可手动使用App。
+      - link "阅读报道 ↗":
+        - /url: https://www.jiemian.com/article/15189349.html
+      - generic: 个人授权 → 智能体代办 → 平台是否允许 → 实际能否完成
+      - generic: 入口的变化已带来实际限制；能操作界面，还要取得相应的访问和操作空间。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "3.0 外化与内化总览"
+      - button "3.1 工具调用"
+      - button "3.2 Memory"
+      - button "3.3 Skills"
+      - button "3.4 Protocols"
+      - button "3.5 Harness"
+      - button "3.6 外化与内化整合"
+      - button "3.7 全讲总结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步": →
+  - generic: 页码
+  - spinbutton "页码": "95"
+  - generic: / 193
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第95页，平台对智能体的限制，已经在发生，整页显示

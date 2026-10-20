@@ -1,0 +1,136 @@
+[
+  {
+    "test": "Material index 55",
+    "pass": true,
+    "count": 6
+  },
+  {
+    "test": "Read 02_tools.py",
+    "pass": true,
+    "url": "http://127.0.0.1:8765/sources/file-readers/tool-1.html"
+  },
+  {
+    "test": "Read 05_parsed_call.json",
+    "pass": true,
+    "url": "http://127.0.0.1:8765/sources/file-readers/tool-2.html"
+  },
+  {
+    "test": "Read 06_tool_result.txt",
+    "pass": true,
+    "url": "http://127.0.0.1:8765/sources/file-readers/tool-3.html"
+  },
+  {
+    "test": "Read 07_messages_after_tool.json",
+    "pass": true,
+    "url": "http://127.0.0.1:8765/sources/file-readers/tool-4.html"
+  },
+  {
+    "test": "Read 10_final_messages.json",
+    "pass": true,
+    "url": "http://127.0.0.1:8765/sources/file-readers/tool-5.html"
+  },
+  {
+    "test": "Read execution_events.json",
+    "pass": true,
+    "url": "http://127.0.0.1:8765/sources/file-readers/tool-6.html"
+  },
+  {
+    "test": "Material index 76",
+    "pass": true,
+    "count": 3
+  },
+  {
+    "test": "Read memory_summary.md",
+    "pass": true,
+    "url": "http://127.0.0.1:8765/sources/file-readers/memory-1.html"
+  },
+  {
+    "test": "Read rollout_summaries/scope.md",
+    "pass": true,
+    "url": "http://127.0.0.1:8765/sources/file-readers/memory-2.html"
+  },
+  {
+    "test": "Read rollout_summaries/style.md",
+    "pass": true,
+    "url": "http://127.0.0.1:8765/sources/file-readers/memory-3.html"
+  },
+  {
+    "test": "Directory to material scroll reset",
+    "pass": true
+  },
+  {
+    "test": "Reopen material reset",
+    "pass": true
+  },
+  {
+    "test": "Visible controls outside slide",
+    "pass": true,
+    "layout": {
+      "slideBottom": 832,
+      "controlTop": 840.25,
+      "overlap": false
+    }
+  },
+  {
+    "test": "Official source CASE_FIN",
+    "clicked": true,
+    "requested": "https://claude.com/resources/articles/integrations",
+    "url": "https://claude.com/resources/articles/integrations",
+    "title": "Claude can now connect to your world | Claude by Anthropic",
+    "issue": null,
+    "readable_in_browser": null,
+    "display_review": "本机截图仅导航，IAB读取超时；只确认链接触发，不计正文可读通过。已增加本地来源阅读页。"
+  },
+  {
+    "test": "Official source CASE_AWS",
+    "clicked": true,
+    "requested": "https://aws.amazon.com/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/",
+    "url": "https://aws.amazon.com/cn/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/",
+    "title": "Move your AI agents from proof of concept to production with Amazon Bedrock AgentCore | Artificial Intelligence",
+    "issue": null,
+    "readable_in_browser": true
+  },
+  {
+    "test": "Official source CASE_BOX",
+    "clicked": true,
+    "requested": "https://claude.com/customers/box",
+    "url": "https://claude.com/customers/box",
+    "title": "Box Claude Platform (API) case study | Claude by Anthropic",
+    "issue": null,
+    "readable_in_browser": null,
+    "display_review": "本机截图仅导航，IAB读取超时；只确认链接触发，不计正文可读通过。已增加本地来源阅读页。"
+  },
+  {
+    "test": "Official source CASE_REMARKABLE",
+    "clicked": true,
+    "requested": "https://www.salesforce.com/customer-stories/remarkable/",
+    "url": "https://www.salesforce.com/customer-stories/remarkable/",
+    "title": "Access Denied",
+    "issue": "本机浏览器访问被官方站点拒绝；官方事实另经本轮来源核读验证。",
+    "visual_result": "Access Denied",
+    "readable_in_browser": false
+  },
+  {
+    "test": "Official source CASE_ZEP",
+    "clicked": true,
+    "requested": "https://help.getzep.com/v3/facts",
+    "url": "https://help.getzep.com/v3/facts",
+    "title": "Facts | Zep Documentation",
+    "issue": null,
+    "readable_in_browser": true
+  },
+  {
+    "test": "Official source RP_PAPER",
+    "clicked": true,
+    "requested": "https://arxiv.org/pdf/2601.16621v1",
+    "url": "https://arxiv.org/pdf/2601.16621v1",
+    "title": "",
+    "issue": "不声明浏览器PDF全文显示通过；论文事实已经来源核读者通过PDF核对。",
+    "visual_result": "PDF视口截图为空，IAB读取超时",
+    "readable_in_browser": null
+  },
+  {
+    "test": "Download original source",
+    "pass": true
+  }
+]

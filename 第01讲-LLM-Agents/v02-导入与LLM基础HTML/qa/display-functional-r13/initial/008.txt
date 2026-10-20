@@ -1,0 +1,84 @@
+- main:
+  - article "第8页 连续生成：从第一个Token到结束":
+    - heading "连续生成：从第一个Token到结束" [level=1]
+    - region "课件内容":
+      - generic: 整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。
+      - button "查看第1步" [pressed]:
+        - generic: "1"
+        - text: The
+      - button "查看第2步":
+        - generic: "2"
+        - text: ␠lecture
+      - button "查看第3步":
+        - generic: "3"
+        - text: ␠scheduled
+      - button "查看第4步":
+        - generic: "4"
+        - text: ␠for
+      - button "查看第5步":
+        - generic: "5"
+        - text: ␠today
+      - button "查看第6步":
+        - generic: "6"
+        - text: ␠has
+      - button "查看第7步":
+        - generic: "7"
+        - text: ␠been
+      - button "查看第8步":
+        - generic: "8"
+        - text: ␠cancelled
+      - button "查看第9步":
+        - generic: "9"
+        - text: .
+      - button "查看第10步":
+        - generic: "10"
+        - text: 结束
+      - button "← 上一个Token" [disabled]
+      - button "下一个Token →"
+      - button "从头查看"
+      - generic: 当前第 1 / 10 步
+      - generic: 当前任务与已生成内容
+      - generic: Write one short formal sentence announcing that the lecture scheduled for today has been cancelled.
+      - generic: 已生成：尚未生成回复文字
+      - generic: 本步选中：The
+      - text: 下一个Token
+      - generic: 概率
+      - generic: The
+      - generic: 26.92%
+      - generic: "\""
+      - generic: 13.66%
+      - generic: We
+      - generic: 9.34%
+      - generic: Today
+      - generic: 5.08%
+      - generic: I
+      - generic: 4.91%
+      - generic: 其他候选合计
+      - generic: 40.09%
+      - generic: "0"
+      - generic: 100%
+      - generic: 累计输出：The
+      - generic: ␠表示空格；前5项之外的概率仍计入“其他候选合计”。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "1.1 连续生成"
+      - button "1.2 多轮聊天"
+      - button "1.3 LLM小结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "8"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "备注 / 来源"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第8页，连续生成：从第一个Token到结束，整页显示

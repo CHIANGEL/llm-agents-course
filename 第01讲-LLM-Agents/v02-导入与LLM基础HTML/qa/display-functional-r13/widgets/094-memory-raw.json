@@ -1,0 +1,15 @@
+{
+  "broken": [],
+  "page": "94",
+  "scroll": [
+    {
+      "max": 3227,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "记忆摘要与使用要求\n客户端读取摘要",
+    "原始条目"
+  ],
+  "text": "用户提交任务后，客户端先读取摘要，连同其他必要材料组织成输入。\n首次模型输入\n基础指令\n客户端准备\n记忆摘要与使用要求\n客户端读取摘要\n项目说明与操作范围\n客户端准备\n用户：300人部署\n当前任务\n重置\n关键内容\n原始条目\n本次完整输入\n记忆摘要与使用要求\n## Memory\n\nUse the injected MEMORY_SUMMARY as historical context: apply the user's actual\npreferences, corrections, decisions, and supported task scope. Its exact\nrollout, source, pull-request, discussion, and document pointers can guide\nindependently useful work without an extra lookup merely to rediscover them.\nRead a matching rollout under `/workspace/procurement/memories_v2/rollout_summaries/` when its\nadditional evidence, wording, chronology, or uncertainty could change your\nanswer; otherwise do not retrieve history speculatively. Search selectively\nwhen a genuinely needed route is missing.\n\nMemory is not proof of current behavior. For consequential or changeable\nclaims, use judgment about drift, verification cost, and harm; inspect the\nactual owning source when warranted and acknowledge material uncertainty.\nBatch independent useful lookups. Follow current instructions, cite only\nmemory actually used, never in pull requests, and update memory only when the\nuser explicitly asks. For an explicit remember, forget, or correction request,\nappend a small Markdown note under `/workspace/procurement/memories_v2/extensions/ad_hoc/notes/`\nwith the requested addition, deletion, or correction. Do not edit generated\nmemory files directly; consolidation applies these notes.\n\nMemory citations:\n\nWhen a read rollout summary informs the answer, append one citation block at\nthe end of the final reply, outside code fences. Do not cite `memory_summary.md`.\n\n<oai-mem-citation>\n<citation_entries>\nrollout_summaries/example.md:8-10|note=[used prior context]\n</citation_entries>\n<rollout_ids>\n019c6e27-e55b-73d1-87d8-4e01f1f75043\n</rollout_ids>\n</oai-mem-citation>\n\nUse actual source paths relative to `/workspace/procurement/memories_v2` and line ranges from the\nsearch or read, with one entry per line and short single-line notes. Include\nunique relevant rollout UUIDs already available; leave `rollout_ids` empty if\nnone are available. Do not reread files or make extra tool calls solely to\nconstruct or check citations or obtain rollout IDs.\n\n========= MEMORY_SUMMARY BEGINS =========\n# 用户偏好\n采购评审使用简体中文，先结论、后依据；金额统一用人民币。\n\n# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n# 详细记忆入口\n- rollout_summaries/pilot-budget.md：试点预算、包含内容和适用范围。\n- rollout_summaries/security-requirements.md：数据权限和企业账户要求。\n========= MEMORY_SUMMARY ENDS =========\n\n\n当前任务可读取本项目中的资料并整理评审材料；不得联系供应商、签约或付款。\n\n左侧按输入顺序排列；右侧可阅读对应文本。\n\n摘要由客户端加入；此时模型还没有发起读取详细记忆的工具调用。"
+}

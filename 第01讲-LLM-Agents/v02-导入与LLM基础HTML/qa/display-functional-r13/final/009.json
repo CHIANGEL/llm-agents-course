@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 9,
+  "text": "句号之后，模型还会再预测一次\n第9步先生成句号，第10步再生成结束标记，本次回复才停止。\n第9步：选择句号\n第10步：选择结束标记\n下一个Token\n概率\n.\n52.42%\n,\n25.99%\n␠due\n10.73%\n␠and\n4.45%\n␠as\n1.27%\n其他候选合计\n5.15%\n0\n100%\n下一个Token\n概率\n<|im_end|>\n77.67%\n换行\n16.95%\n␠↵\n1.27%\n␠The\n0.35%\n␠I\n0.31%\n其他候选合计\n3.45%\n0\n100%\nThe lecture scheduled for today has been cancelled. <|im_end|>\n句号也是输出内容。结束标记或生成长度上限会触发停止。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n1.1 连续生成\n1.2 多轮聊天\n1.3 LLM小结",
+  "title": "第9页 句号之后，模型还会再预测一次"
+}

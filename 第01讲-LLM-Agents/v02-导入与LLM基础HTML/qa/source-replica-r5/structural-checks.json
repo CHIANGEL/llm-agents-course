@@ -1,0 +1,52 @@
+[
+  {
+    "name": "active_pages_and_states",
+    "pass": true,
+    "pages": 147,
+    "states": 161
+  },
+  {
+    "name": "break_slide_removed",
+    "pass": true
+  },
+  {
+    "name": "duration",
+    "pass": true
+  },
+  {
+    "name": "replicas_full_display",
+    "pass": true
+  },
+  {
+    "name": "unchanged_first_50_pages",
+    "pass": true
+  },
+  {
+    "name": "sources/official-readers/remarkable.html",
+    "pass": true
+  },
+  {
+    "name": "sources/official-readers/aws.html",
+    "pass": true
+  },
+  {
+    "name": "sources/official-readers/rpeval.html",
+    "pass": true
+  },
+  {
+    "name": "sources/official-readers/zep.html",
+    "pass": true
+  },
+  {
+    "name": "sources/official-readers/box.html",
+    "pass": true
+  },
+  {
+    "name": "read_only_source_unchanged",
+    "pass": true
+  },
+  {
+    "name": "replica_assets_local",
+    "pass": true
+  }
+]

@@ -1,0 +1,72 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=151&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=151&s=1
+	2 container
+		104 container 第151页 让任务持续运行，还要解决哪些问题？
+			105 heading 让任务持续运行，还要解决哪些问题？, Value: 1
+				106 text 让任务持续运行，还要解决哪些问题？
+			107 container 课件内容
+				108 container
+					109 text 运行越长、可做的事越多，越需要回答下面五个问题。
+					110 table
+						111 row
+							112 cell
+								113 text 输入越来越长
+							114 cell
+								115 text ① 上下文压缩与清理
+						116 row
+							117 cell
+								118 text 操作能影响外部
+							119 cell
+								120 text ② 沙盒与权限
+						121 row
+							122 cell
+								123 text 固定动作需要反复做
+							124 cell
+								125 text ③ Hooks：按事件触发
+						126 row
+							127 cell
+								128 text 任务能否拆开处理
+							129 cell
+								130 text ④ 子智能体
+						131 row
+							132 cell
+								133 text 中断后怎样接着做
+							134 cell
+								135 text ⑤ 进度与恢复
+					136 image 模型与外部系统共同完成整理信息、执行约束、保存进度及分配子任务
+					137 text 把这些安排落实到程序，
+每次运行就有明确的
+输入、范围、触发和进度。 下面按“材料 → 操作 → 触发 → 分工 → 连续运行”逐项展开。
+			138 container 课程进度
+				139 button 导入
+				140 button 1. LLM基础
+				141 button 2. Prompting
+				142 button 3. Agents · Externalization & Internalization
+					143 text 3. Agents 
+					144 text · Externalization & Internalization
+				145 button 3.0 外化与内化总览
+				146 button 3.1 工具调用
+				147 button 3.2 Memory
+				148 button 3.3 Skills
+				149 button 3.4 Protocols
+				150 button 3.5 Harness
+				151 button 3.6 外化与内化整合
+				152 button 3.7 全讲总结
+		89 container Description: 课件操作, ID: controls
+			90 button Description: 上一步, Help: 上一步（←）
+			91 button Description: 下一步, Help: 下一步（→或空格）
+			92 container jump-form
+				93 text 页码
+				94 stepper (settable, integer) Description: 页码, Value: 151, ID: page-input
+				95 text / 175
+			153 text 整页显示
+			97 button 目录
+			98 button 讲者备注
+			99 button 完整材料
+			100 button 放大图解
+			101 button 全屏
+			102 button 隐藏, Help: 按H恢复
+			103 button 操作说明
+		154 text 第151页，让任务持续运行，还要解决哪些问题？，整页显示
+
+The focused UI element is 91 button Description: 下一步, Help: 下一步（→或空格）

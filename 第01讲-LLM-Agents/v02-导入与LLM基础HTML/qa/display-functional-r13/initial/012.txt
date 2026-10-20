@@ -1,0 +1,42 @@
+- main:
+  - article "第12页 第一轮：把角色和消息拼成输入":
+    - heading "第一轮：把角色和消息拼成输入" [level=1]
+    - region "课件内容":
+      - generic: 先放入应用要求和用户问题，最后加上等待续写的 assistant 头。
+      - generic: 聊天窗口
+      - generic: 完整输入文本 · SmolLM2模板
+      - generic: 用户
+      - generic: 3人，每人20元？
+      - generic: <|im_start|>system
+      - generic: 只给结果。<|im_end|>
+      - generic: <|im_start|>user
+      - generic: 3人，每人20元？<|im_end|>
+      - generic: <|im_start|>assistant
+      - generic: ▌接下来生成：60元。
+      - text: system：应用提供的要求
+      - text: user：用户的消息
+      - text: assistant：助手的消息
+      - generic: <|im_start|> 开始一条消息；<|im_end|> 结束一条消息。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "1.1 连续生成"
+      - button "1.2 多轮聊天"
+      - button "1.3 LLM小结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "12"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "备注 / 来源"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第12页，第一轮：把角色和消息拼成输入，整页显示

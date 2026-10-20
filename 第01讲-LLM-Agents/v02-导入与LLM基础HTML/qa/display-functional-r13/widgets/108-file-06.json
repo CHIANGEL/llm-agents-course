@@ -1,0 +1,18 @@
+{
+  "broken": [],
+  "page": "108",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    },
+    {
+      "max": 4154,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "assets/tutorial-template.ipynb"
+  ],
+  "text": "从左侧选择文件；右侧查看原文、模板或图标。\njupyter-notebook / 12个文件\nSKILL.md\nreferences/tutorial-patterns.md\nreferences/experiment-patterns.md\nreferences/notebook-structure.md\nreferences/quality-checklist.md\nscripts/new_notebook.py\nassets/tutorial-template.ipynb\nassets/experiment-template.ipynb\nagents/openai.yaml\nassets/jupyter-small.svg\nassets/jupyter.png\nLICENSE.txt\n重置\nassets/tutorial-template.ipynb\n{\n  \"cells\": [\n    {\n      \"cell_type\": \"markdown\",\n      \"metadata\": {},\n      \"source\": [\n        \"# Tutorial: TITLE\\n\",\n        \"\\n\",\n        \"Audience:\\n\",\n        \"- Describe who this is for.\\n\",\n        \"\\n\",\n        \"Prerequisites:\\n\",\n        \"- List required concepts or setup.\\n\",\n        \"\\n\",\n        \"Learning goals:\\n\",\n        \"- By the end, the reader can...\\n\"\n      ]\n    },\n    {\n      \"cell_type\": \"markdown\",\n      \"metadata\": {},\n      \"source\": [\n        \"## Outline\\n\",\n        \"\\n\",\n        \"1. Setup\\n\",\n        \"2. A minimal working example\\n\",\n        \"3. Variations and pitfalls\\n\",\n        \"4. Exercises\\n\"\n      ]\n    },\n    {\n      \"cell_type\": \"code\",\n      \"execution_count\": null,\n      \"metadata\": {},\n      \"outputs\": [],\n      \"source\": [\n        \"# Setup cell: keep it short and deterministic\\n\",\n        \"from __future__ import annotations\\n\",\n        \"\\n\",\n        \"import math\\n\",\n        \"import random\\n\",\n        \"\\n\",\n        \"SEED = 21\\n\",\n        \"random.seed(SEED)\\n\",\n        \"SEED\\n\"\n      ]\n    },\n    {\n      \"cell_type\": \"markdown\",\n      \"metadata\": {},\n      \"source\": [\n        \"## Step 1 - Start with a tiny example\\n\",\n        \"\\n\",\n        \"Explain what the next cell does in plain language.\\n\"\n      ]\n    },\n    {\n      \"cell_type\": \"code\",\n      \"execution_count\": null,\n      \"metadata\": {},\n      \"outputs\": [],\n      \"source\": [\n        \"# Minimal working example\\n\",\n        \"angles = [0, math.pi / 4, math.pi / 2]\\n\",\n        \"sines = [math.sin(a) for a in angles]\\n\",\n        \"list(zip(angles, sines))\\n\"\n      ]\n    },\n    {\n      \"cell_type\": \"markdown\",\n      \"metadata\": {},\n      \"source\": [\n        \"## Exercises\\n\",\n        \"\\n\",\n        \"- Try a different input.\\n\",\n        \"- Predict the output before running the code.\\n\",\n        \"- Note one common mistake and how to fix it.\\n\"\n      ]\n    },\n    {\n      \"cell_type\": \"code\",\n      \"execution_count\": null,\n      \"metadata\": {},\n      \"outputs\": [],\n      \"source\": [\n        \"# Exercise answer scaffold\\n\",\n        \"def describe(values: list[float]) -> dict[str, float]:\\n\",\n        \"    return {\\\"min\\\": min(values), \\\"max\\\": max(values)}\\n\",\n        \"\\n\",\n        \"describe(sines)\\n\"\n      ]\n    }\n  ],\n  \"metadata\": {\n    \"kernelspec\": {\n      \"display_name\": \"Python 3\",\n      \"language\": \"python\",\n      \"name\": \"python3\"\n    },\n    \"language_info\": {\n      \"name\": \"python\",\n      \"version\": \"3.12\"\n    }\n  },\n  \"nbformat\": 4,\n  \"nbformat_minor\": 5\n}\n\n\n教程型Notebook的7单元起始结构。\n\n入口文件组织方法；参考、脚本与模板为具体任务提供可取用的资源。"
+}

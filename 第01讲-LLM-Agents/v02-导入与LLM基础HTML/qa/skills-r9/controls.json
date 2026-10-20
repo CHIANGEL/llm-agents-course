@@ -1,0 +1,64 @@
+{
+  "scope": "Skills r9: pages 104–130, adjacent pages 103 and 131–132",
+  "date": "2026-10-20",
+  "inventory": [
+    {
+      "pages": [
+        108
+      ],
+      "control": "12 file selections and reset",
+      "expected": "filename, original text or image, explanation and selected state update together",
+      "actual": "all 12 clicked; 12 screenshots; long script End scrolling; reset and re-entry checked"
+    },
+    {
+      "pages": [
+        113,
+        114,
+        115,
+        117,
+        119
+      ],
+      "control": "14 message selections × 4 view modes, reset",
+      "expected": "key/full/structured/cumulative text changes; selected state and explanation follow; reset restores default",
+      "actual": "all 56 combinations clicked and captured; 14 contact sheets visually reviewed; duplicate clicks, reset and re-entry checked"
+    },
+    {
+      "pages": [
+        118
+      ],
+      "control": "7 Notebook cells and reset",
+      "expected": "cell source, type and explanation correspond to actual 7-cell artifact",
+      "actual": "all 7 clicked; keyboard Enter checked; reset/re-entry checked; zoom copy operated independently"
+    },
+    {
+      "pages": [
+        109,
+        122,
+        124
+      ],
+      "control": "selectable prompt and source text areas",
+      "expected": "text readable; long content scrolls without changing page",
+      "actual": "109 End/Home verified; 124 End does not navigate; Escape then ArrowRight restores navigation; 122 full prompt read on screen"
+    },
+    {
+      "pages": "all Skills pages",
+      "control": "player, directory, two-level progress, materials, notes, diagram zoom",
+      "expected": "correct page numbers and material; dialogs close with Escape and restore focus",
+      "actual": "sequential forward play 103–132; back/re-entry at all 7 widget pages; directory to104; footer to131 and104; notes; materials108/118; zoom125→150→125%; close; hide and H restore"
+    }
+  ],
+  "evidence": {
+    "file_screens": 12,
+    "cell_screens": 7,
+    "trace_screens": 56,
+    "sequential_jsonl": "sequential.jsonl",
+    "interaction_samples": "interaction-results.jsonl",
+    "console": "console.json"
+  },
+  "limitations": [
+    "Full-screen button was clicked in IAB, but document.fullscreenElement remained false; full-screen not marked passed.",
+    "file:// offline playback not re-tested this turn; local resource existence and embedded data checked.",
+    "Unchanged chapters were not independently replayed in full this turn.",
+    "Complete per-click DOM logs for the initial 56-mode batch were lost after browser-tool timeout; screenshots remain and were reviewed."
+  ]
+}

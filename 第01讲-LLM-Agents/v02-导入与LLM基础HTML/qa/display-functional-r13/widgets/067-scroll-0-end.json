@@ -1,0 +1,12 @@
+{
+  "broken": [],
+  "page": "67",
+  "scroll": [
+    {
+      "max": 15,
+      "top": 15
+    }
+  ],
+  "selected": [],
+  "text": "模型给出调用文本；实际读取由应用程序执行。\n① 应用解析并调用\nget_weather\n(location=\"New York\")\n② 工具读取天气记录\nweather_fixture.json\nNew York → 72°F / Partly cloudy\n③ 应用追加调用与结果\n原来的问题和工具说明保留，\n新的天气结果进入下一次输入。\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n接入天气服务时，工具从服务查询数据；这里的读取过程连接了模型与外部文件。"
+}

@@ -1,0 +1,32 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/index.html#p=66&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/index.html#p=66&s=1
+	2 container
+		3 container Description: 第66页 调用请求：工具名、参数与约定格式, ID: mount
+			4 container 第66页 调用请求：工具名、参数与约定格式
+				5 heading 调用请求：工具名、参数与约定格式, Value: 1
+					6 text 调用请求：工具名、参数与约定格式
+				7 container 课件内容
+					8 container
+						9 text 本例的Qwen2.5模板约定：用<tool_call>包裹工具名称和参数。 工具说明 • 名称： get_weather
+						10 text • 用途：查询地点天气
+						11 text • 参数： location （地点） 用户问题 “纽约现在天气怎么样？” 模型生成的调用文本 <tool_call>
+{"name": "get_weather", "arguments": {"location": "New York"}}
+</tool_call><|im_end|> • name：选哪个工具
+						12 text • arguments：把什么信息交给工具 工具名与参数要符合工具说明；应用再按约定格式解析、分发调用。
+				13 container 课程进度
+					14 button 导入
+					15 button 1. LLM基础
+					16 button 2. Prompting
+					17 button 3. Agents · Externalization & Internalization
+						18 text 3. Agents 
+						19 text · Externalization & Internalization
+					20 button 3.0 外化与内化总览
+					21 button 3.1 工具调用
+					22 button 3.2 Memory
+					23 button 3.3 Skills
+					24 button 3.4 Harness
+					25 button 3.5 外化与内化整合
+					26 button 3.6 全讲总结
+		27 text 第66页，调用请求：工具名、参数与约定格式，整页显示
+
+The focused UI element is 3 container Description: 第66页 调用请求：工具名、参数与约定格式, ID: mount

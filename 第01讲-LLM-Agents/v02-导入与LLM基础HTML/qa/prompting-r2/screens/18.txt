@@ -1,0 +1,20 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=18&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=18&s=1
+	2 container
+		3 container Description: 第18页 让大模型帮你写Prompt, ID: mount
+			4 container 第18页 让大模型帮你写Prompt
+				5 heading 让大模型帮你写Prompt, Value: 1
+					6 text 让大模型帮你写Prompt
+				7 container 课件内容
+					8 container
+						9 text 先给任务初稿、背景和示例，让模型检查，再产出完整Prompt。 交给模型的请求 我准备用【目标模型】完成下面的任务。
+						10 text 任务初稿：【粘贴初稿】
+						11 text 背景、目标和参考示例：【补充信息】
+						12 text 请先 critique, review and improve：
+						13 text 1. 找出缺失信息、歧义和冲突；
+						14 text 2. 信息不足时先向我提问；
+						15 text 3. 再给出一份可直接使用的完整Prompt。
+						16 text 保留我的目标和必要约束，不要自行改变任务。 任务初稿 背景、目标、样例 检查与补充 遗漏、歧义、冲突 完整Prompt 可以直接用于目标任务 先把想法说出来，再让模型帮助你把指令写完整。
+		17 text 第18页，让大模型帮你写Prompt，整页显示
+
+The focused UI element is 3 container Description: 第18页 让大模型帮你写Prompt, ID: mount

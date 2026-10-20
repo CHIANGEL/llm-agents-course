@@ -1,0 +1,72 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=76&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=76&s=1
+	2 container
+		55 container Description: 第76页 记忆要存什么？, ID: mount
+			56 container 第76页 记忆要存什么？
+				57 heading 记忆要存什么？, Value: 1
+					58 text 记忆要存什么？
+				59 container 课件内容
+					60 container
+						61 text 记忆既可以记录“发生过什么”，也可以保存“知道什么”和“这个人有什么偏好”。
+						62 table
+							63 row
+								64 cell
+									65 text 记忆内容
+								66 cell
+									67 text 保存什么
+								68 cell
+									69 text 后续怎样使用
+							70 row
+								71 cell
+									72 text 历史状态
+								73 cell
+									74 text 过去做过的事、任务进度、结果
+								75 cell
+									76 text 接着完成未完成的工作
+							77 row
+								78 cell
+									79 text 事实知识
+								80 cell
+									81 text 从资料与经历中获得的事实
+								82 cell
+									83 text 回答问题时取得有关背景
+							84 row
+								85 cell
+									86 text 个性化信息
+								87 cell
+									88 text 用户背景、习惯、长期偏好
+								89 cell
+									90 text 按当前用途选择适合的表达或安排
+						91 text 同一条记录还需要保留：对象、时间、来源、适用范围。 一次性的任务条件，只有在明确适用范围后，才适合留给以后。
+				92 container 课程进度
+					93 button 导入
+					94 button 1. LLM基础
+					95 button 2. Prompting
+					96 button 3. Agents · Externalization & Internalization
+						97 text 3. Agents 
+						98 text · Externalization & Internalization
+					99 button 3.0 外化与内化总览
+					100 button 3.1 工具调用
+					101 button 3.2 Memory
+					102 button 3.3 Skills
+					103 button 3.4 Harness
+					104 button 3.5 外化与内化整合
+					105 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 76, ID: page-input
+				46 text / 151
+			106 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		107 text 第76页，记忆要存什么？，整页显示
+
+The focused UI element is 55 container Description: 第76页 记忆要存什么？, ID: mount

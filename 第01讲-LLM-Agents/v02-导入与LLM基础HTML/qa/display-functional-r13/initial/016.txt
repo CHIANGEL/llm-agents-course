@@ -1,0 +1,84 @@
+- main:
+  - article "第16页 本讲内容":
+    - heading "本讲内容" [level=1]
+    - region "课件内容":
+      - generic: 已结束：LLM基础
+      - generic: →
+      - strong: 接下来：Prompting · 三个核心
+      - heading "1. LLM基础" [level=2]
+      - paragraph: 连续生成与多轮聊天
+      - list:
+        - button "✓ 1.1 连续生成":
+          - generic: ✓
+          - generic: 1.1 连续生成
+        - button "✓ 1.2 多轮聊天":
+          - generic: ✓
+          - generic: 1.2 多轮聊天
+        - button "✓ 1.3 LLM小结":
+          - generic: ✓
+          - generic: 1.3 LLM小结
+      - heading "2. Prompting" [level=2]
+      - paragraph: 交代任务，再选择方法
+      - list:
+        - button "→ 2.1 三个核心 接下来":
+          - generic: →
+          - generic: 2.1 三个核心
+          - generic: 接下来
+        - button "2.2 问清问题":
+          - generic: 2.2 问清问题
+        - button "2.3 学习":
+          - generic: 2.3 学习
+        - button "2.4 解决问题":
+          - generic: 2.4 解决问题
+        - button "2.5 决策":
+          - generic: 2.5 决策
+        - button "2.6 Prompting小结":
+          - generic: 2.6 Prompting小结
+      - heading "3. Agents" [level=2]
+      - paragraph: Externalization & Internalization
+      - list:
+        - button "3.0 外化与内化总览":
+          - generic: 3.0 外化与内化总览
+        - button "3.1 工具调用":
+          - generic: 3.1 工具调用
+        - button "3.2 Memory":
+          - generic: 3.2 Memory
+        - button "3.3 Skills":
+          - generic: 3.3 Skills
+        - button "3.4 Protocols":
+          - generic: 3.4 Protocols
+        - button "3.5 Harness":
+          - generic: 3.5 Harness
+        - button "3.6 外化与内化整合":
+          - generic: 3.6 外化与内化整合
+        - button "3.7 全讲总结":
+          - generic: 3.7 全讲总结
+      - generic: ✓ 已结束
+      - generic: → 接下来
+      - generic: 其余内容随后展开
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "2.1 三个核心"
+      - button "2.2 问清问题"
+      - button "2.3 学习"
+      - button "2.4 解决问题"
+      - button "2.5 决策"
+      - button "2.6 Prompting小结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步" [active]: →
+  - generic: 页码
+  - spinbutton "页码": "16"
+  - generic: / 175
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第16页，本讲内容，整页显示

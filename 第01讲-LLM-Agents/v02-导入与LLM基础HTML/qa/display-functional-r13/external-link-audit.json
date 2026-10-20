@@ -1,0 +1,12 @@
+{
+  "browser": "Navigation timed out; not counted as UI verification",
+  "web_reader": "Opened three distinct Hugging Face pages successfully on 2026-10-20",
+  "urls": [
+    "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct",
+    "https://huggingface.co/docs/transformers/en/chat_templating",
+    "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TemperatureLogitsWarper",
+    "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopKLogitsWarper",
+    "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopPLogitsWarper"
+  ],
+  "fragment_positions": "not verified"
+}

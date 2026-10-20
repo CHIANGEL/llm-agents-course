@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-20",
+  "cmd": [
+    "cat",
+    "memories_v2/rollout_summaries/pilot-budget.md"
+  ],
+  "workdir": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/memory-r8/procurement-case",
+  "exit_code": 0,
+  "stdout": "# 企业知识库：试点预算的适用范围\n\n上次讨论的范围是20名员工、为期3个月的试点。\n10万元是本次试点的预算上限，包含试点软件费与初始配置。\n\n这一额度没有覆盖300人正式部署，也没有核定正式部署的年度费用。\n扩大部署时，应重新确认人数、使用期限、实施服务和费用范围。\n\n试点结束后，下一步是整理扩大部署的采购评估要求。\n",
+  "sha256": "43a720ae53b5eb12a8d28110591a18eb44cad51632c4f275dc32baa8ca14a4d8",
+  "scope": "本地文件读取核对；模型生成序列的来源属性见资料档案"
+}

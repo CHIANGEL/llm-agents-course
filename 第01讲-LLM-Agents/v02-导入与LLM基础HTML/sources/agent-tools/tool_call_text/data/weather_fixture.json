@@ -1,0 +1,7 @@
+{
+  "nature": "Official MCP example replay; not current weather.",
+  "source": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+  "by_location": {
+    "New York": "Current weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy"
+  }
+}

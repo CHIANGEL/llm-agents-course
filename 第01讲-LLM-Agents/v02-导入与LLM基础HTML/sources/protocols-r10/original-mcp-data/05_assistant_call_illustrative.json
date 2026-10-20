@@ -1,0 +1,15 @@
+{
+  "role": "assistant",
+  "tool_calls": [
+    {
+      "id": "call_weather_01",
+      "type": "function",
+      "function": {
+        "name": "get_weather",
+        "arguments": {
+          "location": "New York"
+        }
+      }
+    }
+  ]
+}

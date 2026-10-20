@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "59",
+  "text": "工具、记忆、技能与协议\n工具调用：哪些查询、计算和操作交给外部程序？\nMemory保存信息，Skills提供做法，Protocols约定交互。\n工具调用\n外部执行\nMemory\n持续保存的信息\nSkills\n可复用做法\nProtocols\n共同交互规则\n\nHarness\n组织这些部分运行。\n\n本讲的讲授顺序。\n\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "工具、记忆、技能与协议"
+}

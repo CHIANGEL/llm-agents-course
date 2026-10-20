@@ -1,0 +1,42 @@
+[
+  {
+    "step": 1,
+    "text": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 1 / 10 步\n本步前文：原始输入 + 已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：尚未生成回复文字\n本步选中：The\n下一个Token\n概率\nThe\n26.92%\n\"\n13.66%\nWe\n9.34%\nToday\n5.08%\nI\n4.91%\n其他候选合计\n40.09%\n0\n100%\n累计输出：The\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。"
+  },
+  {
+    "step": 2,
+    "text": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 2 / 10 步\n本步前文：原始输入 + 已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：The\n本步选中：␠lecture\n下一个Token\n概率\n␠lecture\n55.12%\n␠lecturer\n3.60%\n␠scheduled\n2.96%\n␠course\n2.58%\n␠lectures\n2.26%\n其他候选合计\n33.49%\n0\n100%\n累计输出：The lecture\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。"
+  },
+  {
+    "step": 3,
+    "text": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 3 / 10 步\n本步前文：原始输入 + 已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：The lecture\n本步选中：␠scheduled\n下一个Token\n概率\n␠scheduled\n61.17%\n␠on\n11.53%\n␠for\n6.61%\n,\n2.56%\n␠was\n2.30%\n其他候选合计\n15.83%\n0\n100%\n累计输出：The lecture scheduled\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。"
+  },
+  {
+    "step": 4,
+    "text": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 4 / 10 步\n本步前文：原始输入 + 已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：The lecture scheduled\n本步选中：␠for\n下一个Token\n概率\n␠for\n97.69%\n␠today\n1.84%\n␠to\n0.24%\n␠on\n0.09%\n␠yesterday\n0.06%\n其他候选合计\n0.09%\n0\n100%\n累计输出：The lecture scheduled for\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。"
+  },
+  {
+    "step": 5,
+    "text": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 5 / 10 步\n本步前文：原始输入 + 已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：The lecture scheduled for\n本步选中：␠today\n下一个Token\n概率\n␠today\n97.73%\n␠the\n1.02%\n␠this\n0.54%\n␠tomorrow\n0.21%\n␠Tuesday\n0.09%\n其他候选合计\n0.41%\n0\n100%\n累计输出：The lecture scheduled for today\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。"
+  },
+  {
+    "step": 6,
+    "text": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 6 / 10 步\n本步前文：原始输入 + 已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：The lecture scheduled for today\n本步选中：␠has\n下一个Token\n概率\n␠has\n58.17%\n␠was\n15.86%\n,\n9.24%\n␠for\n5.52%\n␠is\n3.35%\n其他候选合计\n7.85%\n0\n100%\n累计输出：The lecture scheduled for today has\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。"
+  },
+  {
+    "step": 7,
+    "text": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 7 / 10 步\n本步前文：原始输入 + 已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：The lecture scheduled for today has\n本步选中：␠been\n下一个Token\n概率\n␠been\n99.41%\n␠not\n0.12%\n␠now\n0.04%\n␠become\n0.03%\n␠cancelled\n0.03%\n其他候选合计\n0.38%\n0\n100%\n累计输出：The lecture scheduled for today has been\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。"
+  },
+  {
+    "step": 8,
+    "text": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 8 / 10 步\n本步前文：原始输入 + 已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：The lecture scheduled for today has been\n本步选中：␠cancelled\n下一个Token\n概率\n␠cancelled\n98.97%\n␠canceled\n0.84%\n␠postponed\n0.02%\n␠subsequently\n0.01%\n␠temporarily\n0.01%\n其他候选合计\n0.14%\n0\n100%\n累计输出：The lecture scheduled for today has been cancelled\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。"
+  },
+  {
+    "step": 9,
+    "text": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 9 / 10 步\n本步前文：原始输入 + 已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：The lecture scheduled for today has been cancelled\n本步选中：.\n下一个Token\n概率\n.\n52.42%\n,\n25.99%\n␠due\n10.73%\n␠and\n4.45%\n␠as\n1.27%\n其他候选合计\n5.15%\n0\n100%\n累计输出：The lecture scheduled for today has been cancelled.\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。"
+  },
+  {
+    "step": 10,
+    "text": "整条生成轨迹保持可见，选择任意一步查看当时的前文与候选。\n1\nThe\n2\n␠lecture\n3\n␠scheduled\n4\n␠for\n5\n␠today\n6\n␠has\n7\n␠been\n8\n␠cancelled\n9\n.\n10\n结束\n← 上一个Token\n下一个Token →\n从头查看\n当前第 10 / 10 步\n本步前文：原始输入 + 已生成内容\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n已生成：The lecture scheduled for today has been cancelled.\n本步选中：结束标记 <|im_end|>\n下一个Token\n概率\n<|im_end|>\n77.67%\n换行\n16.95%\n␠↵\n1.27%\n␠The\n0.35%\n␠I\n0.31%\n其他候选合计\n3.45%\n0\n100%\n累计输出：The lecture scheduled for today has been cancelled.　本轮结束\n␠表示空格；前5项之外的概率仍计入“其他候选合计”。"
+  }
+]

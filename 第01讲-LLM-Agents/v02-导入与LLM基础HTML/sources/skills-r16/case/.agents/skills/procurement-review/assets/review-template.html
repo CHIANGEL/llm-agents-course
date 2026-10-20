@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>采购评审要点</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#e9edf1;color:#202631;font:19px/1.6 Arial,"PingFang SC",sans-serif}
+article{width:1120px;min-height:660px;margin:20px auto;background:white;padding:28px 38px;box-shadow:0 3px 20px #bac3cd}
+h1{font-size:29px;margin:0 0 4px;color:#073f91}h2{font-size:20px;margin:16px 0 8px;color:#073f91;border-bottom:1px solid #c8d3df;padding-bottom:5px}
+.subtitle{color:#66707d;font-size:16px;margin-bottom:10px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.facts div{background:#edf3f9;padding:12px}.facts b{display:block;font-size:24px;color:#8e2332}.facts span{font-size:15px}
+.columns{display:grid;grid-template-columns:1fr 1fr;gap:32px}ul{margin:8px 0;padding-left:23px}li{margin:6px 0}footer{margin-top:18px;border-top:1px solid #c8d3df;padding-top:10px;color:#596472;font-size:14px}
+@media(max-width:820px){article{width:calc(100% - 24px);margin:12px;padding:28px}}
+@page{size:A4 landscape;margin:12mm}@media print{body{background:white}article{width:auto;min-height:0;margin:0;padding:0;box-shadow:none;font-size:11pt}h1{font-size:20pt}h2{font-size:13pt;margin-top:15px}.facts b{font-size:16pt}li{margin:5px 0}footer{font-size:9pt}}
+</style>
+<article>
+<h1>采购评审要点</h1><div class="subtitle">{{PHASE}} · 软件采购</div>
+<section><h2>一、采购条件</h2><div class="facts">
+<div><span>使用人数</span><b>{{PEOPLE}}人</b></div><div><span>使用期限</span><b>{{TERM}}</b></div><div><span>预算上限</span><b>{{BUDGET}}</b></div>
+</div></section>
+<div class="columns"><section><h2>二、费用范围</h2><ul>{{COST_SCOPE}}</ul></section>
+<div><section><h2>三、交付与管理</h2><ul>{{REQUIREMENTS}}</ul></section>
+<section><h2>四、待确认事项</h2><ul>{{PENDING}}</ul></section></div></div>
+<footer>评审范围：按上述采购条件核对费用、交付及管理要求。</footer>
+</article></html>

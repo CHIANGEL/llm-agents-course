@@ -1,0 +1,72 @@
+[
+  {
+    "expected": 61,
+    "shown": 61,
+    "title": "先看外化，再提出内化的问题"
+  },
+  {
+    "expected": 62,
+    "shown": 62,
+    "title": "本讲内容"
+  },
+  {
+    "expected": 63,
+    "shown": 63,
+    "title": "工具调用：大模型与外界交互的主要途径"
+  },
+  {
+    "expected": 64,
+    "shown": 64,
+    "title": "与外界交互：获取信息，也能产生影响"
+  },
+  {
+    "expected": 65,
+    "shown": 65,
+    "title": "天气查询：一次调用，有来有回"
+  },
+  {
+    "expected": 66,
+    "shown": 66,
+    "title": "调用请求：工具名、参数与约定格式"
+  },
+  {
+    "expected": 67,
+    "shown": 67,
+    "title": "程序执行工具，取得模型之外的结果"
+  },
+  {
+    "expected": 68,
+    "shown": 68,
+    "title": "工具调用，也是一段文本的继续生成"
+  },
+  {
+    "expected": 69,
+    "shown": 69,
+    "title": "天气查询小结：两次生成，一次工具执行"
+  },
+  {
+    "expected": 70,
+    "shown": 70,
+    "title": "Computer Use：把读取与操作封装成工具"
+  },
+  {
+    "expected": 71,
+    "shown": 71,
+    "title": "复杂应用，拆开看仍是一次次工具调用"
+  },
+  {
+    "expected": 72,
+    "shown": 72,
+    "title": "从对话机器人，走向能做事的智能体"
+  },
+  {
+    "expected": 73,
+    "shown": 73,
+    "title": "本讲内容"
+  },
+  {
+    "expected": 74,
+    "shown": 74,
+    "title": "Memory：把过去的信息带入本次任务"
+  }
+]

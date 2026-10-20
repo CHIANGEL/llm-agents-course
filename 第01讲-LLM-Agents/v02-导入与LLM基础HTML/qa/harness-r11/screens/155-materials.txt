@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=155&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=155&s=1
+	2 container 第155页 · 完整材料, ID: deck-dialog
+		3 container
+			4 heading 第155页 · 完整材料, Value: 2, ID: dialog-title
+				8 text 第155页 · 完整材料
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			9 heading 本页要点, Value: 3
+				10 text 本页要点
+			11 text 沙盒与权限：范围和放行分别管理
+
+Sandbox通过运行环境限制受其约束的程序能够访问的文件与网络范围。图中配置为项目文件可读写、项目外个人资料不可访问、连接已允许网站。权限规则另行决定操作允许、要求确认或拒绝。需要确认沙盒实际覆盖哪些程序或工具，以及是否存在不同的执行路径。自然语言规则仍需要程序和环境落实。
+			12 heading 相关材料, Value: 3
+				13 text 相关材料
+			14 text Sandbox通过运行环境限制受其约束的程序能够访问的文件与网络范围。图中配置为项目文件可读写、项目外个人资料不可访问、连接已允许网站。权限规则另行决定操作允许、要求确认或拒绝。需要确认沙盒实际覆盖哪些程序或工具，以及是否存在不同的执行路径。自然语言规则仍需要程序和环境落实。
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

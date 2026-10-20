@@ -1,0 +1,29 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:,"><title>07_messages_after_tool.json</title><style>body{max-width:1050px;margin:32px auto;padding:0 24px;color:#002060;font:20px/1.7 Arial,"Microsoft YaHei",sans-serif}h1{font-size:28px}pre{font:18px/1.6 monospace;white-space:pre-wrap;overflow-wrap:anywhere;color:#111}a{color:#003f98}li{margin:10px 0}</style><h1>07_messages_after_tool.json</h1><p><a href="../agent-tools/tool_call_text/data/07_messages_after_tool.json" download>下载原始文件</a></p><pre>[
+  {
+    &quot;role&quot;: &quot;system&quot;,
+    &quot;content&quot;: &quot;请用中文回答。&quot;
+  },
+  {
+    &quot;role&quot;: &quot;user&quot;,
+    &quot;content&quot;: &quot;纽约现在天气怎么样？&quot;
+  },
+  {
+    &quot;role&quot;: &quot;assistant&quot;,
+    &quot;tool_calls&quot;: [
+      {
+        &quot;type&quot;: &quot;function&quot;,
+        &quot;function&quot;: {
+          &quot;name&quot;: &quot;get_weather&quot;,
+          &quot;arguments&quot;: {
+            &quot;location&quot;: &quot;New York&quot;
+          }
+        }
+      }
+    ]
+  },
+  {
+    &quot;role&quot;: &quot;tool&quot;,
+    &quot;content&quot;: &quot;Current weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy&quot;
+  }
+]
+</pre></html>

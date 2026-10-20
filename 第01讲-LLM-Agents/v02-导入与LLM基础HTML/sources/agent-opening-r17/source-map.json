@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-20",
+  "pages": [
+    {
+      "page": 52,
+      "authoring_page": 17001,
+      "title": "从大模型到智能体",
+      "sources": [
+        {
+          "id": "R17_MODEL",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_MS",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_BROWSER",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_ARM",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 53,
+      "authoring_page": 17002,
+      "title": "大模型能生成什么？还缺什么？",
+      "sources": [
+        {
+          "id": "GEN_TRACE",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_MODEL",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 54,
+      "authoring_page": 17003,
+      "title": "查询数据：模型得到新的信息",
+      "sources": [
+        {
+          "id": "R17_MS",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_SP",
+          "locator": "FAQ问题2：Index points"
+        }
+      ]
+    },
+    {
+      "page": 55,
+      "authoring_page": 17004,
+      "title": "操作网页：从建议到实际操作",
+      "sources": [
+        {
+          "id": "R17_BROWSER",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 56,
+      "authoring_page": 17005,
+      "title": "软件智能体的操作范围",
+      "sources": [
+        {
+          "id": "R17_BROWSER",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_ARM",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_COMPUTER",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 57,
+      "authoring_page": 17006,
+      "title": "机械臂抓笔：GPT-6 Astra的一个案例",
+      "sources": [
+        {
+          "id": "R17_ARM",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_MODEL",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 58,
+      "authoring_page": 17007,
+      "title": "具身智能：把执行循环接到物理设备",
+      "sources": [
+        {
+          "id": "R17_ARM",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_ROBOTICS",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    },
+    {
+      "page": 59,
+      "authoring_page": 17008,
+      "title": "智能体比大模型多了什么？",
+      "sources": [
+        {
+          "id": "R17_COMPUTER",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_MS",
+          "locator": "案例与机制，公开页面及视频"
+        },
+        {
+          "id": "R17_ARM",
+          "locator": "案例与机制，公开页面及视频"
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "R17_MODEL": {
+      "title": "OpenAI · GPT-6 Astra model documentation",
+      "path": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+    },
+    "R17_COMPUTER": {
+      "title": "OpenAI · Computer use execution loop",
+      "path": "https://developers.openai.com/api/docs/guides/tools-computer-use"
+    },
+    "R17_MS": {
+      "title": "Microsoft Research · Magentic-One",
+      "path": "https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/"
+    },
+    "R17_BROWSER": {
+      "title": "Browser Use · official repository demo",
+      "path": "https://github.com/browser-use/browser-use"
+    },
+    "R17_ARM": {
+      "title": "Zhiyang Dou · Language-guided manipulation on a low-cost robot arm",
+      "path": "https://people.csail.mit.edu/frankzydou/blog/so101-pen-pickup/index.html"
+    },
+    "R17_ROBOTICS": {
+      "title": "Google DeepMind · Gemini Robotics 1.5",
+      "path": "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/"
+    },
+    "R17_SP": {
+      "title": "S&P Dow Jones Indices · Index points definition",
+      "path": "https://www.spglobal.com/spdji/en/education/article/faq-sp-500-dividend-points-index/"
+    }
+  },
+  "media": [
+    {
+      "file": "assets/agent-opening-r17/finance.mp4",
+      "source": "https://www.microsoft.com/en-us/research/wp-content/uploads/2024/11/finance_m1.mp4",
+      "kind": "微软研究院Magentic-One项目原视频",
+      "duration": 24.466667,
+      "bytes": 16840775,
+      "sha256": "5ee393f079bfcf9db615ffb8e85289300f359530372fd87d8be9ca9068140937",
+      "poster_frame_seconds": 10
+    },
+    {
+      "file": "assets/agent-opening-r17/browser-booking.mp4",
+      "source": "https://github.com/user-attachments/assets/135885e8-1141-4e10-b719-bf690ae7d260",
+      "kind": "Browser Use官方README中GIF，等时长转换MP4",
+      "duration": 20.4,
+      "bytes": 1371899,
+      "sha256": "9f2c2edf5eeaec8d4cb1be62e579bdb79f48f9fe4db6666e8a1a8a4a6f2b5e9e",
+      "poster_frame_seconds": 16
+    },
+    {
+      "file": "assets/agent-opening-r17/astra-arm.mp4",
+      "source": "https://people.csail.mit.edu/frankzydou/blog/so101-pen-pickup/videos/pickup.mp4",
+      "kind": "作者原视频，保留50倍速和原画面时间标记",
+      "duration": 29.354667,
+      "bytes": 2905362,
+      "sha256": "dadd23ea75a10e22bd3ff5756f625ec5920cf1c590436e77b9ab6f7537b48d7b",
+      "poster_frame_seconds": 24
+    }
+  ]
+}

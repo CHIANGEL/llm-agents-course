@@ -1,0 +1,339 @@
+{
+  "pages": [
+    {
+      "page": 4,
+      "renderer": 201,
+      "source_plan_page": 5,
+      "section": "LLM基础",
+      "type": "overview",
+      "title": "LLM基础：连续生成与多轮聊天",
+      "seconds": 60,
+      "on_slide": [
+        "本节解释两个问题：回答怎样连续生成；聊天记录怎样成为同一次输入。",
+        "已有输入 → 预测并选择下一个Token → 追加到前文 → 继续，直到结束。"
+      ],
+      "talk": "先把本节两件事连在一起：下一Token预测解释回答是怎么写出的，聊天模板解释模型这次接着哪一份文本写。后面用通知生成的完整记录和三轮费用对话展开。",
+      "sources": [
+        {
+          "id": "GEN_TRACE",
+          "locator": "通知生成：完整10步记录"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "renderer": 202,
+      "source_plan_page": 5,
+      "section": "LLM基础",
+      "type": "content",
+      "title": "先看一次完整的生成",
+      "seconds": 90,
+      "on_slide": [
+        "任务：用一句简短正式的话通知今天的讲座取消。",
+        "Write one short formal sentence announcing that the lecture scheduled for today has been cancelled.",
+        "The lecture scheduled for today has been cancelled.",
+        "模型：SmolLM2-135M-Instruct。",
+        "Token是生成文本的单位，可以是词、词的一部分、标点或特殊标记。"
+      ],
+      "talk": "先完整读出任务和模型回复。英文任务意为用一句简短、正式的话通知今天讲座取消；回复意为原定今天的讲座已取消。随后看同一条回复实际如何生成。",
+      "sources": [
+        {
+          "id": "GEN_TRACE",
+          "locator": "通知生成：完整10步记录"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "renderer": 203,
+      "source_plan_page": 5,
+      "section": "LLM基础",
+      "type": "content",
+      "title": "下一Token预测（Next token prediction）",
+      "seconds": 270,
+      "on_slide": [
+        "每一步都会对词表中的49,152个候选Token分配概率。",
+        "本次按最高概率选择；第一步选中The，概率26.92%。",
+        "图中展示前5个候选，其他候选的概率合计单独保留。",
+        "解码参数：温度调整概率的集中程度；top-k按数量筛选；top-p按累计概率筛选。",
+        "使用同一次预测的完整词表，实时比较原始概率与调整后的抽样概率。"
+      ],
+      "talk": "全词表共有49,152项，图中只把最靠前五项单列，其余合计保留。The虽只有约27%，却是单个候选中的最高项。这里使用每步取最高概率的规则；采用概率抽样时也可以选到较低概率的候选。概率是在当前前文条件下生成这个Token的概率。 点击“温度 · top-k · top-p”进入同页对照。先看原始分布，再依次选择温度0.5、温度1.5、top-k=3和top-p=0.50，每个对照会把其余参数恢复为基准。top-k=3保留三项；top-p=0.50在本例保留四项，因为前三项累计仍不足50%。最后同时调整参数，说明此处先温度，再top-k，再top-p；筛选后的候选重新归一化，再按概率抽样。返回案例后仍按原记录的最高概率选择继续讲解。温度等解码参数改变当前选择方式，并不训练或修改模型权重。",
+      "sources": [
+        {
+          "id": "GEN_TRACE",
+          "locator": "通知生成：完整10步记录"
+        },
+        {
+          "id": "DECODING",
+          "locator": "第一步完整49152维分布；temperature、top-k、top-p对照"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "renderer": 204,
+      "source_plan_page": 5,
+      "section": "LLM基础",
+      "type": "content",
+      "title": "第二步：把刚生成的内容加入前文",
+      "seconds": 90,
+      "on_slide": [
+        "第二步的前文包含完整任务输入与刚生成的The。",
+        "下一步重新计算候选概率；并非提前选好整句话，也不是只看最后一个词。"
+      ],
+      "talk": "上下两行使用同一份任务输入。第二行多了第一步已经生成的The，模型据此重新预测。强调模型依赖的是完整前文，不是只取最后一个词。Token是模型生成的文本单位，此处不展开输入如何分词。",
+      "sources": [
+        {
+          "id": "GEN_TRACE",
+          "locator": "通知生成：完整10步记录"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "renderer": 205,
+      "source_plan_page": 5,
+      "section": "LLM基础",
+      "type": "content",
+      "title": "连续生成：从第一个Token到结束",
+      "seconds": 150,
+      "on_slide": [
+        "完整回答由10次选择组成：9个文本Token和1个结束标记。",
+        "查看任意一步：当前任务、候选概率、选中项与累计输出同步对应。"
+      ],
+      "talk": "整条轨迹一直可见。按钮只改变当前观察的是哪一步；重点看任务前文始终保留，累计回答不断增长，候选分布随之改变。可以连续查看十步，也可以直接点某个Token比较。",
+      "sources": [
+        {
+          "id": "GEN_TRACE",
+          "locator": "通知生成：完整10步记录"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "renderer": 206,
+      "source_plan_page": 5,
+      "section": "LLM基础",
+      "type": "content",
+      "title": "句号之后，模型还会再预测一次",
+      "seconds": 90,
+      "on_slide": [
+        "第9步生成句号，累计文本成为完整句子。",
+        "第10步生成<|im_end|>，本次回复结束。",
+        "句号也是普通输出；结束标记或生成长度上限会触发停止。"
+      ],
+      "talk": "句号这一步还有逗号、due等候选。生成句号后，模型仍继续预测；下一步选中结束标记，运行程序停止本次回复。结束标记本身不作为普通回复文字展示。也可以由生成长度限制停止，本记录实际通过结束标记结束。",
+      "sources": [
+        {
+          "id": "GEN_TRACE",
+          "locator": "通知生成：完整10步记录"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "renderer": 207,
+      "source_plan_page": 9,
+      "section": "LLM基础",
+      "type": "overview",
+      "title": "聊天界面背后，仍然是在继续生成文本",
+      "seconds": 90,
+      "on_slide": [
+        "聊天模板（chat template）把消息按顺序拼接，加入角色与边界标记。",
+        "模型接收到一个连续序列，从最后的assistant位置继续生成。"
+      ],
+      "talk": "用刚才通知的完整模型输入说明聊天模板。聊天气泡是应用界面的展示方式；模型使用按顺序排好的Token序列。文字形式展开后，可以看到边界标记、角色文字、任务内容和待续写的assistant头。后面看同一个模板如何拼接三轮中文消息。",
+      "sources": [
+        {
+          "id": "CHAT_TEMPLATE",
+          "locator": "原第1讲64—66页：三轮完整消息与SmolLM2模板"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "renderer": 208,
+      "source_plan_page": 9,
+      "section": "LLM基础",
+      "type": "content",
+      "title": "第一轮：把角色和消息拼成输入",
+      "seconds": 90,
+      "on_slide": [
+        "system：应用提供的要求；user：用户消息；assistant：助手消息。",
+        "<|im_start|>标记一条消息开始，<|im_end|>标记该条消息结束。",
+        "输入最后的assistant头后面，是接下来生成回复的位置。"
+      ],
+      "talk": "顺着左右两列读：应用先放system要求只给结果，然后放用户问题3人每人20元，最后加assistant头。角色名是文本，边界标记划分消息。60元的回复接在assistant头后，回复结束后可作为下一次历史。",
+      "sources": [
+        {
+          "id": "CHAT_TEMPLATE",
+          "locator": "原第1讲64—66页：三轮完整消息与SmolLM2模板"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "renderer": 209,
+      "source_plan_page": 9,
+      "section": "LLM基础",
+      "type": "content",
+      "title": "第二轮：旧问题、旧回答和追问一起传入",
+      "seconds": 120,
+      "on_slide": [
+        "旧问题、旧回复与新的“5人呢？”都保留在输入中。",
+        "“每人20元”来自原问题，生成时可以参照这段前文。"
+      ],
+      "talk": "5人呢没有重复单价。右侧完整输入仍有每人20元的原问题以及60元旧回复。新的user消息加在最后，再追加assistant头等待生成；下一轮历史保存本轮100元的回复。",
+      "sources": [
+        {
+          "id": "CHAT_TEMPLATE",
+          "locator": "原第1讲64—66页：三轮完整消息与SmolLM2模板"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "renderer": 210,
+      "source_plan_page": 9,
+      "section": "LLM基础",
+      "type": "content",
+      "title": "第三轮：完整历史接在同一份输入中",
+      "seconds": 90,
+      "on_slide": [
+        "第三轮把先前的3人问题、60元回复、5人追问和100元回复一起传入。",
+        "新的预算问题接在历史后面，仍从末尾assistant处继续生成。"
+      ],
+      "talk": "预算80元的问题出现在已明确5人和100元之后。展示完整消息顺序，不把它替换成条件汇总表。指出100元和80元对应20元差额。应用需要把相关历史组织进本次输入，聊天窗口本身不是模型的独立记忆。",
+      "sources": [
+        {
+          "id": "CHAT_TEMPLATE",
+          "locator": "原第1讲64—66页：三轮完整消息与SmolLM2模板"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "renderer": 211,
+      "source_plan_page": 9,
+      "section": "LLM基础",
+      "type": "summary",
+      "title": "LLM基础小结：组织输入，再逐Token生成",
+      "seconds": 60,
+      "on_slide": [
+        "生成：每一步依据完整前文预测下一个Token，选出后追加，再继续。",
+        "聊天：按模板拼接消息历史，每一轮都在这份输入之后生成。",
+        "Prompting改变任务要求和材料，也就改变了模型据以生成的输入。"
+      ],
+      "talk": "回到章首同一循环。两个问题可以归为一个过程：应用把任务和消息排成输入，模型依次预测和生成，下一轮把新消息加入历史再进行生成。接下来Prompting讨论怎样把任务要求和材料写进这个输入。",
+      "sources": [
+        {
+          "id": "CHAT_TEMPLATE",
+          "locator": "原第1讲64—66页：三轮完整消息与SmolLM2模板"
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "4": "模型：HuggingFaceTB/SmolLM2-135M-Instruct\n选择规则：每一步取最高概率候选。\n\n完整任务输入：\n<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.<|im_end|>\n<|im_start|>assistant\n\n完整输出：\nThe lecture scheduled for today has been cancelled.\n\n逐Token记录：\n1. 'The'  26.924238%  累计：The\n2. ' lecture'  55.115837%  累计：The lecture\n3. ' scheduled'  61.172783%  累计：The lecture scheduled\n4. ' for'  97.689056%  累计：The lecture scheduled for\n5. ' today'  97.733718%  累计：The lecture scheduled for today\n6. ' has'  58.171213%  累计：The lecture scheduled for today has\n7. ' been'  99.405706%  累计：The lecture scheduled for today has been\n8. ' cancelled'  98.974025%  累计：The lecture scheduled for today has been cancelled\n9. '.'  52.415413%  累计：The lecture scheduled for today has been cancelled.\n10. '<|im_end|>'  77.672714%  累计：The lecture scheduled for today has been cancelled.",
+    "5": "模型：HuggingFaceTB/SmolLM2-135M-Instruct\n选择规则：每一步取最高概率候选。\n\n完整任务输入：\n<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.<|im_end|>\n<|im_start|>assistant\n\n完整输出：\nThe lecture scheduled for today has been cancelled.\n\n逐Token记录：\n1. 'The'  26.924238%  累计：The\n2. ' lecture'  55.115837%  累计：The lecture\n3. ' scheduled'  61.172783%  累计：The lecture scheduled\n4. ' for'  97.689056%  累计：The lecture scheduled for\n5. ' today'  97.733718%  累计：The lecture scheduled for today\n6. ' has'  58.171213%  累计：The lecture scheduled for today has\n7. ' been'  99.405706%  累计：The lecture scheduled for today has been\n8. ' cancelled'  98.974025%  累计：The lecture scheduled for today has been cancelled\n9. '.'  52.415413%  累计：The lecture scheduled for today has been cancelled.\n10. '<|im_end|>'  77.672714%  累计：The lecture scheduled for today has been cancelled.",
+    "6": "模型：HuggingFaceTB/SmolLM2-135M-Instruct\n选择规则：每一步取最高概率候选。\n\n完整任务输入：\n<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.<|im_end|>\n<|im_start|>assistant\n\n完整输出：\nThe lecture scheduled for today has been cancelled.\n\n逐Token记录：\n1. 'The'  26.924238%  累计：The\n2. ' lecture'  55.115837%  累计：The lecture\n3. ' scheduled'  61.172783%  累计：The lecture scheduled\n4. ' for'  97.689056%  累计：The lecture scheduled for\n5. ' today'  97.733718%  累计：The lecture scheduled for today\n6. ' has'  58.171213%  累计：The lecture scheduled for today has\n7. ' been'  99.405706%  累计：The lecture scheduled for today has been\n8. ' cancelled'  98.974025%  累计：The lecture scheduled for today has been cancelled\n9. '.'  52.415413%  累计：The lecture scheduled for today has been cancelled.\n10. '<|im_end|>'  77.672714%  累计：The lecture scheduled for today has been cancelled.\n\n解码参数：同一份输入，调整下一Token的抽样分布\n\n温度 temperature\nT=1保持概率分布；0<T<1使概率更集中；T>1使概率更分散。这里使用T=0.2至2.0。给定原始分数z，调整后的概率为softmax(z/T)。\n\nTop-k\n按概率从高到低排序，保留前k项，其余置零，再归一化。“不限”表示不按数量截断。\n\nTop-p（核采样）\n按概率从高到低累加，保留累计概率首次达到或超过p的最小候选集合。跨过阈值的最后一项保留。p=1不截断；至少保留一个候选。本例T=1、top-k不限、p=0.50时，前三项合计约49.92%，因此还需保留Today，共四项。\n\n同时使用\n演示处理顺序：温度 → top-k → top-p → 最终归一化 → 按概率抽样。top-p根据温度调整与top-k筛选后的归一化分布累计，所以同时改变参数会相互影响。\n\n原案例与抽样\n原10步生成使用每步选择最高概率候选。按概率抽样则让保留下来的候选各自有被选中的机会。调整这些解码参数并不修改模型训练所得的权重。\n\n读图\n左列是原始概率，右列是当前参数对应的抽样概率；两列各合计100%。始终先计算完整49,152维分布，再显示前五项与其余合计。“其他候选合计”包含许多Token，不能将其作为一个Token调整温度或筛选。\n",
+    "7": "模型：HuggingFaceTB/SmolLM2-135M-Instruct\n选择规则：每一步取最高概率候选。\n\n完整任务输入：\n<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.<|im_end|>\n<|im_start|>assistant\n\n完整输出：\nThe lecture scheduled for today has been cancelled.\n\n逐Token记录：\n1. 'The'  26.924238%  累计：The\n2. ' lecture'  55.115837%  累计：The lecture\n3. ' scheduled'  61.172783%  累计：The lecture scheduled\n4. ' for'  97.689056%  累计：The lecture scheduled for\n5. ' today'  97.733718%  累计：The lecture scheduled for today\n6. ' has'  58.171213%  累计：The lecture scheduled for today has\n7. ' been'  99.405706%  累计：The lecture scheduled for today has been\n8. ' cancelled'  98.974025%  累计：The lecture scheduled for today has been cancelled\n9. '.'  52.415413%  累计：The lecture scheduled for today has been cancelled.\n10. '<|im_end|>'  77.672714%  累计：The lecture scheduled for today has been cancelled.",
+    "8": "模型：HuggingFaceTB/SmolLM2-135M-Instruct\n选择规则：每一步取最高概率候选。\n\n完整任务输入：\n<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.<|im_end|>\n<|im_start|>assistant\n\n完整输出：\nThe lecture scheduled for today has been cancelled.\n\n逐Token记录：\n1. 'The'  26.924238%  累计：The\n2. ' lecture'  55.115837%  累计：The lecture\n3. ' scheduled'  61.172783%  累计：The lecture scheduled\n4. ' for'  97.689056%  累计：The lecture scheduled for\n5. ' today'  97.733718%  累计：The lecture scheduled for today\n6. ' has'  58.171213%  累计：The lecture scheduled for today has\n7. ' been'  99.405706%  累计：The lecture scheduled for today has been\n8. ' cancelled'  98.974025%  累计：The lecture scheduled for today has been cancelled\n9. '.'  52.415413%  累计：The lecture scheduled for today has been cancelled.\n10. '<|im_end|>'  77.672714%  累计：The lecture scheduled for today has been cancelled.",
+    "9": "模型：HuggingFaceTB/SmolLM2-135M-Instruct\n选择规则：每一步取最高概率候选。\n\n完整任务输入：\n<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.<|im_end|>\n<|im_start|>assistant\n\n完整输出：\nThe lecture scheduled for today has been cancelled.\n\n逐Token记录：\n1. 'The'  26.924238%  累计：The\n2. ' lecture'  55.115837%  累计：The lecture\n3. ' scheduled'  61.172783%  累计：The lecture scheduled\n4. ' for'  97.689056%  累计：The lecture scheduled for\n5. ' today'  97.733718%  累计：The lecture scheduled for today\n6. ' has'  58.171213%  累计：The lecture scheduled for today has\n7. ' been'  99.405706%  累计：The lecture scheduled for today has been\n8. ' cancelled'  98.974025%  累计：The lecture scheduled for today has been cancelled\n9. '.'  52.415413%  累计：The lecture scheduled for today has been cancelled.\n10. '<|im_end|>'  77.672714%  累计：The lecture scheduled for today has been cancelled.",
+    "10": "Chat template将按顺序排列的消息转换为一个带角色与边界标记的连续序列。模型从末尾assistant位置继续生成。\n\n多轮聊天：第一次提问\n消息列表：\nmessages = [\n  dict(role='system',\n    content='只给结果。'),\n  dict(role='user',\n    content='3人，每人20元？'),\n]\n\n完整输入文本：\n<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n\n回复：60元。\n\n多轮聊天：接着问人数\n消息列表：\nmessages = [\n  dict(role='system',\n    content='只给结果。'),\n  dict(role='user',\n    content='3人，每人20元？'),\n  dict(role='assistant',\n    content='60元。'),\n  dict(role='user',\n    content='5人呢？'),\n]\n\n完整输入文本：\n<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n60元。<|im_end|>\n<|im_start|>user\n5人呢？<|im_end|>\n<|im_start|>assistant\n\n回复：100元。\n\n多轮聊天：再问预算\n消息列表：\nmessages = [\n  dict(role='system',\n    content='只给结果。'),\n  dict(role='user',\n    content='3人，每人20元？'),\n  dict(role='assistant',\n    content='60元。'),\n  dict(role='user',\n    content='5人呢？'),\n  dict(role='assistant',\n    content='100元。'),\n  dict(role='user',\n    content='预算80元，差多少？'),\n]\n\n完整输入文本：\n<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n60元。<|im_end|>\n<|im_start|>user\n5人呢？<|im_end|>\n<|im_start|>assistant\n100元。<|im_end|>\n<|im_start|>user\n预算80元，差多少？<|im_end|>\n<|im_start|>assistant\n\n回复：还差20元。\n\n前面通知任务实际使用的输入：\n<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.<|im_end|>\n<|im_start|>assistant\n",
+    "11": "Chat template将按顺序排列的消息转换为一个带角色与边界标记的连续序列。模型从末尾assistant位置继续生成。\n\n多轮聊天：第一次提问\n消息列表：\nmessages = [\n  dict(role='system',\n    content='只给结果。'),\n  dict(role='user',\n    content='3人，每人20元？'),\n]\n\n完整输入文本：\n<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n\n回复：60元。",
+    "12": "Chat template将按顺序排列的消息转换为一个带角色与边界标记的连续序列。模型从末尾assistant位置继续生成。\n\n多轮聊天：接着问人数\n消息列表：\nmessages = [\n  dict(role='system',\n    content='只给结果。'),\n  dict(role='user',\n    content='3人，每人20元？'),\n  dict(role='assistant',\n    content='60元。'),\n  dict(role='user',\n    content='5人呢？'),\n]\n\n完整输入文本：\n<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n60元。<|im_end|>\n<|im_start|>user\n5人呢？<|im_end|>\n<|im_start|>assistant\n\n回复：100元。",
+    "13": "Chat template将按顺序排列的消息转换为一个带角色与边界标记的连续序列。模型从末尾assistant位置继续生成。\n\n多轮聊天：再问预算\n消息列表：\nmessages = [\n  dict(role='system',\n    content='只给结果。'),\n  dict(role='user',\n    content='3人，每人20元？'),\n  dict(role='assistant',\n    content='60元。'),\n  dict(role='user',\n    content='5人呢？'),\n  dict(role='assistant',\n    content='100元。'),\n  dict(role='user',\n    content='预算80元，差多少？'),\n]\n\n完整输入文本：\n<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n60元。<|im_end|>\n<|im_start|>user\n5人呢？<|im_end|>\n<|im_start|>assistant\n100元。<|im_end|>\n<|im_start|>user\n预算80元，差多少？<|im_end|>\n<|im_start|>assistant\n\n回复：还差20元。",
+    "14": "Chat template将按顺序排列的消息转换为一个带角色与边界标记的连续序列。模型从末尾assistant位置继续生成。\n\n多轮聊天：第一次提问\n消息列表：\nmessages = [\n  dict(role='system',\n    content='只给结果。'),\n  dict(role='user',\n    content='3人，每人20元？'),\n]\n\n完整输入文本：\n<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n\n回复：60元。\n\n多轮聊天：接着问人数\n消息列表：\nmessages = [\n  dict(role='system',\n    content='只给结果。'),\n  dict(role='user',\n    content='3人，每人20元？'),\n  dict(role='assistant',\n    content='60元。'),\n  dict(role='user',\n    content='5人呢？'),\n]\n\n完整输入文本：\n<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n60元。<|im_end|>\n<|im_start|>user\n5人呢？<|im_end|>\n<|im_start|>assistant\n\n回复：100元。\n\n多轮聊天：再问预算\n消息列表：\nmessages = [\n  dict(role='system',\n    content='只给结果。'),\n  dict(role='user',\n    content='3人，每人20元？'),\n  dict(role='assistant',\n    content='60元。'),\n  dict(role='user',\n    content='5人呢？'),\n  dict(role='assistant',\n    content='100元。'),\n  dict(role='user',\n    content='预算80元，差多少？'),\n]\n\n完整输入文本：\n<|im_start|>system\n只给结果。<|im_end|>\n<|im_start|>user\n3人，每人20元？<|im_end|>\n<|im_start|>assistant\n60元。<|im_end|>\n<|im_start|>user\n5人呢？<|im_end|>\n<|im_start|>assistant\n100元。<|im_end|>\n<|im_start|>user\n预算80元，差多少？<|im_end|>\n<|im_start|>assistant\n\n回复：还差20元。"
+  },
+  "files": {
+    "4": [
+      {
+        "label": "完整生成记录、候选概率与复算文件",
+        "href": "sources/llm-foundations/generation-reader.html"
+      }
+    ],
+    "5": [
+      {
+        "label": "完整生成记录、候选概率与复算文件",
+        "href": "sources/llm-foundations/generation-reader.html"
+      }
+    ],
+    "6": [
+      {
+        "label": "完整生成记录、候选概率与复算文件",
+        "href": "sources/llm-foundations/generation-reader.html"
+      },
+      {
+        "label": "解码参数说明、分布数据与核验",
+        "href": "sources/llm-foundations/decoding/reader.html"
+      }
+    ],
+    "7": [
+      {
+        "label": "完整生成记录、候选概率与复算文件",
+        "href": "sources/llm-foundations/generation-reader.html"
+      }
+    ],
+    "8": [
+      {
+        "label": "完整生成记录、候选概率与复算文件",
+        "href": "sources/llm-foundations/generation-reader.html"
+      }
+    ],
+    "9": [
+      {
+        "label": "完整生成记录、候选概率与复算文件",
+        "href": "sources/llm-foundations/generation-reader.html"
+      }
+    ],
+    "10": [
+      {
+        "label": "三轮消息、完整聊天模板与原始文件",
+        "href": "sources/llm-foundations/chat-reader.html"
+      }
+    ],
+    "11": [
+      {
+        "label": "三轮消息、完整聊天模板与原始文件",
+        "href": "sources/llm-foundations/chat-reader.html"
+      }
+    ],
+    "12": [
+      {
+        "label": "三轮消息、完整聊天模板与原始文件",
+        "href": "sources/llm-foundations/chat-reader.html"
+      }
+    ],
+    "13": [
+      {
+        "label": "三轮消息、完整聊天模板与原始文件",
+        "href": "sources/llm-foundations/chat-reader.html"
+      }
+    ],
+    "14": [
+      {
+        "label": "三轮消息、完整聊天模板与原始文件",
+        "href": "sources/llm-foundations/chat-reader.html"
+      }
+    ]
+  },
+  "sources": {
+    "GEN_TRACE": {
+      "title": "SmolLM2通知生成：完整逐Token记录",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/llm-foundations/generation-trace.json",
+      "href": "sources/llm-foundations/generation-reader.html"
+    },
+    "CHAT_TEMPLATE": {
+      "title": "原课程三轮消息与聊天模板",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/llm-foundations/chat-template/cases.json",
+      "href": "sources/llm-foundations/chat-reader.html"
+    },
+    "DECODING": {
+      "title": "下一Token抽样：温度、top-k和top-p",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/llm-foundations/decoding/provenance.json",
+      "href": "sources/llm-foundations/decoding/reader.html"
+    }
+  }
+}

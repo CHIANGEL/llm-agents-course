@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "173",
+  "text": "整合小结：各部分围绕任务配合\n各部分围绕同一任务配合，结果再回到任务要求中检查。\n任务要求与完成标准\nMemory：信息记录\nSkills：可复用做法\nHarness：准备输入、安排执行、保存状态与检查\nProtocols：交互约定\n本次输入\n任务与材料\n相关结果\n模型\n工具与结果\n按结果继续、等待或结束\n任务交代清楚，执行过程可继续，交付结果有依据。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "整合小结：各部分围绕任务配合"
+}

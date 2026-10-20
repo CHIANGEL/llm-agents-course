@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 7,
+  "text": "第二步：把刚生成的内容加入前文\n第二步使用同一份任务输入，并加上第一步已经生成的 The。\n这一轮已有的前文\n下一Token的主要候选\n第1步\n完整任务输入\nThe　26.92%\n\"　13.66%\nWe　9.34%\n第2步\n完整任务输入 + The\n␠lecture　55.12%\n␠lecturer　3.60%\n␠scheduled　2.96%\n每次都依据完整前文重新预测；新生成的内容也成为下一步的条件。\n␠表示Token自带的空格。Token是模型生成文本的单位。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n1.1 连续生成\n1.2 多轮聊天\n1.3 LLM小结",
+  "title": "第7页 第二步：把刚生成的内容加入前文"
+}

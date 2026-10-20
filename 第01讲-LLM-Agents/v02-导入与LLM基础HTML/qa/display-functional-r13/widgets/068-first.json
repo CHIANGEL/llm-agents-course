@@ -1,0 +1,14 @@
+{
+  "broken": [],
+  "page": "68",
+  "scroll": [
+    {
+      "max": 880,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "第一次完整输入"
+  ],
+  "text": "左侧看消息与分工，右侧看它们怎样接成连续文本。\n一次天气查询\n1. 回答要求与工具说明\n中文回答；get_weather需要地点\n2. 用户提出问题\n纽约现在天气怎么样？\n3. 模型生成工具调用\nget_weather · New York\n\n↓ 应用执行get_weather，结果返回 ↓\n\n4. 工具返回天气\n72°F · Partly cloudy\n5. 模型生成中文回答\n纽约气温72°F，局部多云。\n重置到调用文本\n对应片段\n第一次完整输入\n第二次完整输入\n完整对话\n第一次完整输入 → 接下来生成调用\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n\n\n输入包含回答要求、工具说明、用户问题，末尾是assistant前缀。\n\n两轮输入都以assistant前缀结尾，模型从那里继续预测下一个Token。"
+}

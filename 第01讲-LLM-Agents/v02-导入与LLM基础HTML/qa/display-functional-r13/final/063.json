@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 63,
+  "text": "工具调用：大模型与外界交互的主要途径\n工具调用是大模型与外界发生交互的主要途径。\n大模型\n应用程序\n外部数据与系统\n生成调用请求\n执行相应工具\n返回结果 → 加入输入 → 继续生成\n① 为什么需要交互\n取得信息，也能产生影响\n② 一次调用怎样发生\n用天气查询看完整往返\n③ 复杂应用怎样组成\nComputer Use、文件与记忆\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "第63页 工具调用：大模型与外界交互的主要途径"
+}

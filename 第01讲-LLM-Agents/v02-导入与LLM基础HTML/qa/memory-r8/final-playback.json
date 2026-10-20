@@ -1,0 +1,895 @@
+[
+  {
+    "page": 72,
+    "title": "从对话机器人，走向能做事的智能体",
+    "pageValue": "72",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/llm.png",
+        "width": 187
+      },
+      {
+        "complete": true,
+        "src": "assets/tool.png",
+        "width": 345
+      },
+      {
+        "complete": true,
+        "src": "assets/html-figures-r6/computer.png",
+        "width": 324
+      }
+    ]
+  },
+  {
+    "page": 73,
+    "title": "本讲内容",
+    "pageValue": "73",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 74,
+    "title": "Memory：把过去的信息带入当前任务",
+    "pageValue": "74",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/cross-session.png",
+        "width": 1600
+      }
+    ]
+  },
+  {
+    "page": 75,
+    "title": "新会话怎样用到过去的信息？",
+    "pageValue": "75",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/cross-session.png",
+        "width": 1600
+      }
+    ]
+  },
+  {
+    "page": 76,
+    "title": "记忆要存什么？",
+    "pageValue": "76",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/doc.png",
+        "width": 128
+      }
+    ]
+  },
+  {
+    "page": 77,
+    "title": "记忆怎样组织：条目与关系图",
+    "pageValue": "77",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/graph.png",
+        "width": 1210
+      }
+    ]
+  },
+  {
+    "page": 78,
+    "title": "记忆的增删改查",
+    "pageValue": "78",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/crud-flow.png",
+        "width": 1615
+      }
+    ]
+  },
+  {
+    "page": 79,
+    "title": "写入：新增、修改、删除，还是不变？",
+    "pageValue": "79",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 80,
+    "title": "事实变了，历史与当前怎样区分？",
+    "pageValue": "80",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/update-relations.png",
+        "width": 1585
+      }
+    ]
+  },
+  {
+    "page": 81,
+    "title": "删除一条记忆，信息就消失了吗？",
+    "pageValue": "81",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/doc.png",
+        "width": 128
+      },
+      {
+        "complete": true,
+        "src": "assets/app.png",
+        "width": 165
+      },
+      {
+        "complete": true,
+        "src": "assets/tool.png",
+        "width": 345
+      },
+      {
+        "complete": true,
+        "src": "assets/doc.png",
+        "width": 128
+      }
+    ]
+  },
+  {
+    "page": 82,
+    "title": "查询：先确定范围，再找候选",
+    "pageValue": "82",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/read-scope.png",
+        "width": 1595
+      }
+    ]
+  },
+  {
+    "page": 83,
+    "title": "记忆也可能干扰当前任务",
+    "pageValue": "83",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/music-mismatch.png",
+        "width": 1485
+      }
+    ]
+  },
+  {
+    "page": 84,
+    "title": "工作场景：哪些背景值得带入？",
+    "pageValue": "84",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 85,
+    "title": "先判断这次需不需要记忆",
+    "pageValue": "85",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/memory-decision.png",
+        "width": 1415
+      }
+    ]
+  },
+  {
+    "page": 86,
+    "title": "从Memory到个性化与主动式智能体",
+    "pageValue": "86",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/proactive.png",
+        "width": 1610
+      }
+    ]
+  },
+  {
+    "page": 87,
+    "title": "Meta Muse与OpenAI dot",
+    "pageValue": "87",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/doc.png",
+        "width": 128
+      },
+      {
+        "complete": true,
+        "src": "assets/app.png",
+        "width": 165
+      }
+    ]
+  },
+  {
+    "page": 88,
+    "title": "个性化智能体：信息、权限与风险",
+    "pageValue": "88",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/doc.png",
+        "width": 128
+      },
+      {
+        "complete": true,
+        "src": "assets/llm.png",
+        "width": 187
+      },
+      {
+        "complete": true,
+        "src": "assets/tool.png",
+        "width": 345
+      }
+    ]
+  },
+  {
+    "page": 89,
+    "title": "智能体会改变平台的入口吗？",
+    "pageValue": "89",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/platform-figure1.png",
+        "width": 1122
+      }
+    ]
+  },
+  {
+    "page": 90,
+    "title": "持续理解用户，持续推进任务",
+    "pageValue": "90",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/proactive.png",
+        "width": 1610
+      }
+    ]
+  },
+  {
+    "page": 91,
+    "title": "Codex采购案例：旧预算还能沿用吗？",
+    "pageValue": "91",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 92,
+    "title": "磁盘里保存了什么？",
+    "pageValue": "92",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 93,
+    "title": "渐进式披露：先摘要，再细节",
+    "pageValue": "93",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/doc.png",
+        "width": 128
+      }
+    ]
+  },
+  {
+    "page": 94,
+    "title": "首次输入：摘要怎样进入模型？",
+    "pageValue": "94",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 95,
+    "title": "摘要足够吗？哪些内容还要查？",
+    "pageValue": "95",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/doc.png",
+        "width": 128
+      },
+      {
+        "complete": true,
+        "src": "assets/tool.png",
+        "width": 345
+      }
+    ]
+  },
+  {
+    "page": 96,
+    "title": "模型生成读取调用",
+    "pageValue": "96",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 97,
+    "title": "工具返回后，输入增加了什么？",
+    "pageValue": "97",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 98,
+    "title": "读取记忆，怎样改变采购判断？",
+    "pageValue": "98",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 99,
+    "title": "用户补充新条件，当前任务随之调整",
+    "pageValue": "99",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 100,
+    "title": "文件更新了，当前输入会自动变吗？",
+    "pageValue": "100",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 101,
+    "title": "采购案例小结：记忆怎样发挥作用？",
+    "pageValue": "101",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 102,
+    "title": "Memory小结：保存、读取与采用",
+    "pageValue": "102",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/cross-session.png",
+        "width": 1600
+      }
+    ]
+  },
+  {
+    "page": 103,
+    "title": "从Memory到Skills：从信息到方法",
+    "pageValue": "103",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      },
+      {
+        "complete": true,
+        "src": "assets/memory-r8/memory-to-skills.png",
+        "width": 1565
+      }
+    ]
+  },
+  {
+    "page": 104,
+    "title": "本讲内容",
+    "pageValue": "104",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "page": 105,
+    "title": "Skills：把可复用的做法组织起来",
+    "pageValue": "105",
+    "slide": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    },
+    "images": [
+      {
+        "complete": true,
+        "src": "assets/header.png",
+        "width": 1920
+      }
+    ]
+  }
+]

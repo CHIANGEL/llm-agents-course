@@ -1,0 +1,14 @@
+{
+  "broken": [],
+  "page": "118",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "7. 模板中的答案代码"
+  ],
+  "text": "用户要求先保留模板：7个单元中，首个标题已改为“Python列表与平均值”。\n7个单元\n1. 标题与对象\n2. 内容大纲\n3. 准备代码\n4. 步骤说明\n5. 正弦示例代码\n6. 模板中的练习栏目\n7. 模板中的答案代码\n重置\npython-lists-and-mean.ipynb\n文件中的单元内容\n代码\n# Exercise answer scaffold\ndef describe(values: list[float]) -> dict[str, float]:\n    return {\"min\": min(values), \"max\": max(values)}\n\ndescribe(sines)\n\n\n第7单元保留模板内容。代码单元待补齐主题内容后再运行。\n\n后续补充对象与目标，把正弦示例改成列表求平均值，再逐单元运行并检查结果。"
+}

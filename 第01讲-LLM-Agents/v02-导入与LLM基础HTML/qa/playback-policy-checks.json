@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-20",
+  "method": "Node VM execution with a minimal DOM; logic checks only, not visual or browser tests",
+  "pages": 202,
+  "states": 202,
+  "ordinary_pages": 202,
+  "mechanism_pages": [],
+  "checks": [
+    {
+      "name": "Old ordinary-page hash is clamped to the complete page",
+      "status": "passed"
+    },
+    {
+      "name": "Every forward state maps to its intended original renderer state",
+      "status": "passed"
+    },
+    {
+      "name": "Every reverse state restores the corresponding original state",
+      "status": "passed"
+    },
+    {
+      "name": "Every ordinary page contains all former reveal blocks on entry",
+      "status": "passed"
+    },
+    {
+      "name": "Retained mechanisms preserve source reveal thresholds",
+      "status": "passed"
+    },
+    {
+      "name": "Print retains every selected mechanism state and every complete ordinary page",
+      "status": "passed"
+    },
+    {
+      "name": "Legacy high step hashes, negative values and non-finite values remain bounded",
+      "status": "passed"
+    },
+    {
+      "name": "Normal-page next crosses the page boundary in one action",
+      "status": "passed"
+    },
+    {
+      "name": "Mechanism source-state mappings agree with the current plan",
+      "status": "passed"
+    },
+    {
+      "name": "The table of contents includes every renumbered page exactly once",
+      "status": "passed"
+    },
+    {
+      "name": "Double-clicks inside controls do not open figure zoom",
+      "status": "passed"
+    },
+    {
+      "name": "Every JS and CSS index reference has a hash matching the current file",
+      "status": "passed"
+    }
+  ]
+}

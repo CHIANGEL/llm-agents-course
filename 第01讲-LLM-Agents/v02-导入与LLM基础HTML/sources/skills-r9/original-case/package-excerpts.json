@@ -1,0 +1,193 @@
+{
+  "user_request": "请为“Python列表与平均值”创建一个教学用的Jupyter Notebook骨架，先保留模板内容，并说明后续要补哪些内容。",
+  "package_roles": [
+    {
+      "path": "SKILL.md",
+      "role": "入口说明",
+      "description": "名称与用途用于匹配任务；正文说明工作步骤、脚本位置和参考材料。",
+      "demo_use": "metadata_then_read",
+      "bytes": 4154,
+      "sha256": "62f102e8554b25716dccef0ffab4572d4e3eaf05ccc76562d33a065bc9c521fb"
+    },
+    {
+      "path": "references/tutorial-patterns.md",
+      "role": "教程组织方法",
+      "description": "说明学习目标、小步代码、练习、常见错误应如何组织。",
+      "demo_use": "read_in_case",
+      "bytes": 685,
+      "sha256": "8c194bb640de2fb7747e3db87006ecec5219252d301f53670975dbb5310ff659"
+    },
+    {
+      "path": "references/experiment-patterns.md",
+      "role": "实验组织方法",
+      "description": "为实验与探索任务提供组织方法；本例没有读取。",
+      "demo_use": "not_read",
+      "bytes": 699,
+      "sha256": "1ff9c04281c01e8e2209bde9f1fd910b8e4b620dd1f1f040e2101f1d88513a91"
+    },
+    {
+      "path": "references/notebook-structure.md",
+      "role": "Notebook结构说明",
+      "description": "直接编辑Notebook JSON时参考；本例只运行骨架脚本，没有修改单元。",
+      "demo_use": "not_read",
+      "bytes": 751,
+      "sha256": "a85051a2e88fd3424bbed2636e952ec5f858e7efa4e076c28d62a8cc2cc9dc06"
+    },
+    {
+      "path": "references/quality-checklist.md",
+      "role": "交付检查清单",
+      "description": "提醒检查运行顺序、状态、输出和TODO；本例只交付骨架，不把模板检查说成教程已经完成。",
+      "demo_use": "available_read_record",
+      "bytes": 572,
+      "sha256": "ed01afe6ff47714d85935d11053b64c414772f02250fdc604e3fca65e5139136"
+    },
+    {
+      "path": "scripts/new_notebook.py",
+      "role": "骨架生成脚本",
+      "description": "读取指定模板，修改首标题并写出Notebook。",
+      "demo_use": "executed_not_prompted",
+      "bytes": 4086,
+      "sha256": "a004e2ea3115edb24313928be0be6d1dc07e571d7ca6c1b24375f0569c616d2f"
+    },
+    {
+      "path": "assets/tutorial-template.ipynb",
+      "role": "教程模板",
+      "description": "含7个Notebook单元，由脚本读取；本例保留原有示例。",
+      "demo_use": "read_by_script",
+      "bytes": 2490,
+      "sha256": "704a809c09c7c9e6e5c437860df95524412b50c58571a14204610d73e0744765"
+    },
+    {
+      "path": "assets/experiment-template.ipynb",
+      "role": "实验模板",
+      "description": "为experiment类型准备；本例没有使用。",
+      "demo_use": "not_used",
+      "bytes": 2570,
+      "sha256": "25f85914103cd84244e20ef378f59097479c72481cd18d3a931354d107c3f300"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "role": "界面配置",
+      "description": "显示名称、简介、图标及默认请求。",
+      "demo_use": "not_prompted",
+      "bytes": 325,
+      "sha256": "3a2d6a8f9ed10e18f6caa66aeb26a02305bc61f36fc4b333c904e02f9988fb9c"
+    },
+    {
+      "path": "assets/jupyter-small.svg",
+      "role": "小图标",
+      "description": "供界面显示。",
+      "demo_use": "not_prompted",
+      "bytes": 1043,
+      "sha256": "a36bd27bef3775f111309241754b386db81e7d356f07672190e2fcb24478a250"
+    },
+    {
+      "path": "assets/jupyter.png",
+      "role": "大图标",
+      "description": "供界面显示。",
+      "demo_use": "not_prompted",
+      "bytes": 2713,
+      "sha256": "852fd5468885bb176d266d547e61684792332e44a88cfbc8cd07323937040ccb"
+    },
+    {
+      "path": "LICENSE.txt",
+      "role": "许可证",
+      "description": "保留Apache-2.0许可文本。",
+      "demo_use": "not_prompted",
+      "bytes": 10776,
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+    }
+  ],
+  "excerpts": [
+    {
+      "id": "metadata",
+      "path": "SKILL.md",
+      "lines": [
+        1,
+        4
+      ],
+      "text": "---\nname: \"jupyter-notebook\"\ndescription: \"Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.\"\n---",
+      "explanation_zh": "客户端可从入口文件中取得名称和用途，先告诉模型这里有什么技能。"
+    },
+    {
+      "id": "decision",
+      "path": "SKILL.md",
+      "lines": [
+        22,
+        25
+      ],
+      "text": "## Decision tree\n- If the request is exploratory, analytical, or hypothesis-driven, choose `experiment`.\n- If the request is instructional, step-by-step, or audience-specific, choose `tutorial`.\n- If editing an existing notebook, treat it as a refactor: preserve intent and improve structure.",
+      "explanation_zh": "这次是教学用Notebook，选择tutorial。"
+    },
+    {
+      "id": "references",
+      "path": "SKILL.md",
+      "lines": [
+        103,
+        107
+      ],
+      "text": "## Reference map\n- `references/experiment-patterns.md`: experiment structure and heuristics.\n- `references/tutorial-patterns.md`: tutorial structure and teaching flow.\n- `references/notebook-structure.md`: notebook JSON shape and safe editing rules.\n- `references/quality-checklist.md`: final validation checklist.",
+      "explanation_zh": "入口给出参考资料路径；本例继续读取教程组织方法。"
+    },
+    {
+      "id": "template-action",
+      "path": "SKILL.md",
+      "lines": [
+        77,
+        79
+      ],
+      "text": "## Templates and helper script\n- Templates live in `assets/experiment-template.ipynb` and `assets/tutorial-template.ipynb`.\n- The helper script loads a template, updates the title cell, and writes a notebook.",
+      "explanation_zh": "入口说明脚本怎样使用模板。"
+    },
+    {
+      "id": "tutorial",
+      "path": "references/tutorial-patterns.md",
+      "lines": [
+        5,
+        9
+      ],
+      "text": "- Audience, prerequisites, and learning goals: say who it is for, list what they should already know, and state what they will be able to do by the end.\n- Outline: provide a short numbered outline so readers can skim.\n- Step-by-step flow: pair a short markdown explanation with a small code cell that runs on its own and a brief interpretation of the result.\n- Exercises: include at least one exercise that reinforces the key concept and provide an answer scaffold in the next cell.\n- Pitfalls and extensions: call out one common mistake and how to fix it, and suggest one optional extension for curious readers.",
+      "explanation_zh": "先写清学习目标；解释与小代码成对；增加练习、答案和常见错误。"
+    },
+    {
+      "id": "script-load",
+      "path": "scripts/new_notebook.py",
+      "lines": [
+        24,
+        31
+      ],
+      "text": "def load_template(skill_dir: Path, kind: str) -> dict[str, Any]:\n    asset_name = \"experiment-template.ipynb\" if kind == \"experiment\" else \"tutorial-template.ipynb\"\n    template_path = skill_dir / \"assets\" / asset_name\n    if not template_path.exists():\n        raise SystemExit(f\"Missing template: {template_path}\")\n    with template_path.open(\"r\", encoding=\"utf-8\") as f:\n        data = json.load(f)\n    if not isinstance(data, dict):",
+      "explanation_zh": "脚本打开教程模板，再把JSON读入Python。执行脚本不需要把脚本或模板全文作为模型消息发送。"
+    },
+    {
+      "id": "script-write",
+      "path": "scripts/new_notebook.py",
+      "lines": [
+        112,
+        113
+      ],
+      "text": "    notebook = load_template(skill_dir, args.kind)\n    update_title(notebook, args.kind, args.title)",
+      "explanation_zh": "脚本加载模板并替换首标题。"
+    },
+    {
+      "id": "interface",
+      "path": "agents/openai.yaml",
+      "lines": [
+        1,
+        6
+      ],
+      "text": "interface:\n  display_name: \"Jupyter Notebooks\"\n  short_description: \"Create Jupyter notebooks for experiments and tutorials\"\n  icon_small: \"./assets/jupyter-small.svg\"\n  icon_large: \"./assets/jupyter.png\"\n  default_prompt: \"Create a Jupyter notebook for this task with clear sections, runnable cells, and concise takeaways.\"",
+      "explanation_zh": "这些字段用于界面显示，不是另一位Agent，也不等于SKILL正文。"
+    },
+    {
+      "id": "checklist",
+      "path": "references/quality-checklist.md",
+      "lines": [
+        5,
+        9
+      ],
+      "text": "- Run it top-to-bottom at least once (or as much as the environment allows).\n- Ensure early cells set all required state; avoid hidden state from prior runs.\n- Keep outputs tidy. Avoid giant outputs when a short summary works.\n- Prefer small tables, key metrics, or short printouts.\n- Keep the narrative skimmable. Use headings and short bullets, and avoid long paragraphs.",
+      "explanation_zh": "完整Notebook通常要运行检查；本例只完成骨架，模板单元仍待填。"
+    }
+  ]
+}

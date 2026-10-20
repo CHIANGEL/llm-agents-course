@@ -1,0 +1,13 @@
+.ao{position:relative;width:1504px;height:718px;color:#202936;font-weight:400}
+.ao .ao-lead{font-size:34px;line-height:1.45;font-weight:400;color:#202936}
+.ao .ao-head{font-size:36px;line-height:1.4;font-weight:700;color:var(--blue)}
+.ao .ao-text{font-size:30px;line-height:1.5;font-weight:400;color:#202936}
+.ao .ao-small{font-size:27px;line-height:1.5;font-weight:400;color:#52647c}
+.ao .ao-key{font-size:31px;line-height:1.45;font-weight:700;color:var(--blue)}
+.ao strong{font-weight:700;color:var(--blue)}.ao em{font-style:normal;color:var(--chapter-red)}
+.ao ul{padding-left:35px;margin:0}.ao li{padding-left:5px;margin-bottom:18px}
+.ao .ao-paper{border:2px solid #a6b9d0;background:#fff;border-radius:2px;padding:17px 23px}
+/* Seven Agents subchapters remain visible together in each chapter agenda. */
+.chapter-column:last-child ol{margin-top:12px}.chapter-column:last-child li{margin-bottom:5px}
+.chapter-column:last-child button{font-size:29px;line-height:1.4}
+.chapter-progress .progress-sub{gap:4px}.chapter-progress .progress-sub button{padding:0 9px}

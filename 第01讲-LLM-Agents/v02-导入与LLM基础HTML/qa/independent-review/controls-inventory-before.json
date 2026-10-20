@@ -1,0 +1,1958 @@
+{
+  "states": 387,
+  "body": [
+    {
+      "hash": "#p=1&s=1",
+      "title": "第一讲：LLM Agents",
+      "controls": []
+    },
+    {
+      "hash": "#p=1&s=2",
+      "title": "第一讲：LLM Agents",
+      "controls": []
+    },
+    {
+      "hash": "#p=2&s=1",
+      "title": "回答、操作与交付",
+      "controls": []
+    },
+    {
+      "hash": "#p=2&s=2",
+      "title": "回答、操作与交付",
+      "controls": []
+    },
+    {
+      "hash": "#p=2&s=3",
+      "title": "回答、操作与交付",
+      "controls": []
+    },
+    {
+      "hash": "#p=2&s=4",
+      "title": "回答、操作与交付",
+      "controls": []
+    },
+    {
+      "hash": "#p=3&s=1",
+      "title": "本讲内容",
+      "controls": []
+    },
+    {
+      "hash": "#p=4&s=1",
+      "title": "LLM基础：生成、上下文与事实依据",
+      "controls": []
+    },
+    {
+      "hash": "#p=4&s=2",
+      "title": "LLM基础：生成、上下文与事实依据",
+      "controls": []
+    },
+    {
+      "hash": "#p=4&s=3",
+      "title": "LLM基础：生成、上下文与事实依据",
+      "controls": []
+    },
+    {
+      "hash": "#p=5&s=1",
+      "title": "生成：回答怎样一步步写出来",
+      "controls": []
+    },
+    {
+      "hash": "#p=6&s=1",
+      "title": "LLM怎样生成回答",
+      "controls": []
+    },
+    {
+      "hash": "#p=6&s=2",
+      "title": "LLM怎样生成回答",
+      "controls": []
+    },
+    {
+      "hash": "#p=6&s=3",
+      "title": "LLM怎样生成回答",
+      "controls": []
+    },
+    {
+      "hash": "#p=7&s=1",
+      "title": "下一Token预测（Next token prediction）",
+      "controls": []
+    },
+    {
+      "hash": "#p=7&s=2",
+      "title": "下一Token预测（Next token prediction）",
+      "controls": []
+    },
+    {
+      "hash": "#p=8&s=1",
+      "title": "选出一个，再接着生成",
+      "controls": []
+    },
+    {
+      "hash": "#p=8&s=2",
+      "title": "选出一个，再接着生成",
+      "controls": []
+    },
+    {
+      "hash": "#p=8&s=3",
+      "title": "选出一个，再接着生成",
+      "controls": []
+    },
+    {
+      "hash": "#p=9&s=1",
+      "title": "生成小结：预测、选择与追加",
+      "controls": []
+    },
+    {
+      "hash": "#p=9&s=2",
+      "title": "生成小结：预测、选择与追加",
+      "controls": []
+    },
+    {
+      "hash": "#p=9&s=3",
+      "title": "生成小结：预测、选择与追加",
+      "controls": []
+    },
+    {
+      "hash": "#p=10&s=1",
+      "title": "上下文：本次输入由哪些内容组成",
+      "controls": []
+    },
+    {
+      "hash": "#p=11&s=1",
+      "title": "同一材料，可以完成不同任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=11&s=2",
+      "title": "同一材料，可以完成不同任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=11&s=3",
+      "title": "同一材料，可以完成不同任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=12&s=1",
+      "title": "“人数改成36人”还缺什么？",
+      "controls": []
+    },
+    {
+      "hash": "#p=12&s=2",
+      "title": "“人数改成36人”还缺什么？",
+      "controls": []
+    },
+    {
+      "hash": "#p=12&s=3",
+      "title": "“人数改成36人”还缺什么？",
+      "controls": []
+    },
+    {
+      "hash": "#p=12&s=4",
+      "title": "“人数改成36人”还缺什么？",
+      "controls": []
+    },
+    {
+      "hash": "#p=13&s=1",
+      "title": "文件存在，与模型这次读到，是两件事",
+      "controls": []
+    },
+    {
+      "hash": "#p=13&s=2",
+      "title": "文件存在，与模型这次读到，是两件事",
+      "controls": []
+    },
+    {
+      "hash": "#p=13&s=3",
+      "title": "文件存在，与模型这次读到，是两件事",
+      "controls": []
+    },
+    {
+      "hash": "#p=14&s=1",
+      "title": "上下文小结：任务、历史与材料",
+      "controls": []
+    },
+    {
+      "hash": "#p=14&s=2",
+      "title": "上下文小结：任务、历史与材料",
+      "controls": []
+    },
+    {
+      "hash": "#p=14&s=3",
+      "title": "上下文小结：任务、历史与材料",
+      "controls": []
+    },
+    {
+      "hash": "#p=15&s=1",
+      "title": "事实依据：生成倾向与结论支持",
+      "controls": []
+    },
+    {
+      "hash": "#p=16&s=1",
+      "title": "生成概率与事实依据",
+      "controls": []
+    },
+    {
+      "hash": "#p=16&s=2",
+      "title": "生成概率与事实依据",
+      "controls": []
+    },
+    {
+      "hash": "#p=16&s=3",
+      "title": "生成概率与事实依据",
+      "controls": []
+    },
+    {
+      "hash": "#p=17&s=1",
+      "title": "数字算对，结论也可能不对",
+      "controls": []
+    },
+    {
+      "hash": "#p=17&s=2",
+      "title": "数字算对，结论也可能不对",
+      "controls": []
+    },
+    {
+      "hash": "#p=17&s=3",
+      "title": "数字算对，结论也可能不对",
+      "controls": []
+    },
+    {
+      "hash": "#p=17&s=4",
+      "title": "数字算对，结论也可能不对",
+      "controls": []
+    },
+    {
+      "hash": "#p=18&s=1",
+      "title": "事实依据小结：计算、对象与含义",
+      "controls": []
+    },
+    {
+      "hash": "#p=18&s=2",
+      "title": "事实依据小结：计算、对象与含义",
+      "controls": []
+    },
+    {
+      "hash": "#p=18&s=3",
+      "title": "事实依据小结：计算、对象与含义",
+      "controls": []
+    },
+    {
+      "hash": "#p=19&s=1",
+      "title": "LLM基础小结：生成、上下文与事实依据",
+      "controls": []
+    },
+    {
+      "hash": "#p=19&s=2",
+      "title": "LLM基础小结：生成、上下文与事实依据",
+      "controls": []
+    },
+    {
+      "hash": "#p=19&s=3",
+      "title": "LLM基础小结：生成、上下文与事实依据",
+      "controls": []
+    },
+    {
+      "hash": "#p=20&s=1",
+      "title": "本讲内容",
+      "controls": []
+    },
+    {
+      "hash": "#p=21&s=1",
+      "title": "Prompting：从交代任务到反馈检查",
+      "controls": []
+    },
+    {
+      "hash": "#p=21&s=2",
+      "title": "Prompting：从交代任务到反馈检查",
+      "controls": []
+    },
+    {
+      "hash": "#p=21&s=3",
+      "title": "Prompting：从交代任务到反馈检查",
+      "controls": []
+    },
+    {
+      "hash": "#p=22&s=1",
+      "title": "把用途、需求与条件写进任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=23&s=1",
+      "title": "Prompt要说明结果拿来做什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=23&s=2",
+      "title": "Prompt要说明结果拿来做什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=23&s=3",
+      "title": "Prompt要说明结果拿来做什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=24&s=1",
+      "title": "四件套：视角、背景、目标与样本",
+      "controls": []
+    },
+    {
+      "hash": "#p=24&s=2",
+      "title": "四件套：视角、背景、目标与样本",
+      "controls": []
+    },
+    {
+      "hash": "#p=24&s=3",
+      "title": "四件套：视角、背景、目标与样本",
+      "controls": []
+    },
+    {
+      "hash": "#p=24&s=4",
+      "title": "四件套：视角、背景、目标与样本",
+      "controls": []
+    },
+    {
+      "hash": "#p=25&s=1",
+      "title": "给例子：参考结构，依据材料写事实",
+      "controls": []
+    },
+    {
+      "hash": "#p=25&s=2",
+      "title": "给例子：参考结构，依据材料写事实",
+      "controls": []
+    },
+    {
+      "hash": "#p=25&s=3",
+      "title": "给例子：参考结构，依据材料写事实",
+      "controls": []
+    },
+    {
+      "hash": "#p=26&s=1",
+      "title": "必要条件写清，解决办法留空间",
+      "controls": []
+    },
+    {
+      "hash": "#p=26&s=2",
+      "title": "必要条件写清，解决办法留空间",
+      "controls": []
+    },
+    {
+      "hash": "#p=26&s=3",
+      "title": "必要条件写清，解决办法留空间",
+      "controls": []
+    },
+    {
+      "hash": "#p=27&s=1",
+      "title": "任务交代小结：让结果有明确参照",
+      "controls": []
+    },
+    {
+      "hash": "#p=27&s=2",
+      "title": "任务交代小结：让结果有明确参照",
+      "controls": []
+    },
+    {
+      "hash": "#p=27&s=3",
+      "title": "任务交代小结：让结果有明确参照",
+      "controls": []
+    },
+    {
+      "hash": "#p=28&s=1",
+      "title": "澄清：从已有信息找到关键缺口",
+      "controls": []
+    },
+    {
+      "hash": "#p=29&s=1",
+      "title": "先分清事实、解释与目标",
+      "controls": []
+    },
+    {
+      "hash": "#p=29&s=2",
+      "title": "先分清事实、解释与目标",
+      "controls": []
+    },
+    {
+      "hash": "#p=29&s=3",
+      "title": "先分清事实、解释与目标",
+      "controls": []
+    },
+    {
+      "hash": "#p=29&s=4",
+      "title": "先分清事实、解释与目标",
+      "controls": []
+    },
+    {
+      "hash": "#p=30&s=1",
+      "title": "只追问会改变交付的问题",
+      "controls": []
+    },
+    {
+      "hash": "#p=30&s=2",
+      "title": "只追问会改变交付的问题",
+      "controls": []
+    },
+    {
+      "hash": "#p=30&s=3",
+      "title": "只追问会改变交付的问题",
+      "controls": []
+    },
+    {
+      "hash": "#p=30&s=4",
+      "title": "只追问会改变交付的问题",
+      "controls": []
+    },
+    {
+      "hash": "#p=31&s=1",
+      "title": "澄清小结：让新信息改变下一步",
+      "controls": []
+    },
+    {
+      "hash": "#p=31&s=2",
+      "title": "澄清小结：让新信息改变下一步",
+      "controls": []
+    },
+    {
+      "hash": "#p=31&s=3",
+      "title": "澄清小结：让新信息改变下一步",
+      "controls": []
+    },
+    {
+      "hash": "#p=32&s=1",
+      "title": "核查：让说法连回材料与条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=33&s=1",
+      "title": "事实核查：逐条记录依据与范围",
+      "controls": []
+    },
+    {
+      "hash": "#p=33&s=2",
+      "title": "事实核查：逐条记录依据与范围",
+      "controls": []
+    },
+    {
+      "hash": "#p=33&s=3",
+      "title": "事实核查：逐条记录依据与范围",
+      "controls": []
+    },
+    {
+      "hash": "#p=33&s=4",
+      "title": "事实核查：逐条记录依据与范围",
+      "controls": []
+    },
+    {
+      "hash": "#p=34&s=1",
+      "title": "来源存在，还要检查结论范围",
+      "controls": []
+    },
+    {
+      "hash": "#p=34&s=2",
+      "title": "来源存在，还要检查结论范围",
+      "controls": []
+    },
+    {
+      "hash": "#p=34&s=3",
+      "title": "来源存在，还要检查结论范围",
+      "controls": []
+    },
+    {
+      "hash": "#p=34&s=4",
+      "title": "来源存在，还要检查结论范围",
+      "controls": []
+    },
+    {
+      "hash": "#p=35&s=1",
+      "title": "核查小结：事实、推理与范围对应",
+      "controls": []
+    },
+    {
+      "hash": "#p=35&s=2",
+      "title": "核查小结：事实、推理与范围对应",
+      "controls": []
+    },
+    {
+      "hash": "#p=35&s=3",
+      "title": "核查小结：事实、推理与范围对应",
+      "controls": []
+    },
+    {
+      "hash": "#p=36&s=1",
+      "title": "比较选择：先把两边说充分",
+      "controls": []
+    },
+    {
+      "hash": "#p=36&s=2",
+      "title": "比较选择：先把两边说充分",
+      "controls": []
+    },
+    {
+      "hash": "#p=37&s=1",
+      "title": "双向钢人：理由要连上成立条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=37&s=2",
+      "title": "双向钢人：理由要连上成立条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=37&s=3",
+      "title": "双向钢人：理由要连上成立条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=38&s=1",
+      "title": "用同一组维度比较两种行动",
+      "controls": []
+    },
+    {
+      "hash": "#p=38&s=2",
+      "title": "用同一组维度比较两种行动",
+      "controls": []
+    },
+    {
+      "hash": "#p=38&s=3",
+      "title": "用同一组维度比较两种行动",
+      "controls": []
+    },
+    {
+      "hash": "#p=38&s=4",
+      "title": "用同一组维度比较两种行动",
+      "controls": []
+    },
+    {
+      "hash": "#p=39&s=1",
+      "title": "比较选择小结：留下有条件的判断",
+      "controls": []
+    },
+    {
+      "hash": "#p=39&s=2",
+      "title": "比较选择小结：留下有条件的判断",
+      "controls": []
+    },
+    {
+      "hash": "#p=39&s=3",
+      "title": "比较选择小结：留下有条件的判断",
+      "controls": []
+    },
+    {
+      "hash": "#p=40&s=1",
+      "title": "验证假设：让行动带回新信息",
+      "controls": []
+    },
+    {
+      "hash": "#p=40&s=2",
+      "title": "验证假设：让行动带回新信息",
+      "controls": []
+    },
+    {
+      "hash": "#p=41&s=1",
+      "title": "从试用意愿走向实际使用",
+      "controls": []
+    },
+    {
+      "hash": "#p=41&s=2",
+      "title": "从试用意愿走向实际使用",
+      "controls": []
+    },
+    {
+      "hash": "#p=41&s=3",
+      "title": "从试用意愿走向实际使用",
+      "controls": []
+    },
+    {
+      "hash": "#p=41&s=4",
+      "title": "从试用意愿走向实际使用",
+      "controls": []
+    },
+    {
+      "hash": "#p=42&s=1",
+      "title": "验证假设小结：用记录更新判断",
+      "controls": []
+    },
+    {
+      "hash": "#p=42&s=2",
+      "title": "验证假设小结：用记录更新判断",
+      "controls": []
+    },
+    {
+      "hash": "#p=42&s=3",
+      "title": "验证假设小结：用记录更新判断",
+      "controls": []
+    },
+    {
+      "hash": "#p=43&s=1",
+      "title": "反馈与检查：从具体问题改进Prompt",
+      "controls": []
+    },
+    {
+      "hash": "#p=44&s=1",
+      "title": "把具体反馈写回Prompt",
+      "controls": []
+    },
+    {
+      "hash": "#p=44&s=2",
+      "title": "把具体反馈写回Prompt",
+      "controls": []
+    },
+    {
+      "hash": "#p=44&s=3",
+      "title": "把具体反馈写回Prompt",
+      "controls": []
+    },
+    {
+      "hash": "#p=45&s=1",
+      "title": "重试、改要求和补材料各解决什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=45&s=2",
+      "title": "重试、改要求和补材料各解决什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=45&s=3",
+      "title": "重试、改要求和补材料各解决什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=46&s=1",
+      "title": "用代表性输入检查Prompt",
+      "controls": []
+    },
+    {
+      "hash": "#p=46&s=2",
+      "title": "用代表性输入检查Prompt",
+      "controls": []
+    },
+    {
+      "hash": "#p=46&s=3",
+      "title": "用代表性输入检查Prompt",
+      "controls": []
+    },
+    {
+      "hash": "#p=47&s=1",
+      "title": "反馈检查小结：留下有效要求",
+      "controls": []
+    },
+    {
+      "hash": "#p=47&s=2",
+      "title": "反馈检查小结：留下有效要求",
+      "controls": []
+    },
+    {
+      "hash": "#p=47&s=3",
+      "title": "反馈检查小结：留下有效要求",
+      "controls": []
+    },
+    {
+      "hash": "#p=48&s=1",
+      "title": "Prompting小结：从交代任务到反馈检查",
+      "controls": []
+    },
+    {
+      "hash": "#p=48&s=2",
+      "title": "Prompting小结：从交代任务到反馈检查",
+      "controls": []
+    },
+    {
+      "hash": "#p=48&s=3",
+      "title": "Prompting小结：从交代任务到反馈检查",
+      "controls": []
+    },
+    {
+      "hash": "#p=49&s=1",
+      "title": "从Prompting走向Agent",
+      "controls": []
+    },
+    {
+      "hash": "#p=49&s=2",
+      "title": "从Prompting走向Agent",
+      "controls": []
+    },
+    {
+      "hash": "#p=49&s=3",
+      "title": "从Prompting走向Agent",
+      "controls": []
+    },
+    {
+      "hash": "#p=50&s=1",
+      "title": "本讲内容",
+      "controls": []
+    },
+    {
+      "hash": "#p=51&s=1",
+      "title": "Agents：外化与内化",
+      "controls": []
+    },
+    {
+      "hash": "#p=51&s=2",
+      "title": "Agents：外化与内化",
+      "controls": []
+    },
+    {
+      "hash": "#p=51&s=3",
+      "title": "Agents：外化与内化",
+      "controls": []
+    },
+    {
+      "hash": "#p=52&s=1",
+      "title": "工具调用：把请求、执行与反馈接起来",
+      "controls": []
+    },
+    {
+      "hash": "#p=52&s=2",
+      "title": "工具调用：把请求、执行与反馈接起来",
+      "controls": []
+    },
+    {
+      "hash": "#p=52&s=3",
+      "title": "工具调用：把请求、执行与反馈接起来",
+      "controls": []
+    },
+    {
+      "hash": "#p=53&s=1",
+      "title": "一次调用：从查询建议到天气材料",
+      "controls": []
+    },
+    {
+      "hash": "#p=53&s=2",
+      "title": "一次调用：从查询建议到天气材料",
+      "controls": []
+    },
+    {
+      "hash": "#p=53&s=3",
+      "title": "一次调用：从查询建议到天气材料",
+      "controls": []
+    },
+    {
+      "hash": "#p=54&s=1",
+      "title": "工具说明告诉模型可以做什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=54&s=2",
+      "title": "工具说明告诉模型可以做什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=54&s=3",
+      "title": "工具说明告诉模型可以做什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=55&s=1",
+      "title": "调用请求写明工具与地点",
+      "controls": []
+    },
+    {
+      "hash": "#p=55&s=2",
+      "title": "调用请求写明工具与地点",
+      "controls": []
+    },
+    {
+      "hash": "#p=55&s=3",
+      "title": "调用请求写明工具与地点",
+      "controls": []
+    },
+    {
+      "hash": "#p=56&s=1",
+      "title": "程序执行读取，工具返回天气",
+      "controls": []
+    },
+    {
+      "hash": "#p=56&s=2",
+      "title": "程序执行读取，工具返回天气",
+      "controls": []
+    },
+    {
+      "hash": "#p=56&s=3",
+      "title": "程序执行读取，工具返回天气",
+      "controls": []
+    },
+    {
+      "hash": "#p=57&s=1",
+      "title": "把调用与结果追加到下一次输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=57&s=2",
+      "title": "把调用与结果追加到下一次输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=57&s=3",
+      "title": "把调用与结果追加到下一次输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=57&s=4",
+      "title": "把调用与结果追加到下一次输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=58&s=1",
+      "title": "两次生成，中间执行一次工具",
+      "controls": []
+    },
+    {
+      "hash": "#p=58&s=2",
+      "title": "两次生成，中间执行一次工具",
+      "controls": []
+    },
+    {
+      "hash": "#p=58&s=3",
+      "title": "两次生成，中间执行一次工具",
+      "controls": []
+    },
+    {
+      "hash": "#p=59&s=1",
+      "title": "Fin：把客户反馈送入问题跟踪",
+      "controls": []
+    },
+    {
+      "hash": "#p=59&s=2",
+      "title": "Fin：把客户反馈送入问题跟踪",
+      "controls": []
+    },
+    {
+      "hash": "#p=59&s=3",
+      "title": "Fin：把客户反馈送入问题跟踪",
+      "controls": []
+    },
+    {
+      "hash": "#p=60&s=1",
+      "title": "客户材料、创建请求与系统记录",
+      "controls": []
+    },
+    {
+      "hash": "#p=60&s=2",
+      "title": "客户材料、创建请求与系统记录",
+      "controls": []
+    },
+    {
+      "hash": "#p=60&s=3",
+      "title": "客户材料、创建请求与系统记录",
+      "controls": []
+    },
+    {
+      "hash": "#p=61&s=1",
+      "title": "记录建立与问题解决，各有完成条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=61&s=2",
+      "title": "记录建立与问题解决，各有完成条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=61&s=3",
+      "title": "记录建立与问题解决，各有完成条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=62&s=1",
+      "title": "新结果决定继续、补充还是结束",
+      "controls": []
+    },
+    {
+      "hash": "#p=62&s=2",
+      "title": "新结果决定继续、补充还是结束",
+      "controls": []
+    },
+    {
+      "hash": "#p=62&s=3",
+      "title": "新结果决定继续、补充还是结束",
+      "controls": []
+    },
+    {
+      "hash": "#p=63&s=1",
+      "title": "缺少地点：让反馈回到原问题",
+      "controls": []
+    },
+    {
+      "hash": "#p=63&s=2",
+      "title": "缺少地点：让反馈回到原问题",
+      "controls": []
+    },
+    {
+      "hash": "#p=63&s=3",
+      "title": "缺少地点：让反馈回到原问题",
+      "controls": []
+    },
+    {
+      "hash": "#p=64&s=1",
+      "title": "返回内容要对应对象、内容与时点",
+      "controls": []
+    },
+    {
+      "hash": "#p=64&s=2",
+      "title": "返回内容要对应对象、内容与时点",
+      "controls": []
+    },
+    {
+      "hash": "#p=64&s=3",
+      "title": "返回内容要对应对象、内容与时点",
+      "controls": []
+    },
+    {
+      "hash": "#p=65&s=1",
+      "title": "行动、反馈、判断与下一步",
+      "controls": []
+    },
+    {
+      "hash": "#p=65&s=2",
+      "title": "行动、反馈、判断与下一步",
+      "controls": []
+    },
+    {
+      "hash": "#p=65&s=3",
+      "title": "行动、反馈、判断与下一步",
+      "controls": []
+    },
+    {
+      "hash": "#p=66&s=1",
+      "title": "Computer Use：观察、动作与新观察",
+      "controls": []
+    },
+    {
+      "hash": "#p=66&s=2",
+      "title": "Computer Use：观察、动作与新观察",
+      "controls": []
+    },
+    {
+      "hash": "#p=66&s=3",
+      "title": "Computer Use：观察、动作与新观察",
+      "controls": []
+    },
+    {
+      "hash": "#p=67&s=1",
+      "title": "界面结构与截图提供两种观察",
+      "controls": []
+    },
+    {
+      "hash": "#p=67&s=2",
+      "title": "界面结构与截图提供两种观察",
+      "controls": []
+    },
+    {
+      "hash": "#p=67&s=3",
+      "title": "界面结构与截图提供两种观察",
+      "controls": []
+    },
+    {
+      "hash": "#p=68&s=1",
+      "title": "根据当前观察，提出界面操作",
+      "controls": []
+    },
+    {
+      "hash": "#p=68&s=2",
+      "title": "根据当前观察，提出界面操作",
+      "controls": []
+    },
+    {
+      "hash": "#p=68&s=3",
+      "title": "根据当前观察，提出界面操作",
+      "controls": []
+    },
+    {
+      "hash": "#p=69&s=1",
+      "title": "操作以后，再读取界面核对目标",
+      "controls": []
+    },
+    {
+      "hash": "#p=69&s=2",
+      "title": "操作以后，再读取界面核对目标",
+      "controls": []
+    },
+    {
+      "hash": "#p=69&s=3",
+      "title": "操作以后，再读取界面核对目标",
+      "controls": []
+    },
+    {
+      "hash": "#p=70&s=1",
+      "title": "界面操作也要带着新结果继续判断",
+      "controls": []
+    },
+    {
+      "hash": "#p=70&s=2",
+      "title": "界面操作也要带着新结果继续判断",
+      "controls": []
+    },
+    {
+      "hash": "#p=70&s=3",
+      "title": "界面操作也要带着新结果继续判断",
+      "controls": []
+    },
+    {
+      "hash": "#p=71&s=1",
+      "title": "工具调用小结：执行结果回到判断",
+      "controls": []
+    },
+    {
+      "hash": "#p=71&s=2",
+      "title": "工具调用小结：执行结果回到判断",
+      "controls": []
+    },
+    {
+      "hash": "#p=71&s=3",
+      "title": "工具调用小结：执行结果回到判断",
+      "controls": []
+    },
+    {
+      "hash": "#p=72&s=1",
+      "title": "把以后要用的信息留给下一次任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=72&s=2",
+      "title": "把以后要用的信息留给下一次任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=72&s=3",
+      "title": "把以后要用的信息留给下一次任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=73&s=1",
+      "title": "课间休息",
+      "controls": []
+    },
+    {
+      "hash": "#p=74&s=1",
+      "title": "Memory：把过去的信息带入本次任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=74&s=2",
+      "title": "Memory：把过去的信息带入本次任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=74&s=3",
+      "title": "Memory：把过去的信息带入本次任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=75&s=1",
+      "title": "保存与取回：从文件到本次输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=75&s=2",
+      "title": "保存与取回：从文件到本次输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=75&s=3",
+      "title": "保存与取回：从文件到本次输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=76&s=1",
+      "title": "一份摘要，怎样带出详细记录？",
+      "controls": []
+    },
+    {
+      "hash": "#p=76&s=2",
+      "title": "一份摘要，怎样带出详细记录？",
+      "controls": []
+    },
+    {
+      "hash": "#p=76&s=3",
+      "title": "一份摘要，怎样带出详细记录？",
+      "controls": []
+    },
+    {
+      "hash": "#p=77&s=1",
+      "title": "读取内容，加入后续输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=77&s=2",
+      "title": "读取内容，加入后续输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=77&s=3",
+      "title": "读取内容，加入后续输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=77&s=4",
+      "title": "读取内容，加入后续输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=78&s=1",
+      "title": "文件更新以后，还要更新输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=78&s=2",
+      "title": "文件更新以后，还要更新输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=78&s=3",
+      "title": "文件更新以后，还要更新输入",
+      "controls": []
+    },
+    {
+      "hash": "#p=79&s=1",
+      "title": "保存在哪里，取回什么，怎样参与生成",
+      "controls": []
+    },
+    {
+      "hash": "#p=79&s=2",
+      "title": "保存在哪里，取回什么，怎样参与生成",
+      "controls": []
+    },
+    {
+      "hash": "#p=79&s=3",
+      "title": "保存在哪里，取回什么，怎样参与生成",
+      "controls": []
+    },
+    {
+      "hash": "#p=80&s=1",
+      "title": "AWS客服：延续两次会话的背景",
+      "controls": []
+    },
+    {
+      "hash": "#p=80&s=2",
+      "title": "AWS客服：延续两次会话的背景",
+      "controls": []
+    },
+    {
+      "hash": "#p=80&s=3",
+      "title": "AWS客服：延续两次会话的背景",
+      "controls": []
+    },
+    {
+      "hash": "#p=81&s=1",
+      "title": "AWS客服：保存偏好与有关事实",
+      "controls": []
+    },
+    {
+      "hash": "#p=81&s=2",
+      "title": "AWS客服：保存偏好与有关事实",
+      "controls": []
+    },
+    {
+      "hash": "#p=81&s=3",
+      "title": "AWS客服：保存偏好与有关事实",
+      "controls": []
+    },
+    {
+      "hash": "#p=82&s=1",
+      "title": "AWS客服：把背景加入新的问题",
+      "controls": []
+    },
+    {
+      "hash": "#p=82&s=2",
+      "title": "AWS客服：把背景加入新的问题",
+      "controls": []
+    },
+    {
+      "hash": "#p=82&s=3",
+      "title": "AWS客服：把背景加入新的问题",
+      "controls": []
+    },
+    {
+      "hash": "#p=83&s=1",
+      "title": "AWS客服：让后续服务取得有关背景",
+      "controls": []
+    },
+    {
+      "hash": "#p=83&s=2",
+      "title": "AWS客服：让后续服务取得有关背景",
+      "controls": []
+    },
+    {
+      "hash": "#p=83&s=3",
+      "title": "AWS客服：让后续服务取得有关背景",
+      "controls": []
+    },
+    {
+      "hash": "#p=84&s=1",
+      "title": "取回以后，还要判断本次是否适用",
+      "controls": []
+    },
+    {
+      "hash": "#p=84&s=2",
+      "title": "取回以后，还要判断本次是否适用",
+      "controls": []
+    },
+    {
+      "hash": "#p=84&s=3",
+      "title": "取回以后，还要判断本次是否适用",
+      "controls": []
+    },
+    {
+      "hash": "#p=85&s=1",
+      "title": "偏好改变，保留历史并更新当前关系",
+      "controls": []
+    },
+    {
+      "hash": "#p=85&s=2",
+      "title": "偏好改变，保留历史并更新当前关系",
+      "controls": []
+    },
+    {
+      "hash": "#p=85&s=3",
+      "title": "偏好改变，保留历史并更新当前关系",
+      "controls": []
+    },
+    {
+      "hash": "#p=86&s=1",
+      "title": "喜欢的音乐，这次一定适合听吗？",
+      "controls": []
+    },
+    {
+      "hash": "#p=86&s=2",
+      "title": "喜欢的音乐，这次一定适合听吗？",
+      "controls": []
+    },
+    {
+      "hash": "#p=86&s=3",
+      "title": "喜欢的音乐，这次一定适合听吗？",
+      "controls": []
+    },
+    {
+      "hash": "#p=87&s=1",
+      "title": "更新记录，也检查当前用途",
+      "controls": []
+    },
+    {
+      "hash": "#p=87&s=2",
+      "title": "更新记录，也检查当前用途",
+      "controls": []
+    },
+    {
+      "hash": "#p=87&s=3",
+      "title": "更新记录，也检查当前用途",
+      "controls": []
+    },
+    {
+      "hash": "#p=88&s=1",
+      "title": "Memory：留下信息，再按当前任务取用",
+      "controls": []
+    },
+    {
+      "hash": "#p=88&s=2",
+      "title": "Memory：留下信息，再按当前任务取用",
+      "controls": []
+    },
+    {
+      "hash": "#p=88&s=3",
+      "title": "Memory：留下信息，再按当前任务取用",
+      "controls": []
+    },
+    {
+      "hash": "#p=89&s=1",
+      "title": "Skills：把可复用的做法组织起来",
+      "controls": []
+    },
+    {
+      "hash": "#p=89&s=2",
+      "title": "Skills：把可复用的做法组织起来",
+      "controls": []
+    },
+    {
+      "hash": "#p=89&s=3",
+      "title": "Skills：把可复用的做法组织起来",
+      "controls": []
+    },
+    {
+      "hash": "#p=90&s=1",
+      "title": "方法封装：说明、参考、脚本和模板",
+      "controls": []
+    },
+    {
+      "hash": "#p=90&s=2",
+      "title": "方法封装：说明、参考、脚本和模板",
+      "controls": []
+    },
+    {
+      "hash": "#p=90&s=3",
+      "title": "方法封装：说明、参考、脚本和模板",
+      "controls": []
+    },
+    {
+      "hash": "#p=91&s=1",
+      "title": "打开一个包含12份文件的Skill包",
+      "controls": []
+    },
+    {
+      "hash": "#p=91&s=2",
+      "title": "打开一个包含12份文件的Skill包",
+      "controls": []
+    },
+    {
+      "hash": "#p=91&s=3",
+      "title": "打开一个包含12份文件的Skill包",
+      "controls": []
+    },
+    {
+      "hash": "#p=92&s=1",
+      "title": "从入口说明，找到本次需要的做法",
+      "controls": []
+    },
+    {
+      "hash": "#p=92&s=2",
+      "title": "从入口说明，找到本次需要的做法",
+      "controls": []
+    },
+    {
+      "hash": "#p=92&s=3",
+      "title": "从入口说明，找到本次需要的做法",
+      "controls": []
+    },
+    {
+      "hash": "#p=93&s=1",
+      "title": "文件包把方法与材料组织在一起",
+      "controls": []
+    },
+    {
+      "hash": "#p=93&s=2",
+      "title": "文件包把方法与材料组织在一起",
+      "controls": []
+    },
+    {
+      "hash": "#p=93&s=3",
+      "title": "文件包把方法与材料组织在一起",
+      "controls": []
+    },
+    {
+      "hash": "#p=94&s=1",
+      "title": "从发现用途，到读取方法和执行",
+      "controls": []
+    },
+    {
+      "hash": "#p=94&s=2",
+      "title": "从发现用途，到读取方法和执行",
+      "controls": []
+    },
+    {
+      "hash": "#p=94&s=3",
+      "title": "从发现用途，到读取方法和执行",
+      "controls": []
+    },
+    {
+      "hash": "#p=95&s=1",
+      "title": "先根据用途，决定是否打开Skill",
+      "controls": []
+    },
+    {
+      "hash": "#p=95&s=2",
+      "title": "先根据用途，决定是否打开Skill",
+      "controls": []
+    },
+    {
+      "hash": "#p=95&s=3",
+      "title": "先根据用途，决定是否打开Skill",
+      "controls": []
+    },
+    {
+      "hash": "#p=96&s=1",
+      "title": "渐进式披露：需要什么，再读取什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=96&s=2",
+      "title": "渐进式披露：需要什么，再读取什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=96&s=3",
+      "title": "渐进式披露：需要什么，再读取什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=97&s=1",
+      "title": "脚本读取模板，写出Notebook骨架",
+      "controls": []
+    },
+    {
+      "hash": "#p=97&s=2",
+      "title": "脚本读取模板，写出Notebook骨架",
+      "controls": []
+    },
+    {
+      "hash": "#p=97&s=3",
+      "title": "脚本读取模板，写出Notebook骨架",
+      "controls": []
+    },
+    {
+      "hash": "#p=97&s=4",
+      "title": "脚本读取模板，写出Notebook骨架",
+      "controls": []
+    },
+    {
+      "hash": "#p=98&s=1",
+      "title": "读取得到方法，执行形成文件",
+      "controls": []
+    },
+    {
+      "hash": "#p=98&s=2",
+      "title": "读取得到方法，执行形成文件",
+      "controls": []
+    },
+    {
+      "hash": "#p=98&s=3",
+      "title": "读取得到方法，执行形成文件",
+      "controls": []
+    },
+    {
+      "hash": "#p=99&s=1",
+      "title": "Box：从已有资料到交付文件",
+      "controls": []
+    },
+    {
+      "hash": "#p=99&s=2",
+      "title": "Box：从已有资料到交付文件",
+      "controls": []
+    },
+    {
+      "hash": "#p=99&s=3",
+      "title": "Box：从已有资料到交付文件",
+      "controls": []
+    },
+    {
+      "hash": "#p=100&s=1",
+      "title": "Box：先找到季度报告与月度更新",
+      "controls": []
+    },
+    {
+      "hash": "#p=100&s=2",
+      "title": "Box：先找到季度报告与月度更新",
+      "controls": []
+    },
+    {
+      "hash": "#p=100&s=3",
+      "title": "Box：先找到季度报告与月度更新",
+      "controls": []
+    },
+    {
+      "hash": "#p=101&s=1",
+      "title": "Box：生成草稿，继续补充分析",
+      "controls": []
+    },
+    {
+      "hash": "#p=101&s=2",
+      "title": "Box：生成草稿，继续补充分析",
+      "controls": []
+    },
+    {
+      "hash": "#p=101&s=3",
+      "title": "Box：生成草稿，继续补充分析",
+      "controls": []
+    },
+    {
+      "hash": "#p=102&s=1",
+      "title": "Box：同一批资料，响应新的文件要求",
+      "controls": []
+    },
+    {
+      "hash": "#p=102&s=2",
+      "title": "Box：同一批资料，响应新的文件要求",
+      "controls": []
+    },
+    {
+      "hash": "#p=102&s=3",
+      "title": "Box：同一批资料，响应新的文件要求",
+      "controls": []
+    },
+    {
+      "hash": "#p=103&s=1",
+      "title": "回到Notebook：打开产物逐项检查",
+      "controls": []
+    },
+    {
+      "hash": "#p=103&s=2",
+      "title": "回到Notebook：打开产物逐项检查",
+      "controls": []
+    },
+    {
+      "hash": "#p=103&s=3",
+      "title": "回到Notebook：打开产物逐项检查",
+      "controls": []
+    },
+    {
+      "hash": "#p=104&s=1",
+      "title": "Skills：方法、操作与检查相互配合",
+      "controls": []
+    },
+    {
+      "hash": "#p=104&s=2",
+      "title": "Skills：方法、操作与检查相互配合",
+      "controls": []
+    },
+    {
+      "hash": "#p=104&s=3",
+      "title": "Skills：方法、操作与检查相互配合",
+      "controls": []
+    },
+    {
+      "hash": "#p=105&s=1",
+      "title": "Harness：把各部分组织为持续的工作",
+      "controls": []
+    },
+    {
+      "hash": "#p=105&s=2",
+      "title": "Harness：把各部分组织为持续的工作",
+      "controls": []
+    },
+    {
+      "hash": "#p=105&s=3",
+      "title": "Harness：把各部分组织为持续的工作",
+      "controls": []
+    },
+    {
+      "hash": "#p=106&s=1",
+      "title": "材料与连接，分别准备什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=106&s=2",
+      "title": "材料与连接，分别准备什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=106&s=3",
+      "title": "材料与连接，分别准备什么",
+      "controls": []
+    },
+    {
+      "hash": "#p=107&s=1",
+      "title": "下一步需要的材料，也在变化",
+      "controls": []
+    },
+    {
+      "hash": "#p=107&s=2",
+      "title": "下一步需要的材料，也在变化",
+      "controls": []
+    },
+    {
+      "hash": "#p=107&s=3",
+      "title": "下一步需要的材料，也在变化",
+      "controls": []
+    },
+    {
+      "hash": "#p=108&s=1",
+      "title": "MCP：应用怎样连接工具服务",
+      "controls": []
+    },
+    {
+      "hash": "#p=108&s=2",
+      "title": "MCP：应用怎样连接工具服务",
+      "controls": []
+    },
+    {
+      "hash": "#p=108&s=3",
+      "title": "MCP：应用怎样连接工具服务",
+      "controls": []
+    },
+    {
+      "hash": "#p=108&s=4",
+      "title": "MCP：应用怎样连接工具服务",
+      "controls": []
+    },
+    {
+      "hash": "#p=109&s=1",
+      "title": "材料进入输入，调用到达工具",
+      "controls": []
+    },
+    {
+      "hash": "#p=109&s=2",
+      "title": "材料进入输入，调用到达工具",
+      "controls": []
+    },
+    {
+      "hash": "#p=109&s=3",
+      "title": "材料进入输入，调用到达工具",
+      "controls": []
+    },
+    {
+      "hash": "#p=110&s=1",
+      "title": "先看对象与动作，再看执行条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=110&s=2",
+      "title": "先看对象与动作，再看执行条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=110&s=3",
+      "title": "先看对象与动作，再看执行条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=111&s=1",
+      "title": "读、写和发送，分别落实范围",
+      "controls": []
+    },
+    {
+      "hash": "#p=111&s=2",
+      "title": "读、写和发送，分别落实范围",
+      "controls": []
+    },
+    {
+      "hash": "#p=111&s=3",
+      "title": "读、写和发送，分别落实范围",
+      "controls": []
+    },
+    {
+      "hash": "#p=112&s=1",
+      "title": "需要确认时，先展示具体动作",
+      "controls": []
+    },
+    {
+      "hash": "#p=112&s=2",
+      "title": "需要确认时，先展示具体动作",
+      "controls": []
+    },
+    {
+      "hash": "#p=112&s=3",
+      "title": "需要确认时，先展示具体动作",
+      "controls": []
+    },
+    {
+      "hash": "#p=113&s=1",
+      "title": "让授权落到明确的对象与动作",
+      "controls": []
+    },
+    {
+      "hash": "#p=113&s=2",
+      "title": "让授权落到明确的对象与动作",
+      "controls": []
+    },
+    {
+      "hash": "#p=113&s=3",
+      "title": "让授权落到明确的对象与动作",
+      "controls": []
+    },
+    {
+      "hash": "#p=114&s=1",
+      "title": "reMarkable：客服处理与人工出口",
+      "controls": []
+    },
+    {
+      "hash": "#p=114&s=2",
+      "title": "reMarkable：客服处理与人工出口",
+      "controls": []
+    },
+    {
+      "hash": "#p=114&s=3",
+      "title": "reMarkable：客服处理与人工出口",
+      "controls": []
+    },
+    {
+      "hash": "#p=115&s=1",
+      "title": "接手的人，需要哪些处理材料",
+      "controls": []
+    },
+    {
+      "hash": "#p=115&s=2",
+      "title": "接手的人，需要哪些处理材料",
+      "controls": []
+    },
+    {
+      "hash": "#p=115&s=3",
+      "title": "接手的人，需要哪些处理材料",
+      "controls": []
+    },
+    {
+      "hash": "#p=115&s=4",
+      "title": "接手的人，需要哪些处理材料",
+      "controls": []
+    },
+    {
+      "hash": "#p=116&s=1",
+      "title": "把服务的前后两段接起来",
+      "controls": []
+    },
+    {
+      "hash": "#p=116&s=2",
+      "title": "把服务的前后两段接起来",
+      "controls": []
+    },
+    {
+      "hash": "#p=116&s=3",
+      "title": "把服务的前后两段接起来",
+      "controls": []
+    },
+    {
+      "hash": "#p=117&s=1",
+      "title": "继续、等待和结束，各有什么条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=117&s=2",
+      "title": "继续、等待和结束，各有什么条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=117&s=3",
+      "title": "继续、等待和结束，各有什么条件",
+      "controls": []
+    },
+    {
+      "hash": "#p=118&s=1",
+      "title": "完成条件，要连回原来的任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=118&s=2",
+      "title": "完成条件，要连回原来的任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=118&s=3",
+      "title": "完成条件，要连回原来的任务",
+      "controls": []
+    },
+    {
+      "hash": "#p=119&s=1",
+      "title": "回执丢失时，先查动作是否发生",
+      "controls": []
+    },
+    {
+      "hash": "#p=119&s=2",
+      "title": "回执丢失时，先查动作是否发生",
+      "controls": []
+    },
+    {
+      "hash": "#p=119&s=3",
+      "title": "回执丢失时，先查动作是否发生",
+      "controls": []
+    },
+    {
+      "hash": "#p=119&s=4",
+      "title": "回执丢失时，先查动作是否发生",
+      "controls": []
+    },
+    {
+      "hash": "#p=120&s=1",
+      "title": "留下下一步可以接用的进度",
+      "controls": []
+    },
+    {
+      "hash": "#p=120&s=2",
+      "title": "留下下一步可以接用的进度",
+      "controls": []
+    },
+    {
+      "hash": "#p=120&s=3",
+      "title": "留下下一步可以接用的进度",
+      "controls": []
+    },
+    {
+      "hash": "#p=121&s=1",
+      "title": "按有效进度继续，按完成条件结束",
+      "controls": []
+    },
+    {
+      "hash": "#p=121&s=2",
+      "title": "按有效进度继续，按完成条件结束",
+      "controls": []
+    },
+    {
+      "hash": "#p=121&s=3",
+      "title": "按有效进度继续，按完成条件结束",
+      "controls": []
+    },
+    {
+      "hash": "#p=122&s=1",
+      "title": "过程记录和交付检查怎样配合",
+      "controls": []
+    },
+    {
+      "hash": "#p=122&s=2",
+      "title": "过程记录和交付检查怎样配合",
+      "controls": []
+    },
+    {
+      "hash": "#p=122&s=3",
+      "title": "过程记录和交付检查怎样配合",
+      "controls": []
+    },
+    {
+      "hash": "#p=123&s=1",
+      "title": "把结果连回材料、调用和返回",
+      "controls": []
+    },
+    {
+      "hash": "#p=123&s=2",
+      "title": "把结果连回材料、调用和返回",
+      "controls": []
+    },
+    {
+      "hash": "#p=123&s=3",
+      "title": "把结果连回材料、调用和返回",
+      "controls": []
+    },
+    {
+      "hash": "#p=123&s=4",
+      "title": "把结果连回材料、调用和返回",
+      "controls": []
+    },
+    {
+      "hash": "#p=124&s=1",
+      "title": "用原任务验收不同交付",
+      "controls": []
+    },
+    {
+      "hash": "#p=124&s=2",
+      "title": "用原任务验收不同交付",
+      "controls": []
+    },
+    {
+      "hash": "#p=124&s=3",
+      "title": "用原任务验收不同交付",
+      "controls": []
+    },
+    {
+      "hash": "#p=124&s=4",
+      "title": "用原任务验收不同交付",
+      "controls": []
+    },
+    {
+      "hash": "#p=125&s=1",
+      "title": "Harness：把过程与交付一起组织好",
+      "controls": []
+    },
+    {
+      "hash": "#p=125&s=2",
+      "title": "Harness：把过程与交付一起组织好",
+      "controls": []
+    },
+    {
+      "hash": "#p=125&s=3",
+      "title": "Harness：把过程与交付一起组织好",
+      "controls": []
+    },
+    {
+      "hash": "#p=126&s=1",
+      "title": "本讲内容",
+      "controls": []
+    },
+    {
+      "hash": "#p=127&s=1",
+      "title": "外化与内化整合：各部分怎样配合",
+      "controls": []
+    },
+    {
+      "hash": "#p=128&s=1",
+      "title": "这份课件中的任务、资料与方法",
+      "controls": []
+    },
+    {
+      "hash": "#p=128&s=2",
+      "title": "这份课件中的任务、资料与方法",
+      "controls": []
+    },
+    {
+      "hash": "#p=128&s=3",
+      "title": "这份课件中的任务、资料与方法",
+      "controls": []
+    },
+    {
+      "hash": "#p=129&s=1",
+      "title": "外化与内化：改变发生在哪里",
+      "controls": []
+    },
+    {
+      "hash": "#p=129&s=2",
+      "title": "外化与内化：改变发生在哪里",
+      "controls": []
+    },
+    {
+      "hash": "#p=130&s=1",
+      "title": "任务经验怎样用于下一轮改进",
+      "controls": []
+    },
+    {
+      "hash": "#p=130&s=2",
+      "title": "任务经验怎样用于下一轮改进",
+      "controls": []
+    },
+    {
+      "hash": "#p=130&s=3",
+      "title": "任务经验怎样用于下一轮改进",
+      "controls": []
+    },
+    {
+      "hash": "#p=131&s=1",
+      "title": "更换模型后，重新检查运行安排",
+      "controls": []
+    },
+    {
+      "hash": "#p=131&s=2",
+      "title": "更换模型后，重新检查运行安排",
+      "controls": []
+    },
+    {
+      "hash": "#p=131&s=3",
+      "title": "更换模型后，重新检查运行安排",
+      "controls": []
+    },
+    {
+      "hash": "#p=132&s=1",
+      "title": "整合小结：各部分围绕任务配合",
+      "controls": []
+    },
+    {
+      "hash": "#p=133&s=1",
+      "title": "Agents小结：模型与外部系统",
+      "controls": []
+    },
+    {
+      "hash": "#p=133&s=2",
+      "title": "Agents小结：模型与外部系统",
+      "controls": []
+    },
+    {
+      "hash": "#p=133&s=3",
+      "title": "Agents小结：模型与外部系统",
+      "controls": []
+    },
+    {
+      "hash": "#p=134&s=1",
+      "title": "第一讲小结：生成、任务与执行",
+      "controls": []
+    },
+    {
+      "hash": "#p=134&s=2",
+      "title": "第一讲小结：生成、任务与执行",
+      "controls": []
+    },
+    {
+      "hash": "#p=134&s=3",
+      "title": "第一讲小结：生成、任务与执行",
+      "controls": []
+    }
+  ],
+  "shared": [
+    "prev",
+    "next",
+    "page-input",
+    "toc",
+    "notes",
+    "materials",
+    "zoom",
+    "fullscreen",
+    "hide",
+    "help",
+    "dialog-close",
+    "134 directory buttons",
+    "source anchors",
+    "zoom minus",
+    "zoom plus",
+    "diagram doubleclick"
+  ]
+}

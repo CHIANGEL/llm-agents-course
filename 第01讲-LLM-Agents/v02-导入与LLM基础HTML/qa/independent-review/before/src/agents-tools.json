@@ -1,0 +1,494 @@
+{
+  "pages": [
+    {
+      "page": 52,
+      "renderer": 2052,
+      "source_plan_page": 32,
+      "section": "Agents·工具调用",
+      "type": "overview",
+      "title": "工具调用：把请求、执行与反馈接起来",
+      "seconds": 60,
+      "on_slide": [
+        "模型提出调用，应用分发与执行，工具取得资料或改变系统。",
+        "返回结果加入下一次输入，模型据此继续判断。",
+        "天气查询、客户工单、多步反馈与界面操作共用同一闭环。"
+      ],
+      "talk": "先建立模型、应用和工具的职责关系，再沿回箭头说明结果怎样形成下一次判断的依据。指出本节的四个展开部分与同一闭环的关系。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第028、037页"
+        }
+      ]
+    },
+    {
+      "page": 53,
+      "renderer": 2053,
+      "source_plan_page": 33,
+      "section": "Agents·一次调用",
+      "type": "overview",
+      "title": "一次调用：从查询建议到天气材料",
+      "seconds": 90,
+      "on_slide": [
+        "一次调用按工具说明、请求、执行和返回展开。",
+        "查询建议产生文字；工具执行取得外部返回材料。"
+      ],
+      "talk": "用同一天气问题对比两条路径，然后预告后续四步。停在材料新增的位置，说明工具调用给本次输入带来了什么。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第027–028页"
+        }
+      ]
+    },
+    {
+      "page": 54,
+      "renderer": 2054,
+      "source_plan_page": 34,
+      "section": "Agents·一次调用",
+      "type": "content",
+      "title": "工具说明告诉模型可以做什么",
+      "seconds": 90,
+      "on_slide": [
+        "工具名称为get_weather，用途为查询地点天气，需要location。",
+        "用户问题与工具说明共同进入本次模型输入。"
+      ],
+      "talk": "依次显示问题、工具说明和汇入模型的路径。将地点要求与用户原话中的纽约对应起来。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第015–019页；examples/tool_call_text/data/01_messages.py、02_tools.py"
+        }
+      ]
+    },
+    {
+      "page": 55,
+      "renderer": 2055,
+      "source_plan_page": 35,
+      "section": "Agents·一次调用",
+      "type": "content",
+      "title": "调用请求写明工具与地点",
+      "seconds": 90,
+      "on_slide": [
+        "调用请求包含工具get_weather与地点New York。",
+        "工具名选择执行程序，地点作为执行的输入。"
+      ],
+      "talk": "先认出动作名称，再认出作用对象，最后让调用到达应用。请求中的字段逐项对应前页工具说明。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第020–022页；data/04_assistant_call_illustrative.txt、05_parsed_call.json"
+        }
+      ]
+    },
+    {
+      "page": 56,
+      "renderer": 2056,
+      "source_plan_page": 36,
+      "section": "Agents·一次调用",
+      "type": "content",
+      "title": "程序执行读取，工具返回天气",
+      "seconds": 90,
+      "on_slide": [
+        "应用执行get_weather，工具读取weather_fixture.json中的纽约记录。",
+        "天气记录返回72°F与Partly cloudy。"
+      ],
+      "talk": "沿执行、文件读取、返回三步讲解。指明外部数据进入过程的具体位置，随后连接结果如何交回应用。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第023页；data/weather_fixture.json、06_tool_result.txt"
+        }
+      ]
+    },
+    {
+      "page": 57,
+      "renderer": 2057,
+      "source_plan_page": 37,
+      "section": "Agents·一次调用",
+      "type": "content",
+      "title": "把调用与结果追加到下一次输入",
+      "seconds": 120,
+      "on_slide": [
+        "已有任务与要求继续保留。",
+        "本次调用和工具结果按顺序追加，模型依据新材料生成回答。"
+      ],
+      "talk": "逐条展开消息带，区分用户问题、助手调用与工具返回。最后指出回答中的温度和天气状况对应哪一条输入。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第024–026页；data/07_messages_after_tool.py、08_round2_complete.txt"
+        }
+      ]
+    },
+    {
+      "page": 58,
+      "renderer": 2058,
+      "source_plan_page": 38,
+      "section": "Agents·一次调用",
+      "type": "summary",
+      "title": "两次生成，中间执行一次工具",
+      "seconds": 90,
+      "on_slide": [
+        "第一次生成提出调用，程序执行并返回结果。",
+        "结果进入新输入后，模型再次生成回答。"
+      ],
+      "talk": "回到完整时间线，将两次模型生成与中间一次工具执行连起来。归纳模型、应用、工具分别贡献什么。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第028页"
+        }
+      ]
+    },
+    {
+      "page": 59,
+      "renderer": 2059,
+      "source_plan_page": 39,
+      "section": "Agents·Fin与Linear",
+      "type": "overview",
+      "title": "Fin：把客户反馈送入问题跟踪",
+      "seconds": 120,
+      "on_slide": [
+        "客户反馈、问题记录与后续跟进构成业务关系。",
+        "Fin可以把客户报告的问题登记为Linear工单。"
+      ],
+      "talk": "先区分客户对话与问题跟踪两个工作对象，再连接官方披露的跨系统操作。接下来分别看材料、动作和完成条件。",
+      "sources": [
+        {
+          "id": "CASE_FIN",
+          "locator": "Integrations节，Intercom段"
+        }
+      ]
+    },
+    {
+      "page": 60,
+      "renderer": 2060,
+      "source_plan_page": 40,
+      "section": "Agents·Fin与Linear",
+      "type": "content",
+      "title": "客户材料、创建请求与系统记录",
+      "seconds": 120,
+      "on_slide": [
+        "客户描述提供问题材料，操作请求说明要做什么。",
+        "外部系统保存问题记录，并返回结果供后续判断。"
+      ],
+      "talk": "沿三条泳道拆开业务对象和动作。上层是客户材料，中层是请求和程序执行，下层是业务系统中的记录；再把返回结果接回处理过程。",
+      "sources": [
+        {
+          "id": "CASE_FIN",
+          "locator": "Integrations节，Intercom段"
+        },
+        {
+          "id": "L3",
+          "locator": "第028页：工具请求、执行与返回关系"
+        }
+      ]
+    },
+    {
+      "page": 61,
+      "renderer": 2061,
+      "source_plan_page": 41,
+      "section": "Agents·Fin与Linear",
+      "type": "summary",
+      "title": "记录建立与问题解决，各有完成条件",
+      "seconds": 120,
+      "on_slide": [
+        "检查系统返回或查询记录，可以判断登记结果。",
+        "问题修复和客户确认还需要各自对应的结果。",
+        "客户材料、创建请求和系统记录把对话接到业务动作。"
+      ],
+      "talk": "回到客户反馈到后续跟进的业务关系。将建立记录、修复问题和客户确认分成不同完成节点，收束为任务要求与结果的对应。",
+      "sources": [
+        {
+          "id": "CASE_FIN",
+          "locator": "Integrations节，Intercom段"
+        },
+        {
+          "id": "L3",
+          "locator": "第028页：工具请求、执行与返回关系"
+        }
+      ]
+    },
+    {
+      "page": 62,
+      "renderer": 2062,
+      "source_plan_page": 42,
+      "section": "Agents·多步反馈",
+      "type": "overview",
+      "title": "新结果决定继续、补充还是结束",
+      "seconds": 90,
+      "on_slide": [
+        "新结果先与任务要求比较。",
+        "材料足够时组织交付，缺少关键材料时补充读取或查询。"
+      ],
+      "talk": "先呈现判断与两种去向的完整关系，再逐步走过足够和不足两条路径。后续页沿错误修正与结果核对展开。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第028、030、035页"
+        }
+      ]
+    },
+    {
+      "page": 63,
+      "renderer": 2063,
+      "source_plan_page": 43,
+      "section": "Agents·多步反馈",
+      "type": "content",
+      "title": "缺少地点：让反馈回到原问题",
+      "seconds": 150,
+      "on_slide": [
+        "调用缺少地点时，反馈指出缺失项。",
+        "原问题中的纽约提供修正依据，补上New York后再交给程序执行。"
+      ],
+      "talk": "并排对照用户问题和调用地点栏。反馈出现后沿原问题中的纽约补齐参数，将修正依据、修正请求与后续执行区分开。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第015–016页；data/01_messages.py、02_tools.py"
+        }
+      ]
+    },
+    {
+      "page": 64,
+      "renderer": 2064,
+      "source_plan_page": 44,
+      "section": "Agents·多步反馈",
+      "type": "content",
+      "title": "返回内容要对应对象、内容与时点",
+      "seconds": 150,
+      "on_slide": [
+        "地点、天气内容与查询时点分别构成任务要求。",
+        "New York对应地点，72°F与Partly cloudy对应天气。",
+        "时效要求需要对应数据的观测时间。"
+      ],
+      "talk": "按三行核对任务与返回。前两行可直接对应；时点一行指出下一步需要取得的依据。把判断收在任务是否得到充分支持。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第015、023、028页；data/01_messages.py、06_tool_result.txt"
+        }
+      ]
+    },
+    {
+      "page": 65,
+      "renderer": 2065,
+      "source_plan_page": 44,
+      "section": "Agents·多步反馈",
+      "type": "summary",
+      "title": "行动、反馈、判断与下一步",
+      "seconds": 90,
+      "on_slide": [
+        "先看新结果，再对照原任务，最后选择下一步。",
+        "结果足够就交付；信息不足就补充；请求有缺项就修正。"
+      ],
+      "talk": "回到多步反馈总览的三个出口，分别定位天气材料、地点反馈和时效核对，归纳后续行动怎样依赖新材料。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第028、030、035页"
+        }
+      ]
+    },
+    {
+      "page": 66,
+      "renderer": 2066,
+      "source_plan_page": 45,
+      "section": "Agents·Computer Use",
+      "type": "overview",
+      "title": "Computer Use：观察、动作与新观察",
+      "seconds": 60,
+      "on_slide": [
+        "通过工具读取和操作软件界面。",
+        "观察当前界面，选择动作，执行，再重新观察。"
+      ],
+      "talk": "先建立完整四步关系，再定位模型选择动作、程序执行操作和界面反馈三处。后续按当前观察、动作执行、新观察逐项展开。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第030–037页；examples/computer_use/README.md"
+        }
+      ]
+    },
+    {
+      "page": 67,
+      "renderer": 2067,
+      "source_plan_page": 45,
+      "section": "Agents·Computer Use",
+      "type": "content",
+      "title": "界面结构与截图提供两种观察",
+      "seconds": 90,
+      "on_slide": [
+        "界面结构提供可操作对象及属性。",
+        "截图提供对象位置与视觉状态。",
+        "两类观察共同构成本次选择动作的材料。"
+      ],
+      "talk": "将浏览器窗口和地址栏在结构文本与图像中逐一对应。只讲模型能够取得什么信息，再让两类观察汇入本次输入。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第030–033、036页；computer_use/source/本机接口说明摘录.md"
+        }
+      ]
+    },
+    {
+      "page": 68,
+      "renderer": 2068,
+      "source_plan_page": 46,
+      "section": "Agents·Computer Use",
+      "type": "content",
+      "title": "根据当前观察，提出界面操作",
+      "seconds": 90,
+      "on_slide": [
+        "点击地址栏的目标来自当前观察。",
+        "模型提出动作请求，工具程序操作软件或操作系统。"
+      ],
+      "talk": "依次展示当前地址栏位置、点击请求和工具执行。强调动作和作用目标必须从当前观察中确定。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第034–035页；computer_use/click.js"
+        }
+      ]
+    },
+    {
+      "page": 69,
+      "renderer": 2069,
+      "source_plan_page": 46,
+      "section": "Agents·Computer Use",
+      "type": "content",
+      "title": "操作以后，再读取界面核对目标",
+      "seconds": 90,
+      "on_slide": [
+        "重新观察焦点、内容与页面状态。",
+        "新状态与目标对应后，才能决定下一步。"
+      ],
+      "talk": "对比动作前后要观察的位置。用地址栏焦点作为当前目标的核对对象，归纳请求、执行、新观察和后续判断的顺序。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第034–037页；computer_use/observe_after.js"
+        }
+      ]
+    },
+    {
+      "page": 70,
+      "renderer": 2070,
+      "source_plan_page": 46,
+      "section": "Agents·Computer Use",
+      "type": "summary",
+      "title": "界面操作也要带着新结果继续判断",
+      "seconds": 60,
+      "on_slide": [
+        "当前观察提供动作依据。",
+        "工具完成操作，新的界面与状态进入下一轮判断。"
+      ],
+      "talk": "回到观察、执行与新观察的闭环，保留原窗口与同一地址栏对象，连接Computer Use与普通工具调用的共同机制。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第037页；computer_use/observe.js、observe_after.js"
+        }
+      ]
+    },
+    {
+      "page": 71,
+      "renderer": 2071,
+      "source_plan_page": 47,
+      "section": "Agents·工具调用",
+      "type": "summary",
+      "title": "工具调用小结：执行结果回到判断",
+      "seconds": 90,
+      "on_slide": [
+        "模型决定下一步，应用连接请求与执行程序，工具取得资料或改变系统。",
+        "结果回到下一次输入，成为后续判断依据。"
+      ],
+      "talk": "回到章首同一职责与反馈图，依次用天气、工单和界面操作定位共同的请求、执行、返回、继续关系。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第028、037页"
+        }
+      ]
+    },
+    {
+      "page": 72,
+      "renderer": 2072,
+      "source_plan_page": 47,
+      "section": "Agents·工具调用",
+      "type": "transition",
+      "title": "把以后要用的信息留给下一次任务",
+      "seconds": 60,
+      "on_slide": [
+        "当前工作包含任务要求、工具返回和已完成的动作。",
+        "以后需要的信息需要保存，并在下次任务取回。"
+      ],
+      "talk": "先回看本章工作对象，再把时间线延伸到下一次任务。只定位保存与取回的关系，下一章展开Memory的具体机制。",
+      "sources": [
+        {
+          "id": "L3",
+          "locator": "第037页；Memory章节"
+        }
+      ]
+    },
+    {
+      "page": 73,
+      "renderer": 2073,
+      "source_plan_page": null,
+      "section": "Agents·课间休息",
+      "type": "break",
+      "title": "课间休息",
+      "seconds": 600,
+      "on_slide": [
+        "10分钟。",
+        "接下来：Memory、Skills、Harness、外化与内化整合。"
+      ],
+      "talk": "课间休息；后半讲从过去信息如何重新进入当前任务开始。",
+      "sources": [
+        {
+          "id": "PLAN",
+          "locator": "PLAN"
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "52": "Agent（智能体）根据任务和当前材料决定下一步，把需要执行的操作交给工具，再利用返回结果继续工作。\n\n职责与关系\n1. 模型根据任务、材料和可用工具说明，生成下一步请求。\n2. 应用找到对应的执行程序，传入本次参数。\n3. 工具读取数据、计算或操作外部系统。\n4. 应用把结果加入后续输入。\n5. 模型根据新结果继续、调整或结束。\n\n本节依次使用天气调用、客户工单、多步反馈和界面操作解释这一关系。",
+    "53": "工具调用信息\nmessages = [{'role': 'system', 'content': '请用中文回答。'},\n {'role': 'user', 'content': '纽约现在天气怎么样？'}]\n\ntools = [dict(type=\"function\", function=dict(\n    name=\"get_weather\",\n    description=\"Get current weather for a location.\",\n    parameters=dict(\n        type=\"object\",\n        properties=dict(location=dict(type=\"string\")),\n        required=[\"location\"]\n    )\n))]\n\n调用请求\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n解析后的字段\n{\n  \"name\": \"get_weather\",\n  \"arguments\": {\n    \"location\": \"New York\"\n  }\n}\n\n工具返回\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy",
+    "54": "第一轮消息\nmessages = [{'role': 'system', 'content': '请用中文回答。'},\n {'role': 'user', 'content': '纽约现在天气怎么样？'}]\n\n工具说明\ntools = [dict(type=\"function\", function=dict(\n    name=\"get_weather\",\n    description=\"Get current weather for a location.\",\n    parameters=dict(\n        type=\"object\",\n        properties=dict(location=dict(type=\"string\")),\n        required=[\"location\"]\n    )\n))]\n\n第一次完整模型输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n",
+    "55": "调用文本\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n解析后的调用\n{\n  \"name\": \"get_weather\",\n  \"arguments\": {\n    \"location\": \"New York\"\n  }\n}\n\n解析代码\npayload = raw_output.split(\"<tool_call>\", 1)[1]\npayload = payload.split(\"</tool_call>\", 1)[0]\ncall = json.loads(payload)\n",
+    "56": "工具分发代码\nregistry = {\"get_weather\": get_weather}\nfunction = registry[call[\"name\"]]\nresult = function(**call[\"arguments\"])\n\n数据记录\n{\n  \"New York\": \"Current weather in New York:\\nTemperature: 72°F\\nConditions: Partly cloudy\"\n}\n\n工具返回\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy",
+    "57": "追加后的完整消息列表\nmessages = [{'role': 'system', 'content': '请用中文回答。'},\n {'role': 'user', 'content': '纽约现在天气怎么样？'},\n {'role': 'assistant',\n  'tool_calls': [{'type': 'function',\n                  'function': {'name': 'get_weather',\n                               'arguments': {'location': 'New '\n                                                         'York'}}}]},\n {'role': 'tool',\n  'content': 'Current weather in New York:\\n'\n             'Temperature: 72°F\\n'\n             'Conditions: Partly cloudy'}]\n\n第二次完整模型输入\n<|im_start|>system\n请用中文回答。\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Get current weather for a location.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\"}}, \"required\": [\"location\"]}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\n纽约现在天气怎么样？<|im_end|>\n<|im_start|>assistant\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n<|im_start|>user\n<tool_response>\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n</tool_response><|im_end|>\n<|im_start|>assistant\n\n回答\n纽约气温72°F，局部多云。<|im_end|>",
+    "58": "工具调用信息\nmessages = [{'role': 'system', 'content': '请用中文回答。'},\n {'role': 'user', 'content': '纽约现在天气怎么样？'}]\n\ntools = [dict(type=\"function\", function=dict(\n    name=\"get_weather\",\n    description=\"Get current weather for a location.\",\n    parameters=dict(\n        type=\"object\",\n        properties=dict(location=dict(type=\"string\")),\n        required=[\"location\"]\n    )\n))]\n\n调用请求\n<tool_call>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"New York\"}}\n</tool_call><|im_end|>\n解析后的字段\n{\n  \"name\": \"get_weather\",\n  \"arguments\": {\n    \"location\": \"New York\"\n  }\n}\n\n工具返回\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n\n完整消息历史\n[\n  {\n    \"role\": \"system\",\n    \"content\": \"请用中文回答。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"纽约现在天气怎么样？\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"tool_calls\": [\n      {\n        \"type\": \"function\",\n        \"function\": {\n          \"name\": \"get_weather\",\n          \"arguments\": {\n            \"location\": \"New York\"\n          }\n        }\n      }\n    ]\n  },\n  {\n    \"role\": \"tool\",\n    \"content\": \"Current weather in New York:\\nTemperature: 72°F\\nConditions: Partly cloudy\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"纽约气温72°F，局部多云。\"\n  }\n]\n",
+    "59": "业务关系\n客户在客服对话中报告问题，问题跟踪系统保存后续需要处理的记录。Fin可以把用户报告的问题登记为Linear工单。\n\n官方文章\nClaude can now connect to your world\nhttps://claude.com/resources/articles/integrations\n\n原文关键短语\n“filing bugs in Linear when users report issues”\n\n本节讲授顺序\n客户材料 → 创建请求 → 外部问题记录 → 按任务检查完成条件。",
+    "60": "工具调用中的三个位置\n\n客户材料：本次报告的问题。\n操作请求：创建可供后续跟进的问题记录。\n外部结果：系统返回或相应记录，可用于检查操作结果。\n\n与天气调用的对应\n天气问题 → 查询请求 → 天气返回。\n客户反馈 → 创建请求 → 业务记录。\n\n两者的共同关系：请求经程序执行，结果进入后续判断。",
+    "61": "完成条件\n\n建立记录：查询对应记录，或检查系统返回是否满足登记要求。\n解决问题：检查修复结果与原问题的对应。\n客户确认：根据客户反馈判断问题是否得到妥善处理。\n\n不同目标需要对应的结果。创建一个工作对象，可以支持后续跟进；后续是否完成，要检查相应任务的结果。",
+    "62": "行动与反馈\n\n取得新材料后：\n1. 将新结果与原任务逐项对应。\n2. 信息足够时组织交付。\n3. 缺少关键材料时补充读取或查询。\n4. 调用反馈指出缺项时，依据已有材料或新确认的信息修正。\n\n下一步取决于本轮取得的结果，计划与实际执行通过反馈不断衔接。",
+    "63": "用户问题\n纽约现在天气怎么样？\n\n工具要求\ntools = [dict(type=\"function\", function=dict(\n    name=\"get_weather\",\n    description=\"Get current weather for a location.\",\n    parameters=dict(\n        type=\"object\",\n        properties=dict(location=dict(type=\"string\")),\n        required=[\"location\"]\n    )\n))]\n\n缺少地点的请求\n{\"name\":\"get_weather\",\"arguments\":{}}\n\n参数检查\n缺少地点。\n\n修正后的请求\n{\"name\":\"get_weather\",\"arguments\":{\"location\":\"New York\"}}\n\n对应关系\n原问题中的“纽约”提供地点依据。修正调用后，程序接收新请求并执行。",
+    "64": "原问题\nmessages = [{'role': 'system', 'content': '请用中文回答。'},\n {'role': 'user', 'content': '纽约现在天气怎么样？'}]\n\n返回内容\nCurrent weather in New York:\nTemperature: 72°F\nConditions: Partly cloudy\n\n逐项核对\n地点：New York与纽约对应。\n天气：温度72°F、状况Partly cloudy。\n时效：查询要求包含“现在”，继续取得观测时间并与查询时点核对。\n\n核对要点\n对象是否一致，内容是否充分，观测时点是否满足任务要求。",
+    "65": "反馈小结\n\n新结果是后续判断的输入。\n判断要回到原任务和必要条件。\n信息足够则交付，信息不足则补充，请求缺项则修正。\n\n新材料 → 与任务对应 → 选择下一步 → 取得下一份结果。",
+    "66": "Computer Use：通过工具读取和操作软件界面。\n\n基本顺序\n1. 读取当前界面结构或截图。\n2. 根据任务与当前观察选择点击、输入等动作。\n3. 工具程序执行操作。\n4. 重新读取界面。\n5. 检查状态变化，决定下一步。\n\n与工具调用的对应\n观察提供材料，模型提出动作，工具执行，新观察返回模型。",
+    "67": "界面结构\n提供当前窗口中的可操作对象、属性与内容。\n\n界面截图\n提供对象位置、布局与视觉状态。\n\n接口读取代码\nvar state = await sky.get_app_state({ app: \"com.google.Chrome\" });\nnodeRepl.write(state.text);\n\n返回对象\nAppState包含app、text和screenshot；其中screenshot可以为空。",
+    "68": "动作的组成\n\n对象：从最新界面观察中确定的目标。\n动作：点击、输入、选择、滚动等。\n执行者：工具程序调用软件或操作系统接口。\n\n点击接口\nclick(args: {app: string, element_index?: number, x?: number, y?: number, mouse_button?: string, click_count?: number}): Promise<void>\n\n参数中使用的对象编号或位置，应来自最新观察。",
+    "69": "操作后读取代码\nvar after = await sky.get_app_state({ app: \"com.google.Chrome\" });\nnodeRepl.write(after.text);\n\n检查目标\n当前焦点是否到达目标控件？\n输入的内容是否出现在目标位置？\n页面状态是否满足任务的下一步条件？\n\n新的观察结果用于下一轮判断，选择下一次动作时重新确定当前对象。",
+    "70": "Computer Use小结\n\n观察：知道软件当前显示了什么。\n动作：根据任务与观察选择对哪个对象做什么。\n执行：工具实际操作界面。\n重新观察：检查变化，再决定后续动作或结束。\n\n当前观察 → 动作选择 → 工具执行 → 新观察 → 下一轮判断。",
+    "71": "工具调用总结\n\n模型：生成下一步调用或回答。\n应用：组织输入、分发请求、将工具结果带回。\n工具：读取、计算或操作外部系统。\n\n天气调用取得资料；Fin与Linear连接客服反馈和问题记录；Computer Use通过当前观察选择界面动作。\n\n共同关系\n请求经过执行，结果成为下一次判断的依据。",
+    "72": "从工具调用到Memory\n\n本次工作产生了任务要求、取得的材料和执行结果。\n后续仍有用途的信息，需要保存，并在合适的任务中取回。\n\n下一章将展开\n保存什么、怎样取回、怎样更新，以及已有记录如何结合当前任务使用。",
+    "73": "课间休息10分钟。\n\n后半讲顺序\nMemory：信息保存、取回与更新。\nSkills：可复用做法的组织与使用。\nHarness：材料、工具、执行过程与状态的组织。\nExternalization与Internalization：回看外部系统分工与模型能力变化。"
+  },
+  "sources": {
+    "L3": {
+      "title": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例"
+    },
+    "CASE_FIN": {
+      "title": "Claude can now connect to your world · Fin / Linear",
+      "path": "https://claude.com/resources/articles/integrations"
+    },
+    "TOOLS_ARCHIVE": {
+      "title": "工具调用与Computer Use材料档案",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/agent-tools"
+    }
+  }
+}

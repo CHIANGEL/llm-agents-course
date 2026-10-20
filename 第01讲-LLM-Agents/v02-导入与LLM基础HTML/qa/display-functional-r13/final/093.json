@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 93,
+  "text": "渐进式披露：先摘要，再细节\n渐进式披露（Progressive disclosure）：先给要点和入口，再按任务读取细节。\n第一层：摘要\n先结论、后依据。\n金额统一用人民币。\n项目已完成20人试点。\n\n预算范围 → pilot-budget.md\n第二层：相关记录\n20人、3个月试点。\n预算上限10万元。\n包含软件费与初始配置。\n\n不覆盖300人正式部署。\n本次输入\n当前任务＋所需背景\n• 摘要足够时，直接使用。\n• 详细信息会改变判断时，再读取对应文件。\n摘要提供入口，读取取得细节；后续的Skills也会采用这种组织方式。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "第93页 渐进式披露：先摘要，再细节"
+}

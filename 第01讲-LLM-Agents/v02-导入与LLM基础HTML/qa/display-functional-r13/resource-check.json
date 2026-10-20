@@ -1,0 +1,954 @@
+{
+  "method": "DOM-derived resources and links; filesystem presence checked. Shell HTTP requests were blocked by sandbox; their errors are not broken-link findings. Actual browser image and reader checks are separately recorded.",
+  "local": [
+    {
+      "url": "http://127.0.0.1:8765/assets/agents-integration/prompting-r3-example.jpg",
+      "exists": true,
+      "bytes": 132709,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/agents-overview-r4/list-check.png",
+      "exists": true,
+      "bytes": 356129,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/agents-overview-r4/list-recall.png",
+      "exists": true,
+      "bytes": 310785,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/agents-overview-r4/map.png",
+      "exists": true,
+      "bytes": 359424,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/agents-overview-r4/review-heading.png",
+      "exists": true,
+      "bytes": 58022,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/app.png",
+      "exists": true,
+      "bytes": 18609,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/doc.png",
+      "exists": true,
+      "bytes": 14950,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/clearing.png",
+      "exists": true,
+      "bytes": 622905,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/compaction.png",
+      "exists": true,
+      "bytes": 644121,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/components.png",
+      "exists": true,
+      "bytes": 450113,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/confirmation.png",
+      "exists": true,
+      "bytes": 687238,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/context.png",
+      "exists": true,
+      "bytes": 698410,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/delegation.png",
+      "exists": true,
+      "bytes": 830893,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/dependency.png",
+      "exists": true,
+      "bytes": 838802,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/externalization.png",
+      "exists": true,
+      "bytes": 708007,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/formatter.png",
+      "exists": true,
+      "bytes": 600073,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/hook-timing.png",
+      "exists": true,
+      "bytes": 611429,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/hooks.png",
+      "exists": true,
+      "bytes": 1057958,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/progress.png",
+      "exists": true,
+      "bytes": 948682,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/resume.png",
+      "exists": true,
+      "bytes": 578855,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/runloop.png",
+      "exists": true,
+      "bytes": 814141,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/sandbox.png",
+      "exists": true,
+      "bytes": 682315,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/subagent-context.png",
+      "exists": true,
+      "bytes": 987659,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/harness-r11/subagents.png",
+      "exists": true,
+      "bytes": 922459,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/header.png",
+      "exists": true,
+      "bytes": 10364,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/blue-arrow.png",
+      "exists": true,
+      "bytes": 43900,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/brace.png",
+      "exists": true,
+      "bytes": 18467,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/computer.png",
+      "exists": true,
+      "bytes": 84325,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/external-internal.png",
+      "exists": true,
+      "bytes": 93306,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/list-map.png",
+      "exists": true,
+      "bytes": 110149,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/memory.png",
+      "exists": true,
+      "bytes": 18232,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/model.png",
+      "exists": true,
+      "bytes": 105517,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/next-arrow.png",
+      "exists": true,
+      "bytes": 7329,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/protocol.png",
+      "exists": true,
+      "bytes": 17933,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/red-arrow-head.png",
+      "exists": true,
+      "bytes": 11027,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/red-arrow-shaft.png",
+      "exists": true,
+      "bytes": 17667,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/row-arrow.png",
+      "exists": true,
+      "bytes": 4049,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/skill.png",
+      "exists": true,
+      "bytes": 16242,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/three-layers.png",
+      "exists": true,
+      "bytes": 93053,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/html-figures-r6/tool.png",
+      "exists": true,
+      "bytes": 14709,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/llm.png",
+      "exists": true,
+      "bytes": 42781,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/memory-r8/cross-session.png",
+      "exists": true,
+      "bytes": 471136,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/memory-r8/crud-flow.png",
+      "exists": true,
+      "bytes": 537337,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/memory-r8/graph.png",
+      "exists": true,
+      "bytes": 359441,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/memory-r8/memory-decision.png",
+      "exists": true,
+      "bytes": 453757,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/memory-r8/memory-to-skills.png",
+      "exists": true,
+      "bytes": 541608,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/memory-r8/music-mismatch.png",
+      "exists": true,
+      "bytes": 566698,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/memory-r8/platform-figure1.png",
+      "exists": true,
+      "bytes": 96477,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/memory-r8/proactive.png",
+      "exists": true,
+      "bytes": 472833,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/memory-r8/read-scope.png",
+      "exists": true,
+      "bytes": 559990,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/memory-r8/update-relations.png",
+      "exists": true,
+      "bytes": 402758,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/msyh.ttc",
+      "exists": true,
+      "bytes": 19701556,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/msyhbd.ttc",
+      "exists": true,
+      "bytes": 16880832,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/prompting-reference.jpg",
+      "exists": true,
+      "bytes": 134772,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/protocols-r10/a2a-flow.png",
+      "exists": true,
+      "bytes": 213809,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/protocols-r10/a2a-messages.png",
+      "exists": true,
+      "bytes": 349783,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/protocols-r10/agent.png",
+      "exists": true,
+      "bytes": 59088,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/protocols-r10/card.png",
+      "exists": true,
+      "bytes": 13229,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/protocols-r10/classification-axes.png",
+      "exists": true,
+      "bytes": 356653,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/protocols-r10/combination.png",
+      "exists": true,
+      "bytes": 406021,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/protocols-r10/directory.png",
+      "exists": true,
+      "bytes": 22180,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/protocols-r10/mcp-flow.png",
+      "exists": true,
+      "bytes": 567023,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/protocols-r10/mcp-roles.png",
+      "exists": true,
+      "bytes": 417849,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/protocols-r10/participants.png",
+      "exists": true,
+      "bytes": 158923,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/protocols-r10/result.png",
+      "exists": true,
+      "bytes": 17444,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/protocols-r10/two-interactions.png",
+      "exists": true,
+      "bytes": 347203,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/skills-r9/creation-cycle.png",
+      "exists": true,
+      "bytes": 460967,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/skills-r9/file-structure.png",
+      "exists": true,
+      "bytes": 467305,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/skills-r9/jupyter.png",
+      "exists": true,
+      "bytes": 2713,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/assets/tool.png",
+      "exists": true,
+      "bytes": 76938,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/index.html#p=6&s=1",
+      "exists": true,
+      "bytes": 4371,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/index.html#p=68&s=1",
+      "exists": true,
+      "bytes": 4371,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/index.html?revision=memory-r8#p=91&s=1",
+      "exists": true,
+      "bytes": 4371,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/library/L1/index.html",
+      "exists": true,
+      "bytes": 469642,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/library/L1/original.json",
+      "exists": true,
+      "bytes": 402434,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/library/L3/index.html",
+      "exists": true,
+      "bytes": 714403,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/library/L3/original.json",
+      "exists": true,
+      "bytes": 586572,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/library/PLAN/index.html",
+      "exists": true,
+      "bytes": 7336,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/library/PLAN/original.md",
+      "exists": true,
+      "bytes": 6534,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/chat-reader.html",
+      "exists": true,
+      "bytes": 2348,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/chat-template/cases.json",
+      "exists": true,
+      "bytes": 4053,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/chat-template/chat_01_template.txt",
+      "exists": true,
+      "bytes": 116,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/chat-template/chat_02_template.txt",
+      "exists": true,
+      "bytes": 195,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/chat-template/chat_03_template.txt",
+      "exists": true,
+      "bytes": 291,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/chat-template/prepare_case.py",
+      "exists": true,
+      "bytes": 5214,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/chat-template/verification.json",
+      "exists": true,
+      "bytes": 615,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/collect_trace.py",
+      "exists": true,
+      "bytes": 6401,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/decoding/collect_distribution.py",
+      "exists": true,
+      "bytes": 3881,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/decoding/distribution.json",
+      "exists": true,
+      "bytes": 1178516,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/decoding/provenance.json",
+      "exists": true,
+      "bytes": 1117,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/decoding/reader.html",
+      "exists": true,
+      "bytes": 2658,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/decoding/reference-cases.json",
+      "exists": true,
+      "bytes": 2590,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/generation-display.json",
+      "exists": true,
+      "bytes": 12983,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/generation-reader.html",
+      "exists": true,
+      "bytes": 2712,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/generation-trace.json",
+      "exists": true,
+      "bytes": 33092,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/input-chat-template.txt",
+      "exists": true,
+      "bytes": 207,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/provenance.json",
+      "exists": true,
+      "bytes": 2416,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/verification.json",
+      "exists": true,
+      "bytes": 2473,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/llm-foundations/verify_trace.py",
+      "exists": true,
+      "bytes": 2438,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s0",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s1",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s10",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s11",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s2",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s3",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s4",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s5",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s6",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s7",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s8",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s9",
+      "exists": true,
+      "bytes": 60279,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/sources/tool-calling-r7/weather-text.html",
+      "exists": true,
+      "bytes": 5931,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/001-004.css?v=572d16296032",
+      "exists": true,
+      "bytes": 722,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/001-004.js?v=523c9ea9776e",
+      "exists": true,
+      "bytes": 5801,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/005-008.css?v=816a22ee9cda",
+      "exists": true,
+      "bytes": 1835,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/005-008.js?v=685bbd94591f",
+      "exists": true,
+      "bytes": 8997,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/009-013.css?v=5f7721b1226c",
+      "exists": true,
+      "bytes": 3885,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/009-013.js?v=54996e6e5047",
+      "exists": true,
+      "bytes": 14724,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/agent-overview-r4.css?v=51a075af7997",
+      "exists": true,
+      "bytes": 1064,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/agent-overview-r4.js?v=67f7815d4964",
+      "exists": true,
+      "bytes": 11520,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/agents-base.js?v=e4ba513dbdec",
+      "exists": true,
+      "bytes": 286,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/agents-frames.js?v=96a5ed3c3122",
+      "exists": true,
+      "bytes": 9457,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/agents-tools.js?v=dee6dabc29c7",
+      "exists": true,
+      "bytes": 13303,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/base.css?v=378a222aec12",
+      "exists": true,
+      "bytes": 5877,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/data.js?v=0ba591212eab",
+      "exists": true,
+      "bytes": 511429,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/decoding-data.js?v=07eb6411a87f",
+      "exists": true,
+      "bytes": 894721,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/decoding.js?v=7b4688475898",
+      "exists": true,
+      "bytes": 7100,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/harness-r11.css?v=0b9d2b1c071d",
+      "exists": true,
+      "bytes": 1258,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/harness-r11.js?v=680de0a2d82e",
+      "exists": true,
+      "bytes": 10060,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/html-figures-r6.css?v=6621a4bb33ce",
+      "exists": true,
+      "bytes": 3814,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/html-figures-r6.js?v=58ba10c72778",
+      "exists": true,
+      "bytes": 3443,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/llm-evidence.js?v=6fec7ab6f989",
+      "exists": true,
+      "bytes": 24959,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/llm-foundations.css?v=357d0c328c3a",
+      "exists": true,
+      "bytes": 6818,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/llm-foundations.js?v=9b9fa744e6bf",
+      "exists": true,
+      "bytes": 12238,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/memory-r8-data.js?v=490ab5908a33",
+      "exists": true,
+      "bytes": 31980,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/memory-r8.css?v=b10893ad9a3e",
+      "exists": true,
+      "bytes": 4870,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/memory-r8.js?v=c8f7ec3b79bd",
+      "exists": true,
+      "bytes": 24737,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/navigation.css?v=67b972e6e93b",
+      "exists": true,
+      "bytes": 2879,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/navigation.js?v=d6b668999a7f",
+      "exists": true,
+      "bytes": 2614,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/player.js?v=7604ab325adf",
+      "exists": true,
+      "bytes": 13106,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/prompting-base.js?v=af765f54844d",
+      "exists": true,
+      "bytes": 1024,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/prompting-r2-data.js?v=07f6c21e7adf",
+      "exists": true,
+      "bytes": 28467,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/prompting-r2.css?v=c7d2ccaf980a",
+      "exists": true,
+      "bytes": 3046,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/prompting-r2.js?v=4325fb65b264",
+      "exists": true,
+      "bytes": 16908,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/prompting.css?v=754a5fe00593",
+      "exists": true,
+      "bytes": 1083,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/protocols-r10-data.js?v=f242946ed345",
+      "exists": true,
+      "bytes": 1442,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/protocols-r10.css?v=3fc2a43b9156",
+      "exists": true,
+      "bytes": 2929,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/protocols-r10.js?v=b3f2e64783d5",
+      "exists": true,
+      "bytes": 14184,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/section-frames.js?v=0b853b2f4834",
+      "exists": true,
+      "bytes": 6654,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/skills-r9-data.js?v=2ea5f312cf7d",
+      "exists": true,
+      "bytes": 73150,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/skills-r9.css?v=e2cb63b88bde",
+      "exists": true,
+      "bytes": 5363,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/skills-r9.js?v=19273cb3afb3",
+      "exists": true,
+      "bytes": 26855,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/source-replica-r5.css?v=9f7261b9b54f",
+      "exists": true,
+      "bytes": 642,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/source-replica-r5.js?v=74999842e7a5",
+      "exists": true,
+      "bytes": 442607,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/tool-calling-r7-data.js?v=c947645f8274",
+      "exists": true,
+      "bytes": 5961,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    },
+    {
+      "url": "http://127.0.0.1:8765/src/tool-calling-r7.css?v=685a87a4b54a",
+      "exists": true,
+      "bytes": 3610,
+      "error": "<urlopen error [Errno 1] Operation not permitted>"
+    }
+  ],
+  "external": [
+    "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct",
+    "https://huggingface.co/docs/transformers/en/chat_templating",
+    "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TemperatureLogitsWarper",
+    "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopKLogitsWarper",
+    "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopPLogitsWarper"
+  ]
+}

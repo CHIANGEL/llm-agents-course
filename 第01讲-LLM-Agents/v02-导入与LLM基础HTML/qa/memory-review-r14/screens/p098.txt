@@ -1,0 +1,46 @@
+- main:
+  - article "第98页 从记忆架构，到一次模型输入":
+    - heading "从记忆架构，到一次模型输入" [level=1]
+    - region "课件内容":
+      - generic: 保存、查询和采用已经讲清；还要看这些信息怎样进入一次文本生成。
+      - generic: 打开Codex CLI的记忆实现
+      - list:
+        - listitem: OpenAI开源的智能体应用，可查看客户端怎样组织输入。
+        - listitem: 这条读取路径以摘要文件＋详细条目为基础。
+        - listitem: 先提供要点与入口，再按任务读取细节：渐进式披露。
+      - generic: 模型究竟看到了什么？
+      - img "跨会话记录先保存，再加入下一次任务"
+      - text: ① 文件在哪里？
+      - text: ② 谁把文本放进输入？
+      - text: ③ 读回之后，模型怎样继续？
+      - link "GitHub · openai/codex ↗":
+        - /url: https://github.com/openai/codex
+      - generic: 下面用采购评审，依次看文件目录、首次输入、工具读取、回答与新条件。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "3.0 外化与内化总览"
+      - button "3.1 工具调用"
+      - button "3.2 Memory"
+      - button "3.3 Skills"
+      - button "3.4 Protocols"
+      - button "3.5 Harness"
+      - button "3.6 外化与内化整合"
+      - button "3.7 全讲总结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步": →
+  - generic: 页码
+  - spinbutton "页码": "98"
+  - generic: / 193
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第98页，从记忆架构，到一次模型输入，整页显示

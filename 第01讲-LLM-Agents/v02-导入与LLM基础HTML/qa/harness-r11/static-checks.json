@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-20",
+  "method": "Static/manifest/file checks only. Browser playback and visual review recorded separately.",
+  "checks": [
+    {
+      "name": "175 pages, all full",
+      "pass": true
+    },
+    {
+      "name": "Harness content mapping",
+      "pass": true
+    },
+    {
+      "name": "Before Harness content unchanged",
+      "pass": true
+    },
+    {
+      "name": "After Harness content unchanged except numbering/timing",
+      "pass": true
+    },
+    {
+      "name": "Harness duration 30 minutes",
+      "pass": true
+    },
+    {
+      "name": "Total schedule",
+      "pass": true
+    },
+    {
+      "name": "All index resources local and present",
+      "pass": true
+    },
+    {
+      "name": "Current JS/CSS hashes",
+      "pass": true
+    },
+    {
+      "name": "17 figure files verified",
+      "pass": true
+    },
+    {
+      "name": "No old Harness JS in entry",
+      "pass": true
+    },
+    {
+      "name": "No defensive/preparation/exercise copy",
+      "pass": true
+    },
+    {
+      "name": "Every new page has substantive notes/material",
+      "pass": true
+    },
+    {
+      "name": "Module total-parts-total",
+      "pass": true
+    }
+  ]
+}

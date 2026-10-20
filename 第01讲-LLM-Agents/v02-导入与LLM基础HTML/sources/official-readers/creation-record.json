@@ -1,0 +1,126 @@
+{
+  "created_on": "2026-10-19",
+  "purpose": "N来源先打开可离线读取的核读档案，保留官方外链；不修改课堂画面或原始资料。",
+  "based_on": "本轮各分支2026-10-19独立官方核读记录及原来源档案，采用简短转述。",
+  "items": [
+    {
+      "id": "CASE_FIN",
+      "href": "sources/official-readers/fin.html",
+      "title": "Fin：把客户问题登记到 Linear",
+      "official_url": "https://claude.com/resources/articles/integrations",
+      "nature": "Anthropic 官方产品连接能力介绍",
+      "version": "网页；2025-05-01发布；2026-10-19核读",
+      "locator": "Integrations / Intercom",
+      "pages": [
+        59,
+        60,
+        61
+      ],
+      "local_archives": [
+        "../../qa/independent-review/tools-memory/source-check.json",
+        "../../qa/independent-review/tools-memory-review.md"
+      ],
+      "sha256": "f28c998724030e30251a35819ab9bd6e90887b7a4151b6b00b5cb7445dd8d2c1"
+    },
+    {
+      "id": "CASE_AWS",
+      "href": "sources/official-readers/aws.html",
+      "title": "AWS：电子产品客服中的持续记忆",
+      "official_url": "https://aws.amazon.com/blogs/machine-learning/move-your-ai-agents-from-proof-of-concept-to-production-with-amazon-bedrock-agentcore/",
+      "nature": "AWS 官方开发参考方案及测试代码",
+      "version": "网页；2025-09-19发布；2026-10-19复核",
+      "locator": "Add persistent memory / Create the memory resources / Integrate with Strands Agents hooks / Test the memory in action",
+      "pages": [
+        80,
+        81,
+        82,
+        83
+      ],
+      "local_archives": [
+        "../agents-memory/official-case-review.json",
+        "../../qa/independent-review/tools-memory/source-check.json"
+      ],
+      "sha256": "62081bd7bbb0149b45523fb13086f757c1f3622aed533cf1097e547e0a741603"
+    },
+    {
+      "id": "CASE_BOX",
+      "href": "sources/official-readers/box.html",
+      "title": "Box：从已有资料形成文档草稿",
+      "official_url": "https://claude.com/customers/box",
+      "nature": "Anthropic 官方客户案例",
+      "version": "网页；2026-10-19核读版",
+      "locator": "The solution: Pre-built skills connected to the path Box already trusted / The outcome: financial summary flow",
+      "pages": [
+        99,
+        100,
+        101,
+        102
+      ],
+      "local_archives": [
+        "../agents-skills/official-case-review.json",
+        "../../qa/independent-review/issues-skills-harness.md"
+      ],
+      "sha256": "22f2db802a935c3df70c6e5fe7536200bc4bfce924892f105e855051cce63375"
+    },
+    {
+      "id": "CASE_REMARKABLE",
+      "href": "sources/official-readers/remarkable.html",
+      "title": "reMarkable：自动客服与人工交接",
+      "official_url": "https://www.salesforce.com/customer-stories/remarkable/",
+      "nature": "Salesforce 官方客户案例",
+      "version": "网页；页面日期2025-08-04；2026-10-19复核",
+      "locator": "How Salesforce Helps",
+      "pages": [
+        114,
+        115,
+        116
+      ],
+      "local_archives": [
+        "../agents-harness/来源核读记录.md",
+        "../../qa/independent-review/issues-skills-harness.md"
+      ],
+      "sha256": "d745d990454d2dfb3f95801eafa5462ae1a485dccb85a14768b629152df0d67b"
+    },
+    {
+      "id": "CASE_ZEP",
+      "href": "sources/official-readers/zep.html",
+      "title": "Zep Facts：偏好变化与历史关系",
+      "official_url": "https://help.getzep.com/v3/facts",
+      "nature": "Zep 官方产品机制文档及其中的案例",
+      "version": "文档路径v3；2026-10-19核读版",
+      "locator": "How Zep updates facts / The four fact timestamps",
+      "pages": [
+        85
+      ],
+      "local_archives": [
+        "../../qa/independent-review/tools-memory/source-check.json",
+        "../../qa/independent-review/tools-memory-review.md"
+      ],
+      "sha256": "bd33290731737d48b65328c5bbe1c854636094b8c56f215c7e2d8cfcfa1d1393"
+    },
+    {
+      "id": "RP_PAPER",
+      "href": "sources/official-readers/rpeval.html",
+      "title": "RPEval：旧偏好与当前用途",
+      "official_url": "https://arxiv.org/pdf/2601.16621v1",
+      "nature": "研究论文；引言与Figure 1中的任务情境",
+      "version": "arXiv v1；2026-10-19核读",
+      "locator": "§1 / Figure 1（PDF第2页）",
+      "pages": [
+        86
+      ],
+      "local_archives": [
+        "../../qa/independent-review/tools-memory/source-check.json",
+        "../../qa/independent-review/tools-memory-review.md"
+      ],
+      "sha256": "8e9834e4e2ab48961f148f02628755db6f6cdc9f7c7c625b50535dc0cb681953"
+    }
+  ],
+  "verification": {
+    "html_documents": 6,
+    "external_assets": 0,
+    "local_link_targets_checked": true,
+    "browser_click_test": "由主审整合后逐项实点；生成阶段未冒称已经浏览器通过。"
+  },
+  "page_link_revision": "2026-10-19 LLM基础收紧为11页，后续播放页码减5；来源事实与原核读内容保持。"
+}

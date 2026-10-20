@@ -1,0 +1,119 @@
+{
+  "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-Agent Externalization与Internalization.pdf",
+  "sha256": "27b8339daf248aa5cc73eb6e45c7af98cf8cd5d6dddfa3a8d88ef2652070d163",
+  "page_numbering": "PDF物理页，1起算；原文件只读",
+  "pages": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "adaptation": [
+    {
+      "authoring_page": 51,
+      "title": "智能体的外化与内化",
+      "source_physical_page": 16
+    },
+    {
+      "authoring_page": 5101,
+      "title": "用“外化”理解Agent的各部分",
+      "source_physical_page": 17
+    },
+    {
+      "authoring_page": 5102,
+      "title": "外部表示，会改变任务的做法",
+      "source_physical_page": 18
+    },
+    {
+      "authoring_page": 5103,
+      "title": "写一张清单，改变了什么？",
+      "source_physical_page": 19
+    },
+    {
+      "authoring_page": 5104,
+      "title": "地图把关系放到了眼前",
+      "source_physical_page": 20
+    },
+    {
+      "authoring_page": 5105,
+      "title": "模型参数、上下文与运行程序",
+      "source_physical_page": 21
+    },
+    {
+      "authoring_page": 5106,
+      "title": "外化的是什么？",
+      "source_physical_page": 22
+    },
+    {
+      "authoring_page": 5107,
+      "title": "工具、记忆、技能与协议怎样配合",
+      "source_physical_page": 24
+    },
+    {
+      "authoring_page": 5108,
+      "title": "外部经验，也可能成为训练材料",
+      "source_physical_page": 25
+    },
+    {
+      "authoring_page": 5109,
+      "title": "总览小结：先看外化，再追问内化",
+      "source_physical_page": 23
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/agents-overview-r4/review-heading.png",
+      "physical_page": 17,
+      "pdf_clip": [
+        192,
+        300,
+        768,
+        378
+      ]
+    },
+    {
+      "file": "assets/agents-overview-r4/list-recall.png",
+      "physical_page": 19,
+      "pdf_clip": [
+        75,
+        268,
+        430,
+        517
+      ]
+    },
+    {
+      "file": "assets/agents-overview-r4/list-check.png",
+      "physical_page": 19,
+      "pdf_clip": [
+        562,
+        278,
+        894,
+        517
+      ]
+    },
+    {
+      "file": "assets/agents-overview-r4/map.png",
+      "physical_page": 20,
+      "pdf_clip": [
+        237,
+        194,
+        706,
+        452
+      ]
+    }
+  ],
+  "changes": [
+    "保留外化与内化、认知工件、清单、地图、三层分工、外化对象、组件关系与训练路径。",
+    "将第23页的路线图放在末尾小结，章首先明确三个问题。",
+    "第17页关于能力上限和强基座的概括改为综述的统一观察视角；不复用未经比较证实的效果判断。",
+    "第21页时间线改为三层分工，不把模型、上下文和运行程序表现为互相替代的时期。",
+    "图中文字、说明与关系线以HTML/SVG重排；清单、地图及论文题头复用原PDF图像。",
+    "总览600秒，加章前目录30秒；工具调用合计1470秒（含目录15秒），两部分共35分钟。"
+  ]
+}

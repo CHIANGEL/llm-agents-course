@@ -1,0 +1,107 @@
+{
+  "checks": [
+    {
+      "check": "Memory Home",
+      "page": "118",
+      "scroll": 0
+    },
+    {
+      "check": "Memory End",
+      "max": 361,
+      "page": "118",
+      "scroll": 338
+    },
+    {
+      "check": "Memory 原始条目",
+      "heading": "用户：正式部署30万元",
+      "scroll": 360.5,
+      "selected": "followup"
+    },
+    {
+      "check": "Memory 本次完整输入",
+      "heading": "本次输入的完整文本",
+      "scroll": 360.5,
+      "selected": "followup"
+    },
+    {
+      "check": "Memory 关键内容",
+      "heading": "用户：正式部署30万元",
+      "scroll": 360.5,
+      "selected": "followup"
+    },
+    {
+      "check": "Memory previous117",
+      "page": "117",
+      "selected": "answer"
+    },
+    {
+      "check": "Memory return118",
+      "page": "118",
+      "selected": "followup"
+    },
+    {
+      "check": "Skills 完整内容",
+      "count": 23,
+      "heading": "模型：读取交付检查清单",
+      "selected": "call_checklist"
+    },
+    {
+      "check": "Skills 消息结构",
+      "count": 23,
+      "heading": "模型：读取交付检查清单",
+      "selected": "call_checklist"
+    },
+    {
+      "check": "Skills 截至此处的内容",
+      "count": 23,
+      "heading": "按顺序保留的任务、目录与消息",
+      "selected": "call_checklist"
+    },
+    {
+      "check": "Skills 关键内容",
+      "count": 23,
+      "heading": "模型：读取交付检查清单",
+      "selected": "call_checklist"
+    },
+    {
+      "check": "Skills zoom select and close",
+      "heading": "模型：继续读取费用口径",
+      "scroll": 0,
+      "selected": "call_cost"
+    },
+    {
+      "check": "Skills next141",
+      "page": "141",
+      "selected": "call_validate"
+    },
+    {
+      "check": "Skills return140",
+      "page": "140",
+      "selected": "call_checklist"
+    },
+    {
+      "check": "Skills End",
+      "max": 1857,
+      "page": "140",
+      "scroll": 1856.5
+    },
+    {
+      "check": "Skills wheel up",
+      "page": "140",
+      "rightScroll": 0,
+      "scroll": 1136.5
+    },
+    {
+      "check": "Memory zoom close",
+      "before": {
+        "scroll": 360.5,
+        "selected": "followup"
+      },
+      "after": {
+        "scroll": 360.5,
+        "selected": "followup"
+      }
+    }
+  ],
+  "logs": []
+}

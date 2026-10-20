@@ -1,0 +1,186 @@
+{
+  "53": [
+    {
+      "label": "天气调用：工具、消息与执行记录",
+      "href": "sources/file-readers/tool-files.html"
+    }
+  ],
+  "54": [
+    {
+      "label": "天气调用：工具、消息与执行记录",
+      "href": "sources/file-readers/tool-files.html"
+    }
+  ],
+  "55": [
+    {
+      "label": "天气调用：工具、消息与执行记录",
+      "href": "sources/file-readers/tool-files.html"
+    }
+  ],
+  "56": [
+    {
+      "label": "天气调用：工具、消息与执行记录",
+      "href": "sources/file-readers/tool-files.html"
+    }
+  ],
+  "57": [
+    {
+      "label": "天气调用：工具、消息与执行记录",
+      "href": "sources/file-readers/tool-files.html"
+    }
+  ],
+  "58": [
+    {
+      "label": "天气调用：工具、消息与执行记录",
+      "href": "sources/file-readers/tool-files.html"
+    }
+  ],
+  "75": [
+    {
+      "label": "记忆原文件",
+      "href": "sources/file-readers/memory-files.html"
+    }
+  ],
+  "76": [
+    {
+      "label": "记忆原文件",
+      "href": "sources/file-readers/memory-files.html"
+    }
+  ],
+  "77": [
+    {
+      "label": "记忆原文件",
+      "href": "sources/file-readers/memory-files.html"
+    }
+  ],
+  "78": [
+    {
+      "label": "记忆原文件",
+      "href": "sources/file-readers/memory-files.html"
+    }
+  ],
+  "79": [
+    {
+      "label": "记忆原文件",
+      "href": "sources/file-readers/memory-files.html"
+    }
+  ],
+  "90": [
+    {
+      "label": "jupyter-notebook完整文件包（12文件）",
+      "href": "sources/file-readers/skill-package.html"
+    }
+  ],
+  "91": [
+    {
+      "label": "jupyter-notebook/LICENSE.txt",
+      "href": "sources/file-readers/skill-01.html"
+    },
+    {
+      "label": "jupyter-notebook/SKILL.md",
+      "href": "sources/file-readers/skill-02.html"
+    },
+    {
+      "label": "jupyter-notebook/agents/openai.yaml",
+      "href": "sources/file-readers/skill-03.html"
+    },
+    {
+      "label": "jupyter-notebook/assets/experiment-template.ipynb",
+      "href": "sources/file-readers/skill-04.html"
+    },
+    {
+      "label": "jupyter-notebook/assets/jupyter-small.svg",
+      "href": "sources/file-readers/skill-05.html"
+    },
+    {
+      "label": "jupyter-notebook/assets/jupyter.png",
+      "href": "sources/file-readers/skill-06.html"
+    },
+    {
+      "label": "jupyter-notebook/assets/tutorial-template.ipynb",
+      "href": "sources/file-readers/skill-07.html"
+    },
+    {
+      "label": "jupyter-notebook/references/experiment-patterns.md",
+      "href": "sources/file-readers/skill-08.html"
+    },
+    {
+      "label": "jupyter-notebook/references/notebook-structure.md",
+      "href": "sources/file-readers/skill-09.html"
+    },
+    {
+      "label": "jupyter-notebook/references/quality-checklist.md",
+      "href": "sources/file-readers/skill-10.html"
+    },
+    {
+      "label": "jupyter-notebook/references/tutorial-patterns.md",
+      "href": "sources/file-readers/skill-11.html"
+    },
+    {
+      "label": "jupyter-notebook/scripts/new_notebook.py",
+      "href": "sources/file-readers/skill-12.html"
+    }
+  ],
+  "92": [
+    {
+      "label": "jupyter-notebook完整文件包（12文件）",
+      "href": "sources/file-readers/skill-package.html"
+    }
+  ],
+  "93": [
+    {
+      "label": "jupyter-notebook完整文件包（12文件）",
+      "href": "sources/file-readers/skill-package.html"
+    }
+  ],
+  "94": [
+    {
+      "label": "jupyter-notebook完整文件包（12文件）",
+      "href": "sources/file-readers/skill-package.html"
+    }
+  ],
+  "95": [
+    {
+      "label": "jupyter-notebook完整文件包（12文件）",
+      "href": "sources/file-readers/skill-package.html"
+    }
+  ],
+  "96": [
+    {
+      "label": "jupyter-notebook完整文件包（12文件）",
+      "href": "sources/file-readers/skill-package.html"
+    }
+  ],
+  "97": [
+    {
+      "label": "jupyter-notebook完整文件包（12文件）",
+      "href": "sources/file-readers/skill-package.html"
+    },
+    {
+      "label": "jupyter-notebook/scripts/new_notebook.py",
+      "href": "sources/file-readers/skill-12.html"
+    }
+  ],
+  "98": [
+    {
+      "label": "jupyter-notebook完整文件包（12文件）",
+      "href": "sources/file-readers/skill-package.html"
+    }
+  ],
+  "103": [
+    {
+      "label": "列表与平均值：完整Notebook",
+      "href": "sources/file-readers/completed-notebook.html"
+    },
+    {
+      "label": "jupyter-notebook完整文件包（12文件）",
+      "href": "sources/file-readers/skill-package.html"
+    }
+  ],
+  "108": [
+    {
+      "label": "MCP原课程执行记录",
+      "href": "sources/file-readers/mcp-record.html"
+    }
+  ]
+}

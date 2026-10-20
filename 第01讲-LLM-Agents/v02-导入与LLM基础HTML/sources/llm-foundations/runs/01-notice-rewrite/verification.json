@@ -1,0 +1,66 @@
+{
+  "method": "Recompute each full prefix through model.forward(use_cache=False), independent from cached generation scores",
+  "status": "passed",
+  "trace_sha256": "abf03e59dbaae05ac06578da74911cd2f0a651ebe4d5c1b98b945dc5b9ad614f",
+  "steps": [
+    {
+      "step": 1,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 3.933906555175781e-06,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 2,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 1.430511474609375e-06,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 3,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 0.0,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 4,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 5.364418029785156e-07,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 5,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 5.066394805908203e-06,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 6,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 2.8014183044433594e-06,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 7,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 5.364418029785156e-07,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    },
+    {
+      "step": 8,
+      "chosen_id_matches": true,
+      "chosen_probability_difference": 4.76837158203125e-07,
+      "top10_plus_remaining_equals_one": true,
+      "prefix_text_matches_token_ids": true
+    }
+  ],
+  "eos_only_at_last_step": true,
+  "template_matches_messages": true,
+  "final_decode_matches_output": true
+}

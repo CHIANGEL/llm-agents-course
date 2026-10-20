@@ -1,0 +1,16 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-final-3#p=123&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-final-3#p=123&s=1
+	2 container
+		28 container Description: 第123页 这份课件中的任务、资料与方法, ID: mount
+			29 container 第123页 这份课件中的任务、资料与方法
+				30 heading 这份课件中的任务、资料与方法, Value: 1
+					31 text 这份课件中的任务、资料与方法
+				32 container 课件内容
+					33 container
+						34 text 任务：为MBA制作三小时的LLM Agents课程。 目标与交付 MBA受众 · 180分钟 · HTML课件 参考资料 原课程材料与Prompting补充PDF 可复用要求 教师措辞、安泰课件版式
+						35 image
+						36 image 本课Prompting页面：原始Prompt与方法图解
+						37 text 把材料与方法落实到具体页面 验收时回到目标：内容关系、材料依据、图文呈现与播放效果。
+		27 text 第123页，这份课件中的任务、资料与方法，整页显示
+
+The focused UI element is 28 container Description: 第123页 这份课件中的任务、资料与方法, ID: mount

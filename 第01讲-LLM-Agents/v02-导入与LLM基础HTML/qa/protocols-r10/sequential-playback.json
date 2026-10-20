@@ -1,0 +1,95 @@
+{
+  "start": 130,
+  "end": 152,
+  "method": "从130页开始逐次点击下一步，逐页截图并阅读；新增17页均整页显示",
+  "pages": [
+    {
+      "page": 131,
+      "text": "本讲内容\n已结束：Skills\n→\n接下来：Protocols\n1. LLM基础\n\n连续生成与多轮聊天\n\n✓\n1.1 连续生成\n✓\n1.2 多轮聊天\n✓\n1.3 LLM小结\n2. Prompting\n\n交代任务，再选择方法\n\n✓\n2.1 三个核心\n✓\n2.2 问清问题\n✓\n2.3 学习\n✓\n2.4 解决问题\n✓\n2.5 决策\n✓\n2.6 Prompting小结\n3. Agents\n\nExternalization & Internalization\n\n✓\n3.0 外化与内化总览\n✓\n3.1 工具调用\n✓\n3.2 Memory\n✓\n3.3 Skills\n→\n3.4 Protocols\n接下来\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结\n✓ 已结束\n→ 接下来\n其余内容随后展开\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 132,
+      "text": "Protocols：约定怎样交互\nSkills保存“怎样做”；Protocols把怎样与外部系统交互写成共同约定。\n① 交互对象与范围\n连接谁？双方要约定什么？\n② MCP：工具与数据\n目录 → 调用 → 返回结果\n③ A2A：Agent任务协作\n能力 → 任务 → 状态与成果\n先区分交互，再看两种协议如何把各自的请求与返回接起来。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 133,
+      "text": "理解协议：连接谁，为哪些场景设计？\n看懂一种协议，先问“连接谁”，再问“为哪些场景设计”。\n连接工具与数据：约定能力说明、调用格式与返回内容。\n连接另一个Agent：约定如何委托、补充信息、报告状态与交付成果。\n交互对象与适用范围可以组合；本章重点看MCP和A2A。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 134,
+      "text": "两类交互：调用工具与委托任务\n同一个智能体，既可以调用外部工具，也可以把任务交给另一个Agent。\n判断协议的作用，要看这次交互需要约定什么；服务内部可以有复杂的处理过程。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 135,
+      "text": "MCP：连接工具与数据\n已结束：交互对象与范围　→　接下来：MCP：连接工具与数据\nMCP · Model Context Protocol（模型上下文协议）\n先看角色分工　→　取得工具目录　→　发送调用、返回结果\nMCP约定应用与外部服务的通信；应用把它接到模型的生成过程。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 136,
+      "text": "MCP调用：模型、应用与服务的分工\n模型提出调用；应用联系服务；服务执行后，把结果交回应用。\n模型\n依据任务与工具说明，\n生成工具名称和参数。\n应用 Host／客户端 Client\n组织模型输入；\n客户端负责MCP通信。\n服务端 Server\n公开能力；处理请求；\n返回操作结果。\n一个应用可以连接多个服务；每段连接仍需遵守双方约定。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 137,
+      "text": "先取得目录：工具名、用途与参数\n连接建立后，应用先获取工具目录，才知道服务提供什么、调用时需要什么。\ntools/list\n请求工具目录\n目录中的说明\t天气工具\t模型据此判断\n名称\tget_weather\t要调用哪个工具\n用途\t查询指定地点的天气\t是否适合当前任务\n参数要求\tlocation：文字，必填\t调用时必须给出地点\n应用保留名称、用途与参数要求，\n整理成模型能够使用的工具说明。\nMCP还可提供资料（Resources）和提示模板（Prompts）；这里先看工具往返。\n“工具可以做什么”先进入模型输入，模型才能结合任务选择调用。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 138,
+      "text": "从工具目录，到下一次模型输入\n天气查询仍然是生成与执行的交替；MCP补上应用和服务之间的通信。\n模型输出调用 → 应用转交 → 服务执行 → 返回内容加入下一次模型输入。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 139,
+      "text": "天气查询：对照一次协议往返\n同一次纽约天气查询，对照目录、调用和返回；原始消息可按需展开。\n① 索取工具目录\n② 返回工具说明\n③ 发起天气查询\n④ 返回天气内容\n重置\n主要内容\n完整协议消息\n应用 → 天气服务\n操作：tools/call\n\n工具：get_weather\n参数：location = New York\n\n请求编号：102。\n\n模型给出工具名和参数后，应用把它们写入MCP请求。\n\n请求与返回按编号配对；协议消息由应用和服务处理。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 140,
+      "text": "MCP小结：协议通信与模型输入\nMCP统一工具发现、调用与返回；应用负责把它们接到模型输入。\n模型依据输入生成\n任务与工具说明\n调用请求\n取得结果后的回答\n应用组织往返\n整理工具说明\n转交请求、对应返回\n把结果加入下一次输入\n服务处理请求\n提供工具目录\n执行工具操作\n返回内容或错误\n接下来：当对方承担的是一项任务，怎样委托、追问和交付？\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 141,
+      "text": "A2A：把任务交给另一个Agent\n已结束：MCP：工具与数据　→　接下来：A2A：任务协作\nA2A · Agent2Agent：不同Agent服务之间的任务交互。\n沿汇率任务看：\n谁接手？\n信息不够怎么办？\n完成后交回什么？\n先了解能力，再委托任务；过程可以包含补充信息和状态变化。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 142,
+      "text": "Agent Card：先了解对方能做什么\nAgent Card是对方公开的能力与接口说明，帮助应用判断怎样联系和使用。\n要了解什么\t在汇率任务中\n名称与能力\t汇率Agent：处理货币换算问题\n输入与输出\t提供金额、原币种与目标币种；取得换算结果\n接口与访问要求\t请求发往哪里；采用什么协议；如何认证\nCard中的 skills 描述这个Agent提供的能力。\n前一章的Skill包保存工作方法；Agent Card用于介绍一个服务。\n能力说明帮助找到合适的服务；实际请求仍由应用按接口和权限发送。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 143,
+      "text": "汇率任务：委托、补充、继续\n沿用同一任务：先委托，缺少目标币种时补充，再继续原任务。\n用户 → 本方助理 → 汇率Agent\n\n1美元能换多少？\n\n汇率Agent → 本方助理 → 用户\n\n要换成哪种货币？\n\n用户 → 本方助理 → 汇率Agent\n\nCAD（加拿大元）。\n\n汇率Agent → 本方助理\n\n继续处理，返回换算成果。\n\n补充信息要接回原任务\n任务标识与上下文标识，\n帮助应用把“CAD”接回\n“1美元能换多少”的请求。\n追问是任务的一部分；补充后继续处理，双方都需要保留可续接的状态。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 144,
+      "text": "两边各自保存消息，交换任务信息\n双方各自组织模型输入；A2A把任务、补充与结果在应用之间传递。\n本方助理的处理规则\n1美元能换多少？\n委托、收到追问、向用户询问\n汇率Agent的处理规则\n收到货币换算任务\n追问：要换成哪种货币？\n本方追加用户的“CAD”，再发给对方。\n接收方取回已有消息，追加“CAD”。\n各自的历史＋这次收到的信息，构成各自后续生成的输入。\n应用决定发哪些内容；发送任务文字，不会自动传走本方的全部历史与规则。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 145,
+      "text": "任务状态与成果，分别说明什么？\n状态说明“处理到哪里”；成果保存“实际产出了什么”。\n任务状态 · Status\n任务成果 · Artifact\n处理中\n等待补充信息\n已完成\n文字结果\n文件\n结构化数据\n汇率问题缺少目标币种时，\n返回“等待补充”及具体问题。\n换算完成后，\n把金额、币种等结果放入成果。\n本方应用取得成果 → 对照原任务检查 → 放入后续输入、组织回复\n收到“已完成”还要取得成果；状态与成果不能相互替代。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 146,
+      "text": "A2A小结：可以与MCP一起使用\nA2A连接Agent服务；接收方还可以通过MCP访问工具或资料。\nAgent B应用\n（自己的消息）\nA2A：说明能力，交换任务、状态与成果。\nMCP：发现工具，发送调用，接收结果。\n协议可以组合；各自应用仍负责组织输入、保存进度与检查结果。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 147,
+      "text": "Protocols小结：交互约定如何落到运行\nProtocols把外部交互变成有约定的交换，接上前面的工具、记忆与方法。\n① 对象与范围\n先看连接谁，再看约定什么。\n② MCP\n工具目录、调用与返回。\n③ A2A\n能力、任务、状态与成果。\n接下来：Harness把模型、工具、Memory、Skills和Protocols组织成运行过程。\n交互有了共同约定，还要安排谁执行、何时等待，以及怎样检查交付。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 148,
+      "text": "本讲内容\n已结束：Protocols\n→\n接下来：Harness\n1. LLM基础\n\n连续生成与多轮聊天\n\n✓\n1.1 连续生成\n✓\n1.2 多轮聊天\n✓\n1.3 LLM小结\n2. Prompting\n\n交代任务，再选择方法\n\n✓\n2.1 三个核心\n✓\n2.2 问清问题\n✓\n2.3 学习\n✓\n2.4 解决问题\n✓\n2.5 决策\n✓\n2.6 Prompting小结\n3. Agents\n\nExternalization & Internalization\n\n✓\n3.0 外化与内化总览\n✓\n3.1 工具调用\n✓\n3.2 Memory\n✓\n3.3 Skills\n✓\n3.4 Protocols\n→\n3.5 Harness\n接下来\n3.6 外化与内化整合\n3.7 全讲总结\n✓ 已结束\n→ 接下来\n其余内容随后展开\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 149,
+      "text": "Harness：把各部分组织为持续的工作\nHarness（运行系统）把材料、操作、进度和检查组织起来。\nHarness\n准备本次输入\n模型提出下一步\n工具执行操作\n检查返回结果\nMemory · Skills · 当前材料\nProtocols连接 · 权限与进度\n继续／等待／结束\n新结果进入下一次输入，任务继续推进。\n先看材料与连接，再看操作范围、交接、恢复和验收。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 150,
+      "text": "材料与连接，分别准备什么\n材料决定模型看到什么；连接决定外部操作怎样到达工具。\n任务与材料\n当前要求\n工作摘要\n必要原文\n本次输入\n选择需要的信息\n模型\n应用连接工具服务\n调用与结果沿连接往返\n材料先进入输入，模型才能使用。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 151,
+      "text": "下一步需要的材料，也在变化\n把当前目标、有效约定和进度留下；需要细节时再回读原文。\n不断积累的材料\n当前要求\n报告原文\n工具长日志\n此前讨论\n下一次输入\n目标与有效约定\n已完成工作、待解决问题\n下一步需要的原文摘录\n原文件\n与记录\n保留可访问的位置\n长过程 → 工作摘要\n需要细节 → 回读原文\n摘要有取舍；关键判断仍要能连回原材料。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    },
+    {
+      "page": 152,
+      "text": "材料进入输入，调用到达工具\n准备输入与连接工具，在一次任务中各有位置。\n当前要求\n工作摘要\n必要原文\n应用组织\n模型判断\nMCP 客户端 ↔ 服务端\n① 材料进入本次输入\n② 调用经连接到达工具\n③ 工具返回新材料，应用将它接入下一次模型输入。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结"
+    }
+  ]
+}

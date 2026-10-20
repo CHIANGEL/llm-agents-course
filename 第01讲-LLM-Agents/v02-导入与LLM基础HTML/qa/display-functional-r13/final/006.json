@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 6,
+  "text": "下一Token预测（Next token prediction）\n模型对词表中的49,152个候选分配概率，本次选概率最高的一项。\n本次任务\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n第一步选中：The\n26.92%已是单个候选中的最高值。\n其余概率分散在许多其他候选上。\n下一个Token\n概率\nThe\n26.92%\n\"\n13.66%\nWe\n9.34%\nToday\n5.08%\nI\n4.91%\n其他候选合计\n40.09%\n0\n100%\n按概率抽样时，较低概率的候选也有机会被选中。\n温度 · top-k · top-p →\nSmolLM2-135M-Instruct · 每一步选择概率最高的候选\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n1.1 连续生成\n1.2 多轮聊天\n1.3 LLM小结",
+  "title": "第6页 下一Token预测（Next token prediction）"
+}

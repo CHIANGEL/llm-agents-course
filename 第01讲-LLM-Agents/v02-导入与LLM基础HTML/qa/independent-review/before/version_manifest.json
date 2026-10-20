@@ -1,0 +1,1235 @@
+{
+  "version": "v02",
+  "title": "MBA第一讲：LLM Agents完整HTML课件",
+  "date": "2026-10-19",
+  "scope": "导入、LLM基础、Prompting、工具调用、Memory、Skills、Harness、外化与内化整合及全讲总结",
+  "status": "第一讲完整制作完成",
+  "entry": "index.html",
+  "page_count": 134,
+  "state_count": 387,
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "playback": "手动、可回退，无自动播放",
+  "source_plan": "../v01-逐页内容规划/逐页内容规划.json",
+  "page_records": [
+    {
+      "page": 1,
+      "renderer": 1,
+      "source_plan_page": 1,
+      "section": "导入",
+      "type": "cover",
+      "title": "第一讲：LLM Agents",
+      "steps": 2
+    },
+    {
+      "page": 2,
+      "renderer": 2,
+      "source_plan_page": 2,
+      "section": "导入",
+      "type": "content",
+      "title": "回答、操作与交付",
+      "steps": 4
+    },
+    {
+      "page": 3,
+      "renderer": 3,
+      "source_plan_page": 3,
+      "section": "导入",
+      "type": "agenda",
+      "title": "本讲内容",
+      "steps": 1
+    },
+    {
+      "page": 4,
+      "renderer": 4,
+      "source_plan_page": 4,
+      "section": "LLM基础总览",
+      "type": "overview",
+      "title": "LLM基础：生成、上下文与事实依据",
+      "steps": 3
+    },
+    {
+      "page": 5,
+      "renderer": 101,
+      "source_plan_page": null,
+      "section": "生成",
+      "type": "overview",
+      "title": "生成：回答怎样一步步写出来",
+      "steps": 1
+    },
+    {
+      "page": 6,
+      "renderer": 5,
+      "source_plan_page": 5,
+      "section": "生成",
+      "type": "content",
+      "title": "LLM怎样生成回答",
+      "steps": 3
+    },
+    {
+      "page": 7,
+      "renderer": 6,
+      "source_plan_page": 6,
+      "section": "生成",
+      "type": "content",
+      "title": "下一Token预测（Next token prediction）",
+      "steps": 2
+    },
+    {
+      "page": 8,
+      "renderer": 7,
+      "source_plan_page": 7,
+      "section": "生成",
+      "type": "content",
+      "title": "选出一个，再接着生成",
+      "steps": 3
+    },
+    {
+      "page": 9,
+      "renderer": 102,
+      "source_plan_page": null,
+      "section": "生成",
+      "type": "summary",
+      "title": "生成小结：预测、选择与追加",
+      "steps": 3
+    },
+    {
+      "page": 10,
+      "renderer": 103,
+      "source_plan_page": null,
+      "section": "上下文",
+      "type": "overview",
+      "title": "上下文：本次输入由哪些内容组成",
+      "steps": 1
+    },
+    {
+      "page": 11,
+      "renderer": 9,
+      "source_plan_page": 9,
+      "section": "上下文",
+      "type": "content",
+      "title": "同一材料，可以完成不同任务",
+      "steps": 3
+    },
+    {
+      "page": 12,
+      "renderer": 10,
+      "source_plan_page": 10,
+      "section": "上下文",
+      "type": "content",
+      "title": "“人数改成36人”还缺什么？",
+      "steps": 4
+    },
+    {
+      "page": 13,
+      "renderer": 11,
+      "source_plan_page": 11,
+      "section": "上下文",
+      "type": "content",
+      "title": "文件存在，与模型这次读到，是两件事",
+      "steps": 3
+    },
+    {
+      "page": 14,
+      "renderer": 104,
+      "source_plan_page": null,
+      "section": "上下文",
+      "type": "summary",
+      "title": "上下文小结：任务、历史与材料",
+      "steps": 3
+    },
+    {
+      "page": 15,
+      "renderer": 105,
+      "source_plan_page": null,
+      "section": "事实依据",
+      "type": "overview",
+      "title": "事实依据：生成倾向与结论支持",
+      "steps": 1
+    },
+    {
+      "page": 16,
+      "renderer": 8,
+      "source_plan_page": 8,
+      "section": "事实依据",
+      "type": "content",
+      "title": "生成概率与事实依据",
+      "steps": 3
+    },
+    {
+      "page": 17,
+      "renderer": 12,
+      "source_plan_page": 12,
+      "section": "事实依据",
+      "type": "case",
+      "title": "数字算对，结论也可能不对",
+      "steps": 4
+    },
+    {
+      "page": 18,
+      "renderer": 106,
+      "source_plan_page": null,
+      "section": "事实依据",
+      "type": "summary",
+      "title": "事实依据小结：计算、对象与含义",
+      "steps": 3
+    },
+    {
+      "page": 19,
+      "renderer": 13,
+      "source_plan_page": 13,
+      "section": "LLM基础总结",
+      "type": "summary",
+      "title": "LLM基础小结：生成、上下文与事实依据",
+      "steps": 3
+    },
+    {
+      "page": 20,
+      "renderer": 20,
+      "source_plan_page": 14,
+      "section": "Prompting",
+      "type": "agenda",
+      "title": "本讲内容",
+      "steps": 1
+    },
+    {
+      "page": 21,
+      "renderer": 21,
+      "source_plan_page": 15,
+      "section": "Prompting",
+      "type": "overview",
+      "title": "Prompting：从交代任务到反馈检查",
+      "steps": 3
+    },
+    {
+      "page": 22,
+      "renderer": 22,
+      "source_plan_page": 15,
+      "section": "Prompting·任务交代",
+      "type": "overview",
+      "title": "把用途、需求与条件写进任务",
+      "steps": 1
+    },
+    {
+      "page": 23,
+      "renderer": 23,
+      "source_plan_page": 16,
+      "section": "Prompting·任务交代",
+      "type": "content",
+      "title": "Prompt要说明结果拿来做什么",
+      "steps": 3
+    },
+    {
+      "page": 24,
+      "renderer": 24,
+      "source_plan_page": 17,
+      "section": "Prompting·任务交代",
+      "type": "content",
+      "title": "四件套：视角、背景、目标与样本",
+      "steps": 4
+    },
+    {
+      "page": 25,
+      "renderer": 25,
+      "source_plan_page": 18,
+      "section": "Prompting·任务交代",
+      "type": "content",
+      "title": "给例子：参考结构，依据材料写事实",
+      "steps": 3
+    },
+    {
+      "page": 26,
+      "renderer": 26,
+      "source_plan_page": 19,
+      "section": "Prompting·任务交代",
+      "type": "content",
+      "title": "必要条件写清，解决办法留空间",
+      "steps": 3
+    },
+    {
+      "page": 27,
+      "renderer": 27,
+      "source_plan_page": 19,
+      "section": "Prompting·任务交代",
+      "type": "summary",
+      "title": "任务交代小结：让结果有明确参照",
+      "steps": 3
+    },
+    {
+      "page": 28,
+      "renderer": 28,
+      "source_plan_page": 20,
+      "section": "Prompting·澄清关键问题",
+      "type": "overview",
+      "title": "澄清：从已有信息找到关键缺口",
+      "steps": 1
+    },
+    {
+      "page": 29,
+      "renderer": 29,
+      "source_plan_page": 20,
+      "section": "Prompting·澄清关键问题",
+      "type": "content",
+      "title": "先分清事实、解释与目标",
+      "steps": 4
+    },
+    {
+      "page": 30,
+      "renderer": 30,
+      "source_plan_page": 21,
+      "section": "Prompting·澄清关键问题",
+      "type": "content",
+      "title": "只追问会改变交付的问题",
+      "steps": 4
+    },
+    {
+      "page": 31,
+      "renderer": 31,
+      "source_plan_page": 21,
+      "section": "Prompting·澄清关键问题",
+      "type": "summary",
+      "title": "澄清小结：让新信息改变下一步",
+      "steps": 3
+    },
+    {
+      "page": 32,
+      "renderer": 32,
+      "source_plan_page": 22,
+      "section": "Prompting·核查事实与结论",
+      "type": "overview",
+      "title": "核查：让说法连回材料与条件",
+      "steps": 1
+    },
+    {
+      "page": 33,
+      "renderer": 33,
+      "source_plan_page": 22,
+      "section": "Prompting·核查事实与结论",
+      "type": "content",
+      "title": "事实核查：逐条记录依据与范围",
+      "steps": 4
+    },
+    {
+      "page": 34,
+      "renderer": 34,
+      "source_plan_page": 23,
+      "section": "Prompting·核查事实与结论",
+      "type": "content",
+      "title": "来源存在，还要检查结论范围",
+      "steps": 4
+    },
+    {
+      "page": 35,
+      "renderer": 35,
+      "source_plan_page": 23,
+      "section": "Prompting·核查事实与结论",
+      "type": "summary",
+      "title": "核查小结：事实、推理与范围对应",
+      "steps": 3
+    },
+    {
+      "page": 36,
+      "renderer": 36,
+      "source_plan_page": 24,
+      "section": "Prompting·比较选择",
+      "type": "overview",
+      "title": "比较选择：先把两边说充分",
+      "steps": 2
+    },
+    {
+      "page": 37,
+      "renderer": 37,
+      "source_plan_page": 24,
+      "section": "Prompting·比较选择",
+      "type": "content",
+      "title": "双向钢人：理由要连上成立条件",
+      "steps": 3
+    },
+    {
+      "page": 38,
+      "renderer": 38,
+      "source_plan_page": 25,
+      "section": "Prompting·比较选择",
+      "type": "content",
+      "title": "用同一组维度比较两种行动",
+      "steps": 4
+    },
+    {
+      "page": 39,
+      "renderer": 39,
+      "source_plan_page": 25,
+      "section": "Prompting·比较选择",
+      "type": "summary",
+      "title": "比较选择小结：留下有条件的判断",
+      "steps": 3
+    },
+    {
+      "page": 40,
+      "renderer": 40,
+      "source_plan_page": 26,
+      "section": "Prompting·验证假设",
+      "type": "overview",
+      "title": "验证假设：让行动带回新信息",
+      "steps": 2
+    },
+    {
+      "page": 41,
+      "renderer": 41,
+      "source_plan_page": 26,
+      "section": "Prompting·验证假设",
+      "type": "content",
+      "title": "从试用意愿走向实际使用",
+      "steps": 4
+    },
+    {
+      "page": 42,
+      "renderer": 42,
+      "source_plan_page": 26,
+      "section": "Prompting·验证假设",
+      "type": "summary",
+      "title": "验证假设小结：用记录更新判断",
+      "steps": 3
+    },
+    {
+      "page": 43,
+      "renderer": 43,
+      "source_plan_page": 27,
+      "section": "Prompting·反馈与检查",
+      "type": "overview",
+      "title": "反馈与检查：从具体问题改进Prompt",
+      "steps": 1
+    },
+    {
+      "page": 44,
+      "renderer": 44,
+      "source_plan_page": 27,
+      "section": "Prompting·反馈与检查",
+      "type": "content",
+      "title": "把具体反馈写回Prompt",
+      "steps": 3
+    },
+    {
+      "page": 45,
+      "renderer": 45,
+      "source_plan_page": 28,
+      "section": "Prompting·反馈与检查",
+      "type": "content",
+      "title": "重试、改要求和补材料各解决什么",
+      "steps": 3
+    },
+    {
+      "page": 46,
+      "renderer": 46,
+      "source_plan_page": 29,
+      "section": "Prompting·反馈与检查",
+      "type": "content",
+      "title": "用代表性输入检查Prompt",
+      "steps": 3
+    },
+    {
+      "page": 47,
+      "renderer": 47,
+      "source_plan_page": 29,
+      "section": "Prompting·反馈与检查",
+      "type": "summary",
+      "title": "反馈检查小结：留下有效要求",
+      "steps": 3
+    },
+    {
+      "page": 48,
+      "renderer": 48,
+      "source_plan_page": 30,
+      "section": "Prompting",
+      "type": "summary",
+      "title": "Prompting小结：从交代任务到反馈检查",
+      "steps": 3
+    },
+    {
+      "page": 49,
+      "renderer": 49,
+      "source_plan_page": 31,
+      "section": "Prompting",
+      "type": "bridge",
+      "title": "从Prompting走向Agent",
+      "steps": 3
+    },
+    {
+      "page": 50,
+      "renderer": 2050,
+      "source_plan_page": 32,
+      "section": "Agents总览",
+      "type": "agenda",
+      "title": "本讲内容",
+      "steps": 1
+    },
+    {
+      "page": 51,
+      "renderer": 2051,
+      "source_plan_page": 32,
+      "section": "Agents总览",
+      "type": "overview",
+      "title": "Agents：外化与内化",
+      "steps": 3
+    },
+    {
+      "page": 52,
+      "renderer": 2052,
+      "source_plan_page": 32,
+      "section": "Agents·工具调用",
+      "type": "overview",
+      "title": "工具调用：把请求、执行与反馈接起来",
+      "steps": 3
+    },
+    {
+      "page": 53,
+      "renderer": 2053,
+      "source_plan_page": 33,
+      "section": "Agents·一次调用",
+      "type": "overview",
+      "title": "一次调用：从查询建议到天气材料",
+      "steps": 3
+    },
+    {
+      "page": 54,
+      "renderer": 2054,
+      "source_plan_page": 34,
+      "section": "Agents·一次调用",
+      "type": "content",
+      "title": "工具说明告诉模型可以做什么",
+      "steps": 3
+    },
+    {
+      "page": 55,
+      "renderer": 2055,
+      "source_plan_page": 35,
+      "section": "Agents·一次调用",
+      "type": "content",
+      "title": "调用请求写明工具与地点",
+      "steps": 3
+    },
+    {
+      "page": 56,
+      "renderer": 2056,
+      "source_plan_page": 36,
+      "section": "Agents·一次调用",
+      "type": "content",
+      "title": "程序执行读取，工具返回天气",
+      "steps": 3
+    },
+    {
+      "page": 57,
+      "renderer": 2057,
+      "source_plan_page": 37,
+      "section": "Agents·一次调用",
+      "type": "content",
+      "title": "把调用与结果追加到下一次输入",
+      "steps": 4
+    },
+    {
+      "page": 58,
+      "renderer": 2058,
+      "source_plan_page": 38,
+      "section": "Agents·一次调用",
+      "type": "summary",
+      "title": "两次生成，中间执行一次工具",
+      "steps": 3
+    },
+    {
+      "page": 59,
+      "renderer": 2059,
+      "source_plan_page": 39,
+      "section": "Agents·Fin与Linear",
+      "type": "overview",
+      "title": "Fin：把客户反馈送入问题跟踪",
+      "steps": 3
+    },
+    {
+      "page": 60,
+      "renderer": 2060,
+      "source_plan_page": 40,
+      "section": "Agents·Fin与Linear",
+      "type": "content",
+      "title": "客户材料、创建请求与系统记录",
+      "steps": 3
+    },
+    {
+      "page": 61,
+      "renderer": 2061,
+      "source_plan_page": 41,
+      "section": "Agents·Fin与Linear",
+      "type": "summary",
+      "title": "记录建立与问题解决，各有完成条件",
+      "steps": 3
+    },
+    {
+      "page": 62,
+      "renderer": 2062,
+      "source_plan_page": 42,
+      "section": "Agents·多步反馈",
+      "type": "overview",
+      "title": "新结果决定继续、补充还是结束",
+      "steps": 3
+    },
+    {
+      "page": 63,
+      "renderer": 2063,
+      "source_plan_page": 43,
+      "section": "Agents·多步反馈",
+      "type": "content",
+      "title": "缺少地点：让反馈回到原问题",
+      "steps": 3
+    },
+    {
+      "page": 64,
+      "renderer": 2064,
+      "source_plan_page": 44,
+      "section": "Agents·多步反馈",
+      "type": "content",
+      "title": "返回内容要对应对象、内容与时点",
+      "steps": 3
+    },
+    {
+      "page": 65,
+      "renderer": 2065,
+      "source_plan_page": 44,
+      "section": "Agents·多步反馈",
+      "type": "summary",
+      "title": "行动、反馈、判断与下一步",
+      "steps": 3
+    },
+    {
+      "page": 66,
+      "renderer": 2066,
+      "source_plan_page": 45,
+      "section": "Agents·Computer Use",
+      "type": "overview",
+      "title": "Computer Use：观察、动作与新观察",
+      "steps": 3
+    },
+    {
+      "page": 67,
+      "renderer": 2067,
+      "source_plan_page": 45,
+      "section": "Agents·Computer Use",
+      "type": "content",
+      "title": "界面结构与截图提供两种观察",
+      "steps": 3
+    },
+    {
+      "page": 68,
+      "renderer": 2068,
+      "source_plan_page": 46,
+      "section": "Agents·Computer Use",
+      "type": "content",
+      "title": "根据当前观察，提出界面操作",
+      "steps": 3
+    },
+    {
+      "page": 69,
+      "renderer": 2069,
+      "source_plan_page": 46,
+      "section": "Agents·Computer Use",
+      "type": "content",
+      "title": "操作以后，再读取界面核对目标",
+      "steps": 3
+    },
+    {
+      "page": 70,
+      "renderer": 2070,
+      "source_plan_page": 46,
+      "section": "Agents·Computer Use",
+      "type": "summary",
+      "title": "界面操作也要带着新结果继续判断",
+      "steps": 3
+    },
+    {
+      "page": 71,
+      "renderer": 2071,
+      "source_plan_page": 47,
+      "section": "Agents·工具调用",
+      "type": "summary",
+      "title": "工具调用小结：执行结果回到判断",
+      "steps": 3
+    },
+    {
+      "page": 72,
+      "renderer": 2072,
+      "source_plan_page": 47,
+      "section": "Agents·工具调用",
+      "type": "transition",
+      "title": "把以后要用的信息留给下一次任务",
+      "steps": 3
+    },
+    {
+      "page": 73,
+      "renderer": 2073,
+      "source_plan_page": null,
+      "section": "Agents·课间休息",
+      "type": "break",
+      "title": "课间休息",
+      "steps": 1
+    },
+    {
+      "page": 74,
+      "renderer": 2074,
+      "source_plan_page": 50,
+      "section": "Memory·总览",
+      "type": "overview",
+      "title": "Memory：把过去的信息带入本次任务",
+      "steps": 3
+    },
+    {
+      "page": 75,
+      "renderer": 2075,
+      "source_plan_page": 51,
+      "section": "Memory·保存与取回",
+      "type": "overview",
+      "title": "保存与取回：从文件到本次输入",
+      "steps": 3
+    },
+    {
+      "page": 76,
+      "renderer": 2076,
+      "source_plan_page": 52,
+      "section": "Memory·保存与取回",
+      "type": "content",
+      "title": "一份摘要，怎样带出详细记录？",
+      "steps": 3
+    },
+    {
+      "page": 77,
+      "renderer": 2077,
+      "source_plan_page": 53,
+      "section": "Memory·保存与取回",
+      "type": "content",
+      "title": "读取内容，加入后续输入",
+      "steps": 4
+    },
+    {
+      "page": 78,
+      "renderer": 2078,
+      "source_plan_page": 51,
+      "section": "Memory·保存与取回",
+      "type": "content",
+      "title": "文件更新以后，还要更新输入",
+      "steps": 3
+    },
+    {
+      "page": 79,
+      "renderer": 2079,
+      "source_plan_page": 53,
+      "section": "Memory·保存与取回",
+      "type": "summary",
+      "title": "保存在哪里，取回什么，怎样参与生成",
+      "steps": 3
+    },
+    {
+      "page": 80,
+      "renderer": 2080,
+      "source_plan_page": 54,
+      "section": "Memory·AWS客服",
+      "type": "overview",
+      "title": "AWS客服：延续两次会话的背景",
+      "steps": 3
+    },
+    {
+      "page": 81,
+      "renderer": 2081,
+      "source_plan_page": 55,
+      "section": "Memory·AWS客服",
+      "type": "case",
+      "title": "AWS客服：保存偏好与有关事实",
+      "steps": 3
+    },
+    {
+      "page": 82,
+      "renderer": 2082,
+      "source_plan_page": 56,
+      "section": "Memory·AWS客服",
+      "type": "case",
+      "title": "AWS客服：把背景加入新的问题",
+      "steps": 3
+    },
+    {
+      "page": 83,
+      "renderer": 2083,
+      "source_plan_page": 56,
+      "section": "Memory·AWS客服",
+      "type": "summary",
+      "title": "AWS客服：让后续服务取得有关背景",
+      "steps": 3
+    },
+    {
+      "page": 84,
+      "renderer": 2084,
+      "source_plan_page": 57,
+      "section": "Memory·更新与适用性",
+      "type": "overview",
+      "title": "取回以后，还要判断本次是否适用",
+      "steps": 3
+    },
+    {
+      "page": 85,
+      "renderer": 2085,
+      "source_plan_page": 57,
+      "section": "Memory·更新与适用性",
+      "type": "content",
+      "title": "偏好改变，保留历史并更新当前关系",
+      "steps": 3
+    },
+    {
+      "page": 86,
+      "renderer": 2086,
+      "source_plan_page": 58,
+      "section": "Memory·更新与适用性",
+      "type": "content",
+      "title": "喜欢的音乐，这次一定适合听吗？",
+      "steps": 3
+    },
+    {
+      "page": 87,
+      "renderer": 2087,
+      "source_plan_page": 58,
+      "section": "Memory·更新与适用性",
+      "type": "summary",
+      "title": "更新记录，也检查当前用途",
+      "steps": 3
+    },
+    {
+      "page": 88,
+      "renderer": 2088,
+      "source_plan_page": 59,
+      "section": "Memory·小结",
+      "type": "summary",
+      "title": "Memory：留下信息，再按当前任务取用",
+      "steps": 3
+    },
+    {
+      "page": 89,
+      "renderer": 2089,
+      "source_plan_page": 61,
+      "section": "Skills·总览",
+      "type": "overview",
+      "title": "Skills：把可复用的做法组织起来",
+      "steps": 3
+    },
+    {
+      "page": 90,
+      "renderer": 2090,
+      "source_plan_page": 61,
+      "section": "Skills·方法封装",
+      "type": "overview",
+      "title": "方法封装：说明、参考、脚本和模板",
+      "steps": 3
+    },
+    {
+      "page": 91,
+      "renderer": 2091,
+      "source_plan_page": 62,
+      "section": "Skills·方法封装",
+      "type": "content",
+      "title": "打开一个包含12份文件的Skill包",
+      "steps": 3
+    },
+    {
+      "page": 92,
+      "renderer": 2092,
+      "source_plan_page": 62,
+      "section": "Skills·方法封装",
+      "type": "content",
+      "title": "从入口说明，找到本次需要的做法",
+      "steps": 3
+    },
+    {
+      "page": 93,
+      "renderer": 2093,
+      "source_plan_page": 62,
+      "section": "Skills·方法封装",
+      "type": "summary",
+      "title": "文件包把方法与材料组织在一起",
+      "steps": 3
+    },
+    {
+      "page": 94,
+      "renderer": 2094,
+      "source_plan_page": 63,
+      "section": "Skills·按需读取与执行",
+      "type": "overview",
+      "title": "从发现用途，到读取方法和执行",
+      "steps": 3
+    },
+    {
+      "page": 95,
+      "renderer": 2095,
+      "source_plan_page": 63,
+      "section": "Skills·按需读取与执行",
+      "type": "content",
+      "title": "先根据用途，决定是否打开Skill",
+      "steps": 3
+    },
+    {
+      "page": 96,
+      "renderer": 2096,
+      "source_plan_page": 64,
+      "section": "Skills·按需读取与执行",
+      "type": "content",
+      "title": "渐进式披露：需要什么，再读取什么",
+      "steps": 3
+    },
+    {
+      "page": 97,
+      "renderer": 2097,
+      "source_plan_page": 65,
+      "section": "Skills·按需读取与执行",
+      "type": "content",
+      "title": "脚本读取模板，写出Notebook骨架",
+      "steps": 4
+    },
+    {
+      "page": 98,
+      "renderer": 2098,
+      "source_plan_page": 65,
+      "section": "Skills·按需读取与执行",
+      "type": "summary",
+      "title": "读取得到方法，执行形成文件",
+      "steps": 3
+    },
+    {
+      "page": 99,
+      "renderer": 2099,
+      "source_plan_page": 66,
+      "section": "Skills·Box文档生成",
+      "type": "overview",
+      "title": "Box：从已有资料到交付文件",
+      "steps": 3
+    },
+    {
+      "page": 100,
+      "renderer": 2100,
+      "source_plan_page": 66,
+      "section": "Skills·Box文档生成",
+      "type": "case",
+      "title": "Box：先找到季度报告与月度更新",
+      "steps": 3
+    },
+    {
+      "page": 101,
+      "renderer": 2101,
+      "source_plan_page": 67,
+      "section": "Skills·Box文档生成",
+      "type": "case",
+      "title": "Box：生成草稿，继续补充分析",
+      "steps": 3
+    },
+    {
+      "page": 102,
+      "renderer": 2102,
+      "source_plan_page": 68,
+      "section": "Skills·Box文档生成",
+      "type": "summary",
+      "title": "Box：同一批资料，响应新的文件要求",
+      "steps": 3
+    },
+    {
+      "page": 103,
+      "renderer": 2103,
+      "source_plan_page": 69,
+      "section": "Skills·产物检查",
+      "type": "content",
+      "title": "回到Notebook：打开产物逐项检查",
+      "steps": 3
+    },
+    {
+      "page": 104,
+      "renderer": 2104,
+      "source_plan_page": 70,
+      "section": "Skills·小结",
+      "type": "summary",
+      "title": "Skills：方法、操作与检查相互配合",
+      "steps": 3
+    },
+    {
+      "page": 105,
+      "renderer": 2105,
+      "source_plan_page": 72,
+      "section": "Harness",
+      "type": "overview",
+      "title": "Harness：把各部分组织为持续的工作",
+      "steps": 3
+    },
+    {
+      "page": 106,
+      "renderer": 2106,
+      "source_plan_page": 73,
+      "section": "Harness·材料与连接",
+      "type": "overview",
+      "title": "材料与连接，分别准备什么",
+      "steps": 3
+    },
+    {
+      "page": 107,
+      "renderer": 2107,
+      "source_plan_page": 73,
+      "section": "Harness·材料与连接",
+      "type": "content",
+      "title": "下一步需要的材料，也在变化",
+      "steps": 3
+    },
+    {
+      "page": 108,
+      "renderer": 2108,
+      "source_plan_page": 74,
+      "section": "Harness·材料与连接",
+      "type": "content",
+      "title": "MCP：应用怎样连接工具服务",
+      "steps": 4
+    },
+    {
+      "page": 109,
+      "renderer": 2109,
+      "source_plan_page": 74,
+      "section": "Harness·材料与连接",
+      "type": "summary",
+      "title": "材料进入输入，调用到达工具",
+      "steps": 3
+    },
+    {
+      "page": 110,
+      "renderer": 2110,
+      "source_plan_page": 75,
+      "section": "Harness·操作范围与确认",
+      "type": "overview",
+      "title": "先看对象与动作，再看执行条件",
+      "steps": 3
+    },
+    {
+      "page": 111,
+      "renderer": 2111,
+      "source_plan_page": 75,
+      "section": "Harness·操作范围与确认",
+      "type": "content",
+      "title": "读、写和发送，分别落实范围",
+      "steps": 3
+    },
+    {
+      "page": 112,
+      "renderer": 2112,
+      "source_plan_page": 76,
+      "section": "Harness·操作范围与确认",
+      "type": "content",
+      "title": "需要确认时，先展示具体动作",
+      "steps": 3
+    },
+    {
+      "page": 113,
+      "renderer": 2113,
+      "source_plan_page": 76,
+      "section": "Harness·操作范围与确认",
+      "type": "summary",
+      "title": "让授权落到明确的对象与动作",
+      "steps": 3
+    },
+    {
+      "page": 114,
+      "renderer": 2114,
+      "source_plan_page": 77,
+      "section": "Harness·reMarkable客服交接",
+      "type": "overview",
+      "title": "reMarkable：客服处理与人工出口",
+      "steps": 3
+    },
+    {
+      "page": 115,
+      "renderer": 2115,
+      "source_plan_page": 78,
+      "section": "Harness·reMarkable客服交接",
+      "type": "case",
+      "title": "接手的人，需要哪些处理材料",
+      "steps": 4
+    },
+    {
+      "page": 116,
+      "renderer": 2116,
+      "source_plan_page": 78,
+      "section": "Harness·reMarkable客服交接",
+      "type": "summary",
+      "title": "把服务的前后两段接起来",
+      "steps": 3
+    },
+    {
+      "page": 117,
+      "renderer": 2117,
+      "source_plan_page": 79,
+      "section": "Harness·进度停止与恢复",
+      "type": "overview",
+      "title": "继续、等待和结束，各有什么条件",
+      "steps": 3
+    },
+    {
+      "page": 118,
+      "renderer": 2118,
+      "source_plan_page": 79,
+      "section": "Harness·进度停止与恢复",
+      "type": "content",
+      "title": "完成条件，要连回原来的任务",
+      "steps": 3
+    },
+    {
+      "page": 119,
+      "renderer": 2119,
+      "source_plan_page": 80,
+      "section": "Harness·进度停止与恢复",
+      "type": "content",
+      "title": "回执丢失时，先查动作是否发生",
+      "steps": 4
+    },
+    {
+      "page": 120,
+      "renderer": 2120,
+      "source_plan_page": 81,
+      "section": "Harness·进度停止与恢复",
+      "type": "content",
+      "title": "留下下一步可以接用的进度",
+      "steps": 3
+    },
+    {
+      "page": 121,
+      "renderer": 2121,
+      "source_plan_page": 81,
+      "section": "Harness·进度停止与恢复",
+      "type": "summary",
+      "title": "按有效进度继续，按完成条件结束",
+      "steps": 3
+    },
+    {
+      "page": 122,
+      "renderer": 2122,
+      "source_plan_page": 82,
+      "section": "Harness·日志与验收",
+      "type": "overview",
+      "title": "过程记录和交付检查怎样配合",
+      "steps": 3
+    },
+    {
+      "page": 123,
+      "renderer": 2123,
+      "source_plan_page": 82,
+      "section": "Harness·日志与验收",
+      "type": "content",
+      "title": "把结果连回材料、调用和返回",
+      "steps": 4
+    },
+    {
+      "page": 124,
+      "renderer": 2124,
+      "source_plan_page": 83,
+      "section": "Harness·日志与验收",
+      "type": "summary",
+      "title": "用原任务验收不同交付",
+      "steps": 4
+    },
+    {
+      "page": 125,
+      "renderer": 2125,
+      "source_plan_page": 83,
+      "section": "Harness",
+      "type": "summary",
+      "title": "Harness：把过程与交付一起组织好",
+      "steps": 3
+    },
+    {
+      "page": 126,
+      "renderer": 2126,
+      "source_plan_page": 84,
+      "section": "外化与内化整合",
+      "type": "agenda",
+      "title": "本讲内容",
+      "steps": 1
+    },
+    {
+      "page": 127,
+      "renderer": 2127,
+      "source_plan_page": 85,
+      "section": "外化与内化整合",
+      "type": "overview",
+      "title": "外化与内化整合：各部分怎样配合",
+      "steps": 1
+    },
+    {
+      "page": 128,
+      "renderer": 2128,
+      "source_plan_page": 86,
+      "section": "外化与内化整合",
+      "type": "content",
+      "title": "这份课件中的任务、资料与方法",
+      "steps": 3
+    },
+    {
+      "page": 129,
+      "renderer": 2129,
+      "source_plan_page": 87,
+      "section": "外化与内化整合",
+      "type": "content",
+      "title": "外化与内化：改变发生在哪里",
+      "steps": 2
+    },
+    {
+      "page": 130,
+      "renderer": 2130,
+      "source_plan_page": 87,
+      "section": "外化与内化整合",
+      "type": "content",
+      "title": "任务经验怎样用于下一轮改进",
+      "steps": 3
+    },
+    {
+      "page": 131,
+      "renderer": 2131,
+      "source_plan_page": 88,
+      "section": "外化与内化整合",
+      "type": "content",
+      "title": "更换模型后，重新检查运行安排",
+      "steps": 3
+    },
+    {
+      "page": 132,
+      "renderer": 2132,
+      "source_plan_page": 87,
+      "section": "外化与内化整合",
+      "type": "summary",
+      "title": "整合小结：各部分围绕任务配合",
+      "steps": 1
+    },
+    {
+      "page": 133,
+      "renderer": 2133,
+      "source_plan_page": 89,
+      "section": "外化与内化整合",
+      "type": "summary",
+      "title": "Agents小结：模型与外部系统",
+      "steps": 3
+    },
+    {
+      "page": 134,
+      "renderer": 2134,
+      "source_plan_page": 89,
+      "section": "外化与内化整合",
+      "type": "summary",
+      "title": "第一讲小结：生成、任务与执行",
+      "steps": 3
+    }
+  ],
+  "visuals": "复用原课PNG与HTML/SVG可编辑图解",
+  "verification": {
+    "browser_checks": "qa/checks.json",
+    "visual_review": "qa/视觉检查记录.md"
+  },
+  "teacher_approved": false,
+  "revision": "2026-10-19-第一讲完整制作",
+  "source_structure": "../v01-逐页内容规划/结构修订说明.md",
+  "duration_seconds": 10800,
+  "teaching_seconds": 10200,
+  "break_seconds": 600
+}

@@ -1,0 +1,5 @@
+{
+  "dialog": "← 上一个Token\n下一个Token →\n从头查看\n当前第 10 / 10 步",
+  "main": "← 上一个Token\n下一个Token →\n从头查看\n当前第 10 / 10 步",
+  "afterClose": "← 上一个Token\n下一个Token →\n从头查看\n当前第 10 / 10 步"
+}

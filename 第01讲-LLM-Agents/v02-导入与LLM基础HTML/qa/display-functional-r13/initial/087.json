@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "87",
+  "text": "Meta Muse与OpenAI dot\nMeta Muse与OpenAI dot都在把长期背景、持续任务与工具操作连接起来。\nMeta Muse\n记住用户关心的事，围绕长期目标制定计划。\n在专用云端电脑中跨应用工作。\n用户决定读取或操作哪些应用。\nOpenAI dot\n从ChatGPT记忆取得背景，跨对话推进任务。\n用云端电脑及连接应用完成工作。\n后台主动研究使用只读工具；执行任务另受权限约束。\n长期背景\n持续任务\n个性化解决“如何更懂你”，主动工作解决“何时继续做”；两者都需要可控的工具访问。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "Meta Muse与OpenAI dot"
+}

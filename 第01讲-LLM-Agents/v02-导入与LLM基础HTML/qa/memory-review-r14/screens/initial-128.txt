@@ -1,0 +1,55 @@
+- main:
+  - article "第128页 检查：取得要求，再打开实际产物":
+    - heading "检查：取得要求，再打开实际产物" [level=1]
+    - region "课件内容":
+      - generic: 知道文件位置之后，再取得检查要求和Notebook的实际内容。
+      - heading "当前环节" [level=2]
+      - button "模型：读取检查清单 模型生成" [pressed]:
+        - text: 模型：读取检查清单
+        - generic: 模型生成
+      - button "工具：返回检查清单 工具返回":
+        - text: 工具：返回检查清单
+        - generic: 工具返回
+      - button "模型：读取生成文件 模型生成":
+        - text: 模型：读取生成文件
+        - generic: 模型生成
+      - button "工具：返回Notebook内容 工具返回":
+        - text: 工具：返回Notebook内容
+        - generic: 工具返回
+      - generic: 先取得检查要求，再读取产物。
+      - button "关键内容" [pressed]
+      - button "完整内容"
+      - button "消息结构"
+      - button "截至此处的内容"
+      - heading "模型：读取检查清单" [level=2]
+      - generic: 工具：exec_command 工作目录：/workspace/course cat /workspace/course/.agents/skills/jupyter-notebook/references/quality-checklist.md
+      - paragraph: 先读取交付检查标准。
+      - generic: 检查清单给出标准；打开产物后，把实际内容与本次“骨架”要求对照。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "3.0 外化与内化总览"
+      - button "3.1 工具调用"
+      - button "3.2 Memory"
+      - button "3.3 Skills"
+      - button "3.4 Protocols"
+      - button "3.5 Harness"
+      - button "3.6 外化与内化整合"
+      - button "3.7 全讲总结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步": →
+  - generic: 页码
+  - spinbutton "页码": "128"
+  - generic: / 193
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第128页，检查：取得要求，再打开实际产物，整页显示

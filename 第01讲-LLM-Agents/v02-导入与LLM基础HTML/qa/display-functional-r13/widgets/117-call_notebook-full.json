@@ -1,0 +1,15 @@
+{
+  "broken": [],
+  "page": "117",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "模型：读取生成文件\n模型生成",
+    "完整内容"
+  ],
+  "text": "知道文件位置之后，再取得检查要求和Notebook的实际内容。\n当前环节\n模型：读取检查清单\n模型生成\n工具：返回检查清单\n工具返回\n模型：读取生成文件\n模型生成\n工具：返回Notebook内容\n工具返回\n先取得检查要求，再读取产物。\n重置\n关键内容\n完整内容\n消息结构\n截至此处的内容\n模型：读取生成文件\n工具：exec_command\n工作目录：/workspace/course\n\ncat /workspace/course/output/jupyter-notebook/python-lists-and-mean.ipynb\n\n再读取刚生成的文件，取得实际内容。\n\n检查清单给出标准；打开产物后，把实际内容与本次“骨架”要求对照。"
+}

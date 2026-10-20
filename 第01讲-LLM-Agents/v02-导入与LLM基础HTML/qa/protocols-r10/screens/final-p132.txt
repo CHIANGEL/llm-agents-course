@@ -1,0 +1,44 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-final#p=132&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-final#p=132&s=1
+	2 container
+		53 container 第132页 Protocols：约定怎样交互
+			54 heading Protocols：约定怎样交互, Value: 1
+				55 text Protocols：约定怎样交互
+			56 container 课件内容
+				57 container
+					58 text Skills保存“怎样做”；Protocols把 怎样与外部系统交互 写成共同约定。
+					59 image 当前智能体分别连接工具数据服务和另一个智能体
+					60 text ① 交互对象与范围 连接谁？双方要约定什么？ ② MCP：工具与数据 目录 → 调用 → 返回结果 ③ A2A：Agent任务协作 能力 → 任务 → 状态与成果 先区分交互，再看两种协议如何把各自的请求与返回接起来。
+			61 container 课程进度
+				62 button 导入
+				63 button 1. LLM基础
+				64 button 2. Prompting
+				65 button 3. Agents · Externalization & Internalization
+					66 text 3. Agents 
+					67 text · Externalization & Internalization
+				68 button 3.0 外化与内化总览
+				69 button 3.1 工具调用
+				70 button 3.2 Memory
+				71 button 3.3 Skills
+				72 button 3.4 Protocols
+				73 button 3.5 Harness
+				74 button 3.6 外化与内化整合
+				75 button 3.7 全讲总结
+		38 container Description: 课件操作, ID: controls
+			39 button Description: 上一步, Help: 上一步（←）
+			40 button Description: 下一步, Help: 下一步（→或空格）
+			41 container jump-form
+				42 text 页码
+				43 stepper (settable, integer) Description: 页码, Value: 132, ID: page-input
+				44 text / 177
+			76 text 整页显示
+			46 button 目录
+			47 button 讲者备注
+			48 button 完整材料
+			49 button 放大图解
+			50 button 全屏
+			51 button 隐藏, Help: 按H恢复
+			52 button 操作说明
+		77 text 第132页，Protocols：约定怎样交互，整页显示
+
+The focused UI element is 40 button Description: 下一步, Help: 下一步（→或空格）

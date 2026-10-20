@@ -1,0 +1,42 @@
+- main:
+  - article "第110页 文件更新了，当前输入会自动变吗？":
+    - heading "文件更新了，当前输入会自动变吗？" [level=1]
+    - region "课件内容":
+      - generic: 外部记忆与当前输入分处两地；更新文件后，还需要把新内容带入后续请求。
+      - button "1. 最初加载" [pressed]
+      - button "2. 磁盘已更新"
+      - button "3. 再次读取"
+      - heading "磁盘摘要：项目背景" [level=2]
+      - generic: "# 项目背景 企业知识库项目已完成20人试点，正在讨论扩大部署。"
+      - heading "已加载摘要：项目背景" [level=2]
+      - generic: "# 项目背景 企业知识库项目已完成20人试点，正在讨论扩大部署。"
+      - generic: 客户端第一次读取摘要：磁盘与输入中保存的是同一份内容。
+      - generic: 新的用户消息已能影响本次回答；长期记录怎样保存、未来怎样读取，是另外两个环节。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "3.0 外化与内化总览"
+      - button "3.1 工具调用"
+      - button "3.2 Memory"
+      - button "3.3 Skills"
+      - button "3.4 Protocols"
+      - button "3.5 Harness"
+      - button "3.6 外化与内化整合"
+      - button "3.7 全讲总结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步": →
+  - generic: 页码
+  - spinbutton "页码": "110"
+  - generic: / 193
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第110页，文件更新了，当前输入会自动变吗？，整页显示

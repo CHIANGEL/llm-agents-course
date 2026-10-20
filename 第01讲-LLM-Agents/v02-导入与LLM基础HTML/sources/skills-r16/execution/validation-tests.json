@@ -1,0 +1,9 @@
+{
+  "current_data": [],
+  "old_budget": [
+    "budget_cap_cny 与当前任务不一致"
+  ],
+  "stale_output": [
+    "产物与当前初稿不一致，请重新生成"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-21",
+  "platform": "DeepSeek",
+  "source_template_sha256": "07f6c21e7adfd6591e55bddda685615b763b01fca8ca522ab974f68633a969b9",
+  "retained_strategy": "fact-checking",
+  "objects": [
+    {
+      "strategy": "four-elements",
+      "id": "compound",
+      "object": "复利",
+      "facts": {}
+    },
+    {
+      "strategy": "four-elements",
+      "id": "etf",
+      "object": "股票指数ETF",
+      "facts": {}
+    },
+    {
+      "strategy": "give-example",
+      "id": "earnings",
+      "object": "上市公司财报快讯",
+      "facts": {}
+    },
+    {
+      "strategy": "give-example",
+      "id": "pickup",
+      "object": "咖啡店手机点单通知",
+      "facts": {}
+    },
+    {
+      "strategy": "model-write-prompt",
+      "id": "earnings",
+      "object": "两家上市公司的财报比较",
+      "facts": {
+        "reply": "尚未提供的信息都保留为待确认，不替我编造。请只依据已有材料给出完整可复制Prompt，并明确哪些是事实、哪些是建议。"
+      }
+    },
+    {
+      "strategy": "model-write-prompt",
+      "id": "renovation",
+      "object": "家庭装修预算",
+      "facts": {
+        "reply": "尚未提供的信息都保留为待确认，不替我编造。请只依据已有材料给出完整可复制Prompt，并明确哪些是事实、哪些是建议。"
+      }
+    },
+    {
+      "strategy": "socratic",
+      "id": "tea",
+      "object": "奶茶店营收下降",
+      "facts": {
+        "answers": [
+          "这段时间门前道路施工，午间经过门店的人明显减少；外卖订单也有下降。",
+          "现有记录显示，进店人数下降约25%，进店后的购买比例差不多，客单价约从18元到20元。",
+          "没有按同一批顾客或相同产品比较，产品组合和优惠券也变了，所以平均客单价变化不等于所有产品都涨了同样幅度。",
+          "目标是未来一个月保住贡献利润，施工预计再持续六周；不能只靠降价增加杯数。",
+          "可以先调整路口指引和到店自提说明，预算1000元，两周观察；各产品成本和毛利可以从收银记录核算。"
+        ]
+      }
+    },
+    {
+      "strategy": "socratic",
+      "id": "fund",
+      "object": "基金亏损后是否追逐冠军",
+      "facts": {
+        "answers": [
+          "投资者原本想五年后用于教育支出，没有近期支出；这笔基金占家庭金融资产的20%，其他主要是现金和存款，没有借钱投资。",
+          "这三个月同类基金对应的宽基市场指数跌了10%，他没算过组合相对基准的收益。",
+          "最近一年的收益和风险也没对齐；他看到的冠军主要集中在一种热门行业，和当前宽基组合不同。",
+          "真正目标是为五年后的教育支出积累资金，不是必须在下个月回本。",
+          "目前没有预先规定的资产比例或复核规则，家人可承受的波动范围也没有认真讨论。"
+        ]
+      }
+    },
+    {
+      "strategy": "two-layer",
+      "id": "pe",
+      "object": "市盈率（P/E）：股票价格和公司盈利之间是什么关系",
+      "facts": {}
+    },
+    {
+      "strategy": "two-layer",
+      "id": "bond",
+      "object": "为什么市场利率上升时，已发行的固定利率债券价格往往下跌",
+      "facts": {}
+    },
+    {
+      "strategy": "reverse-deconstruction",
+      "id": "financial-note",
+      "object": "通俗财报解读短文",
+      "facts": {}
+    },
+    {
+      "strategy": "reverse-deconstruction",
+      "id": "promo",
+      "object": "咖啡店促销文案",
+      "facts": {}
+    },
+    {
+      "strategy": "horizontal-vertical",
+      "id": "byd",
+      "object": "比亚迪：新能源汽车业务与竞争位置",
+      "facts": {}
+    },
+    {
+      "strategy": "horizontal-vertical",
+      "id": "moutai",
+      "object": "贵州茅台：白酒业务、品牌与渠道模式",
+      "facts": {}
+    },
+    {
+      "strategy": "expert-consultation",
+      "id": "coffee",
+      "object": "咖啡店接入外卖",
+      "facts": {}
+    },
+    {
+      "strategy": "expert-consultation",
+      "id": "apparel",
+      "object": "服装店降价清库存",
+      "facts": {}
+    },
+    {
+      "strategy": "first-principles",
+      "id": "cash",
+      "object": "企业利润上升却缺现金",
+      "facts": {}
+    },
+    {
+      "strategy": "first-principles",
+      "id": "reports",
+      "object": "员工周报负担",
+      "facts": {}
+    },
+    {
+      "strategy": "cross-domain",
+      "id": "pickup",
+      "object": "餐厅午间取餐拥堵",
+      "facts": {}
+    },
+    {
+      "strategy": "cross-domain",
+      "id": "interrupt",
+      "object": "业务专家被频繁打断",
+      "facts": {}
+    },
+    {
+      "strategy": "steelman",
+      "id": "buyback",
+      "object": "上市公司分红还是回购",
+      "facts": {
+        "answers": [
+          "不能确认股价被低估。董事会目前只拿到了管理层的判断，没有可靠的每股价值区间；公司债务安排允许现金返还，但仍需保留已核准的日常经营资金。",
+          "过去五年都有现金分红，部分股东依赖稳定分红；本轮不允许将短期股价目标作为依据。"
+        ]
+      }
+    },
+    {
+      "strategy": "steelman",
+      "id": "coffee",
+      "object": "咖啡店平台促销还是会员",
+      "facts": {
+        "answers": [
+          "目前不知道最近30天消费过且可直接触达的人数。有1200名同意接收消息的顾客联系方式，但还没与交易记录匹配。平台原每单贡献约8元，本次促销还要每单额外补贴6元；未来三个月固定房租与人员不变。"
+        ]
+      }
+    },
+    {
+      "strategy": "minimum-experiment",
+      "id": "newsletter",
+      "object": "财报阅读付费通讯",
+      "facts": {}
+    },
+    {
+      "strategy": "minimum-experiment",
+      "id": "community",
+      "object": "咖啡店主付费社群",
+      "facts": {}
+    }
+  ]
+}

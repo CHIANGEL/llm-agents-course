@@ -1,0 +1,126 @@
+[
+  {
+    "page": 69,
+    "restored": true,
+    "pressed": [
+      "1. 回答要求与工具说明中文回答；get_weather需要地点",
+      "对应片段"
+    ]
+  },
+  {
+    "page": 101,
+    "restored": true,
+    "pressed": [
+      "memory_summary.md摘要＋详细记录入口"
+    ]
+  },
+  {
+    "page": 103,
+    "restored": true,
+    "pressed": [
+      "基础指令客户端准备",
+      "关键内容"
+    ]
+  },
+  {
+    "page": 105,
+    "restored": true,
+    "pressed": [
+      "模型：读取预算记录生成工具调用",
+      "关键内容"
+    ]
+  },
+  {
+    "page": 106,
+    "restored": true,
+    "pressed": [
+      "工具：返回预算范围读取文件得到正文",
+      "关键内容"
+    ]
+  },
+  {
+    "page": 108,
+    "restored": true,
+    "pressed": [
+      "模型：给出评审要点结合当前任务与记忆",
+      "关键内容"
+    ]
+  },
+  {
+    "page": 109,
+    "restored": true,
+    "pressed": [
+      "用户：正式部署30万元新的条件",
+      "关键内容"
+    ]
+  },
+  {
+    "page": 110,
+    "restored": true,
+    "pressed": [
+      "1. 最初加载"
+    ]
+  },
+  {
+    "page": 118,
+    "restored": true,
+    "pressed": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "page": 124,
+    "restored": true,
+    "pressed": [
+      "客户端：可用Skill目录名称、用途与文件入口",
+      "关键内容"
+    ]
+  },
+  {
+    "page": 125,
+    "restored": true,
+    "pressed": [
+      "模型：说明使用的Skill模型生成",
+      "关键内容"
+    ]
+  },
+  {
+    "page": 126,
+    "restored": true,
+    "pressed": [
+      "模型：读取教学参考模型生成",
+      "关键内容"
+    ]
+  },
+  {
+    "page": 128,
+    "restored": true,
+    "pressed": [
+      "模型：读取检查清单模型生成",
+      "关键内容"
+    ]
+  },
+  {
+    "page": 129,
+    "restored": true,
+    "pressed": [
+      "1. 标题与对象"
+    ]
+  },
+  {
+    "page": 130,
+    "restored": true,
+    "pressed": [
+      "模型：说明结果与待补内容模型生成",
+      "关键内容"
+    ]
+  },
+  {
+    "page": 152,
+    "restored": true,
+    "pressed": [
+      "① 索取工具目录",
+      "主要内容"
+    ]
+  }
+]

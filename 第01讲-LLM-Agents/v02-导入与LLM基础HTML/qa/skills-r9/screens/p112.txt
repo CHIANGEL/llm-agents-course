@@ -1,0 +1,42 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=112&s=1".
+0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=112&s=1
+	1 container
+		47 container Description: 第112页 二、一次调用：从任务到Notebook文件, ID: mount
+			48 container 第112页 二、一次调用：从任务到Notebook文件
+				49 heading 二、一次调用：从任务到Notebook文件, Value: 1
+					50 text 二、一次调用：从任务到Notebook文件
+				51 container 课件内容
+					52 container
+						53 text 已结束：完整技能包　→　 接下来：一次调用全过程 请为“Python列表与平均值”创建一个教学用的Jupyter Notebook骨架，先保留模板内容，并说明后续要补哪些内容。 同一个任务，沿着六个动作往下看 看目录 读SKILL.md 读教程参考 运行生成脚本 打开产物并检查 回答用户 前两次读取逐层取得方法；脚本负责写文件；检查回到“先创建骨架”的要求。 两级渐进式披露：目录 → SKILL.md → 本次所需参考。
+				54 container 课程进度
+					55 button 导入
+					56 button 1. LLM基础
+					57 button 2. Prompting
+					58 button 3. Agents · Externalization & Internalization
+						59 text 3. Agents 
+						60 text · Externalization & Internalization
+					61 button 3.0 外化与内化总览
+					62 button 3.1 工具调用
+					63 button 3.2 Memory
+					64 button 3.3 Skills
+					65 button 3.4 Harness
+					66 button 3.5 外化与内化整合
+					67 button 3.6 全讲总结
+		32 container Description: 课件操作, ID: controls
+			33 button Description: 上一步, Help: 上一步（←）
+			34 button Description: 下一步, Help: 下一步（→或空格）
+			35 container jump-form
+				36 text 页码
+				37 stepper (settable, integer) Description: 页码, Value: 112, ID: page-input
+				38 text / 161
+			68 text 整页显示
+			40 button 目录
+			41 button 讲者备注
+			42 button 完整材料
+			43 button 放大图解
+			44 button 全屏
+			45 button 隐藏, Help: 按H恢复
+			46 button 操作说明
+		69 text 第112页，二、一次调用：从任务到Notebook文件，整页显示
+
+The focused UI element is 47 container Description: 第112页 二、一次调用：从任务到Notebook文件, ID: mount

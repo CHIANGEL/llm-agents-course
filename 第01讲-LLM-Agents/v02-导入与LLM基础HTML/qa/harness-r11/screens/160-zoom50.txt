@@ -1,0 +1,20 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=160&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=160&s=1
+	2 container 图解放大 · 子智能体：把具体工作分出去, ID: deck-dialog
+		3 container
+			4 heading 图解放大 · 子智能体：把具体工作分出去, Value: 2, ID: dialog-title
+				5 text 图解放大 · 子智能体：把具体工作分出去
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			8 button 缩小图解
+			18 text 50%
+			10 button 继续放大图解
+			11 text 滚动查看图中细节
+			12 container
+				13 text 运行安排 4 / 5
+				14 text 分配子任务 → 交回结果 → 协调与汇总
+				15 text 子智能体（Sub-agent）也称子代理：在自己的上下文中处理子任务，把结果交回主代理。
+				16 image Harness内主代理委托A和B，分别处理后回传，由主代理汇总检查
+				17 text 先看怎样隔开过程，再看任务能否并行，最后判断是否值得分工。 子智能体是一种分工安排；前面的A2A协议可用于跨Agent服务的任务交换。
+
+The focused UI element is 8 button 缩小图解

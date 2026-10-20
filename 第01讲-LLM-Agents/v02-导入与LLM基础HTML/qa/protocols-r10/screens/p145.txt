@@ -1,0 +1,53 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=protocols-r10-qa1#p=145&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=protocols-r10-qa1#p=145&s=1
+	2 container
+		42 container Description: 第145页 任务状态与成果，分别说明什么？, ID: mount
+			43 container 第145页 任务状态与成果，分别说明什么？
+				44 heading 任务状态与成果，分别说明什么？, Value: 1
+					45 text 任务状态与成果，分别说明什么？
+				46 container 课件内容
+					47 container
+						48 text 状态说明“处理到哪里”；成果保存“实际产出了什么”。 任务状态 · Status 任务成果 · Artifact
+						49 image 负责处理任务的Agent
+						50 text 处理中
+等待补充信息
+已完成
+						51 image 交付成果文件
+						52 text 文字结果
+文件
+结构化数据 汇率问题缺少目标币种时，
+返回“等待补充”及具体问题。 换算完成后，
+把金额、币种等结果放入成果。 本方应用取得成果 → 对照原任务检查 → 放入后续输入、组织回复 收到“已完成”还要取得成果；状态与成果不能相互替代。
+				53 container 课程进度
+					54 button 导入
+					55 button 1. LLM基础
+					56 button 2. Prompting
+					57 button 3. Agents · Externalization & Internalization
+						58 text 3. Agents 
+						59 text · Externalization & Internalization
+					60 button 3.0 外化与内化总览
+					61 button 3.1 工具调用
+					62 button 3.2 Memory
+					63 button 3.3 Skills
+					64 button 3.4 Protocols
+					65 button 3.5 Harness
+					66 button 3.6 外化与内化整合
+					67 button 3.7 全讲总结
+		27 container Description: 课件操作, ID: controls
+			28 button Description: 上一步, Help: 上一步（←）
+			29 button Description: 下一步, Help: 下一步（→或空格）
+			30 container jump-form
+				31 text 页码
+				32 stepper (settable, integer) Description: 页码, Value: 145, ID: page-input
+				33 text / 177
+			68 text 整页显示
+			35 button 目录
+			36 button 讲者备注
+			37 button 完整材料
+			38 button 放大图解
+			39 button 全屏
+			40 button 隐藏, Help: 按H恢复
+			41 button 操作说明
+		69 text 第145页，任务状态与成果，分别说明什么？，整页显示
+
+The focused UI element is 42 container Description: 第145页 任务状态与成果，分别说明什么？, ID: mount

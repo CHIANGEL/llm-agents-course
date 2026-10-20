@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 118,
+  "text": "打开产物：标题已替换，其余保留模板\n用户要求先保留模板：7个单元中，首个标题已改为“Python列表与平均值”。\n7个单元\n1. 标题与对象\n2. 内容大纲\n3. 准备代码\n4. 步骤说明\n5. 正弦示例代码\n6. 模板中的练习栏目\n7. 模板中的答案代码\n重置\npython-lists-and-mean.ipynb\n文件中的单元内容\n说明\n# Tutorial: Python列表与平均值\n\nAudience:\n- Describe who this is for.\n\nPrerequisites:\n- List required concepts or setup.\n\nLearning goals:\n- By the end, the reader can...\n\n\n第1单元：标题已经替换；对象、前置知识与目标仍保留模板内容。\n\n后续补充对象与目标，把正弦示例改成列表求平均值，再逐单元运行并检查结果。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "第118页 打开产物：标题已替换，其余保留模板"
+}

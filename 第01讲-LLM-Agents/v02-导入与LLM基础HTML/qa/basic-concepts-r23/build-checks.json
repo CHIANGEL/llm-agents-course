@@ -1,0 +1,29 @@
+{
+  "old_pages": 198,
+  "new_pages": 200,
+  "added": [
+    {
+      "page": 5,
+      "title": "你输入的要求，就是提示词 Prompt"
+    },
+    {
+      "page": 61,
+      "title": "公司、模型与智能体应用"
+    }
+  ],
+  "existing_content_changes": [],
+  "states": 200,
+  "duplicate_renderers": 0,
+  "index_missing_resources": [],
+  "new_images": [
+    {
+      "file": "assets/basic-concepts-r23/doubao-mobile.png",
+      "bytes": 1098283
+    },
+    {
+      "file": "assets/basic-concepts-r23/deepseek-web.png",
+      "bytes": 1112890
+    }
+  ],
+  "duration_seconds": 17155
+}

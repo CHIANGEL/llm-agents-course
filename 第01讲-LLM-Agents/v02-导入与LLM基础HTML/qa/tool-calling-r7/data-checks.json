@@ -1,0 +1,11 @@
+{
+  "first_exact": true,
+  "second_exact": true,
+  "parts_reconstruct_complete": true,
+  "call_exact": true,
+  "result_exact": true,
+  "tools_seconds": 1470,
+  "all_tools_full": true,
+  "pages": 136,
+  "total_seconds": 10800
+}

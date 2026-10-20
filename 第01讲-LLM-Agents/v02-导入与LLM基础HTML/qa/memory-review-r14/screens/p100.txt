@@ -1,0 +1,45 @@
+- main:
+  - article "第100页 先看目录：摘要与详细记录放在哪里？":
+    - heading "先看目录：摘要与详细记录放在哪里？" [level=1]
+    - region "课件内容":
+      - generic: 记忆先以文件保存在磁盘上；摘要是入口，详细记录按主题放在子目录中。
+      - generic: memories_v2/ ├── memory_summary.md └── rollout_summaries/ ├── pilot-budget.md └── security-requirements.md
+      - strong: memory_summary.md
+      - paragraph:
+        - text: 常用要点＋详细记录的路径
+        - text: 客户端先把摘要加入输入。
+      - strong: rollout_summaries/
+      - paragraph:
+        - text: 预算范围、安全要求分别保存。
+        - text: 模型需要细节时，调用工具读取。
+      - img "摘要文件"
+      - generic: 摘要中的路径 → 对应的详细文件
+      - generic: 先认识位置和分工；下一页打开这三个文件，查看它们各自保存了什么。
+    - navigation "课程进度":
+      - button "导入"
+      - button "1. LLM基础"
+      - button "2. Prompting"
+      - button "3. Agents · Externalization & Internalization"
+      - button "3.0 外化与内化总览"
+      - button "3.1 工具调用"
+      - button "3.2 Memory"
+      - button "3.3 Skills"
+      - button "3.4 Protocols"
+      - button "3.5 Harness"
+      - button "3.6 外化与内化整合"
+      - button "3.7 全讲总结"
+- navigation "课件操作":
+  - button "上一步": ←
+  - button "下一步": →
+  - generic: 页码
+  - spinbutton "页码": "100"
+  - generic: / 193
+  - generic: 整页显示
+  - button "目录"
+  - button "讲者备注"
+  - button "完整材料"
+  - button "放大图解"
+  - button "全屏"
+  - button "隐藏"
+  - button "操作说明": "?"
+- generic: 第100页，先看目录：摘要与详细记录放在哪里？，整页显示

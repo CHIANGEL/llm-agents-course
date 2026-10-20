@@ -1,0 +1,252 @@
+[
+  {
+    "label": "input-0",
+    "dialog": false,
+    "focus": "page-input",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 0,
+    "prev": false
+  },
+  {
+    "label": "input-176",
+    "dialog": false,
+    "focus": "page-input",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 176,
+    "prev": false
+  },
+  {
+    "label": "input-",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 100,
+    "prev": false
+  },
+  {
+    "label": "input-1.5",
+    "dialog": false,
+    "focus": "page-input",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 1.5,
+    "prev": false
+  },
+  {
+    "label": "input-100",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 100,
+    "prev": false
+  },
+  {
+    "label": "Home",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 1,
+    "prev": true
+  },
+  {
+    "label": "first-prev",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 1,
+    "prev": true
+  },
+  {
+    "label": "End",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": true,
+    "page": 175,
+    "prev": false
+  },
+  {
+    "label": "last-next",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": true,
+    "page": 175,
+    "prev": false
+  },
+  {
+    "label": "PageUp",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 174,
+    "prev": false
+  },
+  {
+    "label": "PageDown",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": true,
+    "page": 175,
+    "prev": false
+  },
+  {
+    "label": "hide",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": true,
+    "next": true,
+    "page": 175,
+    "prev": false
+  },
+  {
+    "label": "restore",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": true,
+    "page": 175,
+    "prev": false
+  },
+  {
+    "label": "fullscreen-enter",
+    "dialog": false,
+    "focus": "全屏",
+    "fullscreen": false,
+    "hidden": false,
+    "next": true,
+    "page": 175,
+    "prev": false
+  },
+  {
+    "label": "fullscreen-settled",
+    "dialog": false,
+    "focus": "全屏",
+    "fullscreen": false,
+    "hidden": false,
+    "next": true,
+    "page": 175,
+    "prev": false
+  },
+  {
+    "label": "fullscreen-exit",
+    "dialog": false,
+    "focus": "全屏",
+    "fullscreen": false,
+    "hidden": false,
+    "next": true,
+    "page": 175,
+    "prev": false
+  },
+  {
+    "label": "help-tab",
+    "dialog": true,
+    "focus": "dialog-close",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 100,
+    "prev": false
+  },
+  {
+    "label": "help-escape",
+    "dialog": false,
+    "focus": "?",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 100,
+    "prev": false
+  },
+  {
+    "label": "zoom-focus-wrap",
+    "dialog": true,
+    "focus": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 100,
+    "prev": false
+  },
+  {
+    "label": "zoom-escape",
+    "dialog": false,
+    "focus": "放大图解",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 100,
+    "prev": false
+  },
+  {
+    "label": "fixed-input-0",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 1,
+    "prev": true
+  },
+  {
+    "label": "fixed-input-176",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": true,
+    "page": 175,
+    "prev": false
+  },
+  {
+    "label": "fixed-input-",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": true,
+    "page": 175,
+    "prev": false
+  },
+  {
+    "label": "fixed-input-1.5",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 1,
+    "prev": true
+  },
+  {
+    "label": "fixed-input-100",
+    "dialog": false,
+    "focus": "mount",
+    "fullscreen": false,
+    "hidden": false,
+    "next": false,
+    "page": 100,
+    "prev": false
+  }
+]

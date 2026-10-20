@@ -1,0 +1,8 @@
+{
+  "broken": [],
+  "buttons": [],
+  "links": [],
+  "page": "165",
+  "text": "恢复前，确认哪些动作已经发生\n中断后先确认外部动作是否已经完成，再决定继续、重试或等待处理。\n发送可能已成功，只是响应未收到；直接重发，就可能造成重复通知。\n日志帮助查明发生了什么，状态支持恢复；恢复前核对外部结果，完成后按目标验收。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "恢复前，确认哪些动作已经发生"
+}

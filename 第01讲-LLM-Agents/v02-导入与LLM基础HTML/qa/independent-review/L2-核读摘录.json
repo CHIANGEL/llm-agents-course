@@ -1,0 +1,754 @@
+{
+  "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v09-论文原图与实验表/slide_manifest.json",
+  "read_date": "2026-10-19",
+  "pages": [
+    {
+      "slide_id": "005",
+      "title": "青禾食品：收入增长，利润为什么下降？",
+      "section": "I1",
+      "type": "content",
+      "image": "slides/slide_005.png",
+      "old_slide_id": "005",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "5b27d2e81b96e5309983b42fcba83110d3f4d9c386d5b9e4a426e028688c1d40",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_005.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "approved_by_teacher_2026-09-23",
+      "sources": [
+        {
+          "id": "CASE",
+          "url": "",
+          "locator": "v06-逐页内容版/案例底稿.md：共享案例青禾食品"
+        }
+      ],
+      "speaker_notes": "手算核对：收入增长20%；毛利200/300，毛利率20%/25%；费用120/240；课堂简化利润80/60。自定义课堂指标不得写成营业利润或净利润。全部公司与数据虚构。",
+      "transition": "资料中的数字要连同单位和范围一起给模型；任务与材料分别写清楚。",
+      "qa_status": "passed",
+      "on_slide": "**青禾食品｜2025年经营资料摘录｜单位：万元**\n\n| 项目 | 2024年 | 2025年 |\n| --- | ---: | ---: |\n| 营业收入 | 1,000 | 1,200 |\n| 营业成本 | 800 | 900 |\n| 销售费用 | 90 | 180 |\n| 管理费用 | 30 | 60 |\n\n2025年新增3家门店，推广投入和管理人员增加。材料没有各门店销售数据，也没有后续年度数据。\n\n**任务：**向没有读过报告的同学做5分钟汇报，解释收入增长、毛利率提高，为什么课堂简化利润仍下降。\n\n本例中：毛利＝收入－成本；毛利率＝毛利÷收入。**课堂简化利润＝收入－成本－销售费用－管理费用**，不含税费、投资收益及其他损益。汇报里的数字与判断需要能回到这些材料。\n\n*课堂构造，未运行模型*",
+      "visual": "左侧四行数值表，右侧任务与补充段落；底部横排两组公式，突出“课堂简化利润”名称和完整减法。图表严格保留两年列顺序、单位和四项数字，不把报表标题写成真实年报封面。",
+      "inherited_main_qa": {
+        "slide_id": "005",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "5b27d2e81b96e5309983b42fcba83110d3f4d9c386d5b9e4a426e028688c1d40",
+        "actual_image_viewed": true,
+        "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_01.png",
+        "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "5b27d2e81b96e5309983b42fcba83110d3f4d9c386d5b9e4a426e028688c1d40",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "005",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "5b27d2e81b96e5309983b42fcba83110d3f4d9c386d5b9e4a426e028688c1d40",
+          "actual_image_viewed": true,
+          "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_01.png",
+          "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+        }
+      }
+    },
+    {
+      "slide_id": "008",
+      "title": "Who you are与Who I am",
+      "section": "I1",
+      "type": "content",
+      "image": "slides/slide_008.png",
+      "old_slide_id": "008",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "c2e925ed548dcae2fcdac705e32968e3bea9b94d3ebe51bfe69133855864bcad",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_008.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "approved_by_teacher_2026-09-23",
+      "sources": [
+        {
+          "id": "TEACHER",
+          "url": "",
+          "locator": "v05-知识结构重拟/教师心得补充原文.md，2026-09-23教师补充"
+        },
+        {
+          "id": "CASE",
+          "url": "",
+          "locator": "v06-逐页内容版/案例底稿.md：共享案例青禾食品"
+        },
+        {
+          "id": "OAI_ACADEMY",
+          "url": "https://academy.openai.com/en/public/clubs/work-users-ynjqu/resources/prompting",
+          "locator": "Getting started / More helpful tips；v05/research/openai.md，2026-09-23核查"
+        }
+      ],
+      "speaker_notes": "本页使用教师框架与官方任务、读者、背景建议，不把具体措辞的效果说成实测。用户背景按任务相关性提供即可，未要求学生披露无关个人信息。",
+      "transition": "确定读者之后，把想得到的汇报结果写具体。",
+      "qa_status": "passed",
+      "on_slide": "**Who you are**\n> 你是一位财务分析助教，擅长给初学者解释报表。\n\n希望模型用教学视角回应：遇到“毛利率”时解释含义，数字和解释对应，避免一上来堆财务术语。角色应服务于眼前任务；写一个响亮的头衔，不能替代这些要求。\n\n**Who I am**\n> 我是本科生，要向没有读过报告的同学做一次5分钟课堂汇报；我们刚开始学习财务分析。\n\n这里交代了使用者、听众、知识基础和时间。同样一份材料，课堂讲解需要解释公式；熟悉报表的同事可能只需要变化和依据。\n\n角色提示可以引导视角与表达。**事实、计算和判断仍需检查**，不能因为回答用了专家口吻，就把它当作专业结论。\n\n*课堂构造，未运行模型*",
+      "visual": "左右两栏分别以英文标题和完整Prompt句开头；各栏下方用对应说明，保持顶部对齐。左栏红色强调“给初学者解释”，右栏强调“没有读过报告”“5分钟”。底部一行边界说明，无角色化装饰人物。",
+      "inherited_main_qa": {
+        "slide_id": "008",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "c2e925ed548dcae2fcdac705e32968e3bea9b94d3ebe51bfe69133855864bcad",
+        "actual_image_viewed": true,
+        "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_02.png",
+        "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "c2e925ed548dcae2fcdac705e32968e3bea9b94d3ebe51bfe69133855864bcad",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "008",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "c2e925ed548dcae2fcdac705e32968e3bea9b94d3ebe51bfe69133855864bcad",
+          "actual_image_viewed": true,
+          "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_02.png",
+          "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+        }
+      }
+    },
+    {
+      "slide_id": "010",
+      "title": "Example：说明写法，也说明哪些不能照搬",
+      "section": "I1",
+      "type": "content",
+      "image": "slides/slide_010.png",
+      "old_slide_id": "010",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "00c92ff48801c860508f104e18fc9483b6961ebf3b9771320cd97bd90933a6cf",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_010.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "approved_by_teacher_2026-09-23",
+      "sources": [
+        {
+          "id": "TEACHER",
+          "url": "",
+          "locator": "v05-知识结构重拟/教师心得补充原文.md，2026-09-23教师补充"
+        },
+        {
+          "id": "CASE",
+          "url": "",
+          "locator": "v06-逐页内容版/案例底稿.md：共享案例青禾食品"
+        },
+        {
+          "id": "ANT_GUIDE",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+          "locator": "General principles / Use examples effectively / Thinking and reasoning；v05/research/anthropic.md S1，2026-09-23核查"
+        }
+      ],
+      "speaker_notes": "",
+      "transition": "能模仿写法，不等于要规定每一步；还要检查多余的机械要求。",
+      "qa_status": "passed",
+      "on_slide": "只说“专业、清楚”，每个人理解的尺度可能不同。给一个样本，说明希望参考哪部分。\n\n**Example**\n> 收入从1,000万元增至1,200万元，增长20%。这说明销售规模扩大，但还需要结合成本和费用判断盈利变化。\n\n**请参考这种先报数字、再用日常语言解释的写法。** 两年数字与单位写完整，计算变化，再解释能得出什么判断。\n\n换到课堂简化利润时，数值和变化方向要重新确定：\n\n| 对简化利润的写法 | 检查结果 |\n| --- | --- |\n| 从80万元变为60万元，增长25%。 | 数字抄对了，方向和变化表述错了。 |\n| 从80万元降至60万元，下降25%。 | 根据对应指标重新计算并表述。 |\n\n只参考示例组织句子的方式；数值、变化方向和结论依据当前材料，未提供的事实不能补进去。\n\n*课堂构造，未运行模型*",
+      "visual": "上半页完整Example及单句解释；用正文中的‘先报数字’和‘再用日常语言解释’做红色文字强调，不新增括注标签。下半页两行对照表，红色标出增长25%和下降25%。表格占足宽度，保留底部完整限制与标注。",
+      "inherited_main_qa": {
+        "slide_id": "010",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "00c92ff48801c860508f104e18fc9483b6961ebf3b9771320cd97bd90933a6cf",
+        "actual_image_viewed": true,
+        "view_evidence": "2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_010.png",
+        "notes": "完整收入示例与80到60的正误表同页，增长/下降25%和条件正确。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "00c92ff48801c860508f104e18fc9483b6961ebf3b9771320cd97bd90933a6cf",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "010",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "00c92ff48801c860508f104e18fc9483b6961ebf3b9771320cd97bd90933a6cf",
+          "actual_image_viewed": true,
+          "view_evidence": "2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_010.png",
+          "notes": "完整收入示例与80到60的正误表同页，增长/下降25%和条件正确。"
+        }
+      }
+    },
+    {
+      "slide_id": "016",
+      "title": "让模型先问清关键要求",
+      "section": "I2",
+      "type": "content",
+      "image": "slides/slide_016.png",
+      "old_slide_id": "016",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "b2553da71d922ebb0c0d487db28a7270d4e940d51ce3a3b1f3a00ab9cb324b22",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_016.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "approved_by_teacher_2026-09-23",
+      "sources": [
+        {
+          "id": "CASE",
+          "url": "",
+          "locator": "v06-逐页内容版/案例底稿.md：共享案例青禾食品"
+        },
+        {
+          "id": "ANT_HELP",
+          "url": "https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer",
+          "locator": "正文四条建议；v05/research/anthropic.md S2，2026-09-23核查"
+        },
+        {
+          "id": "OAI_WRITING",
+          "url": "https://openai.com/academy/writing/",
+          "locator": "How to get started / Tips；v05/research/openai.md，2026-09-23核查"
+        }
+      ],
+      "speaker_notes": "主动反问的具体流程是本课程操作建议，并非声称官方指南逐字规定如此。C10目标、C05材料保持不变；对话是手写构造。无真实模型身份、时间戳或界面截图。",
+      "transition": "确认用途与展示方式以后，再检查提纲如何分配五分钟。",
+      "qa_status": "passed",
+      "on_slide": "四件套写完后，还有影响交付的细节可以继续确认。\n\n**我们：**在列提纲前，如果有影响汇报的要求不清楚，请先问我。\n\n**模型可能追问：**提纲只供你准备，还是直接放在屏幕上？汇报中能否展示报表或计算式？\n\n**我们：**提纲供我准备，台上可以展示一张表。计算只保留能帮助同学理解变化的必要步骤，不用写完整讲稿。\n\n这两项回答会改变提纲的详略和数字的呈现方式。模型也可以提出几种安排供我们选择，而不必猜一个答案继续写。\n\n**已经给出的信息应直接使用。** 比如时长、两年收入和成本都在前面的请求或材料中，没必要再让人抄一遍。让模型反问，是为了补影响任务的缺口。\n\n*课堂构造，未运行模型*",
+      "visual": "沿用样张001的三轮对话：我们→模型可能追问→我们，完整保留消息。用细线把“提纲用途”连到“详略”，“可以展示一张表”连到“数字呈现方式”。底部解释已知信息无需重复提问。",
+      "inherited_main_qa": {
+        "slide_id": "016",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "b2553da71d922ebb0c0d487db28a7270d4e940d51ce3a3b1f3a00ab9cb324b22",
+        "actual_image_viewed": true,
+        "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_03.png",
+        "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "b2553da71d922ebb0c0d487db28a7270d4e940d51ce3a3b1f3a00ab9cb324b22",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "016",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "b2553da71d922ebb0c0d487db28a7270d4e940d51ce3a3b1f3a00ab9cb324b22",
+          "actual_image_viewed": true,
+          "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_03.png",
+          "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+        }
+      }
+    },
+    {
+      "slide_id": "018",
+      "title": "具体反馈：保留什么，改什么",
+      "section": "I2",
+      "type": "content",
+      "image": "slides/slide_018.png",
+      "old_slide_id": "018",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "0770c1222bc481c20a7e0e1549b0a9c9c41ca0819435e4fbb49b95670574f1ac",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_018.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "approved_by_teacher_2026-09-23",
+      "sources": [
+        {
+          "id": "CASE",
+          "url": "",
+          "locator": "v06-逐页内容版/案例底稿.md：共享案例青禾食品"
+        },
+        {
+          "id": "ANT_HELP",
+          "url": "https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer",
+          "locator": "正文四条建议；v05/research/anthropic.md S2，2026-09-23核查"
+        }
+      ],
+      "speaker_notes": "改写段落为课堂构造，不是模型已成功修订的实测。计算式解释自定义简化利润的变化，无会计准则意义上的净利润断言。经营原因仍需后续C18区分数据支持与材料不足。",
+      "transition": "数字能够复算，还要核对每个解释是否真的由材料支持。",
+      "qa_status": "passed",
+      "on_slide": "**我们：**按刚才的顺序修改。保留两年数字，把“毛利增加但利润下降”的原因讲具体；少用概括性的形容词。\n\n**修改后的开场示例：**\n> 青禾食品的收入增长20%，毛利率从20%提高到25%，课堂简化利润却从80万元降到60万元。原因在费用：毛利由200万元增至300万元，增加100万元；销售和管理费用合计由120万元增至240万元，增加120万元。新增毛利没有覆盖新增费用，简化利润因此减少20万元。\n\n这次要求指明了需要修改的段落、必须保留的数字和要补的关系。**“新增毛利100－新增费用120＝－20万元”**可以直接核对。\n\n“再专业一点”没有说明哪里不合用；具体反馈让修改有明确对象。改完以后仍要检查数字和结论。\n\n*课堂构造，未运行模型*",
+      "visual": "上方一条用户反馈，下方完整开场文本。旁边用100万元向上、120万元向下的两支增减箭头汇到“－20万元”，标签必须写“新增毛利”“新增费用”“简化利润变化”，不画错误的总量堆叠。正文数字与计算保持邻近。",
+      "inherited_main_qa": {
+        "slide_id": "018",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "0770c1222bc481c20a7e0e1549b0a9c9c41ca0819435e4fbb49b95670574f1ac",
+        "actual_image_viewed": true,
+        "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_03.png",
+        "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "0770c1222bc481c20a7e0e1549b0a9c9c41ca0819435e4fbb49b95670574f1ac",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "018",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "0770c1222bc481c20a7e0e1549b0a9c9c41ca0819435e4fbb49b95670574f1ac",
+          "actual_image_viewed": true,
+          "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_03.png",
+          "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+        }
+      }
+    },
+    {
+      "slide_id": "019",
+      "title": "有出处，还要看出处支持什么",
+      "section": "I2",
+      "type": "content",
+      "image": "slides/slide_019.png",
+      "old_slide_id": "019",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "1ed8e85c2c26e16f3256c091dcff2de012098d7e1c4da47bc643e3e992afedd3",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_019.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "approved_by_teacher_2026-09-23",
+      "sources": [
+        {
+          "id": "CASE",
+          "url": "",
+          "locator": "v06-逐页内容版/案例底稿.md：共享案例青禾食品"
+        },
+        {
+          "id": "OAI_ACADEMY",
+          "url": "https://academy.openai.com/en/public/clubs/work-users-ynjqu/resources/prompting",
+          "locator": "Getting started / More helpful tips；v05/research/openai.md，2026-09-23核查"
+        }
+      ],
+      "speaker_notes": "费用增长与扩店相关来自共享案例补充段落，只是定性关联；材料不足以把120万元全部精确归因给三家新店，也没有因果识别。此限定用于防止课堂分析过度推广。",
+      "transition": "检查依据也适用于润色：句子更顺，仍不能扩大原来的结论。",
+      "qa_status": "passed",
+      "on_slide": "**材料说了什么？**2025年新增3家门店，推广投入和管理人员增加；没有各门店销售数据和后续年度数据。\n\n| 判断 | 可以怎样核对 |\n| --- | --- |\n| 费用合计增加120万元 | 用销售、管理费用两行复算：240－120＝120。 |\n| 费用增长与扩店相关 | 有扩店及人员、推广投入增加的段落支持，应保留这一解释的范围。 |\n| 每家新店都亏损 | 缺少分店收入和成本，现有材料不能判断。 |\n| 下一年利润一定回升 | 没有后续年度数据，现有材料不能判断。 |\n\n可以要求模型在数字后注明表格项目，在解释后指出原文段落。**有一个引用标记，还不等于引用内容支持结论。**\n\n资料不足时，合适的回答应说明缺什么，不能用一般经营常识填成这家公司的事实。\n\n*课堂构造，未运行模型*",
+      "visual": "主体为正文的两列判断—核对表，保持四行顺序和完整依据。旁边一条短连线“回答中的判断→材料原文”，红色标“每家”“一定”及对应缺口。下方保留引用与核验的说明，无成绩、模型得分或重新改编的案例。",
+      "inherited_main_qa": {
+        "slide_id": "019",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "1ed8e85c2c26e16f3256c091dcff2de012098d7e1c4da47bc643e3e992afedd3",
+        "actual_image_viewed": true,
+        "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_04.png",
+        "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "1ed8e85c2c26e16f3256c091dcff2de012098d7e1c4da47bc643e3e992afedd3",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "019",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "1ed8e85c2c26e16f3256c091dcff2de012098d7e1c4da47bc643e3e992afedd3",
+          "actual_image_viewed": true,
+          "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_04.png",
+          "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+        }
+      }
+    },
+    {
+      "slide_id": "020",
+      "title": "论文润色：比较措辞，也检查原意",
+      "section": "I2",
+      "type": "content",
+      "image": "slides/slide_020.png",
+      "old_slide_id": "020",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "a037c5cdda955635433718aa43f93072a0835c2b9377991691e616279275a332",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_020.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "approved_by_teacher_2026-09-23",
+      "sources": [
+        {
+          "id": "TEACHER",
+          "url": "",
+          "locator": "v05-知识结构重拟/教师心得补充原文.md，2026-09-23教师补充"
+        },
+        {
+          "id": "OAI_WRITING",
+          "url": "https://openai.com/academy/writing/",
+          "locator": "How to get started / Tips；v05/research/openai.md，2026-09-23核查"
+        }
+      ],
+      "speaker_notes": "问卷研究描述和两个改写版本均为本页独立手工构造，不是教师真实论文、真实模型输出或实际候选排序。本例只报告问卷中的相关关系，没有提供识别因果关系的设计或证据；不以是否追踪同一员工单独判定能否作因果推断。此处练习保留原文含义，不展开因果识别方法。",
+      "transition": "多个润色版本为什么不同？回到输入条件与下一Token概率。",
+      "qa_status": "passed",
+      "on_slide": "**原文：**我们在两家企业的匿名问卷中发现，远程办公天数与员工自评满意度相关。这些问卷只能说明两者相关，无法据此确定因果关系。\n\n**Prompt：**请润色这段研究描述，使语言简洁、清楚。保留研究范围、观察结果和限制，不增加新的结论。\n\n| 候选版本 | 怎样判断 |\n| --- | --- |\n| 两家企业的匿名问卷显示，远程办公天数与员工自评满意度相关，但这项调查无法确定二者的因果关系。 | 范围、观察结果和限制都保留，可继续比较措辞。 |\n| 研究证明远程办公能显著提升员工满意度，适合所有企业推广。 | 把相关写成因果，又添了“显著”和推广判断。 |\n\n重试适合寻找更合意的表达。选稿时逐项对照原文；读起来顺口的版本，也可能改变结论。\n\n*课堂构造，未运行模型*",
+      "visual": "上方放原文和完整Prompt；下方两行对照表，候选文本占约三分之二宽度。第二行“证明”“显著”“所有企业”用红色并直接连到对应判断；无需分数、奖章或模型标识。",
+      "inherited_main_qa": {
+        "slide_id": "020",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "a037c5cdda955635433718aa43f93072a0835c2b9377991691e616279275a332",
+        "actual_image_viewed": true,
+        "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_04.png",
+        "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "a037c5cdda955635433718aa43f93072a0835c2b9377991691e616279275a332",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "020",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "a037c5cdda955635433718aa43f93072a0835c2b9377991691e616279275a332",
+          "actual_image_viewed": true,
+          "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_04.png",
+          "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+        }
+      }
+    },
+    {
+      "slide_id": "022",
+      "title": "重试、追问与改Prompt：下一轮给了什么",
+      "section": "I2",
+      "type": "content",
+      "image": "slides/slide_022.png",
+      "old_slide_id": "022",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "f467d880eb5ec044ba8b0cba85be8e534977846dfb656eb7f760368247687d41",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_022.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "approved_by_teacher_2026-09-23",
+      "sources": [
+        {
+          "id": "TEACHER",
+          "url": "",
+          "locator": "v05-知识结构重拟/教师心得补充原文.md，2026-09-23教师补充"
+        },
+        {
+          "id": "ANT_HELP",
+          "url": "https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer",
+          "locator": "正文四条建议；v05/research/anthropic.md S2，2026-09-23核查"
+        },
+        {
+          "id": "CASE",
+          "url": "",
+          "locator": "v06-逐页内容版/案例底稿.md：共享案例青禾食品"
+        }
+      ],
+      "speaker_notes": "",
+      "transition": "多轮操作后，把当前有效要求整理下来，并撤回过时要求。",
+      "qa_status": "passed",
+      "on_slide": "随机采样时，即使模型、输入和设置相同，也可能得到不同回答；某些设置下几乎不变。\n\n| 看到的问题 | 下一次可以这样做 |\n| --- | --- |\n| 内容正确，但句子不够自然 | 保持原Prompt和原材料，另生成一版，再比较措辞。 |\n| 润色时总把“尚未检验”删掉 | 补充：“研究范围和限制必须保留；只改表达。” |\n| 回答给了最新业绩，材料里却没有 | 提供对应年度资料，或要求明确说明没有数据。 |\n| 年报汇报写成了长篇公司介绍 | 指出要比较的年份和指标，说明只有5分钟。 |\n\n**相同输入重新生成：**仍用原Prompt与材料。\n**在聊天中说“再来一版”：**输入还包括原对话、上一版回答和这条新要求。\n**把要求改成“更适合口头汇报”：**任务说明已经改变。\n\n后两种改变了输入。若同一个问题反复出现，要检查遗漏了哪些要求或材料；多生成几次不会补上缺少的证据。\n\n*课堂构造，未运行模型*",
+      "visual": "上方两行随机采样说明，中间四行问题—动作对照表，下方三行粗体动作标签紧接对应输入解释，最后一行保留反复问题与证据边界。不额外画图，不加重复总结，让具体对照表承担图解。四行表格行高一致，主文35px左右、标注31px。",
+      "inherited_main_qa": {
+        "slide_id": "022",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "f467d880eb5ec044ba8b0cba85be8e534977846dfb656eb7f760368247687d41",
+        "actual_image_viewed": true,
+        "view_evidence": "2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_022.png",
+        "notes": "四类问题对应动作，三种输入区别及后两种改变输入均准确，字号可读。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "f467d880eb5ec044ba8b0cba85be8e534977846dfb656eb7f760368247687d41",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "022",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "f467d880eb5ec044ba8b0cba85be8e534977846dfb656eb7f760368247687d41",
+          "actual_image_viewed": true,
+          "view_evidence": "2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_022.png",
+          "notes": "四类问题对应动作，三种输入区别及后两种改变输入均准确，字号可读。"
+        }
+      }
+    },
+    {
+      "slide_id": "026",
+      "title": "让LLM检查并改进初稿",
+      "section": "I3",
+      "type": "content",
+      "image": "slides/slide_026.png",
+      "old_slide_id": "026",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "f45eb02307ab20a1b067eb901dc2176f5eeedc7c2e00f42fc6d272a9d820f0f2",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_026.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "approved_by_teacher_2026-09-23",
+      "sources": [
+        {
+          "id": "TEACHER",
+          "url": "",
+          "locator": "v05-知识结构重拟/教师心得补充原文.md"
+        },
+        {
+          "id": "CASE",
+          "url": "",
+          "locator": "案例底稿.md，青禾食品虚构报表"
+        },
+        {
+          "id": "OAI_GENERATION",
+          "url": "https://developers.openai.com/api/docs/guides/prompt-generation",
+          "locator": "Overview / Prompts；2026-09-23核查"
+        },
+        {
+          "id": "ANT_GENERATOR",
+          "url": "https://claude.com/blog/prompt-generator",
+          "locator": "Prompt Generator公告；当前页面标2024-05-20；开发者Console"
+        }
+      ],
+      "speaker_notes": "教师原文可逐字引用。Initial prompt占位在讲义附件有完整文本，未来示范必须附上，不让模型凭空推断；这页不是宣称某产品有按钮。",
+      "transition": "检查改稿建议前，先看模型是否已经具备内部推理能力。",
+      "qa_status": "passed",
+      "on_slide": "**先写一个initial prompt，再请模型 critique、review、improve。**\n\n刚才的四件套初稿已经说明：我们要根据青禾食品资料，给初学者做5分钟汇报，并先看提纲。现在请模型检查遗漏和歧义。\n\n```text\nTarget model: [最后实际使用的模型及版本]\n下面是我的initial prompt，请critique、review and improve。\n检查是否有歧义、遗漏或不适合目标模型的要求。\n保留我的任务、听众和5分钟时长；先说明主要修改，\n再给出完整改稿。如果缺少关键信息，请先问我。\nInitial prompt: [粘贴前面的四件套初稿]\n```\n\n也可以从这句话开始：“you are GPT 5.6，下面是我的 prompt，please critique, review and improve”。还要明确 **optimize for which model**。\n\n负责改稿的模型与使用改稿的目标模型可以不同。实际模型由产品选择或API配置决定，角色文字不会切换模型。",
+      "visual": "上方说明已完成的四件套初稿，下方完整meta-prompt文本；旁边画改稿模型→新Prompt→目标模型三对象，Target model在输入与最后模型之间对应。",
+      "inherited_main_qa": {
+        "slide_id": "026",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "f45eb02307ab20a1b067eb901dc2176f5eeedc7c2e00f42fc6d272a9d820f0f2",
+        "actual_image_viewed": true,
+        "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_05.png",
+        "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "f45eb02307ab20a1b067eb901dc2176f5eeedc7c2e00f42fc6d272a9d820f0f2",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "026",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "f45eb02307ab20a1b067eb901dc2176f5eeedc7c2e00f42fc6d272a9d820f0f2",
+          "actual_image_viewed": true,
+          "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_05.png",
+          "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+        }
+      }
+    },
+    {
+      "slide_id": "031",
+      "title": "把讨论过的要求写进完整Prompt",
+      "section": "I3",
+      "type": "content",
+      "image": "slides/slide_031.png",
+      "old_slide_id": "031",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "50896d8cf4c1c214ea844114293c4789d9523c6da0948d79cb85e05a3900bdd6",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_031.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "approved_by_teacher_2026-09-23",
+      "sources": [
+        {
+          "id": "TEACHER",
+          "url": "",
+          "locator": "v05-知识结构重拟/教师心得补充原文.md"
+        },
+        {
+          "id": "CASE",
+          "url": "",
+          "locator": "案例底稿.md，青禾食品虚构报表"
+        }
+      ],
+      "speaker_notes": "这页有约20行，未来版式可用20—22pt清楚呈现，避免一页再塞长解释。完整原稿存附件，正文无行业流程冒充事实。",
+      "transition": "完整改稿还需要配上材料和真实请求，检查它能否完成任务。",
+      "qa_status": "passed",
+      "on_slide": "```text\n你是一位财务分析助教，向刚开始学习财务分析的本科生\n解释材料。请根据我提供的[公司][年份]经营资料，\n准备一次5分钟课堂汇报，先给提纲，收到反馈后再写讲稿。\n\n比较指定两年的收入、毛利率与课堂简化利润。\n毛利率＝(收入－成本)÷收入；两年毛利率之差用百分点。\n本题课堂简化利润＝收入－成本－销售费用－管理费用。\n先核对年份、单位和报表范围，再使用这些指标。\n\n每个主要判断列出关键数字，并注明对应表格或段落。\n资料没有提供的原因和数字，请列出缺失项，不自行补全。\n解释要让初学者听懂；示例只参考表达，不复制其事实。\n\n写法示例：“收入从1,000万元增至1,200万元，增长20%。\n这说明销售规模扩大，但还需要结合成本和费用判断盈利变化。”\n\n材料：[粘贴本次完整表格、单位和相关段落]\n```\n\n方括号内容每次替换。计算定义来自本课堂任务；换成真实业务后，按实际指标要求修改。",
+      "visual": "整页宽文本稿，角色/使用者、任务、计算定义、依据与缺失、样本、材料分为6个段落；不拆成六张卡片。红色只标本轮新增的依据/缺失/范围条件。",
+      "inherited_main_qa": {
+        "slide_id": "031",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "50896d8cf4c1c214ea844114293c4789d9523c6da0948d79cb85e05a3900bdd6",
+        "actual_image_viewed": true,
+        "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_06.png",
+        "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "50896d8cf4c1c214ea844114293c4789d9523c6da0948d79cb85e05a3900bdd6",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "031",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "50896d8cf4c1c214ea844114293c4789d9523c6da0948d79cb85e05a3900bdd6",
+          "actual_image_viewed": true,
+          "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_06.png",
+          "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+        }
+      }
+    },
+    {
+      "slide_id": "032",
+      "title": "试用改稿，看回答是否符合原意",
+      "section": "I3",
+      "type": "content",
+      "image": "slides/slide_032.png",
+      "old_slide_id": "032",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "cedd5509c893e0fc8f34a1534af03ce924b1586425163be53406facaca4307a5",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_032.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "approved_by_teacher_2026-09-23",
+      "sources": [
+        {
+          "id": "TEACHER",
+          "url": "",
+          "locator": "v05-知识结构重拟/教师心得补充原文.md"
+        },
+        {
+          "id": "CASE",
+          "url": "",
+          "locator": "案例底稿.md，青禾食品虚构报表"
+        }
+      ],
+      "speaker_notes": "本页仅列期望与手算依据，没有声称已调用目标模型。为第三部分埋下批量测试问题。",
+      "transition": "一次任务试用有局限；本讲接入教师选定的Reasoning讲座。",
+      "qa_status": "passed",
+      "on_slide": "把改稿、青禾食品完整材料和一个具体请求一起交给目标模型：\n\n> 请先给出汇报提纲，重点解释“收入增长、毛利率提高，为什么课堂简化利润却下降”。同学刚开始学财务分析。\n\n| 应当检查的内容 | 本例的核对依据 |\n| --- | --- |\n| 计算是否正确 | 毛利200→300；费用120→240；简化利润80→60 |\n| 原因是否说清楚 | 新增毛利100，小于新增费用120 |\n| 有没有扩大结论 | 材料只说扩店与费用增加，不能据此断言每家新店亏损 |\n| 是否符合用途 | 先给适合5分钟汇报的提纲；解释初学者不熟悉的指标 |\n\n看过回答后，可以继续修改Prompt；满意的要求可以保存，供下一次任务复用。\n\n这次能用，说明这份材料上的要求基本说清了。要批量处理不同报告，还需要成组测试。",
+      "visual": "请求气泡位于左上，右下检查表连向原始报表缩略示意，各指标数字同CASE；不画已通过勾号冒充实测。",
+      "inherited_main_qa": {
+        "slide_id": "032",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "cedd5509c893e0fc8f34a1534af03ce924b1586425163be53406facaca4307a5",
+        "actual_image_viewed": true,
+        "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_06.png",
+        "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "cedd5509c893e0fc8f34a1534af03ce924b1586425163be53406facaca4307a5",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "032",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "cedd5509c893e0fc8f34a1534af03ce924b1586425163be53406facaca4307a5",
+          "actual_image_viewed": true,
+          "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_06.png",
+          "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+        }
+      }
+    },
+    {
+      "slide_id": "039",
+      "title": "单位不同、材料缺失，分别怎样测",
+      "section": "III1",
+      "type": "content",
+      "image": "slides/slide_039.png",
+      "old_slide_id": "039",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "2432a81ed7aa0f4b1c427d04766bc2ec7dbf3f0b25700348632b481b717deb56",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_039.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "not_recorded",
+      "sources": [
+        {
+          "id": "CASE",
+          "url": "",
+          "locator": "v06-逐页内容版/案例底稿.md：青禾食品、第三部分批量任务及T01—T07"
+        }
+      ],
+      "speaker_notes": "T02收入和成本数量级与T01不同，比例相同，必须按底稿1亿元/1.2亿元以及8000/9000万元核对，禁止误改成1.2万元。T04部分结果可确定，是判断系统是否精确处理缺失的关键。所有数值为虚构材料。",
+      "transition": "数字齐全时也要问：报表范围是否可比，公式能否使用？",
+      "qa_status": "passed",
+      "on_slide": "**T02：同公司、同报表范围，但单位不同**\n\n| 年份 | 收入 | 成本 |\n| --- | --- | --- |\n| 2024 | 1亿元 | 8,000万元 |\n| 2025 | 1.2亿元 | 9,000万元 |\n\n期望：统一为万元后，收入为10,000和12,000，成本为8,000和9,000；毛利率仍为20%、25%，变化＋5个百分点。\n\n**T04：T01缺少2024年成本**\n输入：2024收入1,000、成本未提供；2025收入1,200、成本900；单位万元，同公司同范围。\n\n期望：2025年毛利率25%；2024年毛利率和变化无法计算，明确写“缺2024年成本”。不能填0，也不能只回答“全部无法计算”。\n\n两个test检查不同要求：T02要会换单位，T04要保留能计算的部分，并准确指出缺失。\n\n课堂构造，未运行模型；T02为独立测试变体。",
+      "visual": "左半T02两行表及单位换算结果；右半T04短输入和期望输出，缺少成本用红色‘未提供’，不可绘成0。两侧标题明确测试ID；数值合并呈现，不重复画冗余流程。",
+      "inherited_main_qa": {
+        "slide_id": "039",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "2432a81ed7aa0f4b1c427d04766bc2ec7dbf3f0b25700348632b481b717deb56",
+        "actual_image_viewed": true,
+        "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_07.png",
+        "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "2432a81ed7aa0f4b1c427d04766bc2ec7dbf3f0b25700348632b481b717deb56",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "039",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "2432a81ed7aa0f4b1c427d04766bc2ec7dbf3f0b25700348632b481b717deb56",
+          "actual_image_viewed": true,
+          "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_07.png",
+          "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+        }
+      }
+    },
+    {
+      "slide_id": "049",
+      "title": "T07：换一家公司，再计算一次",
+      "section": "III1",
+      "type": "content",
+      "image": "slides/slide_049.png",
+      "old_slide_id": "049",
+      "operation": "exact_copy",
+      "composition_key": null,
+      "sha256": "8b0f5d2d6b6df483def891003a8335aaa7402bfb4e4131881ef0281279bdbde4",
+      "source_image": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slides/slide_049.png",
+      "source_manifest": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/slide_manifest.json",
+      "teacher_approval": "not_recorded",
+      "sources": [
+        {
+          "id": "CASE",
+          "url": "",
+          "locator": "v06-逐页内容版/案例底稿.md：青禾食品、第三部分批量任务及T01—T07"
+        },
+        {
+          "id": "OAI_EVAL",
+          "url": "https://developers.openai.com/api/docs/guides/evaluation-best-practices",
+          "locator": "What are evals? / Evals tips / Creating an eval dataset；2026-09-23实际核验"
+        }
+      ],
+      "speaker_notes": "T07是底稿指定的新公司，不能命名为青禾食品或使用青禾原数值。它是教学上的新题，未进入前面的P0→P1修改及T01—T06规则R。全文已明确本课并非真实优化实验，因此不报告留出准确率或泛化证明。负10百分点不是相对下降10%；相对下降如需口述为约33.3%，但本页不额外引入。",
+      "transition": "任务、检查和新材料验证都明确以后，再让模型自动提出改稿。",
+      "qa_status": "passed",
+      "on_slide": "**T07：新公司，同一报表范围，单位万元**\n\n| 年份 | 收入 | 成本 |\n| --- | ---: | ---: |\n| 2024 | 500 | 350 |\n| 2025 | 800 | 640 |\n\n手算：2024年毛利率＝(500－350)/500＝**30%**；2025年＝(800－640)/800＝**20%**。\n变化＝20%－30%＝**－10个百分点**，即下降10个百分点。\n\n规则R仍会填“20%→25%、提高5个百分点”，在T07上出错。P1则要求重新读取和计算；实际是否答对，要运行后核对，不能预先记成成功。\n\n**泛化**是修改后的方法在未参与修改的新材料上仍然有效。T07能揭示R的问题，但只检查一家新公司仍不充分；不同单位、范围和缺失情况也要覆盖。\n\n课堂构造，未运行模型；T07公开展示不构成真实测试隔离。",
+      "visual": "左半T07两行表，右半两个毛利率公式与－10个百分点；下方一行对照‘规则R：＋5’与‘手算结果：－10’，以红色标两种不同结论。P1旁仅写‘待实际运行核对’，不画通过图标。",
+      "inherited_main_qa": {
+        "slide_id": "049",
+        "reviewer": "main_thread",
+        "status": "passed",
+        "sha256": "8b0f5d2d6b6df483def891003a8335aaa7402bfb4e4131881ef0281279bdbde4",
+        "actual_image_viewed": true,
+        "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_09.png",
+        "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+      },
+      "visual_qa": {
+        "status": "passed",
+        "reviewer": "main_thread",
+        "date": "2026-09-23",
+        "sha256": "8b0f5d2d6b6df483def891003a8335aaa7402bfb4e4131881ef0281279bdbde4",
+        "method": "exact_SHA256_copy_of_v08_main_thread_reviewed_image",
+        "source_qa": {
+          "slide_id": "049",
+          "reviewer": "main_thread",
+          "status": "passed",
+          "sha256": "8b0f5d2d6b6df483def891003a8335aaa7402bfb4e4131881ef0281279bdbde4",
+          "actual_image_viewed": true,
+          "view_evidence": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v08-分节导览与重排/qa/reuse_contact_09.png",
+          "notes": "主线程在v08顺序检查图中逐页读取；图像与v07逐字节一致，原案例、公式与限制完整，重排后不依赖被移走的即时前页。"
+        }
+      }
+    }
+  ]
+}

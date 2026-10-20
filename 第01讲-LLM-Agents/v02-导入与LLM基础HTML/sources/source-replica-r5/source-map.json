@@ -1,0 +1,72 @@
+{
+  "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-Agent Externalization与Internalization.pdf",
+  "source_sha256": "27b8339daf248aa5cc73eb6e45c7af98cf8cd5d6dddfa3a8d88ef2652070d163",
+  "pages": [
+    {
+      "display_page": 57,
+      "source_physical_page": 21,
+      "source_printed_page": 16,
+      "file": "assets/source-replica-r5/original-p21.svg",
+      "crop": [
+        0,
+        0,
+        959.760009765625,
+        525
+      ],
+      "method": "PDF原位SVG导出，保留原图、字形位置、颜色与层级；移除原打印页码；末端留出课程进度区"
+    },
+    {
+      "display_page": 58,
+      "source_physical_page": 22,
+      "source_printed_page": 17,
+      "file": "assets/source-replica-r5/original-p22.svg",
+      "crop": [
+        0,
+        0,
+        959.760009765625,
+        525
+      ],
+      "method": "PDF原位SVG导出，保留原图、字形位置、颜色与层级；移除原打印页码；末端留出课程进度区"
+    },
+    {
+      "display_page": 59,
+      "source_physical_page": 24,
+      "source_printed_page": null,
+      "file": "assets/source-replica-r5/original-p24.svg",
+      "crop": [
+        0,
+        0,
+        960.0,
+        525
+      ],
+      "method": "PDF原位SVG导出，保留原图、字形位置、颜色与层级；移除原打印页码；末端留出课程进度区"
+    },
+    {
+      "display_page": 60,
+      "source_physical_page": 25,
+      "source_printed_page": null,
+      "file": "assets/source-replica-r5/original-p25.svg",
+      "crop": [
+        0,
+        0,
+        960.0,
+        525
+      ],
+      "method": "PDF原位SVG导出，保留原图、字形位置、颜色与层级；移除原打印页码；末端留出课程进度区"
+    },
+    {
+      "display_page": 61,
+      "source_physical_page": 23,
+      "source_printed_page": null,
+      "file": "assets/source-replica-r5/original-p23.svg",
+      "crop": [
+        0,
+        0,
+        960.0,
+        525
+      ],
+      "method": "PDF原位SVG导出，保留原图、字形位置、颜色与层级；移除原打印页码；末端留出课程进度区"
+    }
+  ],
+  "revision": "按教师截图复刻原课版面与文字；替代r4第57–61页自行绘制的图解"
+}

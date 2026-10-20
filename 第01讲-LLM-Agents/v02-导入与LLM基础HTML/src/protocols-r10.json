@@ -1,0 +1,365 @@
+{
+  "pages": [
+    {
+      "page": 8001,
+      "renderer": 8001,
+      "navigation": "3.5",
+      "section": "Protocols·总览",
+      "type": "overview",
+      "title": "Protocols：约定怎样交互",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "Protocols：约定怎样交互",
+        "工具提供操作，Memory保存信息，Skills提供方法。与外部系统协作时，还需要约定怎样说明能力、发送请求和接收结果。先区分交互对象，再看MCP工具交互和A2A任务交互。"
+      ],
+      "talk": "工具提供操作，Memory保存信息，Skills提供方法。与外部系统协作时，还需要约定怎样说明能力、发送请求和接收结果。先区分交互对象，再看MCP工具交互和A2A任务交互。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 115,116页"
+        }
+      ]
+    },
+    {
+      "page": 8002,
+      "renderer": 8002,
+      "navigation": "3.5",
+      "section": "Protocols·交互对象与范围",
+      "type": "concept",
+      "title": "理解协议：连接谁，为哪些场景设计？",
+      "seconds": 100,
+      "show_sources": false,
+      "on_slide": [
+        "理解协议：连接谁，为哪些场景设计？",
+        "协议把交互格式与流程写成共同约定。先看连接的是外部工具、其他Agent还是用户；再看协议为通用场景还是特定场景设计。本节重点看MCP工具交互和A2A任务协作。"
+      ],
+      "talk": "协议把交互格式与流程写成共同约定。先看连接的是外部工具、其他Agent还是用户；再看协议为通用场景还是特定场景设计。本节重点看MCP工具交互和A2A任务协作。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 116,117,120,121页"
+        }
+      ]
+    },
+    {
+      "page": 8003,
+      "renderer": 8003,
+      "navigation": "3.5",
+      "section": "Protocols·交互对象与范围",
+      "type": "summary",
+      "title": "两类交互：调用工具与委托任务",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "两类交互：调用工具与委托任务",
+        "MCP常用于应用接入工具与数据；A2A用于不同Agent服务交换任务、状态和成果。分类看这次交互的约定，不按一个系统中有几个模型判断。MCP服务也可以封装复杂程序。"
+      ],
+      "talk": "MCP常用于应用接入工具与数据；A2A用于不同Agent服务交换任务、状态和成果。分类看这次交互的约定，不按一个系统中有几个模型判断。MCP服务也可以封装复杂程序。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 118,119,122页"
+        }
+      ]
+    },
+    {
+      "page": 8004,
+      "renderer": 8004,
+      "navigation": "3.5",
+      "section": "Protocols·MCP",
+      "type": "overview",
+      "title": "MCP：连接工具与数据",
+      "seconds": 75,
+      "show_sources": false,
+      "on_slide": [
+        "MCP：连接工具与数据",
+        "MCP全称Model Context Protocol，模型上下文协议。先看模型、应用与服务的分工，再看目录、调用和结果如何往返，最后回到模型的下一次输入。"
+      ],
+      "talk": "MCP全称Model Context Protocol，模型上下文协议。先看模型、应用与服务的分工，再看目录、调用和结果如何往返，最后回到模型的下一次输入。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 123,124,125页"
+        }
+      ]
+    },
+    {
+      "page": 8005,
+      "renderer": 8005,
+      "navigation": "3.5",
+      "section": "Protocols·MCP",
+      "type": "concept",
+      "title": "MCP调用：模型、应用与服务的分工",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "MCP调用：模型、应用与服务的分工",
+        "应用Host管理模型和连接，其中Client负责与MCP服务通信；Server提供工具或数据。模型提出工具选择与参数，应用转交请求，服务执行。一个应用可以连接多个服务。"
+      ],
+      "talk": "应用Host管理模型和连接，其中Client负责与MCP服务通信；Server提供工具或数据。模型提出工具选择与参数，应用转交请求，服务执行。一个应用可以连接多个服务。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 125页"
+        }
+      ]
+    },
+    {
+      "page": 8006,
+      "renderer": 8006,
+      "navigation": "3.5",
+      "section": "Protocols·MCP",
+      "type": "concept",
+      "title": "先取得目录：工具名、用途与参数",
+      "seconds": 150,
+      "show_sources": false,
+      "on_slide": [
+        "先取得目录：工具名、用途与参数",
+        "连接建立后，客户端用tools/list获取工具说明。天气服务公开get_weather：用途是查询天气，location是必须提供的文字参数。应用把名称、用途与参数要求整理给模型。MCP还可提供Resources和Prompts，本节聚焦工具往返。"
+      ],
+      "talk": "连接建立后，客户端用tools/list获取工具说明。天气服务公开get_weather：用途是查询天气，location是必须提供的文字参数。应用把名称、用途与参数要求整理给模型。MCP还可提供Resources和Prompts，本节聚焦工具往返。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 126,127,128页"
+        }
+      ]
+    },
+    {
+      "page": 8007,
+      "renderer": 8007,
+      "navigation": "3.5",
+      "section": "Protocols·MCP",
+      "type": "concept",
+      "title": "从工具目录，到下一次模型输入",
+      "seconds": 150,
+      "show_sources": false,
+      "on_slide": [
+        "从工具目录，到下一次模型输入",
+        "六个环节：服务给出工具目录；应用整理模型工具说明；模型生成调用；应用转成MCP请求；服务执行并返回；应用把结果放入后续模型输入。MCP通信和模型生成各有位置。"
+      ],
+      "talk": "六个环节：服务给出工具目录；应用整理模型工具说明；模型生成调用；应用转成MCP请求；服务执行并返回；应用把结果放入后续模型输入。MCP通信和模型生成各有位置。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 124,128,130,131,134页"
+        }
+      ]
+    },
+    {
+      "page": 8008,
+      "renderer": 8008,
+      "navigation": "3.5",
+      "section": "Protocols·MCP",
+      "type": "concept",
+      "title": "天气查询：对照一次协议往返",
+      "seconds": 180,
+      "show_sources": false,
+      "on_slide": [
+        "天气查询：对照一次协议往返",
+        "选择目录请求、目录返回、天气调用或天气返回，对照方向、主要内容与原始消息。目录请求对应编号101；实际查询对应102。编号使应用能把返回配回请求。天气返回为72°F、局部多云，与前面工具调用部分的样例一致。"
+      ],
+      "talk": "选择目录请求、目录返回、天气调用或天气返回，对照方向、主要内容与原始消息。目录请求对应编号101；实际查询对应102。编号使应用能把返回配回请求。天气返回为72°F、局部多云，与前面工具调用部分的样例一致。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 126,127,131,132,133页"
+        }
+      ]
+    },
+    {
+      "page": 8009,
+      "renderer": 8009,
+      "navigation": "3.5",
+      "section": "Protocols·MCP",
+      "type": "summary",
+      "title": "MCP小结：协议通信与模型输入",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "MCP小结：协议通信与模型输入",
+        "MCP统一工具发现、调用与返回；应用负责组织模型输入、转换格式和对应请求。服务收到调用才执行操作，模型需要取得结果后才能据此继续回答。"
+      ],
+      "talk": "MCP统一工具发现、调用与返回；应用负责组织模型输入、转换格式和对应请求。服务收到调用才执行操作，模型需要取得结果后才能据此继续回答。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 135页"
+        }
+      ]
+    },
+    {
+      "page": 8010,
+      "renderer": 8010,
+      "navigation": "3.5",
+      "section": "Protocols·A2A",
+      "type": "overview",
+      "title": "A2A：把任务交给另一个Agent",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "A2A：把任务交给另一个Agent",
+        "A2A即Agent2Agent，为不同Agent服务交换任务信息提供共同约定。先读Agent Card了解能力，再发任务；缺信息时补充，完成后取得成果。沿用汇率任务观察整个过程。"
+      ],
+      "talk": "A2A即Agent2Agent，为不同Agent服务交换任务信息提供共同约定。先读Agent Card了解能力，再发任务；缺信息时补充，完成后取得成果。沿用汇率任务观察整个过程。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 136,137,138页"
+        }
+      ]
+    },
+    {
+      "page": 8011,
+      "renderer": 8011,
+      "navigation": "3.5",
+      "section": "Protocols·A2A",
+      "type": "concept",
+      "title": "Agent Card：先了解对方能做什么",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "Agent Card：先了解对方能做什么",
+        "Agent Card是能力与接口说明：对方处理什么任务、接受什么输入、如何联系以及如何认证。卡片中的skills描述服务能力，与前章下载和读取的SKILL.md技能包是不同对象。"
+      ],
+      "talk": "Agent Card是能力与接口说明：对方处理什么任务、接受什么输入、如何联系以及如何认证。卡片中的skills描述服务能力，与前章下载和读取的SKILL.md技能包是不同对象。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 139页"
+        }
+      ]
+    },
+    {
+      "page": 8012,
+      "renderer": 8012,
+      "navigation": "3.5",
+      "section": "Protocols·A2A",
+      "type": "concept",
+      "title": "汇率任务：委托、补充、继续",
+      "seconds": 180,
+      "show_sources": false,
+      "on_slide": [
+        "汇率任务：委托、补充、继续",
+        "用户问1美元能换多少，本方助理把任务交给汇率Agent。目标币种缺失，对方返回需要补充，并问要换成哪种货币。用户补充CAD，应用将补充与原任务关联，汇率Agent继续处理。"
+      ],
+      "talk": "用户问1美元能换多少，本方助理把任务交给汇率Agent。目标币种缺失，对方返回需要补充，并问要换成哪种货币。用户补充CAD，应用将补充与原任务关联，汇率Agent继续处理。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 138,140,141,143,144,145,146页"
+        }
+      ]
+    },
+    {
+      "page": 8013,
+      "renderer": 8013,
+      "navigation": "3.5",
+      "section": "Protocols·A2A",
+      "type": "concept",
+      "title": "两边各自保存消息，交换任务信息",
+      "seconds": 150,
+      "show_sources": false,
+      "on_slide": [
+        "两边各自保存消息，交换任务信息",
+        "本方助理保存用户对话和委托结果；汇率Agent保存自己的处理规则、收到的任务与补充。A2A传递任务、状态和成果；应用决定发送哪些内容，对方据此组织自己的模型输入。"
+      ],
+      "talk": "本方助理保存用户对话和委托结果；汇率Agent保存自己的处理规则、收到的任务与补充。A2A传递任务、状态和成果；应用决定发送哪些内容，对方据此组织自己的模型输入。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 137,142,147,150页"
+        }
+      ]
+    },
+    {
+      "page": 8014,
+      "renderer": 8014,
+      "navigation": "3.5",
+      "section": "Protocols·A2A",
+      "type": "concept",
+      "title": "任务状态与成果，分别说明什么？",
+      "seconds": 120,
+      "show_sources": false,
+      "on_slide": [
+        "任务状态与成果，分别说明什么？",
+        "状态回答目前在处理、等待补充还是已完成；成果保存实际产出，可以是文字、文件或结构化数据。收到完成状态后，本方应用仍要取得成果、检查与原任务是否相符，再组织回复。"
+      ],
+      "talk": "状态回答目前在处理、等待补充还是已完成；成果保存实际产出，可以是文字、文件或结构化数据。收到完成状态后，本方应用仍要取得成果、检查与原任务是否相符，再组织回复。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 143,149,150页"
+        }
+      ]
+    },
+    {
+      "page": 8015,
+      "renderer": 8015,
+      "navigation": "3.5",
+      "section": "Protocols·A2A",
+      "type": "summary",
+      "title": "A2A小结：可以与MCP一起使用",
+      "seconds": 105,
+      "show_sources": false,
+      "on_slide": [
+        "A2A小结：可以与MCP一起使用",
+        "A2A连接Agent服务，接收方仍可通过MCP使用工具和资料。两种协议可以组合，内部工具如何选择、信息如何保留、结果怎样检查仍由各自应用的运行程序安排。"
+      ],
+      "talk": "A2A连接Agent服务，接收方仍可通过MCP使用工具和资料。两种协议可以组合，内部工具如何选择、信息如何保留、结果怎样检查仍由各自应用的运行程序安排。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 151页"
+        }
+      ]
+    },
+    {
+      "page": 8016,
+      "renderer": 8016,
+      "navigation": "3.5",
+      "section": "Protocols·总结",
+      "type": "summary",
+      "title": "Protocols小结：交互约定如何落到运行",
+      "seconds": 90,
+      "show_sources": false,
+      "on_slide": [
+        "Protocols小结：交互约定如何落到运行",
+        "回到三个问题：按对象与范围理解协议；MCP约定工具目录、调用与结果；A2A约定能力、任务、状态与成果。接下来Harness负责把模型、工具、记忆、技能和协议组织成完整运行过程。"
+      ],
+      "talk": "回到三个问题：按对象与范围理解协议；MCP约定工具目录、调用与结果；A2A约定能力、任务、状态与成果。接下来Harness负责把模型、工具、记忆、技能和协议组织成完整运行过程。",
+      "sources": [
+        {
+          "id": "PROTOCOLS_R10",
+          "locator": "原课PDF 115,122,135,151页"
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "8001": "Protocols：约定怎样交互\n\n工具提供操作，Memory保存信息，Skills提供方法。与外部系统协作时，还需要约定怎样说明能力、发送请求和接收结果。先区分交互对象，再看MCP工具交互和A2A任务交互。",
+    "8002": "理解协议：连接谁，为哪些场景设计？\n\n协议把交互格式与流程写成共同约定。先看连接的是外部工具、其他Agent还是用户；再看协议为通用场景还是特定场景设计。本节重点看MCP工具交互和A2A任务协作。",
+    "8003": "两类交互：调用工具与委托任务\n\nMCP常用于应用接入工具与数据；A2A用于不同Agent服务交换任务、状态和成果。分类看这次交互的约定，不按一个系统中有几个模型判断。MCP服务也可以封装复杂程序。",
+    "8004": "MCP：连接工具与数据\n\nMCP全称Model Context Protocol，模型上下文协议。先看模型、应用与服务的分工，再看目录、调用和结果如何往返，最后回到模型的下一次输入。",
+    "8005": "MCP调用：模型、应用与服务的分工\n\n应用Host管理模型和连接，其中Client负责与MCP服务通信；Server提供工具或数据。模型提出工具选择与参数，应用转交请求，服务执行。一个应用可以连接多个服务。",
+    "8006": "先取得目录：工具名、用途与参数\n\n连接建立后，客户端用tools/list获取工具说明。天气服务公开get_weather：用途是查询天气，location是必须提供的文字参数。应用把名称、用途与参数要求整理给模型。MCP还可提供Resources和Prompts，本节聚焦工具往返。\n\n工具调用与结果：工具名get_weather；地点New York；返回Temperature: 72°F，Conditions: Partly cloudy。",
+    "8007": "从工具目录，到下一次模型输入\n\n六个环节：服务给出工具目录；应用整理模型工具说明；模型生成调用；应用转成MCP请求；服务执行并返回；应用把结果放入后续模型输入。MCP通信和模型生成各有位置。\n\n工具调用与结果：工具名get_weather；地点New York；返回Temperature: 72°F，Conditions: Partly cloudy。",
+    "8008": "天气查询：对照一次协议往返\n\n选择目录请求、目录返回、天气调用或天气返回，对照方向、主要内容与原始消息。目录请求对应编号101；实际查询对应102。编号使应用能把返回配回请求。天气返回为72°F、局部多云，与前面工具调用部分的样例一致。\n\n【请求工具目录】\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 101,\n  \"method\": \"tools/list\",\n  \"params\": {\n    \"_meta\": {\n      \"io.modelcontextprotocol/protocolVersion\": \"2026-07-28\",\n      \"io.modelcontextprotocol/clientInfo\": {\n        \"name\": \"classroom-mcp-client\",\n        \"version\": \"1.0.0\"\n      },\n      \"io.modelcontextprotocol/clientCapabilities\": {}\n    }\n  }\n}\n\n【返回工具目录】\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 101,\n  \"result\": {\n    \"resultType\": \"complete\",\n    \"tools\": [\n      {\n        \"name\": \"get_weather\",\n        \"description\": \"Get current weather information for a location\",\n        \"inputSchema\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"location\": {\n              \"type\": \"string\",\n              \"description\": \"City name or zip code\"\n            }\n          },\n          \"required\": [\n            \"location\"\n          ]\n        }\n      }\n    ],\n    \"ttlMs\": 300000,\n    \"cacheScope\": \"public\",\n    \"_meta\": {\n      \"io.modelcontextprotocol/serverInfo\": {\n        \"name\": \"classroom-weather-fixture\",\n        \"version\": \"1.0.0\"\n      }\n    }\n  }\n}\n\n【调用天气工具】\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 102,\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"get_weather\",\n    \"arguments\": {\n      \"location\": \"New York\"\n    },\n    \"_meta\": {\n      \"io.modelcontextprotocol/protocolVersion\": \"2026-07-28\",\n      \"io.modelcontextprotocol/clientInfo\": {\n        \"name\": \"classroom-mcp-client\",\n        \"version\": \"1.0.0\"\n      },\n      \"io.modelcontextprotocol/clientCapabilities\": {}\n    }\n  }\n}\n\n【返回天气内容】\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 102,\n  \"result\": {\n    \"resultType\": \"complete\",\n    \"content\": [\n      {\n        \"type\": \"text\",\n        \"text\": \"Current weather in New York:\\n Temperature: 72°F\\n Conditions: Partly cloudy\"\n      }\n    ],\n    \"isError\": false,\n    \"_meta\": {\n      \"io.modelcontextprotocol/serverInfo\": {\n        \"name\": \"classroom-weather-fixture\",\n        \"version\": \"1.0.0\"\n      }\n    }\n  }\n}\n\n工具调用与结果：工具名get_weather；地点New York；返回Temperature: 72°F，Conditions: Partly cloudy。",
+    "8009": "MCP小结：协议通信与模型输入\n\nMCP统一工具发现、调用与返回；应用负责组织模型输入、转换格式和对应请求。服务收到调用才执行操作，模型需要取得结果后才能据此继续回答。\n\n工具调用与结果：工具名get_weather；地点New York；返回Temperature: 72°F，Conditions: Partly cloudy。",
+    "8010": "A2A：把任务交给另一个Agent\n\nA2A即Agent2Agent，为不同Agent服务交换任务信息提供共同约定。先读Agent Card了解能力，再发任务；缺信息时补充，完成后取得成果。沿用汇率任务观察整个过程。",
+    "8011": "Agent Card：先了解对方能做什么\n\nAgent Card是能力与接口说明：对方处理什么任务、接受什么输入、如何联系以及如何认证。卡片中的skills描述服务能力，与前章下载和读取的SKILL.md技能包是不同对象。",
+    "8012": "汇率任务：委托、补充、继续\n\n用户问1美元能换多少，本方助理把任务交给汇率Agent。目标币种缺失，对方返回需要补充，并问要换成哪种货币。用户补充CAD，应用将补充与原任务关联，汇率Agent继续处理。",
+    "8013": "两边各自保存消息，交换任务信息\n\n本方助理保存用户对话和委托结果；汇率Agent保存自己的处理规则、收到的任务与补充。A2A传递任务、状态和成果；应用决定发送哪些内容，对方据此组织自己的模型输入。",
+    "8014": "任务状态与成果，分别说明什么？\n\n状态回答目前在处理、等待补充还是已完成；成果保存实际产出，可以是文字、文件或结构化数据。收到完成状态后，本方应用仍要取得成果、检查与原任务是否相符，再组织回复。",
+    "8015": "A2A小结：可以与MCP一起使用\n\nA2A连接Agent服务，接收方仍可通过MCP使用工具和资料。两种协议可以组合，内部工具如何选择、信息如何保留、结果怎样检查仍由各自应用的运行程序安排。",
+    "8016": "Protocols小结：交互约定如何落到运行\n\n回到三个问题：按对象与范围理解协议；MCP约定工具目录、调用与结果；A2A约定能力、任务、状态与成果。接下来Harness负责把模型、工具、记忆、技能和协议组织成完整运行过程。"
+  },
+  "sources": {
+    "PROTOCOLS_R10": {
+      "title": "Protocols：原课程配图、消息资料与官方核对",
+      "path": "sources/protocols-r10/来源与适配记录.md",
+      "href": "sources/protocols-r10/来源与适配记录.md"
+    }
+  }
+}

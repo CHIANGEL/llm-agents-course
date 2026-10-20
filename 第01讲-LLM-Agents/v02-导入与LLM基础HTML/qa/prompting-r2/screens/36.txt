@@ -1,0 +1,27 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=36&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=36&s=1
+	2 container
+		3 container Description: 第36页 跨领域借解：原始Prompt, ID: mount
+			4 container 第36页 跨领域借解：原始Prompt
+				5 heading 跨领域借解：原始Prompt, Value: 1
+					6 text 跨领域借解：原始Prompt
+				7 container 课件内容
+					8 container
+						9 text 借用解决机制，同时检查迁移条件与失效条件。 原始Prompt 接续左栏
+						10 text 我的困惑是：【说明背景、当前做法、现实约束和具体卡点】。
+						11 text 请先剥掉行业术语，把它抽象成一个人类在其他领域也可能遇到的问题，并找出：
+						12 text 1. 问题的底层结构；
+						13 text 2. 真正的核心矛盾；
+						14 text 3. 普通解法失效的原因。
+						15 text 然后从历史案例，以及至少3个彼此距离较远的领域中，寻找底层结构相似的问题。
+						16 text 每个案例都要说明：
+						17 text 1. 那个领域遇到了什么问题；
+						18 text 2. 使用了什么解决机制；
+						19 text 3. 与我的问题相似在哪里；
+						20 text 4. 哪些部分可以迁移；
+						21 text 5. 什么条件下会失效。
+						22 text 最后请选出最值得借用的3种机制，把它们翻译成适合我当前处境的解决方案，再推荐一个最值得先试的低成本、可逆实验。
+						23 text 《Prompting技巧》· 解决问题 · 第8–9页
+		24 text 第36页，跨领域借解：原始Prompt，整页显示
+
+The focused UI element is 3 container Description: 第36页 跨领域借解：原始Prompt, ID: mount

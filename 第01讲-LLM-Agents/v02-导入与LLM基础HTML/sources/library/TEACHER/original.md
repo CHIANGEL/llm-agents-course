@@ -1,0 +1,24 @@
+# 教师心得补充原文
+
+记录日期：2026-09-23。教师明确表示以下内容可以原封不动整合进第二讲。五项原文保留如下，原有模型名称、说话人编号及拼写不修改；具体说话人身份和外部出处未提供，不另行推断。对应内容已放入知识结构规划，技术说明与原文分开。
+
+1. **四件套公式：Who you are / Who I am / Objective / Example**
+   - **Who you are**：先设定模型角色，比如“你是 Einstein”“你是某领域 world-class large language expert”。
+   - **Who I am**：写清楚“我是谁”、背景、上下文。例如“我是 startup founder，没有 coding 经验，现在遇到什么问题”。
+   - **Objective**：明确目标、最终要什么结果，最好写“最理想的结果”。
+   - **Example**：能给例子就给例子，模型会解析并 generalize。
+2. **不要过度干预解决步骤**
+   - 说话人 5 说，把 who / context / objective / example 放完后，**不要给太多干预**，不要规定“你必须这样解决”。
+   - 让大模型发挥创造力，你给终点和理想结果即可。
+3. **让 LLM 自己改 prompt**
+   - 先写一个 initial prompt。
+   - 然后对模型说：`you are GPT 5.6，下面是我的 prompt，please critique, review and improve`。
+   - 再拿改进后的 prompt 去用。
+   - 还要告诉它：**optimize for which model**，因为不同模型优化出来的 prompt 不一样。
+4. **理解 prompt 的原理**
+   - 有人提到：prompt engineering 本质是在 next token prediction 的概率分布上做约束，相当于“constrained probability 抽卡”。即使是一样的promp，我会选择用重试，多抽几轮（尤其是论文润色的时候）
+   - 同一个模型，prompt 不同，结果会差很多，因为你是在 specify 约束。
+5. **用 eval / 测试集来优化 prompt**
+   - 说话人 1 补充：一定要做好 eval，就是一组 tests，你的系统必须通过。
+   - 有一套 test 后，很多时候可以让系统自己 optimize 它的 prompt，直到所有 test 通过。
+   - 如果让 LLM 自己生成 test，要告诉它 domain knowledge，并检查它是否生成了 random、peripheral、irrelevant 的测试。

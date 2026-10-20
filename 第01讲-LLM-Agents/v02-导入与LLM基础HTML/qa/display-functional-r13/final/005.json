@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 5,
+  "text": "先看一次完整的生成\n任务：用一句简短、正式的话，通知今天的讲座取消。\n输入的要求\nWrite one short formal sentence announcing that the lecture scheduled for today has been cancelled.\n完整生成结果\nThe lecture scheduled for today has been cancelled.\n原定于今天的讲座已取消。\nToken是生成文本的单位，可以是词、词的一部分、标点或特殊标记。\nSmolLM2-135M-Instruct · 每一步选择概率最高的候选\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n1.1 连续生成\n1.2 多轮聊天\n1.3 LLM小结",
+  "title": "第5页 先看一次完整的生成"
+}

@@ -1,0 +1,170 @@
+{
+  "checked_at": "2026-10-18",
+  "source_url": "https://claude.com/resources/articles/integrations",
+  "source_title": "Claude can now connect to your world",
+  "published": "2025-05-01",
+  "support": "Intercom Fin can file bugs in Linear when users report issues.",
+  "quoted_words": "filing bugs in Linear when users report issues",
+  "course_analysis": "Slides use the published business capability and the original course tool loop to explain responsibilities; no internal Fin API, actual ticket ID, revenue or ROI is inferred.",
+  "weather_execution": "Original archive records local parsing, dispatch, file read, message append and template rendering. Assistant call and answer are composed teaching material; fixture is fixed. No live query is added.",
+  "computer_use": "Original interface archive has observation/action syntax. Window graphics in HTML explain the mechanism and are not screenshots of an executed application.",
+  "missing_location": "Derived instructional branch; no new execution event is asserted.",
+  "archive_manifest": [
+    {
+      "path": "computer_use/README.md",
+      "sha256": "e2d507a297b44b4a2c10c1197b4c87a1a9f71b65c14e4313fd8d873da2090242"
+    },
+    {
+      "path": "computer_use/click.js",
+      "sha256": "8022dfbb25540fe48ce8b41bcc4d64c557790b8be0e0f372907dc92c0b405c2a"
+    },
+    {
+      "path": "computer_use/observe.js",
+      "sha256": "b98607fd63845bc4d50993ae551013cd34a4ec956b239c10e35bf56e13ee099f"
+    },
+    {
+      "path": "computer_use/observe_after.js",
+      "sha256": "863fe8e1cb5367c894ef17c7ff38370044c33285467b926823d94fd7b906d314"
+    },
+    {
+      "path": "computer_use/source/origin.json",
+      "sha256": "9014ab43da6adaf353a6d4fde043897691ff4c739c8479a11b462e868a64e786"
+    },
+    {
+      "path": "computer_use/source/本机接口说明摘录.md",
+      "sha256": "40191b8871a8ea3c8995ebc2ee45e5e6574bc5716b8d0d7016b82d57aa6e2709"
+    },
+    {
+      "path": "tool_call_text/README.md",
+      "sha256": "bc8c7e38bc14f80363cc369ef79c05f8376b05f88f144d115694ffd23c55130b"
+    },
+    {
+      "path": "tool_call_text/data/01_messages.py",
+      "sha256": "1a7208d2d81c9251fd41edea38828ed8f66e561b48f730526256f4e6e2632de2"
+    },
+    {
+      "path": "tool_call_text/data/02_tools.py",
+      "sha256": "ca488093b0f13aaaad8abbf858bd6fe37d3d52f24e4327bc81113fffb9f8e564"
+    },
+    {
+      "path": "tool_call_text/data/03_round1_complete.txt",
+      "sha256": "4b48b8e572730e65de22d461e0129b024e441792ceaa492b1d3b51d0bd220b52"
+    },
+    {
+      "path": "tool_call_text/data/03_round1_part1.txt",
+      "sha256": "bed8085142177b8461889099a19a0524da0a2e1ebbc5d04eccba61e70ae43819"
+    },
+    {
+      "path": "tool_call_text/data/03_round1_part2.txt",
+      "sha256": "1b1c5c42c458a2b1b5e6a0a3c0854edb61531e08e1b2e4456ee31c3e33b1a6cd"
+    },
+    {
+      "path": "tool_call_text/data/03_round1_part3.txt",
+      "sha256": "63e77bf7e560f24a2be21a45ff8c33fb2f1a8a86d9d3c66e5e269852b0f4024c"
+    },
+    {
+      "path": "tool_call_text/data/04_assistant_call_illustrative.txt",
+      "sha256": "f1c147f687e1565af4bc14a928b2855bbaeb87ac0e6d0db53f0d89237869c081"
+    },
+    {
+      "path": "tool_call_text/data/05_parsed_call.json",
+      "sha256": "82c0251153d03c700b037347f16fa126352febcb6755e58bcfa5c2973b8907b6"
+    },
+    {
+      "path": "tool_call_text/data/06_tool_result.txt",
+      "sha256": "dfe1b4966d641f6fc39ee86b399b8127e0563d5b8196a2fefc866535af2e768e"
+    },
+    {
+      "path": "tool_call_text/data/07_assistant_message.py",
+      "sha256": "db598d73d8bf656d38c2f930785937129df41d9ec770fc744f386e19709b064d"
+    },
+    {
+      "path": "tool_call_text/data/07_messages_after_tool.json",
+      "sha256": "76bc37844092c5468745e00ab97fe5c05924ce517e9dcd4733ebe3e182e174c9"
+    },
+    {
+      "path": "tool_call_text/data/07_messages_after_tool.py",
+      "sha256": "9c158ee458a55f5c7beb06146464d224e29ca7d9256fbe756a84e95982e888fe"
+    },
+    {
+      "path": "tool_call_text/data/07_tool_message.py",
+      "sha256": "5697fed6aa23e735c93ccd448c00b61291eba7d080ffa1027a6f8ac02e2b84ab"
+    },
+    {
+      "path": "tool_call_text/data/08_round2_complete.txt",
+      "sha256": "5c40689322b6d49d133326a199846073ae0d7015a4dab47f0afe4ec77b163376"
+    },
+    {
+      "path": "tool_call_text/data/08_round2_new_tail.txt",
+      "sha256": "7b89dccb93ec4bbaf98a8b4252484aea0947647c316046f09f856180eea6a14f"
+    },
+    {
+      "path": "tool_call_text/data/08_round2_part1_unchanged.txt",
+      "sha256": "1bb3d951f0445592bc76e69f68a8438603239535424146ff21205f0dcd2255c4"
+    },
+    {
+      "path": "tool_call_text/data/08_round2_part2_assistant.txt",
+      "sha256": "933f9e58dc7760b9c479b74056dd390a0bfd2e8d166989cbcc0fc3a0e00a5363"
+    },
+    {
+      "path": "tool_call_text/data/08_round2_part3_tool.txt",
+      "sha256": "ec1758dd294108c42f943b46ae840851f467ac8c56bd83b5ecb3f874e1046acb"
+    },
+    {
+      "path": "tool_call_text/data/08_round2_part4_prefix.txt",
+      "sha256": "fb3832354a86f4328bdfbf33691473fc7c08824ff6bd056f4b90c95d7fe9eaa4"
+    },
+    {
+      "path": "tool_call_text/data/09_assistant_answer_illustrative.txt",
+      "sha256": "f5e10f523f8c34a584968656674760dc0e052c9a04b02ceb6df4d11b3a649f12"
+    },
+    {
+      "path": "tool_call_text/data/10_final_messages.json",
+      "sha256": "fec7f779d950f628179c83501365b81a379c93fe4569382598a1d90449c13248"
+    },
+    {
+      "path": "tool_call_text/data/append_snippet.py",
+      "sha256": "485935f5b904f3b3b7df7e21db2866c3b2a89c5e031c4f6f68f2fa70c424dd7d"
+    },
+    {
+      "path": "tool_call_text/data/artifact_sha256.json",
+      "sha256": "dd5bd416722eef6fcd9d64d4038482ae0715b3f8c8041e2f51ad3723a716bf2b"
+    },
+    {
+      "path": "tool_call_text/data/dispatch_snippet.py",
+      "sha256": "7ecf553f341ba69c97872c2f47f6d3bc97aea0b592265464caa83909dbde8e1c"
+    },
+    {
+      "path": "tool_call_text/data/execution_events.json",
+      "sha256": "f1fb1ad299136d21bb77ece1b906b2a9992dc401fba78a3ad01978b390140541"
+    },
+    {
+      "path": "tool_call_text/data/parse_snippet.py",
+      "sha256": "65de8376f78248eb771362431551cb26a8738a9d7f31719b8956241d7f470cee"
+    },
+    {
+      "path": "tool_call_text/data/verification.json",
+      "sha256": "89f99413d7bc5925697343e8bb2f7b1c9ed2e7acbdaff3bdca2a7e557a6209d2"
+    },
+    {
+      "path": "tool_call_text/data/weather_fixture.json",
+      "sha256": "1ae63bd293f49fb90008dac382cb2a17c9e21e152c6d5a6321f4ae7eb6f27b22"
+    },
+    {
+      "path": "tool_call_text/prepare_demo.py",
+      "sha256": "6a5ce8cacd749a195a37d520f3ebf095dda0e6c552c3d9749464282a9e8d3bb4"
+    },
+    {
+      "path": "tool_call_text/source/LICENSE",
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    {
+      "path": "tool_call_text/source/origin.json",
+      "sha256": "435736e800651d756d8a01794ff000f55773095cc051be898d5d8d7ac707ff52"
+    },
+    {
+      "path": "tool_call_text/source/tokenizer_config.json",
+      "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+    }
+  ]
+}

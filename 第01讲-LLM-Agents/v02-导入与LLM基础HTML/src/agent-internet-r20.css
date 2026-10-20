@@ -1,0 +1,20 @@
+.e20{position:relative;width:1504px;height:718px;font-size:32px;line-height:1.45;color:#162a47;font-weight:400}
+.e20-at{position:absolute}.e20 img{object-fit:contain}
+.e20-lead{font-size:34px;font-weight:700;color:var(--ink)}
+.e20-heading{font-size:36px;font-weight:700;color:var(--ink)}
+.e20-heading span{font-size:29px;font-weight:400;margin-left:9px;color:#52627a}
+.e20-links{position:absolute;inset:0;width:1504px;height:590px;pointer-events:none}
+.e20-entity b{font-size:32px;font-weight:700;color:var(--ink);white-space:nowrap}
+.e20-entity small{display:block;margin-top:8px;font-size:25px;color:#52627a;white-space:nowrap}
+.e20-user{font-size:23px;text-align:center;color:#52627a}
+.e20-protocol{text-align:center;font-size:36px;font-weight:700;color:var(--chapter-red)}
+.e20-exchange{text-align:center;font-size:25px;color:#52627a;white-space:nowrap}
+.e20-mcp{font-size:29px;font-weight:700;color:var(--ink)}
+.e20-services{height:92px;display:flex;align-items:center;gap:64px;padding:0 37px;border:2px solid #b6cadf;border-radius:14px;background:#f3f7fb;box-sizing:border-box}
+.e20-services>b{font-size:32px;color:var(--ink);margin-right:10px;white-space:nowrap}
+.e20-service{display:flex;align-items:center;gap:14px;white-space:nowrap;font-size:30px}
+.e20-service svg,.e20-service img{width:57px;height:57px}
+.e20-more{color:#52627a;font-size:30px}
+.e20-conclusion{font-size:31px;font-weight:700;color:var(--ink)}
+.e20-red{color:var(--chapter-red)}
+.e20-condition{font-size:28px;color:#52627a}

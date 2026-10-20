@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-18",
+  "source": "https://claude.com/customers/box",
+  "title": "Box builds document creation into its AI agent with Claude",
+  "sections": [
+    "The solution: Pre-built skills connected to the path Box already trusted",
+    "The outcome: financial summary flow"
+  ],
+  "support": {
+    "材料": "Box Agent搜索文件夹，找到上一份季度报告和近期月度更新，提取有关数据。",
+    "制作": "通过Skills API获得文档制作能力，形成有格式的财务摘要幻灯片草稿，团队继续补充分析。",
+    "后续": "后续电子表格要求复用已找到的资料。"
+  },
+  "short_quote": "previous quarterly report and recent monthly updates",
+  "archive_notes": "保存的jupyter-notebook包来自原课程本地快照；它与Box案例分别解释方法文件和企业流程。Box内部Skill文件及财务数据未公开，因此课件没有补造这些文件与数值。",
+  "independent_review": {
+    "checked_on": "2026-10-19",
+    "method": "重新打开官方页面并对照第99–102页全部状态与材料",
+    "source": "https://claude.com/customers/box",
+    "support_sections": [
+      "The solution: Pre-built skills connected to the path Box already trusted",
+      "The outcome: financial summary flow"
+    ],
+    "conclusion": "季度报告、月度更新、格式化草稿、团队补分析、后续表格复用均得到原文支持。未增加企业内部文件和数值。"
+  }
+}

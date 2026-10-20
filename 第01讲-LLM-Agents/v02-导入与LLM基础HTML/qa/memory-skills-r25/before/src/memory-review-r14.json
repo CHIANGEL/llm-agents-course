@@ -1,0 +1,868 @@
+{
+  "pages": [
+    {
+      "page": 6101,
+      "renderer": 6101,
+      "navigation": "3.3",
+      "section": "Memory",
+      "type": "explanation",
+      "title": "记忆库：条目与图谱",
+      "seconds": 50,
+      "show_sources": false,
+      "on_slide": [
+        "记忆库：条目与图谱",
+        "文档A保存试点预算，文档B保存安全要求。条目可以分别保存事实，也可以汇总两个文档；图谱通过“企业知识库”这一共同对象关联两个来源的信息。"
+      ],
+      "talk": "文档A保存试点预算，文档B保存安全要求。条目可以分别保存事实，也可以汇总两个文档；图谱通过“企业知识库”这一共同对象关联两个来源的信息。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "记忆库：许多条目，或一张关系图"
+        }
+      ]
+    },
+    {
+      "page": 6102,
+      "renderer": 6102,
+      "navigation": "3.3",
+      "section": "Memory",
+      "type": "subagenda",
+      "title": "Memory：本节内容",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "Memory：本节内容",
+        "已讲完记忆的保存、组织和增删改查。下面讨论无关记忆对任务的干扰。"
+      ],
+      "talk": "已讲完记忆的保存、组织和增删改查。下面讨论无关记忆对任务的干扰。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "Memory：接下来讲什么？"
+        }
+      ]
+    },
+    {
+      "page": 6103,
+      "renderer": 6103,
+      "navigation": "3.3",
+      "section": "Memory",
+      "type": "subagenda",
+      "title": "Memory：本节内容",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "Memory：本节内容",
+        "已讲完记忆的适用性和任务干扰。下面讨论个性化与主动式智能体，以及对用户和平台的影响。"
+      ],
+      "talk": "已讲完记忆的适用性和任务干扰。下面讨论个性化与主动式智能体，以及对用户和平台的影响。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "Memory：接下来讲什么？"
+        }
+      ]
+    },
+    {
+      "page": 6104,
+      "renderer": 6104,
+      "navigation": "3.3",
+      "section": "Memory",
+      "type": "explanation",
+      "title": "平台对智能体的限制，已经在发生",
+      "seconds": 65,
+      "show_sources": false,
+      "on_slide": [
+        "平台对智能体的限制，已经在发生",
+        "2026年9月21日，Axios报道Amazon限制Muse浏览和购物。2026年10月14日，界面新闻报道151款应用声明拒绝豆包手机助手GUI操作，包括微信、淘宝、美团等，用户仍可手动使用。用户授权智能体代办，平台仍可拒绝自动操作。"
+      ],
+      "talk": "2026年9月21日，Axios报道Amazon限制Muse浏览和购物。2026年10月14日，界面新闻报道151款应用声明拒绝豆包手机助手GUI操作，包括微信、淘宝、美团等，用户仍可手动使用。用户授权智能体代办，平台仍可拒绝自动操作。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "平台对智能体的限制，已经在发生"
+        }
+      ]
+    },
+    {
+      "page": 6105,
+      "renderer": 6105,
+      "navigation": "3.3",
+      "section": "Memory",
+      "type": "subagenda",
+      "title": "Memory：本节内容",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "Memory：本节内容",
+        "已讲完记忆的保存与使用、任务干扰、个性化与主动式智能体。下面用Codex采购案例解释记忆怎样参与文本生成。"
+      ],
+      "talk": "已讲完记忆的保存与使用、任务干扰、个性化与主动式智能体。下面用Codex采购案例解释记忆怎样参与文本生成。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "Memory：接下来讲什么？"
+        }
+      ]
+    },
+    {
+      "page": 6106,
+      "renderer": 6106,
+      "navigation": "3.3",
+      "section": "Memory",
+      "type": "explanation",
+      "title": "Codex CLI的记忆系统",
+      "seconds": 70,
+      "show_sources": false,
+      "on_slide": [
+        "Codex CLI的记忆系统",
+        "记忆保存在文件中，怎样参与模型的文本生成？Codex CLI是OpenAI的开源智能体应用，可以查看客户端如何读取记忆、组织输入。这套实现以摘要和详细条目为基础，采用渐进式披露。采购案例依次展示文件、输入、工具读取、回答与更新条件。"
+      ],
+      "talk": "记忆保存在文件中，怎样参与模型的文本生成？Codex CLI是OpenAI的开源智能体应用，可以查看客户端如何读取记忆、组织输入。这套实现以摘要和详细条目为基础，采用渐进式披露。采购案例依次展示文件、输入、工具读取、回答与更新条件。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "从记忆架构，到一次模型输入"
+        }
+      ]
+    },
+    {
+      "page": 6107,
+      "renderer": 6107,
+      "navigation": "3.3",
+      "section": "Memory",
+      "type": "explanation",
+      "title": "Codex CLI的记忆文件目录",
+      "seconds": 55,
+      "show_sources": false,
+      "on_slide": [
+        "Codex CLI的记忆文件目录",
+        "memories_v2目录中，memory_summary.md保存常用要点和详细记录的路径；rollout_summaries目录中的pilot-budget.md与security-requirements.md分别保存预算范围与安全要求。"
+      ],
+      "talk": "memories_v2目录中，memory_summary.md保存常用要点和详细记录的路径；rollout_summaries目录中的pilot-budget.md与security-requirements.md分别保存预算范围与安全要求。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "先看目录：摘要与详细记录放在哪里？"
+        }
+      ]
+    },
+    {
+      "page": 6108,
+      "renderer": 6031,
+      "navigation": "3.3",
+      "section": "Memory",
+      "type": "explanation",
+      "title": "模型生成采购评审要点",
+      "seconds": 55,
+      "show_sources": false,
+      "on_slide": [
+        "模型生成采购评审要点",
+        "模型根据当前任务、记忆摘要和预算记录生成采购评审要点。回答说明正式部署需要重新估算，并把正式预算、上线时间和验收要求列为待确认项。"
+      ],
+      "talk": "模型根据当前任务、记忆摘要和预算记录生成采购评审要点。回答说明正式部署需要重新估算，并把正式预算、上线时间和验收要求列为待确认项。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "模型怎样把记忆用进回答？"
+        }
+      ]
+    },
+    {
+      "page": 6201,
+      "renderer": 6201,
+      "navigation": "3.2",
+      "section": "工具调用",
+      "type": "subagenda",
+      "title": "工具调用：接下来讲什么？",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "工具调用：接下来讲什么？",
+        "已讲完：获取外部信息、对外部产生影响。接下来：从天气查询看完整的一来一回。"
+      ],
+      "talk": "已讲完：获取外部信息、对外部产生影响。接下来：从天气查询看完整的一来一回。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "工具调用：接下来讲什么？"
+        }
+      ]
+    },
+    {
+      "page": 6202,
+      "renderer": 6202,
+      "navigation": "3.2",
+      "section": "工具调用",
+      "type": "subagenda",
+      "title": "工具调用：接下来讲什么？",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "工具调用：接下来讲什么？",
+        "已讲完：调用格式、工具返回与连续文本生成。接下来：把相同机制放进Computer Use等复杂应用。"
+      ],
+      "talk": "已讲完：调用格式、工具返回与连续文本生成。接下来：把相同机制放进Computer Use等复杂应用。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "工具调用：接下来讲什么？"
+        }
+      ]
+    },
+    {
+      "page": 6203,
+      "renderer": 6203,
+      "navigation": "3.4",
+      "section": "Skills",
+      "type": "subagenda",
+      "title": "Skills：接下来讲什么？",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "Skills：接下来讲什么？",
+        "已讲完：技能包中各文件的作用。接下来：沿着同一个任务走完一次调用。"
+      ],
+      "talk": "已讲完：技能包中各文件的作用。接下来：沿着同一个任务走完一次调用。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "Skills：接下来讲什么？"
+        }
+      ]
+    },
+    {
+      "page": 6204,
+      "renderer": 6204,
+      "navigation": "3.4",
+      "section": "Skills",
+      "type": "subagenda",
+      "title": "Skills：接下来讲什么？",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "Skills：接下来讲什么？",
+        "已讲完：按需读取方法、执行脚本、检查与回答。接下来：合成自己的Skill，再评估、迁移和维护。"
+      ],
+      "talk": "已讲完：按需读取方法、执行脚本、检查与回答。接下来：合成自己的Skill，再评估、迁移和维护。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "Skills：接下来讲什么？"
+        }
+      ]
+    },
+    {
+      "page": 6205,
+      "renderer": 6205,
+      "navigation": "3.5",
+      "section": "Protocols",
+      "type": "subagenda",
+      "title": "Protocols：接下来讲什么？",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "已讲完：共同规则为什么能减少系统间的重复对接",
+        "接下来：MCP怎样连接工具与数据"
+      ],
+      "talk": "已讲完：共同规则为什么能减少系统间的重复对接。接下来：MCP怎样连接工具与数据。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "Protocols：接下来讲什么？"
+        }
+      ]
+    },
+    {
+      "page": 6206,
+      "renderer": 6206,
+      "navigation": "3.5",
+      "section": "Protocols",
+      "type": "subagenda",
+      "title": "Protocols：接下来讲什么？",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "已讲完：MCP怎样统一工具接入",
+        "接下来：A2A怎样向另一个智能体委托任务"
+      ],
+      "talk": "已讲完：MCP怎样统一工具接入。接下来：A2A怎样向另一个智能体委托任务。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "Protocols：接下来讲什么？"
+        }
+      ]
+    },
+    {
+      "page": 6207,
+      "renderer": 6207,
+      "navigation": "3.6",
+      "section": "Harness",
+      "type": "subagenda",
+      "title": "Harness：接下来讲什么？",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "Harness：接下来讲什么？",
+        "已讲完：上下文选择、压缩与清理。接下来：约束操作范围与执行权限。"
+      ],
+      "talk": "已讲完：上下文选择、压缩与清理。接下来：约束操作范围与执行权限。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "Harness：接下来讲什么？"
+        }
+      ]
+    },
+    {
+      "page": 6208,
+      "renderer": 6208,
+      "navigation": "3.6",
+      "section": "Harness",
+      "type": "subagenda",
+      "title": "Harness：接下来讲什么？",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "Harness：接下来讲什么？",
+        "已讲完：沙盒边界与操作授权。接下来：用Hooks安排事件发生后的固定动作。"
+      ],
+      "talk": "已讲完：沙盒边界与操作授权。接下来：用Hooks安排事件发生后的固定动作。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "Harness：接下来讲什么？"
+        }
+      ]
+    },
+    {
+      "page": 6209,
+      "renderer": 6209,
+      "navigation": "3.6",
+      "section": "Harness",
+      "type": "subagenda",
+      "title": "Harness：接下来讲什么？",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "Harness：接下来讲什么？",
+        "已讲完：Hooks的触发时机、动作与检查。接下来：把可拆分的任务交给子智能体。"
+      ],
+      "talk": "已讲完：Hooks的触发时机、动作与检查。接下来：把可拆分的任务交给子智能体。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "Harness：接下来讲什么？"
+        }
+      ]
+    },
+    {
+      "page": 6210,
+      "renderer": 6210,
+      "navigation": "3.6",
+      "section": "Harness",
+      "type": "subagenda",
+      "title": "Harness：接下来讲什么？",
+      "seconds": 25,
+      "show_sources": false,
+      "on_slide": [
+        "Harness：接下来讲什么？",
+        "已讲完：子任务分工、独立输入与汇总。接下来：保存进度，中断后恢复工作。"
+      ],
+      "talk": "已讲完：子任务分工、独立输入与汇总。接下来：保存进度，中断后恢复工作。",
+      "sources": [
+        {
+          "id": "MEMORY_REVIEW_R14",
+          "locator": "Harness：接下来讲什么？"
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "6101": "文档A保存试点预算，文档B保存安全要求。条目可以分别保存事实，也可以汇总两个文档；图谱通过“企业知识库”这一共同对象关联两个来源的信息。",
+    "6102": "已讲完记忆的保存、组织和增删改查。下面讨论无关记忆对任务的干扰。",
+    "6103": "已讲完记忆的适用性和任务干扰。下面讨论个性化与主动式智能体，以及对用户和平台的影响。",
+    "6104": "2026年9月21日，Axios报道Amazon限制Muse浏览和购物。2026年10月14日，界面新闻报道151款应用声明拒绝豆包手机助手GUI操作，包括微信、淘宝、美团等，用户仍可手动使用。用户授权智能体代办，平台仍可拒绝自动操作。",
+    "6105": "已讲完记忆的保存与使用、任务干扰、个性化与主动式智能体。下面用Codex采购案例解释记忆怎样参与文本生成。",
+    "6106": "记忆保存在文件中，怎样参与模型的文本生成？Codex CLI是OpenAI的开源智能体应用，可以查看客户端如何读取记忆、组织输入。这套实现以摘要和详细条目为基础，采用渐进式披露。采购案例依次展示文件、输入、工具读取、回答与更新条件。",
+    "6107": "memories_v2目录中，memory_summary.md保存常用要点和详细记录的路径；rollout_summaries目录中的pilot-budget.md与security-requirements.md分别保存预算范围与安全要求。",
+    "6108": "模型根据当前任务、记忆摘要和预算记录生成采购评审要点。回答说明正式部署需要重新估算，并把正式预算、上线时间和验收要求列为待确认项。",
+    "6201": "工具调用：接下来讲什么？\n\n已讲完：获取外部信息、对外部产生影响。接下来：从天气查询看完整的一来一回。",
+    "6202": "工具调用：接下来讲什么？\n\n已讲完：调用格式、工具返回与连续文本生成。接下来：把相同机制放进Computer Use等复杂应用。",
+    "6203": "Skills：接下来讲什么？\n\n已讲完：技能包中各文件的作用。接下来：沿着同一个任务走完一次调用。",
+    "6204": "Skills：接下来讲什么？\n\n已讲完：按需读取方法、执行脚本、检查与回答。接下来：合成自己的Skill，再评估、迁移和维护。",
+    "6205": "已讲完：共同规则为什么能减少系统间的重复对接\n\n接下来：MCP怎样连接工具与数据",
+    "6206": "已讲完：MCP怎样统一工具接入\n\n接下来：A2A怎样向另一个智能体委托任务",
+    "6207": "Harness：接下来讲什么？\n\n已讲完：上下文选择、压缩与清理。接下来：约束操作范围与执行权限。",
+    "6208": "Harness：接下来讲什么？\n\n已讲完：沙盒边界与操作授权。接下来：用Hooks安排事件发生后的固定动作。",
+    "6209": "Harness：接下来讲什么？\n\n已讲完：Hooks的触发时机、动作与检查。接下来：把可拆分的任务交给子智能体。",
+    "6210": "Harness：接下来讲什么？\n\n已讲完：子任务分工、独立输入与汇总。接下来：保存进度，中断后恢复工作。"
+  },
+  "insertions": [
+    {
+      "page": 6101,
+      "before": 7404
+    },
+    {
+      "page": 6102,
+      "before": 7409
+    },
+    {
+      "page": 6103,
+      "before": 7412
+    },
+    {
+      "page": 6104,
+      "before": 7416
+    },
+    {
+      "page": 6105,
+      "before": 7417
+    },
+    {
+      "page": 6106,
+      "before": 7417
+    },
+    {
+      "page": 6107,
+      "before": 7418
+    },
+    {
+      "page": 6108,
+      "before": 7425
+    },
+    {
+      "page": 6201,
+      "before": 54
+    },
+    {
+      "page": 6202,
+      "before": 66
+    },
+    {
+      "page": 6203,
+      "before": 8907
+    },
+    {
+      "page": 6204,
+      "before": 8916
+    },
+    {
+      "page": 6205,
+      "before": 8004
+    },
+    {
+      "page": 6206,
+      "before": 8010
+    },
+    {
+      "page": 6207,
+      "before": 8507
+    },
+    {
+      "page": 6208,
+      "before": 8509
+    },
+    {
+      "page": 6209,
+      "before": 8512
+    },
+    {
+      "page": 6210,
+      "before": 8516
+    }
+  ],
+  "roadmaps": {
+    "6102": {
+      "name": "Memory",
+      "rows": [
+        [
+          "保存与使用",
+          "存什么、怎样组织、增删改查"
+        ],
+        [
+          "作用与代价",
+          "任务干扰；个性化与主动式智能体"
+        ],
+        [
+          "Codex中的记忆",
+          "Codex：文件 → 输入 → 工具读取 → 继续生成"
+        ]
+      ],
+      "current": 1,
+      "done": "保存内容、组织方式与增删改查",
+      "next": "记忆对当前任务的干扰",
+      "image": "memory-r8/memory-decision.png",
+      "targets": [
+        7401,
+        7409,
+        6106
+      ],
+      "caption": "检索结果是否适用于当前任务？"
+    },
+    "6103": {
+      "name": "Memory",
+      "rows": [
+        [
+          "保存与使用",
+          "存什么、怎样组织、增删改查"
+        ],
+        [
+          "作用与代价",
+          "任务干扰；个性化与主动式智能体"
+        ],
+        [
+          "Codex中的记忆",
+          "Codex：文件 → 输入 → 工具读取 → 继续生成"
+        ]
+      ],
+      "current": 1,
+      "done": "是否采用记忆，要看当前任务与适用范围",
+      "next": "个性化与主动式智能体",
+      "image": "memory-r8/proactive.png",
+      "targets": [
+        7401,
+        7409,
+        6106
+      ],
+      "caption": "长期记忆与主动执行"
+    },
+    "6105": {
+      "name": "Memory",
+      "rows": [
+        [
+          "保存与使用",
+          "存什么、怎样组织、增删改查"
+        ],
+        [
+          "作用与代价",
+          "任务干扰；个性化与主动式智能体"
+        ],
+        [
+          "Codex中的记忆",
+          "Codex：文件 → 输入 → 工具读取 → 继续生成"
+        ]
+      ],
+      "current": 2,
+      "done": "保存与使用；任务干扰；用户与平台的影响",
+      "next": "Codex采购案例：记忆如何参与文本生成",
+      "image": "memory-r8/cross-session.png",
+      "targets": [
+        7401,
+        7409,
+        6106
+      ],
+      "caption": "跨会话保存与读取"
+    },
+    "6201": {
+      "name": "工具调用",
+      "rows": [
+        [
+          "交互的两种方向",
+          "从外部取得信息；对外部产生影响"
+        ],
+        [
+          "一次天气查询",
+          "特定格式 → 执行 → 返回 → 继续生成"
+        ],
+        [
+          "复杂应用中的工具调用",
+          "Computer Use与连续任务，再回到整体"
+        ]
+      ],
+      "current": 1,
+      "done": "获取外部信息、对外部产生影响",
+      "next": "从天气查询看完整的一来一回",
+      "image": "protocols-r10/weather.png",
+      "targets": [
+        53,
+        54,
+        66
+      ]
+    },
+    "6202": {
+      "name": "工具调用",
+      "rows": [
+        [
+          "交互的两种方向",
+          "从外部取得信息；对外部产生影响"
+        ],
+        [
+          "一次天气查询",
+          "特定格式 → 执行 → 返回 → 继续生成"
+        ],
+        [
+          "复杂应用中的工具调用",
+          "Computer Use与连续任务，再回到整体"
+        ]
+      ],
+      "current": 2,
+      "done": "调用格式、工具返回与连续文本生成",
+      "next": "把相同机制放进Computer Use等复杂应用",
+      "image": "protocols-r10/two-interactions.png",
+      "targets": [
+        53,
+        54,
+        66
+      ]
+    },
+    "6203": {
+      "name": "Skills",
+      "rows": [
+        [
+          "完整技能包",
+          "入口说明、参考、脚本与模板"
+        ],
+        [
+          "一次调用全过程",
+          "渐进式披露 → 执行 → 检查 → 回答"
+        ],
+        [
+          "合成、评估与维护",
+          "提炼自己的方法；换任务验证；持续维护"
+        ]
+      ],
+      "current": 1,
+      "done": "技能包中各文件的作用",
+      "next": "沿着同一个任务走完一次调用",
+      "image": "skills-r9/file-structure.png",
+      "targets": [
+        8902,
+        8907,
+        8916
+      ]
+    },
+    "6204": {
+      "name": "Skills",
+      "rows": [
+        [
+          "完整技能包",
+          "入口说明、参考、脚本与模板"
+        ],
+        [
+          "一次调用全过程",
+          "渐进式披露 → 执行 → 检查 → 回答"
+        ],
+        [
+          "合成、评估与维护",
+          "提炼自己的方法；换任务验证；持续维护"
+        ]
+      ],
+      "current": 2,
+      "done": "按需读取方法、执行脚本、检查与回答",
+      "next": "合成自己的Skill，再评估、迁移和维护",
+      "image": "skills-r9/creation-cycle.png",
+      "targets": [
+        8902,
+        8907,
+        8916
+      ]
+    },
+    "6205": {
+      "name": "Protocols",
+      "rows": [
+        [
+          "为什么需要协议",
+          "不同系统按共同规则交互"
+        ],
+        [
+          "MCP：连接工具与数据",
+          "统一接入，复用工具服务"
+        ],
+        [
+          "A2A：委托智能体",
+          "交代任务，补充信息，取得成果"
+        ]
+      ],
+      "current": 1,
+      "done": "共同规则为什么能减少系统间的重复对接",
+      "next": "MCP怎样连接工具与数据",
+      "image": "protocols-r10/two-interactions.png",
+      "targets": [
+        8002,
+        8004,
+        8010
+      ],
+      "caption": "从共同规则，到两种连接方式"
+    },
+    "6206": {
+      "name": "Protocols",
+      "rows": [
+        [
+          "为什么需要协议",
+          "不同系统按共同规则交互"
+        ],
+        [
+          "MCP：连接工具与数据",
+          "统一接入，复用工具服务"
+        ],
+        [
+          "A2A：委托智能体",
+          "交代任务，补充信息，取得成果"
+        ]
+      ],
+      "current": 2,
+      "done": "MCP怎样统一工具接入",
+      "next": "A2A怎样向另一个智能体委托任务",
+      "image": "protocols-r10/two-interactions.png",
+      "targets": [
+        8002,
+        8004,
+        8010
+      ],
+      "caption": "从共同规则，到两种连接方式"
+    },
+    "6207": {
+      "name": "Harness",
+      "rows": [
+        [
+          "上下文",
+          "选择材料、压缩过程、清理长输出"
+        ],
+        [
+          "沙盒与权限",
+          "限制操作范围，决定哪些动作需要放行"
+        ],
+        [
+          "Hooks",
+          "在指定事件发生时执行固定动作"
+        ],
+        [
+          "子智能体",
+          "拆分任务、隔离输入、汇总结果"
+        ],
+        [
+          "进度与恢复",
+          "保存位置，中断后核对并继续"
+        ]
+      ],
+      "current": 1,
+      "done": "上下文选择、压缩与清理",
+      "next": "约束操作范围与执行权限",
+      "image": "harness-r11/sandbox.png",
+      "targets": [
+        8504,
+        8507,
+        8509,
+        8512,
+        8516
+      ]
+    },
+    "6208": {
+      "name": "Harness",
+      "rows": [
+        [
+          "上下文",
+          "选择材料、压缩过程、清理长输出"
+        ],
+        [
+          "沙盒与权限",
+          "限制操作范围，决定哪些动作需要放行"
+        ],
+        [
+          "Hooks",
+          "在指定事件发生时执行固定动作"
+        ],
+        [
+          "子智能体",
+          "拆分任务、隔离输入、汇总结果"
+        ],
+        [
+          "进度与恢复",
+          "保存位置，中断后核对并继续"
+        ]
+      ],
+      "current": 2,
+      "done": "沙盒边界与操作授权",
+      "next": "用Hooks安排事件发生后的固定动作",
+      "image": "harness-r11/hooks.png",
+      "targets": [
+        8504,
+        8507,
+        8509,
+        8512,
+        8516
+      ]
+    },
+    "6209": {
+      "name": "Harness",
+      "rows": [
+        [
+          "上下文",
+          "选择材料、压缩过程、清理长输出"
+        ],
+        [
+          "沙盒与权限",
+          "限制操作范围，决定哪些动作需要放行"
+        ],
+        [
+          "Hooks",
+          "在指定事件发生时执行固定动作"
+        ],
+        [
+          "子智能体",
+          "拆分任务、隔离输入、汇总结果"
+        ],
+        [
+          "进度与恢复",
+          "保存位置，中断后核对并继续"
+        ]
+      ],
+      "current": 3,
+      "done": "Hooks的触发时机、动作与检查",
+      "next": "把可拆分的任务交给子智能体",
+      "image": "subagents-r21.svg",
+      "targets": [
+        8504,
+        8507,
+        8509,
+        8512,
+        8516
+      ]
+    },
+    "6210": {
+      "name": "Harness",
+      "rows": [
+        [
+          "上下文",
+          "选择材料、压缩过程、清理长输出"
+        ],
+        [
+          "沙盒与权限",
+          "限制操作范围，决定哪些动作需要放行"
+        ],
+        [
+          "Hooks",
+          "在指定事件发生时执行固定动作"
+        ],
+        [
+          "子智能体",
+          "拆分任务、隔离输入、汇总结果"
+        ],
+        [
+          "进度与恢复",
+          "保存位置，中断后核对并继续"
+        ]
+      ],
+      "current": 4,
+      "done": "子任务分工、独立输入与汇总",
+      "next": "保存进度，中断后恢复工作",
+      "image": "harness-r11/progress.png",
+      "targets": [
+        8504,
+        8507,
+        8509,
+        8512,
+        8516
+      ]
+    }
+  },
+  "sources": {
+    "MEMORY_REVIEW_R14": {
+      "title": "Memory与子章节衔接修订档案",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/memory-review-r14/来源与适配.md",
+      "href": "sources/memory-review-r14/来源与适配.md"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "broken": [],
+  "page": "108",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    },
+    {
+      "max": 0,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "agents/openai.yaml"
+  ],
+  "text": "从左侧选择文件；右侧查看原文、模板或图标。\njupyter-notebook / 12个文件\nSKILL.md\nreferences/tutorial-patterns.md\nreferences/experiment-patterns.md\nreferences/notebook-structure.md\nreferences/quality-checklist.md\nscripts/new_notebook.py\nassets/tutorial-template.ipynb\nassets/experiment-template.ipynb\nagents/openai.yaml\nassets/jupyter-small.svg\nassets/jupyter.png\nLICENSE.txt\n重置\nagents/openai.yaml\ninterface:\n  display_name: \"Jupyter Notebooks\"\n  short_description: \"Create Jupyter notebooks for experiments and tutorials\"\n  icon_small: \"./assets/jupyter-small.svg\"\n  icon_large: \"./assets/jupyter.png\"\n  default_prompt: \"Create a Jupyter notebook for this task with clear sections, runnable cells, and concise takeaways.\"\n\n\n客户端显示名称、简介、图标与默认请求。\n\n入口文件组织方法；参考、脚本与模板为具体任务提供可取用的资源。"
+}

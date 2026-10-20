@@ -1,0 +1,115 @@
+{
+  "strategy_id": 4,
+  "strategy_name": "横纵分析法",
+  "group": "学习",
+  "prepared_date": "2026-10-20",
+  "status": "pending_browser",
+  "template_source": "sources/prompting-r2/prompts.json",
+  "original_template": "研究对象是：【填写产品、公司、人物、技术、行业或事件】。\n\n请使用横纵分析法，对它完成一份可追溯的深度研究。研究截止时间为执行当天。\n\n纵向分析：\n1. 它在什么背景和需求下诞生，关键推动者是谁；\n2. 它经历了哪些重要转折、成功和失败；\n3. 哪些早期选择变成了今天的能力、路径依赖或包袱。\n\n横向分析：\n1. 选择最值得比较的对象，并说明为什么选它们；\n2. 用统一维度比较各自的强项、短板和独特性；\n3. 解释用户、客户或市场为什么选择它，又为什么放弃它。\n\n把两条轴合起来，继续判断：\n1. 过去形成的能力、路径依赖和约束会怎样影响未来；\n2. 未来最可能出现哪3条路径；\n3. 每条路径出现的前提和预警信号是什么。\n\n请遵守这些证据规则：\n1. 优先使用官方资料、原始数据、论文、财报和访谈等一手来源；\n2. 重要结论就近标注来源与日期；\n3. 事实、推断和观点分开写；\n4. 遇到冲突信息时并列呈现，找不到证据时明确写“暂未核实”。\n\n最后按以下顺序输出：核心结论、关键时间线、横向对比表、详细分析、未来判断、仍待确认的问题。",
+  "execution_policy": {
+    "separate_fresh_chats": true,
+    "same_platform_model_mode_per_pair": true,
+    "same_object_and_background_in_both_prompts": true,
+    "archive_full_prompts_and_full_replies": true,
+    "share_links_only_after_actual_UI_generation_and_verification": true,
+    "selection_rule": "实测后至少两个候选均独立比较；仅当策略产生可见的方法差异而非只有篇幅/标题差异，才选择一个链接对进入HTML。"
+  },
+  "browser_blocker": {
+    "attempts": [
+      {
+        "action": "cua.createBrowserTab('iab','https://chat.deepseek.com/',{visible:false})",
+        "result": "35.6秒后超时，kernel reset"
+      },
+      {
+        "action": "cua.getState()",
+        "result": "成功；本子代理独立侧边浏览器列出DeepSeek标签页"
+      },
+      {
+        "action": "cua.getTab('1',{browser:'iab'})",
+        "result": "30.0秒后超时，kernel reset"
+      }
+    ],
+    "submitted_prompts": 0,
+    "note": "没有提交任何聊天Prompt，没有模型回复，也没有创建共享链接。后续根代理负责连接恢复，准备工作不是演示实测。"
+  },
+  "candidates": [
+    {
+      "candidate_id": "costco",
+      "object": "Costco（开市客）的会员制仓储零售业务",
+      "placeholder_values": [
+        "Costco（开市客）的会员制仓储零售业务"
+      ],
+      "simple_prompt": "请深入研究Costco（开市客）的会员制仓储零售业务，研究截止时间为执行当天。",
+      "observation_points_to_test": [
+        "早期商业选择是否与今天的能力、约束形成因果解释，而非孤立公司年表。",
+        "比较对象是否有选择理由，比较维度是否统一并服务于顾客选择或放弃的解释。",
+        "三个未来路径是否真正由历史与横向竞争共同推出，并附前提和可观察信号。",
+        "重要数字是否能通过附近的一手来源与日期复查。"
+      ],
+      "selection_rationale_before_execution": "会员制、商品选择和门店体验对MBA学员较直观，容易分辨公司简介与有组织的商业研究。",
+      "rejection_conditions": [
+        "简单回答已经连起发展史、竞争比较与条件式未来路径。",
+        "策略回答仅增加篇幅，前景判断仍是通用表述，或出现无法追溯的最新财务数据。"
+      ],
+      "status": "pending_browser",
+      "platform": null,
+      "model_and_mode": null,
+      "simple_response": null,
+      "strategy_response": null,
+      "simple_conversation_url": null,
+      "strategy_conversation_url": null,
+      "simple_share_url": null,
+      "strategy_share_url": null,
+      "actual_comparison": null,
+      "intended_search_mode": "两边均开启同一种联网搜索模式；均以真实执行当天为截止时间。",
+      "strategy_prompt": "研究对象是：Costco（开市客）的会员制仓储零售业务。\n\n请使用横纵分析法，对它完成一份可追溯的深度研究。研究截止时间为执行当天。\n\n纵向分析：\n1. 它在什么背景和需求下诞生，关键推动者是谁；\n2. 它经历了哪些重要转折、成功和失败；\n3. 哪些早期选择变成了今天的能力、路径依赖或包袱。\n\n横向分析：\n1. 选择最值得比较的对象，并说明为什么选它们；\n2. 用统一维度比较各自的强项、短板和独特性；\n3. 解释用户、客户或市场为什么选择它，又为什么放弃它。\n\n把两条轴合起来，继续判断：\n1. 过去形成的能力、路径依赖和约束会怎样影响未来；\n2. 未来最可能出现哪3条路径；\n3. 每条路径出现的前提和预警信号是什么。\n\n请遵守这些证据规则：\n1. 优先使用官方资料、原始数据、论文、财报和访谈等一手来源；\n2. 重要结论就近标注来源与日期；\n3. 事实、推断和观点分开写；\n4. 遇到冲突信息时并列呈现，找不到证据时明确写“暂未核实”。\n\n最后按以下顺序输出：核心结论、关键时间线、横向对比表、详细分析、未来判断、仍待确认的问题。",
+      "template_integrity": {
+        "only_placeholder_substitution": true,
+        "original_placeholders": [
+          "【填写产品、公司、人物、技术、行业或事件】"
+        ],
+        "strategy_prompt_sha256": "d5b24858cae995a7a0d23c293844126bfac523005d447bfa830521017ae95900"
+      }
+    },
+    {
+      "candidate_id": "notion",
+      "object": "Notion（笔记与协作软件）",
+      "placeholder_values": [
+        "Notion（笔记与协作软件）"
+      ],
+      "simple_prompt": "请深入研究Notion（笔记与协作软件），研究截止时间为执行当天。",
+      "observation_points_to_test": [
+        "产品发展中的关键选择是否与今天的灵活性、学习成本和组织使用条件相连。",
+        "是否选取真正可比的替代方案，并用一致维度说明不同用户为什么选择或放弃它。",
+        "未来三条路径是否含明确前提和预警信号，事实与推断是否区分。",
+        "产品功能与价格若被引用，是否带有可检查的来源日期。"
+      ],
+      "selection_rationale_before_execution": "是具体可体验的软件产品，适合从产品发展、替代选择和AI变化三个角度观察分析结构。",
+      "rejection_conditions": [
+        "简单回答已提供同样完整的两条轴及其连接。",
+        "策略回答把尚未发生的功能或商业结果写成事实，或比较维度随对象改变。"
+      ],
+      "status": "pending_browser",
+      "platform": null,
+      "model_and_mode": null,
+      "simple_response": null,
+      "strategy_response": null,
+      "simple_conversation_url": null,
+      "strategy_conversation_url": null,
+      "simple_share_url": null,
+      "strategy_share_url": null,
+      "actual_comparison": null,
+      "intended_search_mode": "两边均开启同一种联网搜索模式；均以真实执行当天为截止时间。",
+      "strategy_prompt": "研究对象是：Notion（笔记与协作软件）。\n\n请使用横纵分析法，对它完成一份可追溯的深度研究。研究截止时间为执行当天。\n\n纵向分析：\n1. 它在什么背景和需求下诞生，关键推动者是谁；\n2. 它经历了哪些重要转折、成功和失败；\n3. 哪些早期选择变成了今天的能力、路径依赖或包袱。\n\n横向分析：\n1. 选择最值得比较的对象，并说明为什么选它们；\n2. 用统一维度比较各自的强项、短板和独特性；\n3. 解释用户、客户或市场为什么选择它，又为什么放弃它。\n\n把两条轴合起来，继续判断：\n1. 过去形成的能力、路径依赖和约束会怎样影响未来；\n2. 未来最可能出现哪3条路径；\n3. 每条路径出现的前提和预警信号是什么。\n\n请遵守这些证据规则：\n1. 优先使用官方资料、原始数据、论文、财报和访谈等一手来源；\n2. 重要结论就近标注来源与日期；\n3. 事实、推断和观点分开写；\n4. 遇到冲突信息时并列呈现，找不到证据时明确写“暂未核实”。\n\n最后按以下顺序输出：核心结论、关键时间线、横向对比表、详细分析、未来判断、仍待确认的问题。",
+      "template_integrity": {
+        "only_placeholder_substitution": true,
+        "original_placeholders": [
+          "【填写产品、公司、人物、技术、行业或事件】"
+        ],
+        "strategy_prompt_sha256": "eb5cb51619b517ebc27145aad645b99f1bc785f6cf992e60b0d7d428978aaac9"
+      }
+    }
+  ],
+  "selected_candidate_id": null,
+  "reviewer_decision": null
+}

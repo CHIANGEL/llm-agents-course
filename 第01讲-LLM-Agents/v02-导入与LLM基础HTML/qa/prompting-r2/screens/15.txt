@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=15&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=15&s=1
+	2 container
+		27 container Description: 第15页 Prompting：先交代任务，再选择方法, ID: mount
+			28 container 第15页 Prompting：先交代任务，再选择方法
+				29 heading Prompting：先交代任务，再选择方法, Value: 1
+					30 text Prompting：先交代任务，再选择方法
+				31 container 课件内容
+					32 container
+						33 text LLM根据输入继续生成。Prompting要把任务、材料和处理方式交代清楚。 先把任务交代清楚 四大要点
+						34 text 给Example
+						35 text 让模型写Prompt 再根据需要选择方法 问清问题 苏格拉底式提问 学习 双层解释 · 反向拆解
+						36 text 横纵分析 · 事实核查 解决问题 专家会诊 · 第一性原理
+						37 text 跨领域借解 决策 双向钢人 · 最小实验 背景与目标 → 示例标准
+						38 text → 完整可用的指令 先写清任务，再依次讲问清问题、学习、解决问题和决策。
+		39 text 第15页，Prompting：先交代任务，再选择方法，整页显示
+
+The focused UI element is 27 container Description: 第15页 Prompting：先交代任务，再选择方法, ID: mount

@@ -1,0 +1,120 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=117&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=117&s=1
+	2 container
+		57 container Description: 第117页 检查：取得要求，再打开实际产物, ID: mount
+			58 container 第117页 检查：取得要求，再打开实际产物
+				59 heading 检查：取得要求，再打开实际产物, Value: 1
+					60 text 检查：取得要求，再打开实际产物
+				61 container 课件内容
+					62 container
+						63 text 知道文件位置之后，再取得检查要求和Notebook的实际内容。
+						64 heading 当前环节, Value: 2
+							65 text 当前环节
+						66 checkbox 模型：读取检查清单 模型生成, Value: 0
+						67 checkbox 工具：返回检查清单 工具返回, Value: 0
+						68 checkbox 模型：读取生成文件 模型生成, Value: 0
+						69 checkbox 工具：返回Notebook内容 工具返回, Value: 1
+						70 text 先取得检查要求，再读取产物。
+						71 button 重置
+						72 checkbox 关键内容, Value: 1
+						73 checkbox 完整内容, Value: 0
+						74 checkbox 消息结构, Value: 0
+						75 checkbox 截至此处的内容, Value: 0
+						76 heading 工具：返回Notebook内容, Value: 2
+							77 text 工具：返回Notebook内容
+						78 text 单元1 · 说明
+# Tutorial: Python列表与平均值
+
+Audience:
+- Describe who this is for.
+
+Prerequisites:
+- List required concepts or setup.
+
+Learning goals:
+- By the end, the reader can...
+
+
+单元2 · 说明
+## Outline
+
+1. Setup
+2. A minimal working example
+3. Variations and pitfalls
+4. Exercises
+
+
+单元3 · 代码
+# Setup cell: keep it short and deterministic
+from __future__ import annotations
+
+import math
+import random
+
+SEED = 21
+random.seed(SEED)
+SEED
+
+
+单元4 · 说明
+## Step 1 - Start with a tiny example
+
+Explain what the next cell does in plain language.
+
+
+单元5 · 代码
+# Minimal working example
+angles = [0, math.pi / 4, math.pi / 2]
+sines = [math.sin(a) for a in angles]
+list(zip(angles, sines))
+
+
+单元6 · 说明
+## Exercises
+
+- Try a different input.
+- Predict the output before running the code.
+- Note one common mistake and how to fix it.
+
+
+单元7 · 代码
+# Exercise answer scaffold
+def describe(values: list[float]) -> dict[str, float]:
+    return {"min": min(values), "max": max(values)}
+
+describe(sines)
+
+						79 text 读回7个单元后，才能核对标题与实际保留的模板内容。
+						80 text 检查清单给出标准；打开产物后，把实际内容与本次“骨架”要求对照。
+				81 container 课程进度
+					82 button 导入
+					83 button 1. LLM基础
+					84 button 2. Prompting
+					85 button 3. Agents · Externalization & Internalization
+						86 text 3. Agents 
+						87 text · Externalization & Internalization
+					88 button 3.0 外化与内化总览
+					89 button 3.1 工具调用
+					90 button 3.2 Memory
+					91 button 3.3 Skills
+					92 button 3.4 Harness
+					93 button 3.5 外化与内化整合
+					94 button 3.6 全讲总结
+		42 container Description: 课件操作, ID: controls
+			43 button Description: 上一步, Help: 上一步（←）
+			44 button Description: 下一步, Help: 下一步（→或空格）
+			45 container jump-form
+				46 text 页码
+				47 stepper (settable, integer) Description: 页码, Value: 117, ID: page-input
+				48 text / 161
+			95 text 整页显示
+			50 button 目录
+			51 button 讲者备注
+			52 button 完整材料
+			53 button 放大图解
+			54 button 全屏
+			55 button 隐藏, Help: 按H恢复
+			56 button 操作说明
+		96 text 第117页，检查：取得要求，再打开实际产物，整页显示
+
+The focused UI element is 57 container Description: 第117页 检查：取得要求，再打开实际产物, ID: mount

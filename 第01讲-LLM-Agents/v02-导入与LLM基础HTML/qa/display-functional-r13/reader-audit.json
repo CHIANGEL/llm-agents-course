@@ -1,0 +1,320 @@
+[
+  {
+    "url": "http://127.0.0.1:8765/sources/library/PLAN/index.html",
+    "controls": [
+      {
+        "tag": "SUMMARY",
+        "text": "资料位置与版本",
+        "type": ""
+      }
+    ],
+    "headings": [
+      "MBA课程共识与制作规范"
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "http://127.0.0.1:8765/sources/library/PLAN/original.md",
+        "text": "下载原始文件"
+      }
+    ],
+    "title": "MBA课程共识与制作规范"
+  },
+  {
+    "url": "http://127.0.0.1:8765/sources/library/L1/index.html",
+    "controls": [
+      {
+        "tag": "SUMMARY",
+        "text": "资料位置与版本",
+        "type": ""
+      }
+    ],
+    "headings": [
+      "原课程第1讲 v09"
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "http://127.0.0.1:8765/sources/library/L1/original.json",
+        "text": "下载原始文件"
+      }
+    ],
+    "title": "原课程第1讲 v09"
+  },
+  {
+    "url": "http://127.0.0.1:8765/sources/llm-foundations/generation-reader.html",
+    "controls": [],
+    "headings": [
+      "通知生成记录",
+      "完整输入",
+      "完整生成过程",
+      "文件与复算"
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/generation-trace.json",
+        "text": "generation-trace.json"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/generation-display.json",
+        "text": "generation-display.json"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/input-chat-template.txt",
+        "text": "input-chat-template.txt"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/collect_trace.py",
+        "text": "collect_trace.py"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/verify_trace.py",
+        "text": "verify_trace.py"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/verification.json",
+        "text": "verification.json"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/provenance.json",
+        "text": "provenance.json"
+      },
+      {
+        "href": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct",
+        "text": "官方模型资料"
+      }
+    ],
+    "title": "通知生成记录"
+  },
+  {
+    "url": "http://127.0.0.1:8765/sources/llm-foundations/decoding/reader.html",
+    "controls": [],
+    "headings": [
+      "解码参数与完整分布",
+      "完整文件",
+      "官方参数说明"
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "http://127.0.0.1:8765/index.html#p=6&s=1",
+        "text": "返回第6页"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/decoding/distribution.json",
+        "text": "第一步完整词表分数与Token顺序"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/decoding/collect_distribution.py",
+        "text": "分布提取与参考计算脚本"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/decoding/reference-cases.json",
+        "text": "11组参数的参考结果"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/decoding/provenance.json",
+        "text": "模型版本与数据来源"
+      },
+      {
+        "href": "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TemperatureLogitsWarper",
+        "text": "Temperature"
+      },
+      {
+        "href": "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopKLogitsWarper",
+        "text": "Top-k"
+      },
+      {
+        "href": "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopPLogitsWarper",
+        "text": "Top-p"
+      }
+    ],
+    "title": "解码参数与完整分布"
+  },
+  {
+    "url": "http://127.0.0.1:8765/sources/llm-foundations/chat-reader.html",
+    "controls": [],
+    "headings": [
+      "聊天模板与三轮消息",
+      "多轮聊天：第一次提问",
+      "多轮聊天：接着问人数",
+      "多轮聊天：再问预算",
+      "原始材料"
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/chat-template/cases.json",
+        "text": "cases.json"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/chat-template/chat_01_template.txt",
+        "text": "chat_01_template.txt"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/chat-template/chat_02_template.txt",
+        "text": "chat_02_template.txt"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/chat-template/chat_03_template.txt",
+        "text": "chat_03_template.txt"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/chat-template/verification.json",
+        "text": "verification.json"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/llm-foundations/chat-template/prepare_case.py",
+        "text": "prepare_case.py"
+      },
+      {
+        "href": "https://huggingface.co/docs/transformers/en/chat_templating",
+        "text": "官方Chat templates说明"
+      }
+    ],
+    "title": "聊天模板与三轮消息"
+  },
+  {
+    "url": "http://127.0.0.1:8765/sources/tool-calling-r7/weather-text.html",
+    "controls": [
+      {
+        "tag": "SUMMARY",
+        "text": "第一次完整模型输入",
+        "type": ""
+      },
+      {
+        "tag": "SUMMARY",
+        "text": "模型生成的调用文本",
+        "type": ""
+      },
+      {
+        "tag": "SUMMARY",
+        "text": "工具返回",
+        "type": ""
+      },
+      {
+        "tag": "SUMMARY",
+        "text": "第二次完整模型输入",
+        "type": ""
+      },
+      {
+        "tag": "SUMMARY",
+        "text": "包含回答的完整对话文本",
+        "type": ""
+      },
+      {
+        "tag": "SUMMARY",
+        "text": "完整消息列表",
+        "type": ""
+      }
+    ],
+    "headings": [
+      "天气查询：完整输入与消息文本"
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "http://127.0.0.1:8765/index.html#p=68&s=1",
+        "text": "返回课件第68页"
+      }
+    ],
+    "title": "天气查询：完整输入与消息文本"
+  },
+  {
+    "url": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html",
+    "controls": [],
+    "headings": [
+      "企业知识库采购：记忆怎样参与判断",
+      "当前任务",
+      "记忆摘要",
+      "预算详细记录",
+      "安全要求",
+      "项目说明",
+      "Memory读取指令与摘要",
+      "首次输入全文",
+      "读取后输入全文",
+      "采购评审要点",
+      "用户补充条件",
+      "记忆更新说明",
+      "更新后的摘要"
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "http://127.0.0.1:8765/index.html?revision=memory-r8#p=91&s=1",
+        "text": "返回采购案例"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s0",
+        "text": "当前任务"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s1",
+        "text": "记忆摘要"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s2",
+        "text": "预算详细记录"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s3",
+        "text": "安全要求"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s4",
+        "text": "项目说明"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s5",
+        "text": "Memory读取指令与摘要"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s6",
+        "text": "首次输入全文"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s7",
+        "text": "读取后输入全文"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s8",
+        "text": "采购评审要点"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s9",
+        "text": "用户补充条件"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s10",
+        "text": "记忆更新说明"
+      },
+      {
+        "href": "http://127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html#s11",
+        "text": "更新后的摘要"
+      }
+    ],
+    "title": "采购案例完整材料"
+  },
+  {
+    "url": "http://127.0.0.1:8765/sources/library/L3/index.html",
+    "controls": [
+      {
+        "tag": "SUMMARY",
+        "text": "资料位置与版本",
+        "type": ""
+      }
+    ],
+    "headings": [
+      "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例"
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "http://127.0.0.1:8765/sources/library/L3/original.json",
+        "text": "下载原始文件"
+      }
+    ],
+    "title": "第03讲：从Prompt到Context再到Harness · v16 Skills完整案例"
+  }
+]

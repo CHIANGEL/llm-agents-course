@@ -1,0 +1,3462 @@
+[
+  {
+    "page": 1,
+    "renderer": 1,
+    "source_plan_page": 1,
+    "section": "导入",
+    "type": "cover",
+    "title": "第一讲：LLM Agents",
+    "seconds": 60,
+    "on_slide": [
+      "从模型生成回答，走到Agent执行任务。",
+      "任务怎样交代，系统怎样执行，交付结果怎样检查。"
+    ],
+    "talk": "先看回答、操作、交付三个对象。模型生成的回答需要经过工具和程序执行，才会产生外部操作结果；随后核对交付。",
+    "sources": [
+      {
+        "id": "PLAN",
+        "locator": "课程主线、180分钟安排"
+      }
+    ],
+    "start_seconds": 0,
+    "end_seconds": 60
+  },
+  {
+    "page": 2,
+    "renderer": 2,
+    "source_plan_page": 2,
+    "section": "导入",
+    "type": "content",
+    "title": "回答、操作与交付",
+    "seconds": 180,
+    "on_slide": [
+      "50人，每桌最多6人，至少需要9张桌子。",
+      "8 × 6 ＋ 2 ＝ 50人。",
+      "代码写出来，还需要程序执行。",
+      "如果任务还包括预订桌位，就需要进入预订系统，取得操作回执。"
+    ],
+    "talk": "用桌位图确认9桌，再说明代码文本、程序运行、预订操作各自完成什么。以回答、操作、交付三个对象回收导入。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第002页：大模型与工具"
+      },
+      {
+        "id": "PLAN",
+        "locator": "导入：回答、操作与交付"
+      }
+    ],
+    "start_seconds": 60,
+    "end_seconds": 240
+  },
+  {
+    "page": 3,
+    "renderer": 3,
+    "source_plan_page": 3,
+    "section": "导入",
+    "type": "agenda",
+    "title": "本讲内容",
+    "seconds": 60,
+    "on_slide": [
+      "1. LLM基础：生成机制、上下文与事实依据",
+      "2. Prompting：交代任务、组织材料、反馈与检查",
+      "3. Agents：Externalization & Internalization",
+      "3.1 Agent与工具调用；3.2 Memory；3.3 Skills；3.4 Harness；3.5 外化与内化"
+    ],
+    "talk": "课程分三个一级主题。先理解LLM，再学习任务交代，最后在外化与内化框架下看工具、记忆、技能、运行系统与模型能力。Externalization由模型外部系统承担工作；Internalization通过训练形成模型能力。",
+    "sources": [
+      {
+        "id": "PLAN",
+        "locator": "180分钟安排"
+      }
+    ],
+    "start_seconds": 240,
+    "end_seconds": 300
+  },
+  {
+    "page": 4,
+    "renderer": 4,
+    "source_plan_page": 4,
+    "section": "LLM基础总览",
+    "type": "overview",
+    "title": "LLM基础：生成、上下文与事实依据",
+    "seconds": 60,
+    "on_slide": [
+      "1. 怎样生成回答：根据前文预测、选择并追加Token。",
+      "2. 本次参考什么：任务、相关材料与历史进入本次输入。",
+      "3. 怎样核对结果：数字、对象、含义与范围得到材料支持。",
+      "上下文进入生成过程，生成的结果再回到材料中核对。"
+    ],
+    "talk": "本章依次解释生成机制、输入条件和输出依据。后面三个子章节分别总览内容和关系，展开例子，再回到同一组概念总结。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第038、061、023页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "LLM入门基础"
+      }
+    ],
+    "start_seconds": 300,
+    "end_seconds": 360
+  },
+  {
+    "page": 5,
+    "renderer": 101,
+    "source_plan_page": null,
+    "section": "生成",
+    "type": "overview",
+    "title": "生成：回答怎样一步步写出来",
+    "seconds": 25,
+    "on_slide": [
+      "预测候选 → 选出一个 → 追加前文 → 再次预测。",
+      "先看通知改写，再展开候选选择与连续生成。"
+    ],
+    "talk": "用闭环总览三步。通知展示输出对象；候选分布解释选择；继续生成说明每一步都要保留更新后的前文。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第038、042页"
+      }
+    ],
+    "start_seconds": 360,
+    "end_seconds": 385
+  },
+  {
+    "page": 6,
+    "renderer": 5,
+    "source_plan_page": 5,
+    "section": "生成",
+    "type": "content",
+    "title": "LLM怎样生成回答",
+    "seconds": 100,
+    "on_slide": [
+      "大语言模型（LLM）通过大量文本训练，可以根据输入要求生成文字。",
+      "原通知：今天的讲座取消了。",
+      "改写：原定于今天举行的讲座已取消，后续安排将另行通知。",
+      "原文没有提供后续安排。这句补充需要另外的依据。"
+    ],
+    "talk": "通知改写展示模型生成流畅表述，同时指出新增安排需要材料支持。接下来解释文字怎样一步步生成。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第001页：大语言模型"
+      }
+    ],
+    "start_seconds": 385,
+    "end_seconds": 485
+  },
+  {
+    "page": 7,
+    "renderer": 6,
+    "source_plan_page": 6,
+    "section": "生成",
+    "type": "content",
+    "title": "下一Token预测（Next token prediction）",
+    "seconds": 125,
+    "on_slide": [
+      "Token是模型处理文本的单位，不固定等于一个汉字或一个词。",
+      "模型根据已有内容，预测下一Token，再按生成规则选出一个。",
+      "前文：这家餐厅的味道很。候选：好70%、一般20%、差10%。",
+      "本次选出“一般”。按概率选择时，概率较低的候选也可能被选中。"
+    ],
+    "talk": "先看前文与候选分布，再揭示选中项。概率描述生成倾向，选择不必总取最高概率候选。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第038页：下一Token预测"
+      }
+    ],
+    "start_seconds": 485,
+    "end_seconds": 610
+  },
+  {
+    "page": 8,
+    "renderer": 7,
+    "source_plan_page": 7,
+    "section": "生成",
+    "type": "content",
+    "title": "选出一个，再接着生成",
+    "seconds": 105,
+    "on_slide": [
+      "选中的Token接到前文后，模型依据新前文再预测下一个。",
+      "这家餐厅的味道很一般 → 逗号65%、句号30%、其他5%。",
+      "选中逗号后，继续接到完整前文后面。",
+      "用这份新前文，继续预测。"
+    ],
+    "talk": "分步展示选中“一般”、保留完整前文、选中逗号、继续预测。每一步都把新增内容带入后续生成条件。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第038、042页"
+      }
+    ],
+    "start_seconds": 610,
+    "end_seconds": 715
+  },
+  {
+    "page": 9,
+    "renderer": 102,
+    "source_plan_page": null,
+    "section": "生成",
+    "type": "summary",
+    "title": "生成小结：预测、选择与追加",
+    "seconds": 25,
+    "on_slide": [
+      "根据已有前文预测候选。",
+      "按生成规则选出一个Token。",
+      "把选中项加入完整前文，再预测下一个。"
+    ],
+    "talk": "回收前文、候选、追加三步。转入输入条件：前文中的任务、材料和历史从哪里来。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第038、042页"
+      }
+    ],
+    "start_seconds": 715,
+    "end_seconds": 740
+  },
+  {
+    "page": 10,
+    "renderer": 103,
+    "source_plan_page": null,
+    "section": "上下文",
+    "type": "overview",
+    "title": "上下文：本次输入由哪些内容组成",
+    "seconds": 25,
+    "on_slide": [
+      "任务要求：决定要完成什么。",
+      "相关历史：保留仍有用的条件。",
+      "外部材料：读取后加入本次输入。"
+    ],
+    "talk": "三路内容汇入本次输入，再进入模型。依次用评论、读书会对话、文件读取展开三种来源。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第043、061、063页"
+      }
+    ],
+    "start_seconds": 740,
+    "end_seconds": 765
+  },
+  {
+    "page": 11,
+    "renderer": 9,
+    "source_plan_page": 9,
+    "section": "上下文",
+    "type": "content",
+    "title": "同一材料，可以完成不同任务",
+    "seconds": 70,
+    "on_slide": [
+      "评论：菜品不错，但上菜很慢。",
+      "任务一：翻译成英文。任务二：判断情感。",
+      "评论不变，改变的是任务要求。"
+    ],
+    "talk": "先显示共同材料，再分别展示翻译和情感判断。任务要求决定如何处理同一份材料。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第043页：同一段材料，不同的任务"
+      }
+    ],
+    "start_seconds": 765,
+    "end_seconds": 835
+  },
+  {
+    "page": 12,
+    "renderer": 10,
+    "source_plan_page": 10,
+    "section": "上下文",
+    "type": "content",
+    "title": "“人数改成36人”还缺什么？",
+    "seconds": 110,
+    "on_slide": [
+      "相关历史，需要由应用整理进这一次的输入。",
+      "已有条件：30人、材料10元/人、茶点12元/人、预算800元。",
+      "最新修改：人数改成36人。",
+      "36 × (10＋12) ＝ 792元；800－792＝8元。"
+    ],
+    "talk": "依次合并原条件与人数修改。只有最新一句不足以计算，保留费用和预算才能得出合计与余额。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第061页：多轮对话怎样继续"
+      }
+    ],
+    "start_seconds": 835,
+    "end_seconds": 945
+  },
+  {
+    "page": 13,
+    "renderer": 11,
+    "source_plan_page": 11,
+    "section": "上下文",
+    "type": "content",
+    "title": "文件存在，与模型这次读到，是两件事",
+    "seconds": 100,
+    "on_slide": [
+      "当前上下文，就是这次实际提供给模型的内容。",
+      "外部文件 → 读取相关内容 → 本次输入 → 模型。",
+      "读取一份材料，改变的是本次输入；模型参数是另一个位置。"
+    ],
+    "talk": "说明文件、当前输入和模型参数三个位置。外部记录通过读取进入输入，模型据此生成；输入改变与参数更新分别理解。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第063页：模型参数、当前上下文与应用记忆"
+      }
+    ],
+    "start_seconds": 945,
+    "end_seconds": 1045
+  },
+  {
+    "page": 14,
+    "renderer": 104,
+    "source_plan_page": null,
+    "section": "上下文",
+    "type": "summary",
+    "title": "上下文小结：任务、历史与材料",
+    "seconds": 25,
+    "on_slide": [
+      "任务给出目标：同一条评论可用于翻译或情感判断。",
+      "历史保留条件：人数修改与费用、预算共同参与计算。",
+      "文件经读取加入：外部记录中的相关内容进入本次输入。"
+    ],
+    "talk": "回收三种来源。上下文是本次实际提供的内容；接下来检查生成的结论是否获得这些材料支持。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第043、061、063页"
+      }
+    ],
+    "start_seconds": 1045,
+    "end_seconds": 1070
+  },
+  {
+    "page": 15,
+    "renderer": 105,
+    "source_plan_page": null,
+    "section": "事实依据",
+    "type": "overview",
+    "title": "事实依据：生成倾向与结论支持",
+    "seconds": 25,
+    "on_slide": [
+      "先理解概率：它描述模型怎样接着写。",
+      "再核对材料：数字、对象、含义与范围支持哪些结论。"
+    ],
+    "talk": "先解释概率含义，再用访谈摘要检查材料到结论的对应关系，讲清生成过程与事实判断各自需要的依据。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第038、023页"
+      }
+    ],
+    "start_seconds": 1070,
+    "end_seconds": 1095
+  },
+  {
+    "page": 16,
+    "renderer": 8,
+    "source_plan_page": 8,
+    "section": "事实依据",
+    "type": "content",
+    "title": "生成概率与事实依据",
+    "seconds": 80,
+    "on_slide": [
+      "“好”的生成概率，描述当前输入条件下模型怎样接着写。",
+      "70%不是这家餐厅有70%的概率味道好。",
+      "现实评价需要评论、记录或其他依据。"
+    ],
+    "talk": "区分候选生成概率与现实判断的证据。查验事实需要追踪评价对象、时间、记录内容和材料支持的结论。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第038页：Token的生成概率不是这句话为真的概率"
+      }
+    ],
+    "start_seconds": 1095,
+    "end_seconds": 1175
+  },
+  {
+    "page": 17,
+    "renderer": 12,
+    "source_plan_page": 12,
+    "section": "事实依据",
+    "type": "case",
+    "title": "数字算对，结论也可能不对",
+    "seconds": 150,
+    "on_slide": [
+      "访谈20位同学，其中12位愿意试用，占60%。",
+      "没有询问价格或付费意愿。",
+      "“60%的大学生愿意付费”改变了对象和含义。",
+      "可支持的结论：20位受访同学中，12位愿意试用，占60%。"
+    ],
+    "talk": "先确认12除以20，再逐项揭示对象扩大与含义变化。摘要需要保留材料支持的对象、范围和意愿类型。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第023页：幻觉"
+      }
+    ],
+    "start_seconds": 1175,
+    "end_seconds": 1325
+  },
+  {
+    "page": 18,
+    "renderer": 106,
+    "source_plan_page": null,
+    "section": "事实依据",
+    "type": "summary",
+    "title": "事实依据小结：计算、对象与含义",
+    "seconds": 25,
+    "on_slide": [
+      "计算：12 ÷ 20 ＝ 60%。",
+      "对象：20位受访同学。",
+      "含义：愿意试用。",
+      "20位受访同学中，12位愿意试用，占60%。"
+    ],
+    "talk": "将计算、对象范围、意愿含义合在一起，形成材料支持的结论。再回收生成倾向与事实依据的区别。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第023页"
+      }
+    ],
+    "start_seconds": 1325,
+    "end_seconds": 1350
+  },
+  {
+    "page": 19,
+    "renderer": 13,
+    "source_plan_page": 13,
+    "section": "LLM基础总结",
+    "type": "summary",
+    "title": "LLM基础小结：生成、上下文与事实依据",
+    "seconds": 150,
+    "on_slide": [
+      "生成：根据完整前文，预测、选择并追加Token。",
+      "上下文：把任务、材料与相关历史组织进本次输入。",
+      "事实依据：回到材料，核对数字、对象、含义与范围。"
+    ],
+    "talk": "回扣开头的三部分：回答如何形成，本次参考什么，结论怎样核对。接下来通过Prompting交代任务、组织材料并提出检查要求。",
+    "sources": [
+      {
+        "id": "L1",
+        "locator": "v09第023、043、061页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "LLM入门基础"
+      }
+    ],
+    "start_seconds": 1350,
+    "end_seconds": 1500
+  },
+  {
+    "page": 20,
+    "renderer": 20,
+    "source_plan_page": 14,
+    "section": "Prompting",
+    "type": "agenda",
+    "title": "本讲内容",
+    "seconds": 15,
+    "on_slide": [
+      "1. LLM基础：生成机制、上下文与事实依据。",
+      "2. Prompting：交代任务、组织材料、反馈与检查。",
+      "3. Agents：Externalization & Internalization；工具调用、Memory、Skills、Harness与整合。"
+    ],
+    "talk": "转入Prompting，承接上一章本次输入的作用。Agents部分仍由Externalization与Internalization统领。",
+    "sources": [
+      {
+        "id": "PLAN",
+        "locator": "Prompting核心技巧与全讲层级"
+      }
+    ],
+    "start_seconds": 1500,
+    "end_seconds": 1515
+  },
+  {
+    "page": 21,
+    "renderer": 21,
+    "source_plan_page": 15,
+    "section": "Prompting",
+    "type": "overview",
+    "title": "Prompting：从交代任务到反馈检查",
+    "seconds": 45,
+    "on_slide": [
+      "交代任务 → 补齐信息 → 形成方案 → 反馈检查。",
+      "交代：用途、对象、目标与参考样例。",
+      "补齐信息：先澄清关键缺口，再核查事实依据。",
+      "形成方案：先比较不同方案，再验证关键假设。",
+      "反馈检查：具体反馈、改Prompt、代表性任务检查。",
+      "把有效反馈写回下一次输入。"
+    ],
+    "talk": "先展示四个环节及反馈回路，再交代六个方法各自的位置。材料已有时可直接核查，信息不足时先澄清；需要选择时再比较与验证。",
+    "sources": [
+      {
+        "id": "PLAN",
+        "locator": "Prompting核心技巧与全讲层级"
+      }
+    ],
+    "start_seconds": 1515,
+    "end_seconds": 1560
+  },
+  {
+    "page": 22,
+    "renderer": 22,
+    "source_plan_page": 15,
+    "section": "Prompting·任务交代",
+    "type": "overview",
+    "title": "把用途、需求与条件写进任务",
+    "seconds": 35,
+    "on_slide": [
+      "先明确用途，再用四件套写清需求，最后检查必要条件。",
+      "用途决定结果给谁看、要帮助对方理解什么。",
+      "四件套组织视角、背景、目标与样本；材料、定义和交付要求形成完成条件。"
+    ],
+    "talk": "用一张关系图说明任务交代的三个部分。屏幕对应用途，带四行文字的任务稿对应四件套，核对点对应必要条件。三项汇入完整Prompt，后面按这一顺序展开。",
+    "sources": [
+      {
+        "id": "L2",
+        "locator": "v09第004、007–013页"
+      },
+      {
+        "id": "TEACHER",
+        "locator": "第1、2项"
+      }
+    ],
+    "start_seconds": 1560,
+    "end_seconds": 1595
+  },
+  {
+    "page": 23,
+    "renderer": 23,
+    "source_plan_page": 16,
+    "section": "Prompting·任务交代",
+    "type": "content",
+    "title": "Prompt要说明结果拿来做什么",
+    "seconds": 115,
+    "on_slide": [
+      "“分析一下这份经营资料”还没有说明结果拿来做什么。",
+      "为没有读过材料的同事准备5分钟汇报，解释收入、毛利率和简化利润的变化；每个判断指出依据。",
+      "先给提纲，再根据反馈写讲稿。",
+      "用途决定选什么、讲多深、交付什么。"
+    ],
+    "talk": "先看完整报表，再补听众、时长、问题与交付顺序。简化利润保留给定公式。此页重点是任务用途怎样筛选材料和输出，计算细节供材料阅读层核对。",
+    "sources": [
+      {
+        "id": "L2",
+        "locator": "v09第005–006、008–009页"
+      }
+    ],
+    "start_seconds": 1595,
+    "end_seconds": 1710
+  },
+  {
+    "page": 24,
+    "renderer": 24,
+    "source_plan_page": 17,
+    "section": "Prompting·任务交代",
+    "type": "content",
+    "title": "四件套：视角、背景、目标与样本",
+    "seconds": 130,
+    "on_slide": [
+      "Who you are：模型采用的视角。",
+      "Who I am：使用者、听众与背景。",
+      "Objective：目标与理想结果。",
+      "Example：可参照的表达样本。"
+    ],
+    "talk": "四个名称逐条连接到同一份Prompt。角色句落实为给初学者解释报表；听众与时间限定详略；目标说明要理解主要变化；例子明确表达顺序。解释每一项补充了什么生成条件。",
+    "sources": [
+      {
+        "id": "TEACHER",
+        "locator": "第1项：四件套公式"
+      },
+      {
+        "id": "L2",
+        "locator": "v09第007–010、013页"
+      }
+    ],
+    "start_seconds": 1710,
+    "end_seconds": 1840
+  },
+  {
+    "page": 25,
+    "renderer": 25,
+    "source_plan_page": 18,
+    "section": "Prompting·任务交代",
+    "type": "content",
+    "title": "给例子：参考结构，依据材料写事实",
+    "seconds": 120,
+    "on_slide": [
+      "收入1,000→1,200万元，增长20%。",
+      "参考“报告数字→说明变化→解释含义”的结构。",
+      "简化利润80→60万元，下降25%；变化方向要重新确定。"
+    ],
+    "talk": "上下两组柱形图分别显示收入增加和简化利润下降。先保留样例句法，再检查换指标后的方向，最后给出（60−80）÷80＝−25%。回退可以再次显示错误的“增长25%”，便于讲解。",
+    "sources": [
+      {
+        "id": "L2",
+        "locator": "v09第010页"
+      }
+    ],
+    "start_seconds": 1840,
+    "end_seconds": 1960
+  },
+  {
+    "page": 26,
+    "renderer": 26,
+    "source_plan_page": 19,
+    "section": "Prompting·任务交代",
+    "type": "content",
+    "title": "必要条件写清，解决办法留空间",
+    "seconds": 100,
+    "on_slide": [
+      "保留两年数字、单位和材料范围。",
+      "明确指标定义，主要判断对应表格或段落。",
+      "先确认提纲，再写讲稿。",
+      "额外步骤是否服务任务，应逐项判断。"
+    ],
+    "talk": "先展示必须保留的要求，再对照五句公司介绍、每个数字三个原因、固定五段总结三种机械规定。划线定位要审查的指令。最后回到材料、定义、依据和交付，不将Prompt长短当作质量标准。",
+    "sources": [
+      {
+        "id": "TEACHER",
+        "locator": "第2项：不要过度干预解决步骤"
+      },
+      {
+        "id": "L2",
+        "locator": "v09第011–012页"
+      }
+    ],
+    "start_seconds": 1960,
+    "end_seconds": 2060
+  },
+  {
+    "page": 27,
+    "renderer": 27,
+    "source_plan_page": 19,
+    "section": "Prompting·任务交代",
+    "type": "summary",
+    "title": "任务交代小结：让结果有明确参照",
+    "seconds": 40,
+    "on_slide": [
+      "用途：5分钟汇报，听众没有读过材料。",
+      "四件套：财务分析视角、背景、解释目标与数字表达样本。",
+      "必要条件：数字依据、指标定义与先提纲再讲稿。"
+    ],
+    "talk": "回到任务交代总览中的相同对象。逐项填入刚才案例的具体内容，归纳用途、需求、完成条件怎样合成完整任务说明。",
+    "sources": [
+      {
+        "id": "L2",
+        "locator": "v09第004–013页"
+      },
+      {
+        "id": "TEACHER",
+        "locator": "第1、2项"
+      }
+    ],
+    "start_seconds": 2060,
+    "end_seconds": 2100
+  },
+  {
+    "page": 28,
+    "renderer": 28,
+    "source_plan_page": 20,
+    "section": "Prompting·澄清关键问题",
+    "type": "overview",
+    "title": "澄清：从已有信息找到关键缺口",
+    "seconds": 35,
+    "on_slide": [
+      "先区分事实、解释与目标，再找需要补充的信息。",
+      "只问会改变结论的问题，信息足够就继续任务。"
+    ],
+    "talk": "先展示完整关系，说明这一节看两件事：把已有信息分清，再用有针对性的追问补齐交付条件。沿图把新增信息送回任务。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第2–3页：苏格拉底式提问"
+      }
+    ],
+    "start_seconds": 2100,
+    "end_seconds": 2135
+  },
+  {
+    "page": 29,
+    "renderer": 29,
+    "source_plan_page": 20,
+    "section": "Prompting·澄清关键问题",
+    "type": "content",
+    "title": "先分清事实、解释与目标",
+    "seconds": 80,
+    "on_slide": [
+      "20位受访同学中，12位表示愿意试用。",
+      "“大家会买”需要付费资料支持。",
+      "目标是判断是否值得继续验证产品需求。",
+      "只问可能改变判断的问题。"
+    ],
+    "talk": "从访谈原句出发，依次区分已经取得的事实、对事实的解释，以及这次希望解决的问题。把追问收敛到实际使用与付费反应。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第2–3页：苏格拉底式提问"
+      },
+      {
+        "id": "L1",
+        "locator": "v09第023页：20位同学访谈"
+      }
+    ],
+    "start_seconds": 2135,
+    "end_seconds": 2215
+  },
+  {
+    "page": 30,
+    "renderer": 30,
+    "source_plan_page": 21,
+    "section": "Prompting·澄清关键问题",
+    "type": "content",
+    "title": "只追问会改变交付的问题",
+    "seconds": 120,
+    "on_slide": [
+      "提纲是供自己准备，还是直接上屏？",
+      "台上可以展示一张表；只保留必要计算。",
+      "用途决定详略，展示条件决定数字怎样呈现。"
+    ],
+    "talk": "按三轮对话揭示内容，再把回答连接到准备提纲与上屏表格两个具体产物。已有的5分钟要求、听众与两年材料继续使用，提纲用途与展示方式补齐后即可推进。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第2–3页：苏格拉底式提问"
+      },
+      {
+        "id": "L2",
+        "locator": "v09第016页：三轮澄清对话；第005页经营数据"
+      }
+    ],
+    "start_seconds": 2215,
+    "end_seconds": 2335
+  },
+  {
+    "page": 31,
+    "renderer": 31,
+    "source_plan_page": 21,
+    "section": "Prompting·澄清关键问题",
+    "type": "summary",
+    "title": "澄清小结：让新信息改变下一步",
+    "seconds": 35,
+    "on_slide": [
+      "已有信息直接使用。",
+      "追问集中在影响结果的缺口。",
+      "信息足够后，把答案落实到内容与形式。"
+    ],
+    "talk": "回到章首同一关系图，用提纲用途例归纳信息怎样流动：先用已有信息，补影响结果的一处缺口，再落实为交付。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第2–3页：苏格拉底式提问"
+      },
+      {
+        "id": "L2",
+        "locator": "v09第016页：用途与呈现方式"
+      }
+    ],
+    "start_seconds": 2335,
+    "end_seconds": 2370
+  },
+  {
+    "page": 32,
+    "renderer": 32,
+    "source_plan_page": 22,
+    "section": "Prompting·核查事实与结论",
+    "type": "overview",
+    "title": "核查：让说法连回材料与条件",
+    "seconds": 35,
+    "on_slide": [
+      "拆开说法，逐项核查，再调整结论。",
+      "先核对事实，再检查推理，最后确定结论范围。"
+    ],
+    "talk": "完整显示说法、核查与结论的关系。内部依次看材料、推理、范围，随后用访谈和经营材料展开。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第6–7页：事实核查"
+      }
+    ],
+    "start_seconds": 2370,
+    "end_seconds": 2405
+  },
+  {
+    "page": 33,
+    "renderer": 33,
+    "source_plan_page": 22,
+    "section": "Prompting·核查事实与结论",
+    "type": "content",
+    "title": "事实核查：逐条记录依据与范围",
+    "seconds": 100,
+    "on_slide": [
+      "12位愿意试用，对应访谈原句。",
+      "60%对应12÷20，仅限20位受访者。",
+      "付费意愿需要相应资料支持。"
+    ],
+    "talk": "按行展开核对记录，把原句、计算与付费判断分别对应到材料。让核查动作可以回查；计算正确与结论含义正确分别核对。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第6–7页：事实核查"
+      },
+      {
+        "id": "L1",
+        "locator": "v09第023页：访谈与错误摘要"
+      }
+    ],
+    "start_seconds": 2405,
+    "end_seconds": 2505
+  },
+  {
+    "page": 34,
+    "renderer": 34,
+    "source_plan_page": 23,
+    "section": "Prompting·核查事实与结论",
+    "type": "content",
+    "title": "来源存在，还要检查结论范围",
+    "seconds": 130,
+    "on_slide": [
+      "费用表单位：万元。",
+      "费用合计增加120万元，可以从表格复算。",
+      "费用增长与扩店相关，对应经营段落。",
+      "分店盈亏需要分店收入与成本。",
+      "下一年利润判断需要后续年度资料。"
+    ],
+    "talk": "从青禾食品表格和经营段落出发，按四项判断说明依据。前两项回到已有材料，后两项连接到需要补充的资料。保留费用关联的解释范围。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第6–7页：事实核查"
+      },
+      {
+        "id": "L2",
+        "locator": "v09第019页：有出处还要看出处支持什么"
+      }
+    ],
+    "start_seconds": 2505,
+    "end_seconds": 2635
+  },
+  {
+    "page": 35,
+    "renderer": 35,
+    "source_plan_page": 23,
+    "section": "Prompting·核查事实与结论",
+    "type": "summary",
+    "title": "核查小结：事实、推理与范围对应",
+    "seconds": 35,
+    "on_slide": [
+      "事实对应材料。",
+      "推理连接事实与结论。",
+      "范围明确对象与条件。",
+      "需要补充的资料进入下一步。"
+    ],
+    "talk": "回到核查关系图，归纳判断怎样连接来源、计算与适用范围。得到支持的部分保留，需要材料的部分明确下一步，再进入方案比较。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第6–7页：事实核查"
+      },
+      {
+        "id": "L1",
+        "locator": "v09第023页"
+      },
+      {
+        "id": "L2",
+        "locator": "v09第019页"
+      }
+    ],
+    "start_seconds": 2635,
+    "end_seconds": 2670
+  },
+  {
+    "page": 36,
+    "renderer": 36,
+    "source_plan_page": 24,
+    "section": "Prompting·比较选择",
+    "type": "overview",
+    "title": "比较选择：先把两边说充分",
+    "seconds": 30,
+    "on_slide": [
+      "共同目标：决定应用下一步怎样推进。",
+      "先展开两个方向的理由与成立条件，再按共同维度比较，最后找出关键变量。",
+      "“请分别给出两方最有力的理由、条件与风险，再找出关键变量。”"
+    ],
+    "talk": "先把本节的关系图讲清。我们先给两种方向各自最有力的理由，再把理由与成立条件连起来。随后用同一维度比较信息、条件、收益和风险，最后找出最可能改变选择的变量。共同目标始终是决定应用下一步怎样推进。最后呈现短Prompt，把图里的步骤写成输入要求。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第9–10页：双向钢人论证"
+      },
+      {
+        "id": "L1",
+        "locator": "v09第023页：20位受访者中12位愿意试用"
+      }
+    ],
+    "start_seconds": 2670,
+    "end_seconds": 2700
+  },
+  {
+    "page": 37,
+    "renderer": 37,
+    "source_plan_page": 24,
+    "section": "Prompting·比较选择",
+    "type": "content",
+    "title": "双向钢人：理由要连上成立条件",
+    "seconds": 120,
+    "on_slide": [
+      "20位受访者中，12位愿意试用。",
+      "先验证实际试用，可以观察实际使用和放弃位置；需要可用原型和过程记录。",
+      "准备收费推广，可以更早接触付费反馈；需要可交付产品，并能承担投入。"
+    ],
+    "talk": "先呈现访谈材料和两种行动对象。推进一步，讲清先验证实际试用的有力理由：从口头意愿走向实际使用，找出人从哪里开始、在哪里放弃。这个方向成立需要原型可用和记录过程的能力。再推进一步，讲清准备收费推广的有力理由：更早接触对价格和交付的反馈；其成立需要产品可交付并能承担相应投入。两边都先讲充分，下一页再比较。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第9–10页：双向钢人论证"
+      },
+      {
+        "id": "L1",
+        "locator": "v09第023页：20位受访者中12位愿意试用"
+      }
+    ],
+    "start_seconds": 2700,
+    "end_seconds": 2820
+  },
+  {
+    "page": 38,
+    "renderer": 38,
+    "source_plan_page": 25,
+    "section": "Prompting·比较选择",
+    "type": "content",
+    "title": "用同一组维度比较两种行动",
+    "seconds": 110,
+    "on_slide": [
+      "获得什么信息：实际使用与放弃位置；对价格和交付的反馈。",
+      "需要什么条件：可用原型和记录；可交付产品和可承担投入。",
+      "承担什么风险：推迟接触付费反馈；需求尚未明确就增加投入。",
+      "关键问题：当前最需要了解实际使用，还是付费反应？"
+    ],
+    "talk": "对照表逐行展开。第一行比较获得的信息，第二行比较行动条件，第三行比较风险。相同维度能让双方的理由相互对应。最后回到会改变选择的变量：原型是否可以交付、准备和推广投入是否可以承担，以及当前最缺的是哪类信息。在当前比较里，把关键追问落到实际使用与付费反应的优先次序。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第9–10页：双向钢人论证"
+      },
+      {
+        "id": "L1",
+        "locator": "v09第023页：20位受访者中12位愿意试用"
+      }
+    ],
+    "start_seconds": 2820,
+    "end_seconds": 2930
+  },
+  {
+    "page": 39,
+    "renderer": 39,
+    "source_plan_page": 25,
+    "section": "Prompting·比较选择",
+    "type": "summary",
+    "title": "比较选择小结：留下有条件的判断",
+    "seconds": 40,
+    "on_slide": [
+      "分别给出两个方向最有力的理由。",
+      "用共同维度比较理由成立的条件、收益和风险。",
+      "找出会改变选择的变量，并补齐决定性信息。"
+    ],
+    "talk": "回到本节开头的关系图。先把两个方向论证充分，接着按同一维度检查条件与风险，最后明确会改变选择的变量。比较应留下有条件的判断以及下一步要补的信息。接下来把需要从现实取得的信息变成可观察的行动。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第9–10页：双向钢人论证"
+      },
+      {
+        "id": "L1",
+        "locator": "v09第023页：20位受访者中12位愿意试用"
+      }
+    ],
+    "start_seconds": 2930,
+    "end_seconds": 2970
+  },
+  {
+    "page": 40,
+    "renderer": 40,
+    "source_plan_page": 26,
+    "section": "Prompting·验证假设",
+    "type": "overview",
+    "title": "验证假设：让行动带回新信息",
+    "seconds": 30,
+    "on_slide": [
+      "先选最可能改变决定的假设。",
+      "限定投入与周期，设计可逆的小范围行动。",
+      "把观察记录连向继续、调整或停止条件。",
+      "“请设计一次最小验证，写清投入、周期、观察指标和决策条件。”"
+    ],
+    "talk": "本节先用一张关系图说明验证怎样支持判断。关键假设决定需要观察什么，限定行动负责产生记录，记录进入事先写清的判断条件，再把新信息带回原来的选择。投入、周期和决策条件在行动前写清。最后呈现短Prompt，将假设、行动与判断条件写成输入要求。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第10页：用最小实验替代空想"
+      },
+      {
+        "id": "L1",
+        "locator": "v09第023页：20位受访者中12位愿意试用"
+      }
+    ],
+    "start_seconds": 2970,
+    "end_seconds": 3000
+  },
+  {
+    "page": 41,
+    "renderer": 41,
+    "source_plan_page": 26,
+    "section": "Prompting·验证假设",
+    "type": "content",
+    "title": "从试用意愿走向实际使用",
+    "seconds": 120,
+    "on_slide": [
+      "关键假设：愿意试用的人会实际开始使用。",
+      "行动前写清投入、周期和决策条件。",
+      "提供可用原型，记录受邀、是否开始使用、放弃位置。",
+      "按预期开始则继续观察，步骤受阻则调整流程，触及投入上限则停止。",
+      "付费反应围绕价格与交付另设观察。"
+    ],
+    "talk": "沿用20位受访者中12位愿意试用的材料，锁定“愿意试用的人会实际开始使用”这一假设。先限定时间资源和周期，再向愿意试用者提供可用原型。逐人记录受邀、是否开始以及放弃位置。记录表与关键假设直接相连，能看出从意愿走向行动时发生了什么。判断条件提前写清：按预期开始使用则继续观察；步骤受阻则调整流程；触及投入上限则停止。付费反应需要围绕价格和交付另设观察。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第10页：用最小实验替代空想"
+      },
+      {
+        "id": "L1",
+        "locator": "v09第023页：20位受访者中12位愿意试用"
+      }
+    ],
+    "start_seconds": 3000,
+    "end_seconds": 3120
+  },
+  {
+    "page": 42,
+    "renderer": 42,
+    "source_plan_page": 26,
+    "section": "Prompting·验证假设",
+    "type": "summary",
+    "title": "验证假设小结：用记录更新判断",
+    "seconds": 30,
+    "on_slide": [
+      "假设决定看什么。",
+      "记录提供新信息。",
+      "事先约定的条件决定继续、调整或停止。",
+      "把新信息带回原来的选择。"
+    ],
+    "talk": "回到本节开头的关系图。选择关键假设，限定投入周期，提供能够观察的行动，留下记录，再按事先约定的条件作下一步判断。验证的目的，是取得能改变决定的新信息。接下来回到Prompt本身，说明如何用具体反馈改进输出并再次检查。",
+    "sources": [
+      {
+        "id": "PROMPT_PDF",
+        "locator": "第10页：用最小实验替代空想"
+      },
+      {
+        "id": "L1",
+        "locator": "v09第023页：20位受访者中12位愿意试用"
+      }
+    ],
+    "start_seconds": 3120,
+    "end_seconds": 3150
+  },
+  {
+    "page": 43,
+    "renderer": 43,
+    "source_plan_page": 27,
+    "section": "Prompting·反馈与检查",
+    "type": "overview",
+    "title": "反馈与检查：从具体问题改进Prompt",
+    "seconds": 35,
+    "on_slide": [
+      "具体反馈：定位问题、保留内容、修改内容。",
+      "把有效反馈写回Prompt，保留原任务与听众，形成完整改稿。",
+      "用材料完整、缺关键数据、换对象三类输入检查，发现问题后继续修改。"
+    ],
+    "talk": "用回答稿、批注后的Prompt和三种材料表现反馈循环。先区分改这次回答与改可复用要求，然后说明检查为什么需要不同输入。",
+    "sources": [
+      {
+        "id": "L2",
+        "locator": "v09第015、017–018、025–026、030–032页"
+      },
+      {
+        "id": "TEACHER",
+        "locator": "第3、5项"
+      }
+    ],
+    "start_seconds": 3150,
+    "end_seconds": 3185
+  },
+  {
+    "page": 44,
+    "renderer": 44,
+    "source_plan_page": 27,
+    "section": "Prompting·反馈与检查",
+    "type": "content",
+    "title": "把具体反馈写回Prompt",
+    "seconds": 110,
+    "on_slide": [
+      "请critique、review、improve，保留任务、听众与5分钟时长。",
+      "反馈要具体：保留两年数字，把变化关系讲清楚。",
+      "新增毛利100万元，新增费用120万元，简化利润减少20万元。",
+      "把有效要求写入完整改稿：数字注明表格，解释注明段落。"
+    ],
+    "talk": "先看概括句“费用上升，所以利润下降”，说明如何保留数字、补充数量关系。两条同一比例的条形图分别显示新增毛利100和新增费用120；费用比毛利多20，简化利润因此减少20。然后把已明确的反馈写成以后可复用的要求。改Prompt时附上初稿与目标模型，要求解释修改理由并给完整改稿。",
+    "sources": [
+      {
+        "id": "L2",
+        "locator": "v09第017–018、026、030–031页"
+      },
+      {
+        "id": "TEACHER",
+        "locator": "第3项：让LLM自己改prompt"
+      }
+    ],
+    "start_seconds": 3185,
+    "end_seconds": 3295
+  },
+  {
+    "page": 45,
+    "renderer": 45,
+    "source_plan_page": 28,
+    "section": "Prompting·反馈与检查",
+    "type": "content",
+    "title": "重试、改要求和补材料各解决什么",
+    "seconds": 90,
+    "on_slide": [
+      "表达不够自然：保持Prompt与材料，比较另一候选。",
+      "总是删掉限制：补充保留范围和限制的要求。",
+      "缺少事实：补充问题所需的数据和原文。",
+      "聊天中的“再来一版”会连同上一版回答与新要求进入输入。"
+    ],
+    "talk": "沿用两家企业远程办公问卷的短文。解释相同输入重试与改变输入的差别；选择表达时检查范围、相关关系和因果限制。“证明能提升”改变了原意，需要具体修改，而不是只选更顺口的句子。",
+    "sources": [
+      {
+        "id": "L2",
+        "locator": "v09第020–022页"
+      },
+      {
+        "id": "TEACHER",
+        "locator": "第4项：理解prompt的原理"
+      }
+    ],
+    "start_seconds": 3295,
+    "end_seconds": 3385
+  },
+  {
+    "page": 46,
+    "renderer": 46,
+    "source_plan_page": 29,
+    "section": "Prompting·反馈与检查",
+    "type": "content",
+    "title": "用代表性输入检查Prompt",
+    "seconds": 100,
+    "on_slide": [
+      "Eval使用代表性输入与明确核对依据。",
+      "材料完整、缺少关键数据、换对象三种输入，分别送入修改前后Prompt。",
+      "按同一依据检查计算、范围、缺失处理与交付。"
+    ],
+    "talk": "这里讲系统结果验收。三份材料来自原课程案例底稿。完整材料毛利率20%到25%；缺2024成本时先说明缺项并保留2025可计算结果；另一对象30%到20%。先确定核对依据，再比较两个Prompt的实际回答。领域知识和任务相关性决定检查项是否有用。",
+    "sources": [
+      {
+        "id": "TEACHER",
+        "locator": "第5项：用eval优化prompt"
+      },
+      {
+        "id": "L2",
+        "locator": "v09第032页；案例底稿.md，T01、T04、T07"
+      }
+    ],
+    "start_seconds": 3385,
+    "end_seconds": 3485
+  },
+  {
+    "page": 47,
+    "renderer": 47,
+    "source_plan_page": 29,
+    "section": "Prompting·反馈与检查",
+    "type": "summary",
+    "title": "反馈检查小结：留下有效要求",
+    "seconds": 40,
+    "on_slide": [
+      "具体反馈保留两年数字、补足变化关系、指出修改位置。",
+      "有效要求写回Prompt：依据、范围与缺项处理。",
+      "检查不同材料上的结果，发现问题再修改。"
+    ],
+    "talk": "回到本节总览的相同循环。收束为当前回答的问题怎样成为后续输入的一部分，以及换材料后怎样判断这些要求仍然有效。",
+    "sources": [
+      {
+        "id": "L2",
+        "locator": "v09第015–032页"
+      },
+      {
+        "id": "TEACHER",
+        "locator": "第3–5项"
+      }
+    ],
+    "start_seconds": 3485,
+    "end_seconds": 3525
+  },
+  {
+    "page": 48,
+    "renderer": 48,
+    "source_plan_page": 30,
+    "section": "Prompting",
+    "type": "summary",
+    "title": "Prompting小结：从交代任务到反馈检查",
+    "seconds": 45,
+    "on_slide": [
+      "交代任务：让谁用、用来做什么、交付怎样的结果。",
+      "补齐信息：澄清会改变结论的点，核对材料支持的范围。",
+      "形成方案：在共同维度下比较，优先验证关键假设。",
+      "反馈检查：指出具体修改位置，用代表性输入检查。",
+      "把有效反馈写回下一次输入。"
+    ],
+    "talk": "沿章首同一幅关系图回看六个方法。财务任务说明用途与受众，访谈材料说明核查范围，方案选择说明关键条件与验证，反馈则进入可复用的Prompt。",
+    "sources": [
+      {
+        "id": "PLAN",
+        "locator": "Prompting核心技巧与全讲层级"
+      }
+    ],
+    "start_seconds": 3525,
+    "end_seconds": 3570
+  },
+  {
+    "page": 49,
+    "renderer": 49,
+    "source_plan_page": 31,
+    "section": "Prompting",
+    "type": "bridge",
+    "title": "从Prompting走向Agent",
+    "seconds": 30,
+    "on_slide": [
+      "任务：读取经营资料，整理关键数字，解释利润变化。",
+      "模型提出工具调用；工具读取文件；材料与结果进入下一次输入。",
+      "Prompting组织每次输入；Harness组织整个执行过程。"
+    ],
+    "talk": "从写清任务推进到谁执行操作、如何取得结果，以及结果怎样成为下一步的输入。下一部分进入Agent与工具调用。",
+    "sources": [
+      {
+        "id": "PLAN",
+        "locator": "Prompting核心技巧与全讲层级"
+      }
+    ],
+    "start_seconds": 3570,
+    "end_seconds": 3600
+  },
+  {
+    "page": 50,
+    "renderer": 2050,
+    "source_plan_page": 32,
+    "section": "Agents总览",
+    "type": "agenda",
+    "title": "本讲内容",
+    "seconds": 30,
+    "on_slide": [
+      "LLM基础",
+      "Prompting",
+      "Agents：Externalization & Internalization",
+      "工具调用、Memory、Skills、Harness与外化内化整合"
+    ],
+    "talk": "Agents由外化与内化统领。依次理解执行动作、保存信息、复用做法和组织运行，最后回到模型与系统的分工。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第009–011、147–149、181–188、196、201页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agents主线与外化内化整合"
+      }
+    ],
+    "start_seconds": 3600,
+    "end_seconds": 3630
+  },
+  {
+    "page": 51,
+    "renderer": 2051,
+    "source_plan_page": 32,
+    "section": "Agents总览",
+    "type": "overview",
+    "title": "Agents：外化与内化",
+    "seconds": 60,
+    "on_slide": [
+      "Externalization（外化）：在模型之外组织工具、信息、方法与运行过程。",
+      "Internalization（内化）：通过训练更新模型参数。",
+      "Harness组织运行；Memory和Skills为本次输入提供信息与方法；工具执行并返回结果。"
+    ],
+    "talk": "先用同一张图定义两条路径，说明外部的四类工作与模型的关系。后面按工具、信息、方法和运行安排依次展开，最后回到训练与外部安排。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第009–011、147–149、181–188、196、201页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agents主线与外化内化整合"
+      }
+    ],
+    "start_seconds": 3630,
+    "end_seconds": 3690
+  },
+  {
+    "page": 52,
+    "renderer": 2052,
+    "source_plan_page": 32,
+    "section": "Agents·工具调用",
+    "type": "overview",
+    "title": "工具调用：把请求、执行与反馈接起来",
+    "seconds": 60,
+    "on_slide": [
+      "模型提出调用，应用分发与执行，工具取得资料或改变系统。",
+      "返回结果加入下一次输入，模型据此继续判断。",
+      "天气查询、客户工单、多步反馈与界面操作共用同一闭环。"
+    ],
+    "talk": "先建立模型、应用和工具的职责关系，再沿回箭头说明结果怎样形成下一次判断的依据。指出本节的四个展开部分与同一闭环的关系。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第028、037页"
+      }
+    ],
+    "start_seconds": 3690,
+    "end_seconds": 3750
+  },
+  {
+    "page": 53,
+    "renderer": 2053,
+    "source_plan_page": 33,
+    "section": "Agents·一次调用",
+    "type": "overview",
+    "title": "一次调用：从查询建议到天气材料",
+    "seconds": 90,
+    "on_slide": [
+      "一次调用按工具说明、请求、执行和返回展开。",
+      "查询建议产生文字；工具执行取得外部返回材料。"
+    ],
+    "talk": "用同一天气问题对比两条路径，然后预告后续四步。停在材料新增的位置，说明工具调用给本次输入带来了什么。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第027–028页"
+      }
+    ],
+    "start_seconds": 3750,
+    "end_seconds": 3840
+  },
+  {
+    "page": 54,
+    "renderer": 2054,
+    "source_plan_page": 34,
+    "section": "Agents·一次调用",
+    "type": "content",
+    "title": "工具说明告诉模型可以做什么",
+    "seconds": 90,
+    "on_slide": [
+      "工具名称为get_weather，用途为查询地点天气，需要location。",
+      "用户问题与工具说明共同进入本次模型输入。"
+    ],
+    "talk": "依次显示问题、工具说明和汇入模型的路径。将地点要求与用户原话中的纽约对应起来。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第015–019页；examples/tool_call_text/data/01_messages.py、02_tools.py"
+      }
+    ],
+    "start_seconds": 3840,
+    "end_seconds": 3930
+  },
+  {
+    "page": 55,
+    "renderer": 2055,
+    "source_plan_page": 35,
+    "section": "Agents·一次调用",
+    "type": "content",
+    "title": "调用请求写明工具与地点",
+    "seconds": 90,
+    "on_slide": [
+      "调用请求包含工具get_weather与地点New York。",
+      "工具名选择执行程序，地点作为执行的输入。"
+    ],
+    "talk": "先认出动作名称，再认出作用对象，最后让调用到达应用。请求中的字段逐项对应前页工具说明。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第020–022页；data/04_assistant_call_illustrative.txt、05_parsed_call.json"
+      }
+    ],
+    "start_seconds": 3930,
+    "end_seconds": 4020
+  },
+  {
+    "page": 56,
+    "renderer": 2056,
+    "source_plan_page": 36,
+    "section": "Agents·一次调用",
+    "type": "content",
+    "title": "程序执行读取，工具返回天气",
+    "seconds": 90,
+    "on_slide": [
+      "应用执行get_weather，工具读取weather_fixture.json中的纽约记录。",
+      "天气记录返回72°F与Partly cloudy。"
+    ],
+    "talk": "沿执行、文件读取、返回三步讲解。指明外部数据进入过程的具体位置，随后连接结果如何交回应用。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第023页；data/weather_fixture.json、06_tool_result.txt"
+      }
+    ],
+    "start_seconds": 4020,
+    "end_seconds": 4110
+  },
+  {
+    "page": 57,
+    "renderer": 2057,
+    "source_plan_page": 37,
+    "section": "Agents·一次调用",
+    "type": "content",
+    "title": "把调用与结果追加到下一次输入",
+    "seconds": 120,
+    "on_slide": [
+      "已有任务与要求继续保留。",
+      "本次调用和工具结果按顺序追加，模型依据新材料生成回答。"
+    ],
+    "talk": "逐条展开消息带，区分用户问题、助手调用与工具返回。最后指出回答中的温度和天气状况对应哪一条输入。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第024–026页；data/07_messages_after_tool.py、08_round2_complete.txt"
+      }
+    ],
+    "start_seconds": 4110,
+    "end_seconds": 4230
+  },
+  {
+    "page": 58,
+    "renderer": 2058,
+    "source_plan_page": 38,
+    "section": "Agents·一次调用",
+    "type": "summary",
+    "title": "两次生成，中间执行一次工具",
+    "seconds": 90,
+    "on_slide": [
+      "第一次生成提出调用，程序执行并返回结果。",
+      "结果进入新输入后，模型再次生成回答。"
+    ],
+    "talk": "回到完整时间线，将两次模型生成与中间一次工具执行连起来。归纳模型、应用、工具分别贡献什么。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第028页"
+      }
+    ],
+    "start_seconds": 4230,
+    "end_seconds": 4320
+  },
+  {
+    "page": 59,
+    "renderer": 2059,
+    "source_plan_page": 39,
+    "section": "Agents·Fin与Linear",
+    "type": "overview",
+    "title": "Fin：把客户反馈送入问题跟踪",
+    "seconds": 120,
+    "on_slide": [
+      "客户反馈、问题记录与后续跟进构成业务关系。",
+      "Fin可以把客户报告的问题登记为Linear工单。"
+    ],
+    "talk": "先区分客户对话与问题跟踪两个工作对象，再连接官方披露的跨系统操作。接下来分别看材料、动作和完成条件。",
+    "sources": [
+      {
+        "id": "CASE_FIN",
+        "locator": "Integrations节，Intercom段"
+      }
+    ],
+    "start_seconds": 4320,
+    "end_seconds": 4440
+  },
+  {
+    "page": 60,
+    "renderer": 2060,
+    "source_plan_page": 40,
+    "section": "Agents·Fin与Linear",
+    "type": "content",
+    "title": "客户材料、创建请求与系统记录",
+    "seconds": 120,
+    "on_slide": [
+      "客户描述提供问题材料，操作请求说明要做什么。",
+      "外部系统保存问题记录，并返回结果供后续判断。"
+    ],
+    "talk": "沿三条泳道拆开业务对象和动作。上层是客户材料，中层是请求和程序执行，下层是业务系统中的记录；再把返回结果接回处理过程。",
+    "sources": [
+      {
+        "id": "CASE_FIN",
+        "locator": "Integrations节，Intercom段"
+      },
+      {
+        "id": "L3",
+        "locator": "第028页：工具请求、执行与返回关系"
+      }
+    ],
+    "start_seconds": 4440,
+    "end_seconds": 4560
+  },
+  {
+    "page": 61,
+    "renderer": 2061,
+    "source_plan_page": 41,
+    "section": "Agents·Fin与Linear",
+    "type": "summary",
+    "title": "记录建立与问题解决，各有完成条件",
+    "seconds": 120,
+    "on_slide": [
+      "检查系统返回或查询记录，可以判断登记结果。",
+      "问题修复和客户确认还需要各自对应的结果。",
+      "客户材料、创建请求和系统记录把对话接到业务动作。"
+    ],
+    "talk": "回到客户反馈到后续跟进的业务关系。将建立记录、修复问题和客户确认分成不同完成节点，收束为任务要求与结果的对应。",
+    "sources": [
+      {
+        "id": "CASE_FIN",
+        "locator": "Integrations节，Intercom段"
+      },
+      {
+        "id": "L3",
+        "locator": "第028页：工具请求、执行与返回关系"
+      }
+    ],
+    "start_seconds": 4560,
+    "end_seconds": 4680
+  },
+  {
+    "page": 62,
+    "renderer": 2062,
+    "source_plan_page": 42,
+    "section": "Agents·多步反馈",
+    "type": "overview",
+    "title": "新结果决定继续、补充还是结束",
+    "seconds": 90,
+    "on_slide": [
+      "新结果先与任务要求比较。",
+      "材料足够时组织交付，缺少关键材料时补充读取或查询。"
+    ],
+    "talk": "先呈现判断与两种去向的完整关系，再逐步走过足够和不足两条路径。后续页沿错误修正与结果核对展开。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第028、030、035页"
+      }
+    ],
+    "start_seconds": 4680,
+    "end_seconds": 4770
+  },
+  {
+    "page": 63,
+    "renderer": 2063,
+    "source_plan_page": 43,
+    "section": "Agents·多步反馈",
+    "type": "content",
+    "title": "缺少地点：让反馈回到原问题",
+    "seconds": 150,
+    "on_slide": [
+      "调用缺少地点时，反馈指出缺失项。",
+      "原问题中的纽约提供修正依据，补上New York后再交给程序执行。"
+    ],
+    "talk": "并排对照用户问题和调用地点栏。反馈出现后沿原问题中的纽约补齐参数，将修正依据、修正请求与后续执行区分开。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第015–016页；data/01_messages.py、02_tools.py"
+      }
+    ],
+    "start_seconds": 4770,
+    "end_seconds": 4920
+  },
+  {
+    "page": 64,
+    "renderer": 2064,
+    "source_plan_page": 44,
+    "section": "Agents·多步反馈",
+    "type": "content",
+    "title": "返回内容要对应对象、内容与时点",
+    "seconds": 150,
+    "on_slide": [
+      "地点、天气内容与查询时点分别构成任务要求。",
+      "New York对应地点，72°F与Partly cloudy对应天气。",
+      "时效要求需要对应数据的观测时间。"
+    ],
+    "talk": "按三行核对任务与返回。前两行可直接对应；时点一行指出下一步需要取得的依据。把判断收在任务是否得到充分支持。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第015、023、028页；data/01_messages.py、06_tool_result.txt"
+      }
+    ],
+    "start_seconds": 4920,
+    "end_seconds": 5070
+  },
+  {
+    "page": 65,
+    "renderer": 2065,
+    "source_plan_page": 44,
+    "section": "Agents·多步反馈",
+    "type": "summary",
+    "title": "行动、反馈、判断与下一步",
+    "seconds": 90,
+    "on_slide": [
+      "先看新结果，再对照原任务，最后选择下一步。",
+      "结果足够就交付；信息不足就补充；请求有缺项就修正。"
+    ],
+    "talk": "回到多步反馈总览的三个出口，分别定位天气材料、地点反馈和时效核对，归纳后续行动怎样依赖新材料。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第028、030、035页"
+      }
+    ],
+    "start_seconds": 5070,
+    "end_seconds": 5160
+  },
+  {
+    "page": 66,
+    "renderer": 2066,
+    "source_plan_page": 45,
+    "section": "Agents·Computer Use",
+    "type": "overview",
+    "title": "Computer Use：观察、动作与新观察",
+    "seconds": 60,
+    "on_slide": [
+      "通过工具读取和操作软件界面。",
+      "观察当前界面，选择动作，执行，再重新观察。"
+    ],
+    "talk": "先建立完整四步关系，再定位模型选择动作、程序执行操作和界面反馈三处。后续按当前观察、动作执行、新观察逐项展开。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第030–037页；examples/computer_use/README.md"
+      }
+    ],
+    "start_seconds": 5160,
+    "end_seconds": 5220
+  },
+  {
+    "page": 67,
+    "renderer": 2067,
+    "source_plan_page": 45,
+    "section": "Agents·Computer Use",
+    "type": "content",
+    "title": "界面结构与截图提供两种观察",
+    "seconds": 90,
+    "on_slide": [
+      "界面结构提供可操作对象及属性。",
+      "截图提供对象位置与视觉状态。",
+      "两类观察共同构成本次选择动作的材料。"
+    ],
+    "talk": "将浏览器窗口和地址栏在结构文本与图像中逐一对应。只讲模型能够取得什么信息，再让两类观察汇入本次输入。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第030–033、036页；computer_use/source/本机接口说明摘录.md"
+      }
+    ],
+    "start_seconds": 5220,
+    "end_seconds": 5310
+  },
+  {
+    "page": 68,
+    "renderer": 2068,
+    "source_plan_page": 46,
+    "section": "Agents·Computer Use",
+    "type": "content",
+    "title": "根据当前观察，提出界面操作",
+    "seconds": 90,
+    "on_slide": [
+      "点击地址栏的目标来自当前观察。",
+      "模型提出动作请求，工具程序操作软件或操作系统。"
+    ],
+    "talk": "依次展示当前地址栏位置、点击请求和工具执行。强调动作和作用目标必须从当前观察中确定。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第034–035页；computer_use/click.js"
+      }
+    ],
+    "start_seconds": 5310,
+    "end_seconds": 5400
+  },
+  {
+    "page": 69,
+    "renderer": 2069,
+    "source_plan_page": 46,
+    "section": "Agents·Computer Use",
+    "type": "content",
+    "title": "操作以后，再读取界面核对目标",
+    "seconds": 90,
+    "on_slide": [
+      "重新观察焦点、内容与页面状态。",
+      "新状态与目标对应后，才能决定下一步。"
+    ],
+    "talk": "对比动作前后要观察的位置。用地址栏焦点作为当前目标的核对对象，归纳请求、执行、新观察和后续判断的顺序。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第034–037页；computer_use/observe_after.js"
+      }
+    ],
+    "start_seconds": 5400,
+    "end_seconds": 5490
+  },
+  {
+    "page": 70,
+    "renderer": 2070,
+    "source_plan_page": 46,
+    "section": "Agents·Computer Use",
+    "type": "summary",
+    "title": "界面操作也要带着新结果继续判断",
+    "seconds": 60,
+    "on_slide": [
+      "当前观察提供动作依据。",
+      "工具完成操作，新的界面与状态进入下一轮判断。"
+    ],
+    "talk": "回到观察、执行与新观察的闭环，保留原窗口与同一地址栏对象，连接Computer Use与普通工具调用的共同机制。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第037页；computer_use/observe.js、observe_after.js"
+      }
+    ],
+    "start_seconds": 5490,
+    "end_seconds": 5550
+  },
+  {
+    "page": 71,
+    "renderer": 2071,
+    "source_plan_page": 47,
+    "section": "Agents·工具调用",
+    "type": "summary",
+    "title": "工具调用小结：执行结果回到判断",
+    "seconds": 90,
+    "on_slide": [
+      "模型决定下一步，应用连接请求与执行程序，工具取得资料或改变系统。",
+      "结果回到下一次输入，成为后续判断依据。"
+    ],
+    "talk": "回到章首同一职责与反馈图，依次用天气、工单和界面操作定位共同的请求、执行、返回、继续关系。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第028、037页"
+      }
+    ],
+    "start_seconds": 5550,
+    "end_seconds": 5640
+  },
+  {
+    "page": 72,
+    "renderer": 2072,
+    "source_plan_page": 47,
+    "section": "Agents·工具调用",
+    "type": "transition",
+    "title": "把以后要用的信息留给下一次任务",
+    "seconds": 60,
+    "on_slide": [
+      "当前工作包含任务要求、工具返回和已完成的动作。",
+      "以后需要的信息需要保存，并在下次任务取回。"
+    ],
+    "talk": "先回看本章工作对象，再把时间线延伸到下一次任务。只定位保存与取回的关系，下一章展开Memory的具体机制。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第037页；Memory章节"
+      }
+    ],
+    "start_seconds": 5640,
+    "end_seconds": 5700
+  },
+  {
+    "page": 73,
+    "renderer": 2073,
+    "source_plan_page": null,
+    "section": "Agents·课间休息",
+    "type": "break",
+    "title": "课间休息",
+    "seconds": 600,
+    "on_slide": [
+      "10分钟。",
+      "接下来：Memory、Skills、Harness、外化与内化整合。"
+    ],
+    "talk": "课间休息；后半讲从过去信息如何重新进入当前任务开始。",
+    "sources": [
+      {
+        "id": "PLAN",
+        "locator": "PLAN"
+      }
+    ],
+    "start_seconds": 5700,
+    "end_seconds": 6300
+  },
+  {
+    "page": 74,
+    "renderer": 2074,
+    "source_plan_page": 50,
+    "section": "Memory·总览",
+    "type": "overview",
+    "title": "Memory：把过去的信息带入本次任务",
+    "seconds": 65,
+    "on_slide": [
+      "Agents / Memory：保存 → 取回 → 更新",
+      "过去会话",
+      "哪些信息值得\n留给以后？",
+      "外部记录",
+      "摘要 · 详细文件\n对象 · 时间 · 范围",
+      "本次输入",
+      "当前任务到来时\n按需要取回",
+      "保存",
+      "取回",
+      "新的信息：更新记录",
+      "先看文件怎样被读回，再看客服连续性，最后看记录更新与当前用途。"
+    ],
+    "talk": "章首先定位Memory在Agents中的位置，再用同一信息流说明后面的文件、客服和适用性三部分。",
+    "sources": [
+      {
+        "id": "MEM",
+        "locator": "case/memories_v2；第007–021页"
+      }
+    ],
+    "start_seconds": 6300,
+    "end_seconds": 6365
+  },
+  {
+    "page": 75,
+    "renderer": 2075,
+    "source_plan_page": 51,
+    "section": "Memory·保存与取回",
+    "type": "overview",
+    "title": "保存与取回：从文件到本次输入",
+    "seconds": 40,
+    "on_slide": [
+      "保存与取回：沿着文件、读取、输入，查看同一份信息。",
+      "磁盘上的记录",
+      "记忆摘要\n＋详细文件入口",
+      "读取文件",
+      "提出读取 → 工具执行\n→ 返回内容",
+      "本次输入",
+      "当前任务\n＋已取得的内容",
+      "接下来打开记忆摘要，沿路径读取详细记录，再观察文件更新后的变化。"
+    ],
+    "talk": "先看三处位置，随后逐项展开摘要、文件读取与更新。",
+    "sources": [
+      {
+        "id": "MEM",
+        "locator": "case/memories_v2；第007–021页"
+      }
+    ],
+    "start_seconds": 6365,
+    "end_seconds": 6405
+  },
+  {
+    "page": 76,
+    "renderer": 2076,
+    "source_plan_page": 52,
+    "section": "Memory·保存与取回",
+    "type": "content",
+    "title": "一份摘要，怎样带出详细记录？",
+    "seconds": 120,
+    "on_slide": [
+      "摘要同时保存两类内容：可以直接使用的信息，以及详细记录的入口。",
+      "memories_v2/",
+      "memory_summary.md",
+      "rollout_summaries/",
+      "style.md",
+      "scope.md",
+      "沿用教师措辞与固定样式；\n每页适量，复杂内容分步讲。",
+      "style.md：需要具体版式、措辞时读。\nscope.md：核对讲解范围。",
+      "摘要里的路径指向详细文件；路径本身不能代替文件中的内容。"
+    ],
+    "talk": "打开三份文件构成的真实目录。先看版式偏好，再沿scope.md入口定位范围说明。",
+    "sources": [
+      {
+        "id": "MEM",
+        "locator": "case/memories_v2；第007–021页"
+      }
+    ],
+    "start_seconds": 6405,
+    "end_seconds": 6525
+  },
+  {
+    "page": 77,
+    "renderer": 2077,
+    "source_plan_page": 53,
+    "section": "Memory·保存与取回",
+    "type": "content",
+    "title": "读取内容，加入后续输入",
+    "seconds": 130,
+    "on_slide": [
+      "当前任务与摘要",
+      "需要核对\n历史决定的范围",
+      "入口：scope.md",
+      "读取 scope.md",
+      "模型提出读取\n工具打开文件",
+      "后续输入",
+      "当前任务\n＋原有摘要\n＋详细范围",
+      "从摘要中的入口，取得范围说明的正文。",
+      "“这项决定针对第一讲，\n不是后续所有专题的\n内容上限。”",
+      "回答结合当前要求和详细范围，确定这次讲解应怎样展开。"
+    ],
+    "talk": "保留当前要求与已有摘要，逐步加入详细范围，讲清工具读取和后续生成之间的关系。",
+    "sources": [
+      {
+        "id": "MEM",
+        "locator": "case/memories_v2；第007–021页"
+      }
+    ],
+    "start_seconds": 6525,
+    "end_seconds": 6655
+  },
+  {
+    "page": 78,
+    "renderer": 2078,
+    "source_plan_page": 51,
+    "section": "Memory·保存与取回",
+    "type": "content",
+    "title": "文件更新以后，还要更新输入",
+    "seconds": 110,
+    "on_slide": [
+      "文件与输入位于不同位置，更新也发生在不同时间。",
+      "磁盘文件",
+      "已组装的输入",
+      "读取时的内容",
+      "版本 A",
+      "上次读取的内容",
+      "读取",
+      "第一次读取：把文件当时的内容加入输入。",
+      "文件已经修改",
+      "版本 B",
+      "等待读取",
+      "随后修改磁盘文件，已经组装的输入仍保留版本 A。",
+      "重新取得的内容",
+      "再次读取或加入更新内容后，后续输入才取得版本 B。"
+    ],
+    "talk": "依次比较版本A、磁盘更新为B、后续输入取得B。版本符号只定位状态变化。",
+    "sources": [
+      {
+        "id": "MEM",
+        "locator": "case/memories_v2；第007–021页"
+      }
+    ],
+    "start_seconds": 6655,
+    "end_seconds": 6765
+  },
+  {
+    "page": 79,
+    "renderer": 2079,
+    "source_plan_page": 53,
+    "section": "Memory·保存与取回",
+    "type": "summary",
+    "title": "保存在哪里，取回什么，怎样参与生成",
+    "seconds": 40,
+    "on_slide": [
+      "“已经保存”和“这次取得了什么”，要分别定位。",
+      "磁盘上的记录",
+      "记忆摘要\n＋详细文件入口",
+      "读取文件",
+      "提出读取 → 工具执行\n→ 返回内容",
+      "本次输入",
+      "当前任务\n＋已取得的内容",
+      "摘要提供要点和入口；读取取得内容；内容进入后续输入，才参与后续生成。"
+    ],
+    "talk": "回到本小节三处位置，归纳文件、读取与输入之间的关系。",
+    "sources": [
+      {
+        "id": "MEM",
+        "locator": "case/memories_v2；第007–021页"
+      }
+    ],
+    "start_seconds": 6765,
+    "end_seconds": 6805
+  },
+  {
+    "page": 80,
+    "renderer": 2080,
+    "source_plan_page": 54,
+    "section": "Memory·AWS客服",
+    "type": "overview",
+    "title": "AWS客服：延续两次会话的背景",
+    "seconds": 40,
+    "on_slide": [
+      "AWS 电子产品客服：两次会话之间，用记忆延续背景。",
+      "前次会话",
+      "表达偏好\n说明设备问题",
+      "客户记忆",
+      "偏好与事实",
+      "本次会话",
+      "新的问题\n＋有关背景",
+      "先看保存什么，再看怎样取回，最后把背景加入当前请求。"
+    ],
+    "talk": "先展示两次会话和外部记忆的位置，再沿保存和取回展开。",
+    "sources": [
+      {
+        "id": "CASE_AWS",
+        "locator": "Add persistent memory；Create the memory resources；Test the memory in action"
+      }
+    ],
+    "start_seconds": 6805,
+    "end_seconds": 6845
+  },
+  {
+    "page": 81,
+    "renderer": 2081,
+    "source_plan_page": 55,
+    "section": "Memory·AWS客服",
+    "type": "case",
+    "title": "AWS客服：保存偏好与有关事实",
+    "seconds": 100,
+    "on_slide": [
+      "竞技射击游戏",
+      "客户重视耳机的\n低延迟。",
+      "客户偏好",
+      "用途：竞技射击游戏\n偏好：低延迟",
+      "有关事实：曾报告的设备问题",
+      "会话中值得延续的信息，整理为后续可以检索的偏好与事实。"
+    ],
+    "talk": "将低延迟偏好分解为用途与偏好，再点出设备问题属于另一类有关事实。",
+    "sources": [
+      {
+        "id": "CASE_AWS",
+        "locator": "Add persistent memory；Create the memory resources；Test the memory in action"
+      }
+    ],
+    "start_seconds": 6845,
+    "end_seconds": 6945
+  },
+  {
+    "page": 82,
+    "renderer": 2082,
+    "source_plan_page": 56,
+    "section": "Memory·AWS客服",
+    "type": "case",
+    "title": "AWS客服：把背景加入新的问题",
+    "seconds": 110,
+    "on_slide": [
+      "该客户的记忆",
+      "竞技射击游戏\n重视低延迟",
+      "本次请求",
+      "“推荐哪一款耳机？”",
+      "取回背景：游戏用途、低延迟偏好",
+      "当前问题 ＋ 相关历史 → 模型",
+      "取回以客户和当前问题为线索，让后续服务取得有关背景。"
+    ],
+    "talk": "保留当前耳机问题，将有关游戏用途和低延迟偏好加入输入。",
+    "sources": [
+      {
+        "id": "CASE_AWS",
+        "locator": "Add persistent memory；Create the memory resources；Test the memory in action"
+      }
+    ],
+    "start_seconds": 6945,
+    "end_seconds": 7055
+  },
+  {
+    "page": 83,
+    "renderer": 2083,
+    "source_plan_page": 56,
+    "section": "Memory·AWS客服",
+    "type": "summary",
+    "title": "AWS客服：让后续服务取得有关背景",
+    "seconds": 40,
+    "on_slide": [
+      "把当前问题与有关历史一起交给客服 Agent。",
+      "前次会话",
+      "表达偏好\n说明设备问题",
+      "客户记忆",
+      "偏好与事实",
+      "本次会话",
+      "新的问题\n＋有关背景",
+      "先保存后续需要的背景，再按客户和当前问题取回。"
+    ],
+    "talk": "回到两次会话图，指出保存、检索、加入请求三个动作。",
+    "sources": [
+      {
+        "id": "CASE_AWS",
+        "locator": "Add persistent memory；Create the memory resources；Test the memory in action"
+      }
+    ],
+    "start_seconds": 7055,
+    "end_seconds": 7095
+  },
+  {
+    "page": 84,
+    "renderer": 2084,
+    "source_plan_page": 57,
+    "section": "Memory·更新与适用性",
+    "type": "overview",
+    "title": "取回以后，还要判断本次是否适用",
+    "seconds": 40,
+    "on_slide": [
+      "更新与适用性：旧记录是否仍然成立、是否适合当前目标？",
+      "旧记录",
+      "过去的偏好\n与事实",
+      "本次\n适用？",
+      "更新记录／调整采用",
+      "当前任务",
+      "新的信息\n＋当前用途",
+      "先看偏好发生变化，再看偏好仍成立、但这次用途已经改变。"
+    ],
+    "talk": "先区分时间变化与用途变化，再分别用品牌偏好和午休音乐解释。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第052、059、064页"
+      }
+    ],
+    "start_seconds": 7095,
+    "end_seconds": 7135
+  },
+  {
+    "page": 85,
+    "renderer": 2085,
+    "source_plan_page": 57,
+    "section": "Memory·更新与适用性",
+    "type": "content",
+    "title": "偏好改变，保留历史并更新当前关系",
+    "seconds": 120,
+    "on_slide": [
+      "Kendra 的偏好发生变化：先前喜欢 Adidas，后来转而喜欢 Puma。",
+      "较早的记录",
+      "Kendra → 喜欢 → Adidas",
+      "新的消息",
+      "Adidas 鞋坏了\n现在喜欢 Puma",
+      "加入新的偏好关系",
+      "记录变化内容与适用时间，后续按当前有效的信息回答。",
+      "旧关系失效，保留历史"
+    ],
+    "talk": "时间线先保留较早记录，再加入新消息，区分历史关系和当前采用。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第052、059、064页"
+      }
+    ],
+    "start_seconds": 7135,
+    "end_seconds": 7255
+  },
+  {
+    "page": 86,
+    "renderer": 2086,
+    "source_plan_page": 58,
+    "section": "Memory·更新与适用性",
+    "type": "content",
+    "title": "喜欢的音乐，这次一定适合听吗？",
+    "seconds": 130,
+    "on_slide": [
+      "当前想在午休时放松；过去曾用强节奏音乐保持清醒。",
+      "当前请求：午休放松",
+      "过去偏好：保持清醒",
+      "同属音乐",
+      "用途：放松",
+      "用途：保持清醒",
+      "这次根据“放松”选择音频；暂不采用旧偏好，也不必删除那条记录。"
+    ],
+    "talk": "先看午休请求，再加入强节奏偏好，最后比较用途；本次暂不采用与删除长期记录是不同动作。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第052、059、064页"
+      }
+    ],
+    "start_seconds": 7255,
+    "end_seconds": 7385
+  },
+  {
+    "page": 87,
+    "renderer": 2087,
+    "source_plan_page": 58,
+    "section": "Memory·更新与适用性",
+    "type": "summary",
+    "title": "更新记录，也检查当前用途",
+    "seconds": 50,
+    "on_slide": [
+      "取回以后，还要检查信息的时间与用途。",
+      "旧记录",
+      "过去的偏好\n与事实",
+      "本次\n适用？",
+      "更新记录／调整采用",
+      "当前任务",
+      "新的信息\n＋当前用途",
+      "变化了，就更新记录；仍正确但用途不同，就调整本次采用方式。"
+    ],
+    "talk": "回到旧记录、适用性和当前任务关系图，归纳两类调整。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第052、059、064页"
+      }
+    ],
+    "start_seconds": 7385,
+    "end_seconds": 7435
+  },
+  {
+    "page": 88,
+    "renderer": 2088,
+    "source_plan_page": 59,
+    "section": "Memory·小结",
+    "type": "summary",
+    "title": "Memory：留下信息，再按当前任务取用",
+    "seconds": 65,
+    "on_slide": [
+      "记忆的作用，是让后续任务取得适用的信息。",
+      "过去会话",
+      "留下以后需要的\n偏好、事实与决定",
+      "外部记录",
+      "摘要 · 详细文件\n对象 · 时间 · 范围",
+      "本次输入",
+      "当前目标\n＋适用的历史信息",
+      "保存",
+      "取回",
+      "变化了：更新记录",
+      "留下信息、读入输入、判断适用性，三个环节共同决定记忆怎样发挥作用。"
+    ],
+    "talk": "用章首关系图总结保存、取回和更新，并连接下一部分的可复用做法。",
+    "sources": [
+      {
+        "id": "MEM",
+        "locator": "case/memories_v2；第007–021页"
+      }
+    ],
+    "start_seconds": 7435,
+    "end_seconds": 7500
+  },
+  {
+    "page": 89,
+    "renderer": 2089,
+    "source_plan_page": 61,
+    "section": "Skills·总览",
+    "type": "overview",
+    "title": "Skills：把可复用的做法组织起来",
+    "seconds": 60,
+    "on_slide": [
+      "Agents / Skills：方法封装 → 按需读取 → 执行 → 检查产物",
+      "方法封装",
+      "说明 · 参考\n脚本 · 模板",
+      "按需读取",
+      "本次任务\n需要的做法",
+      "执行",
+      "读取模板\n生成文件",
+      "检查产物",
+      "对照要求\n打开文件",
+      "先打开一个 Notebook Skill，再看读取与执行，最后用 Box 文档流程连接业务交付。"
+    ],
+    "talk": "章首定位Skills，再用文件包、读取、工具执行和产物解释后续路线。",
+    "sources": [
+      {
+        "id": "SKILL",
+        "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+      }
+    ],
+    "start_seconds": 7500,
+    "end_seconds": 7560
+  },
+  {
+    "page": 90,
+    "renderer": 2090,
+    "source_plan_page": 61,
+    "section": "Skills·方法封装",
+    "type": "overview",
+    "title": "方法封装：说明、参考、脚本和模板",
+    "seconds": 40,
+    "on_slide": [
+      "方法封装：先看四类文件，再对应到本次创建任务。",
+      "jupyter-notebook",
+      "创建、整理\nJupyter Notebook",
+      "SKILL.md",
+      "用途与工作步骤",
+      "references/",
+      "结构与检查要求",
+      "scripts/",
+      "可执行程序",
+      "assets/",
+      "模板与素材",
+      "下面用真实文件树和文件原文，逐项查看各自提供什么。"
+    ],
+    "talk": "先展示四类文件的关系，再打开具体材料。",
+    "sources": [
+      {
+        "id": "SKILL",
+        "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+      }
+    ],
+    "start_seconds": 7560,
+    "end_seconds": 7600
+  },
+  {
+    "page": 91,
+    "renderer": 2091,
+    "source_plan_page": 62,
+    "section": "Skills·方法封装",
+    "type": "content",
+    "title": "打开一个包含12份文件的Skill包",
+    "seconds": 100,
+    "on_slide": [
+      "文件包共有 12 份文件：从入口找到本次要用的方法。",
+      "jupyter-notebook/",
+      "SKILL.md",
+      "references/tutorial-patterns.md",
+      "references/experiment-patterns.md",
+      "references/notebook-structure.md",
+      "references/quality-checklist.md",
+      "scripts/new_notebook.py",
+      "assets/tutorial-template.ipynb",
+      "assets/experiment-template.ipynb",
+      "agents/openai.yaml",
+      "assets/jupyter-small.svg",
+      "assets/jupyter.png",
+      "LICENSE.txt",
+      "本次任务",
+      "为“Python列表与平均值”\n创建教学 Notebook 骨架。",
+      "先保留模板内容，\n并说明后续要补哪些内容。",
+      "任务决定需要哪条读取路线。"
+    ],
+    "talk": "展示完整十二文件树，保持名称和层级准确，突出与本次任务有关的四个文件。",
+    "sources": [
+      {
+        "id": "SKILL",
+        "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+      }
+    ],
+    "start_seconds": 7600,
+    "end_seconds": 7700
+  },
+  {
+    "page": 92,
+    "renderer": 2092,
+    "source_plan_page": 62,
+    "section": "Skills·方法封装",
+    "type": "content",
+    "title": "从入口说明，找到本次需要的做法",
+    "seconds": 100,
+    "on_slide": [
+      "入口说明先分任务类型，再给出材料和程序的位置。",
+      "SKILL.md",
+      "Decision tree",
+      "教学讲解 → tutorial\n探索分析 → experiment",
+      "Workflow",
+      "确定目标 → 用模板创建骨架\n→ 补内容 → 检查结果",
+      "tutorial-patterns.md",
+      "说明受众、基础与学习目标\n提供可以快速浏览的目录",
+      "每步将短说明、代码\n与结果解释相连。",
+      "先理解用途，再沿文件中的入口查阅具体做法。"
+    ],
+    "talk": "使用文件原文标题和中文释义，解释任务类型如何决定材料路线。",
+    "sources": [
+      {
+        "id": "SKILL",
+        "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+      }
+    ],
+    "start_seconds": 7700,
+    "end_seconds": 7800
+  },
+  {
+    "page": 93,
+    "renderer": 2093,
+    "source_plan_page": 62,
+    "section": "Skills·方法封装",
+    "type": "summary",
+    "title": "文件包把方法与材料组织在一起",
+    "seconds": 40,
+    "on_slide": [
+      "文件包把“何时用、怎样做、用什么、如何查”放在一起。",
+      "jupyter-notebook",
+      "创建、整理\nJupyter Notebook",
+      "SKILL.md",
+      "用途与工作步骤",
+      "references/",
+      "结构与检查要求",
+      "scripts/",
+      "可执行程序",
+      "assets/",
+      "模板与素材",
+      "说明给出使用路线，参考补充要求，脚本和模板帮助形成文件。"
+    ],
+    "talk": "回到四类文件分工图，归纳它们怎样配合。",
+    "sources": [
+      {
+        "id": "SKILL",
+        "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+      }
+    ],
+    "start_seconds": 7800,
+    "end_seconds": 7840
+  },
+  {
+    "page": 94,
+    "renderer": 2094,
+    "source_plan_page": 63,
+    "section": "Skills·按需读取与执行",
+    "type": "overview",
+    "title": "从发现用途，到读取方法和执行",
+    "seconds": 40,
+    "on_slide": [
+      "按需读取与执行：先发现用途，再取得方法，最后运行程序。",
+      "名称 · 用途 · 入口",
+      "判断这项 Skill\n是否适合任务",
+      "说明与教学参考",
+      "SKILL.md\ntutorial-patterns.md",
+      "执行生成脚本",
+      "读模板 → 改标题\n→ 写出 Notebook",
+      "读取改变模型这次取得的材料，执行改变工作目录中的文件。"
+    ],
+    "talk": "先区分读取和执行改变的位置，再沿目录、正文、参考、模板和输出展开。",
+    "sources": [
+      {
+        "id": "SKILL",
+        "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+      }
+    ],
+    "start_seconds": 7840,
+    "end_seconds": 7880
+  },
+  {
+    "page": 95,
+    "renderer": 2095,
+    "source_plan_page": 63,
+    "section": "Skills·按需读取与执行",
+    "type": "content",
+    "title": "先根据用途，决定是否打开Skill",
+    "seconds": 90,
+    "on_slide": [
+      "名称、用途与入口，帮助模型决定是否打开 Skill。",
+      "当前可用 Skill",
+      "jupyter-notebook",
+      "创建、搭建或编辑 Notebook\n入口：jupyter-notebook/SKILL.md",
+      "取得详细说明",
+      "模型提出读取 SKILL.md\n工具返回文件正文",
+      "输入增加：工作步骤和文件入口",
+      "从一条用途信息，进入一份可以沿着执行的方法说明。"
+    ],
+    "talk": "输入从用途信息增加为工作步骤和文件位置。",
+    "sources": [
+      {
+        "id": "SKILL",
+        "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+      }
+    ],
+    "start_seconds": 7880,
+    "end_seconds": 7970
+  },
+  {
+    "page": 96,
+    "renderer": 2096,
+    "source_plan_page": 64,
+    "section": "Skills·按需读取与执行",
+    "type": "content",
+    "title": "渐进式披露：需要什么，再读取什么",
+    "seconds": 110,
+    "on_slide": [
+      "渐进式披露：需要什么，再读取什么。",
+      "文件包",
+      "SKILL.md\ntutorial-patterns.md\nexperiment-patterns.md",
+      "当前已经取得",
+      "名称、用途、入口\n＋ SKILL.md 正文",
+      "任务是教学 Notebook，沿教学参考继续读取。",
+      "＋ 教学参考的具体要求",
+      "模板由生成脚本读取；读取路径要看清执行者和用途。"
+    ],
+    "talk": "文件树与当前输入并排，先高亮SKILL.md，再加入教学参考，最后点明模板由脚本使用。",
+    "sources": [
+      {
+        "id": "SKILL",
+        "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+      }
+    ],
+    "start_seconds": 7970,
+    "end_seconds": 8080
+  },
+  {
+    "page": 97,
+    "renderer": 2097,
+    "source_plan_page": 65,
+    "section": "Skills·按需读取与执行",
+    "type": "content",
+    "title": "脚本读取模板，写出Notebook骨架",
+    "seconds": 130,
+    "on_slide": [
+      "Python列表与平均值",
+      "## Outline",
+      "import math",
+      "第一步说明",
+      "最小示例代码",
+      "文字单元",
+      "代码单元",
+      "工具运行 new_notebook.py：读取教学模板、修改标题、写出文件。",
+      "tutorial-template.ipynb",
+      "7 个单元\n包含说明与代码",
+      "标题：\nTutorial: TITLE",
+      "生成脚本",
+      "kind=tutorial\n写入新标题",
+      "7 个单元的骨架文件",
+      "生成文件沿用模板结构，首标题替换为本次任务名称。",
+      "工具返回文件路径；下一步打开产物，核对内容与任务要求。"
+    ],
+    "talk": "从模板到脚本再到输出骨架，逐步显现生成过程。返回路径之后连接产物检查。",
+    "sources": [
+      {
+        "id": "SKILL",
+        "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+      }
+    ],
+    "start_seconds": 8080,
+    "end_seconds": 8210
+  },
+  {
+    "page": 98,
+    "renderer": 2098,
+    "source_plan_page": 65,
+    "section": "Skills·按需读取与执行",
+    "type": "summary",
+    "title": "读取得到方法，执行形成文件",
+    "seconds": 40,
+    "on_slide": [
+      "每次读取，都让当前输入多取得一份所需材料。",
+      "名称 · 用途 · 入口",
+      "判断这项 Skill\n是否适合任务",
+      "说明与教学参考",
+      "SKILL.md\ntutorial-patterns.md",
+      "执行生成脚本",
+      "读模板 → 改标题\n→ 写出 Notebook",
+      "模型读取说明与参考；工具运行程序；程序读取模板并写出文件。"
+    ],
+    "talk": "回到本小节读取与执行图，分别定位内容进入输入和文件写入目录。",
+    "sources": [
+      {
+        "id": "SKILL",
+        "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+      }
+    ],
+    "start_seconds": 8210,
+    "end_seconds": 8250
+  },
+  {
+    "page": 99,
+    "renderer": 2099,
+    "source_plan_page": 66,
+    "section": "Skills·Box文档生成",
+    "type": "overview",
+    "title": "Box：从已有资料到交付文件",
+    "seconds": 40,
+    "on_slide": [
+      "Box 文档生成：已有资料 → 制作方法 → 可继续编辑的文件",
+      "已有报告",
+      "季度报告\n近期月度更新",
+      "文档制作能力",
+      "Skills API",
+      "交付文件",
+      "幻灯片草稿\n电子表格",
+      "沿公开的财务摘要流程，依次看查资料、做草稿和后续表格要求。"
+    ],
+    "talk": "先定位资料、方法与交付三部分，再沿财务摘要流程展开。",
+    "sources": [
+      {
+        "id": "CASE_BOX",
+        "locator": "The solution；The outcome：financial summary flow"
+      }
+    ],
+    "start_seconds": 8250,
+    "end_seconds": 8290
+  },
+  {
+    "page": 100,
+    "renderer": 2100,
+    "source_plan_page": 66,
+    "section": "Skills·Box文档生成",
+    "type": "case",
+    "title": "Box：先找到季度报告与月度更新",
+    "seconds": 90,
+    "on_slide": [
+      "用户要求：用一页幻灯片概括公司的财务状况。",
+      "上一份季度报告",
+      "近期月度更新",
+      "有关数据",
+      "汇入本次\n制作材料",
+      "Agent 搜索 Box 文件夹，取得两类报告中的有关数据。"
+    ],
+    "talk": "用文件对象与汇入关系解释检索结果成为制作材料。",
+    "sources": [
+      {
+        "id": "CASE_BOX",
+        "locator": "The solution；The outcome：financial summary flow"
+      }
+    ],
+    "start_seconds": 8290,
+    "end_seconds": 8380
+  },
+  {
+    "page": 101,
+    "renderer": 2101,
+    "source_plan_page": 67,
+    "section": "Skills·Box文档生成",
+    "type": "case",
+    "title": "Box：生成草稿，继续补充分析",
+    "seconds": 90,
+    "on_slide": [
+      "已找到的资料",
+      "文档制作方法",
+      "财务摘要",
+      "幻灯片草稿",
+      "Box 通过 Skills API，把有关资料组织成有格式的幻灯片草稿。",
+      "团队接着补充分析与判断，继续完善这份草稿。"
+    ],
+    "talk": "从来源资料和制作方法两条路径汇入幻灯片草稿。",
+    "sources": [
+      {
+        "id": "CASE_BOX",
+        "locator": "The solution；The outcome：financial summary flow"
+      }
+    ],
+    "start_seconds": 8380,
+    "end_seconds": 8470
+  },
+  {
+    "page": 102,
+    "renderer": 2102,
+    "source_plan_page": 68,
+    "section": "Skills·Box文档生成",
+    "type": "summary",
+    "title": "Box：同一批资料，响应新的文件要求",
+    "seconds": 90,
+    "on_slide": [
+      "后续要求改为电子表格，复用已经找到的资料。",
+      "同一批来源材料",
+      "幻灯片草稿",
+      "电子表格",
+      "新要求：改变交付形式",
+      "资料与方法配合形成文件；换一种交付形式，仍保持相同的数据依据。"
+    ],
+    "talk": "两条输出路径都从共同资料出发，最后归纳资料、方法和交付的关系。",
+    "sources": [
+      {
+        "id": "CASE_BOX",
+        "locator": "The solution；The outcome：financial summary flow"
+      }
+    ],
+    "start_seconds": 8470,
+    "end_seconds": 8560
+  },
+  {
+    "page": 103,
+    "renderer": 2103,
+    "source_plan_page": 69,
+    "section": "Skills·产物检查",
+    "type": "content",
+    "title": "回到Notebook：打开产物逐项检查",
+    "seconds": 100,
+    "on_slide": [
+      "Tutorial: Python列表与平均值",
+      "## Outline",
+      "import math",
+      "Explain what the next cell does …",
+      "sines = [math.sin(a) for a in angles]",
+      "文字单元",
+      "def describe(values: list[float]) …",
+      "检查产物：把任务要求、文件内容和后续工作连起来。",
+      "任务要求",
+      "创建教学 Notebook 骨架\n保留模板内容\n说明后续要补的内容",
+      "打开文件，先看结构和标题。",
+      "交付应与本次要求对应：结构、标题、保留内容和后续工作逐项说清。",
+      "核对：7 个单元\n首标题已替换",
+      "后续补充：列表与平均值的\n说明、代码及结果解释。"
+    ],
+    "talk": "本页三个状态完成产物检查的总分总：先对齐要求，再打开结构与标题，最后归纳交付和下一步。",
+    "sources": [
+      {
+        "id": "SKILL",
+        "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+      }
+    ],
+    "start_seconds": 8560,
+    "end_seconds": 8660
+  },
+  {
+    "page": 104,
+    "renderer": 2104,
+    "source_plan_page": 70,
+    "section": "Skills·小结",
+    "type": "summary",
+    "title": "Skills：方法、操作与检查相互配合",
+    "seconds": 40,
+    "on_slide": [
+      "Skill 把方法组织为材料，工具执行动作，检查回到实际产物。",
+      "方法封装",
+      "说明 · 参考\n脚本 · 模板",
+      "按需读取",
+      "本次任务\n需要的做法",
+      "执行",
+      "读取模板\n生成文件",
+      "检查产物",
+      "对照要求\n打开文件",
+      "方法说明怎样做；文件记录做出了什么；任务要求决定怎样检查。"
+    ],
+    "talk": "回到章首四环节图，总结方法复用与工具操作，连接Harness的运行组织。",
+    "sources": [
+      {
+        "id": "SKILL",
+        "locator": "case/complete-package-tree.txt；case/workspace；case/execution；第001–020页"
+      }
+    ],
+    "start_seconds": 8660,
+    "end_seconds": 8700
+  },
+  {
+    "page": 105,
+    "renderer": 2105,
+    "source_plan_page": 72,
+    "section": "Harness",
+    "type": "overview",
+    "title": "Harness：把各部分组织为持续的工作",
+    "seconds": 80,
+    "on_slide": [
+      "Harness（运行系统）把材料、操作、进度和检查组织起来。",
+      "先准备输入，模型提出下一步；工具执行操作，返回结果进入检查。",
+      "Memory、Skills和当前材料提供信息与方法；权限、连接、进度与日志支持运行。",
+      "先看材料与连接，再看操作范围、交接、恢复和验收。"
+    ],
+    "talk": "用外框表示运行系统的组织作用。沿准备输入、模型判断、执行、检查走一圈，再看继续、等待和结束的出口。后续五个小节对应这张图上的工作。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "147–149页"
+      }
+    ],
+    "start_seconds": 8700,
+    "end_seconds": 8780
+  },
+  {
+    "page": 106,
+    "renderer": 2106,
+    "source_plan_page": 73,
+    "section": "Harness·材料与连接",
+    "type": "overview",
+    "title": "材料与连接，分别准备什么",
+    "seconds": 40,
+    "on_slide": [
+      "材料决定模型看到什么；连接决定外部操作怎样到达工具。",
+      "当前要求、工作摘要和必要原文进入本次输入。",
+      "应用连接工具服务，调用和结果沿连接往返。"
+    ],
+    "talk": "先定位材料进入模型输入的位置，再定位应用连接工具服务的位置。下两页分别展开这两件事。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "148、152–154页"
+      }
+    ],
+    "start_seconds": 8780,
+    "end_seconds": 8820
+  },
+  {
+    "page": 107,
+    "renderer": 2107,
+    "source_plan_page": 73,
+    "section": "Harness·材料与连接",
+    "type": "content",
+    "title": "下一步需要的材料，也在变化",
+    "seconds": 100,
+    "on_slide": [
+      "把当前目标、有效约定和进度留下；需要细节时再回读原文。",
+      "较早的长过程整理为工作摘要；下一次输入保留必要原文摘录。",
+      "原文件与记录保留可访问的位置。",
+      "摘要有取舍；关键判断仍要能连回原材料。"
+    ],
+    "talk": "先看积累的材料，再看下一次输入中需要的部分。回读箭头连向原文件，而非删除文件。摘要应保留目标和有效条件；遇到关键细节时返回原文核对。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "152–155页"
+      }
+    ],
+    "start_seconds": 8820,
+    "end_seconds": 8920
+  },
+  {
+    "page": 108,
+    "renderer": 2108,
+    "source_plan_page": 74,
+    "section": "Harness·材料与连接",
+    "type": "content",
+    "title": "MCP：应用怎样连接工具服务",
+    "seconds": 140,
+    "on_slide": [
+      "MCP（模型上下文协议）约定应用与工具服务怎样交换信息。",
+      "本地电脑中的应用包含MCP客户端；文件服务执行文件操作。",
+      "模型生成调用；客户端负责通信；服务负责实际操作。",
+      "应用将工具返回的内容加入后续模型输入。"
+    ],
+    "talk": "四步沿同一运行位置图说明：取得目录、提出调用、服务执行、结果加入输入。模型请求线与MCP通信线分开。服务与客户端可以在同一台电脑上运行；服务端一词指程序角色。",
+    "sources": [
+      {
+        "id": "MCP",
+        "locator": "03–04、09–22页"
+      }
+    ],
+    "start_seconds": 8920,
+    "end_seconds": 9060
+  },
+  {
+    "page": 109,
+    "renderer": 2109,
+    "source_plan_page": 74,
+    "section": "Harness·材料与连接",
+    "type": "summary",
+    "title": "材料进入输入，调用到达工具",
+    "seconds": 35,
+    "on_slide": [
+      "材料先进入本次输入，模型才能使用。",
+      "调用经应用中的连接组件到达工具服务。",
+      "工具返回新材料，应用将它接入下一次模型输入。"
+    ],
+    "talk": "回到材料与连接的关系图。文件存放、内容进入输入、连接到达工具是不同环节，它们在应用组织下相接。",
+    "sources": [
+      {
+        "id": "MCP",
+        "locator": "03–04、11–22页"
+      }
+    ],
+    "start_seconds": 9060,
+    "end_seconds": 9095
+  },
+  {
+    "page": 110,
+    "renderer": 2110,
+    "source_plan_page": 75,
+    "section": "Harness·操作范围与确认",
+    "type": "overview",
+    "title": "先看对象与动作，再看执行条件",
+    "seconds": 40,
+    "on_slide": [
+      "先确定动作与对象，再检查范围；需要确认时，把内容交给人判断。",
+      "执行条件包括对象可否访问、动作是否允许，以及是否已有有效授权。",
+      "读取、修改和向外发送，分别判断。"
+    ],
+    "talk": "先定位操作对象与动作，再解释范围和权限，最后展开人工确认分支。授权已明确的操作沿允许路径推进。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "156–159页"
+      }
+    ],
+    "start_seconds": 9095,
+    "end_seconds": 9135
+  },
+  {
+    "page": 111,
+    "renderer": 2111,
+    "source_plan_page": 75,
+    "section": "Harness·操作范围与确认",
+    "type": "content",
+    "title": "读、写和发送，分别落实范围",
+    "seconds": 90,
+    "on_slide": [
+      "工具可用之后，程序仍按对象和动作限制访问。",
+      "本课程原材料作为只读参考；本次成果写入MBA课程目录。",
+      "运行环境落实访问范围；权限规则决定当前动作怎样处理。",
+      "能写本地文件，没有包含能向外发送。"
+    ],
+    "talk": "用本课程已经确定的文件使用范围说明权限对象矩阵。原课程可以读，新增成果写入本目录。外发动作有自己的对象与授权条件，不能由本地写入范围推出。",
+    "sources": [
+      {
+        "id": "PLAN",
+        "locator": "AGENTS.md；课程共识与制作规范：参考材料和继承范围"
+      }
+    ],
+    "start_seconds": 9135,
+    "end_seconds": 9225
+  },
+  {
+    "page": 112,
+    "renderer": 2112,
+    "source_plan_page": 76,
+    "section": "Harness·操作范围与确认",
+    "type": "content",
+    "title": "需要确认时，先展示具体动作",
+    "seconds": 90,
+    "on_slide": [
+      "进入人工确认时，先形成一份可以审查的具体结果。",
+      "邮件发送前展示收件对象、正文内容和附件清单。",
+      "确认后发送，修改后再看，取消则结束该操作。",
+      "一次批准对应本次动作；后续允许规则要写清对象、范围与有效期。"
+    ],
+    "talk": "用邮件的三个具体检查位置解释确认的对象。把准备好的内容放在决策前面，再展开发送、修改、取消三条路径。一次授权和持续规则的适用范围分别说明。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "158–159页"
+      }
+    ],
+    "start_seconds": 9225,
+    "end_seconds": 9315
+  },
+  {
+    "page": 113,
+    "renderer": 2113,
+    "source_plan_page": 76,
+    "section": "Harness·操作范围与确认",
+    "type": "summary",
+    "title": "让授权落到明确的对象与动作",
+    "seconds": 35,
+    "on_slide": [
+      "动作是否能执行，要同时看对象范围、权限规则和具体内容。",
+      "提出操作，检查执行条件，再按允许范围执行。",
+      "授权针对明确的对象与动作；操作的影响仍要核对。"
+    ],
+    "talk": "回到动作、条件和执行三段关系。需要人工决定时，提交的是可审查的具体结果；确认后的执行仍应与授权范围一致。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "156–159页"
+      }
+    ],
+    "start_seconds": 9315,
+    "end_seconds": 9350
+  },
+  {
+    "page": 114,
+    "renderer": 2114,
+    "source_plan_page": 77,
+    "section": "Harness·reMarkable客服交接",
+    "type": "overview",
+    "title": "reMarkable：客服处理与人工出口",
+    "seconds": 75,
+    "on_slide": [
+      "reMarkable的Agent Mark依据知识库处理客户支持请求。",
+      "问题超出范围或客户要求人工时，转交客服人员。",
+      "自动处理有转交出口；转交时，把处理进度一并带走。"
+    ],
+    "talk": "先看客户问题、Mark与知识库的关系，再展开超出范围和客户要求人工两个转交条件。下一页聚焦交接材料。",
+    "sources": [
+      {
+        "id": "CASE_REMARKABLE",
+        "locator": "Mark、knowledge base与人工交接段落"
+      }
+    ],
+    "start_seconds": 9350,
+    "end_seconds": 9425
+  },
+  {
+    "page": 115,
+    "renderer": 2115,
+    "source_plan_page": 78,
+    "section": "Harness·reMarkable客服交接",
+    "type": "case",
+    "title": "接手的人，需要哪些处理材料",
+    "seconds": 100,
+    "on_slide": [
+      "人工接手，需要知道发生过什么、参考过什么、试过什么。",
+      "交接材料包括聊天历史、相关文章和已经尝试的解决办法。",
+      "三类材料进入人工工作流程，支持继续解决问题。"
+    ],
+    "talk": "按时间线逐项打开三类材料。聊天历史保留沟通内容，相关文章提供参考依据，尝试办法说明处理进度；最后让三类材料一起跨过交接点。",
+    "sources": [
+      {
+        "id": "CASE_REMARKABLE",
+        "locator": "full chat history、related articles、attempted solutions段落"
+      }
+    ],
+    "start_seconds": 9425,
+    "end_seconds": 9525
+  },
+  {
+    "page": 116,
+    "renderer": 2116,
+    "source_plan_page": 78,
+    "section": "Harness·reMarkable客服交接",
+    "type": "summary",
+    "title": "把服务的前后两段接起来",
+    "seconds": 35,
+    "on_slide": [
+      "连续服务把自动处理、交接材料和人工接手连起来。",
+      "问题超出范围或客户要求人工时，三类材料一起交接。",
+      "服务接得上，还要继续处理并确认客户问题是否解决。"
+    ],
+    "talk": "回到Mark与人工客服的关系图，用三类材料补全交接线。成功转交是流程节点，客户问题的解决由后续处理继续确认。",
+    "sources": [
+      {
+        "id": "CASE_REMARKABLE",
+        "locator": "Agentforce转交Service Cloud客服人员的段落"
+      }
+    ],
+    "start_seconds": 9525,
+    "end_seconds": 9560
+  },
+  {
+    "page": 117,
+    "renderer": 2117,
+    "source_plan_page": 79,
+    "section": "Harness·进度停止与恢复",
+    "type": "overview",
+    "title": "继续、等待和结束，各有什么条件",
+    "seconds": 45,
+    "on_slide": [
+      "每次检查结果后，任务会进入不同状态。",
+      "完成要求则结束，还可推进则继续，缺少条件则等待。",
+      "达到时间、调用次数或费用限额时停止。",
+      "停止运行和完成任务，分别判断。"
+    ],
+    "talk": "在一张状态图上先展开正常推进，再出现等待和限额出口。后面沿完成条件、回执丢失、进度记录逐项解释如何判断与恢复。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "162–165页"
+      }
+    ],
+    "start_seconds": 9560,
+    "end_seconds": 9605
+  },
+  {
+    "page": 118,
+    "renderer": 2118,
+    "source_plan_page": 79,
+    "section": "Harness·进度停止与恢复",
+    "type": "content",
+    "title": "完成条件，要连回原来的任务",
+    "seconds": 80,
+    "on_slide": [
+      "完成要连到任务要求；停止还要说明当前处境。",
+      "天气查询要有明确的地点、时间和结果；创建工单要核对外部记录；客服转交要把问题与材料交给人工。",
+      "遇到阻碍或达到限额，保存已完成事项与待解决问题，再停止或等待。"
+    ],
+    "talk": "回用已讲过的三个任务说明不同完成条件。时间线只表示从要求走到执行检查；最后强调限额或阻碍到来时，应留下可继续处理的状态。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "162–163页"
+      }
+    ],
+    "start_seconds": 9605,
+    "end_seconds": 9685
+  },
+  {
+    "page": 119,
+    "renderer": 2119,
+    "source_plan_page": 80,
+    "section": "Harness·进度停止与恢复",
+    "type": "content",
+    "title": "回执丢失时，先查动作是否发生",
+    "seconds": 110,
+    "on_slide": [
+      "没有收到回执，对应的外部事实可能不同。",
+      "请求可能没有到达；也可能工单已创建，但返回途中中断。",
+      "先查外部系统与已有运行记录。",
+      "已发生则接着做，确认未发生再提交，仍不清楚则先处理。"
+    ],
+    "talk": "两条时间线共同说明未收到回执这个表面状态。第二条明确工单在中断前已经创建；查清外部状态后再决定继续或重试，避免重复创建。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "163–165页"
+      }
+    ],
+    "start_seconds": 9685,
+    "end_seconds": 9795
+  },
+  {
+    "page": 120,
+    "renderer": 2120,
+    "source_plan_page": 81,
+    "section": "Harness·进度停止与恢复",
+    "type": "content",
+    "title": "留下下一步可以接用的进度",
+    "seconds": 80,
+    "on_slide": [
+      "进度记录写清三件事：已完成什么、成果在哪里、还缺什么。",
+      "课程制作交接记录连接本地HTML、页面清单和来源资料。",
+      "恢复时核对文件与实际完成情况，从有效进度继续下一项。"
+    ],
+    "talk": "以本课程完成Prompting后、从前49页继续制作的进度记录为对象。三个字段分别连向成果位置与后续任务，再经实际状态核对进入下一步。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "163–164页；本课前49页制作记录"
+      }
+    ],
+    "start_seconds": 9795,
+    "end_seconds": 9875
+  },
+  {
+    "page": 121,
+    "renderer": 2121,
+    "source_plan_page": 81,
+    "section": "Harness·进度停止与恢复",
+    "type": "summary",
+    "title": "按有效进度继续，按完成条件结束",
+    "seconds": 35,
+    "on_slide": [
+      "看清当前状态，留下可继续的记录，再决定下一步。",
+      "恢复时先核对记录、文件和外部状态。",
+      "继续依据有效进度；结束依据完成条件。"
+    ],
+    "talk": "回到状态图，把是否继续与怎样恢复接起来。进度记录和实际状态同时成立，才决定从哪里继续。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "162–165页"
+      }
+    ],
+    "start_seconds": 9875,
+    "end_seconds": 9910
+  },
+  {
+    "page": 122,
+    "renderer": 2122,
+    "source_plan_page": 82,
+    "section": "Harness·日志与验收",
+    "type": "overview",
+    "title": "过程记录和交付检查怎样配合",
+    "seconds": 40,
+    "on_slide": [
+      "日志回答发生了什么；验收回答是否满足原来的要求。",
+      "材料、操作和工具返回连到交付结果，再对照原任务。",
+      "具体问题返回修改环节，修改后按同一要求检查。"
+    ],
+    "talk": "先建立记录、交付和要求之间的关系。下一页用调用链定位问题，再用不同产物说明各自的检查对象。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "166–167页"
+      }
+    ],
+    "start_seconds": 9910,
+    "end_seconds": 9950
+  },
+  {
+    "page": 123,
+    "renderer": 2123,
+    "source_plan_page": 82,
+    "section": "Harness·日志与验收",
+    "type": "content",
+    "title": "把结果连回材料、调用和返回",
+    "seconds": 90,
+    "on_slide": [
+      "把纽约天气查询的结果连回当时的材料、操作与返回内容。",
+      "材料选错：核对地点与日期，更新输入。",
+      "工具失败：查看返回的错误，处理执行条件。",
+      "解释错误：把结论与工具返回逐项对应。",
+      "发现问题的位置，决定下一步改哪里。"
+    ],
+    "talk": "先呈现四类可记录的对象，再依次强调材料、工具返回和最终解释的位置。三类问题分别需要更新输入、处理执行条件或修正解释。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "166页；天气调用015–028页"
+      }
+    ],
+    "start_seconds": 9950,
+    "end_seconds": 10040
+  },
+  {
+    "page": 124,
+    "renderer": 2124,
+    "source_plan_page": 83,
+    "section": "Harness·日志与验收",
+    "type": "summary",
+    "title": "用原任务验收不同交付",
+    "seconds": 110,
+    "on_slide": [
+      "验收从原任务出发，不同交付对应不同检查对象。",
+      "Box文档检查来源数字、内容和格式；Notebook检查单元结构、内容和可用性；工单检查对象、内容和创建状态。",
+      "反复使用时，用有代表性的任务检查质量、耗时与人工检查负担。",
+      "过程记录帮助定位；任务要求决定验收；具体问题进入下一轮。"
+    ],
+    "talk": "逐行回看已讲的三种产物，将检查对象与任务目的对应。最后把本节三段关系收回：记录定位、要求验收、问题返回修改。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "167页；本讲Box、Notebook与工单材料"
+      }
+    ],
+    "start_seconds": 10040,
+    "end_seconds": 10150
+  },
+  {
+    "page": 125,
+    "renderer": 2125,
+    "source_plan_page": 83,
+    "section": "Harness",
+    "type": "summary",
+    "title": "Harness：把过程与交付一起组织好",
+    "seconds": 50,
+    "on_slide": [
+      "把每一步接起来，也把继续工作的条件留下来。",
+      "材料包含目标、依据和方法；过程按范围执行、按状态继续。",
+      "保留有效进度，核对现状，继续下一步。",
+      "完成任务需要有依据的内容、可用的产物和已核对的外部结果。"
+    ],
+    "talk": "回到本章第一张运行图，把五个小节分别放回材料、操作、交接、恢复和验收的位置。随后交给全讲外化与内化整合。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "148–149、152–167页"
+      }
+    ],
+    "start_seconds": 10150,
+    "end_seconds": 10200
+  },
+  {
+    "page": 126,
+    "renderer": 2126,
+    "source_plan_page": 84,
+    "section": "外化与内化整合",
+    "type": "agenda",
+    "title": "本讲内容",
+    "seconds": 15,
+    "on_slide": [
+      "LLM基础",
+      "Prompting",
+      "Agents：Externalization & Internalization",
+      "3.5 外化与内化：回看模型与系统的分工"
+    ],
+    "talk": "回到Agents的最后一个子模块，把前面材料放回共同结构。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第009–011、147–149、181–188、196、201页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agents主线与外化内化整合"
+      }
+    ],
+    "start_seconds": 10200,
+    "end_seconds": 10215
+  },
+  {
+    "page": 127,
+    "renderer": 2127,
+    "source_plan_page": 85,
+    "section": "外化与内化整合",
+    "type": "overview",
+    "title": "外化与内化整合：各部分怎样配合",
+    "seconds": 45,
+    "on_slide": [
+      "任务要求与完成标准。",
+      "Memory提供已保存信息；Skills提供可复用做法。",
+      "模型根据本次输入提出内容或动作；工具执行并返回结果。",
+      "Harness准备输入、安排执行、保存状态与检查结果。"
+    ],
+    "talk": "总览指出信息和方法进入输入、模型与工具往返以及任务标准检验结果。接着用本课文件回看，再解释改变发生的位置与改进后的检查方式。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第009–011、147–149、181–188、196、201页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agents主线与外化内化整合"
+      }
+    ],
+    "start_seconds": 10215,
+    "end_seconds": 10260
+  },
+  {
+    "page": 128,
+    "renderer": 2128,
+    "source_plan_page": 86,
+    "section": "外化与内化整合",
+    "type": "content",
+    "title": "这份课件中的任务、资料与方法",
+    "seconds": 100,
+    "on_slide": [
+      "任务：为MBA制作三小时的LLM Agents课程。",
+      "资料：原课程材料与Prompting补充PDF。",
+      "可复用要求：教师措辞与安泰课件版式。",
+      "交付：HTML课件；检查内容关系、材料依据、图文呈现和播放效果。"
+    ],
+    "talk": "展示已经使用的课程共识、参考资料和课件页面。任务给出方向，资料提供可用内容，制作规范约束表达与形式；最后逐项核对完成的课件。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第009–011、147–149、181–188、196、201页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agents主线与外化内化整合"
+      }
+    ],
+    "start_seconds": 10260,
+    "end_seconds": 10360
+  },
+  {
+    "page": 129,
+    "renderer": 2129,
+    "source_plan_page": 87,
+    "section": "外化与内化整合",
+    "type": "content",
+    "title": "外化与内化：改变发生在哪里",
+    "seconds": 100,
+    "on_slide": [
+      "外化：增加资料、方法或工具，改变输入与执行过程。",
+      "内化：利用训练材料和训练过程，更新模型参数。"
+    ],
+    "talk": "沿两条路径比较改变发生的位置。外部文件、工具与运行程序参与当前任务；训练更新参数并影响后续任务。两条路径都要用任务结果检查。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第009–011、147–149、181–188、196、201页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agents主线与外化内化整合"
+      }
+    ],
+    "start_seconds": 10360,
+    "end_seconds": 10460
+  },
+  {
+    "page": 130,
+    "renderer": 2130,
+    "source_plan_page": 87,
+    "section": "外化与内化整合",
+    "type": "content",
+    "title": "任务经验怎样用于下一轮改进",
+    "seconds": 75,
+    "on_slide": [
+      "任务过程记录工具选择、参数和对返回结果的处理。",
+      "修改工具、提示与规则，改进运行程序。",
+      "筛选材料并训练，更新模型参数。"
+    ],
+    "talk": "强调每条改进路径的动作与对象。把任务经验整理为外部规则，与使用经验更新参数，形成不同的可检查产物。模型协助改程序也属于外部程序的变化。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第009–011、147–149、181–188、196、201页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agents主线与外化内化整合"
+      }
+    ],
+    "start_seconds": 10460,
+    "end_seconds": 10535
+  },
+  {
+    "page": 131,
+    "renderer": 2131,
+    "source_plan_page": 88,
+    "section": "外化与内化整合",
+    "type": "content",
+    "title": "更换模型后，重新检查运行安排",
+    "seconds": 90,
+    "on_slide": [
+      "固定任务、材料、工具与交付标准。",
+      "比较模型与运行安排的组合。",
+      "用同一依据检查内容、文件、耗时与人工检查量。",
+      "按结果保留有效支持，精简多余指导，补足工具与检查。"
+    ],
+    "talk": "先固定比较起点，再替换模型或运行安排。检查的是完整任务交付。企业资料的更新、外部动作的执行和操作范围仍由相应机制承担，根据结果决定怎样修改指导。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第009–011、147–149、181–188、196、201页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agents主线与外化内化整合"
+      }
+    ],
+    "start_seconds": 10535,
+    "end_seconds": 10625
+  },
+  {
+    "page": 132,
+    "renderer": 2132,
+    "source_plan_page": 87,
+    "section": "外化与内化整合",
+    "type": "summary",
+    "title": "整合小结：各部分围绕任务配合",
+    "seconds": 45,
+    "on_slide": [
+      "任务要求给出目标与完成标准。",
+      "Memory提供信息，Skills提供方法，工具完成操作。",
+      "Harness组织输入、执行、状态与检查。",
+      "模型与运行安排的改进，都回到同一任务检查。"
+    ],
+    "talk": "回到整合总览图，用本课任务说明输入、执行和检查的对应关系。回顾改变外部安排与训练参数两条路径，再按任务结果决定调整什么。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第009–011、147–149、181–188、196、201页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agents主线与外化内化整合"
+      }
+    ],
+    "start_seconds": 10625,
+    "end_seconds": 10670
+  },
+  {
+    "page": 133,
+    "renderer": 2133,
+    "source_plan_page": 89,
+    "section": "外化与内化整合",
+    "type": "summary",
+    "title": "Agents小结：模型与外部系统",
+    "seconds": 60,
+    "on_slide": [
+      "工具完成操作。",
+      "Memory保存与提供信息，Skills提供可复用的做法。",
+      "Harness组织输入、执行、状态与检查。",
+      "各部分围绕同一任务配合，结果回到任务要求中核对。",
+      "外化组织模型之外的工作；内化通过训练更新模型参数。"
+    ],
+    "talk": "回到Agents章首的外化内化分工图。工具、Memory、Skills和Harness组织外部工作；训练更新模型参数。两者共同影响完整任务的结果。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第009–011、147–149、181–188、196、201页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agents主线与外化内化整合"
+      }
+    ],
+    "start_seconds": 10670,
+    "end_seconds": 10730
+  },
+  {
+    "page": 134,
+    "renderer": 2134,
+    "source_plan_page": 89,
+    "section": "外化与内化整合",
+    "type": "summary",
+    "title": "第一讲小结：生成、任务与执行",
+    "seconds": 70,
+    "on_slide": [
+      "LLM依据本次输入逐步生成内容。",
+      "Prompting交代任务与材料，把反馈写回输入。",
+      "Agents组织执行与返回，核对文件和操作结果。",
+      "每次继续之前，回到目标、现有材料与完成条件。"
+    ],
+    "talk": "回到全讲的三个一级主题，连接生成内容、交代任务与组织执行。最后用任务要求、执行过程和交付结果收束第一讲。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第009–011、147–149、181–188、196、201页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agents主线与外化内化整合"
+      }
+    ],
+    "start_seconds": 10730,
+    "end_seconds": 10800
+  }
+]

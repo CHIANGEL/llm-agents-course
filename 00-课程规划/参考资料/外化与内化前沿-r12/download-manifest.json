@@ -1,0 +1,26 @@
+[
+  {
+    "file": "hat-2610.01235v1.pdf",
+    "url": "https://arxiv.org/pdf/2610.01235v1",
+    "retrieved": "2026-10-20",
+    "sha256": "515136ccae913e7852daa5628b522a5f90b39cc52c78dcd544661bb5e6982f2f",
+    "bytes": 573916,
+    "pages": 21
+  },
+  {
+    "file": "evoharness-2608.05446v2.pdf",
+    "url": "https://arxiv.org/pdf/2608.05446v2",
+    "retrieved": "2026-10-20",
+    "sha256": "8f7c155297c3801474d0bd1369c79d546b27b3f2a82471879a1231b773daaa4e",
+    "bytes": 2650904,
+    "pages": 38
+  },
+  {
+    "file": "harness2-2610.14224v1.pdf",
+    "url": "https://arxiv.org/pdf/2610.14224v1",
+    "retrieved": "2026-10-20",
+    "sha256": "440be1f694f3b0fdfb8e612e9b2288ff0d8ab38641cfd1064fd77052ba360282",
+    "bytes": 8101889,
+    "pages": 37
+  }
+]

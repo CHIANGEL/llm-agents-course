@@ -1,0 +1,20 @@
+{
+  "jsonrpc": "2.0",
+  "id": 102,
+  "result": {
+    "resultType": "complete",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current weather in New York:\n Temperature: 72°F\n Conditions: Partly cloudy"
+      }
+    ],
+    "isError": false,
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "classroom-weather-fixture",
+        "version": "1.0.0"
+      }
+    }
+  }
+}

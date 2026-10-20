@@ -1,0 +1,15 @@
+{
+  "broken": [],
+  "page": "117",
+  "scroll": [
+    {
+      "max": 22,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "模型：读取检查清单\n模型生成",
+    "消息结构"
+  ],
+  "text": "知道文件位置之后，再取得检查要求和Notebook的实际内容。\n当前环节\n模型：读取检查清单\n模型生成\n工具：返回检查清单\n工具返回\n模型：读取生成文件\n模型生成\n工具：返回Notebook内容\n工具返回\n先取得检查要求，再读取产物。\n重置\n关键内容\n完整内容\n消息结构\n截至此处的内容\n模型：读取检查清单\n{\n  \"type\": \"function_call\",\n  \"name\": \"exec_command\",\n  \"arguments\": \"{\\\"cmd\\\": \\\"cat /workspace/course/.agents/skills/jupyter-notebook/references/quality-checklist.md\\\", \\\"workdir\\\": \\\"/workspace/course\\\"}\",\n  \"call_id\": \"call_checklist\"\n}\n\n先读取交付检查标准。\n\n检查清单给出标准；打开产物后，把实际内容与本次“骨架”要求对照。"
+}

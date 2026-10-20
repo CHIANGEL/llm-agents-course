@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 153,
+  "text": "上下文压缩：留下继续工作的要点\n压缩（Compaction）：把较早的过程整理成继续工作需要的摘要。\n关键数字、约束和未解决事项要留下；摘要漏掉的条件会影响后续判断。\n改变的是下一次模型输入。压缩过程没有把这段经历训练进模型参数。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "第153页 上下文压缩：留下继续工作的要点"
+}

@@ -1,0 +1,648 @@
+{
+  "method": "Filesystem existence check of runtime assets, actual rendered image references, materials/source links, and their linked HTML/CSS resources; not a file:// browser test",
+  "local": [
+    {
+      "file": "index.html",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/generation-reader.html",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/decoding/reader.html",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/chat-reader.html",
+      "ok": true
+    },
+    {
+      "file": "sources/tool-calling-r7/weather-text.html",
+      "ok": true
+    },
+    {
+      "file": "sources/memory-r8/procurement-case/完整材料.html",
+      "ok": true
+    },
+    {
+      "file": "sources/skills-r16/case/output/procurement-review.html",
+      "ok": true
+    },
+    {
+      "file": "sources/skills-r16/procurement-review-skill.zip",
+      "ok": true
+    },
+    {
+      "file": "sources/library/L1/index.html",
+      "ok": true
+    },
+    {
+      "file": "sources/library/L3/index.html",
+      "ok": true
+    },
+    {
+      "file": "sources/library/TEACHER/index.html",
+      "ok": true
+    },
+    {
+      "file": "sources/library/PLAN/index.html",
+      "ok": true
+    },
+    {
+      "file": "sources/memory-review-r14/来源与适配.md",
+      "ok": true
+    },
+    {
+      "file": "sources/harness-r11/source-map.json",
+      "ok": true
+    },
+    {
+      "file": "sources/memory-r8/来源与执行性质.md",
+      "ok": true
+    },
+    {
+      "file": "sources/prompting-r2/reader.html",
+      "ok": true
+    },
+    {
+      "file": "assets/header.png",
+      "ok": true
+    },
+    {
+      "file": "assets/app.png",
+      "ok": true
+    },
+    {
+      "file": "assets/doc.png",
+      "ok": true
+    },
+    {
+      "file": "assets/prompting-reference.jpg",
+      "ok": true
+    },
+    {
+      "file": "assets/llm.png",
+      "ok": true
+    },
+    {
+      "file": "assets/agent-opening-r17/browser-booking.jpg",
+      "ok": true
+    },
+    {
+      "file": "assets/agent-opening-r17/astra-arm.jpg",
+      "ok": true
+    },
+    {
+      "file": "assets/agents-overview-r4/review-heading.png",
+      "ok": true
+    },
+    {
+      "file": "assets/agents-overview-r4/list-recall.png",
+      "ok": true
+    },
+    {
+      "file": "assets/agents-overview-r4/list-check.png",
+      "ok": true
+    },
+    {
+      "file": "assets/agents-overview-r4/map.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/tool.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/row-arrow.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/memory.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/skill.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/protocol.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/brace.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/model.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/computer.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/blue-arrow.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/red-arrow-head.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/red-arrow-shaft.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/list-map.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/next-arrow.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/three-layers.png",
+      "ok": true
+    },
+    {
+      "file": "assets/html-figures-r6/external-internal.png",
+      "ok": true
+    },
+    {
+      "file": "assets/tool.png",
+      "ok": true
+    },
+    {
+      "file": "assets/protocols-r10/weather.png",
+      "ok": true
+    },
+    {
+      "file": "assets/memory-r8/cross-session.png",
+      "ok": true
+    },
+    {
+      "file": "assets/memory-r8/graph.png",
+      "ok": true
+    },
+    {
+      "file": "assets/memory-r8/crud-flow.png",
+      "ok": true
+    },
+    {
+      "file": "assets/memory-r8/update-relations.png",
+      "ok": true
+    },
+    {
+      "file": "assets/memory-r8/read-scope.png",
+      "ok": true
+    },
+    {
+      "file": "assets/memory-r8/memory-decision.png",
+      "ok": true
+    },
+    {
+      "file": "assets/memory-r8/music-mismatch.png",
+      "ok": true
+    },
+    {
+      "file": "assets/memory-r8/proactive.png",
+      "ok": true
+    },
+    {
+      "file": "assets/memory-r8/platform-figure1.png",
+      "ok": true
+    },
+    {
+      "file": "assets/memory-r8/memory-to-skills.png",
+      "ok": true
+    },
+    {
+      "file": "assets/skills-r16/package-tree.png",
+      "ok": true
+    },
+    {
+      "file": "assets/skills-r9/file-structure.png",
+      "ok": true
+    },
+    {
+      "file": "assets/skills-r9/creation-cycle.png",
+      "ok": true
+    },
+    {
+      "file": "assets/protocols-r10/two-interactions.png",
+      "ok": true
+    },
+    {
+      "file": "assets/protocols-r10/agent.png",
+      "ok": true
+    },
+    {
+      "file": "assets/protocols-r10/host.png",
+      "ok": true
+    },
+    {
+      "file": "assets/protocols-r10/directory.png",
+      "ok": true
+    },
+    {
+      "file": "assets/protocols-r10/result.png",
+      "ok": true
+    },
+    {
+      "file": "assets/protocols-r10/participants.png",
+      "ok": true
+    },
+    {
+      "file": "assets/agent-internet-r20/user-a.png",
+      "ok": true
+    },
+    {
+      "file": "assets/agent-internet-r20/user-b.png",
+      "ok": true
+    },
+    {
+      "file": "assets/agent-internet-r20/local-service-agent.png",
+      "ok": true
+    },
+    {
+      "file": "assets/agent-internet-r20/commerce-agent.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/components.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/runloop.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/externalization.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/context.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/compaction.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/clearing.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/sandbox.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/confirmation.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/hooks.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/formatter.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/hook-timing.png",
+      "ok": true
+    },
+    {
+      "file": "assets/subagents-r21.svg",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/dependency.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/delegation.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/progress.png",
+      "ok": true
+    },
+    {
+      "file": "assets/harness-r11/resume.png",
+      "ok": true
+    },
+    {
+      "file": "src/base.css",
+      "ok": true
+    },
+    {
+      "file": "src/001-004.css",
+      "ok": true
+    },
+    {
+      "file": "src/005-008.css",
+      "ok": true
+    },
+    {
+      "file": "src/009-013.css",
+      "ok": true
+    },
+    {
+      "file": "src/prompting.css",
+      "ok": true
+    },
+    {
+      "file": "src/llm-foundations.css",
+      "ok": true
+    },
+    {
+      "file": "src/prompting-r2.css",
+      "ok": true
+    },
+    {
+      "file": "src/navigation.css",
+      "ok": true
+    },
+    {
+      "file": "src/agent-overview-r4.css",
+      "ok": true
+    },
+    {
+      "file": "src/source-replica-r5.css",
+      "ok": true
+    },
+    {
+      "file": "src/html-figures-r6.css",
+      "ok": true
+    },
+    {
+      "file": "src/tool-calling-r7.css",
+      "ok": true
+    },
+    {
+      "file": "src/memory-r8.css",
+      "ok": true
+    },
+    {
+      "file": "src/skills-r9.css",
+      "ok": true
+    },
+    {
+      "file": "src/harness-r11.css",
+      "ok": true
+    },
+    {
+      "file": "src/memory-review-r14.css",
+      "ok": true
+    },
+    {
+      "file": "src/agent-opening-r17.css",
+      "ok": true
+    },
+    {
+      "file": "src/tools-protocols-r19.css",
+      "ok": true
+    },
+    {
+      "file": "src/agent-internet-r20.css",
+      "ok": true
+    },
+    {
+      "file": "src/integration-r21.css",
+      "ok": true
+    },
+    {
+      "file": "src/data.js",
+      "ok": true
+    },
+    {
+      "file": "src/001-004.js",
+      "ok": true
+    },
+    {
+      "file": "src/005-008.js",
+      "ok": true
+    },
+    {
+      "file": "src/009-013.js",
+      "ok": true
+    },
+    {
+      "file": "src/section-frames.js",
+      "ok": true
+    },
+    {
+      "file": "src/prompting-base.js",
+      "ok": true
+    },
+    {
+      "file": "src/prompting-r2-data.js",
+      "ok": true
+    },
+    {
+      "file": "src/prompting-r2.js",
+      "ok": true
+    },
+    {
+      "file": "src/agents-base.js",
+      "ok": true
+    },
+    {
+      "file": "src/agents-frames.js",
+      "ok": true
+    },
+    {
+      "file": "src/agent-overview-r4.js",
+      "ok": true
+    },
+    {
+      "file": "src/tool-calling-r7-data.js",
+      "ok": true
+    },
+    {
+      "file": "src/agents-tools.js",
+      "ok": true
+    },
+    {
+      "file": "src/memory-r8-data.js",
+      "ok": true
+    },
+    {
+      "file": "src/memory-r8.js",
+      "ok": true
+    },
+    {
+      "file": "src/skills-r9-data.js",
+      "ok": true
+    },
+    {
+      "file": "src/skills-r9.js",
+      "ok": true
+    },
+    {
+      "file": "src/harness-r11.js",
+      "ok": true
+    },
+    {
+      "file": "src/llm-evidence.js",
+      "ok": true
+    },
+    {
+      "file": "src/decoding-data.js",
+      "ok": true
+    },
+    {
+      "file": "src/decoding.js",
+      "ok": true
+    },
+    {
+      "file": "src/llm-foundations.js",
+      "ok": true
+    },
+    {
+      "file": "src/source-replica-r5.js",
+      "ok": true
+    },
+    {
+      "file": "src/html-figures-r6.js",
+      "ok": true
+    },
+    {
+      "file": "src/navigation.js",
+      "ok": true
+    },
+    {
+      "file": "src/memory-review-r14-data.js",
+      "ok": true
+    },
+    {
+      "file": "src/memory-review-r14.js",
+      "ok": true
+    },
+    {
+      "file": "src/agent-opening-r17.js",
+      "ok": true
+    },
+    {
+      "file": "src/tools-protocols-r19.js",
+      "ok": true
+    },
+    {
+      "file": "src/agent-internet-r20.js",
+      "ok": true
+    },
+    {
+      "file": "src/integration-r21.js",
+      "ok": true
+    },
+    {
+      "file": "src/player.js",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/generation-trace.json",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/generation-display.json",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/input-chat-template.txt",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/collect_trace.py",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/verify_trace.py",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/verification.json",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/provenance.json",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/decoding/distribution.json",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/decoding/collect_distribution.py",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/decoding/reference-cases.json",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/decoding/provenance.json",
+      "ok": true
+    },
+    {
+      "file": "assets/msyh.ttc",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/chat-template/cases.json",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/chat-template/chat_01_template.txt",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/chat-template/chat_02_template.txt",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/chat-template/chat_03_template.txt",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/chat-template/verification.json",
+      "ok": true
+    },
+    {
+      "file": "sources/llm-foundations/chat-template/prepare_case.py",
+      "ok": true
+    },
+    {
+      "file": "sources/library/L1/original.json",
+      "ok": true
+    },
+    {
+      "file": "sources/library/L3/original.json",
+      "ok": true
+    },
+    {
+      "file": "sources/library/TEACHER/original.md",
+      "ok": true
+    },
+    {
+      "file": "sources/library/PLAN/original.md",
+      "ok": true
+    },
+    {
+      "file": "assets/msyhbd.ttc",
+      "ok": true
+    }
+  ],
+  "external": [
+    "https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/",
+    "https://github.com/browser-use/browser-use",
+    "https://people.csail.mit.edu/frankzydou/blog/so101-pen-pickup/index.html",
+    "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct",
+    "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TemperatureLogitsWarper",
+    "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopKLogitsWarper",
+    "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopPLogitsWarper",
+    "https://huggingface.co/docs/transformers/en/chat_templating"
+  ],
+  "missing": []
+}

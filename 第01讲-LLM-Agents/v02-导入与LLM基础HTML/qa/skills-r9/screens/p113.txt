@@ -1,0 +1,61 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=113&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=113&s=1
+	2 container
+		54 container Description: 第113页 先看目录：这个任务适合哪个Skill？, ID: mount
+			55 container 第113页 先看目录：这个任务适合哪个Skill？
+				56 heading 先看目录：这个任务适合哪个Skill？, Value: 1
+					57 text 先看目录：这个任务适合哪个Skill？
+				58 container 课件内容
+					59 container
+						60 text 用户要求创建教学用Notebook骨架；目录中的用途与这个任务匹配。
+						61 heading 当前环节, Value: 2
+							62 text 当前环节
+						63 checkbox 客户端：可用Skill目录 名称、用途与文件入口, Value: 1
+						64 checkbox 用户：创建Notebook骨架 用户输入, Value: 0
+						65 text 目录给出用途与入口。
+						66 button 重置
+						67 checkbox 关键内容, Value: 1
+						68 checkbox 完整内容, Value: 0
+						69 checkbox 消息结构, Value: 0
+						70 checkbox 截至此处的内容, Value: 0
+						71 heading 客户端：可用Skill目录, Value: 2
+							72 text 客户端：可用Skill目录
+						73 text 名称：jupyter-notebook
+用途：创建、搭建或编辑Notebook；支持实验与教程。
+
+入口文件：
+/workspace/course/.agents/skills/jupyter-notebook/SKILL.md
+						74 text 目录先提供用途和路径；完整内容中保留英文用途说明。
+						75 text 目录由客户端提供；模型接着生成读取SKILL.md的工具调用。
+				76 container 课程进度
+					77 button 导入
+					78 button 1. LLM基础
+					79 button 2. Prompting
+					80 button 3. Agents · Externalization & Internalization
+						81 text 3. Agents 
+						82 text · Externalization & Internalization
+					83 button 3.0 外化与内化总览
+					84 button 3.1 工具调用
+					85 button 3.2 Memory
+					86 button 3.3 Skills
+					87 button 3.4 Harness
+					88 button 3.5 外化与内化整合
+					89 button 3.6 全讲总结
+		39 container Description: 课件操作, ID: controls
+			40 button Description: 上一步, Help: 上一步（←）
+			41 button Description: 下一步, Help: 下一步（→或空格）
+			42 container jump-form
+				43 text 页码
+				44 stepper (settable, integer) Description: 页码, Value: 113, ID: page-input
+				45 text / 161
+			90 text 整页显示
+			47 button 目录
+			48 button 讲者备注
+			49 button 完整材料
+			50 button 放大图解
+			51 button 全屏
+			52 button 隐藏, Help: 按H恢复
+			53 button 操作说明
+		91 text 第113页，先看目录：这个任务适合哪个Skill？，整页显示
+
+The focused UI element is 54 container Description: 第113页 先看目录：这个任务适合哪个Skill？, ID: mount

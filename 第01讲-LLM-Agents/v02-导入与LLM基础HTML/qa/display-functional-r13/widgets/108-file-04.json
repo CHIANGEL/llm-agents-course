@@ -1,0 +1,18 @@
+{
+  "broken": [],
+  "page": "108",
+  "scroll": [
+    {
+      "max": 0,
+      "top": 0
+    },
+    {
+      "max": 266,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "references/quality-checklist.md"
+  ],
+  "text": "从左侧选择文件；右侧查看原文、模板或图标。\njupyter-notebook / 12个文件\nSKILL.md\nreferences/tutorial-patterns.md\nreferences/experiment-patterns.md\nreferences/notebook-structure.md\nreferences/quality-checklist.md\nscripts/new_notebook.py\nassets/tutorial-template.ipynb\nassets/experiment-template.ipynb\nagents/openai.yaml\nassets/jupyter-small.svg\nassets/jupyter.png\nLICENSE.txt\n重置\nreferences/quality-checklist.md\n# Quality Checklist\n\nBefore delivering a notebook:\n\n- Run it top-to-bottom at least once (or as much as the environment allows).\n- Ensure early cells set all required state; avoid hidden state from prior runs.\n- Keep outputs tidy. Avoid giant outputs when a short summary works.\n- Prefer small tables, key metrics, or short printouts.\n- Keep the narrative skimmable. Use headings and short bullets, and avoid long paragraphs.\n- Leave helpful TODOs only when necessary, and label them clearly.\n- If execution is not possible, call out the risk and how to validate locally.\n\n\n交付前检查运行顺序、状态、输出与未完成内容。\n\n入口文件组织方法；参考、脚本与模板为具体任务提供可取用的资源。"
+}

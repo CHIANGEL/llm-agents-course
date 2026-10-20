@@ -1,0 +1,15 @@
+{
+  "broken": [],
+  "page": "117",
+  "scroll": [
+    {
+      "max": 346,
+      "top": 0
+    }
+  ],
+  "selected": [
+    "工具：返回检查清单\n工具返回",
+    "完整内容"
+  ],
+  "text": "知道文件位置之后，再取得检查要求和Notebook的实际内容。\n当前环节\n模型：读取检查清单\n模型生成\n工具：返回检查清单\n工具返回\n模型：读取生成文件\n模型生成\n工具：返回Notebook内容\n工具返回\n先取得检查要求，再读取产物。\n重置\n关键内容\n完整内容\n消息结构\n截至此处的内容\n工具：返回检查清单\n# Quality Checklist\n\nBefore delivering a notebook:\n\n- Run it top-to-bottom at least once (or as much as the environment allows).\n- Ensure early cells set all required state; avoid hidden state from prior runs.\n- Keep outputs tidy. Avoid giant outputs when a short summary works.\n- Prefer small tables, key metrics, or short printouts.\n- Keep the narrative skimmable. Use headings and short bullets, and avoid long paragraphs.\n- Leave helpful TODOs only when necessary, and label them clearly.\n- If execution is not possible, call out the risk and how to validate locally.\n\n\n清单给出检查维度；本次先核对骨架文件和待补内容。\n\n检查清单给出标准；打开产物后，把实际内容与本次“骨架”要求对照。"
+}

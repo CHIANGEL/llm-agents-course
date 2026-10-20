@@ -1,0 +1,6 @@
+{
+  "broken": [],
+  "page": 146,
+  "text": "A2A小结：可以与MCP一起使用\nA2A连接Agent服务；接收方还可以通过MCP访问工具或资料。\nAgent B应用\n（自己的消息）\nA2A：说明能力，交换任务、状态与成果。\nMCP：发现工具，发送调用，接收结果。\n协议可以组合；各自应用仍负责组织输入、保存进度与检查结果。\n导入\n1. LLM基础\n2. Prompting\n3. Agents · Externalization & Internalization\n3.0 外化与内化总览\n3.1 工具调用\n3.2 Memory\n3.3 Skills\n3.4 Protocols\n3.5 Harness\n3.6 外化与内化整合\n3.7 全讲总结",
+  "title": "第146页 A2A小结：可以与MCP一起使用"
+}

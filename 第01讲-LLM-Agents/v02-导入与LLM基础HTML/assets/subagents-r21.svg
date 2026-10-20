@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420">
+<defs>
+ <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 9 5 1 9" fill="none" stroke="#0872b9" stroke-width="1.6"/></marker>
+ <g id="robot" fill="#edf5fb" stroke="#06265f" stroke-width="3.5"><rect x="-35" y="-27" width="70" height="54" rx="17"/><path d="M-35-7h-8v18h8M35-7h8v18h-8M0-27v-15M-25 37q25-18 50 0" fill="none"/><circle cy="-47" r="5" fill="#65b6e0"/><ellipse cx="-14" cy="-2" rx="3" ry="5" fill="#06265f"/><ellipse cx="14" cy="-2" rx="3" ry="5" fill="#06265f"/><path d="M-8 11q8 8 16 0" fill="none"/></g>
+</defs>
+<rect x="3" y="20" width="1094" height="395" rx="20" fill="white" stroke="#9cacc0" stroke-width="2" stroke-dasharray="8 6"/>
+<rect x="30" width="172" height="45" fill="white"/><text x="40" y="34" font-family="Microsoft YaHei,sans-serif" font-size="34" font-weight="bold" fill="#06265f">Harness</text>
+<rect x="368" y="68" width="363" height="127" rx="20" fill="#eef5fa"/>
+<rect x="368" y="246" width="363" height="127" rx="20" fill="#eef5fa"/>
+<g fill="none" stroke="#0872b9" stroke-width="3">
+ <path d="M216 219H285V131H350" marker-end="url(#arrow)"/><path d="M285 219V309H350" marker-end="url(#arrow)"/>
+ <path d="M748 131H809V219H889" marker-end="url(#arrow)"/><path d="M748 309H809V219"/>
+</g>
+<g font-family="Microsoft YaHei,sans-serif" fill="#06265f" text-anchor="middle">
+ <use href="#robot" transform="translate(134 201) scale(1.45)"/><text x="134" y="304" font-size="36" font-weight="bold">主智能体</text><text x="134" y="345" font-size="28">分配任务</text>
+ <use href="#robot" transform="translate(427 134)"/><text x="590" y="140" font-size="36" font-weight="bold">子智能体 A</text>
+ <use href="#robot" transform="translate(427 312)"/><text x="590" y="318" font-size="36" font-weight="bold">子智能体 B</text>
+ <use href="#robot" transform="translate(974 201) scale(1.45)"/><text x="974" y="304" font-size="36" font-weight="bold">主智能体</text><text x="974" y="345" font-size="28">汇总检查</text>
+</g>
+</svg>

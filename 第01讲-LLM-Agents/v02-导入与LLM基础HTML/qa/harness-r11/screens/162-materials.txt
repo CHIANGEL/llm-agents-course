@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=162&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=162&s=1
+	2 container 第162页 · 完整材料, ID: deck-dialog
+		3 container
+			4 heading 第162页 · 完整材料, Value: 2, ID: dialog-title
+				8 text 第162页 · 完整材料
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			9 heading 本页要点, Value: 3
+				10 text 本页要点
+			11 text 能否并行，先看任务之间的依赖
+
+相互独立的两个检查可以并行，再汇总发现。修改依赖先找出问题，就按顺序执行。多个任务操作同一文件或同一业务对象时，还需划清修改范围、安排合并并重新检查。任务能被拆开与任务适合并行是两个不同的判断。
+			12 heading 相关材料, Value: 3
+				13 text 相关材料
+			14 text 相互独立的两个检查可以并行，再汇总发现。修改依赖先找出问题，就按顺序执行。多个任务操作同一文件或同一业务对象时，还需划清修改范围、安排合并并重新检查。任务能被拆开与任务适合并行是两个不同的判断。
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

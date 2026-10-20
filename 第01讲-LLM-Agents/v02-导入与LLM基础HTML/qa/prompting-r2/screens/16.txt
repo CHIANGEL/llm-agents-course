@@ -1,0 +1,13 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=16&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=16&s=1
+	2 container
+		3 container Description: 第16页 四大要点：让模型知道你要什么, ID: mount
+			4 container 第16页 四大要点：让模型知道你要什么
+				5 heading 四大要点：让模型知道你要什么, Value: 1
+					6 text 四大要点：让模型知道你要什么
+				7 container 课件内容
+					8 container
+						9 text Who you are / Who I am / Objective / Example，分别回答四个问题。 Who you are 你希望模型承担什么角色 Who I am 你的背景与使用场景 Objective 最终要完成什么 Example 参照什么样的结果 你是一位讲授生成式AI的教师，擅长向非技术学员解释机制。 我要为MBA学员讲LLM Agents。学员没有编程和深度学习基础。 请用3小时讲清LLM怎样生成、Prompting怎样交代任务、Agents怎样组织执行，含10分钟休息。 参考提供的原课程课件：沿用版式和措辞，配图解释关系，先总览、再展开、最后总结。 目标、背景和必要约束交代清楚，再给模型选择具体做法的空间。
+		10 text 第16页，四大要点：让模型知道你要什么，整页显示
+
+The focused UI element is 3 container Description: 第16页 四大要点：让模型知道你要什么, ID: mount

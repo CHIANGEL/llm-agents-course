@@ -1,0 +1,57 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=memory-r8#p=91&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=91&s=1
+	2 container
+		55 container Description: 第91页 Codex采购案例：旧预算还能沿用吗？, ID: mount
+			56 container 第91页 Codex采购案例：旧预算还能沿用吗？
+				57 heading Codex采购案例：旧预算还能沿用吗？, Value: 1
+					58 text Codex采购案例：旧预算还能沿用吗？
+				59 container 课件内容
+					60 container
+						61 text 采购案例：企业知识库从20人试点，转向300人正式部署。 企业知识库准备从20人试点扩大到300人部署。
+请起草一页采购评审要点。上次10万元的预算能直接沿用吗？
+先整理评估要点，暂不联系供应商。 先看三个问题
+						62 content list
+							63 container
+								64 AXListMarker • 
+								65 text 记忆已经保存在哪里？
+							66 container
+								67 AXListMarker • 
+								68 text 本次实际读进了什么？
+							69 container
+								70 AXListMarker • 
+								71 text 读到之后，判断怎样改变？
+						72 text 上次：20人试点 历史预算：10万元
+						73 text 适用期限与包含内容，要查记录。 这次：300人部署 新任务：起草采购评审要点
+						74 text 先核对旧预算能否沿用。 Codex CLI是能在工作目录里读写文件、调用工具的智能体应用。这里观察它的记忆读取。
+				75 container 课程进度
+					76 button 导入
+					77 button 1. LLM基础
+					78 button 2. Prompting
+					79 button 3. Agents · Externalization & Internalization
+						80 text 3. Agents 
+						81 text · Externalization & Internalization
+					82 button 3.0 外化与内化总览
+					83 button 3.1 工具调用
+					84 button 3.2 Memory
+					85 button 3.3 Skills
+					86 button 3.4 Harness
+					87 button 3.5 外化与内化整合
+					88 button 3.6 全讲总结
+		40 container Description: 课件操作, ID: controls
+			41 button Description: 上一步, Help: 上一步（←）
+			42 button Description: 下一步, Help: 下一步（→或空格）
+			43 container jump-form
+				44 text 页码
+				45 stepper (settable, integer) Description: 页码, Value: 91, ID: page-input
+				46 text / 151
+			89 text 整页显示
+			48 button 目录
+			49 button 讲者备注
+			50 button 完整材料
+			51 button 放大图解
+			52 button 全屏
+			53 button 隐藏, Help: 按H恢复
+			54 button 操作说明
+		90 text 第91页，Codex采购案例：旧预算还能沿用吗？，整页显示
+
+The focused UI element is 55 container Description: 第91页 Codex采购案例：旧预算还能沿用吗？, ID: mount

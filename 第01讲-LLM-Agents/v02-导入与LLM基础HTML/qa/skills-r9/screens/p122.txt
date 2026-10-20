@@ -1,0 +1,47 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=122&s=1".
+0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=122&s=1
+	1 container
+		47 container Description: 第122页 让Codex或Claude Code整理Skill初稿, ID: mount
+			48 container 第122页 让Codex或Claude Code整理Skill初稿
+				49 heading 让Codex或Claude Code整理Skill初稿, Value: 1
+					50 text 让Codex或Claude Code整理Skill初稿
+				51 container 课件内容
+					52 container
+						53 text 两种应用都能辅助创建Skill；把已有成果和已确认的要求交代清楚。 Codex 用 $skill-creator 发起创建或修改。 Claude Code 安装官方skill-creator插件后，
+						54 text 用自然语言请求创建与改进。 请用 $skill-creator，把我们刚才完成这项任务的做法整理成一个可复用的Skill，保存在当前项目的 .agents/skills/ 下。
+
+保留已经确认的要求，写清适用任务、所需输入和预期结果。区分以后还会复用的做法与本次临时条件；需要时再拆出参考文件、脚本和模板。
+
+同时列出：怎样判断这项Skill该用、不该用，以及用什么新任务检查它。 创建工具本身也是Skill。初稿形成后，换一个新任务检查它。
+				55 container 课程进度
+					56 button 导入
+					57 button 1. LLM基础
+					58 button 2. Prompting
+					59 button 3. Agents · Externalization & Internalization
+						60 text 3. Agents 
+						61 text · Externalization & Internalization
+					62 button 3.0 外化与内化总览
+					63 button 3.1 工具调用
+					64 button 3.2 Memory
+					65 button 3.3 Skills
+					66 button 3.4 Harness
+					67 button 3.5 外化与内化整合
+					68 button 3.6 全讲总结
+		32 container Description: 课件操作, ID: controls
+			33 button Description: 上一步, Help: 上一步（←）
+			34 button Description: 下一步, Help: 下一步（→或空格）
+			35 container jump-form
+				36 text 页码
+				37 stepper (settable, integer) Description: 页码, Value: 122, ID: page-input
+				38 text / 161
+			69 text 整页显示
+			40 button 目录
+			41 button 讲者备注
+			42 button 完整材料
+			43 button 放大图解
+			44 button 全屏
+			45 button 隐藏, Help: 按H恢复
+			46 button 操作说明
+		70 text 第122页，让Codex或Claude Code整理Skill初稿，整页显示
+
+The focused UI element is 47 container Description: 第122页 让Codex或Claude Code整理Skill初稿, ID: mount

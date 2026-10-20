@@ -1,0 +1,91 @@
+{
+  "pages": [
+    {
+      "page": 23001,
+      "renderer": 23001,
+      "section": "LLM基础",
+      "navigation": "1.1",
+      "type": "concept",
+      "title": "提示词 Prompt 与上下文 Context",
+      "seconds": 150,
+      "on_slide": [
+        "Prompt：用输入提示、引导模型，告诉它希望生成什么。",
+        "Context：模型这次生成时使用的全部输入，包括当前要求与此前对话。",
+        "深红框标出用户的提示词；深蓝框圈出生成最后一条回复之前的对话内容。"
+      ],
+      "talk": "先用网页与手机的多轮对话认出提示词。第一条提示词要求写通知，第二条补充新条件。模型生成最后一条回复时，同时使用前面的要求、旧回复和新要求。这些一起构成本次上下文。应用提供的要求也会进入上下文，后面在聊天模板中展示。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "BASIC_R23",
+          "locator": "聊天界面配图与术语说明"
+        }
+      ]
+    },
+    {
+      "page": 23002,
+      "renderer": 23002,
+      "section": "大模型与智能体",
+      "navigation": "3.0",
+      "type": "comparison",
+      "title": "公司、模型与智能体应用",
+      "seconds": 150,
+      "on_slide": [
+        "Agent = LLM + Harness",
+        "OpenAI—GPT—Codex；Anthropic—Claude（如Opus）—Claude Code；腾讯—混元—WorkBuddy；阿里巴巴—千问—Qwen Code；智谱—GLM—ZCode。",
+        "ChatGPT和Codex是应用或产品名称，GPT是模型系列。应用包含Harness，并调用模型。",
+        "模型与Harness可以跨公司组合：WorkBuddy企业版接入GPT、Claude Code接入GLM。",
+        "LLM像驾驶员，Harness像汽车：两者可以分别更换，但每个驾驶员都有自己熟悉的车型。"
+      ],
+      "talk": "沿用上一页的公式，把常见名称放到对应位置。公司提供模型，也可以提供组织工具与任务过程的应用。ChatGPT是OpenAI的应用；Codex是其面向执行任务的智能体产品，两者都调用模型。Claude是模型系列，Opus是其中一类，Claude Code则是应用。表中同一行表示同一家公司的模型与应用，并不表示应用只支持该模型。下方两个跨公司组合分别对应腾讯企业版模型管理和智谱的接入文档；应用保留自己的工具与工作流程，底层模型可以更换。外化与内化接下来解释这两部分各承担什么。 用驾驶员与汽车比喻模型与Harness：二者分工独立，可以分别更换；同一模型对不同工具和工作方式的熟悉程度也有差异。",
+      "show_sources": false,
+      "sources": [
+        {
+          "id": "BASIC_R23",
+          "locator": "公司、模型、应用及兼容条件核对"
+        },
+        {
+          "id": "BASIC_R23_OPENAI",
+          "locator": "Models"
+        },
+        {
+          "id": "BASIC_R23_WORKBUDDY",
+          "locator": "智能体管理—模型管理"
+        },
+        {
+          "id": "BASIC_R23_GLM",
+          "locator": "在Claude Code中使用GLM"
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "23001": "提示词 Prompt 与上下文 Context\n\nPrompt：用输入提示、引导模型，告诉它希望生成什么。\n\nContext：模型这次生成时使用的全部输入，包括当前要求与此前对话。\n\n深红框标出用户的提示词；深蓝框圈出生成最后一条回复之前的对话内容。\n\n用户：请写一句正式通知，说明今天的讲座取消。\n助手：原定于今天的讲座已取消。\n用户：请补充：新的时间另行通知。\n助手：原定于今天的讲座已取消，新的时间将另行通知。\n\n生成最后一条回复时，上述前三条消息进入本次上下文。应用提供的要求也属于上下文。",
+    "23002": "Agent = LLM + Harness\n\n公司｜模型｜智能体应用（包含Harness）\nOpenAI｜GPT系列｜Codex\nAnthropic｜Claude系列（如Opus）｜Claude Code\n腾讯｜混元Hunyuan｜WorkBuddy\n阿里巴巴｜千问Qwen｜Qwen Code\n智谱｜GLM系列｜ZCode\n\nChatGPT是OpenAI的应用，Codex是其面向执行任务的智能体产品；两者都要调用模型。GPT才是模型系列的名称。\n\n同一个Harness可以接入其他公司的模型，例如WorkBuddy企业版接入GPT、Claude Code接入GLM。LLM像驾驶员，Harness像汽车：两者可以分别更换，但每个驾驶员都有自己熟悉的车型。"
+  },
+  "sources": {
+    "BASIC_R23": {
+      "title": "基础概念增补：配图与产品关系核对",
+      "path": "sources/basic-concepts-r23/来源与核对.md",
+      "href": "sources/basic-concepts-r23/来源与核对.md"
+    },
+    "BASIC_R23_OPENAI": {
+      "title": "OpenAI · Models",
+      "path": "https://learn.chatgpt.com/docs/models",
+      "href": "https://learn.chatgpt.com/docs/models",
+      "target": "_blank"
+    },
+    "BASIC_R23_WORKBUDDY": {
+      "title": "腾讯云 · WorkBuddy Enterprise使用说明",
+      "path": "https://cloud.tencent.com/document/product/1831/138968",
+      "href": "https://cloud.tencent.com/document/product/1831/138968",
+      "target": "_blank"
+    },
+    "BASIC_R23_GLM": {
+      "title": "智谱 · 在Claude Code中使用GLM",
+      "path": "https://docs.bigmodel.cn/cn/coding-plan/tool/claude",
+      "href": "https://docs.bigmodel.cn/cn/coding-plan/tool/claude",
+      "target": "_blank"
+    }
+  }
+}

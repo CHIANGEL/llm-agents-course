@@ -1,0 +1,20 @@
+[
+  {
+    "brokenImages": [],
+    "hasFullSlideReplica": false,
+    "page": "59",
+    "text": "工具调用：哪些查询、计算和操作交给外部程序？\nMemory保存信息，Skills提供做法，Protocols约定交互。\n工具调用\n外部执行\nMemory\n持续保存的信息\nSkills\n可复用做法\nProtocols\n共同交互规则\n\nHarness\n组织这些部分运行。\n\n本讲的讲授顺序。"
+  },
+  {
+    "brokenImages": [],
+    "hasFullSlideReplica": false,
+    "page": "60",
+    "text": "外部系统帮助完成任务，并留下可检查的交互过程。\n经过选择的过程可以用于训练，让模型学会其中可重复使用的做法；是否学会还要测试。\n\n借助外部系统完成任务\n\n选择与训练\n\n外部经验\n\n更新后的模型\n\n外部系统\n\n留下记录不会自动更新模型参数。"
+  },
+  {
+    "brokenImages": [],
+    "hasFullSlideReplica": false,
+    "page": "61",
+    "text": "从清单和地图理解外部表示的作用，再区分模型、上下文与运行程序。\n随后认识工具、记忆、技能、协议，并提出：哪些做法以后可以被模型学会？\nWeights\nContext\nHarness\n\n清单与地图\n\n外化与内化\n\n外部表示改变了什么？\n\n模型、输入和程序各做什么？\n\n哪些工作交出去，\n哪些可以学会？"
+  }
+]

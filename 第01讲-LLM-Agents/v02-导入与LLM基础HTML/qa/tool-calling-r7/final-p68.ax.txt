@@ -1,0 +1,60 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/index.html#p=68&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/index.html#p=68&s=1
+	2 container
+		3 container Description: 第68页 工具调用，也是一段文本的继续生成, ID: mount
+			4 container 第68页 工具调用，也是一段文本的继续生成
+				5 heading 工具调用，也是一段文本的继续生成, Value: 1
+					6 text 工具调用，也是一段文本的继续生成
+				7 container 课件内容
+					8 container
+						9 text 左侧看消息与分工，右侧看它们怎样接成连续文本。
+						10 heading 一次天气查询, Value: 2
+							11 text 一次天气查询
+						12 checkbox 1. 回答要求与工具说明 中文回答；get_weather需要地点, Value: 0
+							13 text 1. 回答要求与工具说明
+							14 text 中文回答；get_weather需要地点
+						15 checkbox 2. 用户提出问题 纽约现在天气怎么样？, Value: 0
+							16 text 2. 用户提出问题
+							17 text 纽约现在天气怎么样？
+						18 checkbox 3. 模型生成工具调用 get_weather · New York, Value: 1
+							19 text 3. 模型生成工具调用
+							20 text get_weather · New York
+						21 text ↓ 应用执行get_weather，结果返回 ↓
+						22 checkbox 4. 工具返回天气 72°F · Partly cloudy, Value: 0
+							23 text 4. 工具返回天气
+							24 text 72°F · Partly cloudy
+						25 checkbox 5. 模型生成中文回答 纽约气温72°F，局部多云。, Value: 0
+							26 text 5. 模型生成中文回答
+							27 text 纽约气温72°F，局部多云。
+						28 button 重置到调用文本
+						29 container 模板查看范围
+							30 checkbox 对应片段, Value: 1
+							31 checkbox 第一次完整输入, Value: 0
+							32 checkbox 第二次完整输入, Value: 0
+							33 checkbox 完整对话, Value: 0
+						34 heading 模型生成工具调用 · Qwen2.5 chat template, Value: 2
+							35 text 模型生成工具调用 · Qwen2.5 chat template
+						36 text <|im_start|>assistant
+<tool_call>
+{"name": "get_weather", "arguments": {"location": "New York"}}
+</tool_call><|im_end|>
+
+						37 text 从assistant前缀继续预测Token，生成工具名、地点与格式标记。
+						38 text 两轮输入都以assistant前缀结尾，模型从那里继续预测下一个Token。
+				39 container 课程进度
+					40 button 导入
+					41 button 1. LLM基础
+					42 button 2. Prompting
+					43 button 3. Agents · Externalization & Internalization
+						44 text 3. Agents 
+						45 text · Externalization & Internalization
+					46 button 3.0 外化与内化总览
+					47 button 3.1 工具调用
+					48 button 3.2 Memory
+					49 button 3.3 Skills
+					50 button 3.4 Harness
+					51 button 3.5 外化与内化整合
+					52 button 3.6 全讲总结
+		53 text 第68页，工具调用，也是一段文本的继续生成，整页显示
+
+The focused UI element is 3 container Description: 第68页 工具调用，也是一段文本的继续生成, ID: mount

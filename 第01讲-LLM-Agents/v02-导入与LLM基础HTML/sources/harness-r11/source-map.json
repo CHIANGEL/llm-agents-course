@@ -1,0 +1,263 @@
+{
+  "source_pdf": "第03讲-Agent Externalization与Internalization.pdf",
+  "page_numbering": "PDF physical pages; editable PPT slide = PDF page - 14",
+  "render_width": 2600,
+  "method": "PDF rendering then rectangular figure crops; native HTML for main text",
+  "assets": [
+    {
+      "asset": "assets/harness-r11/components.png",
+      "pdf_page": 155,
+      "reference_1672px_crop": [
+        50,
+        490,
+        1640,
+        700
+      ],
+      "pixel_size": [
+        2472,
+        327
+      ],
+      "sha256": "cd160ed29aaa95fd56421c01913345e55ad35a4e81dac3c946a9ee69f46469c4"
+    },
+    {
+      "asset": "assets/harness-r11/runloop.png",
+      "pdf_page": 156,
+      "reference_1672px_crop": [
+        55,
+        375,
+        1640,
+        915
+      ],
+      "pixel_size": [
+        2464,
+        840
+      ],
+      "sha256": "ec295a36819bac158d11948ff63f40f00108506097c7823733138f34b9be0efe"
+    },
+    {
+      "asset": "assets/harness-r11/context.png",
+      "pdf_page": 160,
+      "reference_1672px_crop": [
+        170,
+        330,
+        1500,
+        842
+      ],
+      "pixel_size": [
+        2069,
+        796
+      ],
+      "sha256": "376bafd57f3ef9178820ebd5f16a24a3462e03d62b4ff187470161978fd874d0"
+    },
+    {
+      "asset": "assets/harness-r11/compaction.png",
+      "pdf_page": 161,
+      "reference_1672px_crop": [
+        90,
+        380,
+        1600,
+        840
+      ],
+      "pixel_size": [
+        2348,
+        715
+      ],
+      "sha256": "d3ec2ab28ef70684fa4b8218e9a4e8ed908060b7769840728215038fea8069f3"
+    },
+    {
+      "asset": "assets/harness-r11/clearing.png",
+      "pdf_page": 162,
+      "reference_1672px_crop": [
+        40,
+        400,
+        1630,
+        795
+      ],
+      "pixel_size": [
+        2473,
+        614
+      ],
+      "sha256": "b4cee19dcdec571cfd60629fc6ad39395a8416d572903e036f14235df3b232d3"
+    },
+    {
+      "asset": "assets/harness-r11/sandbox.png",
+      "pdf_page": 164,
+      "reference_1672px_crop": [
+        215,
+        375,
+        1495,
+        855
+      ],
+      "pixel_size": [
+        1991,
+        747
+      ],
+      "sha256": "bf7d97b0f86a3e8bcb3fe271195ca37739c402cf369340e08656162a82481408"
+    },
+    {
+      "asset": "assets/harness-r11/confirmation.png",
+      "pdf_page": 166,
+      "reference_1672px_crop": [
+        65,
+        385,
+        1625,
+        795
+      ],
+      "pixel_size": [
+        2426,
+        637
+      ],
+      "sha256": "0a02e36f4f21d96af1e1ed31dc011674cda6cbda9e73f682ddcff8e1a554fae4"
+    },
+    {
+      "asset": "assets/harness-r11/hooks.png",
+      "pdf_page": 176,
+      "reference_1672px_crop": [
+        105,
+        325,
+        1570,
+        810
+      ],
+      "pixel_size": [
+        2278,
+        755
+      ],
+      "sha256": "e818e2c6b7769b93887d7b9f19c5bb92b48b42bee3a678971a3a6277ea114611"
+    },
+    {
+      "asset": "assets/harness-r11/formatter.png",
+      "pdf_page": 177,
+      "reference_1672px_crop": [
+        45,
+        410,
+        1625,
+        725
+      ],
+      "pixel_size": [
+        2457,
+        489
+      ],
+      "sha256": "a5d862010792bb66f6cb33d797773cbe07126c6cf79a8b1cafe9343430be5990"
+    },
+    {
+      "asset": "assets/harness-r11/hook-timing.png",
+      "pdf_page": 178,
+      "reference_1672px_crop": [
+        90,
+        385,
+        1610,
+        735
+      ],
+      "pixel_size": [
+        2364,
+        544
+      ],
+      "sha256": "dab75e9638e0b31468f5a3f9c2700615f0af0bee89d091bb468330881898f4da"
+    },
+    {
+      "asset": "assets/harness-r11/subagents.png",
+      "pdf_page": 180,
+      "reference_1672px_crop": [
+        30,
+        380,
+        1645,
+        885
+      ],
+      "pixel_size": [
+        2511,
+        785
+      ],
+      "sha256": "d4748faefa022bd953582bf3015d1efe9e3d0086b2588da5fa6481842ee9efb5"
+    },
+    {
+      "asset": "assets/harness-r11/subagent-context.png",
+      "pdf_page": 182,
+      "reference_1672px_crop": [
+        40,
+        385,
+        1625,
+        870
+      ],
+      "pixel_size": [
+        2465,
+        754
+      ],
+      "sha256": "e1e6db9d5d339c5c1b090364f49914fcc671ea0f351c6211fed4cb51c661a5dc"
+    },
+    {
+      "asset": "assets/harness-r11/dependency.png",
+      "pdf_page": 183,
+      "reference_1672px_crop": [
+        90,
+        365,
+        1605,
+        815
+      ],
+      "pixel_size": [
+        2356,
+        699
+      ],
+      "sha256": "3fe93804e1f7d11f14fdbf83bfb5b0a316ca9e3e75d66bb2445065c67ba91cb7"
+    },
+    {
+      "asset": "assets/harness-r11/delegation.png",
+      "pdf_page": 184,
+      "reference_1672px_crop": [
+        45,
+        365,
+        1635,
+        870
+      ],
+      "pixel_size": [
+        2472,
+        785
+      ],
+      "sha256": "23668a7aa61bf53d075401b3837916fdb3cddbaa72f522c6171d8c7db6f7c4b2"
+    },
+    {
+      "asset": "assets/harness-r11/progress.png",
+      "pdf_page": 171,
+      "reference_1672px_crop": [
+        35,
+        355,
+        1645,
+        835
+      ],
+      "pixel_size": [
+        2504,
+        746
+      ],
+      "sha256": "9225541e0b5ddf4ff404f91e4dde211c69f257cdf6852d588438a705d1ce877b"
+    },
+    {
+      "asset": "assets/harness-r11/resume.png",
+      "pdf_page": 173,
+      "reference_1672px_crop": [
+        65,
+        425,
+        1635,
+        745
+      ],
+      "pixel_size": [
+        2441,
+        497
+      ],
+      "sha256": "03046e76129c19ccca4b4233796b5ca70759215d69fba01cdb6162019bef0142"
+    },
+    {
+      "asset": "assets/harness-r11/externalization.png",
+      "pdf_page": 185,
+      "reference_1672px_crop": [
+        100,
+        450,
+        1610,
+        785
+      ],
+      "pixel_size": [
+        2348,
+        521
+      ],
+      "sha256": "cef537185c90fab2894a53f448645fb4355fd48e3aab4e7a6322de985e5c78e2"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Write one short formal sentence announcing that the lecture scheduled for today has been cancelled.<|im_end|>
+<|im_start|>assistant

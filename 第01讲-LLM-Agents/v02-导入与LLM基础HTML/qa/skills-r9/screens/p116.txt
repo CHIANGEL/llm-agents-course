@@ -1,0 +1,61 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=skills-r9-qa1#p=116&s=1".
+0 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=skills-r9-qa1#p=116&s=1
+	1 container
+		47 container Description: 第116页 执行：程序读取模板，写出文件, ID: mount
+			48 container 第116页 执行：程序读取模板，写出文件
+				49 heading 执行：程序读取模板，写出文件, Value: 1
+					50 text 执行：程序读取模板，写出文件
+				51 container 课件内容
+					52 container
+						53 text 模型生成运行请求；exec_command执行脚本，脚本再读取模板并写文件。 python3 .agents/skills/jupyter-notebook/scripts/new_notebook.py --kind tutorial --title 'Python列表与平均值' --out output/jupyter-notebook/python-lists-and-mean.ipynb
+						54 heading 模型 → 工具, Value: 3
+							55 text 模型 → 工具
+						56 container
+							57 text 类型：tutorial
+							58 text 标题：Python列表与平均值
+							59 text 输出：指定.ipynb文件
+						60 heading 程序执行, Value: 3
+							61 text 程序执行
+						62 container
+							63 text 读取教程模板
+							64 text 替换首个标题
+							65 text 保存7个单元
+						66 heading 工具返回, Value: 3
+							67 text 工具返回
+						68 container
+							69 text Wrote …
+							70 text python-lists-and-mean.ipynb
+							71 text using kind=tutorial
+						72 text 脚本直接使用模板；模型随后通过工具读取文件，才能看到产物内容。 这一步完成文件生成。返回的是保存路径；接下来还要打开文件检查。
+				73 container 课程进度
+					74 button 导入
+					75 button 1. LLM基础
+					76 button 2. Prompting
+					77 button 3. Agents · Externalization & Internalization
+						78 text 3. Agents 
+						79 text · Externalization & Internalization
+					80 button 3.0 外化与内化总览
+					81 button 3.1 工具调用
+					82 button 3.2 Memory
+					83 button 3.3 Skills
+					84 button 3.4 Harness
+					85 button 3.5 外化与内化整合
+					86 button 3.6 全讲总结
+		32 container Description: 课件操作, ID: controls
+			33 button Description: 上一步, Help: 上一步（←）
+			34 button Description: 下一步, Help: 下一步（→或空格）
+			35 container jump-form
+				36 text 页码
+				37 stepper (settable, integer) Description: 页码, Value: 116, ID: page-input
+				38 text / 161
+			87 text 整页显示
+			40 button 目录
+			41 button 讲者备注
+			42 button 完整材料
+			43 button 放大图解
+			44 button 全屏
+			45 button 隐藏, Help: 按H恢复
+			46 button 操作说明
+		88 text 第116页，执行：程序读取模板，写出文件，整页显示
+
+The focused UI element is 47 container Description: 第116页 执行：程序读取模板，写出文件, ID: mount

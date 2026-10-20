@@ -1,0 +1,15 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=26&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=26&s=1
+	2 container
+		3 container Description: 第26页 横纵分析：来路、差异与未来, ID: mount
+			4 container 第26页 横纵分析：来路、差异与未来
+				5 heading 横纵分析：来路、差异与未来, Value: 1
+					6 text 横纵分析：来路、差异与未来
+				7 container 课件内容
+					8 container
+						9 text 纵向看它怎样走到今天；横向看它与其他对象有什么区别。 纵向：它怎样走到今天 早期选择 重要转折与成败 今天的能力与约束 横向：与其他对象同维度比较 强项 短板 独特性 未来路径 可能怎么发展
+						10 text 成立的前提
+						11 text 预警信号 结合深度研究功能，看清过去怎样形成差异，以及差异怎样影响未来。
+		12 text 第26页，横纵分析：来路、差异与未来，整页显示
+
+The focused UI element is 3 container Description: 第26页 横纵分析：来路、差异与未来, ID: mount

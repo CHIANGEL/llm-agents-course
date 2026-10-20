@@ -1,0 +1,42 @@
+{
+  "conditions": {
+    "phase": "正式部署",
+    "people": 300,
+    "term_months": 12,
+    "budget_cap_cny": 300000
+  },
+  "cost_scope": [
+    {
+      "text": "软件订阅按300人、一年核价，明确版本、税费及计费口径。",
+      "source": "当前采购条件；cost-scope.md：软件订阅"
+    },
+    {
+      "text": "配置与迁移、培训与支持分别列明，核对是否包含在预算范围内。",
+      "source": "cost-scope.md：配置与迁移、培训与支持"
+    },
+    {
+      "text": "续费、扩容、退出及数据导出费用单列，按相同范围比较报价。",
+      "source": "cost-scope.md：比较规则"
+    }
+  ],
+  "requirements": [
+    {
+      "text": "按团队分配权限；支持企业账号开通、停用和操作日志。",
+      "source": "security-requirements.md：账号与权限"
+    },
+    {
+      "text": "确认数据托管位置、导出方式及服务终止后的处理安排。",
+      "source": "security-requirements.md：数据处理"
+    }
+  ],
+  "pending": [
+    {
+      "text": "供应商完整报价及费用包含范围。",
+      "source": "当前材料未提供供应商报价"
+    },
+    {
+      "text": "正式上线日期与验收标准。",
+      "source": "当前条件只确定人数、期限和预算"
+    }
+  ]
+}

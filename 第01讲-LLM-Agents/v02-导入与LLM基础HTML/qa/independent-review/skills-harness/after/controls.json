@@ -1,0 +1,46 @@
+[
+  {
+    "check": "97 material arrows do not advance slide",
+    "pass": true
+  },
+  {
+    "check": "97 full script rendered",
+    "pass": true
+  },
+  {
+    "check": "97 close restores material button focus",
+    "pass": true
+  },
+  {
+    "check": "input End remains current page",
+    "pass": true
+  },
+  {
+    "check": "input submit reaches 103",
+    "pass": true
+  },
+  {
+    "check": "103 full notebook and actual results",
+    "pass": true
+  },
+  {
+    "check": "103 body double-click opens zoom",
+    "pass": true
+  },
+  {
+    "check": "103 zoom reaches 200",
+    "pass": true
+  },
+  {
+    "check": "103 zoom decreases",
+    "pass": true
+  },
+  {
+    "check": "103 reversible after zoom",
+    "pass": true
+  },
+  {
+    "check": "103 return begins first step",
+    "pass": true
+  }
+]

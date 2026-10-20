@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-10-20T19:47:10.536Z",
+  "workspace": "/Users/linjianghao/Desktop/我的安泰/开设课程/零基础入门大模型智能体（文科版）",
+  "course": "第01讲-LLM-Agents/v02-导入与LLM基础HTML",
+  "build": {
+    "passed": true,
+    "error": null,
+    "mode": "In-memory writes; workspace-external files treated as unavailable",
+    "pages": 202,
+    "states": 202,
+    "virtual_write_count": 12,
+    "virtual_write_paths": [
+      "第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/llm-foundations/decoding/reader.html",
+      "第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/tool-calling-r7/weather-text.html",
+      "第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/memory-r8/procurement-case/完整材料.html",
+      "第01讲-LLM-Agents/v02-导入与LLM基础HTML/页面清单.md",
+      "第01讲-LLM-Agents/v02-导入与LLM基础HTML/schedule.json",
+      "第01讲-LLM-Agents/v02-导入与LLM基础HTML/slides.json",
+      "第01讲-LLM-Agents/v02-导入与LLM基础HTML/materials.json",
+      "第01讲-LLM-Agents/v02-导入与LLM基础HTML/src/data.js",
+      "第01讲-LLM-Agents/v02-导入与LLM基础HTML/qa/playback-policy-record.json",
+      "第01讲-LLM-Agents/v02-导入与LLM基础HTML/version_manifest.json",
+      "第01讲-LLM-Agents/v02-导入与LLM基础HTML/index.html",
+      "第01讲-LLM-Agents/v02-导入与LLM基础HTML/qa/asset-versions.json"
+    ],
+    "actual_course_files_changed": [],
+    "unavailable_external_paths_probed": [
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/课程共识与制作规范.md",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/llm-foundations/generation-trace.json",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/llm-foundations/decoding/provenance.json",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/llm-foundations/chat-template/cases.json",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/参考资料/教师心得补充原文.md",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/prompting-r2/prompts.json",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slide_manifest.json",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/agents-overview-r4/source-map.json",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/source-replica-r5/source-map.json",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/html-figures-r6/source-map.json",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/tool-calling-r7/source-map.json",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/memory-review-r14/来源与适配.md",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/memory-skills-r25/来源与执行记录.md",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/skills-r9/来源与适配记录.md",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/skills-r16/来源与执行记录.md",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/tools-protocols-r19/来源与适配记录.md",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/agent-internet-r20/来源与适配记录.md",
+      "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/integration-r21/来源与内容取舍.md"
+    ],
+    "logs": [
+      "{\"pages\":202,\"states\":202,\"seconds\":17140,\"versioned_assets\":61}"
+    ]
+  },
+  "playback": {
+    "passed": true,
+    "pages": 202,
+    "states": 202,
+    "rendered_states": 202,
+    "manifest_counts_match": true,
+    "reference_instances": 427,
+    "unique_local_resources": 173,
+    "missing_resources": [],
+    "references_outside_course": [],
+    "renderer_errors": [],
+    "asset_hash_mismatches": [],
+    "remote_links": [
+      "https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/",
+      "https://github.com/browser-use/browser-use",
+      "https://people.csail.mit.edu/frankzydou/blog/so101-pen-pickup/index.html",
+      "https://www.axios.com/2026/09/21/amazon-meta-muse-ai-agentic-shopping",
+      "https://www.jiemian.com/article/15189349.html",
+      "https://github.com/openai/codex",
+      "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra",
+      "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct",
+      "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TemperatureLogitsWarper",
+      "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopKLogitsWarper",
+      "https://huggingface.co/docs/transformers/v4.57.1/en/internal/generation_utils#transformers.TopPLogitsWarper",
+      "https://huggingface.co/docs/transformers/en/chat_templating"
+    ],
+    "scope": "Current renderers, local CSS, material links, visible sources, and recursively linked local HTML readers; historical unreferenced webpage captures are excluded."
+  },
+  "symbolic_links": [],
+  "limits": "Static and in-memory verification only; browser layout, interactive controls, audio/video decoding, and external website availability require separate checks.",
+  "passed": true
+}

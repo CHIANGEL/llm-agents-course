@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-18",
+  "files": [
+    {
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/00-课程规划/教师措辞与版式习惯.md",
+      "local": "参考资料/原课程规范/教师措辞与版式习惯.md",
+      "sha256": "1e7e0f937679ded03588d5b1b3c49ed9213ae855d707d218dc00fd9afaed1f12",
+      "bytes": 10826
+    },
+    {
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/00-课程规划/课件固定规范.md",
+      "local": "参考资料/原课程规范/课件固定规范.md",
+      "sha256": "31b4901e5dd9ecd2b60da3dcbc0fa7f09068d4b7b0a2ac0d9f46908bdd277ae7",
+      "bytes": 18485
+    },
+    {
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/00-课程规划/课程主线-Externalization与Internalization.md",
+      "local": "参考资料/原课程规范/课程主线-Externalization与Internalization.md",
+      "sha256": "a05f01657b9d943503c77a117ec19f059af6cdcbf5c166c0483cfc30e0cee324",
+      "bytes": 4774
+    },
+    {
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/00-课程规划/已确认样张/课件风格-v1/slide_001.png",
+      "local": "参考资料/已确认样张/slide_001.png",
+      "sha256": "d222a6f7f531995d1a06f14117be6d3849653a74a38f2ec16811e9ef8dfa74f6",
+      "bytes": 1136150
+    },
+    {
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/00-课程规划/已确认样张/课件风格-v1/slide_002.png",
+      "local": "参考资料/已确认样张/slide_002.png",
+      "sha256": "dc333586bf5f12250051ea3b51e8dae8626dbe8c7db2a846100344c3643a24d8",
+      "bytes": 1205738
+    },
+    {
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/00-课程规划/已确认样张/课件风格-v1/slide_003.png",
+      "local": "参考资料/已确认样张/slide_003.png",
+      "sha256": "c48169ce5a079f58e517d6379efa6e3c91b81a065bb511371f84c26d519d3eb5",
+      "bytes": 1408191
+    },
+    {
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/00-课程规划/已确认样张/课件风格-v1/reference_manifest.json",
+      "local": "参考资料/已确认样张/reference_manifest.json",
+      "sha256": "aa08f4fa0cf70e0c4764cc6963800d51640093b40826e00050000dbbc83b468b",
+      "bytes": 1894
+    },
+    {
+      "source": "/Users/linjianghao/Desktop/Prompting技巧.pdf",
+      "local": "参考资料/Prompting技巧.pdf",
+      "sha256": "7709a7f604ea71312e294d12c56f499551118db7f8953fc6dce7ae305d0c5e5e",
+      "bytes": 1982831
+    },
+    {
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第02讲-Prompting与推理模型/v05-知识结构重拟/教师心得补充原文.md",
+      "local": "参考资料/教师心得补充原文.md",
+      "sha256": "45f1f11359b25bbbb4109466a2451b085fc46f55508ad90864d163b62a8fcc96",
+      "bytes": 2243
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=harness-r11#p=154&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=harness-r11#p=154&s=1
+	2 container 第154页 · 完整材料, ID: deck-dialog
+		3 container
+			4 heading 第154页 · 完整材料, Value: 2, ID: dialog-title
+				8 text 第154页 · 完整材料
+			6 button 关闭 ×, ID: dialog-close
+		7 container dialog-content
+			9 heading 本页要点, Value: 3
+				10 text 本页要点
+			11 text 清理长输出，保留重新查阅的路径
+
+重复搜索结果、已处理的长日志可以从后续输入移出，保留整理结果与原始地址或文件位置。原始资料仍在外部且可以访问时，需要细节再通过工具读取。压缩整理较早过程，清理移出已不需要的内容。Memory保存供以后使用的信息，上下文管理则决定当前调用实际带上哪些内容。
+			12 heading 相关材料, Value: 3
+				13 text 相关材料
+			14 text 重复搜索结果、已处理的长日志可以从后续输入移出，保留整理结果与原始地址或文件位置。原始资料仍在外部且可以访问时，需要细节再通过工具读取。压缩整理较早过程，清理移出已不需要的内容。Memory保存供以后使用的信息，上下文管理则决定当前调用实际带上哪些内容。
+
+The focused UI element is 6 button 关闭 ×, ID: dialog-close

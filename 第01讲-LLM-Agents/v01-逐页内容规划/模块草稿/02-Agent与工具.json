@@ -1,0 +1,625 @@
+[
+  {
+    "page": 31,
+    "section": "Agent与工具调用",
+    "type": "agenda",
+    "title": "本讲内容",
+    "seconds": 30,
+    "question": "理解任务要求之后，怎样进入实际执行？",
+    "on_slide": [
+      "LLM基础",
+      "Prompting",
+      "Agent与工具调用",
+      "Memory",
+      "Skills",
+      "Harness",
+      "模型与系统的分工"
+    ],
+    "talk": "承接前一章的任务要求：材料、目标和交付标准已经交代，接着看谁真正完成读取与操作。目录页只定位，不预讲后面章节。",
+    "visual": {
+      "kind": "目录",
+      "description": "七项按固定顺序纵向排列，位置与字号在所有目录页保持一致；当前项“Agent与工具调用”用红色，其余深蓝。目录页只定位，不加入知识关系图，下一页单独呈现本章总览。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/第一讲课程规划.md；Agent 与工具调用章节",
+      "status": "已有材料待转绘"
+    },
+    "steps": [
+      "显示全讲目录，仅高亮“Agent与工具调用”。"
+    ],
+    "evidence": "课程结构；无运行或产品效果主张。",
+    "sources": [
+      {
+        "id": "PLAN",
+        "locator": "180分钟安排；Agent与工具调用"
+      }
+    ],
+    "case_id": null,
+    "transition": "先用一张图看清这一章需要区分的对象。"
+  },
+  {
+    "page": 32,
+    "section": "Agent与工具调用",
+    "type": "overview",
+    "title": "Agent：根据结果继续行动",
+    "seconds": 60,
+    "question": "一次任务怎样从生成回答延伸到持续行动？",
+    "on_slide": [
+      "Agent（智能体）根据任务和当前材料决定下一步，把需要执行的操作交给工具，再利用返回结果继续工作。",
+      "这一章先跟完一次天气调用，再看客户反馈怎样成为工单，最后把同一关系用于界面操作。"
+    ],
+    "talk": "给出本讲采用的工作性解释，避免把 Agent 当作一种固定产品。指出模型负责生成下一步请求，应用和工具负责组织与执行；是否继续要看新结果和原目标。这个知识总览与上一页目录分开。",
+    "visual": {
+      "kind": "职责与反馈总图",
+      "description": "中央横向放置任务材料、模型、应用、工具四个具体对象；向右箭头标“提出请求”“交给工具执行”，回箭头标“结果加入下一次输入”。底部仅标天气查询、客服工单、界面操作三个本章例子。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slides/slide_028.png；原第028页职责顺序图；/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/第一讲课程规划.md；教学整合",
+      "status": "已有材料待转绘"
+    },
+    "steps": [
+      "先显示任务材料与模型。",
+      "加入应用和工具，区分请求与执行。",
+      "让结果沿回箭头进入下一轮输入。"
+    ],
+    "evidence": "依据原课机制重新组织的教学总图，不代表某个商业产品的内部架构。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第028、037页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agent与工具调用"
+      }
+    ],
+    "case_id": null,
+    "transition": "先辨认只给出建议与实际完成一次操作的差别。"
+  },
+  {
+    "page": 33,
+    "section": "Agent与工具调用",
+    "type": "content",
+    "title": "从“告诉我怎么做”到“替我执行”",
+    "seconds": 150,
+    "question": "Agent比一次回答多出了哪一步？",
+    "on_slide": [
+      "回答可以说明应该查询什么、怎样整理材料；要取得本次数据或改变外部文件，还需要程序实际执行操作。",
+      "Agent 根据执行结果决定继续、调整或结束。我们判断它做到了什么，要查看取得的材料和实际发生的变化。"
+    ],
+    "talk": "沿用原课“模型输出—外部执行”的区别，不另编贯穿业务故事。左侧用天气问句说明：模型可以生成查询建议，建议本身没有取得天气；右侧让查询请求实际经过工具，并显示返回材料。提醒本讲关注执行机制，不用是否存在某个固定数量的步骤给产品贴标签。",
+    "visual": {
+      "kind": "同一任务的执行对照",
+      "description": "左右两列使用同一句“纽约现在天气怎么样？”；左侧止于一张写着“可以查询天气服务”的回答纸，末端为空白天气栏；右侧是模型请求、工具读取、天气材料三个有向步骤。底部将“文字已生成”与“材料已返回”分别对应两条路径。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slides/slide_027.png；原第027–028页；教学简化",
+      "status": "已有材料待转绘"
+    },
+    "steps": [
+      "显示相同天气问句和两条路径。",
+      "先停在左侧回答，说明尚无新天气材料。",
+      "逐步接通右侧工具与返回结果，点明新增的执行环节。"
+    ],
+    "evidence": "机制对照为课堂构造；没有实时查询或新增执行。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第027–028页"
+      }
+    ],
+    "case_id": null,
+    "transition": "执行前，模型需要知道当前有哪些可用工具。"
+  },
+  {
+    "page": 34,
+    "section": "Agent与工具调用",
+    "type": "content",
+    "title": "工具说明告诉模型可以做什么",
+    "seconds": 90,
+    "question": "模型怎样知道这次可以调用哪个工具？",
+    "on_slide": [
+      "工具说明交代名称、用途和调用需要的条件。本例提供 get_weather，要求填写要查询的地点。",
+      "用户问题与工具说明一起进入模型输入。说明里写着“查询天气”，并不意味着模型已经取得天气结果。"
+    ],
+    "talk": "复用原第015–019页，将长模板压缩成一张输入组合图。上屏只保留 get_weather、查询地点这两个对应对象。阅读层放01_messages.py、02_tools.py及03_round1_complete.txt；不讲模板标签、参数类型或分词。",
+    "visual": {
+      "kind": "输入材料组合图",
+      "description": "左侧一条用户消息“纽约现在天气怎么样？”，下方一份工具说明小页，明确写“名称：get_weather；用途：查询地点天气；所需信息：地点”。两份材料用箭头汇入右侧“本次模型输入”，天气结果位置保持空白。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/01_messages.py；/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/02_tools.py；原第015–019页",
+      "status": "已有材料待转绘"
+    },
+    "steps": [
+      "显示天气问题。",
+      "展开工具说明中的用途和地点要求。",
+      "把两份材料合到本次输入，并指出尚无天气结果。"
+    ],
+    "evidence": "用户问句为课堂设置；工具说明及模板展开为原课已保存材料。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第015–019页；examples/tool_call_text/data/01_messages.py、02_tools.py"
+      }
+    ],
+    "case_id": null,
+    "transition": "有了说明，模型可以生成带地点的调用请求。"
+  },
+  {
+    "page": 35,
+    "section": "Agent与工具调用",
+    "type": "content",
+    "title": "模型先提出查询请求",
+    "seconds": 90,
+    "question": "生成一条工具调用时，实际产生了什么？",
+    "on_slide": [
+      "本例的调用请求写明：使用 get_weather，地点为 New York。它把操作名称和所需信息交给后面的程序。",
+      "此时得到的是调用请求，天气工具还没有执行。图中的模型输出为课堂拟写，用来说明请求怎样被程序接收。"
+    ],
+    "talk": "将原第020–022页合并。教师指认工具名与地点的对应，不展示整屏JSON，也不把数据格式当作天气服务。阅读层保留04_assistant_call_illustrative.txt、05_parsed_call.json和原解析代码。可以补一句不同接口的调用表示不同，但都需要由程序执行。",
+    "visual": {
+      "kind": "调用请求传递图",
+      "description": "左侧“模型”下出现两行请求：工具 get_weather、地点 New York；右侧“应用程序”收到同一请求，工具函数位于更右侧且尚未点亮。用红线连结两处工具名和两处地点，底部显著标“课堂拟写输出；此刻未执行工具”。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/04_assistant_call_illustrative.txt；/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/05_parsed_call.json；原第020–022页",
+      "status": "已有材料待转绘"
+    },
+    "steps": [
+      "显示两项调用信息。",
+      "将请求移向应用程序，解释程序如何识别工具和地点。",
+      "停在执行前，指出天气结果尚未出现。"
+    ],
+    "evidence": "助手调用为课堂拟写；解析过程为原课已完成的本地执行记录。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第020–022页；examples/tool_call_text/README.md"
+      }
+    ],
+    "case_id": null,
+    "transition": "接下来由应用真正找到对应函数并执行。"
+  },
+  {
+    "page": 36,
+    "section": "Agent与工具调用",
+    "type": "content",
+    "title": "程序执行之后，工具才返回结果",
+    "seconds": 120,
+    "question": "哪一步真的取得了天气材料？",
+    "on_slide": [
+      "应用按请求调用相应函数，工具读取数据后返回结果。本例返回纽约 72°F、局部多云。",
+      "这些数值来自原课程保存的固定天气示例，由本地文件回放；它们没有表示课堂当天纽约的天气。"
+    ],
+    "talk": "本页只讲外部执行的发生位置。沿原第023页与README说明，固定数据读取是真实执行过的，助手输出没有运行模型权重。阅读层提供06_tool_result.txt、weather_fixture.json以及execution_events.json；主画面不展开函数注册表或Python。",
+    "visual": {
+      "kind": "函数与文件读取图",
+      "description": "应用中的“执行 get_weather(New York)”箭头指向本地 weather_fixture.json 文件；文件经过工具函数返回一张天气记录，写“72°F / Partly cloudy”。给文件位置加“固定示例数据”标签，返回记录下写“保存回放，不是实时天气”。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/weather_fixture.json；/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/06_tool_result.txt；原第023页",
+      "status": "已有材料待转绘"
+    },
+    "steps": [
+      "高亮程序执行位置。",
+      "显示工具读取固定文件。",
+      "展开返回记录，并就近说明数值的来源和时效性质。"
+    ],
+    "evidence": "原课真实本地函数执行记录＋固定示例数据回放；没有实时网络天气查询。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第023页；examples/tool_call_text/README.md；data/06_tool_result.txt"
+      }
+    ],
+    "case_id": null,
+    "transition": "结果取得之后，还要回到模型能够读取的输入中。"
+  },
+  {
+    "page": 37,
+    "section": "Agent与工具调用",
+    "type": "content",
+    "title": "工具结果进入下一次输入",
+    "seconds": 90,
+    "question": "工具查到的内容怎样影响模型后续回答？",
+    "on_slide": [
+      "应用把本次调用和工具返回内容接到已有消息后面，再让模型继续生成。下一次输入里已经出现了天气材料。",
+      "本例随后给出“纽约气温 72°F，局部多云”。这句回答为课堂拟写；天气依据来自工具返回的固定示例。"
+    ],
+    "talk": "合并原第024–026页，重点看输入增加了哪两项。已有任务与必要说明仍保留，不能误说第二次只输入天气。阅读层提供07_messages_after_tool.py、08_round2_complete.txt和09_assistant_answer_illustrative.txt，让完整输入可核对。",
+    "visual": {
+      "kind": "消息追加与依据对应图",
+      "description": "左侧竖排消息带依次为原任务与说明、助手调用、工具天气；新增两段高亮。箭头进入右侧第二次模型生成，输出短句中的72°F、局部多云分别用细线连回工具记录，已有消息用同色淡底保留。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/07_messages_after_tool.py；/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/08_round2_complete.txt；/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/09_assistant_answer_illustrative.txt；原第024–026页",
+      "status": "已有材料待转绘"
+    },
+    "steps": [
+      "显示原任务与说明仍在输入中。",
+      "按顺序加入调用与工具返回。",
+      "显示拟写回答，并将数值与描述连回其来源。"
+    ],
+    "evidence": "消息追加和模板展开为原课本地记录；最终自然语言回答为课堂拟写。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第024–026页；examples/tool_call_text/README.md"
+      }
+    ],
+    "case_id": null,
+    "transition": "将刚才几页收回同一条时间线，就能看清谁在何时做了什么。"
+  },
+  {
+    "page": 38,
+    "section": "Agent与工具调用",
+    "type": "content",
+    "title": "两次模型生成，中间执行一次工具",
+    "seconds": 90,
+    "question": "一次完整调用中，模型与程序各做了什么？",
+    "on_slide": [
+      "第一次生成提出调用，程序执行并取得工具结果；结果进入新的输入后，模型再生成回答。",
+      "模型两次生成都沿用逐步续写机制。查询数据、读取文件以及实际改变外部系统，发生在工具执行的步骤。"
+    ],
+    "talk": "复用第028页的五步职责图，减少原图文字并保留两处模型与中间工具的位置。教师快速回放完整顺序，不再逐行讲格式。图下继续显示“模型输出为课堂拟写；程序已本地回放”的性质说明。完整原页可在阅读层打开。",
+    "visual": {
+      "kind": "原图职责时间线",
+      "description": "复用原第028页中部的模型—应用—工具—应用—模型五步图；两个模型位置标“生成1”和“生成2”，中间工具位置标“执行1次”。请求向右传递，天气材料在第四步加入输入，保留72°F及课堂拟写/本地回放标签。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slides/slide_028.png；原第028页",
+      "status": "已有原图"
+    },
+    "steps": [
+      "依次点亮请求、执行、返回、追加、回答。",
+      "同时圈出两处生成与一处执行。",
+      "用一句话将生成与外部操作的职责区分开。"
+    ],
+    "evidence": "复用原课教学职责图；模型输出拟写、固定数据与程序本地回放的性质沿用原页。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第028页"
+      }
+    ],
+    "case_id": null,
+    "transition": "天气例子取得一份材料；商业任务还可能改变另一个系统里的工作记录。"
+  },
+  {
+    "page": 39,
+    "section": "Agent与工具调用",
+    "type": "case",
+    "title": "Intercom Fin：把客户反馈送入 Linear",
+    "seconds": 120,
+    "question": "商业系统中的工具调用改变了哪一步工作？",
+    "on_slide": [
+      "Anthropic 的公开介绍说明：Intercom 的客服 Agent Fin 可以在用户报告问题时，将问题登记为 Linear 中的工单。",
+      "这项能力把客服对话与后续问题跟踪连接起来。公开材料没有提供本课可回放的完整客户对话或工单执行记录。"
+    ],
+    "talk": "首次进入商业案例先交代业务对象：Intercom承接客户对话，Linear承接待跟进的问题；无需展开产品价格或配置。本页仅陈述官方披露能力，发布于2025年5月1日，2026年10月18日核验。阅读层放官方原文链接及短摘录“filing bugs in Linear when users report issues”。",
+    "visual": {
+      "kind": "业务对象关系图",
+      "description": "左侧画客户反馈的对话窗口轮廓，中央标Intercom Fin，右侧画Linear问题列表轮廓。箭头标“客户报告问题”“创建问题记录”，右侧仅列“新的问题记录”，不填写真实编号、优先级或负责人。页脚显示官方来源日期和“能力介绍；非执行回放”。",
+      "source": "https://claude.com/resources/articles/integrations；Integrations节，Intercom段；教学示意",
+      "status": "待按原文制作"
+    },
+    "steps": [
+      "说明客户对话与问题跟踪是两个工作对象。",
+      "显示官方披露的Fin到Linear操作。",
+      "标明材料只支持能力说明，尚无可回放执行记录。"
+    ],
+    "evidence": "官方公开能力介绍；业务图为教学转绘，不是企业界面截屏或实际运行日志。",
+    "sources": [
+      {
+        "id": "CASE_FIN",
+        "locator": "Claude can now connect to your world，2025-05-01，Integrations节Intercom段"
+      }
+    ],
+    "case_id": "FIN",
+    "transition": "用刚才的职责分工拆开这项能力，能看清“写下问题”与“外部创建记录”的关系。"
+  },
+  {
+    "page": 40,
+    "section": "Agent与工具调用",
+    "type": "case",
+    "title": "从客户描述到外部问题记录",
+    "seconds": 150,
+    "question": "客服对话怎样经过工具变成另一个系统中的记录？",
+    "on_slide": [
+      "按照刚才的调用机制理解：客户描述提供任务材料，Agent 形成操作请求，连接外部系统的程序负责执行。",
+      "图中把输入、请求和结果分开，是教学拆解；实际提交字段、权限设置和返回格式，要以产品配置与运行记录为准。"
+    ],
+    "talk": "本页不拟造一段真实客户对话，也不声称知道Fin内部提示词。教师把天气例子的三个关键位置映射过来：客户材料、创建问题请求、外部系统结果。仅使用通用动作标签，不展示未经来源支持的API名称、字段或工单号。MCP名称留到Harness模块解释。",
+    "visual": {
+      "kind": "输入与执行泳道图",
+      "description": "上方泳道为“客户对话”，只放“报告的问题”；中间为“Agent与应用”，放“形成创建请求”和“调用已连接的系统”；下方为“Linear”，放“创建问题记录”和返回箭头。请求与记录使用不同形状，图顶显著标“按工具调用机制的教学拆解”。",
+      "source": "https://claude.com/resources/articles/integrations；Integrations节Intercom段；/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slides/slide_028.png；教学示意",
+      "status": "待按原文制作"
+    },
+    "steps": [
+      "先显示客户提供的问题材料。",
+      "沿箭头区分形成请求与程序执行。",
+      "显示外部记录和返回路径，同时指出图不展示企业内部字段。"
+    ],
+    "evidence": "业务能力来自官方；职责映射为课程机制分析，不声称为Fin实际内部实现。",
+    "sources": [
+      {
+        "id": "CASE_FIN",
+        "locator": "Integrations节Intercom段：支持业务操作范围"
+      },
+      {
+        "id": "L3",
+        "locator": "第028页：用于教学职责映射"
+      }
+    ],
+    "case_id": "FIN",
+    "transition": "程序执行以后，仍要判断已经完成的是哪一项工作。"
+  },
+  {
+    "page": 41,
+    "section": "Agent与工具调用",
+    "type": "case",
+    "title": "工单已建立，问题修复还需另看结果",
+    "seconds": 150,
+    "question": "怎样判定这段业务操作已经完成到哪里？",
+    "on_slide": [
+      "如果目标是建立可跟进的问题记录，完成依据应来自外部系统返回或记录查询；一句“已记录”不能单独证明操作发生。",
+      "创建工单与修复客户问题是两个完成条件。本案例公开信息支持前者的能力说明，不能据此推断后者已自动完成。"
+    ],
+    "talk": "把验收收在具体对象上：任务如果只要求登记，就检查登记结果；若要求解决问题，还需修复和反馈的其他证据。图中“应查看返回或查询”是课堂分析，不断言Fin执行了某个特定回读步骤。阅读层链接官方段落，不加入效率、成本或解决率数字。",
+    "visual": {
+      "kind": "完成条件分界图",
+      "description": "左边一条业务进度线从“客户报告”到“问题记录建立”；后面虚线连接“修复”“客户确认”，并标“本来源未提供这些执行证据”。在记录建立节点下放放大镜与记录轮廓，标签为“查看系统结果”；不出现成功工单截图或虚构返回值。",
+      "source": "https://claude.com/resources/articles/integrations；Integrations节Intercom段；/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/第一讲课程规划.md；教学验收分析",
+      "status": "待按原文制作"
+    },
+    "steps": [
+      "先圈出本案例公开能力覆盖的创建记录。",
+      "展示系统结果是判断操作发生的依据。",
+      "显示修复与客户确认属于后续完成条件，回到任务范围。"
+    ],
+    "evidence": "官方能力边界＋教师验收分析；没有客户成效数据或问题自动修复主张。",
+    "sources": [
+      {
+        "id": "CASE_FIN",
+        "locator": "Integrations节Intercom段"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agent与工具调用：商业案例边界"
+      }
+    ],
+    "case_id": "FIN",
+    "transition": "同样的检查方式也适用于一次任务中连续发生的多次工具操作。"
+  },
+  {
+    "page": 42,
+    "section": "Agent与工具调用",
+    "type": "content",
+    "title": "新结果会改变下一步",
+    "seconds": 180,
+    "question": "为什么Agent不能只照着最初的步骤一直执行？",
+    "on_slide": [
+      "下一步需要结合工具返回的新材料。如果材料已经足够，可以组织交付；如果仍缺关键信息，就需要补充读取或查询。",
+      "行动与反馈交替进行，后面的请求取决于前面的结果。最初写出的计划提供方向，实际执行还需要持续判断。"
+    ],
+    "talk": "从天气调用延伸到多步任务，但不另起虚构企业故事。图中沿用“读取材料”的通用动作，只新增信息足够与缺失两条分支。教师讲明模型并非在外部执行期间偷偷完成全部后续操作；应用将每一步新结果带回，下一次生成才有新依据。",
+    "visual": {
+      "kind": "按结果分支的行动图",
+      "description": "左侧为任务与现有材料，中间是一轮“模型请求—工具执行—新材料”。新材料后分为“足够回答”指向交付和“缺少关键材料”回到补充查询；同一页先仅出现第一轮，再逐步展开分支，不填构造业务数字。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slides/slide_028.png；原第028、030、035页；/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/第一讲课程规划.md；教学扩展",
+      "status": "已有材料待转绘"
+    },
+    "steps": [
+      "先回放一轮请求与返回。",
+      "沿材料足够分支走到交付。",
+      "切换为材料不足，显示补充查询回到下一轮输入。"
+    ],
+    "evidence": "基于原课工具调用机制的教学分支图；不表示新增的真实多步运行。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第028、030、035页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agent与工具调用：行动、反馈与继续执行"
+      }
+    ],
+    "case_id": null,
+    "transition": "新结果也可能是一条错误信息，它同样需要进入后续判断。"
+  },
+  {
+    "page": 43,
+    "section": "Agent与工具调用",
+    "type": "content",
+    "title": "反馈指出调用中缺少地点",
+    "seconds": 180,
+    "question": "一次请求漏掉必需信息时，怎样根据反馈修正？",
+    "on_slide": [
+      "教学构造：用户问纽约天气，但调用请求漏掉了地点。应用返回“缺少地点”，本次尚未取得天气。",
+      "把反馈与原问题对照，可以补上 New York 再提出请求。新增依据来自原问题中已有的地点，修改后的请求仍需程序执行。"
+    ],
+    "talk": "围绕一份可见的缺信息材料讲反馈，不罗列权限与限额。教师先展示原课问题“纽约现在天气怎么样？”，再展示为本页构造的遗漏地点请求与校验反馈，定位两处不一致；重新补上地点后，只停在新的请求，不伪造这次纠错的成功日志。阅读层提供原工具说明中的必填地点要求，保留构造请求与原保存回放的区别。",
+    "visual": {
+      "kind": "缺信息材料与修正对应图",
+      "description": "左侧上方保留用户原话“纽约现在天气怎么样？”，下方放一张调用单：工具get_weather，地点栏为空；中央返回条写“缺少地点”，上方明确标“本页错误分支为教学构造”。细线从原问题的“纽约”连到右侧修正调用单的地点New York；右侧只画待执行箭头，不画天气结果或成功勾。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/01_messages.py；/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/02_tools.py；原第015–016页；缺信息请求与反馈为教学构造",
+      "status": "待按原文制作"
+    },
+    "steps": [
+      "并排显示原天气问题与漏填地点的教学请求。",
+      "显示“缺少地点”的教学反馈，连回原问题中的纽约。",
+      "将New York填回请求，指出接下来仍需实际执行才能取得结果。"
+    ],
+    "evidence": "原课工具说明要求地点；遗漏请求和校验反馈为课堂构造，未执行，不是原天气回放中的真实错误。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第015–016、020–023页；examples/tool_call_text/data/02_tools.py；原说明中的必需地点"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agent与工具调用：工具报错与根据反馈调整"
+      }
+    ],
+    "case_id": null,
+    "transition": "即使随后返回了天气材料，还要对照原任务判断它是否已经足够。"
+  },
+  {
+    "page": 44,
+    "section": "Agent与工具调用",
+    "type": "content",
+    "title": "结果是否满足任务，要逐项核对",
+    "seconds": 180,
+    "question": "工具返回了材料，是否就满足了原任务？",
+    "on_slide": [
+      "原问题问的是“纽约现在天气怎么样”。返回材料写明了纽约、72°F和局部多云，但本课数据来自固定示例文件。",
+      "这份材料足以演示调用机制，不能据此报告课堂当天的天气。实际任务若要求“现在”，还需要时效明确的当前数据。"
+    ],
+    "talk": "让教师用三分钟完整对照需求与返回，直接利用已讲材料说明完成条件。纽约对应地点，温度和天气状况对应内容，“现在”则要求当前数据；固定回放不能满足这个真实查询要求。不要为让图看起来成功而补造时间戳，也不要说此次教学运行真的尝试了实时查询。只讲结果是否满足任务，把权限、重试额度、保存状态和恢复留给Harness。",
+    "visual": {
+      "kind": "任务要求与原返回材料对照",
+      "description": "左侧放原问题纸条“纽约现在天气怎么样？”，用三条下划线区分“纽约”“天气”“现在”；右侧展示已保存的返回局部“Current weather in New York / Temperature:72°F / Conditions:Partly cloudy”，纸条上方另贴“固定示例回放”。实线分别连接地点和天气内容，“现在”连向一处空白日期记录并标“缺当前数据依据”；明确保留英文原文中的Current与回放性质对照，不能编造采集时间。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/01_messages.py；/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/data/06_tool_result.txt；/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/tool_call_text/README.md；原第015、023、028页",
+      "status": "已有材料待转绘"
+    },
+    "steps": [
+      "显示原问题，并标出地点、天气内容和现在三个要求。",
+      "逐项连接固定返回中的纽约、72°F、局部多云。",
+      "将“现在”连向缺失的当前数据依据，说明演示完成与真实查询完成的条件不同。"
+    ],
+    "evidence": "使用原课固定天气回放和真实文件；需求对照为教学分析，不是实时查询或新执行记录。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第015、023、028页；examples/tool_call_text/README.md；data/06_tool_result.txt"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agent与工具调用：天气固定示例不能称为实时查询"
+      }
+    ],
+    "case_id": null,
+    "transition": "工具不仅能调用数据接口，也能读取和操作软件界面。"
+  },
+  {
+    "page": 45,
+    "section": "Agent与工具调用",
+    "type": "content",
+    "title": "Computer Use：先读取当前界面",
+    "seconds": 150,
+    "question": "Agent怎样知道软件现在显示了什么？",
+    "on_slide": [
+      "Computer Use 指通过工具读取和操作软件界面。模型可以收到界面结构，也可以收到截图，作为选择动作的依据。",
+      "界面会随操作变化。每次动作应依据当前观察；本页沿用原课示意图，没有真实应用操作或成功截图。"
+    ],
+    "talk": "压缩原第030–033、036页，不讲辅助接口实现、控件编号或API语法。教师展示原第036页的两种观察方式，并把它们接到同一个模型输入位置。原图中具体字段可在阅读层查看，主画面只保留“界面结构”“当前截图”。",
+    "visual": {
+      "kind": "界面结构与截图的对应图",
+      "description": "取原第036页左侧两幅带“示意”的窗口图：上方界面结构列出可见对象，下方窗口画出对应按钮位置；两条箭头同时指向“本次观察”。删除原图右侧element_index与坐标细节，保留“界面变化后重新观察”标签。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slides/slide_036.png；原第030–033、036页；/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/computer_use/README.md",
+      "status": "已有原图"
+    },
+    "steps": [
+      "显示同一窗口的结构信息与图像两种表达。",
+      "说明它们是模型当前能看到的材料。",
+      "改变示意窗口中的位置，指出需要重新取得观察。"
+    ],
+    "evidence": "原课局部界面为课堂示意，接口说明为保存材料；没有实际操作应用或真实截图。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第030–033、036页；examples/computer_use/README.md"
+      }
+    ],
+    "case_id": null,
+    "transition": "看见当前界面之后，模型才能提出动作，动作之后还要再看结果。"
+  },
+  {
+    "page": 46,
+    "section": "Agent与工具调用",
+    "type": "content",
+    "title": "提出点击之后，还要重新观察",
+    "seconds": 150,
+    "question": "发出界面操作请求之后，怎样知道发生了什么？",
+    "on_slide": [
+      "模型根据任务和当前界面提出点击或输入请求，工具程序实际执行；随后读取新的界面，判断变化是否符合预期。",
+      "操作请求发出与任务完成是两个时点。只有新观察提供了结果依据，Agent 才能决定后续操作或结束。"
+    ],
+    "talk": "用四帧顺序图压缩原第034–035、037页：观察、动作请求、工具执行、新观察。图为课堂示意，不制造点击成功记录；最后一帧用检查状态表达“要核对什么”。阅读层保存原接口摘录与observe/click/observe_after短代码，不展示已经失去上下文的固定编号。",
+    "visual": {
+      "kind": "界面操作四帧图",
+      "description": "四帧分别画：标注目标位置的当前示意窗口；模型提出“点击这个目标”；工具指针执行；重新取得的窗口旁出现“是否达到目标状态”的检查标记。底部回箭头从新观察连回下一次选择，图角统一标“教学示意，未执行”。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slides/slide_034.png；/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slides/slide_035.png；/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/examples/computer_use/README.md；原第034–037页",
+      "status": "已有材料待转绘"
+    },
+    "steps": [
+      "先显示当前观察与操作目标。",
+      "分开出现动作请求和工具执行。",
+      "最后显示重新观察及检查位置，再接回下一轮选择。"
+    ],
+    "evidence": "依据原课接口说明制作的教学序列；没有实际应用执行或虚构成功状态。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第034–037页；examples/computer_use/README.md"
+      }
+    ],
+    "case_id": null,
+    "transition": "无论查询数据还是操作界面，同样需要把执行过的事情和取得的材料带到后续工作。"
+  },
+  {
+    "page": 47,
+    "section": "Agent与工具调用",
+    "type": "content",
+    "title": "下一次任务还需要哪些信息？",
+    "seconds": 120,
+    "question": "一次执行结束之后，哪些内容需要留给后续工作？",
+    "on_slide": [
+      "这一章把任务、请求、执行和结果分开了。工具提供本次取得的材料或实际变化，模型根据这些结果决定下一步。",
+      "如果下次还需要已经确认的事实、用户约定或工作进度，就需要保存并在合适的时候取回。这是后半讲的 Memory 问题。"
+    ],
+    "talk": "本页只搭桥，不提前讲存储算法。仍以本章已经出现的任务材料、调用记录和结果为对象，教师指出当前输入不会天然等同于长期保存。图中的“可保留”只是问题提示，不建议把全部运行信息永久保存。下一模块再解释选择、取回和更新。",
+    "visual": {
+      "kind": "本次过程与下次输入的时间图",
+      "description": "左侧将本次任务的要求纸、工具返回记录、已完成动作放在一条短时间线上；右侧是下次任务的空白输入页。中间仅画一处“以后需要的信息”文件位置，保存和取回两根箭头先以虚线出现，留给Memory章展开。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/生成式人工智能及其编程实践/2026年-秋学期/第03讲-从Prompt到Context再到Harness/v16-Skills完整案例/slides/slide_037.png；/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/第一讲课程规划.md；Agent与工具调用到Memory衔接",
+      "status": "已有材料待转绘"
+    },
+    "steps": [
+      "回看任务、请求、执行、结果四个位置。",
+      "把时间线延伸到下一次任务。",
+      "指出需要保存和取回的信息位置，暂不展开具体做法。"
+    ],
+    "evidence": "课程关系整合图；不声称当前产品已保存这些信息。",
+    "sources": [
+      {
+        "id": "L3",
+        "locator": "第037页"
+      },
+      {
+        "id": "PLAN",
+        "locator": "Agent与工具调用；Memory"
+      }
+    ],
+    "case_id": null,
+    "transition": "休息后从一次新任务开始，说明过去的信息怎样重新进入当前输入。"
+  },
+  {
+    "page": 48,
+    "section": "休息",
+    "type": "break",
+    "title": "休息 10 分钟",
+    "seconds": 600,
+    "question": "休息之后从哪个问题继续？",
+    "on_slide": [
+      "休息 10 分钟。",
+      "后半讲从 Memory 开始：过去的信息怎样保存、怎样取回，以及什么时候不该继续使用。随后看 Skills、Harness 和模型与系统的分工。"
+    ],
+    "talk": "保留完整十分钟课间，不播放额外知识或安排学生任务。若后续HTML加入倒计时，提供暂停和隐藏方式，以教师现场节奏为准。",
+    "visual": {
+      "kind": "休息提示",
+      "description": "白底中央显示“休息10分钟”，下方用一张安静的书页与时钟线描；右下角写“回来后：Memory”。不放讨论题、练习二维码或自动播放内容。",
+      "source": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/00-课程规划/第一讲课程规划.md；180分钟安排",
+      "status": "待按原文制作"
+    },
+    "steps": [
+      "显示休息页并暂停讲授。"
+    ],
+    "evidence": "排课建议中的十分钟休息，无教学任务。",
+    "sources": [
+      {
+        "id": "PLAN",
+        "locator": "180分钟安排：95–105分钟休息"
+      }
+    ],
+    "case_id": null,
+    "transition": "返回后进入Memory的全讲目录与独立知识总览。"
+  }
+]

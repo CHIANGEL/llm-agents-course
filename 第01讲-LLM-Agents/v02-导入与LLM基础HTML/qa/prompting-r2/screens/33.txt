@@ -1,0 +1,32 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=33&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=33&s=1
+	2 container
+		3 container Description: 第33页 专家会诊：原始Prompt, ID: mount
+			4 container 第33页 专家会诊：原始Prompt
+				5 heading 专家会诊：原始Prompt, Value: 1
+					6 text 专家会诊：原始Prompt
+				7 container 课件内容
+					8 container
+						9 text 同一模型按三种互补视角分别分析，再比较共同事实与不同假设。 原始Prompt 接续左栏
+						10 text 我的问题是：【填写问题、已知事实、目标和现实约束】。
+						11 text 先不要直接给方案。请为这个问题选择3种真正互补的专业视角，并说明每种视角为什么必要。
+						12 text 让每种视角分别回答：
+						13 text 1. 它怎样重新定义这个问题；
+						14 text 2. 它最推荐的解决路径；
+						15 text 3. 其他视角最容易忽略的风险；
+						16 text 4. 什么新证据会让它改变判断。
+						17 text 然后让三种视角互相质疑，找出：
+						18 text 1. 共同认可的事实；
+						19 text 2. 真正的分歧；
+						20 text 3. 分歧背后的不同假设。
+						21 text 最后请综合输出：
+						22 text 1. 综合后最推荐的方案；
+						23 text 2. 适用条件；
+						24 text 3. 最大风险；
+						25 text 4. 退出条件；
+						26 text 5. 第一步行动。
+						27 text 不要选择三个高度相似的身份，也不要模仿或编造真实人物的观点。信息不足时，先只问我一个最关键的问题。
+						28 text 《Prompting技巧》· 解决问题 · 第7–8页
+		29 text 第33页，专家会诊：原始Prompt，整页显示
+
+The focused UI element is 3 container Description: 第33页 专家会诊：原始Prompt, ID: mount

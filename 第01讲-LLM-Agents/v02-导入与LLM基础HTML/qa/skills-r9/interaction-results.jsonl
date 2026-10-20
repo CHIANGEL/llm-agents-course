@@ -1,0 +1,29 @@
+{"label":"119 reset","page":"119","scrolls":[0],"selected":["模型：说明结果与待补内容模型生成","关键内容"],"title":"回答用户：交付文件，并说明下一步"}
+{"label":"119 cumulative content scroll and click","page":"119","scrolls":[14520.5],"selected":["模型：说明结果与待补内容模型生成","截至此处的内容"],"title":"回答用户：交付文件，并说明下一步"}
+{"label":"119 repeat reset","page":"119","scrolls":[0],"selected":["模型：说明结果与待补内容模型生成","关键内容"],"title":"回答用户：交付文件，并说明下一步"}
+{"label":"leave and return resets; repeated last button 108","page":"108","scrolls":[0],"selected":["SKILL.md"],"title":"打开jupyter-notebook：12个文件各有什么用？"}
+{"label":"double reset 108","page":"108","scrolls":[0],"selected":["SKILL.md"],"title":"打开jupyter-notebook：12个文件各有什么用？"}
+{"label":"leave and return resets; repeated last button 113","page":"113","scrolls":[0],"selected":["客户端：可用Skill目录名称、用途与文件入口","关键内容"],"title":"先看目录：这个任务适合哪个Skill？"}
+{"label":"double reset 113","page":"113","scrolls":[0],"selected":["客户端：可用Skill目录名称、用途与文件入口","关键内容"],"title":"先看目录：这个任务适合哪个Skill？"}
+{"label":"leave and return resets; repeated last button 114","page":"114","scrolls":[0],"selected":["工具：返回Skill正文工具返回","关键内容"],"title":"第一次展开：读取SKILL.md"}
+{"label":"double reset 114","page":"114","scrolls":[0],"selected":["工具：返回Skill正文工具返回","关键内容"],"title":"第一次展开：读取SKILL.md"}
+{"label":"leave and return resets; repeated last button 115","page":"115","scrolls":[0],"selected":["工具：返回教学参考工具返回","关键内容"],"title":"第二次展开：按教程分支读取参考"}
+{"label":"double reset 115","page":"115","scrolls":[0],"selected":["工具：返回教学参考工具返回","关键内容"],"title":"第二次展开：按教程分支读取参考"}
+{"label":"leave and return resets; repeated last button 117","page":"117","scrolls":[0],"selected":["工具：返回Notebook内容工具返回","关键内容"],"title":"检查：取得要求，再打开实际产物"}
+{"label":"double reset 117","page":"117","scrolls":[0],"selected":["工具：返回Notebook内容工具返回","关键内容"],"title":"检查：取得要求，再打开实际产物"}
+{"label":"leave and return resets; repeated last button 118","page":"118","scrolls":[0],"selected":["1. 标题与对象"],"title":"打开产物：标题已替换，其余保留模板"}
+{"label":"double reset 118","page":"118","scrolls":[0],"selected":["1. 标题与对象"],"title":"打开产物：标题已替换，其余保留模板"}
+{"label":"leave and return resets; repeated last button 119","page":"119","scrolls":[0],"selected":["模型：说明结果与待补内容模型生成","关键内容"],"title":"回答用户：交付文件，并说明下一步"}
+{"label":"double reset 119","page":"119","scrolls":[0],"selected":["模型：说明结果与待补内容模型生成","关键内容"],"title":"回答用户：交付文件，并说明下一步"}
+{"label":"Notebook keyboard activation","page":"118","scrolls":[0],"selected":["5. 正弦示例代码"],"title":"打开产物：标题已替换，其余保留模板"}
+{"label":"zoom-close-parent-preserved","page":"118","scrolls":[0],"selected":["5. 正弦示例代码"],"title":"打开产物：标题已替换，其余保留模板"}
+{"label":"1024-last-file","page":"108","scrolls":[0],"selected":["LICENSE.txt"],"title":"打开jupyter-notebook：12个文件各有什么用？"}
+{"label":"1024-last-check","page":"117","scrolls":[0],"selected":["工具：返回Notebook内容工具返回","关键内容"],"title":"检查：取得要求，再打开实际产物"}
+{"label":"toc-skills104","page":"104","scrolls":[],"selected":[],"title":"本讲内容"}
+{"label":"footer-harness131","page":"131","scrolls":[],"selected":[],"title":"本讲内容"}
+{"label":"footer-skills104","page":"104","scrolls":[],"selected":[],"title":"本讲内容"}
+{"label":"p109-scroll-end","page":"109","scrolls":[132],"selected":[],"title":"SKILL.md：先说明何时用，再说明怎样做"}
+{"label":"p109-scroll-home","page":"109","scrolls":[24.5],"selected":[],"title":"SKILL.md：先说明何时用，再说明怎样做"}
+{"label":"p109-scroll-settled","page":"109","scrolls":[0],"selected":[],"title":"SKILL.md：先说明何时用，再说明怎样做"}
+{"label":"p124-prompt-end","page":"124","scrolls":[0],"selected":[],"title":"高Star的Skill，适合你的任务吗？"}
+{"label":"escape-restores-navigation","page":"125","scrolls":[],"selected":[],"title":"评估：选对了吗，读对了吗，结果对了吗？"}

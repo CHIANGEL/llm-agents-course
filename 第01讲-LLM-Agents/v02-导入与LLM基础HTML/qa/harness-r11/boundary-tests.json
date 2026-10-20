@@ -1,0 +1,18 @@
+{
+  "high": "167",
+  "nextDisabled": false,
+  "low": "167",
+  "prevDisabled": false,
+  "pageInputArrowDoesNotFlip": "150",
+  "invalidHighRejected": true,
+  "invalidLowRejected": true,
+  "validLast": {
+    "page": "175",
+    "nextDisabled": true
+  },
+  "validFirst": {
+    "page": "1",
+    "prevDisabled": true
+  },
+  "expected": "HTML number-input min/max reject out-of-range submission; valid endpoints disable the corresponding navigation button."
+}

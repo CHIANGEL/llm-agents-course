@@ -1,0 +1,870 @@
+{
+  "method": "actual Home/Right UI progression after final edits",
+  "records": [
+    {
+      "page": 1,
+      "step": 1,
+      "title": "第一讲：LLM Agents",
+      "confirmed": true
+    },
+    {
+      "page": 2,
+      "step": 1,
+      "title": "回答、操作与交付",
+      "confirmed": true
+    },
+    {
+      "page": 3,
+      "step": 1,
+      "title": "本讲内容",
+      "confirmed": true
+    },
+    {
+      "page": 4,
+      "step": 1,
+      "title": "LLM基础：连续生成与多轮聊天",
+      "confirmed": true
+    },
+    {
+      "page": 5,
+      "step": 1,
+      "title": "先看一次完整的生成",
+      "confirmed": true
+    },
+    {
+      "page": 6,
+      "step": 1,
+      "title": "下一Token预测（Next token prediction）",
+      "confirmed": true
+    },
+    {
+      "page": 7,
+      "step": 1,
+      "title": "第二步：把刚生成的内容加入前文",
+      "confirmed": true
+    },
+    {
+      "page": 8,
+      "step": 1,
+      "title": "连续生成：从第一个Token到结束",
+      "confirmed": true
+    },
+    {
+      "page": 9,
+      "step": 1,
+      "title": "句号之后，模型还会再预测一次",
+      "confirmed": true
+    },
+    {
+      "page": 10,
+      "step": 1,
+      "title": "聊天界面背后，仍然是在继续生成文本",
+      "confirmed": true
+    },
+    {
+      "page": 11,
+      "step": 1,
+      "title": "第一轮：把角色和消息拼成输入",
+      "confirmed": true
+    },
+    {
+      "page": 12,
+      "step": 1,
+      "title": "第二轮：旧问题、旧回答和追问一起传入",
+      "confirmed": true
+    },
+    {
+      "page": 13,
+      "step": 1,
+      "title": "第三轮：完整历史接在同一份输入中",
+      "confirmed": true
+    },
+    {
+      "page": 14,
+      "step": 1,
+      "title": "LLM基础小结：组织输入，再逐Token生成",
+      "confirmed": true
+    },
+    {
+      "page": 15,
+      "step": 1,
+      "title": "本讲内容",
+      "confirmed": true
+    },
+    {
+      "page": 16,
+      "step": 1,
+      "title": "Prompting：从交代任务到反馈检查",
+      "confirmed": true
+    },
+    {
+      "page": 17,
+      "step": 1,
+      "title": "把用途、需求与条件写进任务",
+      "confirmed": true
+    },
+    {
+      "page": 18,
+      "step": 1,
+      "title": "Prompt要说明结果拿来做什么",
+      "confirmed": true
+    },
+    {
+      "page": 19,
+      "step": 1,
+      "title": "四件套：视角、背景、目标与样本",
+      "confirmed": true
+    },
+    {
+      "page": 20,
+      "step": 1,
+      "title": "给例子：参考结构，依据材料写事实",
+      "confirmed": true
+    },
+    {
+      "page": 20,
+      "step": 2,
+      "title": "给例子：参考结构，依据材料写事实",
+      "confirmed": true
+    },
+    {
+      "page": 21,
+      "step": 1,
+      "title": "必要条件写清，解决办法留空间",
+      "confirmed": true
+    },
+    {
+      "page": 22,
+      "step": 1,
+      "title": "任务交代小结：让结果有明确参照",
+      "confirmed": true
+    },
+    {
+      "page": 23,
+      "step": 1,
+      "title": "澄清：从已有信息找到关键缺口",
+      "confirmed": true
+    },
+    {
+      "page": 24,
+      "step": 1,
+      "title": "先分清事实、解释与目标",
+      "confirmed": true
+    },
+    {
+      "page": 25,
+      "step": 1,
+      "title": "只追问会改变交付的问题",
+      "confirmed": true
+    },
+    {
+      "page": 26,
+      "step": 1,
+      "title": "澄清小结：让新信息改变下一步",
+      "confirmed": true
+    },
+    {
+      "page": 27,
+      "step": 1,
+      "title": "核查：让说法连回材料与条件",
+      "confirmed": true
+    },
+    {
+      "page": 28,
+      "step": 1,
+      "title": "事实核查：逐条记录依据与范围",
+      "confirmed": true
+    },
+    {
+      "page": 29,
+      "step": 1,
+      "title": "来源存在，还要检查结论范围",
+      "confirmed": true
+    },
+    {
+      "page": 30,
+      "step": 1,
+      "title": "核查小结：事实、推理与范围对应",
+      "confirmed": true
+    },
+    {
+      "page": 31,
+      "step": 1,
+      "title": "比较选择：先把两边说充分",
+      "confirmed": true
+    },
+    {
+      "page": 32,
+      "step": 1,
+      "title": "双向钢人：理由要连上成立条件",
+      "confirmed": true
+    },
+    {
+      "page": 33,
+      "step": 1,
+      "title": "用同一组维度比较两种行动",
+      "confirmed": true
+    },
+    {
+      "page": 34,
+      "step": 1,
+      "title": "比较选择小结：留下有条件的判断",
+      "confirmed": true
+    },
+    {
+      "page": 35,
+      "step": 1,
+      "title": "验证假设：让行动带回新信息",
+      "confirmed": true
+    },
+    {
+      "page": 36,
+      "step": 1,
+      "title": "从试用意愿走向实际使用",
+      "confirmed": true
+    },
+    {
+      "page": 37,
+      "step": 1,
+      "title": "验证假设小结：用记录更新判断",
+      "confirmed": true
+    },
+    {
+      "page": 38,
+      "step": 1,
+      "title": "反馈与检查：从具体问题改进Prompt",
+      "confirmed": true
+    },
+    {
+      "page": 39,
+      "step": 1,
+      "title": "把具体反馈写回Prompt",
+      "confirmed": true
+    },
+    {
+      "page": 40,
+      "step": 1,
+      "title": "重试、改要求和补材料各解决什么",
+      "confirmed": true
+    },
+    {
+      "page": 41,
+      "step": 1,
+      "title": "用代表性输入检查Prompt",
+      "confirmed": true
+    },
+    {
+      "page": 42,
+      "step": 1,
+      "title": "反馈检查小结：留下有效要求",
+      "confirmed": true
+    },
+    {
+      "page": 43,
+      "step": 1,
+      "title": "Prompting小结：从交代任务到反馈检查",
+      "confirmed": true
+    },
+    {
+      "page": 44,
+      "step": 1,
+      "title": "从Prompting走向Agent",
+      "confirmed": true
+    },
+    {
+      "page": 45,
+      "step": 1,
+      "title": "本讲内容",
+      "confirmed": true
+    },
+    {
+      "page": 46,
+      "step": 1,
+      "title": "Agents：外化与内化",
+      "confirmed": true
+    },
+    {
+      "page": 47,
+      "step": 1,
+      "title": "工具调用：把请求、执行与反馈接起来",
+      "confirmed": true
+    },
+    {
+      "page": 48,
+      "step": 1,
+      "title": "一次调用：从查询建议到天气材料",
+      "confirmed": true
+    },
+    {
+      "page": 49,
+      "step": 1,
+      "title": "工具说明告诉模型可以做什么",
+      "confirmed": true
+    },
+    {
+      "page": 50,
+      "step": 1,
+      "title": "调用请求写明工具与地点",
+      "confirmed": true
+    },
+    {
+      "page": 51,
+      "step": 1,
+      "title": "程序执行读取，工具返回天气",
+      "confirmed": true
+    },
+    {
+      "page": 52,
+      "step": 1,
+      "title": "把调用与结果追加到下一次输入",
+      "confirmed": true
+    },
+    {
+      "page": 53,
+      "step": 1,
+      "title": "两次生成，中间执行一次工具",
+      "confirmed": true
+    },
+    {
+      "page": 54,
+      "step": 1,
+      "title": "Fin：把客户反馈送入问题跟踪",
+      "confirmed": true
+    },
+    {
+      "page": 55,
+      "step": 1,
+      "title": "客户材料、创建请求与系统记录",
+      "confirmed": true
+    },
+    {
+      "page": 56,
+      "step": 1,
+      "title": "记录建立与问题解决，各有完成条件",
+      "confirmed": true
+    },
+    {
+      "page": 57,
+      "step": 1,
+      "title": "新结果决定继续、补充还是结束",
+      "confirmed": true
+    },
+    {
+      "page": 58,
+      "step": 1,
+      "title": "缺少地点：让反馈回到原问题",
+      "confirmed": true
+    },
+    {
+      "page": 59,
+      "step": 1,
+      "title": "返回内容要对应对象、内容与时点",
+      "confirmed": true
+    },
+    {
+      "page": 60,
+      "step": 1,
+      "title": "行动、反馈、判断与下一步",
+      "confirmed": true
+    },
+    {
+      "page": 61,
+      "step": 1,
+      "title": "Computer Use：观察、动作与新观察",
+      "confirmed": true
+    },
+    {
+      "page": 62,
+      "step": 1,
+      "title": "界面结构与截图提供两种观察",
+      "confirmed": true
+    },
+    {
+      "page": 63,
+      "step": 1,
+      "title": "根据当前观察，提出界面操作",
+      "confirmed": true
+    },
+    {
+      "page": 64,
+      "step": 1,
+      "title": "操作以后，再读取界面核对目标",
+      "confirmed": true
+    },
+    {
+      "page": 65,
+      "step": 1,
+      "title": "界面操作也要带着新结果继续判断",
+      "confirmed": true
+    },
+    {
+      "page": 66,
+      "step": 1,
+      "title": "工具调用小结：执行结果回到判断",
+      "confirmed": true
+    },
+    {
+      "page": 67,
+      "step": 1,
+      "title": "把以后要用的信息留给下一次任务",
+      "confirmed": true
+    },
+    {
+      "page": 68,
+      "step": 1,
+      "title": "课间休息",
+      "confirmed": true
+    },
+    {
+      "page": 69,
+      "step": 1,
+      "title": "Memory：把过去的信息带入本次任务",
+      "confirmed": true
+    },
+    {
+      "page": 70,
+      "step": 1,
+      "title": "保存与取回：从文件到本次输入",
+      "confirmed": true
+    },
+    {
+      "page": 71,
+      "step": 1,
+      "title": "一份摘要，怎样带出详细记录？",
+      "confirmed": true
+    },
+    {
+      "page": 72,
+      "step": 1,
+      "title": "读取内容，加入后续输入",
+      "confirmed": true
+    },
+    {
+      "page": 72,
+      "step": 2,
+      "title": "读取内容，加入后续输入",
+      "confirmed": true
+    },
+    {
+      "page": 72,
+      "step": 3,
+      "title": "读取内容，加入后续输入",
+      "confirmed": true
+    },
+    {
+      "page": 73,
+      "step": 1,
+      "title": "文件更新以后，还要更新输入",
+      "confirmed": true
+    },
+    {
+      "page": 73,
+      "step": 2,
+      "title": "文件更新以后，还要更新输入",
+      "confirmed": true
+    },
+    {
+      "page": 73,
+      "step": 3,
+      "title": "文件更新以后，还要更新输入",
+      "confirmed": true
+    },
+    {
+      "page": 74,
+      "step": 1,
+      "title": "保存在哪里，取回什么，怎样参与生成",
+      "confirmed": true
+    },
+    {
+      "page": 75,
+      "step": 1,
+      "title": "电子产品客服：延续两次会话的背景",
+      "confirmed": true
+    },
+    {
+      "page": 76,
+      "step": 1,
+      "title": "电子产品客服：保存偏好与有关事实",
+      "confirmed": true
+    },
+    {
+      "page": 77,
+      "step": 1,
+      "title": "电子产品客服：把背景加入新的问题",
+      "confirmed": true
+    },
+    {
+      "page": 78,
+      "step": 1,
+      "title": "电子产品客服：让后续服务取得有关背景",
+      "confirmed": true
+    },
+    {
+      "page": 79,
+      "step": 1,
+      "title": "取回以后，还要判断本次是否适用",
+      "confirmed": true
+    },
+    {
+      "page": 80,
+      "step": 1,
+      "title": "偏好改变，保留历史并更新当前关系",
+      "confirmed": true
+    },
+    {
+      "page": 81,
+      "step": 1,
+      "title": "喜欢的音乐，这次一定适合听吗？",
+      "confirmed": true
+    },
+    {
+      "page": 82,
+      "step": 1,
+      "title": "更新记录，也检查当前用途",
+      "confirmed": true
+    },
+    {
+      "page": 83,
+      "step": 1,
+      "title": "Memory：留下信息，再按当前任务取用",
+      "confirmed": true
+    },
+    {
+      "page": 84,
+      "step": 1,
+      "title": "Skills：把可复用的做法组织起来",
+      "confirmed": true
+    },
+    {
+      "page": 85,
+      "step": 1,
+      "title": "方法封装：说明、参考、脚本和模板",
+      "confirmed": true
+    },
+    {
+      "page": 86,
+      "step": 1,
+      "title": "打开一个包含12份文件的Skill包",
+      "confirmed": true
+    },
+    {
+      "page": 87,
+      "step": 1,
+      "title": "从入口说明，找到本次需要的做法",
+      "confirmed": true
+    },
+    {
+      "page": 88,
+      "step": 1,
+      "title": "文件包把方法与材料组织在一起",
+      "confirmed": true
+    },
+    {
+      "page": 89,
+      "step": 1,
+      "title": "从发现用途，到读取方法和执行",
+      "confirmed": true
+    },
+    {
+      "page": 90,
+      "step": 1,
+      "title": "先根据用途，决定是否打开Skill",
+      "confirmed": true
+    },
+    {
+      "page": 91,
+      "step": 1,
+      "title": "渐进式披露：需要什么，再读取什么",
+      "confirmed": true
+    },
+    {
+      "page": 91,
+      "step": 2,
+      "title": "渐进式披露：需要什么，再读取什么",
+      "confirmed": true
+    },
+    {
+      "page": 92,
+      "step": 1,
+      "title": "脚本读取模板，写出Notebook骨架",
+      "confirmed": true
+    },
+    {
+      "page": 92,
+      "step": 2,
+      "title": "脚本读取模板，写出Notebook骨架",
+      "confirmed": true
+    },
+    {
+      "page": 93,
+      "step": 1,
+      "title": "读取得到方法，执行形成文件",
+      "confirmed": true
+    },
+    {
+      "page": 94,
+      "step": 1,
+      "title": "Box：从已有资料到交付文件",
+      "confirmed": true
+    },
+    {
+      "page": 95,
+      "step": 1,
+      "title": "Box：先找到季度报告与月度更新",
+      "confirmed": true
+    },
+    {
+      "page": 96,
+      "step": 1,
+      "title": "Box：生成草稿，继续补充分析",
+      "confirmed": true
+    },
+    {
+      "page": 96,
+      "step": 2,
+      "title": "Box：生成草稿，继续补充分析",
+      "confirmed": true
+    },
+    {
+      "page": 97,
+      "step": 1,
+      "title": "Box：同一批资料，响应新的文件要求",
+      "confirmed": true
+    },
+    {
+      "page": 98,
+      "step": 1,
+      "title": "回到Notebook：补齐内容、运行与验收",
+      "confirmed": true
+    },
+    {
+      "page": 98,
+      "step": 2,
+      "title": "回到Notebook：补齐内容、运行与验收",
+      "confirmed": true
+    },
+    {
+      "page": 98,
+      "step": 3,
+      "title": "回到Notebook：补齐内容、运行与验收",
+      "confirmed": true
+    },
+    {
+      "page": 99,
+      "step": 1,
+      "title": "Skills：方法、操作与检查相互配合",
+      "confirmed": true
+    },
+    {
+      "page": 100,
+      "step": 1,
+      "title": "Harness：把各部分组织为持续的工作",
+      "confirmed": true
+    },
+    {
+      "page": 101,
+      "step": 1,
+      "title": "材料与连接，分别准备什么",
+      "confirmed": true
+    },
+    {
+      "page": 102,
+      "step": 1,
+      "title": "下一步需要的材料，也在变化",
+      "confirmed": true
+    },
+    {
+      "page": 103,
+      "step": 1,
+      "title": "MCP：应用怎样连接工具服务",
+      "confirmed": true
+    },
+    {
+      "page": 103,
+      "step": 2,
+      "title": "MCP：应用怎样连接工具服务",
+      "confirmed": true
+    },
+    {
+      "page": 103,
+      "step": 3,
+      "title": "MCP：应用怎样连接工具服务",
+      "confirmed": true
+    },
+    {
+      "page": 103,
+      "step": 4,
+      "title": "MCP：应用怎样连接工具服务",
+      "confirmed": true
+    },
+    {
+      "page": 104,
+      "step": 1,
+      "title": "材料进入输入，调用到达工具",
+      "confirmed": true
+    },
+    {
+      "page": 105,
+      "step": 1,
+      "title": "先看对象与动作，再看执行条件",
+      "confirmed": true
+    },
+    {
+      "page": 106,
+      "step": 1,
+      "title": "读、写和发送，分别落实范围",
+      "confirmed": true
+    },
+    {
+      "page": 107,
+      "step": 1,
+      "title": "需要确认时，先展示具体动作",
+      "confirmed": true
+    },
+    {
+      "page": 108,
+      "step": 1,
+      "title": "让授权落到明确的对象与动作",
+      "confirmed": true
+    },
+    {
+      "page": 109,
+      "step": 1,
+      "title": "reMarkable：客服处理与人工出口",
+      "confirmed": true
+    },
+    {
+      "page": 110,
+      "step": 1,
+      "title": "接手的人，需要哪些处理材料",
+      "confirmed": true
+    },
+    {
+      "page": 111,
+      "step": 1,
+      "title": "把服务的前后两段接起来",
+      "confirmed": true
+    },
+    {
+      "page": 112,
+      "step": 1,
+      "title": "继续、等待和结束，各有什么条件",
+      "confirmed": true
+    },
+    {
+      "page": 113,
+      "step": 1,
+      "title": "完成条件，要连回原来的任务",
+      "confirmed": true
+    },
+    {
+      "page": 114,
+      "step": 1,
+      "title": "回执丢失时，先查动作是否发生",
+      "confirmed": true
+    },
+    {
+      "page": 115,
+      "step": 1,
+      "title": "留下下一步可以接用的进度",
+      "confirmed": true
+    },
+    {
+      "page": 116,
+      "step": 1,
+      "title": "按有效进度继续，按完成条件结束",
+      "confirmed": true
+    },
+    {
+      "page": 117,
+      "step": 1,
+      "title": "过程记录和交付检查怎样配合",
+      "confirmed": true
+    },
+    {
+      "page": 118,
+      "step": 1,
+      "title": "把结果连回材料、调用和返回",
+      "confirmed": true
+    },
+    {
+      "page": 118,
+      "step": 2,
+      "title": "把结果连回材料、调用和返回",
+      "confirmed": true
+    },
+    {
+      "page": 118,
+      "step": 3,
+      "title": "把结果连回材料、调用和返回",
+      "confirmed": true
+    },
+    {
+      "page": 119,
+      "step": 1,
+      "title": "用原任务验收不同交付",
+      "confirmed": true
+    },
+    {
+      "page": 120,
+      "step": 1,
+      "title": "Harness：把过程与交付一起组织好",
+      "confirmed": true
+    },
+    {
+      "page": 121,
+      "step": 1,
+      "title": "本讲内容",
+      "confirmed": true
+    },
+    {
+      "page": 122,
+      "step": 1,
+      "title": "外化与内化整合：各部分怎样配合",
+      "confirmed": true
+    },
+    {
+      "page": 123,
+      "step": 1,
+      "title": "这份课件中的任务、资料与方法",
+      "confirmed": true
+    },
+    {
+      "page": 124,
+      "step": 1,
+      "title": "外化与内化：改变发生在哪里",
+      "confirmed": true
+    },
+    {
+      "page": 125,
+      "step": 1,
+      "title": "任务经验怎样用于下一轮改进",
+      "confirmed": true
+    },
+    {
+      "page": 126,
+      "step": 1,
+      "title": "更换模型后，重新检查运行安排",
+      "confirmed": true
+    },
+    {
+      "page": 127,
+      "step": 1,
+      "title": "整合小结：各部分围绕任务配合",
+      "confirmed": true
+    },
+    {
+      "page": 128,
+      "step": 1,
+      "title": "Agents小结：模型与外部系统",
+      "confirmed": true
+    },
+    {
+      "page": 129,
+      "step": 1,
+      "title": "第一讲小结：生成、任务与执行",
+      "confirmed": true
+    }
+  ],
+  "completed": true
+}

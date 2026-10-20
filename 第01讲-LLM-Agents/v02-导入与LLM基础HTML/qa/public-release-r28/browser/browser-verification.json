@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "scope": "Title revision: cover, profile, first teaching page and last page locally; complete prior r27 playback recorded separately.",
+  "pages": [
+    {
+      "page": 1,
+      "title": "零基础入门大模型智能体",
+      "heading": "零基础入门大模型智能体",
+      "brokenImages": []
+    },
+    {
+      "page": 2,
+      "title": "零基础入门大模型智能体",
+      "heading": "个人简介",
+      "brokenImages": []
+    },
+    {
+      "page": 3,
+      "title": "零基础入门大模型智能体",
+      "heading": "从常见的大模型与智能体应用说起",
+      "brokenImages": []
+    },
+    {
+      "page": 202,
+      "title": "零基础入门大模型智能体",
+      "heading": "课程内容",
+      "brokenImages": []
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,108 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:,"><title>jupyter-notebook/assets/tutorial-template.ipynb</title><style>body{max-width:1050px;margin:32px auto;padding:0 24px;color:#002060;font:20px/1.7 Arial,"Microsoft YaHei",sans-serif}h1{font-size:28px}pre{font:18px/1.6 monospace;white-space:pre-wrap;overflow-wrap:anywhere;color:#111}a{color:#003f98}li{margin:10px 0}</style><h1>jupyter-notebook/assets/tutorial-template.ipynb</h1><p><a href="../agents-skills/jupyter-notebook/assets/tutorial-template.ipynb" download>下载原始文件</a></p><pre>{
+  &quot;cells&quot;: [
+    {
+      &quot;cell_type&quot;: &quot;markdown&quot;,
+      &quot;metadata&quot;: {},
+      &quot;source&quot;: [
+        &quot;# Tutorial: TITLE\n&quot;,
+        &quot;\n&quot;,
+        &quot;Audience:\n&quot;,
+        &quot;- Describe who this is for.\n&quot;,
+        &quot;\n&quot;,
+        &quot;Prerequisites:\n&quot;,
+        &quot;- List required concepts or setup.\n&quot;,
+        &quot;\n&quot;,
+        &quot;Learning goals:\n&quot;,
+        &quot;- By the end, the reader can...\n&quot;
+      ]
+    },
+    {
+      &quot;cell_type&quot;: &quot;markdown&quot;,
+      &quot;metadata&quot;: {},
+      &quot;source&quot;: [
+        &quot;## Outline\n&quot;,
+        &quot;\n&quot;,
+        &quot;1. Setup\n&quot;,
+        &quot;2. A minimal working example\n&quot;,
+        &quot;3. Variations and pitfalls\n&quot;,
+        &quot;4. Exercises\n&quot;
+      ]
+    },
+    {
+      &quot;cell_type&quot;: &quot;code&quot;,
+      &quot;execution_count&quot;: null,
+      &quot;metadata&quot;: {},
+      &quot;outputs&quot;: [],
+      &quot;source&quot;: [
+        &quot;# Setup cell: keep it short and deterministic\n&quot;,
+        &quot;from __future__ import annotations\n&quot;,
+        &quot;\n&quot;,
+        &quot;import math\n&quot;,
+        &quot;import random\n&quot;,
+        &quot;\n&quot;,
+        &quot;SEED = 21\n&quot;,
+        &quot;random.seed(SEED)\n&quot;,
+        &quot;SEED\n&quot;
+      ]
+    },
+    {
+      &quot;cell_type&quot;: &quot;markdown&quot;,
+      &quot;metadata&quot;: {},
+      &quot;source&quot;: [
+        &quot;## Step 1 - Start with a tiny example\n&quot;,
+        &quot;\n&quot;,
+        &quot;Explain what the next cell does in plain language.\n&quot;
+      ]
+    },
+    {
+      &quot;cell_type&quot;: &quot;code&quot;,
+      &quot;execution_count&quot;: null,
+      &quot;metadata&quot;: {},
+      &quot;outputs&quot;: [],
+      &quot;source&quot;: [
+        &quot;# Minimal working example\n&quot;,
+        &quot;angles = [0, math.pi / 4, math.pi / 2]\n&quot;,
+        &quot;sines = [math.sin(a) for a in angles]\n&quot;,
+        &quot;list(zip(angles, sines))\n&quot;
+      ]
+    },
+    {
+      &quot;cell_type&quot;: &quot;markdown&quot;,
+      &quot;metadata&quot;: {},
+      &quot;source&quot;: [
+        &quot;## Exercises\n&quot;,
+        &quot;\n&quot;,
+        &quot;- Try a different input.\n&quot;,
+        &quot;- Predict the output before running the code.\n&quot;,
+        &quot;- Note one common mistake and how to fix it.\n&quot;
+      ]
+    },
+    {
+      &quot;cell_type&quot;: &quot;code&quot;,
+      &quot;execution_count&quot;: null,
+      &quot;metadata&quot;: {},
+      &quot;outputs&quot;: [],
+      &quot;source&quot;: [
+        &quot;# Exercise answer scaffold\n&quot;,
+        &quot;def describe(values: list[float]) -&gt; dict[str, float]:\n&quot;,
+        &quot;    return {\&quot;min\&quot;: min(values), \&quot;max\&quot;: max(values)}\n&quot;,
+        &quot;\n&quot;,
+        &quot;describe(sines)\n&quot;
+      ]
+    }
+  ],
+  &quot;metadata&quot;: {
+    &quot;kernelspec&quot;: {
+      &quot;display_name&quot;: &quot;Python 3&quot;,
+      &quot;language&quot;: &quot;python&quot;,
+      &quot;name&quot;: &quot;python3&quot;
+    },
+    &quot;language_info&quot;: {
+      &quot;name&quot;: &quot;python&quot;,
+      &quot;version&quot;: &quot;3.12&quot;
+    }
+  },
+  &quot;nbformat&quot;: 4,
+  &quot;nbformat_minor&quot;: 5
+}
+</pre></html>

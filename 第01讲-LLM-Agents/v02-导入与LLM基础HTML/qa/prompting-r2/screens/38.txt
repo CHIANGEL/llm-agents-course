@@ -1,0 +1,13 @@
+Browser tab: 13, Title: "MBA第一讲 · LLM Agents完整课件", URL: "http://127.0.0.1:8765/?revision=prompting-r2-5#p=38&s=1".
+1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=prompting-r2-5#p=38&s=1
+	2 container
+		3 container Description: 第38页 双向钢人：把两边的理由都说充分, ID: mount
+			4 container 第38页 双向钢人：把两边的理由都说充分
+				5 heading 双向钢人：把两边的理由都说充分, Value: 1
+					6 text 双向钢人：把两边的理由都说充分
+				7 container 课件内容
+					8 container
+						9 text 钢人论证：先把双方观点都表述成最有力的版本，再判断取舍。 支持方向A 支持方向B 最强理由 最强理由 适用条件 适用条件 最大收益与风险 最大收益与风险 最难回答的反对意见 最难回答的反对意见 真正的分歧 → 决定性变量 → 一个关键问题 比较最强版本及其成立条件，再作明确判断。
+		10 text 第38页，双向钢人：把两边的理由都说充分，整页显示
+
+The focused UI element is 3 container Description: 第38页 双向钢人：把两边的理由都说充分, ID: mount

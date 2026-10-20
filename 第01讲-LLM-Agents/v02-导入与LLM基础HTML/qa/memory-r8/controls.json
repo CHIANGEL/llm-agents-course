@@ -1,0 +1,500 @@
+[
+  {
+    "page": 92,
+    "action": "summary",
+    "heading": "memories_v2/memory_summary.md",
+    "text": "# 用户偏好\n采购评审使用简体中文，先结论、后依据；金额统一用人民币。\n\n# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n# 详细记忆入口\n- rollout_summaries/pilot-budget.md：试点预算、包含内容和适用范围"
+  },
+  {
+    "page": 92,
+    "action": "budget",
+    "heading": "memories_v2/rollout_summaries/pilot-budget.md",
+    "text": "# 企业知识库：试点预算的适用范围\n\n上次讨论的范围是20名员工、为期3个月的试点。\n10万元是本次试点的预算上限，包含试点软件费与初始配置。\n\n这一额度没有覆盖300人正式部署，也没有核定正式部署的年度费用。\n扩大部署时，应重新确认人数、使用期限、实施服务和"
+  },
+  {
+    "page": 92,
+    "action": "security",
+    "heading": "memories_v2/rollout_summaries/security-requirements.md",
+    "text": "# 企业知识库：安全与账户要求\n\n资料按团队设置访问权限。\n企业账户应能统一开通、停用，并保留操作记录。\n供应商须说明数据存放位置、数据导出及终止服务后的处理办法。\n"
+  },
+  {
+    "page": 92,
+    "action": "budget",
+    "heading": "memories_v2/rollout_summaries/pilot-budget.md",
+    "text": "# 企业知识库：试点预算的适用范围\n\n上次讨论的范围是20名员工、为期3个月的试点。\n10万元是本次试点的预算上限，包含试点软件费与初始配置。\n\n这一额度没有覆盖300人正式部署，也没有核定正式部署的年度费用。\n扩大部署时，应重新确认人数、使用期限、实施服务和"
+  },
+  {
+    "page": 92,
+    "action": "summary",
+    "heading": "memories_v2/memory_summary.md",
+    "text": "# 用户偏好\n采购评审使用简体中文，先结论、后依据；金额统一用人民币。\n\n# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n# 详细记忆入口\n- rollout_summaries/pilot-budget.md：试点预算、包含内容和适用范围"
+  },
+  {
+    "page": 94,
+    "action": "base",
+    "heading": "基础指令",
+    "text": "You are Codex, a coding agent based on GPT-5. You and the user share one workspace, and yo"
+  },
+  {
+    "page": 94,
+    "action": "memory",
+    "heading": "已加载的记忆摘要",
+    "text": "# 用户偏好\n采购评审使用简体中文，先结论、后依据；金额统一用人民币。\n\n# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n# 详细记忆入口\n- rollout_"
+  },
+  {
+    "page": 94,
+    "action": "project",
+    "heading": "项目说明与操作范围",
+    "text": "# 采购评审项目\n\n本目录用于企业知识库选型与采购评估。\n输出面向管理团队，明确采购范围、比较依据和待确认事项。\n本阶段只整理评审材料；联系供应商、签约与付款分别需要明确授权。\n\n"
+  },
+  {
+    "page": 94,
+    "action": "user",
+    "heading": "用户：300人部署",
+    "text": "企业知识库准备从20人试点扩大到300人部署。\n请起草一页采购评审要点。上次10万元的预算能直接沿用吗？\n先整理评估要点，暂不联系供应商。"
+  },
+  {
+    "page": 94,
+    "mode": "raw",
+    "heading": "用户：300人部署",
+    "length": 69
+  },
+  {
+    "page": 94,
+    "mode": "all",
+    "heading": "本次输入的完整文本",
+    "length": 24106
+  },
+  {
+    "page": 94,
+    "mode": "selected",
+    "heading": "用户：300人部署",
+    "length": 69
+  },
+  {
+    "page": 94,
+    "mode": "all",
+    "heading": "本次输入的完整文本",
+    "length": 24106
+  },
+  {
+    "page": 94,
+    "mode": "selected",
+    "heading": "用户：300人部署",
+    "length": 69
+  },
+  {
+    "page": 96,
+    "action": "base",
+    "heading": "基础指令",
+    "text": "You are Codex, a coding agent based on GPT-5. You and the user share one workspace, and yo"
+  },
+  {
+    "page": 96,
+    "action": "memory",
+    "heading": "已加载的记忆摘要",
+    "text": "# 用户偏好\n采购评审使用简体中文，先结论、后依据；金额统一用人民币。\n\n# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n# 详细记忆入口\n- rollout_"
+  },
+  {
+    "page": 96,
+    "action": "project",
+    "heading": "项目说明与操作范围",
+    "text": "# 采购评审项目\n\n本目录用于企业知识库选型与采购评估。\n输出面向管理团队，明确采购范围、比较依据和待确认事项。\n本阶段只整理评审材料；联系供应商、签约与付款分别需要明确授权。\n\n"
+  },
+  {
+    "page": 96,
+    "action": "user",
+    "heading": "用户：300人部署",
+    "text": "企业知识库准备从20人试点扩大到300人部署。\n请起草一页采购评审要点。上次10万元的预算能直接沿用吗？\n先整理评估要点，暂不联系供应商。"
+  },
+  {
+    "page": 96,
+    "action": "call",
+    "heading": "模型：读取预算记录",
+    "text": "exec_command\n{\n  \"cmd\": \"cat memories_v2/rollout_summaries/pilot-budget.md\",\n  \"workdir\": "
+  },
+  {
+    "page": 96,
+    "mode": "raw",
+    "heading": "模型：读取预算记录",
+    "length": 116
+  },
+  {
+    "page": 96,
+    "mode": "all",
+    "heading": "当前已记录的条目",
+    "length": 24247
+  },
+  {
+    "page": 96,
+    "mode": "selected",
+    "heading": "模型：读取预算记录",
+    "length": 116
+  },
+  {
+    "page": 96,
+    "mode": "all",
+    "heading": "当前已记录的条目",
+    "length": 24247
+  },
+  {
+    "page": 96,
+    "mode": "selected",
+    "heading": "模型：读取预算记录",
+    "length": 116
+  },
+  {
+    "page": 97,
+    "action": "base",
+    "heading": "基础指令",
+    "text": "You are Codex, a coding agent based on GPT-5. You and the user share one workspace, and yo"
+  },
+  {
+    "page": 97,
+    "action": "memory",
+    "heading": "已加载的记忆摘要",
+    "text": "# 用户偏好\n采购评审使用简体中文，先结论、后依据；金额统一用人民币。\n\n# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n# 详细记忆入口\n- rollout_"
+  },
+  {
+    "page": 97,
+    "action": "project",
+    "heading": "项目说明与操作范围",
+    "text": "# 采购评审项目\n\n本目录用于企业知识库选型与采购评估。\n输出面向管理团队，明确采购范围、比较依据和待确认事项。\n本阶段只整理评审材料；联系供应商、签约与付款分别需要明确授权。\n\n"
+  },
+  {
+    "page": 97,
+    "action": "user",
+    "heading": "用户：300人部署",
+    "text": "企业知识库准备从20人试点扩大到300人部署。\n请起草一页采购评审要点。上次10万元的预算能直接沿用吗？\n先整理评估要点，暂不联系供应商。"
+  },
+  {
+    "page": 97,
+    "action": "call",
+    "heading": "模型：读取预算记录",
+    "text": "exec_command\n{\n  \"cmd\": \"cat memories_v2/rollout_summaries/pilot-budget.md\",\n  \"workdir\": "
+  },
+  {
+    "page": 97,
+    "action": "result",
+    "heading": "工具：返回预算范围",
+    "text": "# 企业知识库：试点预算的适用范围\n\n上次讨论的范围是20名员工、为期3个月的试点。\n10万元是本次试点的预算上限，包含试点软件费与初始配置。\n\n这一额度没有覆盖300人正式部署，"
+  },
+  {
+    "page": 97,
+    "mode": "raw",
+    "heading": "工具：返回预算范围",
+    "length": 162
+  },
+  {
+    "page": 97,
+    "mode": "all",
+    "heading": "本次输入的完整文本",
+    "length": 24434
+  },
+  {
+    "page": 97,
+    "mode": "selected",
+    "heading": "工具：返回预算范围",
+    "length": 162
+  },
+  {
+    "page": 97,
+    "mode": "all",
+    "heading": "本次输入的完整文本",
+    "length": 24434
+  },
+  {
+    "page": 97,
+    "mode": "selected",
+    "heading": "工具：返回预算范围",
+    "length": 162
+  },
+  {
+    "page": 99,
+    "action": "base",
+    "heading": "基础指令",
+    "text": "You are Codex, a coding agent based on GPT-5. You and the user share one workspace, and yo"
+  },
+  {
+    "page": 99,
+    "action": "memory",
+    "heading": "已加载的记忆摘要",
+    "text": "# 用户偏好\n采购评审使用简体中文，先结论、后依据；金额统一用人民币。\n\n# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n# 详细记忆入口\n- rollout_"
+  },
+  {
+    "page": 99,
+    "action": "project",
+    "heading": "项目说明与操作范围",
+    "text": "# 采购评审项目\n\n本目录用于企业知识库选型与采购评估。\n输出面向管理团队，明确采购范围、比较依据和待确认事项。\n本阶段只整理评审材料；联系供应商、签约与付款分别需要明确授权。\n\n"
+  },
+  {
+    "page": 99,
+    "action": "user",
+    "heading": "用户：300人部署",
+    "text": "企业知识库准备从20人试点扩大到300人部署。\n请起草一页采购评审要点。上次10万元的预算能直接沿用吗？\n先整理评估要点，暂不联系供应商。"
+  },
+  {
+    "page": 99,
+    "action": "call",
+    "heading": "模型：读取预算记录",
+    "text": "exec_command\n{\n  \"cmd\": \"cat memories_v2/rollout_summaries/pilot-budget.md\",\n  \"workdir\": "
+  },
+  {
+    "page": 99,
+    "action": "result",
+    "heading": "工具：返回预算范围",
+    "text": "# 企业知识库：试点预算的适用范围\n\n上次讨论的范围是20名员工、为期3个月的试点。\n10万元是本次试点的预算上限，包含试点软件费与初始配置。\n\n这一额度没有覆盖300人正式部署，"
+  },
+  {
+    "page": 99,
+    "action": "answer",
+    "heading": "模型：给出评审要点",
+    "text": "结论\n上次10万元对应20人、3个月的试点，不能直接作为300人正式部署的预算。正式部署需要按人数、期限及服务范围重新估算。\n\n依据\n历史记录明确：10万元包含试点软件费和初始配置"
+  },
+  {
+    "page": 99,
+    "action": "followup",
+    "heading": "用户：正式部署30万元",
+    "text": "这次300人正式部署的预算上限是30万元，使用期限为一年。\n请按这个条件更新评审要点，并记住这是正式部署的条件。"
+  },
+  {
+    "page": 99,
+    "mode": "raw",
+    "heading": "用户：正式部署30万元",
+    "length": 56
+  },
+  {
+    "page": 99,
+    "mode": "all",
+    "heading": "本次输入的完整文本",
+    "length": 24795
+  },
+  {
+    "page": 99,
+    "mode": "selected",
+    "heading": "用户：正式部署30万元",
+    "length": 56
+  },
+  {
+    "page": 99,
+    "mode": "all",
+    "heading": "本次输入的完整文本",
+    "length": 24795
+  },
+  {
+    "page": 99,
+    "mode": "selected",
+    "heading": "用户：正式部署30万元",
+    "length": 56
+  },
+  {
+    "page": 100,
+    "state": 0,
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。",
+    "status": "客户端第一次读取摘要：磁盘与输入中保存的是同一份内容。"
+  },
+  {
+    "page": 100,
+    "state": 1,
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。",
+    "status": "收到“请记住”后先保存更新说明；后台整理到摘要时，磁盘已改变，但原先加载的输入仍是旧内容。"
+  },
+  {
+    "page": 100,
+    "state": 2,
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "status": "再次取得更新内容，并加入后续模型请求后，输入才包含正式部署的30万元条件。"
+  },
+  {
+    "page": 100,
+    "state": 1,
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。",
+    "status": "收到“请记住”后先保存更新说明；后台整理到摘要时，磁盘已改变，但原先加载的输入仍是旧内容。"
+  },
+  {
+    "page": 100,
+    "state": 0,
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。",
+    "status": "客户端第一次读取摘要：磁盘与输入中保存的是同一份内容。"
+  },
+  {
+    "page": 100,
+    "state": 2,
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "status": "再次取得更新内容，并加入后续模型请求后，输入才包含正式部署的30万元条件。"
+  },
+  {
+    "page": 100,
+    "state": 2,
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "status": "再次取得更新内容，并加入后续模型请求后，输入才包含正式部署的30万元条件。"
+  },
+  {
+    "page": 100,
+    "action": "leave-and-return",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。",
+    "selected": "1. 最初加载"
+  },
+  {
+    "page": 94,
+    "action": "memory-raw",
+    "heading": "记忆摘要与使用要求",
+    "text": "## Memory\n\nUse the injected MEMORY_SUMMARY as historical context: apply the user's actual\npreferences, corrections, deci"
+  },
+  {
+    "page": 94,
+    "action": "scroll-End",
+    "url": "1",
+    "scroll": {
+      "client": 398,
+      "height": 3625,
+      "top": 3075
+    }
+  },
+  {
+    "page": 94,
+    "action": "return-reset",
+    "heading": "已加载的记忆摘要"
+  },
+  {
+    "page": 94,
+    "action": "zoom-select-user",
+    "text": "企业知识库准备从20人试点扩大到300人部署。\n请起草一页采购评审要点。上次10万元的预算能直接沿用吗？\n先整理评估要点，暂不联系供应商。"
+  },
+  {
+    "test": "final-update-0",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=100&s=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 15, 17-19\n+\t\t\t\t\t51 text # 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n+\t\t\t\t\t\t52 text 已加载摘要：项目背景\n+\t\t\t\t\t53 text # 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n+\t\t\t\t\t54 text 客户端第一次读取摘要：磁盘与输入中保存的是同一份内容。\nThe focused UI element is 9 checkbox 1. 最初加载, Value: 1",
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。"
+  },
+  {
+    "test": "final-update-1",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=100&s=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~\t\t\t\t\t9 checkbox 1. 最初加载, Value: 0\n~\t\t\t\t\t10 checkbox 2. 磁盘已更新, Value: 1\n~\t\t\t\t\t51 text # 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。\n~\t\t\t\t\t54 text 收到“请记住”后先保存更新说明；后台整理到摘要时，磁盘已改变，但原先加载的输入仍是旧内容。\nThe focused UI element is 10 checkbox 2. 磁盘已更新, Value: 1",
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。"
+  },
+  {
+    "test": "final-update-2",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=100&s=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~\t\t\t\t\t10 checkbox 2. 磁盘已更新, Value: 0\n~\t\t\t\t\t11 checkbox 3. 再次读取, Value: 1\n~\t\t\t\t\t16 heading 后续输入：原摘要＋新返回, Value: 2\n~\t\t\t\t\t\t52 text 后续输入：原摘要＋新返回\n~\t\t\t\t\t53 text 原有摘要：\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n新增工具返回：\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。\n~\t\t\t\t\t54 text 重新读取的内容作为工具结果追加到后续请求；旧摘要并未被磁盘变化自动改写。\nThe focused UI element is 11 checkbox 3. 再次读取, Value: 1",
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "input": "原有摘要：\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n新增工具返回：\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。"
+  },
+  {
+    "test": "final-update-1",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=100&s=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~\t\t\t\t\t10 checkbox 2. 磁盘已更新, Value: 1\n~\t\t\t\t\t11 checkbox 3. 再次读取, Value: 0\n~\t\t\t\t\t16 heading 已加载摘要：项目背景, Value: 2\n~\t\t\t\t\t\t52 text 已加载摘要：项目背景\n~\t\t\t\t\t53 text # 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n~\t\t\t\t\t54 text 收到“请记住”后先保存更新说明；后台整理到摘要时，磁盘已改变，但原先加载的输入仍是旧内容。\nThe focused UI element is 10 checkbox 2. 磁盘已更新, Value: 1",
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。"
+  },
+  {
+    "test": "final-update-0",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=100&s=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~\t\t\t\t\t9 checkbox 1. 最初加载, Value: 1\n~\t\t\t\t\t10 checkbox 2. 磁盘已更新, Value: 0\n~\t\t\t\t\t51 text # 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n~\t\t\t\t\t54 text 客户端第一次读取摘要：磁盘与输入中保存的是同一份内容。\nThe focused UI element is 9 checkbox 1. 最初加载, Value: 1",
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。"
+  },
+  {
+    "test": "final-update-2",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=100&s=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~\t\t\t\t\t9 checkbox 1. 最初加载, Value: 0\n~\t\t\t\t\t11 checkbox 3. 再次读取, Value: 1\n~\t\t\t\t\t51 text # 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。\n~\t\t\t\t\t16 heading 后续输入：原摘要＋新返回, Value: 2\n~\t\t\t\t\t\t52 text 后续输入：原摘要＋新返回\n~\t\t\t\t\t53 text 原有摘要：\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n新增工具返回：\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。\n~\t\t\t\t\t54 text 重新读取的内容作为工具结果追加到后续请求；旧摘要并未被磁盘变化自动改写。\nThe focused UI element is 11 checkbox 3. 再次读取, Value: 1",
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "input": "原有摘要：\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n新增工具返回：\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。"
+  },
+  {
+    "test": "final-update-2",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=100&s=1\".\nThere has been no change in the accessibility tree.\nThe focused UI element is 11 checkbox 3. 再次读取, Value: 1",
+    "disk": "# 项目背景\n企业知识库项目已完成20人试点，正在推进300人正式部署。\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。",
+    "input": "原有摘要：\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n新增工具返回：\n正式部署：使用期限一年，预算上限30万元。\n20人、3个月、10万元属于此前试点。"
+  },
+  {
+    "test": "final-update-reset",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。"
+  },
+  {
+    "test": "final-update-reenter",
+    "input": "# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。"
+  },
+  {
+    "test": "footer-memory",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=75&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=75&s=1\n\t2 container\n\t\t73 container 第75页 新会话怎样用到过去的信息？\n\t\t\t74 heading 新会话怎样用到过去的信息？, Value: 1\n\t\t\t\t75 text 新会话怎样用到过去的信息？\n\t\t\t76 container 课件内容\n\t\t\t\t77 container\n\t\t\t\t\t78 text 一段会话结束后，把后续需要的信息保存在外部；新任务到来时再取用。 保存 → 按任务查找 → 取得内容 → 加入当前输入。模型依据这次输入继续生成。\n\t\t\t79 container 课程进度\n\t\t\t\t80 button 导入\n\t\t\t\t81 button 1. LLM基础\n\t\t\t\t82 button 2. Prompting\n\t\t\t\t83 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t84 text 3. Agents \n\t\t\t\t\t85 text · Externalization & Internalization\n\t\t\t\t86 button 3.0 外化与内化总览\n\t\t\t\t87 button 3.1 工具调用\n\t\t\t\t88 button 3.2 Memory\n\t\t\t\t89 button 3.3 Skills\n\t\t\t\t90 button 3.4 Harness\n\t\t\t\t91 button 3.5 外化与内化整合\n\t\t\t\t92 button 3.6 全讲总结\n\t\t35 container Description: 课件操作, ID: controls\n\t\t\t36 button Description: 上一步, Help: 上一步（←）\n\t\t\t37 button Description: 下一步, Help: 下一步（→或空格）\n\t\t\t38 container jump-form\n\t\t\t\t39 text 页码\n\t\t\t\t40 stepper (settable, integer) Description: 页码, Value: 75, ID: page-input\n\t\t\t\t41 text / 151\n\t\t\t71 text 整页显示\n\t\t\t43 button 目录\n\t\t\t44 button 讲者备注\n\t\t\t45 button 完整材料\n\t\t\t46 button 放大图解\n\t\t\t47 button 全屏\n\t\t\t48 button 隐藏, Help: 按H恢复\n\t\t\t49 button 操作说明\n\t\t72 text 第75页，新会话怎样用到过去的信息？，整页显示\n\nThe focused UI element is 1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=75&s=1"
+  },
+  {
+    "test": "footer-skills",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=75&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=75&s=1\n\t2 container\n\t\t73 container Description: 第75页 新会话怎样用到过去的信息？, ID: mount\n\t\t\t74 container 第75页 新会话怎样用到过去的信息？\n\t\t\t\t75 heading 新会话怎样用到过去的信息？, Value: 1\n\t\t\t\t\t76 text 新会话怎样用到过去的信息？\n\t\t\t\t77 container 课件内容\n\t\t\t\t\t78 container\n\t\t\t\t\t\t79 text 一段会话结束后，把后续需要的信息保存在外部；新任务到来时再取用。 保存 → 按任务查找 → 取得内容 → 加入当前输入。模型依据这次输入继续生成。\n\t\t\t\t80 container 课程进度\n\t\t\t\t\t81 button 导入\n\t\t\t\t\t82 button 1. LLM基础\n\t\t\t\t\t83 button 2. Prompting\n\t\t\t\t\t84 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t85 text 3. Agents \n\t\t\t\t\t\t86 text · Externalization & Internalization\n\t\t\t\t\t87 button 3.0 外化与内化总览\n\t\t\t\t\t88 button 3.1 工具调用\n\t\t\t\t\t89 button 3.2 Memory\n\t\t\t\t\t90 button 3.3 Skills\n\t\t\t\t\t91 button 3.4 Harness\n\t\t\t\t\t92 button 3.5 外化与内化整合\n\t\t\t\t\t93 button 3.6 全讲总结\n\t\t35 container Description: 课件操作, ID: controls\n\t\t\t36 button Description: 上一步, Help: 上一步（←）\n\t\t\t37 button Description: 下一步, Help: 下一步（→或空格）\n\t\t\t38 container jump-form\n\t\t\t\t39 text 页码\n\t\t\t\t40 stepper (settable, integer) Description: 页码, Value: 75, ID: page-input\n\t\t\t\t41 text / 151\n\t\t\t71 text 整页显示\n\t\t\t43 button 目录\n\t\t\t44 button 讲者备注\n\t\t\t45 button 完整材料\n\t\t\t46 button 放大图解\n\t\t\t47 button 全屏\n\t\t\t48 button 隐藏, Help: 按H恢复\n\t\t\t49 button 操作说明\n\t\t72 text 第75页，新会话怎样用到过去的信息？，整页显示\n\nThe focused UI element is 73 container Description: 第75页 新会话怎样用到过去的信息？, ID: mount"
+  },
+  {
+    "test": "toc-p93",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=93&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=93&s=1\n\t2 container\n\t\t3 container Description: 第93页 渐进式披露：先摘要，再细节, ID: mount\n\t\t\t4 container 第93页 渐进式披露：先摘要，再细节\n\t\t\t\t5 heading 渐进式披露：先摘要，再细节, Value: 1\n\t\t\t\t\t6 text 渐进式披露：先摘要，再细节\n\t\t\t\t7 container 课件内容\n\t\t\t\t\t8 container\n\t\t\t\t\t\t9 text 渐进式披露（Progressive disclosure） ：先给要点和入口，再按任务读取细节。 第一层：摘要 先结论、后依据。\n金额统一用人民币。\n项目已完成20人试点。\n\n预算范围 → pilot-budget.md 第二层：相关记录 20人、3个月试点。\n预算上限10万元。\n包含软件费与初始配置。\n\n不覆盖300人正式部署。 本次输入 当前任务＋所需背景 • 摘要足够时，直接使用。\n\t\t\t\t\t\t10 text • 详细信息会改变判断时，再读取对应文件。 摘要提供入口，读取取得细节；后续的Skills也会采用这种组织方式。\n\t\t\t\t11 container 课程进度\n\t\t\t\t\t12 button 导入\n\t\t\t\t\t13 button 1. LLM基础\n\t\t\t\t\t14 button 2. Prompting\n\t\t\t\t\t15 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t16 text 3. Agents \n\t\t\t\t\t\t17 text · Externalization & Internalization\n\t\t\t\t\t18 button 3.0 外化与内化总览\n\t\t\t\t\t19 button 3.1 工具调用\n\t\t\t\t\t20 button 3.2 Memory\n\t\t\t\t\t21 button 3.3 Skills\n\t\t\t\t\t22 button 3.4 Harness\n\t\t\t\t\t23 button 3.5 外化与内化整合\n\t\t\t\t\t24 button 3.6 全讲总结\n\t\t25 container Description: 课件操作, ID: controls\n\t\t\t26 button Description: 上一步, Help: 上一步（←）\n\t\t\t27 button Description: 下一步, Help: 下一步（→或空格）\n\t\t\t28 container jump-form\n\t\t\t\t29 text 页码\n\t\t\t\t30 stepper (settable, integer) Description: 页码, Value: 93, ID: page-input\n\t\t\t\t31 text / 151\n\t\t\t32 text 整页显示\n\t\t\t33 button 目录\n\t\t\t34 button 讲者备注\n\t\t\t35 button 完整材料\n\t\t\t36 button 放大图解\n\t\t\t37 button 全屏\n\t\t\t38 button 隐藏, Help: 按H恢复\n\t\t\t39 button 操作说明\n\t\t40 text 第93页，渐进式披露：先摘要，再细节，整页显示\n\nThe focused UI element is 3 container Description: 第93页 渐进式披露：先摘要，再细节, ID: mount"
+  },
+  {
+    "test": "notes-p93",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=93&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=93&s=1\n\t2 container 第93页 · 讲者备注, ID: deck-dialog\n\t\t3 container\n\t\t\t4 heading 第93页 · 讲者备注, Value: 2, ID: dialog-title\n\t\t\t\t5 text 第93页 · 讲者备注\n\t\t\t6 button 关闭 ×, ID: dialog-close\n\t\t7 container dialog-content\n\t\t\t8 heading 渐进式披露：先摘要，再细节, Value: 3\n\t\t\t\t9 text 渐进式披露：先摘要，再细节\n\t\t\t10 text 渐进式披露是先给要点和入口，再按任务读取细节。摘要已经足够时直接使用，详细信息会改变判断时再读取相应文件。\n\nThe focused UI element is 6 button 关闭 ×, ID: dialog-close"
+  },
+  {
+    "test": "fixed-footer-3.2 Memory",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=73&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=73&s=1\n\t2 container\n\t\t39 container Description: 第73页 本讲内容, ID: mount\n\t\t\t40 container 第73页 本讲内容\n\t\t\t\t41 heading 本讲内容, Value: 1\n\t\t\t\t\t42 text 本讲内容\n\t\t\t\t43 container 课件内容\n\t\t\t\t\t44 text 已结束：工具调用 →\n\t\t\t\t\t45 text 接下来：Memory\n\t\t\t\t\t46 container\n\t\t\t\t\t\t47 heading 1. LLM基础, Value: 2\n\t\t\t\t\t\t\t48 text 1. LLM基础\n\t\t\t\t\t\t49 text 连续生成与多轮聊天\n\t\t\t\t\t\t50 content list\n\t\t\t\t\t\t\t51 button ✓ 1.1 连续生成\n\t\t\t\t\t\t\t\t52 text ✓\n\t\t\t\t\t\t\t\t53 text 1.1 连续生成\n\t\t\t\t\t\t\t54 button ✓ 1.2 多轮聊天\n\t\t\t\t\t\t\t\t55 text ✓\n\t\t\t\t\t\t\t\t56 text 1.2 多轮聊天\n\t\t\t\t\t\t\t57 button ✓ 1.3 LLM小结\n\t\t\t\t\t\t\t\t58 text ✓\n\t\t\t\t\t\t\t\t59 text 1.3 LLM小结\n\t\t\t\t\t60 container\n\t\t\t\t\t\t61 heading 2. Prompting, Value: 2\n\t\t\t\t\t\t\t62 text 2. Prompting\n\t\t\t\t\t\t63 text 交代任务，再选择方法\n\t\t\t\t\t\t64 content list\n\t\t\t\t\t\t\t65 button ✓ 2.1 三个核心\n\t\t\t\t\t\t\t\t66 text ✓\n\t\t\t\t\t\t\t\t67 text 2.1 三个核心\n\t\t\t\t\t\t\t68 button ✓ 2.2 问清问题\n\t\t\t\t\t\t\t\t69 text ✓\n\t\t\t\t\t\t\t\t70 text 2.2 问清问题\n\t\t\t\t\t\t\t71 button ✓ 2.3 学习\n\t\t\t\t\t\t\t\t72 text ✓\n\t\t\t\t\t\t\t\t73 text 2.3 学习\n\t\t\t\t\t\t\t74 button ✓ 2.4 解决问题\n\t\t\t\t\t\t\t\t75 text ✓\n\t\t\t\t\t\t\t\t76 text 2.4 解决问题\n\t\t\t\t\t\t\t77 button ✓ 2.5 决策\n\t\t\t\t\t\t\t\t78 text ✓\n\t\t\t\t\t\t\t\t79 text 2.5 决策\n\t\t\t\t\t\t\t80 button ✓ 2.6 Prompting小结\n\t\t\t\t\t\t\t\t81 text ✓\n\t\t\t\t\t\t\t\t82 text 2.6 Prompting小结\n\t\t\t\t\t83 container\n\t\t\t\t\t\t84 heading 3. Agents, Value: 2\n\t\t\t\t\t\t\t85 text 3. Agents\n\t\t\t\t\t\t86 text Externalization & Internalization\n\t\t\t\t\t\t87 content list\n\t\t\t\t\t\t\t88 button ✓ 3.0 外化与内化总览\n\t\t\t\t\t\t\t\t89 text ✓\n\t\t\t\t\t\t\t\t90 text 3.0 外化与内化总览\n\t\t\t\t\t\t\t91 button ✓ 3.1 工具调用\n\t\t\t\t\t\t\t\t92 text ✓\n\t\t\t\t\t\t\t\t93 text 3.1 工具调用\n\t\t\t\t\t\t\t94 button → 3.2 Memory 接下来\n\t\t\t\t\t\t\t\t95 text →\n\t\t\t\t\t\t\t\t96 text 3.2 Memory\n\t\t\t\t\t\t\t\t97 text 接下来\n\t\t\t\t\t\t\t98 button 3.3 Skills\n\t\t\t\t\t\t\t99 button 3.4 Harness\n\t\t\t\t\t\t\t100 button 3.5 外化与内化整合\n\t\t\t\t\t\t\t101 button 3.6 全讲总结\n\t\t\t\t\t102 container\n\t\t\t\t\t\t103 text ✓ 已结束 → 接下来 其余内容随后展开\n\t\t\t\t104 container 课程进度\n\t\t\t\t\t105 button 导入\n\t\t\t\t\t106 button 1. LLM基础\n\t\t\t\t\t107 button 2. Prompting\n\t\t\t\t\t108 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t\t109 text 3. Agents \n\t\t\t\t\t\t110 text · Externalization & Internalization\n\t\t\t\t\t111 button 3.0 外化与内化总览\n\t\t\t\t\t112 button 3.1 工具调用\n\t\t\t\t\t113 button 3.2 Memory\n\t\t\t\t\t114 button 3.3 Skills\n\t\t\t\t\t115 button 3.4 Harness\n\t\t\t\t\t116 button 3.5 外化与内化整合\n\t\t\t\t\t117 button 3.6 全讲总结\n\t\t24 container Description: 课件操作, ID: controls\n\t\t\t25 button Description: 上一步, Help: 上一步（←）\n\t\t\t26 button Description: 下一步, Help: 下一步（→或空格）\n\t\t\t27 container jump-form\n\t\t\t\t28 text 页码\n\t\t\t\t29 stepper (settable, integer) Description: 页码, Value: 73, ID: page-input\n\t\t\t\t30 text / 151\n\t\t\t118 text 整页显示\n\t\t\t32 button 目录\n\t\t\t33 button 讲者备注\n\t\t\t34 button 完整材料\n\t\t\t35 button 放大图解\n\t\t\t36 button 全屏\n\t\t\t37 button 隐藏, Help: 按H恢复\n\t\t\t38 button 操作说明\n\t\t119 text 第73页，本讲内容，整页显示\n\nThe focused UI element is 39 container Description: 第73页 本讲内容, ID: mount"
+  },
+  {
+    "test": "fixed-footer-3.3 Skills",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=104&s=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 97-100, 102-119\n~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=104&s=1\n~\t\t39 container Description: 第104页 本讲内容, ID: mount\n~\t\t\t40 container 第104页 本讲内容\n~\t\t\t\t\t44 text 已结束：Memory →\n~\t\t\t\t\t45 text 接下来：Skills\n~\t\t\t\t\t\t\t94 button ✓ 3.2 Memory\n~\t\t\t\t\t\t\t\t95 text ✓\n+\t\t\t\t\t\t\t97 button → 3.3 Skills 接下来\n+\t\t\t\t\t\t\t\t98 text →\n+\t\t\t\t\t\t\t\t99 text 3.3 Skills\n+\t\t\t\t\t\t\t\t100 text 接下来\n~\t\t\t\t\t\t\t101 button 3.4 Harness\n+\t\t\t\t\t\t\t102 button 3.5 外化与内化整合\n+\t\t\t\t\t\t\t103 button 3.6 全讲总结\n+\t\t\t\t\t104 container\n+\t\t\t\t\t\t105 text ✓ 已结束 → 接下来 其余内容随后展开\n+\t\t\t\t106 container 课程进度\n+\t\t\t\t\t107 button 导入\n+\t\t\t\t\t108 button 1. LLM基础\n+\t\t\t\t\t109 button 2. Prompting\n+\t\t\t\t\t110 button 3. Agents · Externalization & Internalization\n+\t\t\t\t\t\t111 text 3. Agents \n+\t\t\t\t\t\t112 text · Externalization & Internalization\n+\t\t\t\t\t113 button 3.0 外化与内化总览\n+\t\t\t\t\t114 button 3.1 工具调用\n+\t\t\t\t\t115 button 3.2 Memory\n+\t\t\t\t\t116 button 3.3 Skills\n+\t\t\t\t\t117 button 3.4 Harness\n+\t\t\t\t\t118 button 3.5 外化与内化整合\n+\t\t\t\t\t119 button 3.6 全讲总结\n~\t\t\t\t29 stepper (settable, integer) Description: 页码, Value: 104, ID: page-input\n+\t\t\t120 text 整页显示\n+\t\t121 text 第104页，本讲内容，整页显示\nThe focused UI element is 39 container Description: 第104页 本讲内容, ID: mount"
+  },
+  {
+    "test": "fixed-footer-3.1 工具调用",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=62&s=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 94-96, 98-121\n~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=62&s=1\n~\t\t39 container Description: 第62页 本讲内容, ID: mount\n~\t\t\t40 container 第62页 本讲内容\n~\t\t\t\t\t44 text 已结束：外化与内化总览 →\n~\t\t\t\t\t45 text 接下来：工具调用\n~\t\t\t\t\t\t\t91 button → 3.1 工具调用 接下来\n~\t\t\t\t\t\t\t\t92 text →\n+\t\t\t\t\t\t\t\t94 text 接下来\n+\t\t\t\t\t\t\t95 button 3.2 Memory\n+\t\t\t\t\t\t\t96 button 3.3 Skills\n~\t\t\t\t\t\t\t97 button 3.4 Harness\n+\t\t\t\t\t\t\t98 button 3.5 外化与内化整合\n+\t\t\t\t\t\t\t99 button 3.6 全讲总结\n+\t\t\t\t\t100 container\n+\t\t\t\t\t\t101 text ✓ 已结束 → 接下来 其余内容随后展开\n+\t\t\t\t102 container 课程进度\n+\t\t\t\t\t103 button 导入\n+\t\t\t\t\t104 button 1. LLM基础\n+\t\t\t\t\t105 button 2. Prompting\n+\t\t\t\t\t106 button 3. Agents · Externalization & Internalization\n+\t\t\t\t\t\t107 text 3. Agents \n+\t\t\t\t\t\t108 text · Externalization & Internalization\n+\t\t\t\t\t109 button 3.0 外化与内化总览\n+\t\t\t\t\t110 button 3.1 工具调用\n+\t\t\t\t\t111 button 3.2 Memory\n+\t\t\t\t\t112 button 3.3 Skills\n+\t\t\t\t\t113 button 3.4 Harness\n+\t\t\t\t\t114 button 3.5 外化与内化整合\n+\t\t\t\t\t115 button 3.6 全讲总结\n~\t\t\t\t29 stepper (settable, integer) Description: 页码, Value: 62, ID: page-input\n+\t\t\t116 text 整页显示\n+\t\t117 text 第62页，本讲内容，整页显示\nThe focused UI element is 39 container Description: 第62页 本讲内容, ID: mount"
+  },
+  {
+    "test": "fixed-footer-3.2 Memory",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=73&s=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 94-97, 100-117\n~1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=73&s=1\n~\t\t39 container Description: 第73页 本讲内容, ID: mount\n~\t\t\t40 container 第73页 本讲内容\n~\t\t\t\t\t44 text 已结束：工具调用 →\n~\t\t\t\t\t45 text 接下来：Memory\n~\t\t\t\t\t\t\t91 button ✓ 3.1 工具调用\n~\t\t\t\t\t\t\t\t92 text ✓\n+\t\t\t\t\t\t\t94 button → 3.2 Memory 接下来\n+\t\t\t\t\t\t\t\t95 text →\n+\t\t\t\t\t\t\t\t96 text 3.2 Memory\n+\t\t\t\t\t\t\t\t97 text 接下来\n~\t\t\t\t\t\t\t98 button 3.3 Skills\n~\t\t\t\t\t\t\t99 button 3.4 Harness\n+\t\t\t\t\t\t\t100 button 3.5 外化与内化整合\n+\t\t\t\t\t\t\t101 button 3.6 全讲总结\n+\t\t\t\t\t102 container\n+\t\t\t\t\t\t103 text ✓ 已结束 → 接下来 其余内容随后展开\n+\t\t\t\t104 container 课程进度\n+\t\t\t\t\t105 button 导入\n+\t\t\t\t\t106 button 1. LLM基础\n+\t\t\t\t\t107 button 2. Prompting\n+\t\t\t\t\t108 button 3. Agents · Externalization & Internalization\n+\t\t\t\t\t\t109 text 3. Agents \n+\t\t\t\t\t\t110 text · Externalization & Internalization\n+\t\t\t\t\t111 button 3.0 外化与内化总览\n+\t\t\t\t\t112 button 3.1 工具调用\n+\t\t\t\t\t113 button 3.2 Memory\n+\t\t\t\t\t114 button 3.3 Skills\n+\t\t\t\t\t115 button 3.4 Harness\n+\t\t\t\t\t116 button 3.5 外化与内化整合\n+\t\t\t\t\t117 button 3.6 全讲总结\n~\t\t\t\t29 stepper (settable, integer) Description: 页码, Value: 73, ID: page-input\n+\t\t\t118 text 整页显示\n+\t\t119 text 第73页，本讲内容，整页显示\nThe focused UI element is 39 container Description: 第73页 本讲内容, ID: mount"
+  },
+  {
+    "test": "fullscreen-request",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=73&s=1\".\nThere has been no change in the accessibility tree.\nThe focused UI element is 39 container Description: 第73页 本讲内容, ID: mount",
+    "full": false
+  },
+  {
+    "test": "hide-controls",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=73&s=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 24-30, 32-38, 118\nThe focused UI element is 39 container Description: 第73页 本讲内容, ID: mount",
+    "rect": {
+      "bottom": 720,
+      "height": 720,
+      "left": 0,
+      "right": 1280,
+      "top": 0,
+      "width": 1280,
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "test": "restore-controls",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=73&s=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n+\t\t120 container Description: 课件操作, ID: controls\n+\t\t\t121 button Description: 上一步, Help: 上一步（←）\n+\t\t\t122 button Description: 下一步, Help: 下一步（→或空格）\n+\t\t\t123 container jump-form\n+\t\t\t\t124 text 页码\n+\t\t\t\t125 stepper (settable, integer) Description: 页码, Value: 73, ID: page-input\n+\t\t\t\t126 text / 151\n+\t\t\t127 text 整页显示\n+\t\t\t128 button 目录\n+\t\t\t129 button 讲者备注\n+\t\t\t130 button 完整材料\n+\t\t\t131 button 放大图解\n+\t\t\t132 button 全屏\n+\t\t\t133 button 隐藏, Help: 按H恢复\n+\t\t\t134 button 操作说明\nThe focused UI element is 39 container Description: 第73页 本讲内容, ID: mount",
+    "rect": {
+      "bottom": 652,
+      "height": 652,
+      "left": 60.4444580078125,
+      "right": 1219.5555419921875,
+      "top": 0,
+      "width": 1159.111083984375,
+      "x": 60.4444580078125,
+      "y": 0
+    }
+  },
+  {
+    "test": "final-materials-no-prep-text",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=94&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=94&s=1\n\t2 container 第94页 · 完整材料, ID: deck-dialog\n\t\t3 container\n\t\t\t4 heading 第94页 · 完整材料, Value: 2, ID: dialog-title\n\t\t\t\t5 text 第94页 · 完整材料\n\t\t\t6 button 关闭 ×, ID: dialog-close\n\t\t7 container dialog-content\n\t\t\t8 heading 本页要点, Value: 3\n\t\t\t\t9 text 本页要点\n\t\t\t10 text 首次输入：摘要怎样进入模型？\n\n客户端在模型生成前读取摘要，把基础指令、Memory、项目说明和用户任务组成首次输入。预算文件正文此时仍在磁盘上。\n\t\t\t11 heading 相关材料, Value: 3\n\t\t\t\t12 text 相关材料\n\t\t\t13 text 客户端在模型生成前读取摘要，把基础指令、Memory、项目说明和用户任务组成首次输入。预算文件正文此时仍在磁盘上。\n\n当前任务\n企业知识库准备从20人试点扩大到300人部署。\n请起草一页采购评审要点。上次10万元的预算能直接沿用吗？\n先整理评估要点，暂不联系供应商。\n\n记忆摘要\n# 用户偏好\n采购评审使用简体中文，先结论、后依据；金额统一用人民币。\n\n# 项目背景\n企业知识库项目已完成20人试点，正在讨论扩大部署。\n\n# 详细记忆入口\n- rollout_summaries/pilot-budget.md：试点预算、包含内容和适用范围。\n- rollout_summaries/security-requirements.md：数据权限和企业账户要求。\n\n\n预算详细记录\n# 企业知识库：试点预算的适用范围\n\n上次讨论的范围是20名员工、为期3个月的试点。\n10万元是本次试点的预算上限，包含试点软件费与初始配置。\n\n这一额度没有覆盖300人正式部署，也没有核定正式部署的年度费用。\n扩大部署时，应重新确认人数、使用期限、实施服务和费用范围。\n\n试点结束后，下一步是整理扩大部署的采购评估要求。\n\n\n采购评审要点\n结论\n上次10万元对应20人、3个月的试点，不能直接作为300人正式部署的预算。正式部署需要按人数、期限及服务范围重新估算。\n\n依据\n历史记录明确：10万元包含试点软件费和初始配置，没有核定300人正式部署的年度费用。\n\n采购评审要点\n1. 范围：300人；明确使用期限、所需功能与实施范围。\n2. 费用：分别列出软件、实施、培训与后续运维费用。\n3. 对比：统一人数、期限和服务范围后，再比较供应商方案。\n4. 待确认：正式部署预算上限、上线时间与验收要求。\n\n下一步\n先补齐这些条件，形成供应商评估表。\n\n用户补充条件\n这次300人正式部署的预算上限是30万元，使用期限为一年。\n请按这个条件更新评审要点，并记住这是正式部署的条件。\n\t\t\t14 heading 资料文件, Value: 3\n\t\t\t\t15 text 资料文件\n\t\t\t16 content list\n\t\t\t\t17 container\n\t\t\t\t\t18 AXListMarker • \n\t\t\t\t\t19 link Description: 采购案例完整材料, Value: 127.0.0.1:8765/sources/memory-r8/procurement-case/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99.html\n\nThe focused UI element is 6 button 关闭 ×, ID: dialog-close"
+  },
+  {
+    "test": "widget-space-no-page-advance",
+    "screen": "Browser tab: 13, Title: \"MBA第一讲 · LLM Agents完整课件\", URL: \"http://127.0.0.1:8765/?revision=memory-r8#p=94&s=1\".\n1 AXWebArea MBA第一讲 · LLM Agents完整课件, URL: 127.0.0.1:8765/?revision=memory-r8#p=94&s=1\n\t2 container\n\t\t55 container 第94页 首次输入：摘要怎样进入模型？\n\t\t\t56 heading 首次输入：摘要怎样进入模型？, Value: 1\n\t\t\t\t57 text 首次输入：摘要怎样进入模型？\n\t\t\t58 container 课件内容\n\t\t\t\t59 container\n\t\t\t\t\t60 text 用户提交任务后，客户端先读取摘要，连同其他必要材料组织成输入。\n\t\t\t\t\t61 heading 首次模型输入, Value: 2\n\t\t\t\t\t\t62 text 首次模型输入\n\t\t\t\t\t63 checkbox 基础指令 客户端准备, Value: 0\n\t\t\t\t\t64 checkbox 记忆摘要与使用要求 客户端读取摘要, Value: 0\n\t\t\t\t\t65 checkbox 项目说明与操作范围 客户端准备, Value: 0\n\t\t\t\t\t66 checkbox 用户：300人部署 当前任务, Value: 1\n\t\t\t\t\t67 button 重置\n\t\t\t\t\t68 checkbox 关键内容, Value: 1\n\t\t\t\t\t69 checkbox 原始条目, Value: 0\n\t\t\t\t\t70 checkbox 本次完整输入, Value: 0\n\t\t\t\t\t71 heading 用户：300人部署, Value: 2\n\t\t\t\t\t\t72 text 用户：300人部署\n\t\t\t\t\t73 text 企业知识库准备从20人试点扩大到300人部署。\n请起草一页采购评审要点。上次10万元的预算能直接沿用吗？\n先整理评估要点，暂不联系供应商。\n\t\t\t\t\t74 text 左侧按输入顺序排列；右侧可阅读对应文本。\n\t\t\t\t\t75 text 摘要由客户端加入；此时模型还没有发起读取详细记忆的工具调用。\n\t\t\t76 container 课程进度\n\t\t\t\t77 button 导入\n\t\t\t\t78 button 1. LLM基础\n\t\t\t\t79 button 2. Prompting\n\t\t\t\t80 button 3. Agents · Externalization & Internalization\n\t\t\t\t\t81 text 3. Agents \n\t\t\t\t\t82 text · Externalization & Internalization\n\t\t\t\t83 button 3.0 外化与内化总览\n\t\t\t\t84 button 3.1 工具调用\n\t\t\t\t85 button 3.2 Memory\n\t\t\t\t86 button 3.3 Skills\n\t\t\t\t87 button 3.4 Harness\n\t\t\t\t88 button 3.5 外化与内化整合\n\t\t\t\t89 button 3.6 全讲总结\n\t\t39 container Description: 课件操作, ID: controls\n\t\t\t40 button Description: 上一步, Help: 上一步（←）\n\t\t\t41 button Description: 下一步, Help: 下一步（→或空格）\n\t\t\t42 container jump-form\n\t\t\t\t43 text 页码\n\t\t\t\t44 stepper (settable, integer) Description: 页码, Value: 94, ID: page-input\n\t\t\t\t45 text / 151\n\t\t\t46 text 整页显示\n\t\t\t47 button 目录\n\t\t\t48 button 讲者备注\n\t\t\t49 button 完整材料\n\t\t\t50 button 放大图解\n\t\t\t51 button 全屏\n\t\t\t52 button 隐藏, Help: 按H恢复\n\t\t\t53 button 操作说明\n\t\t54 text 第94页，首次输入：摘要怎样进入模型？，整页显示\n\nThe focused UI element is 66 checkbox 用户：300人部署 当前任务, Value: 1",
+    "page": "94"
+  },
+  {
+    "test": "1024x768-result",
+    "heading": "工具：返回预算范围",
+    "page": "97"
+  }
+]
